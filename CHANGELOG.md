@@ -1,15 +1,14 @@
 # Change Log
 
-## [Unreleased](https://github.com/pia-lab/pialab/tree/HEAD)
+## [1.4.8](https://github.com/pia-lab/pialab/tree/1.4.8) (2018-09-06)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.7...1.4.8)
 
-[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.7...HEAD)
+## [1.4.7](https://github.com/pia-lab/pialab/tree/1.4.7) (2018-09-06)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.6...1.4.7)
 
 **Closed issues:**
 
 - HTML title does not match "PiaLab" [\#57](https://github.com/pia-lab/pialab/issues/57)
-
-## [1.4.7](https://github.com/pia-lab/pialab/tree/1.4.7) (2018-09-06)
-[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.6...1.4.7)
 
 **Merged pull requests:**
 
