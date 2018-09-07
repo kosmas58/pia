@@ -1,7 +1,23 @@
 # Change Log
 
+## [Unreleased](https://github.com/pia-lab/pialab/tree/HEAD)
+
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.8...HEAD)
+
+**Merged pull requests:**
+
+- Minor Fixes in UI and styles [\#66](https://github.com/pia-lab/pialab/pull/66) ([GlennCavarle](https://github.com/GlennCavarle))
+- \[FIX\] Navigation error when moving from processing to dashboard [\#65](https://github.com/pia-lab/pialab/pull/65) ([GlennCavarle](https://github.com/GlennCavarle))
+- Add the mention "Processing Register" in the cards header [\#64](https://github.com/pia-lab/pialab/pull/64) ([GlennCavarle](https://github.com/GlennCavarle))
+- Remove PIA name field [\#63](https://github.com/pia-lab/pialab/pull/63) ([PapsOu](https://github.com/PapsOu))
+- \[FIX\] Wrong processing form submit for controllers and author fields [\#62](https://github.com/pia-lab/pialab/pull/62) ([PapsOu](https://github.com/PapsOu))
+- \[FIX\] Remove unwanted console.log [\#61](https://github.com/pia-lab/pialab/pull/61) ([PapsOu](https://github.com/PapsOu))
+
 ## [1.4.8](https://github.com/pia-lab/pialab/tree/1.4.8) (2018-09-06)
-[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.7...1.4.8)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.9...1.4.8)
+
+## [1.4.9](https://github.com/pia-lab/pialab/tree/1.4.9) (2018-09-06)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.7...1.4.9)
 
 ## [1.4.7](https://github.com/pia-lab/pialab/tree/1.4.7) (2018-09-06)
 [Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.6...1.4.7)
