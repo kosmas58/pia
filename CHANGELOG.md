@@ -2,7 +2,17 @@
 
 ## [Unreleased](https://github.com/pia-lab/pialab/tree/HEAD)
 
-[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.8...HEAD)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.9...HEAD)
+
+**Merged pull requests:**
+
+- Change Processing models for designated\_controller fields [\#67](https://github.com/pia-lab/pialab/pull/67) ([PapsOu](https://github.com/PapsOu))
+
+## [1.4.9](https://github.com/pia-lab/pialab/tree/1.4.9) (2018-09-07)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.10...1.4.9)
+
+## [1.4.10](https://github.com/pia-lab/pialab/tree/1.4.10) (2018-09-07)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.8...1.4.10)
 
 **Merged pull requests:**
 
@@ -14,10 +24,7 @@
 - \[FIX\] Remove unwanted console.log [\#61](https://github.com/pia-lab/pialab/pull/61) ([PapsOu](https://github.com/PapsOu))
 
 ## [1.4.8](https://github.com/pia-lab/pialab/tree/1.4.8) (2018-09-06)
-[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.9...1.4.8)
-
-## [1.4.9](https://github.com/pia-lab/pialab/tree/1.4.9) (2018-09-06)
-[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.7...1.4.9)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.7...1.4.8)
 
 ## [1.4.7](https://github.com/pia-lab/pialab/tree/1.4.7) (2018-09-06)
 [Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.6...1.4.7)
