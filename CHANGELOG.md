@@ -2,17 +2,28 @@
 
 ## [Unreleased](https://github.com/pia-lab/pialab/tree/HEAD)
 
-[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.9...HEAD)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.10...HEAD)
+
+**Merged pull requests:**
+
+- Add missing fields to processing form [\#73](https://github.com/pia-lab/pialab/pull/73) ([RomainSanchez](https://github.com/RomainSanchez))
+- Add Structure informations \(dynamic form\) [\#72](https://github.com/pia-lab/pialab/pull/72) ([PapsOu](https://github.com/PapsOu))
+- Add Processing context\_of\_implementation field [\#70](https://github.com/pia-lab/pialab/pull/70) ([PapsOu](https://github.com/PapsOu))
+- Add ask for validation button [\#69](https://github.com/pia-lab/pialab/pull/69) ([PapsOu](https://github.com/PapsOu))
+- Add recipients to Processing [\#68](https://github.com/pia-lab/pialab/pull/68) ([PapsOu](https://github.com/PapsOu))
+
+## [1.4.10](https://github.com/pia-lab/pialab/tree/1.4.10) (2018-09-14)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.11...1.4.10)
+
+## [1.4.11](https://github.com/pia-lab/pialab/tree/1.4.11) (2018-09-14)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.9...1.4.11)
 
 **Merged pull requests:**
 
 - Change Processing models for designated\_controller fields [\#67](https://github.com/pia-lab/pialab/pull/67) ([PapsOu](https://github.com/PapsOu))
 
 ## [1.4.9](https://github.com/pia-lab/pialab/tree/1.4.9) (2018-09-07)
-[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.10...1.4.9)
-
-## [1.4.10](https://github.com/pia-lab/pialab/tree/1.4.10) (2018-09-07)
-[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.8...1.4.10)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.8...1.4.9)
 
 **Merged pull requests:**
 
