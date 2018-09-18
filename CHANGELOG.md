@@ -1,8 +1,10 @@
 # Change Log
 
-## [Unreleased](https://github.com/pia-lab/pialab/tree/HEAD)
+## [1.4.11](https://github.com/pia-lab/pialab/tree/1.4.11) (2018-09-18)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.12...1.4.11)
 
-[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.10...HEAD)
+## [1.4.12](https://github.com/pia-lab/pialab/tree/1.4.12) (2018-09-18)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.10...1.4.12)
 
 **Merged pull requests:**
 
@@ -13,10 +15,7 @@
 - Add recipients to Processing [\#68](https://github.com/pia-lab/pialab/pull/68) ([PapsOu](https://github.com/PapsOu))
 
 ## [1.4.10](https://github.com/pia-lab/pialab/tree/1.4.10) (2018-09-14)
-[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.11...1.4.10)
-
-## [1.4.11](https://github.com/pia-lab/pialab/tree/1.4.11) (2018-09-14)
-[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.9...1.4.11)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.9...1.4.10)
 
 **Merged pull requests:**
 
