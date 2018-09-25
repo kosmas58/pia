@@ -1,13 +1,20 @@
 # Change Log
 
-## [1.4.12](https://github.com/pia-lab/pialab/tree/1.4.12) (2018-09-18)
-[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.13...1.4.12)
+## [Unreleased](https://github.com/pia-lab/pialab/tree/HEAD)
+
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.13...HEAD)
+
+**Merged pull requests:**
+
+- Add comments to processing form [\#77](https://github.com/pia-lab/pialab/pull/77) ([RomainSanchez](https://github.com/RomainSanchez))
+- Add PIA quick list on Processing form left sidebar [\#76](https://github.com/pia-lab/pialab/pull/76) ([PapsOu](https://github.com/PapsOu))
+- Remove principles section from PIA form [\#74](https://github.com/pia-lab/pialab/pull/74) ([RomainSanchez](https://github.com/RomainSanchez))
 
 ## [1.4.13](https://github.com/pia-lab/pialab/tree/1.4.13) (2018-09-18)
-[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.11...1.4.13)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.14...1.4.13)
 
-## [1.4.11](https://github.com/pia-lab/pialab/tree/1.4.11) (2018-09-18)
-[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.10...1.4.11)
+## [1.4.14](https://github.com/pia-lab/pialab/tree/1.4.14) (2018-09-18)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.10...1.4.14)
 
 **Merged pull requests:**
 
