@@ -1,8 +1,10 @@
 # Change Log
 
-## [Unreleased](https://github.com/pia-lab/pialab/tree/HEAD)
+## [1.4.14](https://github.com/pia-lab/pialab/tree/1.4.14) (2018-09-25)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.15...1.4.14)
 
-[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.13...HEAD)
+## [1.4.15](https://github.com/pia-lab/pialab/tree/1.4.15) (2018-09-25)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.13...1.4.15)
 
 **Merged pull requests:**
 
@@ -11,10 +13,7 @@
 - Remove principles section from PIA form [\#74](https://github.com/pia-lab/pialab/pull/74) ([RomainSanchez](https://github.com/RomainSanchez))
 
 ## [1.4.13](https://github.com/pia-lab/pialab/tree/1.4.13) (2018-09-18)
-[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.14...1.4.13)
-
-## [1.4.14](https://github.com/pia-lab/pialab/tree/1.4.14) (2018-09-18)
-[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.10...1.4.14)
+[Full Changelog](https://github.com/pia-lab/pialab/compare/1.4.10...1.4.13)
 
 **Merged pull requests:**
 
