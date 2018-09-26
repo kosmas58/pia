@@ -1,6 +1,6 @@
 {
   "name": "Pialab",
-  "version": "1.4.15",
+  "version": "1.4.16",
   "license": "GPLv3",
   "scripts": {
     "ng": "ng",
