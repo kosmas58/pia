@@ -14,29 +14,34 @@ export class HelpComponent implements OnInit, OnDestroy {
   public content;
   public activeElement: string;
   private helpSubscription: Subscription;
+  public pdfSrc = '/pdf-test.pdf';
+  public displayInfografics: boolean;
 
-  constructor(private httpClient: HttpClient,
-              private _translateService: TranslateService) {}
+  constructor(
+    private httpClient: HttpClient,
+    private _translateService: TranslateService
+  ) {}
 
   ngOnInit() {
     const language = this._translateService.currentLang;
-    let fileTranslation = language  === 'fr' ? 'fr' : 'en';
+    let fileTranslation = language === 'fr' ? 'fr' : 'en';
     let file = `./assets/files/pia_help_${fileTranslation}.html`;
-
 
     this.httpClient.get(file, { responseType: 'text' }).subscribe(res => {
       this.content = res;
       this.getSectionList();
     });
 
-    this.helpSubscription = this._translateService.onLangChange.subscribe((event: LangChangeEvent) => {
-      fileTranslation = event['lang'] === 'fr' ? 'fr' : 'en';
-      file = `./assets/files/pia_help_${fileTranslation}.html`;
-      this.httpClient.get(file, { responseType: 'text' }).subscribe(res => {
-        this.content = res;
-        this.getSectionList();
-      });
-    });
+    this.helpSubscription = this._translateService.onLangChange.subscribe(
+      (event: LangChangeEvent) => {
+        fileTranslation = event['lang'] === 'fr' ? 'fr' : 'en';
+        file = `./assets/files/pia_help_${fileTranslation}.html`;
+        this.httpClient.get(file, { responseType: 'text' }).subscribe(res => {
+          this.content = res;
+          this.getSectionList();
+        });
+      }
+    );
 
     window.onscroll = function(ev) {
       if (window.innerWidth > 640) {
@@ -81,7 +86,7 @@ export class HelpComponent implements OnInit, OnDestroy {
     this.tableOfTitles = [];
     const lines = this.content.split('\n');
     let tt = [];
-    lines.forEach((line) => {
+    lines.forEach(line => {
       line = line.trim();
       if (line.startsWith('<h3>')) {
         tt[1].push(line.replace(/<(\/?)h3>/g, '').trim());
@@ -94,6 +99,46 @@ export class HelpComponent implements OnInit, OnDestroy {
     });
     if (tt.length > 0) {
       this.tableOfTitles.push(tt);
+    }
+  }
+
+  printPdf() {
+    const data = document.getElementById('infografics_file');
+
+    this.httpClient
+      .get(data.textContent, { responseType: 'arraybuffer' })
+      .subscribe((file: ArrayBuffer) => {
+        const mediaType = 'application/pdf';
+        const blob = new Blob([file], { type: mediaType });
+        const filename = 'Infografics DPIA.pdf';
+        const a = <any>document.createElement('a');
+        a.href = window.URL.createObjectURL(blob);
+        a.download = filename;
+        const event = new MouseEvent('click', {
+          view: window
+        });
+        a.dispatchEvent(event);
+      });
+  }
+
+  /**
+   * Display or hide the Infografics.
+   * @memberof HelpComponent
+   */
+  toggleInfograficsContent(el) {
+    const el2 = document.getElementById('infografics_file');
+    const el3 = document.getElementById('infografics_display');
+    const el4 = document.getElementById('infografics_hide');
+
+    this.pdfSrc = el2.textContent;
+    this.displayInfografics = !this.displayInfografics;
+
+    if (el.value === 'false') {
+      el.textContent = el3.textContent;
+      el.value = 'true';
+    } else {
+      el.textContent = el4.textContent;
+      el.value = 'false';
     }
   }
 }
