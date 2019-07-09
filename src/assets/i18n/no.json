@@ -71,7 +71,7 @@
 			"seriousness": "Taking into account the action plan, how do you re-evaluate the <span class='red-highlight'>seriousness of this risk</span> ({{value}})?"
 		},
 		"improvable": "Improvable",
-		"placeholder_acceptable": "TO BE TRANSLATED - According to the available information, the measures implemented are adequate to properly meet the requirements for protecting the data.",
+		"placeholder_acceptable": "I henhold til tilgjengelig informasjon er tiltakene iverksatt tilstrekkelig til å tilfredsstille kravene til beskyttelse av dataene.",
 		"placeholder_improvable1": "TO BE TRANSLATED - According to the available information, additional measures are to be implemented in order to improve the data protection of the processing.",
 		"placeholder_improvable2": "TO BE TRANSLATED - Enter your comments.",
 		"placeholder_to_correct": "TO BE TRANSLATED - The information provided are not sufficient to properly evaluate them. Send back to the editor to improve the original submission.",
@@ -165,11 +165,11 @@
 			"footer": "TO BE TRANSLATED - If you have any other problems or suggestions for improvement, you can send them to us via this form <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
 		},
 		"infografics": {
-			"display": "TO BE TRANSLATED - Show process map",
-			"download": "TO BE TRANSLATED - Download process map",
+			"display": "Vis prosesskart",
+			"download": "Last ned prosesskart",
 			"file": "./assets/files/180409_fiche_risque_en_cmjk.pdf",
-			"hide": "TO BE TRANSLATED - Hide process map",
-			"title": "TO BE TRANSLATED - An overview of the requirements and methodology"
+			"hide": "Skjul prosesskart",
+			"title": "En oversikt over kravene og metodikken"
 		},
 		"title": "Help"
 	},

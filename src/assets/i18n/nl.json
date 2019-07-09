@@ -165,11 +165,11 @@
 			"footer": "TO BE TRANSLATED - If you have any other problems or suggestions for improvement, you can send them to us via this form <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
 		},
 		"infografics": {
-			"display": "TO BE TRANSLATED - Show process map",
-			"download": "TO BE TRANSLATED - Download process map",
+			"display": "Procesoverzicht weergeven",
+			"download": "Procesoverzicht downloaden",
 			"file": "./assets/files/180409_fiche_risque_en_cmjk.pdf",
-			"hide": "TO BE TRANSLATED - Hide process map",
-			"title": "TO BE TRANSLATED - An overview of the requirements and methodology"
+			"hide": "Proceskaart verbergen",
+			"title": "Een overzicht van de vereisten en methodologie"
 		},
 		"title": "Help"
 	},

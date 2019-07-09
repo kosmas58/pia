@@ -165,11 +165,11 @@
 			"footer": "Αν έχετε οποιαδήποτε άλλα προβλήματα ή υποδείξεις βελτίωσης, μπορείτε να τα στείλετε σε μας μέσω αυτής της φόρμας <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
 		},
 		"infografics": {
-			"display": "TO BE TRANSLATED - Show process map",
-			"download": "TO BE TRANSLATED - Download process map",
+			"display": "Εμφάνιση χάρτη διαδικασίας",
+			"download": "Κάντε λήψη χάρτη διαδικασιών",
 			"file": "./assets/files/180409_fiche_risque_en_cmjk.pdf",
-			"hide": "TO BE TRANSLATED - Hide process map",
-			"title": "TO BE TRANSLATED - An overview of the requirements and methodology"
+			"hide": "Απόκρυψη χάρτη διαδικασιών",
+			"title": "Μια επισκόπηση των απαιτήσεων και της μεθοδολογίας"
 		},
 		"title": "Βοήθεια"
 	},

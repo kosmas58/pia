@@ -49,7 +49,7 @@
     "ng2-pdf-viewer": "^5.3.2",
     "ngx-chips": "2.0.0-beta.0",
     "normalize.css": "^8.0.1",
-    "pdfjs-dist": "^2.0.943",
+    "pdfjs-dist": "^2.1.266",
     "rxjs": "~6.3.3",
     "rxjs-compat": "^6.4.0",
     "save-svg-as-png": "^1.4.12",
