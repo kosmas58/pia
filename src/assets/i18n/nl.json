@@ -43,6 +43,7 @@
 		"negligible": "Verwaarloosbaar",
 		"risk1_access": "(I)",
 		"risk2_modification": "(U)",
+		"risk3_disappearance": "(D)",
 		"seriousness_axe": "Risico ernstig"
 	},
 	"comments": {
@@ -162,6 +163,13 @@
 				"title": "Bekende Problemen"
 			},
 			"footer": "TO BE TRANSLATED - If you have any other problems or suggestions for improvement, you can send them to us via this form <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
+		},
+		"infografics": {
+			"display": "TO BE TRANSLATED - Show process map",
+			"download": "TO BE TRANSLATED - Download process map",
+			"file": "./assets/files/180409_fiche_risque_en_cmjk.pdf",
+			"hide": "TO BE TRANSLATED - Hide process map",
+			"title": "TO BE TRANSLATED - An overview of the requirements and methodology"
 		},
 		"title": "Help"
 	},
@@ -1312,7 +1320,6 @@
 			"De behandeling mag niet worden gebruikt.",
 			"De behandeling zou kunnen worden geïmplementeerd."
 		],
-		"copy_to_clipboard": "",
 		"creation_date": "Aanmaakdatum",
 		"csv_action_plan_comment": "Commentaar actieplan",
 		"csv_evaluation_comment": "Evaluatie commentaar",

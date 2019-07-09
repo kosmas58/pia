@@ -43,6 +43,7 @@
 		"negligible": "Ubetydelig",
 		"risk1_access": "(U)",
 		"risk2_modification": "(Æ)",
+		"risk3_disappearance": "(T)",
 		"seriousness_axe": "Risiko alvorlighed"
 	},
 	"comments": {
@@ -162,6 +163,13 @@
 				"title": "Kendte problemer"
 			},
 			"footer": "Hvis du støder på andre problemer, eller hvis du har forslag til forbedringer, kan du sende dem tilbage via denne formular <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
+		},
+		"infografics": {
+			"display": "TO BE TRANSLATED - Show process map",
+			"download": "TO BE TRANSLATED - Download process map",
+			"file": "./assets/files/180409_fiche_risque_en_cmjk.pdf",
+			"hide": "TO BE TRANSLATED - Hide process map",
+			"title": "TO BE TRANSLATED - An overview of the requirements and methodology"
 		},
 		"title": "Hjælp"
 	},
@@ -1312,7 +1320,6 @@
 			"Behandlingen bør ikke gennemføres.",
 			"Behandlingen kan gennemføres."
 		],
-		"copy_to_clipboard": "",
 		"creation_date": "Dato for kreation",
 		"csv_action_plan_comment": "Handlingsplans kommentarer",
 		"csv_evaluation_comment": "Evaluations kommentarer",

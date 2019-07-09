@@ -43,6 +43,7 @@
 		"negligible": "Geringfügig",
 		"risk1_access": "(Z)",
 		"risk2_modification": "(V)",
+		"risk3_disappearance": "(D)",
 		"seriousness_axe": "Schweregrad des Risikos"
 	},
 	"comments": {
@@ -162,6 +163,13 @@
 				"title": "Bekannte Probleme"
 			},
 			"footer": "Wenn Sie weitere Probleme haben oder Verbesserungsvorschläge haben, können Sie diese über dieses Formular an uns zurückmelden: <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
+		},
+		"infografics": {
+			"display": "Prozesskarte anzeigen",
+			"download": "Prozesskarte herunterladen",
+			"file": "./assets/files/180413_fiche_risque_de_cmjk.pdf",
+			"hide": "Prozesskarte ausblenden",
+			"title": "Ein Überblick über die Anforderungen und Methodik"
 		},
 		"title": "Hilfe"
 	},
@@ -1312,7 +1320,6 @@
 			"Die Verarbeitung sollte nicht durchgeführt werden.",
 			"Die Verarbeitung kann umgesetzt werden."
 		],
-		"copy_to_clipboard": "",
 		"creation_date": "Bearbeitungsdatum",
 		"csv_action_plan_comment": "Aktionsplankommentar",
 		"csv_evaluation_comment": "Bewertungskommentar",

@@ -36,13 +36,14 @@
 		"legend2": "Com as medidas corretivas implementadas",
 		"legend3": "Acesso (i)legítimo aos dados",
 		"legend4": "Modificação (in)desejada dos dados",
-		"legend5": "Desaparecimento dos dados",
+		"legend5": "Desaparecimento dos (d)ados",
 		"likelihood_axe": "Probabilidade de risco",
 		"limited": "Limitado",
 		"maximal": "Máximo",
 		"negligible": "Insignificante",
 		"risk1_access": "(I)",
 		"risk2_modification": "(IN)",
+		"risk3_disappearance": "(D)",
 		"seriousness_axe": "Gravidade de risco"
 	},
 	"comments": {
@@ -162,6 +163,13 @@
 				"title": "Problemas conhecidos"
 			},
 			"footer": "Se souber de outros problemas ou tiver sugestões de melhoria, pode enviá-los através deste formulário <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
+		},
+		"infografics": {
+			"display": "TO BE TRANSLATED - Show process map",
+			"download": "TO BE TRANSLATED - Download process map",
+			"file": "./assets/files/180409_fiche_risque_en_cmjk.pdf",
+			"hide": "TO BE TRANSLATED - Hide process map",
+			"title": "TO BE TRANSLATED - An overview of the requirements and methodology"
 		},
 		"title": "Ajuda"
 	},
@@ -1312,7 +1320,6 @@
 			"O tratamento não deve ser usado.",
 			"O tratamento deve ser implementado."
 		],
-		"copy_to_clipboard": "",
 		"creation_date": "Data de criação",
 		"csv_action_plan_comment": "Comentar o plano de acção",
 		"csv_evaluation_comment": "Comentar a avaliação",

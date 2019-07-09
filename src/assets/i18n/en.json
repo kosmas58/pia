@@ -43,6 +43,7 @@
 		"negligible": "Negligible",
 		"risk1_access": "(I)",
 		"risk2_modification": "(U)",
+		"risk3_disappearance": "(D)",
 		"seriousness_axe": "Risk seriousness"
 	},
 	"comments": {
@@ -162,6 +163,13 @@
 				"title": "Known Issues"
 			},
 			"footer": "If you have any other problems or suggestions for improvement, you can visit our <a target=\"_blank\" href=\"https://github.com/LINCnil/pia\">Github resository</a> and submit an issue or a pull request."
+		},
+		"infografics": {
+			"display": "Show process map",
+			"download": "Download process map",
+			"file": "./assets/files/180409_fiche_risque_en_cmjk.pdf",
+			"hide": "Hide process map",
+			"title": "An overview of the requirements and methodology"
 		},
 		"title": "Help"
 	},
@@ -1312,7 +1320,6 @@
 			"The treatment should not be used.",
 			"The treatment could be implemented."
 		],
-		"copy_to_clipboard": "",
 		"creation_date": "Creation date",
 		"csv_action_plan_comment": "Action plan comment",
 		"csv_evaluation_comment": "Evaluation comment",

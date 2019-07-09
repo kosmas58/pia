@@ -43,6 +43,7 @@
 		"negligible": "Nizak",
 		"risk1_access": "(I)",
 		"risk2_modification": "(U)",
+		"risk3_disappearance": "(P)",
 		"seriousness_axe": "Ozbiljnost rizika"
 	},
 	"comments": {
@@ -84,7 +85,7 @@
 		"to_correct": "Za ispraviti"
 	},
 	"header": {
-		"exit_full_screen_mode": "",
+		"exit_full_screen_mode": "TO TRANSLATE - Press F11 to exit full screen mode.",
 		"homepage_link": "Kontrolna ploča",
 		"knowledge_base_link": "Baza znanja",
 		"languages": {
@@ -162,6 +163,13 @@
 				"title": "Poznati problemi"
 			},
 			"footer": "TO BE TRANSLATED - If you have any other problems or suggestions for improvement, you can send them to us via this form <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
+		},
+		"infografics": {
+			"display": "TO BE TRANSLATED - Show process map",
+			"download": "TO BE TRANSLATED - Download process map",
+			"file": "./assets/files/180409_fiche_risque_en_cmjk.pdf",
+			"hide": "TO BE TRANSLATED - Hide process map",
+			"title": "TO BE TRANSLATED - An overview of the requirements and methodology"
 		},
 		"title": "Pomoć"
 	},
@@ -1312,7 +1320,6 @@
 			"Tretman se ne smije koristiti.",
 			"Tretman bi se mogao provesti."
 		],
-		"copy_to_clipboard": "Kopiraj u međuspremnik",
 		"creation_date": "Datum stvaranja",
 		"csv_action_plan_comment": "Komentar akcijskog plana",
 		"csv_evaluation_comment": "Komentar procjene",
@@ -1323,7 +1330,7 @@
 		"csv_title_object": "Naslov",
 		"display_filters": {
 			"action_plan_content": "Prikaži akcijski plan",
-			"check_all": "",
+			"check_all": "TO TRANSLATE - Enable / disable all display filters",
 			"context_content": "Prikaži odjeljak \"Context\"",
 			"main_content": "Prikaži odjeljak \"PIA information\"",
 			"principles_content": "Prikaži odjeljak \"Fundamental principles\"",
@@ -1343,8 +1350,8 @@
 			"3": "Važan",
 			"4": "Maksimalan"
 		},
-		"generate_docx": "",
-		"generate_zip": "",
+		"generate_docx": "TO TRANSLATE - Download the report (.doc)",
+		"generate_zip": "TO TRANSLATE - Download the full PIA (.zip)",
 		"modification_made": "Izmjene napravljene",
 		"people_search_status_nok": "Nije zatraženo mišljenje dotične osobe.",
 		"people_search_status_ok": "Zatraženo je mišljenje dotične osobe.",

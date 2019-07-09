@@ -43,6 +43,7 @@
 		"negligible": "Αμελητέο",
 		"risk1_access": "(Α)",
 		"risk2_modification": "(Μ)",
+		"risk3_disappearance": "(E)",
 		"seriousness_axe": "Σοβαρότητα κινδύνου"
 	},
 	"comments": {
@@ -162,6 +163,13 @@
 				"title": "Γνωστά Προβλήματα"
 			},
 			"footer": "Αν έχετε οποιαδήποτε άλλα προβλήματα ή υποδείξεις βελτίωσης, μπορείτε να τα στείλετε σε μας μέσω αυτής της φόρμας <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
+		},
+		"infografics": {
+			"display": "TO BE TRANSLATED - Show process map",
+			"download": "TO BE TRANSLATED - Download process map",
+			"file": "./assets/files/180409_fiche_risque_en_cmjk.pdf",
+			"hide": "TO BE TRANSLATED - Hide process map",
+			"title": "TO BE TRANSLATED - An overview of the requirements and methodology"
 		},
 		"title": "Βοήθεια"
 	},
@@ -1312,7 +1320,6 @@
 			"Η επεξεργασία δεν πρέπει να διεξάγεται.",
 			"Η επεξεργασία θα μπορούσε να διεξαχθεί."
 		],
-		"copy_to_clipboard": "",
 		"creation_date": "Ημερομηνία δημιουργίας",
 		"csv_action_plan_comment": "Σχόλιο σχεδίου δράσης",
 		"csv_evaluation_comment": "Σχόλιο αξιολόγησης",

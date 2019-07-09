@@ -34,15 +34,16 @@
 		"important": "Important",
 		"legend1": "Măsuri planificate sau existente",
 		"legend2": "Cu măsurile corective implementate",
-		"legend3": "(I)Acces nelegitim la date",
-		"legend4": "(U)Modificări nedorite ale datelor",
-		"legend5": "(D)Dispariția datelor",
+		"legend3": "(A)cces nelegitim la date",
+		"legend4": "(M)odificări nedorite ale datelor",
+		"legend5": "(D)ispariția datelor",
 		"likelihood_axe": "Probabilitatea riscului",
 		"limited": "Limitat",
 		"maximal": "Maxim",
 		"negligible": "Neglijabil",
-		"risk1_access": "(I)",
-		"risk2_modification": "(U)",
+		"risk1_access": "(A)",
+		"risk2_modification": "(M)",
+		"risk3_disappearance": "(D)",
 		"seriousness_axe": "Severitatea riscului"
 	},
 	"comments": {
@@ -162,6 +163,13 @@
 				"title": "Probleme identificate"
 			},
 			"footer": "TO BE TRANSLATED - If you have any other problems or suggestions for improvement, you can send them to us via this form <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
+		},
+		"infografics": {
+			"display": "TO BE TRANSLATED - Show process map",
+			"download": "TO BE TRANSLATED - Download process map",
+			"file": "./assets/files/180409_fiche_risque_en_cmjk.pdf",
+			"hide": "TO BE TRANSLATED - Hide process map",
+			"title": "TO BE TRANSLATED - An overview of the requirements and methodology"
 		},
 		"title": "Ajutor"
 	},
@@ -1312,7 +1320,6 @@
 			"Soluțiile nu ar trebui utilizate.",
 			"Soluțiile ar putea fi implementate."
 		],
-		"copy_to_clipboard": "",
 		"creation_date": "Data creării",
 		"csv_action_plan_comment": "TO BE TRANSLATED - Action plan comment",
 		"csv_evaluation_comment": "TO BE TRANSLATED - Evaluation comment",

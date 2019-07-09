@@ -43,6 +43,7 @@
 		"negligible": "Trascurabile",
 		"risk1_access": "(A)",
 		"risk2_modification": "(M)",
+		"risk3_disappearance": "(P)",
 		"seriousness_axe": "Gravità del rischio"
 	},
 	"comments": {
@@ -162,6 +163,13 @@
 				"title": "Problemi noti"
 			},
 			"footer": "In caso di altri problemi o se avete suggerimenti migliorativi, potete segnalarceli tramite questo modulo <a target=\\\"_blank\\\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\\\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>"
+		},
+		"infografics": {
+			"display": "TO BE TRANSLATED - Show process map",
+			"download": "TO BE TRANSLATED - Download process map",
+			"file": "./assets/files/180409_fiche_risque_en_cmjk.pdf",
+			"hide": "TO BE TRANSLATED - Hide process map",
+			"title": "TO BE TRANSLATED - An overview of the requirements and methodology"
 		},
 		"title": "Aiuto"
 	},
@@ -1312,7 +1320,6 @@
 			"Il trattamento non dovrebbe essere implementato.",
 			"Il trattamento può essere implementato."
 		],
-		"copy_to_clipboard": "",
 		"creation_date": "Data di creazione",
 		"csv_action_plan_comment": "Commento sul piano di azione",
 		"csv_evaluation_comment": "Commento sulla valutazione",

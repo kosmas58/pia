@@ -43,6 +43,7 @@
 		"negligible": "Zanedbatelné",
 		"risk1_access": "(NPU)",
 		"risk2_modification": "(NMD)",
+		"risk3_disappearance": "(ZD)",
 		"seriousness_axe": "Vážnost rizika"
 	},
 	"comments": {
@@ -162,6 +163,13 @@
 				"title": "Známé problémy"
 			},
 			"footer": "TO BE TRANSLATED - If you have any other problems or suggestions for improvement, you can send them to us via this form <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
+		},
+		"infografics": {
+			"display": "TO BE TRANSLATED - Show process map",
+			"download": "TO BE TRANSLATED - Download process map",
+			"file": "./assets/files/180409_fiche_risque_en_cmjk.pdf",
+			"hide": "TO BE TRANSLATED - Hide process map",
+			"title": "TO BE TRANSLATED - An overview of the requirements and methodology"
 		},
 		"title": "Nápověda"
 	},
@@ -1312,7 +1320,6 @@
 			"Léčba by neměla být prováděna.",
 			"Léčba by mohla být provedena."
 		],
-		"copy_to_clipboard": "",
 		"creation_date": "Datum vytvoření",
 		"csv_action_plan_comment": "TO BE TRANSLATED - Action plan comment",
 		"csv_evaluation_comment": "TO BE TRANSLATED - Evaluation comment",

@@ -43,6 +43,7 @@
 		"negligible": "Négligeable",
 		"risk1_access": "(A)",
 		"risk2_modification": "(M)",
+		"risk3_disappearance": "(D)",
 		"seriousness_axe": "Gravité du risque"
 	},
 	"comments": {
@@ -162,6 +163,13 @@
 				"title": "Bugs connus"
 			},
 			"footer": "Si vous rencontrez d’autres problèmes ou si vous avez des suggestions d’amélioration, vous pouvez nous les faire remonter via ce formulaire <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
+		},
+		"infografics": {
+			"display": "Afficher la carte de processus",
+			"download": "Télécharger la carte du processus",
+			"file": "./assets/files/171002_fiche_risque_fr_cmjk.pdf",
+			"hide": "Masquer la carte de processus",
+			"title": "Vue d'esemble des obligations et de la méthode"
 		},
 		"title": "Aide"
 	},
@@ -1312,7 +1320,6 @@
 			"Le traitement ne devrait pas être mis en oeuvre.",
 			"Le traitement pourrait être mis en oeuvre."
 		],
-		"copy_to_clipboard": "",
 		"creation_date": "Date de création",
 		"csv_action_plan_comment": "Commentaires du plan d'actions",
 		"csv_evaluation_comment": "Commentaires d'évaluation",
