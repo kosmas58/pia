@@ -1,4 +1,4 @@
-FROM node:10.15.3
+FROM node:10.16.0
 
 RUN useradd --user-group --create-home --shell /bin/false app
 
@@ -9,7 +9,7 @@ ENV APP_DIR $HOME/$APP_NAME
 
 WORKDIR $APP_DIR
 COPY package.json $APP_DIR/package.json
-RUN yarn global add @angular/cli
+RUN yarn global add @angular/cli@7.3.9
 COPY . $APP_DIR
 RUN chown -R $APP_USER:$APP_USER $HOME/*
 
