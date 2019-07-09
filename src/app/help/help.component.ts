@@ -24,7 +24,22 @@ export class HelpComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     const language = this._translateService.currentLang;
-    let fileTranslation = language === 'fr' ? 'fr' : 'en';
+    let fileTranslation = language;
+    switch (language) {
+      case 'fr': {
+        break;
+      }
+      case 'de': {
+        break;
+      }
+      case 'el': {
+        break;
+      }
+      default: {
+        fileTranslation = 'en';
+        break;
+      }
+    }
     let file = `./assets/files/pia_help_${fileTranslation}.html`;
 
     this.httpClient.get(file, { responseType: 'text' }).subscribe(res => {
@@ -34,7 +49,22 @@ export class HelpComponent implements OnInit, OnDestroy {
 
     this.helpSubscription = this._translateService.onLangChange.subscribe(
       (event: LangChangeEvent) => {
-        fileTranslation = event['lang'] === 'fr' ? 'fr' : 'en';
+        let fileTranslation = event['lang'];
+        switch (event['lang']) {
+          case 'fr': {
+            break;
+          }
+          case 'de': {
+            break;
+          }
+          case 'el': {
+            break;
+          }
+          default: {
+            fileTranslation = 'en';
+            break;
+          }
+        }
         file = `./assets/files/pia_help_${fileTranslation}.html`;
         this.httpClient.get(file, { responseType: 'text' }).subscribe(res => {
           this.content = res;
