@@ -6328,7 +6328,7 @@ ng2-material-dropdown@0.10.1:
   dependencies:
     tslib "^1.9.0"
 
-ng2-pdf-viewer@^5.2.3:
+ng2-pdf-viewer@^5.3.2:
   version "5.3.2"
   resolved "https://registry.yarnpkg.com/ng2-pdf-viewer/-/ng2-pdf-viewer-5.3.2.tgz#73fceb32bcdd23b86ce822b1fd5501e84148592b"
   integrity sha512-lGen4owSxBdgxtq9Ge5+K5QMkqg3qj/IWuAKrnwIbkvQL2n0uLV0x0r23/mIxxQbI+ITi8wslEzyf9kp6TzvUQ==

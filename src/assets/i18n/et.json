@@ -74,17 +74,17 @@
 		"placeholder_improvable1": "Arvestades olemasolevat teavet on vaja rakendada täiendavaid meetmeid tagamaks andmeturve.",
 		"placeholder_improvable2": "Sisesta kommentaar.",
 		"placeholder_to_correct": "Esitatud teabest ei piisa hinnangu andmiseks. Saada täiendamiseks koostajale tagasi.",
-		"status": {
-			"0": "Ootel",
-			"1": "Saadetud täiendamiseks",
-			"2": "Täiendatava",
-			"3": "Vastuvõetav"
-		},
+		"status": [
+			"Ootel",
+			"Saadetud täiendamiseks",
+			"Täiendatava",
+			"Vastuvõetav"
+		],
 		"title": "Hinnang",
 		"to_correct": "Saadetud täiendamiseks"
 	},
 	"header": {
-    "exit_full_screen_mode": "TO TRANSLATE - Press F11 to exit full screen mode.",
+		"exit_full_screen_mode": "TO TRANSLATE - Press F11 to exit full screen mode.",
 		"homepage_link": "Töölaud",
 		"knowledge_base_link": "Teadmiste pagas",
 		"languages": {
@@ -265,9 +265,9 @@
 			"example": "Näide",
 			"general_measure": "Füüsiline turbekontroll",
 			"measure_on_data": "Loogiline turbekontroll",
+			"method": "(TRANSLATION REQUIRED) Methodology",
 			"organizational_measure": "Organisatsiooniline kontroll",
-			"principle": "Põhimõte",
-      "method": "(TRANSLATION REQUIRED) Methodology"
+			"principle": "Põhimõte"
 		},
 		"filters": {
 			"all": "Kõik",
@@ -382,11 +382,6 @@
 				"name": "Ohud, mis võivad viia isikuandmete soovimatu muutmiseni",
 				"source": ""
 			},
-      "PIA_METHOD_MES": {
-				"description": "(TRANSLATION REQUIRED) Planned controls are those originally put in place, before any analysis by the assessor. Corrective measures advised by the assessor will be stated in the action plan and will enable a second assessment of the severity and likelihood of the risk.",
-				"name": "(TRANSLATION REQUIRED) Planned and corrective controls",
-				"source": ""
-      },
 			"PIA_DEF_MES": {
 				"description": "Valige \"Kavandatavad või olemasolevad meetmed\"osast etteantud meetmete hulgast, kuhu saate juurde lisada kui see peaks olema vajalik.",
 				"name": "Meetmed",
@@ -617,6 +612,11 @@
 				"description": "Olenevalt sihtriigist tuleb põhjendada andmete organisatsiooniväliselt hoiustamist ja osutada õiguslikule järelvele, et tagada andmesubjekti küllaldane kaitse andmete piiriülesel edastamisel. Vaata< a target=\"_blank\" href=\" https://eur-lex.europa.eu/legal-content/ET/TXT/HTML/?uri=CELEX:32016R0679&from=ET\">üldmääruse 2016/679 art. 44 - 49</a> ",
 				"name": "Edastamine",
 				"source": "Üldmääruse 2016/679 art. 44 - 48"
+			},
+			"PIA_METHOD_MES": {
+				"description": "(TRANSLATION REQUIRED) Planned controls are those originally put in place, before any analysis by the assessor. Corrective measures advised by the assessor will be stated in the action plan and will enable a second assessment of the severity and likelihood of the risk.",
+				"name": "(TRANSLATION REQUIRED) Planned and corrective controls",
+				"source": ""
 			},
 			"PIA_ORG_AUD": {
 				"description": "Meetmete ja tegevuste olemasolu, mis võimaldavad organisatsioonil juhtida ja tagada tema poolt käideldavate isikuandmete kaitset.",
@@ -980,6 +980,7 @@
 			"display_action_plan": "Näita<br>tegevuskava",
 			"edition": "Versioon",
 			"evaluation": "Hinnang",
+			"exit_full_screen_mode": "",
 			"preview": "Eelvaade"
 		},
 		"sections": {
@@ -1002,24 +1003,24 @@
 			},
 			"validate_pia": "Kinnita mõjuhinnang"
 		},
-		"statuses": {
-			"0": "Koostamisel",
-			"1": "Tagasilükatud",
-			"2": "Lihtne kinnitamine",
-			"3": "Allkirjastatud kinnitamine",
-			"4": "Arhiveeritud",
-			"5": "Ootab kinnitamist"
-		}
+		"statuses": [
+			"Koostamisel",
+			"Tagasilükatud",
+			"Lihtne kinnitamine",
+			"Allkirjastatud kinnitamine",
+			"Arhiveeritud",
+			"Ootab kinnitamist"
+		]
 	},
 	"questions": {
 		"edit": "Muuda küsimust",
-		"gauges": {
-			"0": "(Määratlemata)",
-			"1": "Ebaoluline",
-			"2": "Piiratud",
-			"3": "Oluline",
-			"4": "Maksimaalne"
-		},
+		"gauges": [
+			"(Määratlemata)",
+			"Ebaoluline",
+			"Piiratud",
+			"Oluline",
+			"Maksimaalne"
+		],
 		"placeholder_title": "Küsimus (kohustuslik)",
 		"remove": "Eemalda"
 	},
@@ -1307,12 +1308,11 @@
 		"concerned_people_searched_opinion": "Puudutatud isikute arvamuse otsimine",
 		"concerned_people_status": "Puudutatud isikute staatused",
 		"concerned_people_unsearched_opinion_comment": "Põhjus miks puudutatud isikute arvamust ei ole küsitud",
-		"content_choice": {
-			"0": "Ravi ei tohiks kasutada",
-			"1": "Ravi võib rakendada"
-		},
-    "generate_zip": "TO TRANSLATE - Download the full report (.zip)",
-    "generate_docx": "TO TRANSLATE - Download the report (.doc)",
+		"content_choice": [
+			"Ravi ei tohiks kasutada",
+			"Ravi võib rakendada"
+		],
+		"copy_to_clipboard": "",
 		"creation_date": "Loomise kuupäev",
 		"csv_action_plan_comment": "Kommenteeri tegevuskava",
 		"csv_evaluation_comment": "Kommenteeri hindamist",
@@ -1322,8 +1322,8 @@
 		"csv_section": "Jaotis",
 		"csv_title_object": "Pealkiri",
 		"display_filters": {
-      "check_all": "TO TRANSLATE - Enable / disable all display filters",
 			"action_plan_content": "Kuva tegevuskava",
+			"check_all": "TO TRANSLATE - Enable / disable all display filters",
 			"context_content": "Kuva jaotis \"Sisu\"",
 			"main_content": "Kuva jaotis \"Mõjuhinnangu informatsioon\"",
 			"principles_content": "Kuva jaotis \"Põhiprintsiibid\"",
@@ -1343,6 +1343,8 @@
 			"3": "Oluline",
 			"4": "Maksimaalne"
 		},
+		"generate_docx": "TO TRANSLATE - Download the report (.doc)",
+		"generate_zip": "TO TRANSLATE - Download the full report (.zip)",
 		"modification_made": "Tehtud muudatused",
 		"people_search_status_nok": "Puudatud isikute arvmus ei ole küsitud",
 		"people_search_status_ok": "Puudutatud isikute arvamus on küsitud",
