@@ -182,8 +182,8 @@
 			"import_pia": "Importer PIA",
 			"import_structure": "Importer modèle",
 			"item": {
-				"consult_pia": "Consulter le PIA",
-				"edit_pia": "Éditer le PIA",
+				"consult_pia": "Consulter",
+				"edit_pia": "Éditer",
 				"edit_structure": "Éditer le modèle",
 				"tools": {
 					"action_plan": "Afficher le<br>plan d'action",
@@ -974,6 +974,7 @@
 	"pia": {
 		"attachments": {
 			"add": "Ajouter",
+			"download": "Télécharger la pièce jointe",
 			"remove": "Supprimer",
 			"title": "Pièces jointes"
 		},
@@ -1200,7 +1201,7 @@
 						}
 					},
 					"short_help": "Analysez les causes et conséquences d'un accès illégitime à des données, et estimez sa gravité et sa vraisemblance.",
-					"title": "Accès illégitime\nà des données"
+					"title": "Accès illégitime à des données"
 				},
 				"3": {
 					"questions": {
@@ -1230,7 +1231,7 @@
 						}
 					},
 					"short_help": "Analysez les causes et conséquences d'une modification non désirée de données, et estimez sa gravité et sa vraisemblance.",
-					"title": "Modification non\ndésirées de données"
+					"title": "Modification non désirées de données"
 				},
 				"4": {
 					"questions": {
@@ -1260,7 +1261,7 @@
 						}
 					},
 					"short_help": "Analysez les causes et conséquences d'une disparition de données, et estimez sa gravité et sa vraisemblance.",
-					"title": "Disparition\nde données"
+					"title": "Disparition de données"
 				},
 				"5": {
 					"short_help": "Cette visualisation vous permet d’avoir une vue globale et synthétique de l’action des mesures sur les composants des risques qu’elles contribuent à traiter.",
@@ -1310,6 +1311,17 @@
 			"risks": "Risques",
 			"title": "Plan d'action"
 		},
+		"actions": {
+			"complete_download": "Télécharger l'ensemble de l'analyse",
+			"complete_download_desc": "Exporte dans une archive .zip les contenus de l'analyse (.doc et images), les pièces-jointes associées et le plan d'action au format .csv.",
+			"individual_download": "Télécharger des éléments de l'analyse",
+			"individual_download_desc": "Exporte des éléments spécifiques de l'analyse.",
+			"individual_download_doc": "Contenus textuels (fichier .doc)",
+			"individual_download_images": "Éléments visuels (fichiers .png) : vue d'ensemble des risques, cartographie des risques, plan d'action.",
+			"individual_download_select": "Sélectionnez les éléments à exporter :",
+			"print": "Imprimer l'analyse",
+			"print_and_download": "Impression et téléchargement"
+		},
 		"attachments": "Pièces jointes",
 		"concerned_people_name": "Noms des personnes concernées",
 		"concerned_people_opinion": "Opinions des personnes concernées",
@@ -1339,8 +1351,7 @@
 			"risks_overview_content": "Afficher la vue d'ensemble des risques",
 			"title": "Filtres d'affichage"
 		},
-		"download_csv": "Télécharger un export CSV",
-		"download_images": "Télécharger les images",
+		"download_csv": "Plan d'action (fichier .csv)",
 		"dpo_name": "Nom du DPD",
 		"dpo_opinion": "Opinion du DPD",
 		"dpo_status": "Statut du DPD",
@@ -1359,8 +1370,16 @@
 		"pia_author": "Nom de l'auteur",
 		"pia_name": "Nom du PIA",
 		"pia_validator": "Nom du validateur",
+		"preview_dpo_opinion": "Avis du DPD et des personnes concernées",
+		"preview_edition": "Saisie",
+		"preview_evaluation": "Évaluation",
+		"preview_no_data": "Aucune information à afficher.",
+		"preview_status": "Statut",
+		"preview_subtitle": "Informations générales",
+		"preview_title": "Aperçu de l'analyse",
+		"preview_validation": "Validation",
+		"preview_validation_section": "Validation",
 		"previous_page": "Retour à la page précédente",
-		"print": "Imprimer",
 		"rejection_reason": "Raison du refus",
 		"risks_cartography_title": "Cartographie des risques",
 		"risks_overview_title": "Vue d'ensemble des risques",
@@ -1384,7 +1403,6 @@
 		"responsible": "Responsable de la validation du PIA : ",
 		"signed_attachments_history": "Historique des pièces jointes signées",
 		"tools": {
-			"action_plan": "Plan d'action",
 			"dashboard": "Accueil",
 			"display_pia": "Afficher le rapport"
 		},

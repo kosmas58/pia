@@ -182,8 +182,8 @@
 			"import_pia": "Import PIA",
 			"import_structure": "Import template",
 			"item": {
-				"consult_pia": "Consult PIA",
-				"edit_pia": "Edit PIA",
+				"consult_pia": "Consult",
+				"edit_pia": "Edit",
 				"edit_structure": "Edit template",
 				"tools": {
 					"action_plan": "Display<br>action plan",
@@ -624,7 +624,7 @@
 			"PIA_METHOD_MES": {
 				"description": "Planned controls are those originally put in place, before any analysis by the assessor. Corrective measures advised by the assessor will be stated in the action plan and will enable a second assessment of the severity and likelihood of the risk.",
 				"name": "Planned and corrective controls",
-				"source": ""
+				"source": "WIKI Threats_to_make_a_modification_not_directed_data"
 			},
 			"PIA_ORG_AUD": {
 				"description": "Existence of a policy and processes to obtain an organisation able to manage and control the protection of personal data held within it.",
@@ -974,6 +974,7 @@
 	"pia": {
 		"attachments": {
 			"add": "Add",
+			"download": "Download the attachment",
 			"remove": "Remove",
 			"title": "Attachments"
 		},
@@ -988,7 +989,6 @@
 			"display_action_plan": "Display<br>action plan",
 			"edition": "Edition",
 			"evaluation": "Evaluation",
-			"exit_full_screen_mode": "Press F11 to exit full screen mode.",
 			"preview": "Preview"
 		},
 		"sections": {
@@ -1310,6 +1310,17 @@
 			"risks": "Risks",
 			"title": "Action plan"
 		},
+		"actions": {
+			"complete_download": "Download the full report",
+			"complete_download_desc": "Export in a .zip archive all the report content (.doc and pictures), attachments and the action plan in a .csv format.",
+			"individual_download": "Download elements of the report",
+			"individual_download_desc": "Export specific elements of the report.",
+			"individual_download_doc": "Texts (.doc)",
+			"individual_download_images": "Visual elements (.png) including the risk overview, the risk mapping and the action plan.",
+			"individual_download_select": "Select elements to export:",
+			"print": "Print the report",
+			"print_and_download": "Print and download"
+		},
 		"attachments": "Attachments",
 		"concerned_people_name": "Concerned people opinions",
 		"concerned_people_opinion": "Concerned people opinions",
@@ -1339,8 +1350,7 @@
 			"risks_overview_content": "Display risks overview",
 			"title": "Display filters"
 		},
-		"download_csv": "Download a CSV export",
-		"download_images": "Download images",
+		"download_csv": "Action plan (.csv)",
 		"dpo_name": "DPO's name",
 		"dpo_opinion": "DPO's opinion",
 		"dpo_status": "DPO's status",
@@ -1350,8 +1360,6 @@
 			"3": "Important",
 			"4": "Maximum"
 		},
-		"generate_docx": "Download the report (.doc)",
-		"generate_zip": "Download the full report (.zip)",
 		"modification_made": "Modifications made",
 		"people_search_status_nok": "Concerned people opinion wasn't requested.",
 		"people_search_status_ok": "Concerned people opinion was requested.",
@@ -1359,8 +1367,16 @@
 		"pia_author": "Author's name",
 		"pia_name": "PIA",
 		"pia_validator": "Validator's name",
+		"preview_dpo_opinion": "TO TRANSLATE - DPO and data subjects opinion",
+		"preview_edition": "Editing",
+		"preview_evaluation": "Evaluation",
+		"preview_no_data": "No data to display.",
+		"preview_status": "Status",
+		"preview_subtitle": "General information",
+		"preview_title": "Preview",
+		"preview_validation": "Validation",
+		"preview_validation_section": "Validation",
 		"previous_page": "Back to previous page",
-		"print": "Print",
 		"rejection_reason": "Rejection reason",
 		"risks_cartography_title": "Risk mapping",
 		"risks_overview_title": "Risks overview",
@@ -1384,7 +1400,6 @@
 		"responsible": "Person accountable for validating the PIA: ",
 		"signed_attachments_history": "Signed attachments history",
 		"tools": {
-			"action_plan": "Action plan",
 			"dashboard": "Dashboard",
 			"display_pia": "Display report"
 		},
