@@ -3,7 +3,7 @@ import { DomSanitizer } from '@angular/platform-browser';
 import { formatDate } from '@angular/common';
 
 @Pipe({ name: 'safeHtml' })
-export class SafeHtmlPipe implements PipeTransform  {
+export class SafeHtmlPipe implements PipeTransform {
   constructor(private sanitized: DomSanitizer) {}
   transform(value) {
     return this.sanitized.bypassSecurityTrustHtml(value);
@@ -11,7 +11,7 @@ export class SafeHtmlPipe implements PipeTransform  {
 }
 
 @Pipe({ name: 'nl2br' })
-export class Nl2brPipe implements PipeTransform  {
+export class Nl2brPipe implements PipeTransform {
   constructor() {}
   transform(value) {
     return value.replace(/\n/g, '<br>');
