@@ -4,7 +4,6 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TagInputModule } from 'ngx-chips';
-import { PdfViewerModule } from 'ng2-pdf-viewer';
 
 // Locales
 import localeEN from '@angular/common/locales/en';
@@ -112,8 +111,7 @@ const providersList: any = [
     SafeHtmlPipe,
     Nl2brPipe,
     TagInputModule,
-    FormatTheDate,
-    PdfViewerModule
+    FormatTheDate
   ],
   declarations: [
     HeaderComponent,

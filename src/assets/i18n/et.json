@@ -166,9 +166,7 @@
 		},
 		"infografics": {
 			"display": "Näita protsessikaarti",
-			"download": "Laadige protsessikaart alla",
-			"file": "./assets/files/180409_fiche_risque_en_cmjk.pdf",
-			"hide": "Peida protsessikaart",
+			"file": "/assets/files/180409_fiche_risque_en_cmjk.pdf",
 			"title": "Ülevaade nõuetest ja metoodikast"
 		},
 		"title": "Abi"
@@ -989,6 +987,7 @@
 			"display_action_plan": "Näita<br>tegevuskava",
 			"edition": "Versioon",
 			"evaluation": "Hinnang",
+			"exit_full_screen_mode": "",
 			"preview": "Eelvaade"
 		},
 		"sections": {
@@ -1360,6 +1359,8 @@
 			"3": "Oluline",
 			"4": "Maksimaalne"
 		},
+		"generate_docx": "",
+		"generate_zip": "",
 		"modification_made": "Tehtud muudatused",
 		"people_search_status_nok": "Puudatud isikute arvmus ei ole küsitud",
 		"people_search_status_ok": "Puudutatud isikute arvamus on küsitud",

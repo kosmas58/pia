@@ -27,17 +27,12 @@
         <button class="btn btn-blue" (click)="toggleInfograficsContent($event.target)" value="true">
           {{ 'help.infografics.display' | translate }}
         </button>
-        <button class="btn btn-blue" (click)="printPdf()">{{ 'help.infografics.download' | translate }}</button>
         <p hidden id="infografics_file">{{ 'help.infografics.file' | translate }}</p>
         <p hidden id="infografics_display">{{ 'help.infografics.display' | translate }}</p>
-        <p hidden id="infografics_hide">{{ 'help.infografics.hide' | translate }}</p>
       </div>
       <p></p>
-      <div *ngIf="displayInfografics">
-        <pdf-viewer [src]="pdfSrc"
-                    [zoom]="1.5">
-        </pdf-viewer>
-      </div>
+      <ng2-pdfjs-viewer pdfSrc="/assets/files/180413_fiche_risque_de_cmjk.pdf" zoom="70">
+      </ng2-pdfjs-viewer>
       <h1></h1>
       <div class="pia-helpBlock-content" [innerHTML]="content"></div>
     </div>

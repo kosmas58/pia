@@ -150,25 +150,4 @@ export class HelpComponent implements OnInit, OnDestroy {
         a.dispatchEvent(event);
       });
   }
-
-  /**
-   * Display or hide the Infografics.
-   * @memberof HelpComponent
-   */
-  toggleInfograficsContent(el) {
-    const el2 = document.getElementById('infografics_file');
-    const el3 = document.getElementById('infografics_display');
-    const el4 = document.getElementById('infografics_hide');
-
-    this.pdfSrc = el2.textContent;
-    this.displayInfografics = !this.displayInfografics;
-
-    if (el.value === 'false') {
-      el.textContent = el3.textContent;
-      el.value = 'true';
-    } else {
-      el.textContent = el4.textContent;
-      el.value = 'false';
-    }
-  }
 }

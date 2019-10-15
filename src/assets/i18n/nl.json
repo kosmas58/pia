@@ -5,7 +5,7 @@
 		"licences": "Bibliotheeklicenties:",
 		"title": "Over de PIA-software",
 		"translators": "De PIA-software is momenteel beschikbaar in 18 talen. De Franse en Engelse versies werden gemaakt door de CNIL. De andere versie zijn het resultaat van de bijdrages van de volgende personen:",
-		"translators_name": "<ul><li>Croatian : <a target=\"_blank\" href=\"https://github.com/B2KapitalBA\">B2KapitalBA</a> ;</li><li>Czech : Jiří Grohmann, Manuel d’Orso ;</li><li>Danish : <a target=\"_blank\" href=\"https://github.com/moolsen\">Michael Drews Olsen</a> ;</li><li>Dutch : Ruud van Driel, Manuel d’Orso ;</li><li>English : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Estonian : Eva Arumets, Lauri Bender, Rebeka Dronia, Kärol Kibena, Simon Suuban, <a target=\"_blank\" href=\"https://kochpartners.ee/en/people/urmas-kukk/\">Urmas Kukk, <a target=\"_blank\" href=\"https://github.com/PrivacyAssessment1\">PrivacyAssessment1</a> ;</li><li>Finnish : <a target=\"_blank\" href=\"https://tietosuoja.fi/etusivu\">Tietosuojavaltuutetun toimisto</a> ;</li><li>French : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>German  : <a target=\"_blank\" href=\"https://github.com/kosmas58\">Kosmas Schütz</a> , Corina Scheiter (<a target=\"_blank\" href=\"https://www.datenschutz-bayern.de/\">BayLfD</a>) ;</li><li>Greek : <a target=\"_blank\" href=\"https://tzellis.gr\">Dimitris Tzellis</a> ;</li><li>Hungarian : <a target=\"_blank\" href=\"https://naih.hu/\">Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)</a> ;</li><li>Italian : Manuel d’Orso, Gianluca Markos, Antonio Caselli (<a target=\"_blank\" href=\"http://gpdp.it\">Garante per la Protezione dei Dai Personali (GPDP)</a>) ;</li><li>Lithuanian : Paulius Galubickas (<a target=\"_blank\" href=\"http://galubickas.lt\">Law firm Galubickas</a>) ;</li><li>Norwegian : <a target=\"_blank\" href=\"https://www.datatilsynet.no\">Datatilsynet</a> ;</li><li>Polish : <a target=\"_blank\" href=\"https://github.com/JoannaKar\">Joanna Karczewska</a> , Michal Mazur (<a target=\"_blank\" href=\"https://giodo.gov.pl\">Generalny Inspektor Ochrony Danych Osobowych (GIODO)</a>) ;</li><li>Portuguese : <a target=\"_blank\" href=\"https://github.com/bagois\">Barbara Gois</a> ;</li><li>Romanian : <a target=\"_blank\" href=\"https://github.com/webmyday\">webmyday</a> ;</li><li>Spanish : <a target=\"_blank\" href=\"https://github.com/ylachgar\">ylachgar</a> .</li></ul>",
+		"translators_name": "<ul><li>Croatian : <a target=\"_blank\" href=\"https://github.com/B2KapitalBA\">B2KapitalBA</a> ;</li><li>Czech : Jiří Grohmann, Manuel d’Orso ;</li><li>Danish : <a target=\"_blank\" href=\"https://github.com/moolsen\">Michael Drews Olsen</a> ;</li><li>Dutch : Ruud van Driel, Manuel d’Orso ;</li><li>English : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Estonian : Eva Arumets, Lauri Bender, Rebeka Dronia, Kärol Kibena, Simon Suuban, <a target=\"_blank\" href=\"https://kochpartners.ee/en/people/urmas-kukk/\">Urmas Kukk, <a target=\"_blank\" href=\"https://github.com/PrivacyAssessment1\">PrivacyAssessment1</a> ;</li><li>Finnish : <a target=\"_blank\" href=\"https://tietosuoja.fi/etusivu\">Tietosuojavaltuutetun toimisto</a> ;</li><li>French : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>German  : <a target=\"_blank\" href=\"https://github.com/kosmas58\">Kosmas Schütz</a> , Corina Scheiter (<a target=\"_blank\" href=\"https://www.datenschutz-bayern.de/\">BayLfD</a>) ;</li><li>Greek : <a target=\"_blank\" href=\"https://tzellis.gr\">Dimitris Tzellis</a> ;</li><li>Hungarian : <a target=\"_blank\" href=\"https://naih.hu/\">Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)</a> ;</li><li>Italian : Manuel d’Orso, Gianluca Markos, Antonio Caselli (<a target=\"_blank\" href=\"http://gpdp.it\">Garante per la Protezione dei Dai Personali (GPDP)</a>) ;</li><li>Lithuanian : Paulius Galubickas (<a target=\"_blank\" href=\"http://galubickas.lt\">Law firm Galubickas</a>) ;</li><li>Norwegian : <a target=\"_blank\" href=\"https://www.datatilsynet.no\">Datatilsynet</a> ;</li><li>Polish : <a target=\"_blank\" href=\"https://github.com/JoannaKar\">Joanna Karczewska</a> , Michal Mazur (<a target=\"_blank\" href=\"https://giodo.gov.pl\">Generalny Inspektor Ochrony Danych Osobowych (GIODO)</a>) ;</li><li>Portuguese : <a target=\"_blank\" href=\"https://github.com/bagois\">Barbara Gois</a> ;</li><li>Romanian : <a target=\"_blank\" href=\"https://github.com/webmyday\">webmyday</a> ;</li><li>Slovenian : <a target=\"_blank\" href=\"https://github.com/msunta\">msunta</a> ;</li><li>Spanish : <a target=\"_blank\" href=\"https://github.com/ylachgar\">ylachgar</a> .</li></ul>",
 		"version_number": "Versienummer"
 	},
 	"action_plan": {
@@ -44,7 +44,7 @@
 		"risk1_access": "(I)",
 		"risk2_modification": "(U)",
 		"risk3_disappearance": "(D)",
-    "seriousness_axe": "Ernst van het risico"
+		"seriousness_axe": "Ernst van het risico"
 	},
 	"comments": {
 		"comment": "Commentaar",
@@ -166,9 +166,7 @@
 		},
 		"infografics": {
 			"display": "Procesoverzicht weergeven",
-			"download": "Procesoverzicht downloaden",
-			"file": "./assets/files/180409_fiche_risque_en_cmjk.pdf",
-			"hide": "Proceskaart verbergen",
+			"file": "/assets/files/180409_fiche_risque_en_cmjk.pdf",
 			"title": "Een overzicht van de vereisten en methodologie"
 		},
 		"title": "Help"
@@ -989,6 +987,7 @@
 			"display_action_plan": "Toon<br>actieplan",
 			"edition": "Opmaak",
 			"evaluation": "Evaluatie",
+			"exit_full_screen_mode": "",
 			"preview": "Voorbeeld"
 		},
 		"sections": {
@@ -1360,6 +1359,8 @@
 			"3": "Belangrijk",
 			"4": "Maximaal"
 		},
+		"generate_docx": "",
+		"generate_zip": "",
 		"modification_made": "Aanpassingen aangebracht",
 		"people_search_status_nok": "Mening van betrokken mensen werd niet gevraagd.",
 		"people_search_status_ok": "Mening van betrokken mensen werd gevraagd.",
