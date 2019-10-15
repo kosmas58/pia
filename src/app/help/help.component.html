@@ -24,17 +24,17 @@
       <div class="pia-helpBlock-content">
         <h2>{{ 'help.infografics.title' | translate }}</h2>
         <p></p>
+        <p id="infografics_file">{{ 'help.infografics.file' | translate }}</p>
         <button class="btn btn-blue" (click)="toggleInfograficsContent($event.target)" value="true">
           {{ 'help.infografics.display' | translate }}
         </button>
-        <p hidden id="infografics_file">{{ 'help.infografics.file' | translate }}</p>
-        <p hidden id="infografics_display">{{ 'help.infografics.display' | translate }}</p>
       </div>
       <p></p>
-      <ng2-pdfjs-viewer pdfSrc="/assets/files/180413_fiche_risque_de_cmjk.pdf" zoom="70">
+      <ng2-pdfjs-viewer pdfSrc=pdfSrc zoom="70">
       </ng2-pdfjs-viewer>
       <h1></h1>
       <div class="pia-helpBlock-content" [innerHTML]="content"></div>
     </div>
   </div>
+
 </main>

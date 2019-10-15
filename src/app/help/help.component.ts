@@ -150,4 +150,15 @@ export class HelpComponent implements OnInit, OnDestroy {
         a.dispatchEvent(event);
       });
   }
+
+  /**
+   * Display or hide the Infografics.
+   * @memberof HelpComponent
+   */
+  toggleInfograficsContent(el) {
+    const el2 = document.getElementById('infografics_file');
+
+    this.pdfSrc = el2.textContent;
+    this.displayInfografics = !this.displayInfografics;
+  }
 }
