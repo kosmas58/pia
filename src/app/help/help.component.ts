@@ -14,8 +14,7 @@ export class HelpComponent implements OnInit, OnDestroy {
   public content;
   public activeElement: string;
   private helpSubscription: Subscription;
-  public pdfSrc = '/pdf-test.pdf';
-  public displayInfografics: boolean;
+  public pdfSrc; // = '/pdf-test.pdf';
 
   constructor(
     private httpClient: HttpClient,
@@ -155,10 +154,9 @@ export class HelpComponent implements OnInit, OnDestroy {
    * Display or hide the Infografics.
    * @memberof HelpComponent
    */
-  toggleInfograficsContent(el) {
+  showInfografics(el) {
     const el2 = document.getElementById('infografics_file');
 
     this.pdfSrc = el2.textContent;
-    this.displayInfografics = !this.displayInfografics;
   }
 }
