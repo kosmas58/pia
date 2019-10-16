@@ -987,7 +987,6 @@
 			"display_action_plan": "Aktionsplan<br>anzeigen",
 			"edition": "Bearbeitung",
 			"evaluation": "Auswertung",
-			"exit_full_screen_mode": "",
 			"preview": "Vorschau"
 		},
 		"sections": {
@@ -1359,8 +1358,6 @@
 			"3": "Substantiell",
 			"4": "Groß"
 		},
-		"generate_docx": "",
-		"generate_zip": "",
 		"modification_made": "Vorgenommene Änderungen",
 		"people_search_status_nok": "Meinung der Betroffenen wurde nicht eingeholt.",
 		"people_search_status_ok": "Meinung der Betroffenen wurde eingeholt.",

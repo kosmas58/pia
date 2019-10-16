@@ -987,7 +987,6 @@
 			"display_action_plan": "Exibir<br>plano de ação",
 			"edition": "Edição",
 			"evaluation": "Avaliação",
-			"exit_full_screen_mode": "",
 			"preview": "Pré-visualização"
 		},
 		"sections": {
@@ -1359,8 +1358,6 @@
 			"3": "Significante",
 			"4": "Máximo"
 		},
-		"generate_docx": "",
-		"generate_zip": "",
 		"modification_made": "Modificações feitas",
 		"people_search_status_nok": "A opinião das partes em questão não foi solicitada.",
 		"people_search_status_ok": "A opinião das partes em questão foi solicitada.",

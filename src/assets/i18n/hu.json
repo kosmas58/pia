@@ -987,7 +987,6 @@
 			"display_action_plan": "Intézkedési terv megmutatása",
 			"edition": "Szerkesztés",
 			"evaluation": "Értékelés",
-			"exit_full_screen_mode": "",
 			"preview": "Előnézet"
 		},
 		"sections": {
@@ -1359,8 +1358,6 @@
 			"3": "Jelentős",
 			"4": "Maximális"
 		},
-		"generate_docx": "",
-		"generate_zip": "",
 		"modification_made": "Elvégzett módosítások.",
 		"people_search_status_nok": "Az érintettek véleményének kikérésére nem került sor.",
 		"people_search_status_ok": "Az érintettek véleményének kikérésére sor került.",

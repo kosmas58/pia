@@ -987,7 +987,6 @@
 			"display_action_plan": "Peržiūrėti<br>veiksmų planą",
 			"edition": "Redaguoti",
 			"evaluation": "Įvertinimas",
-			"exit_full_screen_mode": "",
 			"preview": "Peržiūra"
 		},
 		"sections": {
@@ -1359,8 +1358,6 @@
 			"3": "Reikšminga",
 			"4": "Maksimali"
 		},
-		"generate_docx": "",
-		"generate_zip": "",
 		"modification_made": "Padaryti pakeitimai",
 		"people_search_status_nok": "Duomenų subjektų nuomonės nebuvo prašoma.",
 		"people_search_status_ok": "Duomenų subjektų nuomonės buvo prašoma.",

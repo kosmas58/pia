@@ -987,7 +987,6 @@
 			"display_action_plan": "Toon<br>actieplan",
 			"edition": "Opmaak",
 			"evaluation": "Evaluatie",
-			"exit_full_screen_mode": "",
 			"preview": "Voorbeeld"
 		},
 		"sections": {
@@ -1359,8 +1358,6 @@
 			"3": "Belangrijk",
 			"4": "Maximaal"
 		},
-		"generate_docx": "",
-		"generate_zip": "",
 		"modification_made": "Aanpassingen aangebracht",
 		"people_search_status_nok": "Mening van betrokken mensen werd niet gevraagd.",
 		"people_search_status_ok": "Mening van betrokken mensen werd gevraagd.",

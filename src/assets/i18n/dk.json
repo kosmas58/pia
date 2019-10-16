@@ -987,7 +987,6 @@
 			"display_action_plan": "Vis<br>handlingsplan",
 			"edition": "Redigere",
 			"evaluation": "Evaluation",
-			"exit_full_screen_mode": "",
 			"preview": "Preview"
 		},
 		"sections": {
@@ -1359,8 +1358,6 @@
 			"3": "Alvorligt",
 			"4": "Katastrofalt"
 		},
-		"generate_docx": "",
-		"generate_zip": "",
 		"modification_made": "Ændringer",
 		"people_search_status_nok": "Den pågældende persons synspunkt blev ikke efterspurgt.",
 		"people_search_status_ok": "De pågældende personers synspunkt blev anmodet om.",

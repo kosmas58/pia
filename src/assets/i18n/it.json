@@ -987,7 +987,6 @@
 			"display_action_plan": "Mostra<br>il piano d'azione",
 			"edition": "Modifica",
 			"evaluation": "Revisione",
-			"exit_full_screen_mode": "",
 			"preview": "Anteprima"
 		},
 		"sections": {
@@ -1359,8 +1358,6 @@
 			"3": "Importante",
 			"4": "Massima"
 		},
-		"generate_docx": "",
-		"generate_zip": "",
 		"modification_made": "Modifiche apportate",
 		"people_search_status_nok": "Non è stato chiesto il parere degli interessati.",
 		"people_search_status_ok": "È stato chiesto il parere degli interessati.",

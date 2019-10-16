@@ -987,7 +987,6 @@
 			"display_action_plan": "Wyświetlenie<br>planu działania",
 			"edition": "Edycja",
 			"evaluation": "Ewaluacja",
-			"exit_full_screen_mode": "",
 			"preview": "Przegląd"
 		},
 		"sections": {
@@ -1359,8 +1358,6 @@
 			"3": "Poważne",
 			"4": "Maksymalne"
 		},
-		"generate_docx": "",
-		"generate_zip": "",
 		"modification_made": "Wniesione modyfikacje",
 		"people_search_status_nok": "Nie poproszono o opinię osób, których dane dotyczą.",
 		"people_search_status_ok": "Poproszono o opinię osób, których dane dotyczą.",

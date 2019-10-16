@@ -987,7 +987,6 @@
 			"display_action_plan": "Afișare<br>plan de acțiune",
 			"edition": "Versiune",
 			"evaluation": "Evaluare",
-			"exit_full_screen_mode": "",
 			"preview": "Vizualizare"
 		},
 		"sections": {
@@ -1359,8 +1358,6 @@
 			"3": "Important",
 			"4": "Maxim"
 		},
-		"generate_docx": "",
-		"generate_zip": "",
 		"modification_made": "Modificările efectuate",
 		"people_search_status_nok": "Opinia persoanelor implicate nu a fost solicitată.",
 		"people_search_status_ok": "Opinia persoanelor implicate a fost solicitată.",

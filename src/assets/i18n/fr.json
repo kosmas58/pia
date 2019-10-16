@@ -987,7 +987,6 @@
 			"display_action_plan": "Afficher le<br>plan d'action",
 			"edition": "Édition",
 			"evaluation": "Évaluation",
-			"exit_full_screen_mode": "",
 			"preview": "Aperçu"
 		},
 		"sections": {
@@ -1359,8 +1358,6 @@
 			"3": "Importante",
 			"4": "Maximale"
 		},
-		"generate_docx": "Télécharger le rapport (.doc)",
-		"generate_zip": "Télécharger le rapport complet (.zip)",
 		"modification_made": "Modifications apportées",
 		"people_search_status_nok": "L'avis des personnes concernées n'a pas été demandé.",
 		"people_search_status_ok": "L'avis des personnes concernées a été demandé.",

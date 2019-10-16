@@ -987,7 +987,6 @@
 			"display_action_plan": "Zobrazit<br> akční plán",
 			"edition": "TO BE TRANSLATED - Edition",
 			"evaluation": "TO BE TRANSLATED - Evaluation",
-			"exit_full_screen_mode": "",
 			"preview": "Náhled"
 		},
 		"sections": {
@@ -1359,8 +1358,6 @@
 			"3": "Důležité",
 			"4": "Maximální"
 		},
-		"generate_docx": "",
-		"generate_zip": "",
 		"modification_made": "Provedené úpravy",
 		"people_search_status_nok": "Nebyli požadovány názory zainteresovaných osob.",
 		"people_search_status_ok": "Požaduje se názor zainteresovaných osob.",

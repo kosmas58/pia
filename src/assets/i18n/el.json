@@ -987,7 +987,6 @@
 			"display_action_plan": "Εμφάνιση<br>σχεδίου δράσης",
 			"edition": "Έκδοση",
 			"evaluation": "Αξιολόγηση",
-			"exit_full_screen_mode": "",
 			"preview": "Προεπισκόπηση"
 		},
 		"sections": {
@@ -1359,8 +1358,6 @@
 			"3": "Σημαντικό",
 			"4": "Μέγιστο"
 		},
-		"generate_docx": "",
-		"generate_zip": "",
 		"modification_made": "Τροποποιήσεις που έγιναν",
 		"people_search_status_nok": "Δεν ζητήθηκε η γνώμη των ενδιαφερόμενων.",
 		"people_search_status_ok": "Ζητήθηκε η γνώμη των ενδιαφερόμενων.",

@@ -987,7 +987,6 @@
 			"display_action_plan": "Vis<br>handlingsplan",
 			"edition": "TO BE TRANSLATED - Edition",
 			"evaluation": "TO BE TRANSLATED - Evaluation",
-			"exit_full_screen_mode": "",
 			"preview": "Forhåndsvis"
 		},
 		"sections": {
@@ -1359,8 +1358,6 @@
 			"3": "Important",
 			"4": "Maximum"
 		},
-		"generate_docx": "",
-		"generate_zip": "",
 		"modification_made": "Modifications made",
 		"people_search_status_nok": "Concerned people opinion wasn't requested.",
 		"people_search_status_ok": "Concerned people opinion was requested.",

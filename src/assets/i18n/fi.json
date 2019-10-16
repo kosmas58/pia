@@ -987,7 +987,6 @@
 			"display_action_plan": "Näytä<br>toimintasuunnitelma",
 			"edition": "Editio",
 			"evaluation": "Arviointi",
-			"exit_full_screen_mode": "",
 			"preview": "Esikatselu"
 		},
 		"sections": {
@@ -1359,8 +1358,6 @@
 			"3": "Merkittävä",
 			"4": "Suurin"
 		},
-		"generate_docx": "",
-		"generate_zip": "",
 		"modification_made": "Tehdyt muutokset",
 		"people_search_status_nok": "Asianomaisten mielipidettä ei ole kysytty.",
 		"people_search_status_ok": "Asianomaisten mielipidettä on kysytty.",

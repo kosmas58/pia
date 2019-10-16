@@ -1,8 +1,8 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, ViewChild, OnInit, OnDestroy } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Subscription } from 'rxjs';
-
 import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-help',
@@ -10,6 +10,8 @@ import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
   styleUrls: ['./help.component.scss']
 })
 export class HelpComponent implements OnInit, OnDestroy {
+  @ViewChild('pdfViewerAutoLoad') pdfViewerAutoLoad;
+
   public tableOfTitles = [];
   public content;
   public activeElement: string;
@@ -17,6 +19,7 @@ export class HelpComponent implements OnInit, OnDestroy {
   public pdfSrc; // = '/pdf-test.pdf';
 
   constructor(
+    private domSanitizer: DomSanitizer,
     private httpClient: HttpClient,
     private _translateService: TranslateService
   ) {}

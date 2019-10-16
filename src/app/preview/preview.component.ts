@@ -1,6 +1,6 @@
 import { Component, ElementRef, OnInit, AfterViewChecked } from '@angular/core';
 
-import * as html2canvas from 'html2canvas';
+import html2canvas from 'html2canvas';
 import { saveSvgAsPng, svgAsPngUri } from 'save-svg-as-png';
 import * as FileSaver from 'file-saver';
 
@@ -378,12 +378,14 @@ export class PreviewComponent implements OnInit {
           '#actionPlanOverviewImg'
         );
         if (actionPlanOverviewImg) {
-          html2canvas(actionPlanOverviewImg, { scale: 1.4 }).then(canvas => {
-            if (canvas) {
-              const img = canvas.toDataURL();
-              resolve(img);
+          html2canvas(<HTMLElement>actionPlanOverviewImg, { scale: 1.4 }).then(
+            canvas => {
+              if (canvas) {
+                const img = canvas.toDataURL();
+                resolve(img);
+              }
             }
-          });
+          );
         }
       }, 250);
     });
@@ -435,12 +437,14 @@ export class PreviewComponent implements OnInit {
           '#risksCartographyImg'
         );
         if (risksCartographyImg) {
-          html2canvas(risksCartographyImg, { scale: 1.4 }).then(canvas => {
-            if (canvas) {
-              const img = canvas.toDataURL();
-              resolve(img);
+          html2canvas(<HTMLElement>risksCartographyImg, { scale: 1.4 }).then(
+            canvas => {
+              if (canvas) {
+                const img = canvas.toDataURL();
+                resolve(img);
+              }
             }
-          });
+          );
         }
       }, 250);
     });

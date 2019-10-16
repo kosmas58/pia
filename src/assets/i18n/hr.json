@@ -987,7 +987,6 @@
 			"display_action_plan": "Prikaži<br>akcijski plan",
 			"edition": "Izdanje",
 			"evaluation": "Evaluacija",
-			"exit_full_screen_mode": "",
 			"preview": "Kratki pregled"
 		},
 		"sections": {
@@ -1359,8 +1358,6 @@
 			"3": "Važan",
 			"4": "Maksimalan"
 		},
-		"generate_docx": "",
-		"generate_zip": "",
 		"modification_made": "Izmjene napravljene",
 		"people_search_status_nok": "Nije zatraženo mišljenje dotične osobe.",
 		"people_search_status_ok": "Zatraženo je mišljenje dotične osobe.",
