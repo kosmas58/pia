@@ -166,7 +166,8 @@
 		},
 		"infografics": {
 			"display": "A folyamat térkép megjelenítése",
-			"file": "/assets/files/180409_fiche_risque_en_cmjk.pdf",
+			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"hide": "Folyamat térkép elrejtése",
 			"title": "A követelmények és a módszertan áttekintése"
 		},
 		"title": "Segítség"

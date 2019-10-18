@@ -166,7 +166,8 @@
 		},
 		"infografics": {
 			"display": "Εμφάνιση χάρτη διαδικασίας",
-			"file": "/assets/files/180409_fiche_risque_en_cmjk.pdf",
+			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"hide": "Απόκρυψη χάρτη διαδικασιών",
 			"title": "Μια επισκόπηση των απαιτήσεων και της μεθοδολογίας"
 		},
 		"title": "Βοήθεια"

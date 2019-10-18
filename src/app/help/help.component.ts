@@ -17,6 +17,7 @@ export class HelpComponent implements OnInit, OnDestroy {
   public activeElement: string;
   private helpSubscription: Subscription;
   public pdfSrc; // = '/pdf-test.pdf';
+  public displayInfografics: boolean;
 
   constructor(
     private domSanitizer: DomSanitizer,
@@ -157,9 +158,10 @@ export class HelpComponent implements OnInit, OnDestroy {
    * Display or hide the Infografics.
    * @memberof HelpComponent
    */
-  showInfografics(el) {
+  toggleInfograficsContent(el) {
     const el2 = document.getElementById('infografics_file');
 
     this.pdfSrc = el2.textContent;
+    this.displayInfografics = !this.displayInfografics;
   }
 }

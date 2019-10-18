@@ -166,7 +166,8 @@
 		},
 		"infografics": {
 			"display": "Zobrazit mapu procesu",
-			"file": "/assets/files/180409_fiche_risque_en_cmjk.pdf",
+			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"hide": "Skrýt mapu procesu",
 			"title": "Přehled požadavků a metodiky"
 		},
 		"title": "Nápověda"

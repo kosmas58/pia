@@ -166,7 +166,8 @@
 		},
 		"infografics": {
 			"display": "Prozesskarte anzeigen",
-			"file": "/assets/files/180413_fiche_risque_de_cmjk.pdf",
+			"file": "./pia_docs/180413_fiche_risque_de_cmjk.pdf",
+			"hide": "Prozesslandkarte ausblenden",
 			"title": "Ein Überblick über die Anforderungen und Methodik"
 		},
 		"title": "Hilfe"

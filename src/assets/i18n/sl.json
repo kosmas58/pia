@@ -166,7 +166,8 @@
 		},
 		"infografics": {
 			"display": "Prikaži zemljevid procesa",
-			"file": "/assets/files/180409_fiche_risque_en_cmjk.pdf",
+			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"hide": "Skrij zemljevid procesa",
 			"title": "Pregled zahtev in metodologije"
 		},
 		"title": "Pomoć"

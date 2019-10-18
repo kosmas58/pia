@@ -166,7 +166,8 @@
 		},
 		"infografics": {
 			"display": "Vis proceskort",
-			"file": "/assets/files/180409_fiche_risque_en_cmjk.pdf",
+			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"hide": "Skjul proceskort",
 			"title": "Et overblik over kravene og metoden"
 		},
 		"title": "Hjælp"

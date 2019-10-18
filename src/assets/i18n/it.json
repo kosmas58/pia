@@ -166,7 +166,8 @@
 		},
 		"infografics": {
 			"display": "Mostra la mappa del processo",
-			"file": "/assets/files/180409_fiche_risque_en_cmjk.pdf",
+			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"hide": "Nascondi la mappa del processo",
 			"title": "Una panoramica dei requisiti e della metodologia"
 		},
 		"title": "Aiuto"
