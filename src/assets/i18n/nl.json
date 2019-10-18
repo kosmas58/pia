@@ -1,7 +1,7 @@
 {
 	"about": {
 		"contribute": "Als u wilt helpen om de software te vertalen in een andere taal of om de bestaande vertalingen te verbeteren, raden we u aan om <a href=\"https://github.com/LINCnil/pia/tree/master/src/assets/i18n\" target=\"_blank\">de pagina met de te volgen stappen leest</a>.",
-		"description": "Deze tool is oorspronkelijk ontworpen door de <a target=\"_blank\" href=\"https://www.cnil.fr\">Commission Nationale Informatique et Liberté (CNIL)</a>, de Franse autoriteit voor gegevensbescherming, om de verwerker te helpen voldoen aan de GDPR. De tool werd ontwikkeld door <a href=\"https://atnos.com\" target=\"_blank\">ATNOS</a>.<br>De software is gratis en open. Als u mee wilt doen aan dit project, kunt u de broncode downloaden van Github, wijzigen en delen met de community.",
+		"description": "Deze tool is oorspronkelijk ontworpen door de <a target=\"_blank\" href=\"https://www.cnil.fr/en/privacy-impact-assessment-pia\">Commission Nationale Informatique et Liberté (CNIL)</a>, de Franse autoriteit voor gegevensbescherming, om de verwerker te helpen voldoen aan de GDPR. De tool werd ontwikkeld door <a href=\"https://atnos.com\" target=\"_blank\">ATNOS</a>.<br>De software is gratis en open. Als u mee wilt doen aan dit project, kunt u de broncode downloaden van Github, wijzigen en delen met de community.",
 		"licences": "Bibliotheeklicenties:",
 		"title": "Over de PIA-software",
 		"translators": "De PIA-software is momenteel beschikbaar in 18 talen. De Franse en Engelse versies werden gemaakt door de CNIL. De andere versie zijn het resultaat van de bijdrages van de volgende personen:",
@@ -113,7 +113,7 @@
 			"ro": "Română",
 			"sl": "Slovenščina"
 		},
-		"logo_subtitle": "",
+		"logo_subtitle": "privacy impact assessment",
 		"logo_title": "Privacy Impact Assessment",
 		"pia_example_link": "PIA-voorbeeld",
 		"structures": "PIA-modellen",
