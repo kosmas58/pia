@@ -167,6 +167,7 @@
 		"infografics": {
 			"display": "Afișați harta procesului",
 			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"guide": "Afișează ghidurile PIA ale CNIL",
 			"hide": "Ascundeți harta procesului",
 			"title": "O prezentare generală a cerințelor și metodologiei"
 		},

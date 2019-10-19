@@ -25,15 +25,19 @@
         <h2>{{ 'help.infografics.title' | translate }}</h2>
         <p></p>
         <button class="btn btn-blue" (click)="toggleInfograficsContent($event.target)" value="true">
-          <div *ngIf="displayInfografics; else elseBlock">
-            {{ 'help.infografics.hide' | translate }}
+        <div *ngIf="displayInfografics; else elseBlock">
+          {{ 'help.infografics.hide' | translate }}
+        </div>
+        <ng-template #elseBlock>
+          <div>
+            {{ 'help.infografics.display' | translate }}
           </div>
-          <ng-template #elseBlock>
-            <div>
-              {{ 'help.infografics.display' | translate }}
-            </div>
-          </ng-template>
-        </button>
+        </ng-template>
+      </button>
+        &nbsp;
+      <button class="btn btn-blue" onclick="window.open('https://www.cnil.fr/en/privacy-impact-assessment-pia','_blank')">
+        {{ 'help.infografics.guide' | translate }}
+      </button>
         <p hidden id="infografics_file">{{ 'help.infografics.file' | translate }}</p>
       </div>
       <p></p>

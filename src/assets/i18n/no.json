@@ -167,6 +167,7 @@
 		"infografics": {
 			"display": "Vis prosesskart",
 			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"guide": "Vis PIA-guider av CNIL",
 			"hide": "Skjul prosesskart",
 			"title": "En oversikt over kravene og metodikken"
 		},

@@ -167,6 +167,7 @@
 		"infografics": {
 			"display": "Näita protsessikaarti",
 			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"guide": "Kuva CNILi PIA juhendid",
 			"hide": "Peida protsessikaart",
 			"title": "Ülevaade nõuetest ja metoodikast"
 		},

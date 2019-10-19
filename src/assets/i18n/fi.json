@@ -167,6 +167,7 @@
 		"infografics": {
 			"display": "Näytä prosessikartta",
 			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"guide": "Näytä CNIL: n PIA-oppaat",
 			"hide": "Piilota prosessikartta",
 			"title": "Katsaus vaatimuksiin ja menetelmiin"
 		},
