@@ -1,11 +1,11 @@
 {
 	"about": {
 		"contribute": "Ako želite pridonijeti prijevodu softvera na drugi jeziku ili poboljšati postojeće prijevode, preporučujemo vam da <a href=\"https://github.com/LINCnil/pia/tree/master/src/assets/i18n\" target=\"_blank\">pročitate stranicu koja opisuje korake koje je potrebno slijediti.</a>.",
-		"description": "Ovaj alat izvorno je osmišljen od strane <a target=\"_blank\" href=\"https://www.cnil.fr\">Commission Nationale Informatique et Liberté (CNIL)</a>, francuskog tijela za zaštitu podataka, kako bi pomogao izvršiteljima obrade da budu sukladni s OUZP-om. It was developed by <a href=\"https://atnos.com\" target=\"_blank\">ATNOS</a>.<br>Ovaj softver je besplatan i otvoren. Ako se želite uključiti u ovaj projekt, dobrodošli ste preuzeti izvorni kod tvrtke Github, mijenjati ga i dijeliti s zajednicom.",
+		"description": "Ovaj alat izvorno je osmišljen od strane <a target=\"_blank\" href=\"https://www.cnil.fr/en/privacy-impact-assessment-pia\">Commission Nationale Informatique et Liberté (CNIL)</a>, francuskog tijela za zaštitu podataka, kako bi pomogao izvršiteljima obrade da budu sukladni s OUZP-om. It was developed by <a href=\"https://atnos.com\" target=\"_blank\">ATNOS</a>.<br>Ovaj softver je besplatan i otvoren. Ako se želite uključiti u ovaj projekt, dobrodošli ste preuzeti izvorni kod tvrtke Github, mijenjati ga i dijeliti s zajednicom.",
 		"licences": "Licence biblioteka:",
 		"title": "O alatu za PUP pia",
 		"translators": "Softver za PUP trenutno je dostupan na osamnaest jezika. Inačice na francuskom i engleskom jeziku omogućio je CNIL. Druge inačice rezultat su doprinosa sljedećih pojedinaca:",
-		"translators_name": "<ul><li>Croatian : <a target=\"_blank\" href=\"https://github.com/B2KapitalBA\">B2KapitalBA</a> ;</li><li>Czech : Jiří Grohmann, Manuel d’Orso ;</li><li>Danish : <a target=\"_blank\" href=\"https://github.com/moolsen\">Michael Drews Olsen</a> ;</li><li>Dutch : Ruud van Driel, Manuel d’Orso ;</li><li>English : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Estonian : Eva Arumets, Lauri Bender, Rebeka Dronia, Kärol Kibena, Simon Suuban, <a target=\"_blank\" href=\"https://kochpartners.ee/en/people/urmas-kukk/\">Urmas Kukk, <a target=\"_blank\" href=\"https://github.com/PrivacyAssessment1\">PrivacyAssessment1</a> ;</li><li>Finnish : <a target=\"_blank\" href=\"https://tietosuoja.fi/etusivu\">Tietosuojavaltuutetun toimisto</a> ;</li><li>French : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>German  : <a target=\"_blank\" href=\"https://github.com/kosmas58\">Kosmas Schütz</a> , Corina Scheiter (<a target=\"_blank\" href=\"https://www.datenschutz-bayern.de/\">BayLfD</a>) ;</li><li>Greek : <a target=\"_blank\" href=\"https://tzellis.gr\">Dimitris Tzellis</a> ;</li><li>Hungarian : <a target=\"_blank\" href=\"https://naih.hu/\">Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)</a> ;</li><li>Italian : Manuel d’Orso, Gianluca Markos, Antonio Caselli (<a target=\"_blank\" href=\"http://gpdp.it\">Garante per la Protezione dei Dai Personali (GPDP)</a>) ;</li><li>Lithuanian : Paulius Galubickas (<a target=\"_blank\" href=\"http://galubickas.lt\">Law firm Galubickas</a>) ;</li><li>Norwegian : <a target=\"_blank\" href=\"https://www.datatilsynet.no\">Datatilsynet</a> ;</li><li>Polish : <a target=\"_blank\" href=\"https://github.com/JoannaKar\">Joanna Karczewska</a> , Michal Mazur (<a target=\"_blank\" href=\"https://giodo.gov.pl\">Generalny Inspektor Ochrony Danych Osobowych (GIODO)</a>) ;</li><li>Portuguese : <a target=\"_blank\" href=\"https://github.com/bagois\">Barbara Gois</a> ;</li><li>Romanian : <a target=\"_blank\" href=\"https://github.com/webmyday\">webmyday</a> ;</li><li>Spanish : <a target=\"_blank\" href=\"https://github.com/ylachgar\">ylachgar</a> .</li></ul>",
+		"translators_name": "<ul><li>Croatian : <a target=\"_blank\" href=\"https://github.com/B2KapitalBA\">B2KapitalBA</a> ;</li><li>Czech : Jiří Grohmann, Manuel d’Orso ;</li><li>Danish : <a target=\"_blank\" href=\"https://github.com/moolsen\">Michael Drews Olsen</a> ;</li><li>Dutch : Ruud van Driel, Manuel d’Orso ;</li><li>English : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Estonian : Eva Arumets, Lauri Bender, Rebeka Dronia, Kärol Kibena, Simon Suuban, <a target=\"_blank\" href=\"https://kochpartners.ee/en/people/urmas-kukk/\">Urmas Kukk, <a target=\"_blank\" href=\"https://github.com/PrivacyAssessment1\">PrivacyAssessment1</a> ;</li><li>Finnish : <a target=\"_blank\" href=\"https://tietosuoja.fi/etusivu\">Tietosuojavaltuutetun toimisto</a> ;</li><li>French : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>German  : <a target=\"_blank\" href=\"https://github.com/kosmas58\">Kosmas Schütz</a> , Corina Scheiter (<a target=\"_blank\" href=\"https://www.datenschutz-bayern.de/\">BayLfD</a>) ;</li><li>Greek : <a target=\"_blank\" href=\"https://tzellis.gr\">Dimitris Tzellis</a> ;</li><li>Hungarian : <a target=\"_blank\" href=\"https://naih.hu/\">Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)</a> ;</li><li>Italian : Manuel d’Orso, Gianluca Markos, Antonio Caselli (<a target=\"_blank\" href=\"http://gpdp.it\">Garante per la Protezione dei Dai Personali (GPDP)</a>) ;</li><li>Lithuanian : Paulius Galubickas (<a target=\"_blank\" href=\"http://galubickas.lt\">Law firm Galubickas</a>) ;</li><li>Norwegian : <a target=\"_blank\" href=\"https://www.datatilsynet.no\">Datatilsynet</a> ;</li><li>Polish : <a target=\"_blank\" href=\"https://github.com/JoannaKar\">Joanna Karczewska</a> , Michal Mazur (<a target=\"_blank\" href=\"https://giodo.gov.pl\">Generalny Inspektor Ochrony Danych Osobowych (GIODO)</a>) ;</li><li>Portuguese : <a target=\"_blank\" href=\"https://github.com/bagois\">Barbara Gois</a> ;</li><li>Romanian : <a target=\"_blank\" href=\"https://github.com/webmyday\">webmyday</a> ;</li><li>Slovenian : <a target=\"_blank\" href=\"https://github.com/msunta\">msunta</a> ;</li><li>Spanish : <a target=\"_blank\" href=\"https://github.com/ylachgar\">ylachgar</a> .</li></ul>",
 		"version_number": "Verzija broj"
 	},
 	"action_plan": {
@@ -113,7 +113,7 @@
 			"ro": "Română",
 			"sl": "Slovenščina"
 		},
-		"logo_subtitle": "",
+		"logo_subtitle": "privacy impact assessment",
 		"logo_title": "Procjena učinka na privatnost",
 		"pia_example_link": "Primjer PUP-a",
 		"structures": "PIA template",
@@ -166,8 +166,8 @@
 		},
 		"infografics": {
 			"display": "Prikaži kartu procesa",
-			"download": "Preuzimanje karte procesa",
-			"file": "./assets/files/180409_fiche_risque_en_cmjk.pdf",
+			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"guide": "Pokažite PIA vodiče CNIL-a",
 			"hide": "Sakrij mapu procesa",
 			"title": "Pregled zahtjeva i metodologije"
 		},
@@ -182,8 +182,8 @@
 			"import_pia": "Uvezi PUP",
 			"import_structure": "Uvezi obrazac",
 			"item": {
-				"consult_pia": "Pogledaj PUP",
-				"edit_pia": "Uredi PUP",
+				"consult_pia": "Pogledaj",
+				"edit_pia": "Uredi",
 				"edit_structure": "Uredi obrazac",
 				"tools": {
 					"action_plan": "Prikaži<br>akcijski plan",
@@ -624,7 +624,7 @@
 			"PIA_METHOD_MES": {
 				"description": "(TRANSLATION REQUIRED) Planned controls are those originally put in place, before any analysis by the assessor. Corrective measures advised by the assessor will be stated in the action plan and will enable a second assessment of the severity and likelihood of the risk.",
 				"name": "(TRANSLATION REQUIRED) Planned and corrective controls",
-				"source": ""
+				"source": "WIKI Prijetnje_to_make_a_modifikacija_not_direktirani_podatci"
 			},
 			"PIA_ORG_AUD": {
 				"description": "Postojanje pravila i postupaka za dobivanje organizacije koja može upravljati i kontrolirati zaštitu osobnih podataka koji se kod nje nalaze.",
@@ -974,6 +974,7 @@
 	"pia": {
 		"attachments": {
 			"add": "Dodaj",
+			"download": "Preuzmite privitak",
 			"remove": "Ukloni",
 			"title": "Prilozi"
 		},
@@ -988,7 +989,6 @@
 			"display_action_plan": "Prikaži<br>akcijski plan",
 			"edition": "Izdanje",
 			"evaluation": "Evaluacija",
-			"exit_full_screen_mode": "",
 			"preview": "Kratki pregled"
 		},
 		"sections": {
@@ -1310,6 +1310,17 @@
 			"risks": "Rizici",
 			"title": "Akcijski plan"
 		},
+		"actions": {
+			"complete_download": "TO TRANSLATE - Download the full report",
+			"complete_download_desc": "TO TRANSLATE - Export in a .zip archive all the report content (.doc and pictures), attachments and the action plan in a .csv format.",
+			"individual_download": "TO TRANSLATE - Download elements of the report",
+			"individual_download_desc": "TO TRANSLATE - Export specific elements of the report.",
+			"individual_download_doc": "TO TRANSLATE - Texts (.doc)",
+			"individual_download_images": "TO TRANSLATE - Visual elements (.png) including the risk overview, the risk mapping and the action plan.",
+			"individual_download_select": "TO TRANSLATE - Select elements to export:",
+			"print": "TO TRANSLATE - Print the report",
+			"print_and_download": "TO TRANSLATE - Print and download"
+		},
 		"attachments": "Prilozi",
 		"concerned_people_name": "Mišljenja dotičnih osoba",
 		"concerned_people_opinion": "Mišljenja dotičnih osoba",
@@ -1330,7 +1341,7 @@
 		"csv_title_object": "Naslov",
 		"display_filters": {
 			"action_plan_content": "Prikaži akcijski plan",
-			"check_all": "TO TRANSLATE - Enable / disable all display filters",
+			"check_all": "Omogući / onemogući sve filtre prikaza",
 			"context_content": "Prikaži odjeljak \"Context\"",
 			"main_content": "Prikaži odjeljak \"PIA information\"",
 			"principles_content": "Prikaži odjeljak \"Fundamental principles\"",
@@ -1339,8 +1350,7 @@
 			"risks_overview_content": "Prikaži pregled rizika",
 			"title": "Prikaži filtere"
 		},
-		"download_csv": "Preuzmite izvezenu .CSV datoteku",
-		"download_images": "Preuzmi slike",
+		"download_csv": "TO TRANSLATE - Action plan (.csv)",
 		"dpo_name": "Ime SZP-a",
 		"dpo_opinion": "Mišljenje SZP-a",
 		"dpo_status": "Status SZP-a",
@@ -1350,8 +1360,6 @@
 			"3": "Važan",
 			"4": "Maksimalan"
 		},
-		"generate_docx": "TO TRANSLATE - Download the report (.doc)",
-		"generate_zip": "TO TRANSLATE - Download the full report (.zip)",
 		"modification_made": "Izmjene napravljene",
 		"people_search_status_nok": "Nije zatraženo mišljenje dotične osobe.",
 		"people_search_status_ok": "Zatraženo je mišljenje dotične osobe.",
@@ -1359,8 +1367,16 @@
 		"pia_author": "Ime autora",
 		"pia_name": "PUP",
 		"pia_validator": "Ime potvrditelja",
+		"preview_dpo_opinion": "TO TRANSLATE - DPO and data subjects opinion",
+		"preview_edition": "TO TRANSLATE - Editing",
+		"preview_evaluation": "TO TRANSLATE - Evaluation",
+		"preview_no_data": "TO TRANSLATE - No data to display.",
+		"preview_status": "TO TRANSLATE - Status",
+		"preview_subtitle": "TO TRANSLATE - General information",
+		"preview_title": "TO TRANSLATE - Preview",
+		"preview_validation": "TO TRANSLATE - Validation",
+		"preview_validation_section": "TO TRANSLATE - Validation",
 		"previous_page": "Natrag na prethodnu stranicu",
-		"print": "Ispiši",
 		"rejection_reason": "Razlog odbijanja",
 		"risks_cartography_title": "Mapiranje rizika",
 		"risks_overview_title": "Pregled rizika",
@@ -1384,7 +1400,6 @@
 		"responsible": "Osoba odgovorna za potvrđivanje PUP-a: ",
 		"signed_attachments_history": "Povijest potpisanih privitaka",
 		"tools": {
-			"action_plan": "Akcijski plan",
 			"dashboard": "Kontrolna ploča",
 			"display_pia": "Prikaži izvještaj"
 		},

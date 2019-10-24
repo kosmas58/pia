@@ -1,8 +1,8 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, ViewChild, OnInit, OnDestroy } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Subscription } from 'rxjs';
-
 import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-help',
@@ -10,14 +10,17 @@ import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
   styleUrls: ['./help.component.scss']
 })
 export class HelpComponent implements OnInit, OnDestroy {
+  @ViewChild('pdfViewerAutoLoad') pdfViewerAutoLoad;
+
   public tableOfTitles = [];
   public content;
   public activeElement: string;
   private helpSubscription: Subscription;
-  public pdfSrc = '/pdf-test.pdf';
+  public pdfSrc; // = '/pdf-test.pdf';
   public displayInfografics: boolean;
 
   constructor(
+    private domSanitizer: DomSanitizer,
     private httpClient: HttpClient,
     private _translateService: TranslateService
   ) {}
@@ -157,18 +160,8 @@ export class HelpComponent implements OnInit, OnDestroy {
    */
   toggleInfograficsContent(el) {
     const el2 = document.getElementById('infografics_file');
-    const el3 = document.getElementById('infografics_display');
-    const el4 = document.getElementById('infografics_hide');
 
     this.pdfSrc = el2.textContent;
     this.displayInfografics = !this.displayInfografics;
-
-    if (el.value === 'false') {
-      el.textContent = el3.textContent;
-      el.value = 'true';
-    } else {
-      el.textContent = el4.textContent;
-      el.value = 'false';
-    }
   }
 }

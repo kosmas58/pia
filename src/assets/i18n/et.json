@@ -1,7 +1,7 @@
 {
 	"about": {
 		"contribute": "Kui soovite panustada tarkvara eestikeelse tõlke paremaks tegemiseks soovitame lugeda<a href=\"https://github.com/LINCnil/pia/tree/master/src/assets/i18n\" target=\"_blank\">, kus selgitatakse mida on vaja selleks teha</a>.",
-		"description": "Käesolev abivahend on loodud<a target=\"_blank\" href=\"https://www.cnil.fr\">Commission Nationale Informatique et Liberté (CNIL)</a>, Prantsusmaa andmekaitse järelevalve asutus, abistamaks isikuandmete töötlemise vastavusse viimiseks Euroopa Liidu isikuandmete kaitse üldmääruse (EL) 2016/679 nõuetele ja nõuetele vastavuse tõendamiseks. It was developed by <a href=\"https://atnos.com\" target=\"_blank\">ATNOS</a>.<br>See on vabavara. Kui soovite panustada projekti, siis olete teretulnud ja võite lähtekoodi allalaadida Github-ist ning täiendada ja jagada seda.",
+		"description": "Käesolev abivahend on loodud<a target=\"_blank\" href=\"https://www.cnil.fr/en/privacy-impact-assessment-pia\">Commission Nationale Informatique et Liberté (CNIL)</a>, Prantsusmaa andmekaitse järelevalve asutus, abistamaks isikuandmete töötlemise vastavusse viimiseks Euroopa Liidu isikuandmete kaitse üldmääruse (EL) 2016/679 nõuetele ja nõuetele vastavuse tõendamiseks. It was developed by <a href=\"https://atnos.com\" target=\"_blank\">ATNOS</a>.<br>See on vabavara. Kui soovite panustada projekti, siis olete teretulnud ja võite lähtekoodi allalaadida Github-ist ning täiendada ja jagada seda.",
 		"licences": "Raamatukogu litsents:",
 		"title": "Andmekaitse mõjuhinnangu tarkvarast",
 		"translators": "Tarkvara on hetkel saadaval 18 keeles. Prantsus- ja ingliskeelne versioon on loodud CNIL-i poolt. Tõlked teistesse keeltesse on tehtud järgnevate panustajate poolt:",
@@ -113,7 +113,7 @@
 			"ro": "Română",
 			"sl": "Slovenščina"
 		},
-		"logo_subtitle": "",
+		"logo_subtitle": "privacy impact assessment",
 		"logo_title": "Andmekaitsealane mõjuhinnag",
 		"pia_example_link": "Mõjuhinnangu näidis",
 		"structures": "Vormid",
@@ -166,8 +166,8 @@
 		},
 		"infografics": {
 			"display": "Näita protsessikaarti",
-			"download": "Laadige protsessikaart alla",
-			"file": "./assets/files/180409_fiche_risque_en_cmjk.pdf",
+			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"guide": "Kuva CNILi PIA juhendid",
 			"hide": "Peida protsessikaart",
 			"title": "Ülevaade nõuetest ja metoodikast"
 		},
@@ -182,8 +182,8 @@
 			"import_pia": "Impordi mõjuhinnang",
 			"import_structure": "Impordi mõjuhinnang",
 			"item": {
-				"consult_pia": "Konsulteeri mõjuhinnangu koostamist",
-				"edit_pia": "Toimeta mõjuhinnagut",
+				"consult_pia": "TO TRANSLATE - Consult",
+				"edit_pia": "TO TRANSLATE - Edit",
 				"edit_structure": "Toimeta mõjuhinnagut",
 				"tools": {
 					"action_plan": "Näita<br>tegevuskava",
@@ -303,7 +303,7 @@
 			"PIA_DEF_ARCH": {
 				"description": "Protseduurid, mis säilitavad ja haldavad elektroonilisi arhiive, mis sisaldavad nende väärtust tagavaid isikuandmeid (eriti õiguslikku väärtust) kogu vajaliku perioodi vältel (ülekandmine, hoiustamine, migratsioon, ligipääs, eemaldamine, arhiveerimispoliitika, konfidentsiaalsuse kaitse, jne).",
 				"name": "Arhiveerimine",
-				"source": "Mesures_USE Arhiveerimine"
+				"source": "Mesures_USE Archiving"
 			},
 			"PIA_DEF_AUTH": {
 				"description": "Kõik ligipääsuga isikuandmetele (töötajad, lepingupooled ja kolmandad isikud) õigustatud isikud peaksid olema tuvastatud ainulaadse tuvastaja poolt. Vali autentimise meetod, et avada sessioonid, mis on konteksti, riski taset ja eeldatavat robustsust arvesse võttes sobivad. Soovitused: kui ei esine kõrgendatud riske võib kasutada salasõna; kuid, kui riskid on kõrgemad tuleb kasutada ühekordset salasõna ning tuleb vaikimisi muuta aktiveerimissalasõna, samuti kui osa salasõnast saadetakse SMS-iga, kaart koos PIN koodiga, elektrooniline sertifikaat või ükskõik milline teine tugev autentimise meede.",
@@ -313,7 +313,7 @@
 			"PIA_DEF_CHIF": {
 				"description": "Meede, mis muudab isikuandmed juurdepääsuõiguseta isikule loetamatuks (sümmeetriline või asümmeetriline krüpteerimine, teadaolevalt tugevate avalike algoritmide kasutamine, autentimise tõend, jne.).",
 				"name": "Krüpteerimine",
-				"source": "Mesures_US Krüpteerimine"
+				"source": "Mesures_US Encryption"
 			},
 			"PIA_DEF_CLO": {
 				"description": "Andmehaldusmeetodid, mis vähendavad isikuandmete korreleerimisvõimalust, seeläbi vähendades kõigi isikuandmete rikkumist. Näiteks tuvastades isikuandmed, mis on vajalikud ainult kindlaks äriprotsessiks ning eraldades need loogiliselt.",
@@ -348,7 +348,7 @@
 			"PIA_DEF_ENJ": {
 				"description": "Eeldatav kasu (organisatsioonile, andmesubjektidele, ühiskonnale üldiselt, jne.).",
 				"name": "Panused",
-				"source": "PIA1 p4 joonealune märkus 8"
+				"source": "PIA1 p4 footnote 8"
 			},
 			"PIA_DEF_EXA": {
 				"description": "Isikuandmed peavad olema õiged ja kui vajalik kaasajastatud; tarvitusele peab olema võetud kõik mõistlikud meetmed, et ebaõiged andmed oleks viivituseta eemaldatud või parandatud lähtudes andmete käitluse eesmärgist (õigsus). <br>Vaata <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/ET/TXT/HTML/?uri=CELEX:32016R0679&from=ET\"> üldmääruse 2016/679 art. 5.1 d)</a>",
@@ -358,7 +358,7 @@
 			"PIA_DEF_GRV": {
 				"description": "Tõsidus kujutab endast riski ulatust. See sõltub eelkõige potentsiaalsete mõjutajate kahjulikust iseloomust.",
 				"name": "Tõsidus",
-				"source": "PIA1 lk 6"
+				"source": "PIA1 page 6"
 			},
 			"PIA_DEF_LIM": {
 				"description": "Andmesubjektil on õigus nõuda vastutavalt töötlejalt isikuandmete töötlemise piiramist, vt <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/ET/TXT/HTML/?uri=CELEX:32016R0679&from=ET\">Üldmääruse 2016/679 Art. 18 </a>",
@@ -368,7 +368,7 @@
 			"PIA_DEF_LOG": {
 				"description": "Seadista logimissüsteem, mis võimaldab isikuandmetega seotud juhtumite varajast avastamist ning saada teavet, mida saab kasutada selliste juhtumite analüüsimisel või tõendeid uurimistegevuse jaoks esitada.",
 				"name": "Järelevalve",
-				"source": "Mesures_US Järelevalve"
+				"source": "Mesures_US Surveillance"
 			},
 			"PIA_DEF_MEN": {
 				"description": "Protseduur, mis hõlmab ühe või enama isiku toimingut andmeid toetavate vahendite kohta. Seda kasutatakse tahtlikult või muul viisil riskiallikate abil ning võib põhjustada välditava sündmuse.",
@@ -378,17 +378,17 @@
 			"PIA_DEF_MENA": {
 				"description": "Ohud seoses: - <strong>riistvaraga</strong>, mida kasutatakse sobimatult, mida jälgitakse, muudetakse või on kaotsi läinud (tundliku riistvara transportimine või kasutamine isiklikuks otstarbeks, teise isiku isikliku ekraani vaatamine ilma tema teadmata rongil viibides, jälgimine riistvaralise keylogger-iga, jne.)<br> - <strong>tarkvara</strong>, mida kasutatakse sobimatult, mida jälgitakse või muudetakse (privileegide tõstmine, konfiguratsiooniandmete kogumine, nakatamine pahatahtliku koodi poolt jne.)<br>- <strong>Arvuti kanalid</strong>, mida jälgitakse (Etherneti liikluse pealtkuulamine jne.)<br>- <strong>Inimese</strong>, keda jälgitakse, manipuleeritakse või kes kaovad (informatsiooni tahtmatu avalikustamine, sotsiaaltehnoloogia, ülesannete muutused)<br>- <strong>Dokumendid paberil</strong> mida jälgitakse või lähevad kaotsi (seoses meili vargusega, jne.)<br>- <strong>Paberi ülekande kanalid</strong> mida jälgitakse (ringluses olevate allkirjaartiklite lugemine, jne.)",
 				"name": "Ohud, mis võivad viia ebaseadusliku ligipääsuni",
-				"source": "PIAF Ühendatud objektid p44 ja 45"
+				"source": "PIAF Connected objects p44 and 45"
 			},
 			"PIA_DEF_MENI": {
 				"description": "<strong>Ohud seoses : </strong><br>- <strong>riistvaraga</strong> : mida kasutatakse sobimatult, koormatakse üle, muudetakse, kahjustatakse või mis lähevad kaotsi (ladustamisüksus on täis, töötlemisvõimsus on ülekoormatud, ühildumatu riistvara lisamine, mis põhjustb rikkeid, tulekahju, vahendi vargus või kaotsiminek, jne.)<br>- <strong>tarkvara</strong> : mida kasutatakse sobimatult, mis on ülekoormatud, muudetud, kahjustatud või kaotsi läinud (andmete kustutamine, andmebaasi suuruse ületamine, loogikapomm, andmete litsentsimiseks kasutatava tarkvara loa uuendamata jätmine, jne.)<br>- <strong>arvuti kanalid</strong> : mis on ülekoormatud, muudetud või kaotsi läinud (volitamata allalaadimine, interneti ühenduse kadumine, jne.)<br>- <strong>inimesed</strong> : kes on ülekoormatud, kahjustatud või kaotsi läinud (oskuste halb rakendamine, haigused, pensionile jäämine, jne.)<br>- <strong>paberdokumendid</strong> : mida on sobimatult kasutatud, mis on kahjustunud või kaotsi läinud (kustutamine, arhinveeritud dokumentide vananemine, dokumentide vargus või kaotsi minek, jne.)<br>- <strong>Paberi ülekande kanalid</strong> : mis on ülekoormatud, muudetud või kaotsi läinud (meilie kättetoimetamise peatamine streigi tõttu, kontorite või ruumide ümberpaigutamine, dokumente kättetoimetava ettevõtte kaotamine, paberkanalite ümberkorraldamine, jne.)",
 				"name": "Ohud, mis võivad kaasa tuua isikuandmete kadumise",
-				"source": "PIAF ühendatud objektid p44 ja 45, WIKI"
+				"source": "PIAF Connected Objects p44 and 45, WIKI"
 			},
 			"PIA_DEF_MENM": {
 				"description": "<strong>Ohud seoses : </strong><br>- <strong>riistvaraga</strong>, mida on muudetud (ühildumatu riistvara lisamine, mis põhjustab rikkeid, oluliste komponentide eemaldamine, jne.)<br>- <strong>tarkvara</strong>, mida kasutatakse sobimatult või muudetakse (andmebaasis olevate andmete soovimatud muudatused, operaatorivead, mis muudavad andmeid, jne.)<br>- <strong>arvuti kanalid</strong>, mida kasutatakse sobimatult (katkestatud andmete edasisaatmine, jne.)<br>- <strong>inimesed</strong>, kes on ülekoormatud või manipuleeritud (töötajatele ülesannete jagamine, mis ületavad töötajate võimeid, stress või negatiivsed muutused töötingimustes, mõjutused, jne.)<br>- Paberdokumendid, mida on muudetud (failis olevate arvude muutmine, originaali asendamine võltsinguga, jne.)<br>- <strong>Paberi ülekande kanalid</strong> mida on muudetud (muutus ühelt allkirja raamatult teisele, mitme vastuolulise dokumendi saatmine, jne.)",
 				"name": "Ohud, mis võivad viia isikuandmete soovimatu muutmiseni",
-				"source": "PIAF ühendatud objektid p43 ja 44, WIKI"
+				"source": "PIAF Connected Objects p43 and 44, WIKI"
 			},
 			"PIA_DEF_MES": {
 				"description": "Valige \"Kavandatavad või olemasolevad meetmed\"osast etteantud meetmete hulgast, kuhu saate juurde lisada kui see peaks olema vajalik.",
@@ -398,32 +398,32 @@
 			"PIA_DEF_MIN1": {
 				"description": "Andmeid importides võidakse tahtmatult koguda metaandmeid (nt EXIF andmeid koos lisatud pildifailiga). <br>Sellised metaandmed tuleb identifitseerida ja eemaldada, kui need ei ole põhitegevuse otstarbeks vajalikud.",
 				"name": "Filtreerimine ja eemaldamine",
-				"source": "PIAF seotud objektid p42 - WIKI"
+				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN2": {
 				"description": "Kui tundlikud andmed on saadud üldise teabe seeria osana või edastatud üksnes statistilisteks eesmärkideks, on võimalik neid konverteerida vähem tundlikusse vormi või pseudonümiseerida. Näiteks : <br>- kui süsteem kogub IP-aadressi kasutaja asukoha kindlaksmääramiseks statistilisel eesmärgil, saab IP-aadressi kustutada pärast linna või piirkonna tuvastamist<br>- kui süsteem tunnustab vidoematerjali valvekaameratest, tunneb ta ära inimesed, kes seisavad või liiguvad pildil ning saab need hägustada<br>- kui süsteem on arukas mõõtja saab ta kokku koguda energiakulu teatud aja jooksul seda reaalajas salvestamata",
 				"name": "Tundlikkuse vähendamine läbi konverteerimise ",
-				"source": "PIAF seotud objektid p42 - WIKI"
+				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN3": {
 				"description": "Süsteem saab kindlustada, et : <br>- kasutaja saab kasutada ressurssi või teenust ilma riskita oma identiteeti avalikustada (anonüümsed andmed)<br>- kasutaja saab kasutada ressurssi või teenust ilma riskita oma identiteeti avalikustada, kuid võib olla tuvstatav ja vastutav selle kasutamise eest (pseudonüümsed andmed)<br>- kasutaja saab ressursse või teenuseid mitmel otstarbel kasutada ilma riskita, et neid erinevaid kasutusviise oleks võimalik omavahel siduda (andmeid ei saa korreleerida)<br>- kasutaja saab kasutada ressurssi või teenust ilma ohuta, et keegi teine eelkõige kolmandad isikud saaksid jälgida, et ressurssi või teenust kasutatakse (mitte-jälitavus)<br>Eespool loetletud meetodi valik tuleb teha tuvastatud ohtude põhjal. Mõne ohu puhul eraelu puutumatusele on pseudonümiseerimine sobivam kui anonüümseks muutmine (nt, kui on vajadus jälgida tegevusi). Lisaks käsitletakse mõnda ohtu eraelu puutumatusele meetodeid kombineerides.",
 				"name": "Andmete identifitseeritava olemuse vähendamine",
-				"source": "PIAF seotud objektid p42 - WIKI"
+				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN4": {
 				"description": "Süsteemi saab jagada eraldiseisvateks osadeks eraldi juurdepääsuga kontrolli funktsioonidele. Andmeid saab ka jagada iseseisvate allsüsteemide vahel ja kontrollida iga allsüsteemiga kasutades erinevaid juurdepääsu kontrollmehhanisme. Kui allsüsteem on ohustatud, siis võib väheneda mõju ülejäänud andmetel.",
 				"name": "Andmete kogumise vähendamine",
-				"source": "PIAF seotud objektid p42 - WIKI"
+				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN5": {
 				"description": "Süsteem saab piirata juurdepääsu vastavalt \"vaja teada\" põhimõttele. Süsteem saab eristada tundlikud andmed ning rakendada konkreetseid juurdepääsu kontrollimise eeskirju. Süsteem saab ka krüpteerida tundlikud andmed, et kaitsta nende konfidentsiaalsust edastamise ja salvestamise vältel. Samuti tuleb kaitsta juurdepääs andmetöötluse käigus toodetud ajutistele küpsistele.",
 				"name": "Andmetele juurdepääsu piiramine",
-				"source": "PIAF seotud objektid p42 - WIKI"
+				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MINC": {
 				"description": "Vähenda riskide tõsidust vähendades ka isikuandmete kogust rangelt vajalikuni, et saavutada määratletud eesmärk. Vastasel juhul  andmeid ei koguta.",
 				"name": "Isikuandmete koguse vähendamine",
-				"source": "WIKI Minimisation_des_données _: _ adéquates, _pertinentes_et_limitées"
+				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIND": {
 				"description": "Vähenda riskide tõsidust vähendades andmeid, võttes meetmeid, mis on suunatud andmete tundlikuse vähendamisele nagu filtreerimine ja ebavajalike andmete eemaldamine, andmete pseudonümiseerimine jne.",
@@ -468,7 +468,7 @@
 			"PIA_DEF_RGPD": {
 				"description": "Regulatsioon, mis käsitleb füüsiliste isikute kaitset seoses iskuandmete töötlemisega ja selliste andmete vaba liikumist ning direktiivi 95/46/EÜ kehtetuks tunnistamisega.",
 				"name": "Isikuandmete kaitse üldmäärus 2016/679",
-				"source": "GDPR pealkiri"
+				"source": "RGPD päis"
 			},
 			"PIA_DEF_RT": {
 				"description": "Füüsiline või juriidiline isik, avalik-õiguslik isik, amet või muu üksus, kes üksi või koos teistega, määrab isikuandmete käitluse eesmärgid ja vahendid; kui eesmärgid ja vahendid selliseks käitluseks on määratud Euroopa Liidu liikmesriigi õigusega, siis revident või spetsiifilised tingimused tema nimetamiseks peavad olema määratud Euroopa liidu liikmestiigi õigusega.<br>Vaata <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/ET/TXT/HTML/?uri=CELEX:32016R0679&from=ET\">Üldmääruse 2016/679 Art. 4.7 </a>",
@@ -498,7 +498,7 @@
 			"PIA_DEF_VRA": {
 				"description": "Tõenäosuse väljendab riski tekkimise võimalikkust. See sõltub peamiselt toetava vara haavatavuse tasemest, kui see on ohus.",
 				"name": "Tõenäosus",
-				"source": "PIA1 lk 6"
+				"source": "PIA1 page 6"
 			},
 			"PIA_EX_DC": {
 				"description": "Hindamissüsteemi andmed....",
@@ -507,7 +507,7 @@
 			"PIA_EX_DCPC": {
 				"description": "<strong>Andmete tuvastamine</strong> : tsiviilstaatus, identiteet, vanus, jne. <br><strong>eraelu</strong> : elamisharjumused, perekonnaseis, jne. <br><strong>Kutseline elu</strong> : resümee, haridus ja professionaalne koolitus, auhinnad, jne. <br><strong>Ühendavad andmed </strong> : IP aadressid, sündmuste logid, jne.<br><strong>Asukoha andmed</strong> : reisid, GPS-i andmed, GSM andmed, jne.<br><strong>Muu</strong> : telefoni number, emaili aadress, jne.",
 				"name": "Ühised isikuandmed",
-				"source": "PIA2 vana versioon - WIKI"
+				"source": "PIA2 old version - WIKI"
 			},
 			"PIA_EX_DCPR": {
 				"description": "Filosoofilised- poliitilised- usu- ja ametiühingu vaated, seksuaalelu, terviseandmed, rassiline või etniline päritolu, andmed tervise või seksuaalelu kohta, süüteod, süüdimõistmised, julgeolekumeetmed, vt <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 9 and 10 of [GDPR]</a>.",
@@ -584,7 +584,7 @@
 			"PIA_LGL_DUR": {
 				"description": "Andmete säilitamise kestus peab olema määratud kõigile isikuandmetele ja peab vastama õigusaktides sätestatud tähtaegadele ja/või andmetöötluse vajadustele. Tähtajad võivad olla erinevad aktiivses kasutuses ja arhiveeritud andmetel.  Süsteem peab võimaldama andmete kustutamist, kas igakordse käsuga või automaatselt säilitamistähtaja lõppemisel. Samuti peab olema võimalik kustutada isikuandmete töötlemise toimingute logid, mida ei säilitata igavesti.",
 				"name": "Andmete säilitamise kestus",
-				"source": "PIAF ühendatud objektid lk 12"
+				"source": "PIAF Connected Objects p12"
 			},
 			"PIA_LGL_FIN": {
 				"description": "Isikuandmeid võib koguda täpselt ja selgelt kindlaksmääratud ning õiguspärastel eesmärkidel ning neid ei töödelda hiljem viisil, mis on nende eesmärkidega vastuolus. .</strong> <br>Vaata< a target=\"_blank\" href=\" https://eur-lex.europa.eu/legal-content/ET/TXT/HTML/?uri=CELEX:32016R0679&from=ET\">üldmääruse 2016/679 art. 5.1.b)</a>",
@@ -604,7 +604,7 @@
 			"PIA_LGL_MINI": {
 				"description": "Vähendamaks riske on oluline töödelda võimalikult vähe isikuandmeid, st ainult sellisel hulgas, mis on minimaalselt vajalik eesmärkide saavutamiseks.",
 				"name": "Võimalikult väheste andmete kogumine",
-				"source": "PIAF ühendatud objektid p10 - WIKI"
+				"source": "PIAF Connected Objects p10 - WIKI"
 			},
 			"PIA_LGL_ST": {
 				"description": "Volitatud töötlejaga sõlmitud töötlemisleping peab sisaldama üldmääruse 2016/679 art.28 loetletud tingimusi: töötlemise kestvus, maht, eesmärk, vastutava töötleja juhised, ettenähtud juhtudel järelevalveasutusest eelneva loa taotlemine, tõendite esitamine tõendamaks töötlemise vastavust üldmääruse 2016/679 nõuetele, rikkumistest viivitamata teatamine jne.",
@@ -624,7 +624,7 @@
 			"PIA_METHOD_MES": {
 				"description": "(TRANSLATION REQUIRED) Planned controls are those originally put in place, before any analysis by the assessor. Corrective measures advised by the assessor will be stated in the action plan and will enable a second assessment of the severity and likelihood of the risk.",
 				"name": "(TRANSLATION REQUIRED) Planned and corrective controls",
-				"source": ""
+				"source": "WIKI ohud_to_make_a_modification_not_directed_data"
 			},
 			"PIA_ORG_AUD": {
 				"description": "Meetmete ja tegevuste olemasolu, mis võimaldavad organisatsioonil juhtida ja tagada tema poolt käideldavate isikuandmete kaitset.",
@@ -642,7 +642,7 @@
 				"description": "Täpsustage kas keegi isiklikult on vastutav privaatsust ja isikuandmete kaitset puudutava seadusandluse ning reeglite rakendamise eest. Täpsustage, kas oragnisatsioonis on privaatsus- ja isikuandmete kaitse seire komitee (või samaväärne), mis vastutaks juhiste andmise ja järelkontrolli eest.",
 				"name": "Organisatsioon",
 				"placeholder": "Näidake kas andmekaitserollid ja -vastutus on määratletud.",
-				"source": "PIAF ühendatud objektid p24 - WIKI"
+				"source": "PIAF Connected Objects p24 - WIKI"
 			},
 			"PIA_ORG_PBD": {
 				"description": "Isikuandmete kaitse kõigisse uutesse tegevustesse lõimimise meetmete olemasolu.",
@@ -654,7 +654,7 @@
 				"description": "Teadlikkust tõstavate meetmete olemasolu, mida kasutatakse töölesaabujate ja isikuandmetega kokkupuutuvate töötajate puhul ning olukorras, kus töölt lahkub töötaja, kel oli juurdepääs isikuandmetele.",
 				"name": "Personali teadlikkus",
 				"placeholder": "Näidake, kas töötajate hulgas toimuvad teadlkikkust tõstvad tegevused.",
-				"source": "PIAF ühendatud objektid p24"
+				"source": "PIAF Connected Objects p24"
 			},
 			"PIA_ORG_POL": {
 				"description": "Tooge välja olulised andmekaitseaspektid seoses õiguslike alustega, mis määravad igale aspektile sobivad meetmed (ohud, aluspõhimõtted mida järgida, eesmärgid, rakendatavad reeglid jne.) igale sihtrühmale (kasutajad, IT-osakond, meetmete kujundajad jt.).",
@@ -672,19 +672,19 @@
 				"description": "Teovõimelise üksuse või tegutsemisreeglite olemasolu vahejuhtumite, mis võivad mõjutada andmesubjektide põhiõigusi ja privaatsust, menetluseks.",
 				"name": "Isikuandmetega seotud rikkumiste menetlus",
 				"placeholder": "Näidake siin, kas IT vahejuhtumeid käsitletakse kirjalikes ja katsetatud juhtimismenetlustes.",
-				"source": "PIAF ühendatud objektid p24 ja PIA3 p36 - WIKI"
+				"source": "PIAF Connected Objects p24 and PIA3 p36 - WIKI"
 			},
 			"PIA_SEC_BKP": {
 				"description": "Kasutavad meetodid ja vahendid, millega tagatakse isikuandmete kättesaadavus ja/või terviklikkus samaaegselt säilitades nende konfidentsiaalsust.",
 				"name": "Varukoopiad",
 				"placeholder": "Näidake siin kuidas käideldakse varukoopiaid. Täpsustage kuidas on tagtud varukoopiate turvaline säilitamine.",
-				"source": "PIAF ühendatud objektid p23 & PIA3 p27 - WIKI"
+				"source": "PIAF Connected Objects p23 & PIA3 p27  - WIKI"
 			},
 			"PIA_SEC_COMP": {
 				"description": "Tööjaamade kaitseks rakendatud meetmed (automaatne lukustumine, korrapärased tarkvarauuendused, konfiguratsioon, füüsiline turvalisus jms.) vähendamaks tarkvara kuritarvitamist (operatsioonisüsteemid, ärirakendused jms.) isikuandmete kahjulikuks mõjutamiseks.",
 				"name": "Tööjaamade haldus",
 				"placeholder": "Kirjeldage siin tööjaamade kaitseks rakendatavaid meetmeid",
-				"source": "PIAF ühendatud objektid p22 - WIKI"
+				"source": "PIAF Connected Objects p22 - WIKI"
 			},
 			"PIA_SEC_CTR": {
 				"description": "<strong>Kasutage ainult alltöövõtjaid, kes annavad piisavad tagatised</strong> (eelkõige eriteadmiste, usaldusväärsuse ja ressursside osas). Nõudke vastavat teavet enne lepingu sõlmimist. <br>Kontrollige ja dokumenteerige kõik vahendid mida alltöövõtja kasutab andmekaitse tagamiseks. Tagatised võivad olla: <br>- andmete krüpeerimine vastavuses nende tundlikusele või protseduuride olemasolu, mis välistavad juhusliku isikuandmetele ligipääsu teenuse osutamisel; <br>- krüpeerimine andmete edastamisel (N: HTTPS ühendus, VPN, jne.); <br>- võrgu kaitse, jälgitavus (logid, auditid), juurdepääsu õiguste haldamine, autentimine, jms. <br><strong>Leping peab sisaldama muuhulgas töötlemise kestust ja eesmärki ning poolt kohustusi. Jälgige, et leping sisaldaks: <br>- alltöövõtja kohustusi isikuandmete <strong>konfidentsiaalsuse osas</strong>;<br>- <strong>minimaalsed nõuded kasutajate audentimiseks</strong>;<br>- <strong>andmete taastamise ja/või hävitamise sh lepingu lõppemisel</strong>;<br>- <strong>intsidentide haldamise ja nendest teavitamise tingimused. </strong> Leping peaks sisaldama kohustust teavitada vastutavat töötlejat rikkumistst ja turvaintsidentidest, kui need puudutavad isikunadmeid.",
@@ -696,7 +696,7 @@
 				"description": "Isikuandmeid säilitavate vahenditele rakendatud meetodid vähendamaks riskide tõenäosust ja mõju.",
 				"name": "Toimeturvalisus",
 				"placeholder": "Kirjeldage siin kuidas teostatakse tarkvarauuendusi (operatsioonisüsteemidele, rakendustele jt.) ja andmeturbe parandavaid meetmeid.",
-				"source": "PIAF ühendatud objektid p22 - WIKI"
+				"source": "PIAF Connected Objects p22 - WIKI"
 			},
 			"PIA_SEC_LOG": {
 				"description": "Seirake sissemurdmist tuvastavaid ja ennetavaid süsteeme, et analüüsida võrguliiklust (juhtmega võrgud, juhtmevabad võrgud, raadiolained, fiiberoptiline jne.) reaalajas tuvastamaks kahtlasi tegevusi, mis viitavad küberrünnakule.",
@@ -708,102 +708,102 @@
 				"description": "Meetmed kirjeldamaks kuidas riistvara füüsilist hooldust korraldatakse, märkides, kas seda tellitakse organisatsiooniväliselt lepingupartnerilt.<br> Näidake, kas on lubatud rakenduste kaughooldus ja kui on, siis milliste kokkulepete alusel. Täpsustage, kuidas käideldakse rikkis riistvara.",
 				"name": "Hooldus",
 				"placeholder": "Kirjeldage siin kuidas korraldatakse riistvara füüsilist hooldust",
-				"source": "PIAF ühendatud objektid p23"
+				"source": "PIAF Connected Objects p23"
 			},
 			"PIA_SEC_MAL": {
 				"description": "Tööjaamades ja serverites rakendatavad meetmed kaitsmaks neid pahavara eest vähemturvaliste võrkudega suhtlemisel.",
 				"name": "Pahavara tõkestamine",
 				"placeholder": "Kirjeldage siin meetmeid, millega vähendatakse vähemturvaliste võrkudega suhtlemisel tekkivat riski.",
-				"source": "PIAF ühendatud objektid p22 - WIKI"
+				"source": "PIAF Connected Objects p22 - WIKI"
 			},
 			"PIA_SEC_MAT": {
 				"description": "Näidake siin meetmed, mis tagavad serverite ja tööjaamade füüsilise turvalisuse (turvaline hoiukoht, kaablite turvalisus, konfidentsiaalsusfiltrid, turvalisuskontroll enne utiliseerimist jne.).",
 				"name": "Riistvara turvalisus",
 				"placeholder": "Näidake siin meetmed, mis tagavad serverite ja tööjaamade füüsilise turvalisuse",
-				"source": "PIAF ühendatud objektid p23 - WIKI"
+				"source": "PIAF Connected Objects p23 - WIKI"
 			},
 			"PIA_SEC_NET": {
 				"description": "Meetmed sõltuvad andmetöötluseks kasutatava võrgu tüübist (isoleeritud, privaatne või Internett). Täpsustage tulemüüri liik, ründe tuvastuse süsteemid või muud aktiivsed või passiivsed vahendid, mis on rakendatud võrguturvalisuse tagamiseks.",
 				"name": "Võrguturvalisus",
 				"placeholder": "Näidake siin turvameetmeid võrgus, kus anmdetöötlus toimub",
-				"source": "PIAF ühendatud objektid p23"
+				"source": "PIAF Connected Objects p23"
 			},
 			"PIA_SEC_PHY": {
 				"description": "Füüsilise turvalisuse tagamise meetmed (tsoneerimine, külastajate saatmine, sissepääsulubade kandmine, lukustatud uksed jne.). Näidake kas sissemurdmise tuvastamiseks kasutatakse häiresüsteemi.",
 				"name": "Füüsilise juurdepääsu kontrollimine",
 				"placeholder": "Näidake siin kuidas kontrollitakse füüsilist juurdepääsu andmetöötluse alale.",
-				"source": "PIAF ühendatud objektid p23"
+				"source": "PIAF Connected Objects p23"
 			},
 			"PIA_SEC_PROT": {
 				"description": "Tulekahju ärahoidmise, avastamise ja tõrjumise meetmed. Kui asjakohane, märkige veekahjustuse ennetamise meetmed. Samuti täpsustage elektrivarustuse jälgimise ja tagamise meetmed.",
 				"name": "Kaitse mitte-inimtekkeliste riskide eest",
 				"placeholder": "Näidake siin meetodid hoidumaks mitte-inimtekkelistest riskidest.",
-				"source": "PIAF ühendatud objektid p23 - WIKI"
+				"source": "PIAF Connected Objects p23 - WIKI"
 			},
 			"PIA_SEC_SRC": {
 				"description": "Tegevuskoha dokumenteerimine, milles tuvastatakse, et piirkond ei ole looduskatastroofi ohus (üleujutus, keemiatööstuse lähedus, maavärin või vulkaaniline tegevus jne.). Märkige samal alal hoitavad ohtlikud ained.",
 				"name": "Riskiallikate vältimine",
 				"placeholder": "Näidake siin, kas tegevuskohas on loodukatastroofide ohtu",
-				"source": "PIAF ühendatud objektid p23 - WIKI"
+				"source": "PIAF Connected Objects p23 - WIKI"
 			},
 			"PIA_SEC_WEB": {
 				"description": "Võrgulehekülgede kaitseks rakendatud meetmed.",
 				"name": "Võrgulehekülgede turvalisus",
 				"placeholder": "Näidake rakendatud võrgulehekülgede kaitsemeetemid.",
-				"source": "PIAF ühendatud objektid p22 - WIKI"
+				"source": "PIAF Connected Objects p22 - WIKI"
 			},
 			"PIA_TEC_ANO": {
 				"description": "Näidake siin kas anonümiseerimise meetmed on kasutusele võetud, kui on, siis millised ja milleks. <br>Ärge unustage selgelt eristada anaonüümseid ja pseudoanonüümseid andmeid.",
 				"name": "Anonümiseerimine",
 				"placeholder": "Näidake siin kasutatavaid anonümiseerimise mehhanisme",
-				"source": "PIAF ühendatud objektid lk 21"
+				"source": "PIAF Connected Objects p21"
 			},
 			"PIA_TEC_ARCH": {
 				"description": "Kui asjakohane, siis kirjeldage arhiivihalduse tegevusi (vastuvõtt, säilitamine, päringud jt.) mille eest vastutate. Määratlege arhiveerimisrollid (looja, vahendaja jt.) ja arhiveerimismeetodid. Märkige kui andmed võivad sattuda avalikku arhiivi.",
 				"name": "Arhiveerimine",
 				"placeholder": "Näidake siin kas kasutatakse säilitatavate andmete terviklikkuse kontrollimise meetmeid, milliseid ja millisel eesmärgil.",
-				"source": "PIAF ühendatud objektid p22 - WIKI"
+				"source": "PIAF Connected Objects p22 - WIKI"
 			},
 			"PIA_TEC_CHIF": {
 				"description": "Kasutuselevõetud meetmed, et <strong> säilitatud andmed (andmebaasis, tagavarakoopias jm), samuti krüpteerimisvõtmete haldus (loomine, säilitamine, muutmine andmete kompromiteerimise kahtluse korral jne).<br> Kirjeldage andmevoole rakendatud krüteerimismeetmeid (VPN, TLS jt) kasutatud andmetöötlusel.",
 				"name": "Krüpteerimine",
 				"placeholder": "Kirjeldage siin andmete kofidentsiaalsust tagavad meetmed",
-				"source": "PIAF ühendatud objektid lk 21"
+				"source": "PIAF Connected Objects p21"
 			},
 			"PIA_TEC_CLO": {
 				"description": "Andmete eraldamine aitab vähendada isikuandmete kokkuviimise võimalust ja kõigi isikuandmete avalikuks tuleku võimalust.",
 				"name": "Andmete eraldamine",
 				"placeholder": "Siin näidake ära kas eraldamine protsess on kavandatud ja kuidas kuidas seda läbi viiakse.",
-				"source": "PIAF ühendatud objektid lk 21"
+				"source": "PIAF Connected Objects p21"
 			},
 			"PIA_TEC_CTLA": {
 				"description": "Kasutajakontode moodustamise ja isikule omistamise meetodid. Täpsustage milliseid <strong>autentimis</strong> meetmeid kasutatakse. Kui asjakohane, tooge välja salasõnadele kehtivad reeglid (vähim pikkus, nõutavad koostisosad, kehtivusaeg, ebaõnnestunud autentimiskordade arv, kuni juurdepääs lukustatakse jms.).",
 				"name": "Loogiline juurdepääsu kontroll",
 				"placeholder": "Näidake siin kuidas on kasutajaprofiilid moodustatud ja isikule omistatud.",
-				"source": "PIAF ühendatud objektid lk 21"
+				"source": "PIAF Connected Objects p21"
 			},
 			"PIA_TEC_LOG": {
 				"description": "Jälgitavust ja logide käitlust määravad meetmed.",
 				"name": "Jälgitavus (logimine)",
 				"placeholder": "Näidake siin kas sündmusi logitakse ja kui kaua neid logisid säilitatakse.",
-				"source": "PIAF ühendatud objektid p22"
+				"source": "PIAF Connected Objects p22"
 			},
 			"PIA_TEC_MINI": {
 				"description": "Kasutada võib järgnevaid meetmeid: väljasõelumine ja eemaldamine, muutmisega tundlikkuse vähendamine, tuvastava loomuse vähendamine, andmete hajutamine, andmetele juurdepääsu piiramine",
 				"name": "Isikuandmete koguse minimeerimine",
 				"placeholder": "Näidake siin isikuandmete kasutamise meetmeid, mida rakendatakse riskide tõsiduse vähendamiseks",
-				"source": "PIAF ühendatud objektid p40"
+				"source": "PIAF Connected Objects p40"
 			},
 			"PIA_TEC_PAP": {
 				"description": "Näidake kus ja kuidas isikuandmeid sisaldavaid paberdokumente välja trükitakse, säilitatakse, hävitatakse ja asendatakse.",
 				"name": "Paberdokumentide turvalisus",
 				"placeholder": "Näidake kas on rakendatud paberdokumentide terviklikkuse seire meetmed, millised ja mis eesmärgil.",
-				"source": "PIAF ühendatud objektid p22"
+				"source": "PIAF Connected Objects p22"
 			},
 			"PIA_VAL_ACT": {
 				"description": "hindaja poolt soovitatud korrigeerivad meetmed, tegevuskava koostamisel määratakse igale tegevusele vastutav isik, sagedus, keerulisus, maksumus ja edenemine",
 				"name": "Tegevuskava",
-				"source": "Puudub"
+				"source": "None"
 			},
 			"PIA_VAL_CART": {
 				"description": "Joonis illustreerib head turvalisuspraktikat, vastausväärtusega, mis on lisatud igale eelmisele sammule neile antud hinnangute põhjal.",
@@ -974,6 +974,7 @@
 	"pia": {
 		"attachments": {
 			"add": "Lisa",
+			"download": "Laadige manus alla",
 			"remove": "Eemalda",
 			"title": "Manused"
 		},
@@ -988,7 +989,6 @@
 			"display_action_plan": "Näita<br>tegevuskava",
 			"edition": "Versioon",
 			"evaluation": "Hinnang",
-			"exit_full_screen_mode": "",
 			"preview": "Eelvaade"
 		},
 		"sections": {
@@ -1310,6 +1310,17 @@
 			"risks": "Riskid",
 			"title": "Tegevuskava"
 		},
+		"actions": {
+			"complete_download": "TO TRANSLATE - Download the full report",
+			"complete_download_desc": "TO TRANSLATE - Export in a .zip archive all the report content (.doc and pictures), attachments and the action plan in a .csv format.",
+			"individual_download": "TO TRANSLATE - Download elements of the report",
+			"individual_download_desc": "TO TRANSLATE - Export specific elements of the report.",
+			"individual_download_doc": "TO TRANSLATE - Texts (.doc)",
+			"individual_download_images": "TO TRANSLATE - Visual elements (.png) including the risk overview, the risk mapping and the action plan.",
+			"individual_download_select": "TO TRANSLATE - Select elements to export:",
+			"print": "TO TRANSLATE - Print the report",
+			"print_and_download": "TO TRANSLATE - Print and download"
+		},
 		"attachments": "Manused",
 		"concerned_people_name": "Puudutatud isikute arvmused",
 		"concerned_people_opinion": "Puudutatud isikute arvamused",
@@ -1330,7 +1341,7 @@
 		"csv_title_object": "Pealkiri",
 		"display_filters": {
 			"action_plan_content": "Kuva tegevuskava",
-			"check_all": "TO TRANSLATE - Enable / disable all display filters",
+			"check_all": "Kõigi kuvafiltrite lubamine / keelamine",
 			"context_content": "Kuva jaotis \"Sisu\"",
 			"main_content": "Kuva jaotis \"Mõjuhinnangu informatsioon\"",
 			"principles_content": "Kuva jaotis \"Põhiprintsiibid\"",
@@ -1339,8 +1350,7 @@
 			"risks_overview_content": "Kuva riskide ülevaade",
 			"title": "Kuva filtrid"
 		},
-		"download_csv": "Laadi alla CSV-eksport",
-		"download_images": "Laadi alla pildid",
+		"download_csv": "TO TRANSLATE - Action plan (.csv)",
 		"dpo_name": "Mõjuhinnangu nimi",
 		"dpo_opinion": "Andmekaitsespetsialisti arvamus",
 		"dpo_status": "Mõjuhinnangu staatus",
@@ -1350,8 +1360,6 @@
 			"3": "Oluline",
 			"4": "Maksimaalne"
 		},
-		"generate_docx": "TO TRANSLATE - Download the report (.doc)",
-		"generate_zip": "TO TRANSLATE - Download the full report (.zip)",
 		"modification_made": "Tehtud muudatused",
 		"people_search_status_nok": "Puudatud isikute arvmus ei ole küsitud",
 		"people_search_status_ok": "Puudutatud isikute arvamus on küsitud",
@@ -1359,8 +1367,16 @@
 		"pia_author": "Autori nimi",
 		"pia_name": "Mõjuhinnang",
 		"pia_validator": "Valideerija nimi",
+		"preview_dpo_opinion": "TO TRANSLATE - DPO and data subjects opinion",
+		"preview_edition": "TO TRANSLATE - Editing",
+		"preview_evaluation": "TO TRANSLATE - Evaluation",
+		"preview_no_data": "TO TRANSLATE - No data to display.",
+		"preview_status": "TO TRANSLATE - Status",
+		"preview_subtitle": "TO TRANSLATE - General information",
+		"preview_title": "TO TRANSLATE - Preview",
+		"preview_validation": "TO TRANSLATE - Validation",
+		"preview_validation_section": "TO TRANSLATE - Validation",
 		"previous_page": "Tagasi eelmisele lehele",
-		"print": "Prindi",
 		"rejection_reason": "Tagasilükkamise põhjus",
 		"risks_cartography_title": "Riskide kaarditamine",
 		"risks_overview_title": "Riskide ülevaade",
@@ -1384,7 +1400,6 @@
 		"responsible": "Mõjuhinnagu kinnitamise eest vastutav isik: ",
 		"signed_attachments_history": "Allkirjastatud manuste ajalugu",
 		"tools": {
-			"action_plan": "Tegevuskava",
 			"dashboard": "Töölaud",
 			"display_pia": "Näita raportit"
 		},

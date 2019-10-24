@@ -1,11 +1,11 @@
 {
 	"about": {
 		"contribute": "Se deseja contribuir com a tradução do software em outro idioma ou melhorar as traduções existentes, recomendamos que <a href=\"https://github.com/LINCnil/pia/tree/master/src/assets/i18n\" target=\"_blank\">leia a página descrevendo os passos a seguir</a>.",
-		"description": "Esta ferramenta foi originalmente desenhada pelo <a target=\"_blank\" href=\"https://www.cnil.fr\">Comissão Nacional da Informática e das Liberdades (CNIL)</a>, Autoridade Francesa de Proteção de Dados, para ajudar o subcontratante a ser compatível com o GDPR. It was developed by <a href=\"https://atnos.com\" target=\"_blank\">ATNOS</a>.<br>Este software é gratuito e de código aberto. Caso pretenda se envolver neste projeto, poderá baixar o código fonte do Github, modificá-lo e compartilhá-lo com a comunidade.",
+		"description": "Esta ferramenta foi originalmente desenhada pelo <a target=\"_blank\" href=\"https://www.cnil.fr/en/privacy-impact-assessment-pia\">Comissão Nacional da Informática e das Liberdades (CNIL)</a>, Autoridade Francesa de Proteção de Dados, para ajudar o subcontratante a ser compatível com o GDPR. It was developed by <a href=\"https://atnos.com\" target=\"_blank\">ATNOS</a>.<br>Este software é gratuito e de código aberto. Caso pretenda se envolver neste projeto, poderá baixar o código fonte do Github, modificá-lo e compartilhá-lo com a comunidade.",
 		"licences": "Licensas das bibliotecas:",
 		"title": "Sobre a Ferramenta PIA",
 		"translators": "O software PIA está atualmente disponível em dezoito idiomas. As versões francesa e inglesa são fornecidas pelo CNIL. As outras versões resultam das contribuições dos seguintes indivíduos:",
-		"translators_name": "<ul><li>Croatian : <a target=\"_blank\" href=\"https://github.com/B2KapitalBA\">B2KapitalBA</a> ;</li><li>Czech : Jiří Grohmann, Manuel d’Orso ;</li><li>Danish : <a target=\"_blank\" href=\"https://github.com/moolsen\">Michael Drews Olsen</a> ;</li><li>Dutch : Ruud van Driel, Manuel d’Orso ;</li><li>English : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Estonian : Eva Arumets, Lauri Bender, Rebeka Dronia, Kärol Kibena, Simon Suuban, <a target=\"_blank\" href=\"https://kochpartners.ee/en/people/urmas-kukk/\">Urmas Kukk, <a target=\"_blank\" href=\"https://github.com/PrivacyAssessment1\">PrivacyAssessment1</a> ;</li><li>Finnish : <a target=\"_blank\" href=\"https://tietosuoja.fi/etusivu\">Tietosuojavaltuutetun toimisto</a> ;</li><li>French : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>German  : <a target=\"_blank\" href=\"https://github.com/kosmas58\">Kosmas Schütz</a> , Corina Scheiter (<a target=\"_blank\" href=\"https://www.datenschutz-bayern.de/\">BayLfD</a>) ;</li><li>Greek : <a target=\"_blank\" href=\"https://tzellis.gr\">Dimitris Tzellis</a> ;</li><li>Hungarian : <a target=\"_blank\" href=\"https://naih.hu/\">Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)</a> ;</li><li>Italian : Manuel d’Orso, Gianluca Markos, Antonio Caselli (<a target=\"_blank\" href=\"http://gpdp.it\">Garante per la Protezione dei Dai Personali (GPDP)</a>) ;</li><li>Lithuanian : Paulius Galubickas (<a target=\"_blank\" href=\"http://galubickas.lt\">Law firm Galubickas</a>) ;</li><li>Norwegian : <a target=\"_blank\" href=\"https://www.datatilsynet.no\">Datatilsynet</a> ;</li><li>Polish : <a target=\"_blank\" href=\"https://github.com/JoannaKar\">Joanna Karczewska</a> , Michal Mazur (<a target=\"_blank\" href=\"https://giodo.gov.pl\">Generalny Inspektor Ochrony Danych Osobowych (GIODO)</a>) ;</li><li>Portuguese : <a target=\"_blank\" href=\"https://github.com/bagois\">Barbara Gois</a> ;</li><li>Romanian : <a target=\"_blank\" href=\"https://github.com/webmyday\">webmyday</a> ;</li><li>Spanish : <a target=\"_blank\" href=\"https://github.com/ylachgar\">ylachgar</a> .</li></ul>",
+		"translators_name": "<ul><li>Croatian : <a target=\"_blank\" href=\"https://github.com/B2KapitalBA\">B2KapitalBA</a> ;</li><li>Czech : Jiří Grohmann, Manuel d’Orso ;</li><li>Danish : <a target=\"_blank\" href=\"https://github.com/moolsen\">Michael Drews Olsen</a> ;</li><li>Dutch : Ruud van Driel, Manuel d’Orso ;</li><li>English : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Estonian : Eva Arumets, Lauri Bender, Rebeka Dronia, Kärol Kibena, Simon Suuban, <a target=\"_blank\" href=\"https://kochpartners.ee/en/people/urmas-kukk/\">Urmas Kukk, <a target=\"_blank\" href=\"https://github.com/PrivacyAssessment1\">PrivacyAssessment1</a> ;</li><li>Finnish : <a target=\"_blank\" href=\"https://tietosuoja.fi/etusivu\">Tietosuojavaltuutetun toimisto</a> ;</li><li>French : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>German  : <a target=\"_blank\" href=\"https://github.com/kosmas58\">Kosmas Schütz</a> , Corina Scheiter (<a target=\"_blank\" href=\"https://www.datenschutz-bayern.de/\">BayLfD</a>) ;</li><li>Greek : <a target=\"_blank\" href=\"https://tzellis.gr\">Dimitris Tzellis</a> ;</li><li>Hungarian : <a target=\"_blank\" href=\"https://naih.hu/\">Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)</a> ;</li><li>Italian : Manuel d’Orso, Gianluca Markos, Antonio Caselli (<a target=\"_blank\" href=\"http://gpdp.it\">Garante per la Protezione dei Dai Personali (GPDP)</a>) ;</li><li>Lithuanian : Paulius Galubickas (<a target=\"_blank\" href=\"http://galubickas.lt\">Law firm Galubickas</a>) ;</li><li>Norwegian : <a target=\"_blank\" href=\"https://www.datatilsynet.no\">Datatilsynet</a> ;</li><li>Polish : <a target=\"_blank\" href=\"https://github.com/JoannaKar\">Joanna Karczewska</a> , Michal Mazur (<a target=\"_blank\" href=\"https://giodo.gov.pl\">Generalny Inspektor Ochrony Danych Osobowych (GIODO)</a>) ;</li><li>Portuguese : <a target=\"_blank\" href=\"https://github.com/bagois\">Barbara Gois</a> ;</li><li>Romanian : <a target=\"_blank\" href=\"https://github.com/webmyday\">webmyday</a> ;</li><li>Slovenian : <a target=\"_blank\" href=\"https://github.com/msunta\">msunta</a> ;</li><li>Spanish : <a target=\"_blank\" href=\"https://github.com/ylachgar\">ylachgar</a> .</li></ul>",
 		"version_number": "Número da versão"
 	},
 	"action_plan": {
@@ -113,7 +113,7 @@
 			"ro": "Română",
 			"sl": "Slovenščina"
 		},
-		"logo_subtitle": "Privacy Impact Assessment",
+		"logo_subtitle": "privacy impact assessment",
 		"logo_title": "Avaliação de Impacto da Proteção de Dados",
 		"pia_example_link": "Exemplo PIA",
 		"structures": "Modelos de PIA",
@@ -166,8 +166,8 @@
 		},
 		"infografics": {
 			"display": "Mostrar mapa do processo",
-			"download": "Download do mapa do processo",
-			"file": "./assets/files/180409_fiche_risque_en_cmjk.pdf",
+			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"guide": "Mostrar Guias PIA da CNIL",
 			"hide": "Ocultar mapa do processo",
 			"title": "Uma visão geral dos requisitos e metodologia"
 		},
@@ -182,8 +182,8 @@
 			"import_pia": "Importar análise PIA",
 			"import_structure": "Importar modelo",
 			"item": {
-				"consult_pia": "Consultar análise PIA",
-				"edit_pia": "Editar análise PIA",
+				"consult_pia": "Consultar",
+				"edit_pia": "Editar",
 				"edit_structure": "Editar modelo",
 				"tools": {
 					"action_plan": "Exibir<br>plano de ação",
@@ -624,7 +624,7 @@
 			"PIA_METHOD_MES": {
 				"description": "(TRANSLATION REQUIRED) Planned controls are those originally put in place, before any analysis by the assessor. Corrective measures advised by the assessor will be stated in the action plan and will enable a second assessment of the severity and likelihood of the risk.",
 				"name": "(TRANSLATION REQUIRED) Planned and corrective controls",
-				"source": ""
+				"source": "Ameaças WIKI_para_make_a_modification_not_directed_data"
 			},
 			"PIA_ORG_AUD": {
 				"description": "Existência de uma política e processos para obter uma organização capaz de gerenciar e controlar a proteção de dados pessoais contidos nela.",
@@ -974,6 +974,7 @@
 	"pia": {
 		"attachments": {
 			"add": "Adicionar",
+			"download": "Faça o download do anexo",
 			"remove": "Remover",
 			"title": "Anexos"
 		},
@@ -988,7 +989,6 @@
 			"display_action_plan": "Exibir<br>plano de ação",
 			"edition": "Edição",
 			"evaluation": "Avaliação",
-			"exit_full_screen_mode": "",
 			"preview": "Pré-visualização"
 		},
 		"sections": {
@@ -1310,6 +1310,17 @@
 			"risks": "Riscos",
 			"title": "Plano de ação"
 		},
+		"actions": {
+			"complete_download": "TO TRANSLATE - Download the full report",
+			"complete_download_desc": "TO TRANSLATE - Export in a .zip archive all the report content (.doc and pictures), attachments and the action plan in a .csv format.",
+			"individual_download": "TO TRANSLATE - Download elements of the report",
+			"individual_download_desc": "TO TRANSLATE - Export specific elements of the report.",
+			"individual_download_doc": "TO TRANSLATE - Texts (.doc)",
+			"individual_download_images": "TO TRANSLATE - Visual elements (.png) including the risk overview, the risk mapping and the action plan.",
+			"individual_download_select": "TO TRANSLATE - Select elements to export:",
+			"print": "TO TRANSLATE - Print the report",
+			"print_and_download": "TO TRANSLATE - Print and download"
+		},
 		"attachments": "Anexos",
 		"concerned_people_name": "Opiniões de partes interessadas",
 		"concerned_people_opinion": "Opiniões de partes interessadas",
@@ -1330,7 +1341,7 @@
 		"csv_title_object": "Título",
 		"display_filters": {
 			"action_plan_content": "Exibir plano de ação",
-			"check_all": "TO TRANSLATE - Enable / disable all display filters",
+			"check_all": "Ativar / desativar todos os filtros de exibição",
 			"context_content": "Exibir secção \"Contexto\"",
 			"main_content": "Exibir secção \"Informações da análise PIA\"",
 			"principles_content": "Exibir secção \"Princípios fundamentais\"",
@@ -1339,8 +1350,7 @@
 			"risks_overview_content": "Exibir visão geral dos riscos",
 			"title": "Exibir filtros"
 		},
-		"download_csv": "Faça o download da exportação em CSV",
-		"download_images": "Descarregar imagens",
+		"download_csv": "TO TRANSLATE - Action plan (.csv)",
 		"dpo_name": "Nome do DPO",
 		"dpo_opinion": "Opinião do DPO",
 		"dpo_status": "Estado do DPO",
@@ -1350,8 +1360,6 @@
 			"3": "Significante",
 			"4": "Máximo"
 		},
-		"generate_docx": "TO TRANSLATE - Download the report (.doc)",
-		"generate_zip": "TO TRANSLATE - Download the full report (.zip)",
 		"modification_made": "Modificações feitas",
 		"people_search_status_nok": "A opinião das partes em questão não foi solicitada.",
 		"people_search_status_ok": "A opinião das partes em questão foi solicitada.",
@@ -1359,8 +1367,16 @@
 		"pia_author": "Nome do autor",
 		"pia_name": "PIA",
 		"pia_validator": "Nome do validador",
+		"preview_dpo_opinion": "TO TRANSLATE - DPO and data subjects opinion",
+		"preview_edition": "TO TRANSLATE - Editing",
+		"preview_evaluation": "TO TRANSLATE - Evaluation",
+		"preview_no_data": "TO TRANSLATE - No data to display.",
+		"preview_status": "TO TRANSLATE - Status",
+		"preview_subtitle": "TO TRANSLATE - General information",
+		"preview_title": "TO TRANSLATE - Preview",
+		"preview_validation": "TO TRANSLATE - Validation",
+		"preview_validation_section": "TO TRANSLATE - Validation",
 		"previous_page": "Voltar para a página anterior",
-		"print": "Imprimir",
 		"rejection_reason": "Motivo da rejeição",
 		"risks_cartography_title": "Mapeamento de riscos",
 		"risks_overview_title": "Visão geral dos riscos",
@@ -1384,7 +1400,6 @@
 		"responsible": "Responsável pela validação da análise PIA:",
 		"signed_attachments_history": "Histórico de anexos subscritos",
 		"tools": {
-			"action_plan": "Plano de ação",
 			"dashboard": "Painel",
 			"display_pia": "Exibir análise PIA"
 		},

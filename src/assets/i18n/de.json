@@ -1,11 +1,11 @@
 {
 	"about": {
 		"contribute": "Wenn Sie zur Übersetzung des Tools oder zur Verbesserung der bereits vorgeschlagenen beitragen möchten, laden wir Sie ein, <a href=\"https://github.com/LINCnil/pia/tree/master/src/assets/i18n\" target=\"_blank\">die Seite mit den folgenden Schritten zu lesen</a>.",
-		"description": "Dieses Tool wurde ursprünglich von der französischen Datenschutzbehörde <a target=\"_blank\" href=\"https://www.cnil.fr\"> Nationale Kommission für Informatik und Freiheit (CNIL) </a> entwickelt, um dem Verantwortlichen zu helfen, mit der DS-GVO konform zu sein. It was developed by <a href=\"https://atnos.com\" target=\"_blank\">ATNOS</a>.<br>Diese Software ist kostenlos und offen. Wenn Sie sich an diesem Projekt beteiligen möchten, können Sie den Quellcode von Github herunterladen, ändern und mit anderen in der Community teilen.",
+		"description": "Dieses Tool wurde ursprünglich von der französischen Datenschutzbehörde <a target=\"_blank\" href=\"https://www.cnil.fr/en/privacy-impact-assessment-pia\"> Nationale Kommission für Informatik und Freiheit (CNIL) </a> entwickelt, um dem Verantwortlichen zu helfen, mit der DS-GVO konform zu sein. Es wurde von <a href=\"https://atnos.com\" target=\"_blank\">ATNOS</a> entwickelt.<br>Diese Software ist kostenlos und offen. Wenn Sie sich an diesem Projekt beteiligen möchten, können Sie den Quellcode von Github herunterladen, ändern und mit anderen in der Community teilen.",
 		"licences": "Bibliothekslizenzen:",
 		"title": "Über das Werkzeug PIA",
 		"translators": "Das Tool ist derzeit in achtzehn Sprachen verfügbar. Die französische und die englische Version werden von der CNIL bereitgestellt. Die anderen Versionen sind das Ergebnis der Beiträge der folgenden Personen:",
-		"translators_name": "<ul><li>Deutsch : <a target=\"_blank\" href=\"https://github.com/kosmas58\">Kosmas Schütz</a> , Corina Scheiter (<a target=\"_blank\" href=\"https://www.datenschutz-bayern.de/\">BayLfD</a>) ;</li><li>Dänisch : <a target=\"_blank\" href=\"https://github.com/moolsen\">Michael Drews Olsen</a> ;</li><li>Englisch : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Estnisch : Eva Arumets, Lauri Bender, Rebeka Dronia, Kärol Kibena, Simon Suuban, <a target=\"_blank\" href=\"https://kochpartners.ee/en/people/urmas-kukk/\">Urmas Kukk, <a target=\"_blank\" href=\"https://github.com/PrivacyAssessment1\">PrivacyAssessment1</a> ;</li><li>Finnisch : <a target=\"_blank\" href=\"https://tietosuoja.fi/etusivu\">Tietosuojavaltuutetun toimisto</a> ;</li><li>Französisch : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Griechisch : <a target=\"_blank\" href=\"https://tzellis.gr\">Dimitris Tzellis</a>  ;</li><li>Italienisch : Manuel d’Orso, Gianluca Markos, Antonio Caselli (<a target=\"_blank\" href=\"http://gpdp.it\">Garante per la Protezione dei Dai Personali (GPDP)</a>) ;</li><li>Kroatisch : <a target=\"_blank\" href=\"https://github.com/B2KapitalBA\">B2KapitalBA</a> ;</li><li>Litauisch : Paulius Galubickas (<a target=\"_blank\" href=\"http://galubickas.lt\">Law firm Galubickas</a>) ;</li><li>Niederländisch : Ruud van Driel, Manuel d’Orso ;</li><li>Norwegisch : <a target=\"_blank\" href=\"https://www.datatilsynet.no\">Datatilsynet</a> ;</li><li>Polnisch : <a target=\"_blank\" href=\"https://github.com/JoannaKar\">Joanna Karczewska</a> , Michal Mazur (<a target=\"_blank\" href=\"https://giodo.gov.pl\">Generalny Inspektor Ochrony Danych Osobowych (GIODO)</a>) ;</li><li>Portugiesisch : <a target=\"_blank\" href=\"https://github.com/bagois\">Barbara Gois</a> ;</li><li>Rumänisch : <a target=\"_blank\" href=\"https://github.com/webmyday\">webmyday</a> ;</li><li>Spanisch : <a target=\"_blank\" href=\"https://github.com/ylachgar\">ylachgar</a>  ;</li><li>Tschechisch : Jiří Grohmann, Manuel d’Orso ;</li><li>Ungarisch : <a target=\"_blank\" href=\"https://naih.hu/\">Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)</a>.</li></ul>",
+		"translators_name": "<ul><li>Deutsch : <a target=\"_blank\" href=\"https://github.com/kosmas58\">Kosmas Schütz</a> , Corina Scheiter (<a target=\"_blank\" href=\"https://www.datenschutz-bayern.de/\">BayLfD</a>) ;</li><li>Dänisch : <a target=\"_blank\" href=\"https://github.com/moolsen\">Michael Drews Olsen</a> ;</li><li>Englisch : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Estnisch : Eva Arumets, Lauri Bender, Rebeka Dronia, Kärol Kibena, Simon Suuban, <a target=\"_blank\" href=\"https://kochpartners.ee/en/people/urmas-kukk/\">Urmas Kukk, <a target=\"_blank\" href=\"https://github.com/PrivacyAssessment1\">PrivacyAssessment1</a> ;</li><li>Finnisch : <a target=\"_blank\" href=\"https://tietosuoja.fi/etusivu\">Tietosuojavaltuutetun toimisto</a> ;</li><li>Französisch : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Griechisch : <a target=\"_blank\" href=\"https://tzellis.gr\">Dimitris Tzellis</a>  ;</li><li>Italienisch : Manuel d’Orso, Gianluca Markos, Antonio Caselli (<a target=\"_blank\" href=\"http://gpdp.it\">Garante per la Protezione dei Dai Personali (GPDP)</a>) ;</li><li>Kroatisch : <a target=\"_blank\" href=\"https://github.com/B2KapitalBA\">B2KapitalBA</a> ;</li><li>Litauisch : Paulius Galubickas (<a target=\"_blank\" href=\"http://galubickas.lt\">Law firm Galubickas</a>) ;</li><li>Niederländisch : Ruud van Driel, Manuel d’Orso ;</li><li>Norwegisch : <a target=\"_blank\" href=\"https://www.datatilsynet.no\">Datatilsynet</a> ;</li><li>Polnisch : <a target=\"_blank\" href=\"https://github.com/JoannaKar\">Joanna Karczewska</a> , Michal Mazur (<a target=\"_blank\" href=\"https://giodo.gov.pl\">Generalny Inspektor Ochrony Danych Osobowych (GIODO)</a>) ;</li><li>Portugiesisch : <a target=\"_blank\" href=\"https://github.com/bagois\">Barbara Gois</a> ;</li><li>Rumänisch : <a target=\"_blank\" href=\"https://github.com/webmyday\">webmyday</a> ;</li><li>Slowenisch : <a target=\"_blank\" href=\"https://github.com/msunta\">msunta</a> ;</li><li>Spanisch : <a target=\"_blank\" href=\"https://github.com/ylachgar\">ylachgar</a>  ;</li><li>Tschechisch : Jiří Grohmann, Manuel d’Orso ;</li><li>Ungarisch : <a target=\"_blank\" href=\"https://naih.hu/\">Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)</a>.</li></ul>",
 		"version_number": "Versionsnummer"
 	},
 	"action_plan": {
@@ -113,7 +113,7 @@
 			"ro": "Română",
 			"sl": "Slovenščina"
 		},
-		"logo_subtitle": "PIA - privacy impact assessment",
+		"logo_subtitle": "privacy impact assessment",
 		"logo_title": "DSFA - Datenschutz-Folgenabschätzung",
 		"pia_example_link": "Beispiel DSFA",
 		"structures": "DSFA-Vorlagen",
@@ -166,9 +166,9 @@
 		},
 		"infografics": {
 			"display": "Prozesskarte anzeigen",
-			"download": "Prozesskarte herunterladen",
-			"file": "./assets/files/180413_fiche_risque_de_cmjk.pdf",
-			"hide": "Prozesskarte ausblenden",
+			"file": "./pia_docs/180413_fiche_risque_de_cmjk.pdf",
+			"guide": "PIA Leitfäden der CNIL anzeigen",
+			"hide": "Prozesslandkarte ausblenden",
 			"title": "Ein Überblick über die Anforderungen und Methodik"
 		},
 		"title": "Hilfe"
@@ -182,8 +182,8 @@
 			"import_pia": "DSFA importieren",
 			"import_structure": "Vorlage importieren",
 			"item": {
-				"consult_pia": "DSFA ansehen",
-				"edit_pia": "DSFA bearbeiten",
+				"consult_pia": "Ansehen",
+				"edit_pia": "Bearbeiten",
 				"edit_structure": "Bearbeiten der Vorlage",
 				"tools": {
 					"action_plan": "Aktionsplan<br>anzeigen",
@@ -624,7 +624,7 @@
 			"PIA_METHOD_MES": {
 				"description": "Geplante Maßnahmen sind die ursprünglich eingeführten Maßnahmen vor einer Analyse durch den Prüfer. Die vom Gutachter empfohlenen Korrekturmaßnahmen werden im Aktionsplan aufgeführt und ermöglichen eine zweite Bewertung der Schwere und Wahrscheinlichkeit des Risikos.",
 				"name": "Geplante und korrigierende Maßnahmen",
-				"source": ""
+				"source": "WIKI Threats_to_make_a_modification_not_directed_data"
 			},
 			"PIA_ORG_AUD": {
 				"description": "Vorhandensein von Maßnahmen, um einen globalen und aktuellen Überblick über den Stand des Datenschutzes und die Einhaltung der DS-GVO zu erhalten (Überprüfung der Einhaltung von Verarbeitungen, Zielen und Indikatoren, Verantwortlichkeiten usw.).",
@@ -855,7 +855,7 @@
 			"content": "Dieser Abschnitt wurde zur Bearbeitung zurückgeschickt.<br>Einige Felder müssen korrigiert werden,<br>damit sie ordnungsgemäß überprüft werden können."
 		},
 		"back_to_evaluation": {
-			"content": "Dieser Abschnitt wurde zur Überprüfung zurückgeschickt.<br>Einige Felder müssen überprüft werden,<br>um ihre ordnungsgemäße Validierung zu ermöglichen."
+			"content": "Dieser Abschnitt wurde zur Überprüfung zurückgeschickt.<br>Einige Felder müssen überprüft werden,<br>um ihre ordnungsgemäße Bestätigung zu ermöglichen."
 		},
 		"back_to_home": "Zurück zur Startseite",
 		"cancel": "Abbrechen",
@@ -974,6 +974,7 @@
 	"pia": {
 		"attachments": {
 			"add": "Hinzufügen",
+			"download": "Laden Sie den Anhang herunter",
 			"remove": "Löschen",
 			"title": "Anlagen"
 		},
@@ -988,7 +989,6 @@
 			"display_action_plan": "Aktionsplan<br>anzeigen",
 			"edition": "Bearbeitung",
 			"evaluation": "Auswertung",
-			"exit_full_screen_mode": "Drücken Sie F11, um den Vollbildmodus zu verlassen.",
 			"preview": "Vorschau"
 		},
 		"sections": {
@@ -1310,6 +1310,17 @@
 			"risks": "Risiken",
 			"title": "Aktionsplan"
 		},
+		"actions": {
+			"complete_download": "Laden Sie den vollständigen Bericht herunter",
+			"complete_download_desc": "Exportieren Sie den gesamten Berichtsinhalt (.doc und Bilder), Anhänge und den Aktionsplan im .csv Format in ein .zip Archiv.",
+			"individual_download": "Laden Sie Elemente des Berichts herunter",
+			"individual_download_desc": "Exportieren Sie bestimmte Elemente des Berichts.",
+			"individual_download_doc": "Texte (.doc)",
+			"individual_download_images": "Visuelle Elemente (.png) einschließlich der Risikoübersicht, der Risikokartierung und des Aktionsplans.",
+			"individual_download_select": "Elemente zum Exportieren auswählen:",
+			"print": "Drucken Sie den Bericht",
+			"print_and_download": "Drucken und herunterladen"
+		},
 		"attachments": "Anlagen",
 		"concerned_people_name": "Namen der Betroffenen",
 		"concerned_people_opinion": "Auffassungen der Betroffenen",
@@ -1339,8 +1350,7 @@
 			"risks_overview_content": "Risikoübersicht anzeigen",
 			"title": "Filter"
 		},
-		"download_csv": "CSV-Export herunterladen",
-		"download_images": "Bilder herunterladen",
+		"download_csv": "Aktionsplan (.csv)",
 		"dpo_name": "Name des DSB",
 		"dpo_opinion": "Gutachten des DSB",
 		"dpo_status": "Feststellung des DSB",
@@ -1350,8 +1360,6 @@
 			"3": "Substantiell",
 			"4": "Groß"
 		},
-		"generate_docx": "Den Bericht herunterladen (.docx)",
-		"generate_zip": "Den vollständigen Bericht herunterladen (.zip)",
 		"modification_made": "Vorgenommene Änderungen",
 		"people_search_status_nok": "Meinung der Betroffenen wurde nicht eingeholt.",
 		"people_search_status_ok": "Meinung der Betroffenen wurde eingeholt.",
@@ -1359,8 +1367,16 @@
 		"pia_author": "Name des Bearbeiters",
 		"pia_name": "DSFA",
 		"pia_validator": "Name des Bestätigers",
+		"preview_dpo_opinion": "Stellungnahme des DSB und der betroffenen Personen",
+		"preview_edition": "Bearbeitung",
+		"preview_evaluation": "Auswertung",
+		"preview_no_data": "Keine Daten zum Anzeigen.",
+		"preview_status": "Status",
+		"preview_subtitle": "Allgemeine Information",
+		"preview_title": "Vorschau",
+		"preview_validation": "Bestätigung",
+		"preview_validation_section": "Bestätigung",
 		"previous_page": "Zurück zur vorherigen Seite",
-		"print": "Drucken",
 		"rejection_reason": "Ablehnungsgrund",
 		"risks_cartography_title": "Risikokartierung",
 		"risks_overview_title": "Risikokübersicht",
@@ -1384,7 +1400,6 @@
 		"responsible": "Verantwortlich für die Bestätigung der DSFA: ",
 		"signed_attachments_history": "Historie der hinzugefügten Anhänge",
 		"tools": {
-			"action_plan": "Aktionsplan",
 			"dashboard": "Übersicht",
 			"display_pia": "DSFA anzeigen"
 		},
