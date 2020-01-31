@@ -905,6 +905,9 @@
 			"remove": "Remove",
 			"review_section": "Evaluer en seksjon"
 		},
+		"general_error": {
+			"content": "Det har oppstått en feil.<br>unnskyld oss for denne ulempen."
+		},
 		"import_wrong_pia_file": {
 			"content": "Den importerte filen tilsvarer ikke en PIA-type fil"
 		},
