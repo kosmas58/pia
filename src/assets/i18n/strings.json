@@ -292,6 +292,9 @@
 		"dpo_missing_evaluations": {
 			"content": ""
 		},
+		"general_error": {
+			"content": ""
+		},
 		"import_wrong_pia_file": {
 			"content": ""
 		},
