@@ -210,7 +210,8 @@
 					"pia": "DSFA<br>anzeigen",
 					"remove": "Entfernen",
 					"unarchive": "Dearchivieren"
-				}
+				},
+				"validate_pia": "Bestätigen"
 			},
 			"new_pia": "Neue DSFA",
 			"new_structure": "Neue Vorlage",

@@ -210,7 +210,8 @@
 					"pia": "Mostrar<br>PIA",
 					"remove": "Eliminar",
 					"unarchive": "desempaquetar"
-				}
+				},
+				"validate_pia": "Validar"
 			},
 			"new_pia": "Nuevo PIA",
 			"new_structure": "Nueva plantilla",

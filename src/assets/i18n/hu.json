@@ -210,7 +210,8 @@
 					"pia": "DPIA megmutatása",
 					"remove": "Eltávolítás",
 					"unarchive": "kicsomagol"
-				}
+				},
+				"validate_pia": "Validate"
 			},
 			"new_pia": "Új DPIA",
 			"new_structure": "Új modell",

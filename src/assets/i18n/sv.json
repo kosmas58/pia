@@ -210,7 +210,8 @@
 					"pia": "Visa <br>PIAn",
 					"remove": "Ta bort",
 					"unarchive": "packa"
-				}
+				},
+				"validate_pia": "Validate"
 			},
 			"new_pia": "Ny PIA",
 			"new_structure": "Ny mall",

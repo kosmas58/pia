@@ -210,7 +210,8 @@
 					"pia": "PIA<br>tonen",
 					"remove": "Verwijderen",
 					"unarchive": "uitpakken"
-				}
+				},
+				"validate_pia": "Bevestigen"
 			},
 			"new_pia": "Nieuwe PIA",
 			"new_structure": "Nieuw sjabloon",

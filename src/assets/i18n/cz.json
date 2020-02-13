@@ -210,7 +210,8 @@
 					"pia": "Zobrazit<br>PIA",
 					"remove": "Odstranit",
 					"unarchive": "rozbalit"
-				}
+				},
+				"validate_pia": "Potvrdit"
 			},
 			"new_pia": "Nová PIA",
 			"new_structure": "Nový model",

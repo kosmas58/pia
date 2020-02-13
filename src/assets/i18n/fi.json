@@ -210,7 +210,8 @@
 					"pia": "Näytä<br>Tietosuojaa koskeva vaikutustenarviointi",
 					"remove": "Poista",
 					"unarchive": "purkaa matkalaukku"
-				}
+				},
+				"validate_pia": "Validate"
 			},
 			"new_pia": "Uusi vaikutustenarviointi",
 			"new_structure": "Uusi malli",

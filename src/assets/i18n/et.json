@@ -210,7 +210,8 @@
 					"pia": "Näita<br>mõjuhinnagut",
 					"remove": "Eemalda",
 					"unarchive": "lahti pakkima"
-				}
+				},
+				"validate_pia": "Valideerima"
 			},
 			"new_pia": "Uus mõjuhinnag",
 			"new_structure": "Uus mõjuhinnag",

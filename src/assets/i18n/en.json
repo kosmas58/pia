@@ -199,7 +199,6 @@
 			"item": {
 				"consult_pia": "Consult",
 				"consult_structure": "Consult template",
-        "validate_pia": "Validate",
 				"edit_pia": "Edit",
 				"edit_structure": "Edit template",
 				"tools": {
@@ -211,7 +210,8 @@
 					"pia": "Display<br>PIA",
 					"remove": "Delete",
 					"unarchive": "Unarchive"
-				}
+				},
+				"validate_pia": "Validate"
 			},
 			"new_pia": "New PIA",
 			"new_structure": "New template",

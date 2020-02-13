@@ -210,7 +210,8 @@
 					"pia": "Prikaži<br>PUP",
 					"remove": "ukloniti",
 					"unarchive": "raspakirati"
-				}
+				},
+				"validate_pia": "Potvrdi"
 			},
 			"new_pia": "Novi PUP",
 			"new_structure": "Novi obrazac",

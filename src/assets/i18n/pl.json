@@ -210,7 +210,8 @@
 					"pia": "Wyświetlenie<br>PIA",
 					"remove": "usunąć",
 					"unarchive": "rozpakować"
-				}
+				},
+				"validate_pia": "Uprawomocnić"
 			},
 			"new_pia": "Nowa PIA",
 			"new_structure": "Nowy szablon",

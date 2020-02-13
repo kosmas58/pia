@@ -210,7 +210,8 @@
 					"pia": "Atidaryti<br>PDAV",
 					"remove": "Pašalinti",
 					"unarchive": "išpakuoti"
-				}
+				},
+				"validate_pia": "Patvirtinti"
 			},
 			"new_pia": "Naujas PDAV",
 			"new_structure": "Naujas šablonas",

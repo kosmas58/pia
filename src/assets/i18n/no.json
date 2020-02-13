@@ -210,7 +210,8 @@
 					"pia": "Vis<br>PIA",
 					"remove": "remove",
 					"unarchive": "Pakk ut"
-				}
+				},
+				"validate_pia": "Validere"
 			},
 			"new_pia": "Ny PIA",
 			"new_structure": "Ny modell",

@@ -210,7 +210,8 @@
 					"pia": "Exibir análise <br>PIA",
 					"remove": "Remover",
 					"unarchive": "desempacotar"
-				}
+				},
+				"validate_pia": "Validar"
 			},
 			"new_pia": "Nova análise PIA",
 			"new_structure": "Novo modelo",

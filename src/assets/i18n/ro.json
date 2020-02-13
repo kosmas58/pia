@@ -210,7 +210,8 @@
 					"pia": "Afișare<br>PIA",
 					"remove": "Elimina",
 					"unarchive": "despacheta"
-				}
+				},
+				"validate_pia": "Valida"
 			},
 			"new_pia": "Creare PIA",
 			"new_structure": "Model nou",

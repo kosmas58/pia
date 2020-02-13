@@ -210,7 +210,8 @@
 					"pia": "Mostra<br>PIA",
 					"remove": "Rimuovere",
 					"unarchive": "Disfare"
-				}
+				},
+				"validate_pia": "Convalidare"
 			},
 			"new_pia": "Nuova PIA",
 			"new_structure": "Nuovo modello",
