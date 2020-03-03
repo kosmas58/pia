@@ -953,11 +953,6 @@
 			"content": "<span class='strong'>Varning,</span><br>Är du säker på att du vill<br>radera denna mall?",
 			"remove": "Radera mallen"
 		},
-		"revision": {
-			"continue": "Fortsätta",
-			"message": "Fortsätter kommer du att uppdatera analysen. Den här kommer att förlora sin valideringsstatus och det kommer att bli nödvändigt att validera den igen när ändringarna har gjorts.<br><br>Den nu validerade versionen kommer att arkiveras.",
-			"title": "Revidera PIA"
-		},
 		"same_comment": {
 			"content": "<span class='strong'>Varning,</span><br>Skriv en kommentar som skiljer sig från den senast sparade."
 		},

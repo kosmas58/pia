@@ -953,11 +953,6 @@
 			"content": "<span class='strong'>Varování,</span><br>Opravdu chcete tento model<br>smazat?",
 			"remove": "Odstranit tento model"
 		},
-		"revision": {
-			"continue": "Pokračovat",
-			"message": "Pokračujte v aktualizaci analýzy. Ten ztratí svůj stav ověření a po provedení změn bude nutné jej znovu ověřit.<br><br>Aktuálně ověřená verze bude archivována.",
-			"title": "Upravte PIA"
-		},
 		"same_comment": {
 			"content": "<span class='strong'>Upozornění,</span><br>Prosím zadejte komentář odlišný od posledního zaznamenaného."
 		},

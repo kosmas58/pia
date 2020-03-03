@@ -953,11 +953,6 @@
 			"content": "<span class='strong'>Warning,</span><br>Are you sure you want<br>to delete the template?",
 			"remove": "Delete template"
 		},
-		"revision": {
-			"continue": "Continue",
-			"message": "Continuing, you will update the analysis. This one will lose its validation status and it will be necessary to validate it again once the changes made.<br><br>The currently validated version will be archived.",
-			"title": "Revise the PIA"
-		},
 		"same_comment": {
 			"content": "<span class='strong'>Warning,</span><br>Please enter a comment different from the last recorded."
 		},

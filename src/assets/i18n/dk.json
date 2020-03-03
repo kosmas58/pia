@@ -953,11 +953,6 @@
 			"content": "<span class='strong'>Advarsel,</span><br>Er du sikker på at du vil <br>slette skabelonen?",
 			"remove": "Slet skabelon"
 		},
-		"revision": {
-			"continue": "Fortsætte",
-			"message": "Fortsat opdaterer du analysen. Denne mister sin valideringsstatus, og det vil være nødvendigt at validere den igen, når de foretagne ændringer.<br><br>Den aktuelt validerede version arkiveres.",
-			"title": "Revider PIA"
-		},
 		"same_comment": {
 			"content": "<span class='strong'>Advarsel,</span><br>Indtast venligst en andenledes kommentar end den forrige (gemte)."
 		},

@@ -953,11 +953,6 @@
 			"content": "<span class='strong'>Attenzione</span><br>Sei sicuro di voler rimuovere<br>questo modello?",
 			"remove": "Elimina questo modello"
 		},
-		"revision": {
-			"continue": "Continuare",
-			"message": "Continuando, aggiornerai l'analisi. Questo perderà il suo stato di convalida e sarà necessario convalidarlo nuovamente una volta apportate le modifiche.<br><br>La versione attualmente convalidata verrà archiviata.",
-			"title": "Rivedi il PIA"
-		},
 		"same_comment": {
 			"content": "<span class='strong'>Attenzione,</span><br>Inserire un commento diverso dall'ultimo inserito."
 		},

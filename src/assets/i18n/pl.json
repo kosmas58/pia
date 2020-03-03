@@ -953,11 +953,6 @@
 			"content": "<span class='strong'>Uwaga,</span><br>Czy na pewno chcesz<br>usunąć szablon?",
 			"remove": "Usunięcie szablonu"
 		},
-		"revision": {
-			"continue": "Kontynuować",
-			"message": "Kontynuując, zaktualizujesz analizę. Ten utraci status sprawdzania poprawności i po dokonaniu zmian konieczne będzie jego ponowne sprawdzenie.<br><br>Aktualnie sprawdzona wersja zostanie zarchiwizowana.",
-			"title": "Sprawdź PIA"
-		},
 		"same_comment": {
 			"content": "<span class='strong'>Uwaga</span><br>Należy wprowadzić inny komentarz niż ostatnio zarejestrowany."
 		},

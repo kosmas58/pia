@@ -953,11 +953,6 @@
 			"content": "<span class='strong'>Varoitus,</span><br>Haluatko varmasti<br>poistaa tämän mallin?",
 			"remove": "Poista tämä malli"
 		},
-		"revision": {
-			"continue": "Jatkaa",
-			"message": "Jatka, päivität analyysin. Tämä menettää validointitilansa, ja se on tarpeen validoida uudelleen tehtyjen muutosten jälkeen.<br><br>Tällä hetkellä validoitu versio arkistoidaan.",
-			"title": "Muuta PIA: ta"
-		},
 		"same_comment": {
 			"content": "<span class='strong'>Varoitus,</span><br>Syötä kommentti, joka ei ole sama kuin edellinen tallennettu kommentti."
 		},

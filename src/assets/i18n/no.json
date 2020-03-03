@@ -953,11 +953,6 @@
 			"content": "<span class='strong'>Vær forsiktig,</span><br>er du sikker på at du vil<br>fjerne denne modellen?",
 			"remove": "Slett denne modellen"
 		},
-		"revision": {
-			"continue": "Fortsette",
-			"message": "Fortsetter vil du oppdatere analysen. Denne vil miste valideringsstatusen, og det vil være nødvendig å validere den igjen når endringene er gjort.<br><br>Den for øyeblikket validerte versjonen blir arkivert.",
-			"title": "Revider PIA"
-		},
 		"same_comment": {
 			"content": "<span class='strong'>Warning,</span><br>Please enter a comment different from the last recorded."
 		},

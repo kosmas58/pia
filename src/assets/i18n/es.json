@@ -953,11 +953,6 @@
 			"content": "<span class='strong'>Advertencia,</span><br>¿Está seguro de que desea<br>eliminar este modelo?",
 			"remove": "Eliminar esta plantilla"
 		},
-		"revision": {
-			"continue": "Seguir",
-			"message": "Continuando, actualizará el análisis. Este perderá su estado de validación y será necesario validarlo nuevamente una vez que se realicen los cambios.<br><br>La versión validada actualmente se archivará.",
-			"title": "Revisar el PIA"
-		},
 		"same_comment": {
 			"content": "Advertencia,<br>Ingrese un comentario diferente al último registrado."
 		},

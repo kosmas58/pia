@@ -953,11 +953,6 @@
 			"content": "<span class='strong'>Hoiatus,</span><br>Kas olete kindel, et soovite<br>seda kustutada?",
 			"remove": "Kustuta"
 		},
-		"revision": {
-			"continue": "Jätkama",
-			"message": "Jätkates värskendate analüüsi. See kaotab oma valideerimisoleku ja pärast tehtud muudatuste tegemist tuleb see uuesti kinnitada.<br><br>Praegu kinnitatud versioon arhiivitakse.",
-			"title": "Vaadake üle PIA"
-		},
 		"same_comment": {
 			"content": "<span class='strong'>Hoiatus,</span><br>Palun sisestage kommentaar, mis erineb viimasest kirjapandust."
 		},

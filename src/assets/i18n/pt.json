@@ -953,11 +953,6 @@
 			"content": "<span class='strong'>Atenção,</span><br>Tem a certeza que deseja <br>apagar este modelo ?",
 			"remove": "Apagar este modelo"
 		},
-		"revision": {
-			"continue": "Continuar",
-			"message": "Continuando, você atualizará a análise. Este perderá seu status de validação e será necessário validá-lo novamente assim que as alterações forem feitas.<br><br>A versão atualmente validada será arquivada.",
-			"title": "Revise o PIA"
-		},
 		"same_comment": {
 			"content": "<span class='strong'>Atenção,</span> Por favor insira um comentário diferente do último gravado<br>."
 		},

@@ -953,11 +953,6 @@
 			"content": "<span class='strong'>Opgelet!</span><br>Ben u zeker dat u <br>dit sjabloon wilt verwijderen?",
 			"remove": "Dit sjabloon verwijderen"
 		},
-		"revision": {
-			"continue": "Doorgaan",
-			"message": "Doorgaan, werkt u de analyse bij. Deze verliest zijn validatiestatus en het is nodig om deze opnieuw te valideren zodra de wijzigingen zijn aangebracht.<br><br>De momenteel gevalideerde versie wordt gearchiveerd.",
-			"title": "Herzie de PIA"
-		},
 		"same_comment": {
 			"content": "<span class='strong'>Opgelet! </span> <br> Voer een andere opmerking in dan de laatst opgenomen."
 		},

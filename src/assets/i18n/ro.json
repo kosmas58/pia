@@ -953,11 +953,6 @@
 			"content": "<span class='strong'>Avertisment,</span><br>Sunteți sigur că doriți să<br>ștergeți acest model?",
 			"remove": "Ștergeți acest model"
 		},
-		"revision": {
-			"continue": "Continua",
-			"message": "Continuând, veți actualiza analiza. Acesta își va pierde statutul de validare și va fi necesară validarea acestuia din nou odată cu modificările făcute.<br><br>Versiunea validată în prezent va fi arhivată.",
-			"title": "Revizuirea PIA"
-		},
 		"same_comment": {
 			"content": "<span class='strong'>Atenție,</span><br>Introduceți un comentariu diferit de cel înregistrat anterior."
 		},

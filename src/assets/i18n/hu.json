@@ -953,11 +953,6 @@
 			"content": "<span class='strong'>Figyelem,</span><br>Biztosan<br>törli ezt a modellt?",
 			"remove": "Törölje ezt a modellt"
 		},
-		"revision": {
-			"continue": "Folytatódik",
-			"message": "Folytatva frissíti az elemzést. Ez elveszíti érvényesítési állapotát, és a végrehajtott módosítások után újra jóvá kell hagynia.<br><br>A jelenleg érvényes verzió archiválásra kerül.",
-			"title": "Vizsgálja felül a PIA-t"
-		},
 		"same_comment": {
 			"content": "<span class='strong'>Figyelmeztetés:</span><br>kérjük, a legutóbbihoz képest más megjegyzést vigyen be."
 		},
