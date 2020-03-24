@@ -1,10 +1,4 @@
-import {
-  Component,
-  ViewChild,
-  OnInit,
-  OnDestroy,
-  ElementRef
-} from '@angular/core';
+import { Component, ViewChild, OnInit, OnDestroy, ElementRef } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Subscription } from 'rxjs';
 
@@ -25,11 +19,7 @@ export class HelpComponent implements OnInit, OnDestroy {
   public pdfSrc; // = '/pdf-test.pdf';
   public displayInfografics: boolean;
 
-  constructor(
-    private httpClient: HttpClient,
-    private _translateService: TranslateService,
-    private el: ElementRef
-  ) {}
+  constructor(private httpClient: HttpClient, private _translateService: TranslateService, private el: ElementRef) {}
 
   ngOnInit() {
     const language = this._translateService.currentLang;
@@ -51,38 +41,36 @@ export class HelpComponent implements OnInit, OnDestroy {
     }
     let file = `./assets/files/pia_help_${fileTranslation}.html`;
 
-    this.httpClient.get(file, { responseType: 'text' }).subscribe(res => {
+    this.httpClient.get(file, { responseType: 'text' }).subscribe((res) => {
       this.content = res;
       this.getSectionList();
     });
 
-    this.helpSubscription = this._translateService.onLangChange.subscribe(
-      (event: LangChangeEvent) => {
-        let fileTranslation = event['lang'];
-        switch (event['lang']) {
-          case 'fr': {
-            break;
-          }
-          case 'de': {
-            break;
-          }
-          case 'el': {
-            break;
-          }
-          default: {
-            fileTranslation = 'en';
-            break;
-          }
+    this.helpSubscription = this._translateService.onLangChange.subscribe((event: LangChangeEvent) => {
+      let fileTranslation = event['lang'];
+      switch (event['lang']) {
+        case 'fr': {
+          break;
         }
-        file = `./assets/files/pia_help_${fileTranslation}.html`;
-        this.httpClient.get(file, { responseType: 'text' }).subscribe(res => {
-          this.content = res;
-          this.getSectionList();
-        });
+        case 'de': {
+          break;
+        }
+        case 'el': {
+          break;
+        }
+        default: {
+          fileTranslation = 'en';
+          break;
+        }
       }
-    );
+      file = `./assets/files/pia_help_${fileTranslation}.html`;
+      this.httpClient.get(file, { responseType: 'text' }).subscribe((res) => {
+        this.content = res;
+        this.getSectionList();
+      });
+    });
 
-    window.onscroll = function(ev) {
+    window.onscroll = function (ev) {
       if (window.innerWidth > 640) {
         const el: any = document.querySelector('.pia-help-section');
         if (el) {
@@ -125,7 +113,7 @@ export class HelpComponent implements OnInit, OnDestroy {
     this.tableOfTitles = [];
     const lines = this.content.split('\n');
     let tt = [];
-    lines.forEach(line => {
+    lines.forEach((line) => {
       line = line.trim();
       if (line.startsWith('<h3>')) {
         tt[1].push(line.replace(/<(\/?)h3>/g, '').trim());
@@ -146,9 +134,7 @@ export class HelpComponent implements OnInit, OnDestroy {
    * @memberof HelpComponent
    */
   toggleInfograficsContent(show: boolean) {
-    const elPreview = this.el.nativeElement.querySelector(
-      '.pia-helpBlock-preview'
-    );
+    const elPreview = this.el.nativeElement.querySelector('.pia-helpBlock-preview');
     const embed = elPreview.querySelector('#iframe');
     const img = elPreview.querySelector('img');
 
