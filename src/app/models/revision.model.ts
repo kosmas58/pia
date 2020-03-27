@@ -21,13 +21,13 @@ export class Revision extends ApplicationDb {
         fetch(this.getServerUrl(), {
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -98,13 +98,13 @@ export class Revision extends ApplicationDb {
           body: formData,
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve({ ...result, id: result.id });
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });

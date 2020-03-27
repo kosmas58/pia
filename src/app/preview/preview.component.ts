@@ -1,12 +1,4 @@
-import {
-  Component,
-  ElementRef,
-  OnInit,
-  AfterViewChecked,
-  Input,
-  Output,
-  EventEmitter
-} from '@angular/core';
+import { Component, ElementRef, OnInit, AfterViewChecked, Input, Output, EventEmitter } from '@angular/core';
 
 import { Answer } from 'src/app/entry/entry-content/questions/answer.model';
 import { Measure } from 'src/app/entry/entry-content/measures/measure.model';
@@ -25,10 +17,7 @@ import { LanguagesService } from 'src/app/services/languages.service';
 @Component({
   selector: 'app-preview',
   templateUrl: './preview.component.html',
-  styleUrls: [
-    './preview.component.scss',
-    '../entry/entry-content/action-plan/action-plan.component.scss'
-  ],
+  styleUrls: ['./preview.component.scss', '../entry/entry-content/action-plan/action-plan.component.scss'],
   providers: [PiaService, RevisionService, ModalsService]
 })
 export class PreviewComponent implements OnInit, AfterViewChecked {
@@ -71,7 +60,7 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
 
       // Load PIA's revisions
       const revision = new Revision();
-      revision.findAllByPia(this.pia.id).then(resp => {
+      revision.findAllByPia(this.pia.id).then((resp) => {
         this.revisions = resp;
       });
     });
@@ -83,18 +72,13 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
 
   ngAfterViewChecked() {
     // scroll spy
-    const sections = document.querySelectorAll(
-      '.pia-fullPreviewBlock-headline-title h2'
-    ) as NodeListOf<HTMLElement>;
-    const menus = document.querySelectorAll(
-      '.pia-sectionBlock-body li a'
-    ) as NodeListOf<HTMLElement>;
+    const sections = document.querySelectorAll('.pia-fullPreviewBlock-headline-title h2') as NodeListOf<HTMLElement>;
+    const menus = document.querySelectorAll('.pia-sectionBlock-body li a') as NodeListOf<HTMLElement>;
     window.onscroll = () => {
-      const scrollPosition =
-        document.documentElement.scrollTop || document.body.scrollTop;
-      sections.forEach(s => {
+      const scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+      sections.forEach((s) => {
         if (s.offsetTop < scrollPosition + 100) {
-          menus.forEach(l => {
+          menus.forEach((l) => {
             l.classList.remove('active');
             if (l.innerText === s.innerText) {
               l.setAttribute('class', 'active');
@@ -110,8 +94,8 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
    * Create a new Revision record in indexedDB
    */
   onNewRevision() {
-    this._piaService.export(this.pia.id).then(exportResult => {
-      this._revisionService.add(exportResult, this.pia.id).then(resp => {
+    this._piaService.export(this.pia.id).then((exportResult) => {
+      this._revisionService.add(exportResult, this.pia.id).then((resp) => {
         // because ngOnchanges no detect simply array push
         this.revisions.push(resp);
         this.revisions = this.revisions.slice();
@@ -125,12 +109,10 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
    * @param - The Revision id
    */
   onSelectedRevision(revisionId) {
-    this._revisionService
-      .prepareLoadRevision(revisionId, this._piaService.pia.id)
-      .then((createdAt: Date) => {
-        this._modalsService.revisionDate = createdAt;
-        this._modalsService.openModal('revision-selection');
-      });
+    this._revisionService.prepareLoadRevision(revisionId, this._piaService.pia.id).then((createdAt: Date) => {
+      this._modalsService.revisionDate = createdAt;
+      this._modalsService.openModal('revision-selection');
+    });
   }
 
   /**
@@ -201,9 +183,7 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
     if (this.pia.concerned_people_searched_opinion === true) {
       el.data.push({
         title: 'summary.concerned_people_searched_opinion',
-        content: this.pia.getPeopleSearchStatus(
-          this.pia.concerned_people_searched_opinion
-        )
+        content: this.pia.getPeopleSearchStatus(this.pia.concerned_people_searched_opinion)
       });
       if (this.pia.people_names && this.pia.people_names.length > 0) {
         el.data.push({
@@ -214,15 +194,10 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
       if (this.pia.concerned_people_status >= 0) {
         el.data.push({
           title: 'summary.concerned_people_status',
-          content: this.pia.getOpinionsStatus(
-            this.pia.concerned_people_status.toString()
-          )
+          content: this.pia.getOpinionsStatus(this.pia.concerned_people_status.toString())
         });
       }
-      if (
-        this.pia.concerned_people_opinion &&
-        this.pia.concerned_people_opinion.length > 0
-      ) {
+      if (this.pia.concerned_people_opinion && this.pia.concerned_people_opinion.length > 0) {
         el.data.push({
           title: 'summary.concerned_people_opinion',
           content: this.pia.concerned_people_opinion
@@ -234,14 +209,9 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
     if (this.pia.concerned_people_searched_opinion === false) {
       el.data.push({
         title: 'summary.concerned_people_searched_opinion',
-        content: this.pia.getPeopleSearchStatus(
-          this.pia.concerned_people_searched_opinion
-        )
+        content: this.pia.getPeopleSearchStatus(this.pia.concerned_people_searched_opinion)
       });
-      if (
-        this.pia.concerned_people_searched_content &&
-        this.pia.concerned_people_searched_content.length > 0
-      ) {
+      if (this.pia.concerned_people_searched_content && this.pia.concerned_people_searched_content.length > 0) {
         el.data.push({
           title: 'summary.concerned_people_unsearched_opinion_comment',
           content: this.pia.concerned_people_searched_content
@@ -249,10 +219,7 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
       }
     }
 
-    if (
-      this.pia.applied_adjustements &&
-      this.pia.applied_adjustements.length > 0
-    ) {
+    if (this.pia.applied_adjustements && this.pia.applied_adjustements.length > 0) {
       el.data.push({
         title: 'summary.modification_made',
         content: this.pia.applied_adjustements
@@ -275,9 +242,9 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
    */
   private async getJsonInfo() {
     this.allData = {};
-    this._piaService.data.sections.forEach(async section => {
+    this._piaService.data.sections.forEach(async (section) => {
       this.allData[section.id] = {};
-      section.items.forEach(async item => {
+      section.items.forEach(async (item) => {
         this.allData[section.id][item.id] = {};
         const ref = section.id.toString() + '.' + item.id.toString();
 
@@ -287,16 +254,12 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
           const measuresModel = new Measure();
           measuresModel.pia_id = this.pia.id;
           const entries: any = await measuresModel.findAll();
-          entries.forEach(async measure => {
+          entries.forEach(async (measure) => {
             /* Completed measures */
             if (measure.title !== undefined && measure.content !== undefined) {
               let evaluation = null;
               if (item.evaluation_mode === 'question') {
-                evaluation = await this.getEvaluation(
-                  section.id,
-                  item.id,
-                  ref + '.' + measure.id
-                );
+                evaluation = await this.getEvaluation(section.id, item.id, ref + '.' + measure.id);
               }
               this.allData[section.id][item.id].push({
                 title: measure.title,
@@ -307,7 +270,7 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
           });
         } else if (item.questions) {
           // Question
-          item.questions.forEach(async question => {
+          item.questions.forEach(async (question) => {
             this.allData[section.id][item.id][question.id] = {};
             const answerModel = new Answer();
             await answerModel.getByReferenceAndPia(this.pia.id, question.id);
@@ -316,11 +279,7 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
             if (answerModel.data) {
               const content = [];
               if (answerModel.data.gauge && answerModel.data.gauge > 0) {
-                content.push(
-                  this._translateService.instant(
-                    this.pia.getGaugeName(answerModel.data.gauge)
-                  )
-                );
+                content.push(this._translateService.instant(this.pia.getGaugeName(answerModel.data.gauge)));
               }
               if (answerModel.data.text && answerModel.data.text.length > 0) {
                 content.push(answerModel.data.text);
@@ -330,18 +289,10 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
               }
               if (content.length > 0) {
                 if (item.evaluation_mode === 'question') {
-                  const evaluation = await this.getEvaluation(
-                    section.id,
-                    item.id,
-                    ref + '.' + question.id
-                  );
-                  this.allData[section.id][item.id][
-                    question.id
-                  ].evaluation = evaluation;
+                  const evaluation = await this.getEvaluation(section.id, item.id, ref + '.' + question.id);
+                  this.allData[section.id][item.id][question.id].evaluation = evaluation;
                 }
-                this.allData[section.id][item.id][
-                  question.id
-                ].content = content.join(', ');
+                this.allData[section.id][item.id][question.id].content = content.join(', ');
               }
             }
           });
@@ -362,11 +313,7 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
    * @param {string} ref - The reference.
    * @returns {Promise}
    */
-  private async getEvaluation(
-    section_id: string,
-    item_id: string,
-    ref: string
-  ) {
+  private async getEvaluation(section_id: string, item_id: string, ref: string) {
     return new Promise(async (resolve, reject) => {
       let evaluation = null;
       const evaluationModel = new Evaluation();
@@ -378,13 +325,9 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
           evaluation_comment: evaluationModel.evaluation_comment,
           gauges: {
             riskName: {
-              value: this._translateService.instant(
-                'sections.' + section_id + '.items.' + item_id + '.title'
-              )
+              value: this._translateService.instant('sections.' + section_id + '.items.' + item_id + '.title')
             },
-            seriousness: evaluationModel.gauges
-              ? evaluationModel.gauges.x
-              : null,
+            seriousness: evaluationModel.gauges ? evaluationModel.gauges.x : null,
             likelihood: evaluationModel.gauges ? evaluationModel.gauges.y : null
           }
         };

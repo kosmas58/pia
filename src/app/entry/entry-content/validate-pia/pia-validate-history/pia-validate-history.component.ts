@@ -26,12 +26,8 @@ export class PiaValidateHistoryComponent implements OnInit {
    * Shows or hides the validation history list.
    */
   displayHistoryList() {
-    const historyList = this.el.nativeElement.querySelector(
-      '.pia-validationHistoryBlock-content'
-    );
-    const btn = this.el.nativeElement.querySelector(
-      '.pia-historyBlock-btn span'
-    );
+    const historyList = this.el.nativeElement.querySelector('.pia-validationHistoryBlock-content');
+    const btn = this.el.nativeElement.querySelector('.pia-historyBlock-btn span');
     btn.classList.toggle('pia-icon-accordeon-down');
     historyList.classList.toggle('close');
   }
@@ -40,12 +36,8 @@ export class PiaValidateHistoryComponent implements OnInit {
    * Shows or hides the refuse list.
    */
   displayRefuseList() {
-    const refuseList = this.el.nativeElement.querySelector(
-      '.pia-validationHistoryBlock-refuse-content'
-    );
-    const btn = this.el.nativeElement.querySelector(
-      '.pia-refuseBlock-btn span'
-    );
+    const refuseList = this.el.nativeElement.querySelector('.pia-validationHistoryBlock-refuse-content');
+    const btn = this.el.nativeElement.querySelector('.pia-refuseBlock-btn span');
     btn.classList.toggle('pia-icon-accordeon-down');
     refuseList.classList.toggle('close');
   }
@@ -56,8 +48,7 @@ export class PiaValidateHistoryComponent implements OnInit {
    */
   showValidationHistory() {
     return (
-      (this._piaService.pia.status === 2 ||
-        this._piaService.pia.status === 3) &&
+      (this._piaService.pia.status === 2 || this._piaService.pia.status === 3) &&
       this._piaService.pia.applied_adjustements &&
       this._piaService.pia.rejected_reason
     );

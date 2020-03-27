@@ -6,14 +6,13 @@ import { ModalsService } from 'src/app/modals/modals.service';
 
 @Injectable()
 export class AttachmentsService {
-
   attachments: any[];
   signedAttachments: any[] = [];
   attachment_signed: any;
   pia: any;
   pia_signed = 0;
 
-  constructor(private _modalsService: ModalsService) { }
+  constructor(private _modalsService: ModalsService) {}
 
   /**
    * List all attachments.
@@ -41,7 +40,7 @@ export class AttachmentsService {
       attachment.pia_id = this.pia.id;
       attachment.findAll().then((data: any[]) => {
         // Store all signed attachments if they are not yet stored
-        data.forEach(a => {
+        data.forEach((a) => {
           if (a.pia_signed && a.pia_signed === 1) {
             this.signedAttachments.push(a);
           }
@@ -50,9 +49,9 @@ export class AttachmentsService {
         if (this.signedAttachments && this.signedAttachments.length > 0) {
           this.signedAttachments.reverse(); // Reverse array (latest signed attachment at first)
           if (this.signedAttachments[0] && this.signedAttachments[0].file && this.signedAttachments[0].file.length > 0) {
-             // Store the latest signed attachment only if file isn't empty
+            // Store the latest signed attachment only if file isn't empty
             this.attachment_signed = this.signedAttachments[0];
-             // Remove it from the signed attachments array so that we get the oldest
+            // Remove it from the signed attachments array so that we get the oldest
             this.signedAttachments.splice(0, 1);
           }
         }
@@ -89,7 +88,7 @@ export class AttachmentsService {
         // To refresh signed attachments on validation page
         this.updateSignedAttachmentsList();
       });
-    }
+    };
   }
 
   /**
@@ -100,17 +99,19 @@ export class AttachmentsService {
     const attachment = new Attachment();
     attachment.pia_id = this.pia.id;
     attachment.find(id).then((entry: any) => {
-      fetch(entry.file,{
+      fetch(entry.file, {
         mode: 'cors'
-      }).then(res => res.blob()).then(blob => {
-        const a = <any>document.createElement('a');
-        a.href = window.URL.createObjectURL(blob);
-        a.download = entry.name;
-        const event = new MouseEvent('click', {
-          view: window
+      })
+        .then((res) => res.blob())
+        .then((blob) => {
+          const a = <any>document.createElement('a');
+          a.href = window.URL.createObjectURL(blob);
+          a.download = entry.name;
+          const event = new MouseEvent('click', {
+            view: window
+          });
+          a.dispatchEvent(event);
         });
-        a.dispatchEvent(event);
-      });
     });
   }
 
@@ -129,7 +130,7 @@ export class AttachmentsService {
       attachment.remove(comment);
 
       // Deletes from the attachments array.
-      const index = this.attachments.findIndex(p => p.id === attachmentId);
+      const index = this.attachments.findIndex((p) => p.id === attachmentId);
       if (index !== -1) {
         this.attachments.splice(index, 1);
       }
@@ -144,5 +145,4 @@ export class AttachmentsService {
       this._modalsService.closeModal();
     }
   }
-
 }

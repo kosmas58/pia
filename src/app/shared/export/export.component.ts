@@ -1,11 +1,4 @@
-import {
-  Component,
-  OnInit,
-  Input,
-  Output,
-  EventEmitter,
-  SimpleChanges
-} from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter, SimpleChanges } from '@angular/core';
 import * as FileSaver from 'file-saver';
 import * as html2canvas from 'html2canvas';
 import { saveSvgAsPng, svgAsPngUri } from 'save-svg-as-png';
@@ -125,13 +118,7 @@ export class ExportComponent implements OnInit {
             });
             break;
           case 'csv': // Only csv
-            const csvName =
-              fileTitle +
-              '-' +
-              slugify(
-                this._translateService.instant('summary.action_plan.title')
-              ) +
-              '.csv';
+            const csvName = fileTitle + '-' + slugify(this._translateService.instant('summary.action_plan.title')) + '.csv';
             const blob = this.csvToBlob(csvName);
             let downloadLink = document.createElement('a');
             document.body.appendChild(downloadLink);
@@ -182,9 +169,7 @@ export class ExportComponent implements OnInit {
 
       if (exports.includes('csv')) {
         // Csv
-        const fileTitle = this._translateService.instant(
-          'summary.action_plan.title'
-        );
+        const fileTitle = this._translateService.instant('summary.action_plan.title');
         const blob = this.csvToBlob(fileTitle);
         zip2.file('CSV/' + slugify(fileTitle) + '.csv', blob, { binary: true });
       }
@@ -193,13 +178,13 @@ export class ExportComponent implements OnInit {
         // images
         await this.addImagesToZip(zip2).then(async (zip3: any) => {
           // Launch Download
-          await zip3.generateAsync({ type: 'blob' }).then(blobContent => {
+          await zip3.generateAsync({ type: 'blob' }).then((blobContent) => {
             FileSaver.saveAs(blobContent, zipName);
           });
         });
       } else {
         // Launch Download
-        await zip2.generateAsync({ type: 'blob' }).then(blobContent => {
+        await zip2.generateAsync({ type: 'blob' }).then((blobContent) => {
           FileSaver.saveAs(blobContent, zipName);
         });
       }
@@ -250,9 +235,7 @@ export class ExportComponent implements OnInit {
       headers: [
         `"${this._translateService.instant('summary.csv_section')}"`,
         `"${this._translateService.instant('summary.csv_title_object')}"`,
-        `"${this._translateService.instant(
-          'summary.csv_action_plan_comment'
-        )}"`,
+        `"${this._translateService.instant('summary.csv_action_plan_comment')}"`,
         `"${this._translateService.instant('summary.csv_evaluation_comment')}"`,
         `"${this._translateService.instant('summary.csv_implement_date')}"`,
         `"${this._translateService.instant('summary.csv_people_in_charge')}"`
@@ -265,22 +248,14 @@ export class ExportComponent implements OnInit {
     const headers = {
       section: `"${this._translateService.instant('summary.csv_section')}"`,
       title: `"${this._translateService.instant('summary.csv_title_object')}"`,
-      action_plan_comment: `"${this._translateService.instant(
-        'summary.csv_action_plan_comment'
-      )}"`,
-      evaluation_comment: `"${this._translateService.instant(
-        'summary.csv_evaluation_comment'
-      )}"`,
-      csv_implement_date: `"${this._translateService.instant(
-        'summary.csv_implement_date'
-      )}"`,
-      csv_people_in_charge: `"${this._translateService.instant(
-        'summary.csv_people_in_charge'
-      )}"`
+      action_plan_comment: `"${this._translateService.instant('summary.csv_action_plan_comment')}"`,
+      evaluation_comment: `"${this._translateService.instant('summary.csv_evaluation_comment')}"`,
+      csv_implement_date: `"${this._translateService.instant('summary.csv_implement_date')}"`,
+      csv_people_in_charge: `"${this._translateService.instant('summary.csv_people_in_charge')}"`
     };
 
     const csvContentFormatted = [];
-    this.csvContent.forEach(item => {
+    this.csvContent.forEach((item) => {
       const itemData = {};
       if (item.title) {
         itemData['title'] = `"${item.title}"`;
@@ -292,16 +267,10 @@ export class ExportComponent implements OnInit {
         itemData['short_title'] = `"${item.short_title}"`;
       }
       if (item.action_plan_comment) {
-        itemData[
-          'action_plan_comment'
-        ] = `"${item.action_plan_comment}"`
-          .replace(/,/g, '')
-          .replace(/\n/g, ' ');
+        itemData['action_plan_comment'] = `"${item.action_plan_comment}"`.replace(/,/g, '').replace(/\n/g, ' ');
       }
       if (item.evaluation_comment) {
-        itemData['evaluation_comment'] = `"${item.evaluation_comment}"`
-          .replace(/,/g, '')
-          .replace(/\n/g, ' ');
+        itemData['evaluation_comment'] = `"${item.evaluation_comment}"`.replace(/,/g, '').replace(/\n/g, ' ');
       }
       if (item.evaluation_date) {
         itemData['evaluation_date'] = `"${item.evaluation_date}"`;
@@ -332,7 +301,7 @@ export class ExportComponent implements OnInit {
    */
   async generateDocx(element) {
     return new Promise((resolve, reject) => {
-      this.prepareDocFile(element).then(dataDoc => {
+      this.prepareDocFile(element).then((dataDoc) => {
         setTimeout(() => {
           const downloadLink = document.createElement('a');
           document.body.appendChild(downloadLink);
@@ -367,20 +336,13 @@ export class ExportComponent implements OnInit {
     const preHtml =
       "<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Export HTML To Doc</title></head><body>";
     const postHtml = '</body></html>';
-    const html =
-      preHtml + document.getElementById(element).innerHTML + postHtml;
+    const html = preHtml + document.getElementById(element).innerHTML + postHtml;
     const blob = new Blob(['\ufeff', html], {
       type: 'application/msword'
     });
-    const risksCartographyContainer = document.querySelector(
-      '.pia-risksCartographyContainer'
-    );
-    const actionPlanOverviewContainer = document.querySelector(
-      '.pia-actionPlanGraphBlockContainer'
-    );
-    const risksOverviewContainer = document.querySelector(
-      '.pia-risksOverviewBlock'
-    );
+    const risksCartographyContainer = document.querySelector('.pia-risksCartographyContainer');
+    const actionPlanOverviewContainer = document.querySelector('.pia-actionPlanGraphBlockContainer');
+    const risksOverviewContainer = document.querySelector('.pia-risksOverviewBlock');
     if (risksCartographyContainer) {
       risksCartographyContainer.appendChild(risksCartography);
     }
@@ -391,9 +353,7 @@ export class ExportComponent implements OnInit {
       risksOverviewContainer.appendChild(risksOverview);
     }
     return {
-      url:
-        'data:application/vnd.ms-word;charset=utf-8,' +
-        encodeURIComponent(html),
+      url: 'data:application/vnd.ms-word;charset=utf-8,' + encodeURIComponent(html),
       blob,
       filename: 'pia.doc'
     };
@@ -406,12 +366,10 @@ export class ExportComponent implements OnInit {
    */
   async addAttachmentsToZip(zip) {
     return new Promise(async (resolve, reject) => {
-      this._attachmentsService.attachments.forEach(attachment => {
+      this._attachmentsService.attachments.forEach((attachment) => {
         if (attachment.file && attachment.file.length > 0) {
           const byteCharacters1 = atob((attachment.file as any).split(',')[1]);
-          const folderName = this._translateService.instant(
-            'summary.attachments'
-          );
+          const folderName = this._translateService.instant('summary.attachments');
           zip.file(folderName + '/' + attachment.name, byteCharacters1, {
             binary: true
           });
@@ -429,7 +387,7 @@ export class ExportComponent implements OnInit {
     const JSZip = require('jszip');
     const zip = new JSZip();
     this.addImagesToZip(zip).then((zip2: any) => {
-      zip2.generateAsync({ type: 'blob' }).then(blobContent => {
+      zip2.generateAsync({ type: 'blob' }).then((blobContent) => {
         FileSaver.saveAs(blobContent, 'pia-images.zip');
       });
     });
@@ -445,9 +403,7 @@ export class ExportComponent implements OnInit {
       const risksCartographyImg = await this.getRisksCartographyImg();
       const risksOverviewImg = await this.getRisksOverviewImgForZip();
 
-      const byteCharacters1 = atob(
-        (actionPlanOverviewImg as any).split(',')[1]
-      );
+      const byteCharacters1 = atob((actionPlanOverviewImg as any).split(',')[1]);
       const byteCharacters2 = atob((risksCartographyImg as any).split(',')[1]);
       const byteCharacters3 = atob((risksOverviewImg as any).split(',')[1]);
 
@@ -470,11 +426,9 @@ export class ExportComponent implements OnInit {
   async getActionPlanOverviewImg() {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        const actionPlanOverviewImg = document.querySelector(
-          '#actionPlanOverviewImg'
-        );
+        const actionPlanOverviewImg = document.querySelector('#actionPlanOverviewImg');
         if (actionPlanOverviewImg) {
-          html2canvas(actionPlanOverviewImg, { scale: 1.4 }).then(canvas => {
+          html2canvas(actionPlanOverviewImg, { scale: 1.4 }).then((canvas) => {
             if (canvas) {
               const img = canvas.toDataURL();
               resolve(img);
@@ -492,11 +446,9 @@ export class ExportComponent implements OnInit {
   async getRisksCartographyImg() {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        const risksCartographyImg = document.querySelector(
-          '#risksCartographyImg'
-        );
+        const risksCartographyImg = document.querySelector('#risksCartographyImg');
         if (risksCartographyImg) {
-          html2canvas(risksCartographyImg, { scale: 1.4 }).then(canvas => {
+          html2canvas(risksCartographyImg, { scale: 1.4 }).then((canvas) => {
             if (canvas) {
               const img = canvas.toDataURL();
               resolve(img);
@@ -516,7 +468,7 @@ export class ExportComponent implements OnInit {
       setTimeout(() => {
         const mysvg = document.getElementById('risksOverviewSvg');
         if (mysvg) {
-          svgAsPngUri(mysvg, {}, uri => {
+          svgAsPngUri(mysvg, {}, (uri) => {
             resolve(uri);
           });
         }

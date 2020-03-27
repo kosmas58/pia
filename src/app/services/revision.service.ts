@@ -14,7 +14,7 @@ export class RevisionService {
    * Load a new revision
    */
   async loadRevision() {
-    return new Promise(resolve => {
+    return new Promise((resolve) => {
       const revision = new Revision();
       revision.pia_id = this.piaService.pia.id;
       revision.get(this.revisionSelected).then(() => {
@@ -31,7 +31,7 @@ export class RevisionService {
    * Load a new revision
    */
   async getRevisionById(id) {
-    return new Promise(resolve => {
+    return new Promise((resolve) => {
       const revision = new Revision();
       revision.pia_id = this.piaService.pia.id;
       revision.get(this.revisionSelected).then(() => {
@@ -65,7 +65,7 @@ export class RevisionService {
   async prepareLoadRevision(revisionId: number, piaId: number) {
     this.revisionSelected = revisionId;
     localStorage.setItem('revision-date-id', revisionId.toString());
-    return new Promise(resolve => {
+    return new Promise((resolve) => {
       const revision = new Revision();
       revision.pia_id = piaId;
       revision.get(revisionId).then(() => {
