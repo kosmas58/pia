@@ -60,10 +60,8 @@ export class ListItemComponent implements OnInit {
    * @param id structure ID
    */
   async duplicate(id: number) {
-    this._structureService
-      .duplicateStructure(id)
-      .then((structure: Structure) => {
-        this.structEvent.emit(structure);
-      });
+    this._structureService.duplicateStructure(id).then((structure: Structure) => {
+      this.structEvent.emit(structure);
+    });
   }
 }

@@ -40,7 +40,7 @@ export class Pia extends ApplicationDb {
     return new Promise((resolve, reject) => {
       this.findAll().then((entries: any) => {
         if (entries && entries.length > 0) {
-          entries.forEach(element => {
+          entries.forEach((element) => {
             if (element.is_example === 1 || element.is_archive === 1) {
               return;
             }
@@ -60,10 +60,8 @@ export class Pia extends ApplicationDb {
             newPia.status = element.status;
             newPia.dpos_names = element.dpos_names;
             newPia.people_names = element.people_names;
-            newPia.concerned_people_searched_opinion =
-              element.concerned_people_searched_opinion;
-            newPia.concerned_people_searched_content =
-              element.concerned_people_searched_content;
+            newPia.concerned_people_searched_opinion = element.concerned_people_searched_opinion;
+            newPia.concerned_people_searched_content = element.concerned_people_searched_content;
             newPia.is_example = element.is_example;
             newPia.is_archive = element.is_archive;
             newPia.structure_id = element.structure_id;
@@ -91,13 +89,13 @@ export class Pia extends ApplicationDb {
         fetch(this.getServerUrl(), {
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -131,7 +129,7 @@ export class Pia extends ApplicationDb {
     return new Promise((resolve, reject) => {
       this.findAllArchives().then((entries: any) => {
         if (entries && entries.length > 0) {
-          entries.forEach(element => {
+          entries.forEach((element) => {
             const newPia = new Pia();
             newPia.id = element.id;
             newPia.name = element.name;
@@ -148,10 +146,8 @@ export class Pia extends ApplicationDb {
             newPia.status = element.status;
             newPia.dpos_names = element.dpos_names;
             newPia.people_names = element.people_names;
-            newPia.concerned_people_searched_opinion =
-              element.concerned_people_searched_opinion;
-            newPia.concerned_people_searched_content =
-              element.concerned_people_searched_content;
+            newPia.concerned_people_searched_opinion = element.concerned_people_searched_opinion;
+            newPia.concerned_people_searched_content = element.concerned_people_searched_content;
             newPia.is_example = element.is_example;
             newPia.is_archive = element.is_archive;
             newPia.structure_id = element.structure_id;
@@ -179,13 +175,13 @@ export class Pia extends ApplicationDb {
         fetch(`${this.getServerUrl()}?is_archive=true`, {
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -264,13 +260,13 @@ export class Pia extends ApplicationDb {
           body: formData,
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result.id);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -339,13 +335,13 @@ export class Pia extends ApplicationDb {
             body: formData,
             mode: 'cors'
           })
-            .then(response => {
+            .then((response) => {
               return response.json();
             })
             .then((result: any) => {
               resolve();
             })
-            .catch(error => {
+            .catch((error) => {
               console.error('Request failed', error);
               reject();
             });
@@ -388,13 +384,13 @@ export class Pia extends ApplicationDb {
           body: formData,
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve();
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -441,10 +437,8 @@ export class Pia extends ApplicationDb {
           this.updated_at = new Date(entry.updated_at);
           this.dpos_names = entry.dpos_names;
           this.people_names = entry.people_names;
-          this.concerned_people_searched_opinion =
-            entry.concerned_people_searched_opinion;
-          this.concerned_people_searched_content =
-            entry.concerned_people_searched_content;
+          this.concerned_people_searched_opinion = entry.concerned_people_searched_opinion;
+          this.concerned_people_searched_content = entry.concerned_people_searched_content;
           this.structure_id = entry.structure_id;
           this.structure_name = entry.structure_name;
           this.structure_sector_name = entry.structure_sector_name;
@@ -465,13 +459,13 @@ export class Pia extends ApplicationDb {
         fetch(this.getServerUrl() + '/' + 'example', {
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -505,10 +499,8 @@ export class Pia extends ApplicationDb {
               this.updated_at = new Date(entry.updated_at);
               this.dpos_names = entry.dpos_names;
               this.people_names = entry.people_names;
-              this.concerned_people_searched_opinion =
-                entry.concerned_people_searched_opinion;
-              this.concerned_people_searched_content =
-                entry.concerned_people_searched_content;
+              this.concerned_people_searched_opinion = entry.concerned_people_searched_opinion;
+              this.concerned_people_searched_content = entry.concerned_people_searched_content;
               this.structure_id = entry.structure_id;
               this.structure_name = entry.structure_name;
               this.structure_sector_name = entry.structure_sector_name;

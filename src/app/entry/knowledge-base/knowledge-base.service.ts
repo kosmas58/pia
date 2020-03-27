@@ -32,18 +32,18 @@ export class KnowledgeBaseService {
    * @param {*} [linkKnowledgeBase] - Link knowledge base.
    */
   search(filter?: string, event?: any, linkKnowledgeBase?: any) {
-    this.filter = (filter && filter.length > 0) ? filter : '';
-    this.linkKnowledgeBase = (linkKnowledgeBase && linkKnowledgeBase.length > 0) ? linkKnowledgeBase : '';
+    this.filter = filter && filter.length > 0 ? filter : '';
+    this.linkKnowledgeBase = linkKnowledgeBase && linkKnowledgeBase.length > 0 ? linkKnowledgeBase : '';
     this.knowledgeBaseData = this.previousKnowledgeBaseData;
     this.specificSearch();
     if (this.knowledgeBaseData && this.filter && this.filter.length > 0) {
       this.knowledgeBaseData = this.knowledgeBaseData.filter((item) => {
-        return (item.filters.startsWith(this.filter));
+        return item.filters.startsWith(this.filter);
       });
     }
     if (this.knowledgeBaseData && this.linkKnowledgeBase && this.linkKnowledgeBase.length > 0) {
       this.knowledgeBaseData = this.knowledgeBaseData.filter((item) => {
-        return (this.linkKnowledgeBase.indexOf(item.slug) >= 0);
+        return this.linkKnowledgeBase.indexOf(item.slug) >= 0;
       });
     }
     this.switchSelectedElement(event);
@@ -64,13 +64,13 @@ export class KnowledgeBaseService {
         const kbSlugs2 = this.knowledgeBaseData.filter((kbItem) => {
           return kbItem.filters.startsWith('measure.');
         });
-        kbSlugs2.forEach(element => {
+        kbSlugs2.forEach((element) => {
           kbSlugs.push(element.slug);
         });
       } else if (item.questions) {
-        item.questions.forEach(question => {
+        item.questions.forEach((question) => {
           if (question.link_knowledge_base) {
-            question.link_knowledge_base.forEach(kbElement => {
+            question.link_knowledge_base.forEach((kbElement) => {
               kbSlugs.push(kbElement);
             });
           }
@@ -95,7 +95,7 @@ export class KnowledgeBaseService {
    */
   switchSelectedElement(event: any) {
     if (event) {
-      event.target.parentNode.querySelectorAll('button').forEach(element => {
+      event.target.parentNode.querySelectorAll('button').forEach((element) => {
         element.classList.remove('active');
       });
       event.target.classList.add('active');
@@ -124,8 +124,8 @@ export class KnowledgeBaseService {
   private specificSearch() {
     if (this.q && this.q.length > 0) {
       const re = new RegExp(this.q, 'i');
-      this.knowledgeBaseData = this.knowledgeBaseData.filter((item2) => (
-        this.translateService.instant(item2.name).match(re) || this.translateService.instant(item2.description).match(re))
+      this.knowledgeBaseData = this.knowledgeBaseData.filter(
+        (item2) => this.translateService.instant(item2.name).match(re) || this.translateService.instant(item2.description).match(re)
       );
     }
     this.hasKnowledgeBaseData = this.knowledgeBaseData.length > 0 ? true : false;

@@ -55,8 +55,8 @@ export class EntryComponent implements OnInit, OnDestroy {
     this.data = this._structureService.structure.data;
     this._answerStructureService.structure = this._structureService.structure;
 
-    this.data.sections.forEach(section => {
-      section.items.forEach(item => {
+    this.data.sections.forEach((section) => {
+      section.items.forEach((item) => {
         this._sidStatusService.setStructureStatus(section, item);
       });
     });
@@ -69,7 +69,7 @@ export class EntryComponent implements OnInit, OnDestroy {
     });
 
     // Suscribe to measure service messages
-    this.subscription = this._measureService.behaviorSubject.subscribe(val => {
+    this.subscription = this._measureService.behaviorSubject.subscribe((val) => {
       this.measureToRemoveFromTags = val;
     });
   }
@@ -89,10 +89,10 @@ export class EntryComponent implements OnInit, OnDestroy {
 
     this._structureService.getStructure().then(() => {
       this.data = this._structureService.structure.data;
-      this.section = this.data.sections.filter(section => {
+      this.section = this.data.sections.filter((section) => {
         return section.id === sectionId;
       })[0];
-      this.item = this.section.items.filter(item => {
+      this.item = this.section.items.filter((item) => {
         return item.id === itemId;
       })[0];
 
@@ -100,7 +100,7 @@ export class EntryComponent implements OnInit, OnDestroy {
       this._globalEvaluationService.item = this.item;
 
       if (this.item.questions) {
-        this.item.questions.forEach(question => {
+        this.item.questions.forEach((question) => {
           this.questions.push(question);
         });
       }
@@ -109,12 +109,8 @@ export class EntryComponent implements OnInit, OnDestroy {
       this._actionPlanService.data = this.data;
 
       // Update on knowledge base (scroll / content / search field)
-      const knowledgeBaseScroll = document.querySelector(
-        '.pia-knowledgeBaseBlock-list'
-      );
-      const knowledgeBaseContent = document.querySelector(
-        '.pia-knowledgeBaseBlock-searchForm input'
-      ) as HTMLInputElement;
+      const knowledgeBaseScroll = document.querySelector('.pia-knowledgeBaseBlock-list');
+      const knowledgeBaseContent = document.querySelector('.pia-knowledgeBaseBlock-searchForm input') as HTMLInputElement;
       knowledgeBaseScroll.scrollTop = 0;
       knowledgeBaseContent.value = '';
 

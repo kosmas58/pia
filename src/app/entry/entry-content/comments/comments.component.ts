@@ -33,15 +33,9 @@ export class CommentsComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    if (
-      this.answer.updated_at &&
-      this.answer.updated_at.toString() !== 'Invalid Date'
-    ) {
+    if (this.answer.updated_at && this.answer.updated_at.toString() !== 'Invalid Date') {
       this.questionDate = this.answer.updated_at;
-    } else if (
-      this.answer.created_at &&
-      this.answer.created_at.toString() !== 'Invalid Date'
-    ) {
+    } else if (this.answer.created_at && this.answer.created_at.toString() !== 'Invalid Date') {
       this.questionDate = this.answer.created_at;
     }
     this.comments = [];
@@ -53,7 +47,7 @@ export class CommentsComponent implements OnInit {
       commentsModel.reference_to = this.question.id;
     }
 
-    commentsModel.findAllByReference().then(entries => {
+    commentsModel.findAllByReference().then((entries) => {
       this.comments = entries;
       this.comments.reverse();
     });
@@ -67,21 +61,12 @@ export class CommentsComponent implements OnInit {
    * Shows or hide the block which allows users to create a new comment.
    */
   toggleNewCommentBox() {
-    const newCommentBox = this.el.nativeElement.querySelector(
-      '.pia-commentsBlock-new'
-    );
+    const newCommentBox = this.el.nativeElement.querySelector('.pia-commentsBlock-new');
     // Opens comments list if it's closed.
-    const accordeonButton = this.el.nativeElement.querySelector(
-      '.pia-commentsBlock-btn button span'
-    );
-    const commentsList = this.el.nativeElement.querySelector(
-      '.pia-commentsBlock-list'
-    );
+    const accordeonButton = this.el.nativeElement.querySelector('.pia-commentsBlock-btn button span');
+    const commentsList = this.el.nativeElement.querySelector('.pia-commentsBlock-list');
     if (commentsList && accordeonButton) {
-      if (
-        commentsList.classList.contains('close') &&
-        accordeonButton.classList.contains('pia-icon-accordeon-down')
-      ) {
+      if (commentsList.classList.contains('close') && accordeonButton.classList.contains('pia-icon-accordeon-down')) {
         accordeonButton.classList.toggle('pia-icon-accordeon-up');
         accordeonButton.classList.remove('pia-icon-accordeon-down');
       }
@@ -108,17 +93,11 @@ export class CommentsComponent implements OnInit {
    */
   newCommentClickBtn() {
     // Checks if the comment value exists.
-    if (
-      this.commentsForm.value.description &&
-      this.commentsForm.value.description.length > 0
-    ) {
+    if (this.commentsForm.value.description && this.commentsForm.value.description.length > 0) {
       // Checks if there are already comments and if so, checks if the last comment value is different from our current comment.
 
       // add Btn status
-      if (
-        this.comments.length > 0 &&
-        this.comments[0].description === this.commentsForm.value.description
-      ) {
+      if (this.comments.length > 0 && this.comments[0].description === this.commentsForm.value.description) {
         this._modalsService.openModal('modal-same-comment');
       } else {
         // Creates the new comment and pushes it as the first comment in list.
@@ -148,12 +127,8 @@ export class CommentsComponent implements OnInit {
    * Display comments list.
    */
   displayCommentsList() {
-    const commentsList = this.el.nativeElement.querySelector(
-      '.pia-commentsBlock-list'
-    );
-    const btn = this.el.nativeElement.querySelector(
-      '.pia-commentsBlock-btn button span'
-    );
+    const commentsList = this.el.nativeElement.querySelector('.pia-commentsBlock-list');
+    const btn = this.el.nativeElement.querySelector('.pia-commentsBlock-btn button span');
     btn.classList.toggle('pia-icon-accordeon-down');
     btn.classList.toggle('pia-icon-accordeon-up');
     commentsList.classList.toggle('close');

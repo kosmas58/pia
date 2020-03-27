@@ -12,19 +12,20 @@ import { Pia } from 'src/app/entry/pia.model';
 import { ModalsService } from 'src/app/modals/modals.service';
 import { LanguagesService } from 'src/app/services/languages.service';
 
-
 @Injectable()
 export class StructureService {
   public behaviorSubject = new BehaviorSubject<boolean>(null);
   structures = [];
   structure: Structure = new Structure();
 
-  constructor(private route: ActivatedRoute,
-              private httpClient: HttpClient,
-              private _modalsService: ModalsService,
-              private _languagesService: LanguagesService) {
-                this.getStructure();
-              }
+  constructor(
+    private route: ActivatedRoute,
+    private httpClient: HttpClient,
+    private _modalsService: ModalsService,
+    private _languagesService: LanguagesService
+  ) {
+    this.getStructure();
+  }
 
   /**
    * Get the Structure.
@@ -63,15 +64,21 @@ export class StructureService {
 
   updateJson(section: any, item: any, question: any) {
     this.getStructure().then(() => {
-      this.structure.data.sections.filter(s => s.id === section.id)[0].items.filter(i => i.id === item.id)[0].questions.filter(q => q.id === question.id)[0].title = question.title;
-      this.structure.data.sections.filter(s => s.id === section.id)[0].items.filter(i => i.id === item.id)[0].questions.filter(q => q.id === question.id)[0].answer = question.answer;
+      this.structure.data.sections
+        .filter((s) => s.id === section.id)[0]
+        .items.filter((i) => i.id === item.id)[0]
+        .questions.filter((q) => q.id === question.id)[0].title = question.title;
+      this.structure.data.sections
+        .filter((s) => s.id === section.id)[0]
+        .items.filter((i) => i.id === item.id)[0]
+        .questions.filter((q) => q.id === question.id)[0].answer = question.answer;
       this.structure.update();
     });
   }
 
   updateMeasureJson(section: any, item: any, measure: any, id: number) {
     this.getStructure().then(() => {
-      this.structure.data.sections.filter(s => s.id === section.id)[0].items.filter(i => i.id === item.id)[0].answers[id] = measure;
+      this.structure.data.sections.filter((s) => s.id === section.id)[0].items.filter((i) => i.id === item.id)[0].answers[id] = measure;
       this.structure.update();
     });
   }
@@ -84,10 +91,10 @@ export class StructureService {
 
     // Removes from DB.
     const structure = new Structure();
-    structure.delete(id).then( () => {
+    structure.delete(id).then(() => {
       const pia = new Pia();
       pia.getAllWithStructure(id).then((items: any) => {
-        items.forEach(item => {
+        items.forEach((item) => {
           item.structure_id = null;
           pia.updateEntry(item);
         });
@@ -149,7 +156,7 @@ export class StructureService {
    */
   async importStructureData(data: any, prefix: string, is_duplicate: boolean) {
     return new Promise((resolve, reject) => {
-      if (!('structure' in data) || !('dbVersion' in data.structure)) {
+      if (!('structure' in data) || !('dbVersion' in data.structure)) {
         this._modalsService.openModal('import-wrong-structure-file');
         return;
       }
@@ -206,7 +213,7 @@ export class StructureService {
         this.importStructureData(jsonFile, 'IMPORT', false).then((structure) => {
           this.structures.push(structure);
         });
-      }
+      };
     });
   }
 }

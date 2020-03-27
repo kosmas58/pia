@@ -70,11 +70,9 @@ export class StructuresComponent implements OnInit, OnDestroy {
       import_file: new FormControl('', [])
     });
 
-    this.structExampleSubscribe = this._translateService.onLangChange.subscribe(
-      (event: LangChangeEvent) => {
-        this.refreshContent();
-      }
-    );
+    this.structExampleSubscribe = this._translateService.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.refreshContent();
+    });
   }
 
   ngOnDestroy() {
@@ -92,7 +90,7 @@ export class StructuresComponent implements OnInit, OnDestroy {
    */
   structChange(structure) {
     if (this._structureService.structures.includes(structure)) {
-      this._structureService.structures.forEach(struct => {
+      this._structureService.structures.forEach((struct) => {
         if (struct.id === structure.id) struct = structure;
       });
     } else {
@@ -143,9 +141,7 @@ export class StructuresComponent implements OnInit, OnDestroy {
     structure.sector_name = this.structureForm.value.sector_name;
     structure.data = this._appDataService.dataNav;
     const p = structure.create();
-    p.then(id =>
-      this.router.navigate(['structures', 'entry', id, 'section', 1, 'item', 1])
-    );
+    p.then((id) => this.router.navigate(['structures', 'entry', id, 'section', 1, 'item', 1]));
   }
 
   /**
@@ -187,11 +183,9 @@ export class StructuresComponent implements OnInit, OnDestroy {
     const structure = new Structure();
     const data: any = await structure.getAll();
     setTimeout(() => {
-      this._structureService
-        .loadExample()
-        .then((structureExample: Structure) => {
-          data.push(structureExample);
-        });
+      this._structureService.loadExample().then((structureExample: Structure) => {
+        data.push(structureExample);
+      });
 
       this._structureService.structures = data;
       this.sortOrder = localStorage.getItem('sortOrder');

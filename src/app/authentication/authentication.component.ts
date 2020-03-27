@@ -10,9 +10,7 @@ import { LanguagesService } from 'src/app/services/languages.service';
   styleUrls: ['./authentication.component.scss']
 })
 export class AuthenticationComponent implements OnInit, OnDestroy {
-  constructor(private _renderer: Renderer2,
-              public _translateService: TranslateService,
-              public _languagesService: LanguagesService) {
+  constructor(private _renderer: Renderer2, public _translateService: TranslateService, public _languagesService: LanguagesService) {
     this._renderer.addClass(document.body, 'pia-authentication');
   }
 
@@ -21,7 +19,7 @@ export class AuthenticationComponent implements OnInit, OnDestroy {
     window.screenTop === 0 && window.screenY === 0 ? displayMessage.classList.remove('hide') : displayMessage.classList.add('hide');
     window.onresize = function (event) {
       window.screenTop === 0 && window.screenY === 0 ? displayMessage.classList.remove('hide') : displayMessage.classList.add('hide');
-    }
+    };
   }
 
   ngOnDestroy() {

@@ -70,10 +70,7 @@ export class RelativeDate {
       res = 'Earlier in this month';
 
       // Current week
-      if (
-        this.getMonday(new Date()).getDate() ===
-        this.getMonday(this.strDate).getDate()
-      ) {
+      if (this.getMonday(new Date()).getDate() === this.getMonday(this.strDate).getDate()) {
         res = 'Earlier in this week';
 
         // Today
@@ -82,10 +79,7 @@ export class RelativeDate {
         }
 
         // Yesterday
-        if (
-          date.getDate() ===
-          new Date(new Date().setDate(new Date().getDate() - 1)).getDate()
-        ) {
+        if (date.getDate() === new Date(new Date().setDate(new Date().getDate() - 1)).getDate()) {
           res = 'yesterday';
         }
       }
