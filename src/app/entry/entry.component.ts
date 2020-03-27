@@ -82,7 +82,7 @@ export class EntryComponent implements OnInit, OnDestroy, DoCheck {
     }
 
     // Suscribe to measure service messages
-    this.subscription = this._measureService.behaviorSubject.subscribe(val => {
+    this.subscription = this._measureService.behaviorSubject.subscribe((val) => {
       this.measureToRemoveFromTags = val;
     });
   }
@@ -94,11 +94,11 @@ export class EntryComponent implements OnInit, OnDestroy, DoCheck {
 
       // Update tags when removing measures from 3.1
       const itemsQuestions = [];
-      this._piaService.data.sections.forEach(section => {
-        section.items.forEach(item => {
+      this._piaService.data.sections.forEach((section) => {
+        section.items.forEach((item) => {
           if (item.questions) {
             itemsQuestions.push(
-              item.questions.filter(question => {
+              item.questions.filter((question) => {
                 return question.answer_type === 'list' && question.is_measure === true;
               })
             );
@@ -107,11 +107,11 @@ export class EntryComponent implements OnInit, OnDestroy, DoCheck {
       });
 
       // Keep only questions with measures lists
-      const listQuestions = itemsQuestions.filter(v => Object.keys(v).length !== 0);
+      const listQuestions = itemsQuestions.filter((v) => Object.keys(v).length !== 0);
 
       // For each of these questions, get their respective answer
-      listQuestions.forEach(questionsSet => {
-        questionsSet.forEach(q => {
+      listQuestions.forEach((questionsSet) => {
+        questionsSet.forEach((q) => {
           const answer = new Answer();
           answer.getByReferenceAndPia(this._piaService.pia.id, q.id).then(() => {
             if (answer.data && answer.data.list.length > 0 && answer.data.list.includes(measureName)) {
@@ -139,10 +139,10 @@ export class EntryComponent implements OnInit, OnDestroy, DoCheck {
       this._appDataService.dataNav = this._piaService.pia.structure_data;
     }
     this.data = this._appDataService.dataNav;
-    this.section = this.data.sections.filter(section => {
+    this.section = this.data.sections.filter((section) => {
       return section.id === sectionId;
     })[0];
-    this.item = this.section.items.filter(item => {
+    this.item = this.section.items.filter((item) => {
       return item.id === itemId;
     })[0];
 
@@ -151,7 +151,7 @@ export class EntryComponent implements OnInit, OnDestroy, DoCheck {
 
     this.questions = [];
     if (this.item.questions) {
-      this.item.questions.forEach(question => {
+      this.item.questions.forEach((question) => {
         this.questions.push(question);
       });
     }
@@ -164,7 +164,7 @@ export class EntryComponent implements OnInit, OnDestroy, DoCheck {
         let displayModal = true;
         if (this.section.id === 3 && (this.item.id === 2 || this.item.id === 3 || this.item.id === 4)) {
           if (this._measureService.measures.length > 0) {
-            this._measureService.measures.forEach(element => {
+            this._measureService.measures.forEach((element) => {
               if (element.title && element.title.length > 0) {
                 displayModal = false;
               }
@@ -194,7 +194,7 @@ export class EntryComponent implements OnInit, OnDestroy, DoCheck {
 
       // Load PIA's revisions
       const revision = new Revision();
-      revision.findAllByPia(this.pia.id).then(resp => {
+      revision.findAllByPia(this.pia.id).then((resp) => {
         this.revisions = resp;
       });
     });
@@ -217,8 +217,8 @@ export class EntryComponent implements OnInit, OnDestroy, DoCheck {
    * Create a new Revision record in indexDB
    */
   onNewRevision() {
-    this._piaService.export(this._piaService.pia.id).then(exportResult => {
-      this._revisionService.add(exportResult, this._piaService.pia.id).then(resp => {
+    this._piaService.export(this._piaService.pia.id).then((exportResult) => {
+      this._revisionService.add(exportResult, this._piaService.pia.id).then((resp) => {
         // because ngOnchanges no detect simply array push
         this.revisions.push(resp);
         this.revisions = this.revisions.slice();

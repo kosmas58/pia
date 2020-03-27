@@ -1,12 +1,4 @@
-import {
-  Component,
-  OnInit,
-  ViewChild,
-  ElementRef,
-  Input,
-  EventEmitter,
-  Output
-} from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, Input, EventEmitter, Output } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 import * as FileSaver from 'file-saver';
@@ -24,11 +16,7 @@ declare const require: any;
 @Component({
   selector: 'app-card-item',
   templateUrl: './card-item.component.html',
-  styleUrls: [
-    './card-item.component.scss',
-    './card-item_edit.component.scss',
-    './card-item_doing.component.scss'
-  ]
+  styleUrls: ['./card-item.component.scss', './card-item_edit.component.scss', './card-item_doing.component.scss']
 })
 export class CardItemComponent implements OnInit {
   @Input() pia: any;
@@ -77,7 +65,7 @@ export class CardItemComponent implements OnInit {
     this.attachments = [];
     attachmentModel.pia_id = this.pia.id;
     attachmentModel.findAll().then((entries: any) => {
-      entries.forEach(element => {
+      entries.forEach((element) => {
         if (element['file'] && element['file'].length) {
           this.attachments.push(element);
         }
@@ -98,7 +86,7 @@ export class CardItemComponent implements OnInit {
         this._piaService.export(this.pia.id).then((data: any) => {
           zip2.file('pia.json', data, { binary: true });
           /* Save as .zip */
-          zip2.generateAsync({ type: 'blob' }).then(blobContent => {
+          zip2.generateAsync({ type: 'blob' }).then((blobContent) => {
             FileSaver.saveAs(blobContent, 'pia-' + this.pia.name + '.zip');
           });
         });
@@ -112,11 +100,9 @@ export class CardItemComponent implements OnInit {
    */
   async addAttachmentsToZip(zip) {
     return new Promise(async (resolve, reject) => {
-      this.attachments.forEach(attachment => {
+      this.attachments.forEach((attachment) => {
         const byteCharacters1 = atob((attachment.file as any).split(',')[1]);
-        const folderName = this._translateService.instant(
-          'summary.attachments'
-        );
+        const folderName = this._translateService.instant('summary.attachments');
         zip.file(folderName + '/' + attachment.name, byteCharacters1, {
           binary: true
         });
