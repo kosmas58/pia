@@ -86,12 +86,17 @@ export class RevisionsComponent implements OnInit, OnDestroy, OnChanges {
         // Group by key
         if (this.revisionsGroupByMonth[key]) {
           this.revisionsGroupByMonth[key].push(obj);
+          // ORDER DATE ARRAY
+          this.revisionsGroupByMonth[key].sort(function (a, b) {
+            return b.created_at - a.created_at;
+          });
         } else {
           this.revisionsGroupByMonth[key] = [];
           this.revisionsGroupByMonth[key].push(obj);
         }
       });
       this.revisionsGroupByMonthInArray = Object.keys(this.revisionsGroupByMonth); // Get Properties on array
+      console.log(this.revisionsGroupByMonth);
     }
   }
 

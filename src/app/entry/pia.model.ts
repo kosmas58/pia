@@ -289,7 +289,7 @@ export class Pia extends ApplicationDb {
    * Update a PIA.
    * @returns {Promise} - Return new Promise
    */
-  async update() {
+  async update(date = null) {
     return new Promise((resolve, reject) => {
       this.find(this.id).then((entry: any) => {
         entry.name = this.name;
@@ -318,7 +318,7 @@ export class Pia extends ApplicationDb {
         entry.structure_name = this.structure_name;
         entry.structure_sector_name = this.structure_sector_name;
         entry.structure_data = this.structure_data ? this.structure_data : '';
-        entry.updated_at = new Date();
+        entry.updated_at = date ? date : new Date();
         if (this.serverUrl) {
           const formData = new FormData();
           for (const d in entry) {
