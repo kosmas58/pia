@@ -27,6 +27,8 @@ export class ModalsComponent implements OnInit, OnDestroy {
   @Input() structure: any;
   @Output() continueEvent = new EventEmitter();
 
+  @Input() revisionPreview: any;
+
   subscription: Subscription;
   newPia: Pia;
   newStructure: Structure;

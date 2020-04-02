@@ -94,7 +94,7 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
    * Create a new Revision record in indexedDB
    */
   onNewRevision() {
-    this._piaService.export(this.pia.id).then((exportResult) => {
+    this._revisionService.export(this.pia.id).then((exportResult) => {
       this._revisionService.add(exportResult, this.pia.id).then((resp) => {
         // because ngOnchanges no detect simply array push
         this.revisions.push(resp);
