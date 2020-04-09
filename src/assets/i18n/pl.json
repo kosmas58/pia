@@ -208,8 +208,8 @@
 					"export": "Eksport",
 					"more_options": "Więcej opcji",
 					"pia": "Wyświetlenie<br>PIA",
-					"remove": "usunąć",
-					"unarchive": "rozpakować"
+					"remove": "Usunięcie",
+					"unarchive": "Rozpakować"
 				},
 				"validate_pia": "Uprawomocnić"
 			},
@@ -254,7 +254,7 @@
 			"name": "Nazwiska",
 			"new_pia": "Nowa PIA",
 			"new_structure": "Nowy szablon",
-			"sector_name": "Sektor powiązany",
+			"sector_name": "Sfera",
 			"sort": "Sortowanie",
 			"sort_by": "według",
 			"status": "Statusu",
@@ -268,7 +268,7 @@
 			"column_evaluation": "Ocena",
 			"column_pia": "PIA",
 			"column_progression": "Postęp",
-			"column_sector_name": "Sektor powiązany",
+			"column_sector_name": "Sfera",
 			"column_status": "Status",
 			"column_structure": "Szablon",
 			"column_structure_name": "Szablon",
@@ -283,8 +283,8 @@
 					"edit": "Edycja",
 					"export": "Eksport",
 					"pia": "Wyświetlenie PIA",
-					"remove": "usunąć",
-					"unarchive": "rozpakować"
+					"remove": "Usunięcie",
+					"unarchive": "Rozpakować"
 				}
 			}
 		},
@@ -298,7 +298,7 @@
 			"example": "Przykład",
 			"general_measure": "Środek ochrony fizycznej",
 			"measure_on_data": "Środek ochrony logicznej",
-			"method": "metodologia",
+			"method": "Metodologia",
 			"organizational_measure": "Środek organizacyjny",
 			"principle": "Zasada"
 		},
@@ -1352,17 +1352,17 @@
 			"title": "Plan działania"
 		},
 		"actions": {
-			"complete_download": "Pobierz całą analizę",
-			"complete_download_desc": "Wyeksportuj zawartość analizy (.doc i obrazy), powiązane załączniki i plan działania w formacie .csv do archiwum .zip.",
-			"individual_download": "Ściąganie",
-			"individual_download_desc": "Eksportuje określone elementy analizy.",
-			"individual_download_doc": "Treść tekstowa (plik .doc)",
-			"individual_download_images": "Elementy wizualne (pliki .png): przegląd ryzyk, mapowanie ryzyka, plan działania",
+      "complete_download": "Pobierz pełen raport",
+      "complete_download_desc": "Wyeksportuj w formacie archiwum .zip pełną zawartość, raport (jako .doc i grafiki), załączniki plan działań jako .csv.",
+      "individual_download": "Pobierz elementy raportu.",
+      "individual_download_desc": "Wyeksportuj wybrane elementy raportu.",
+      "individual_download_doc": "Treść tekstowa (.doc)",
+			"individual_download_images": "Grafiki (.png) łącznie z obrazem ryzyk, mapą ryzyk i planem działań.",
 			"individual_download_json": "Analiza do zaimportowania do narzędzia PIA (plik.json)",
 			"individual_download_select": "Wybierz elementy do eksportu:",
-			"individual_to_download": "pobieranie",
-			"print": "Wydrukuj analizę",
-			"print_and_download": "Drukowanie i pobieranie"
+			"individual_to_download": "Pobieranie",
+			"print": "Wydrukuj raport",
+			"print_and_download": "Wydrukuj i pobierz"
 		},
 		"attachments": "Załączniki",
 		"concerned_people_name": "Nazwiska osób, których dane dotyczą",
@@ -1382,7 +1382,7 @@
 		"csv_people_in_charge": "Osoba odpowiedzialna",
 		"csv_section": "Sekcja",
 		"csv_title_object": "Tytuł przedmiotu",
-		"download_csv": "Plan działania (plik .csv)",
+		"download_csv": "Plan działania (.csv)",
 		"dpo_name": "Nazwisko IOD",
 		"dpo_opinion": "Opinia IOD",
 		"dpo_status": "Status IOD",
@@ -1428,7 +1428,7 @@
 		"button": {
 			"rejection": "Odrzuć PIA",
 			"signed_validation": "Zatwierdź PIA i podpisz",
-			"simple_validation": "Prosta walidacja"
+			"simple_validation": "Zatwierdź PIA"
 		},
 		"confirmation1": "Potwierdzam, że kontekst przetwarzania opisany w PIA jest zgodny z rzeczywistością.",
 		"confirmation2": "Potwierdzam, że mam świadomość ryzyk zależnych od obecnych bądź planowanych środków ochrony.",
