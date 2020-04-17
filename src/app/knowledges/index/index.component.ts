@@ -4,12 +4,13 @@ import { FormGroup, FormControl } from '@angular/forms';
 import { Subscription } from 'rxjs';
 import { KnowledgeBase } from 'src/app/models/knowledgeBase.model';
 import { KnowledgesService } from 'src/app/services/knowledges.service';
+import { ModalsService } from 'src/app/modals/modals.service';
 
 @Component({
   selector: 'app-index',
   templateUrl: './index.component.html',
   styleUrls: ['./index.component.scss'],
-  providers: [KnowledgesService]
+  providers: [KnowledgesService, ModalsService]
 })
 export class IndexComponent implements OnInit {
   knowledgeBaseForm: FormGroup;
@@ -20,12 +21,12 @@ export class IndexComponent implements OnInit {
   view: 'knowledges';
   searchText: string;
   paramsSubscribe: Subscription;
-  knowledgeBases: Array<KnowledgeBase> = [];
 
   constructor(
     private router: Router,
     private el: ElementRef,
     private route: ActivatedRoute,
+    private _modalsService: ModalsService,
     private _knowledgesService: KnowledgesService
   ) {}
 
@@ -35,7 +36,6 @@ export class IndexComponent implements OnInit {
       .getAll()
       .then((result: any) => {
         console.log('result', result);
-        this.knowledgeBases = result;
       })
       .catch(() => {});
 
@@ -69,6 +69,10 @@ export class IndexComponent implements OnInit {
     } else {
       this.viewOnCard();
     }
+
+    this.importKnowledgeBaseForm = new FormGroup({
+      import_file: new FormControl('', [])
+    });
   }
 
   ngOnDestroy() {
@@ -128,7 +132,7 @@ export class IndexComponent implements OnInit {
     kb.name = this.knowledgeBaseForm.value.name;
     kb.author = this.knowledgeBaseForm.value.author;
     kb.contributors = this.knowledgeBaseForm.value.contributors;
-    kb.create().then((result: KnowledgeBase) => this.router.navigate(['knowledge', 'entry', result.id, 'section', 1, 'item', 1]));
+    kb.create().then((result: KnowledgeBase) => this.router.navigate(['knowledges', 'entry', result.id]));
   }
 
   /**
@@ -149,7 +153,7 @@ export class IndexComponent implements OnInit {
    * @private
    */
   private sortKnowledgeBase() {
-    /* this._structureService.structures.sort((a, b) => {
+    this._knowledgesService.list.sort((a, b) => {
       let firstValue = a[this.sortValue];
       let secondValue = b[this.sortValue];
       if (this.sortValue === 'updated_at' || this.sortValue === 'created_at') {
@@ -169,7 +173,27 @@ export class IndexComponent implements OnInit {
       }
     });
     if (this.sortOrder === 'up') {
-      this._structureService.structures.reverse();
-    } */
+      this._knowledgesService.list.reverse();
+    }
+  }
+
+  /**
+   * Import a new structure.
+   * @param {*} [event] - Any Event.
+   */
+  importStruct(event?: any) {
+    if (event) {
+      //this._structureService.importStructure(event.target.files[0]);
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.readAsText(event.target.files[0], 'UTF-8');
+        reader.onload = (event2: any) => {
+          const jsonFile = JSON.parse(event2.target.result);
+          this._knowledgesService.import(jsonFile);
+        };
+      });
+    } else {
+      this.el.nativeElement.querySelector('#import_file').click();
+    }
   }
 }

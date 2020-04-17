@@ -1,16 +1,19 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, ElementRef } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
+import { ModalsService } from 'src/app/modals/modals.service';
+import { KnowledgesService } from 'src/app/services/knowledges.service';
 
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
-  styleUrls: ['./card.component.scss']
+  styleUrls: ['./card.component.scss'],
+  providers: [ModalsService]
 })
 export class CardComponent implements OnInit {
   knowledgeBaseForm: FormGroup;
   @Input() base: any;
 
-  constructor() {}
+  constructor(private _modalsService: ModalsService, private _knowledgesService: KnowledgesService) {}
 
   ngOnInit() {
     this.knowledgeBaseForm = new FormGroup({
@@ -52,5 +55,18 @@ export class CardComponent implements OnInit {
       this.base.update();
       // this.structEvent.emit(this.structure);
     }
+  }
+
+  remove(id) {
+    this._knowledgesService.selected = id;
+    this._modalsService.openModal('modal-remove-knowledgebase');
+  }
+
+  export(id) {
+    this._knowledgesService.export(id);
+  }
+
+  duplicate(id) {
+    this._knowledgesService.duplicate(id);
   }
 }

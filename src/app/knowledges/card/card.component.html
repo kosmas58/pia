@@ -3,19 +3,21 @@
       
         <div class="pia-cardsBlock-toolbar">
             <div class="pia-cardsBlock-toolbar-export">
-                <a href="javascript:;" class="btn pia-tooltip">
+                <a href="javascript:;" (click)="export(base.id)" class="btn pia-tooltip">
                     <i class="fa fa-download" aria-hidden="true"></i>
                     <span title="{{ 'homepage.cards.item.tools.export' | translate }}" class="pia-tooltip-text">
                         {{ 'homepage.cards.item.tools.export' | translate }}
                     </span>
                 </a>
-                <a href="javascript:;" class="btn pia-tooltip">
+                
+                <a href="javascript:;" (click)="duplicate(base.id)" class="btn pia-tooltip">
                     <i class="fa fa-files-o" aria-hidden="true"></i>
                     <span title="{{ 'homepage.cards.item.tools.duplicate' | translate }}" class="pia-tooltip-text">
                         {{ 'homepage.cards.item.tools.duplicate' | translate }}
                     </span>
                 </a>
-                <a href="javascript:;" class="btn pia-tooltip">
+
+                <a href="javascript:;" (click)="remove(base.id)" class="btn pia-tooltip">
                     <i class="fa fa-trash-o" aria-hidden="true"></i>
                     <span title="{{ 'homepage.cards.item.tools.remove' | translate }}" class="pia-tooltip-text">
                         {{ 'homepage.cards.item.tools.remove' | translate }}
@@ -55,27 +57,15 @@
                     id="knowledgebase-edit-name"
                     (focusout)="knowledgeBaseFocusOut()">
             </div>
-            
-            <!--
-            <div (click)="structureSectorNameFocusIn()">
-                <label for="structure-edit-sector-name">{{ 'homepage.cards.sector_name' | translate }}</label>
-                <input type="text"
-                        #structureSectorName
-                        formControlName="sector_name"
-                        required
-                        placeholder="{{ 'homepage.cards.placeholder_sector_name' | translate }}"
-                        id="structure-edit-sector-name"
-                        (focusout)="structureSectorNameFocusOut()">
+
+            <div (click)="knowledgeBaseContributorsFocusIn()" style="margin-top:20px;">
+                <label for="knowledgebase-edit-name">{{ 'homepage.cards.knowledges.placeholder_entry_number' | translate }}</label>
+                <br><span>{{ (base.knowledges) ? base.knowledges.length : "aucune"}}</span>
             </div>
-            <div class="pia-cardsBlock-item-date">
-                <div>{{ 'homepage.cards.date' | translate }}</div>
-                <time>{{ structure.created_at | date: "shortDate":"":_languagesService.selectedLanguage }}</time>
+
+            <div class="pia-cardsBlock-item-btn">
+                <a routerLink="/knowledges/entry/{{base.id}}" class="btn btn-red">{{ 'homepage.cards.item.edit_structure' | translate }}</a>
             </div>
-                <div class="pia-cardsBlock-item-btn">
-                    <a *ngIf="structure.is_example" routerLink="/structures/entry/{{structure.id}}/section/1/item/1" class="btn btn-green">{{ 'homepage.cards.item.consult_structure' | translate }}</a>
-                    <a *ngIf="!structure.is_example" routerLink="/structures/entry/{{structure.id}}/section/1/item/1" class="btn btn-green">{{ 'homepage.cards.item.edit_structure' | translate }}</a>
-                </div>
-            -->
         </form>
 
 
