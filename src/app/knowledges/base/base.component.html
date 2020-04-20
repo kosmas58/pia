@@ -1,12 +1,97 @@
 <app-header></app-header>
 
+<div class="container pia-mainContainerBlock pia-knowledges_base">
+  <div class="row">
+    <div class="small-12 medium-12 columns">
+      <div class="pia-breadcrumb">{{ 'header.knowledges' | translate }} > {{base.name}}</div>
+      <div class="pia-filtersBlock">
+              
+        <div class="pia-filtersBlock-left">
+            <div class="pia-filtersBlock-buttons">
+              <button type="button" class="btn btn-red" (click)="showForm = true;  editMode = 'new'; entryForm.reset();">
+                <i class="fa fa-folder-open" aria-hidden="true"></i>{{ 'homepage.cards.knowledges_entry.new' | translate }}
+              </button>
+            </div>
+        </div>
+  
+  
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="small-8 medium-8 columns">
+      <table class="pia-list-table">
+        <thead>
+          <tr>
+            <th></th>                  
+            <th>
+              <a>
+                <span>{{ 'homepage.cards.knowledges_entry.placeholder_name' | translate }}</span>
+              </a>
+            </th>
+            <th>
+              <a>
+                <span>{{ 'homepage.cards.knowledges_entry.placeholder_category' | translate }}</span>
+              </a>
+            </th>
+            <th>
+              <a>
+                <span>{{ 'homepage.cards.knowledges_entry.placeholder_updated_at' | translate }}</span>
+              </a>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of knowledges">
+            <td>
+              <a (click)="editEntry(item.id)" class="btn pia-tooltip">
+                <i class="fa fa-pencil" aria-hidden="true"></i>
+                <span title="{{ 'homepage.lists.item.tools.edit' | translate }}" class="pia-tooltip-text">{{ 'homepage.lists.item.tools.edit' | translate }}</span>
+              </a>
+            </td>
+            <td>
+              {{item.name}}
+            </td>
+            <td>
+              {{item.category}}
+            </td>
+            <td>
+              {{item.updated_at}}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="small-4 medium-4 columns">
 
-<div class="row">
-  <div class="small-12 medium-12 columns">
-    <div class="pia-breadcrumb">{{ 'header.knowledges' | translate }} > {{base.name}}</div>
+        
+        <!-- NEW ENTRY FORM -->
+        <form (ngSubmit)="onSubmit()" [formGroup]="entryForm" class="pia-knowledges_base_entry pia-knowledges_base_entry_new" *ngIf="showForm">
+          <h3>Contenus</h3>
+          <div>
+            <select name="category" formControlName="category">
+              <option value="null" disabled>Choisissez une catégorie</option>
+              <option value="Catégorie 1">Catégorie 1</option>
+              <option value="Catégorie 2">Catégorie 2</option>
+            </select>
+          </div>
+          <div>
+            <input formControlName="name" type="text" placeholder="{{ 'homepage.cards.knowledges_entry.placeholder_name' | translate }}" name="name"  required>
+          </div>
+          <div>
+            <input formControlName="description" type="text" placeholder="{{ 'homepage.cards.knowledges_entry.placeholder_description' | translate }}" name="description"  required>
+          </div>
+          <div *ngIf="editMode === 'new'">
+            <button type="submit" [disabled]="entryForm.invalid" class="btn btn-green" id="structure-save-card-btn" title="{{ 'homepage.cards.placeholder_start' | translate }}">
+              {{ 'homepage.cards.start' | translate }}
+            </button>
+          </div>
+        </form>
+        <p>{{editMode}}</p>
+
+    </div>
   </div>
 </div>
 
-<div class="row">
-  {{base.name}}
-</div>
+<app-modals></app-modals>

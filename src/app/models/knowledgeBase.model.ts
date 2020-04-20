@@ -6,16 +6,15 @@ export class KnowledgeBase extends ApplicationDb {
   public name: string;
   public author: string;
   public contributors: string;
-  public knowleges: Knowledge[] = [];
+  public knowledges: Knowledge[] = [];
   public created_at: Date;
 
-  constructor(id = null, name = null, author = null, contributors = null, knowleges = [], createdAt = null) {
+  constructor(id = null, name = null, author = null, contributors = null, createdAt = null) {
     super(201911191636, 'knowledgeBase');
     this.id = id;
     this.name = name;
     this.author = author;
     this.contributors = contributors;
-    this.knowleges = knowleges;
     this.created_at = createdAt;
   }
 
@@ -33,7 +32,6 @@ export class KnowledgeBase extends ApplicationDb {
             this.name = entry.name;
             this.author = entry.author;
             this.contributors = entry.contributors;
-            this.knowleges = entry.knowleges;
             this.created_at = new Date(entry.created_at);
           }
           resolve();
@@ -54,7 +52,6 @@ export class KnowledgeBase extends ApplicationDb {
       name: this.name,
       author: this.author,
       contributors: this.contributors,
-      knowleges: this.knowleges,
       created_at: new Date()
     };
     return new Promise((resolve, reject) => {
@@ -81,7 +78,6 @@ export class KnowledgeBase extends ApplicationDb {
         entry.author = this.author;
         entry.contributors = this.contributors;
         entry.updated_at = new Date();
-        entry.knowledges = this.knowleges;
 
         if (this.serverUrl) {
           const formData = new FormData();
@@ -124,4 +120,22 @@ export class KnowledgeBase extends ApplicationDb {
       });
     });
   }
+
+  // public addEntry(entry: Knowledge) {
+  //   entry.updated_at = new Date();
+  //   this.knowledges.push(entry);
+  //   this.update()
+  //     .then(() => {
+  //       console.log('okay', this.knowledges);
+  //     })
+  //     .catch(() => {
+  //       console.log('ouipps');
+  //     });
+  // }
+
+  // public updateEntry(index: number, entry: Knowledge) {
+  //   // TODO
+
+  //   this.update();
+  // }
 }

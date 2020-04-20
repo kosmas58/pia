@@ -5,9 +5,10 @@ import { utf8Encode } from '@angular/compiler/src/util';
 import { KnowledgeBase } from '../models/knowledgeBase.model';
 
 import { ModalsService } from 'src/app/modals/modals.service';
+import { Knowledge } from '../models/knowledge.model';
 @Injectable()
 export class KnowledgesService {
-  public selected = null;
+  public selected: number = null;
   public list: Array<KnowledgeBase> = [];
 
   constructor(private router: Router, private _modalsService: ModalsService) {}
@@ -31,12 +32,25 @@ export class KnowledgesService {
     });
   }
 
+  public getEntries(baseId) {
+    return new Promise((resolve, reject) => {
+      let kTemp = new Knowledge();
+      kTemp
+        .findAllByBaseId(baseId)
+        .then(response => {
+          resolve(response);
+        })
+        .catch(err => {
+          reject(err);
+        });
+    });
+  }
+
   public removeKnowledgeBase() {
     let kbTemp = new KnowledgeBase();
     kbTemp
       .delete(this.selected)
       .then(() => {
-        console.log('cool !');
         // removeFrom this.list
         let index = this.list.findIndex(e => (e.id = this.selected));
         if (index !== -1) {
