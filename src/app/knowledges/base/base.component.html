@@ -8,7 +8,7 @@
               
         <div class="pia-filtersBlock-left">
             <div class="pia-filtersBlock-buttons">
-              <button type="button" class="btn btn-red" (click)="showForm = true;  editMode = 'new'; entryForm.reset();">
+              <button type="button" class="btn btn-red" (click)="showForm = true;  editMode = 'new'; entryForm.reset(); selectedKnowledgeId = null">
                 <i class="fa fa-folder-open" aria-hidden="true"></i>{{ 'homepage.cards.knowledges_entry.new' | translate }}
               </button>
             </div>
@@ -42,7 +42,7 @@
             </th>
           </tr>
         </thead>
-        <tbody>
+        <tbody *ngIf="knowledges && knowledges.length > 0; else elseBlock">
           <tr *ngFor="let item of knowledges">
             <td>
               <a (click)="editEntry(item.id)" class="btn pia-tooltip">
@@ -57,10 +57,17 @@
               {{item.category  | translate}}
             </td>
             <td>
-              {{item.updated_at}}
+              {{item.updated_at  | date: "fullDate":"":_languagesService.selectedLanguage}} - {{item.updated_at.getHours()}}h{{item.updated_at.getMinutes()}}
             </td>
           </tr>
         </tbody>
+        <ng-template #elseBlock>
+          <tbody>
+            <tr>
+              <td colspan="4">Pas d'entrée pour cette base...</td>
+            </tr>
+          </tbody>
+        </ng-template>
       </table>
     </div>
     <div class="small-4 medium-4 columns">        
@@ -89,7 +96,6 @@
               <div class="pia-knowledges_base-form-checkboxes-body">
                 <div *ngFor="let dataSection of data?.sections">
                   <div class="pia-knowledges_base-form-checkboxes-title">
-                    <input type="checkbox" name="" id=""> 
                     {{ dataSection.title | translate }}
                     <hr>
                   </div>

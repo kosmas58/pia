@@ -7,6 +7,7 @@ import { FormGroup, FormControl, FormArray } from '@angular/forms';
 import { Knowledge } from 'src/app/models/knowledge.model';
 import piakb from 'src/assets/files/pia_knowledge-base.json';
 import { AppDataService } from 'src/app/services/app-data.service';
+import { LanguagesService } from 'src/app/services/languages.service';
 
 function slugify(text) {
   return text
@@ -37,6 +38,7 @@ export class BaseComponent implements OnInit {
   itemsSelected: string[] = [];
 
   constructor(
+    private _languagesService: LanguagesService,
     private _modalsService: ModalsService,
     private _knowledgesService: KnowledgesService,
     private _appDataService: AppDataService,
@@ -105,6 +107,7 @@ export class BaseComponent implements OnInit {
    * @param id Knowledge entry's id
    */
   editEntry(id) {
+    this.selectedKnowledgeId = id;
     let tempk = new Knowledge();
     tempk
       .find(id)
@@ -118,8 +121,6 @@ export class BaseComponent implements OnInit {
         if (result.items) {
           this.itemsSelected = result.items;
         }
-
-        this.selectedKnowledgeId = result.id;
         // SHOW FORM
         this.editMode = 'edit';
         this.showForm = true;
@@ -133,24 +134,31 @@ export class BaseComponent implements OnInit {
    * One shot update
    */
   focusOut() {
-    let entry = new Knowledge();
-    entry.get(this.selectedKnowledgeId).then(() => {
-      // set new properties values
-      entry.name = this.entryForm.value.name;
-      entry.description = this.entryForm.value.description;
-      entry.slug = slugify(entry.name);
-      entry.category = this.entryForm.value.category;
-      entry.description = this.entryForm.value.description;
-      entry.items = this.itemsSelected;
-      // Update object
-      entry.update().then(() => {
-        // Update list
-        let index = this.knowledges.findIndex(e => e.id === entry.id);
-        if (index !== -1) {
-          this.knowledges[index] = entry;
-        }
+    if (this.selectedKnowledgeId) {
+      let entry = new Knowledge();
+      entry.get(this.selectedKnowledgeId).then(() => {
+        // set new properties values
+        entry.name = this.entryForm.value.name;
+        entry.description = this.entryForm.value.description;
+        entry.slug = slugify(entry.name);
+        entry.category = this.entryForm.value.category;
+        entry.description = this.entryForm.value.description;
+        entry.items = this.itemsSelected;
+        // Update object
+        entry
+          .update()
+          .then(() => {
+            // Update list
+            let index = this.knowledges.findIndex(e => e.id === entry.id);
+            if (index !== -1) {
+              this.knowledges[index] = entry;
+            }
+          })
+          .catch(err => {
+            console.log(err);
+          });
       });
-    });
+    }
   }
 
   onCheckboxChange(e) {
