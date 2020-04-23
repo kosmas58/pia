@@ -41,7 +41,7 @@ export class HelpComponent implements OnInit, OnDestroy {
     }
     let file = `./assets/files/pia_help_${fileTranslation}.html`;
 
-    this.httpClient.get(file, { responseType: 'text' }).subscribe(res => {
+    this.httpClient.get(file, { responseType: 'text' }).subscribe((res) => {
       this.content = res;
       this.getSectionList();
     });
@@ -64,13 +64,13 @@ export class HelpComponent implements OnInit, OnDestroy {
         }
       }
       file = `./assets/files/pia_help_${fileTranslation}.html`;
-      this.httpClient.get(file, { responseType: 'text' }).subscribe(res => {
+      this.httpClient.get(file, { responseType: 'text' }).subscribe((res) => {
         this.content = res;
         this.getSectionList();
       });
     });
 
-    window.onscroll = function(ev) {
+    window.onscroll = function (ev) {
       if (window.innerWidth > 640) {
         const el: any = document.querySelector('.pia-help-section');
         if (el) {
@@ -113,7 +113,7 @@ export class HelpComponent implements OnInit, OnDestroy {
     this.tableOfTitles = [];
     const lines = this.content.split('\n');
     let tt = [];
-    lines.forEach(line => {
+    lines.forEach((line) => {
       line = line.trim();
       if (line.startsWith('<h3>')) {
         tt[1].push(line.replace(/<(\/?)h3>/g, '').trim());

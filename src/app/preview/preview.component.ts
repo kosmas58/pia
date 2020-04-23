@@ -60,7 +60,7 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
 
       // Load PIA's revisions
       const revision = new Revision();
-      revision.findAllByPia(this.pia.id).then(resp => {
+      revision.findAllByPia(this.pia.id).then((resp) => {
         this.revisions = resp;
       });
     });
@@ -76,9 +76,9 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
     const menus = document.querySelectorAll('.pia-sectionBlock-body li a') as NodeListOf<HTMLElement>;
     window.onscroll = () => {
       const scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
-      sections.forEach(s => {
+      sections.forEach((s) => {
         if (s.offsetTop < scrollPosition + 100) {
-          menus.forEach(l => {
+          menus.forEach((l) => {
             l.classList.remove('active');
             if (l.innerText === s.innerText) {
               l.setAttribute('class', 'active');
@@ -94,8 +94,8 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
    * Create a new Revision record in indexedDB
    */
   onNewRevision() {
-    this._revisionService.export(this.pia.id).then(exportResult => {
-      this._revisionService.add(exportResult, this.pia.id).then(resp => {
+    this._revisionService.export(this.pia.id).then((exportResult) => {
+      this._revisionService.add(exportResult, this.pia.id).then((resp) => {
         // because ngOnchanges no detect simply array push
         this.revisions.push(resp);
         this.revisions = this.revisions.slice();
@@ -242,9 +242,9 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
    */
   private async getJsonInfo() {
     this.allData = {};
-    this._piaService.data.sections.forEach(async section => {
+    this._piaService.data.sections.forEach(async (section) => {
       this.allData[section.id] = {};
-      section.items.forEach(async item => {
+      section.items.forEach(async (item) => {
         this.allData[section.id][item.id] = {};
         const ref = section.id.toString() + '.' + item.id.toString();
 
@@ -254,7 +254,7 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
           const measuresModel = new Measure();
           measuresModel.pia_id = this.pia.id;
           const entries: any = await measuresModel.findAll();
-          entries.forEach(async measure => {
+          entries.forEach(async (measure) => {
             /* Completed measures */
             if (measure.title !== undefined && measure.content !== undefined) {
               let evaluation = null;
@@ -270,7 +270,7 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
           });
         } else if (item.questions) {
           // Question
-          item.questions.forEach(async question => {
+          item.questions.forEach(async (question) => {
             this.allData[section.id][item.id][question.id] = {};
             const answerModel = new Answer();
             await answerModel.getByReferenceAndPia(this.pia.id, question.id);

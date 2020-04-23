@@ -15,17 +15,14 @@ export class ListItemComponent implements OnInit {
   @Input() archivedPia: any;
   attachments: any;
 
-  constructor(
-    private _modalsService: ModalsService,
-    public _languagesService: LanguagesService
-  ) {}
+  constructor(private _modalsService: ModalsService, public _languagesService: LanguagesService) {}
 
   ngOnInit() {
     const attachmentModel = new Attachment();
     this.attachments = [];
     attachmentModel.pia_id = this.archivedPia.id;
     attachmentModel.findAll().then((entries: any) => {
-      entries.forEach(element => {
+      entries.forEach((element) => {
         if (element['file'] && element['file'].length) {
           this.attachments.push(element);
         }

@@ -15,10 +15,12 @@ export class MeasureService {
   measureToAdd: any;
   pia_id: number;
 
-  constructor(private _translateService: TranslateService,
-              private _modalsService: ModalsService,
-              private _knowledgeBaseService: KnowledgeBaseService,
-              private _globalEvaluationService: GlobalEvaluationService) {}
+  constructor(
+    private _translateService: TranslateService,
+    private _modalsService: ModalsService,
+    private _knowledgeBaseService: KnowledgeBaseService,
+    private _globalEvaluationService: GlobalEvaluationService
+  ) {}
 
   /**
    * List the measures.
@@ -47,7 +49,7 @@ export class MeasureService {
 
     measure.get(measure_id).then(() => {
       this.behaviorSubject.next(measure.title);
-      this._knowledgeBaseService.toHide = this._knowledgeBaseService.toHide.filter(item => item !== measure.title);
+      this._knowledgeBaseService.toHide = this._knowledgeBaseService.toHide.filter((item) => item !== measure.title);
     });
 
     /* Removing from DB */
@@ -58,7 +60,7 @@ export class MeasureService {
     measureToRemove.remove();
 
     // Deletes from the array.
-    const index = this.measures.findIndex(m => m.id === measure_id);
+    const index = this.measures.findIndex((m) => m.id === measure_id);
     if (index !== -1) {
       this.measures.splice(index, 1);
     }
@@ -78,7 +80,7 @@ export class MeasureService {
     newMeasureRecord.pia_id = pia.id;
     newMeasureRecord.title = '';
     if (measureTitle) {
-      this._translateService.get(measureTitle).subscribe(val => this.measureToAdd = val);
+      this._translateService.get(measureTitle).subscribe((val) => (this.measureToAdd = val));
       newMeasureRecord.title = this.measureToAdd;
     }
     newMeasureRecord.content = '';

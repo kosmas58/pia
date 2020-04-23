@@ -17,7 +17,7 @@ import piaExample from 'src/assets/files/2018-02-21-pia-example.json';
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
-  providers: [PiaService],
+  providers: [PiaService]
 })
 export class HeaderComponent implements OnInit {
   public increaseContrast: string;
@@ -27,13 +27,15 @@ export class HeaderComponent implements OnInit {
   isStructureHeader: boolean;
   isArchiveHeader: boolean;
 
-  constructor(public _router: Router,
-              private renderer: Renderer2,
-              private _translateService: TranslateService,
-              public _piaService: PiaService,
-              private _modalsService: ModalsService,
-              private httpClient: HttpClient,
-              public _languagesService: LanguagesService) {
+  constructor(
+    public _router: Router,
+    private renderer: Renderer2,
+    private _translateService: TranslateService,
+    public _piaService: PiaService,
+    private _modalsService: ModalsService,
+    private httpClient: HttpClient,
+    public _languagesService: LanguagesService
+  ) {
     this.updateContrast();
   }
 
@@ -42,7 +44,7 @@ export class HeaderComponent implements OnInit {
     window.screenTop === 0 && window.screenY === 0 ? displayMessage.classList.remove('hide') : displayMessage.classList.add('hide');
     window.onresize = () => {
       window.screenTop === 0 && window.screenY === 0 ? displayMessage.classList.remove('hide') : displayMessage.classList.add('hide');
-    }
+    };
     this.appVersion = environment.version;
     this.pia_is_example = false;
     this._piaService.getPIA().then(() => {

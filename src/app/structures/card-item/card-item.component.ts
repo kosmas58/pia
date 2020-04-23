@@ -1,12 +1,4 @@
-import {
-  Component,
-  OnInit,
-  ViewChild,
-  ElementRef,
-  EventEmitter,
-  Input,
-  Output
-} from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, EventEmitter, Input, Output } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 
@@ -19,11 +11,7 @@ import { LanguagesService } from 'src/app/services/languages.service';
 @Component({
   selector: 'app-card-item',
   templateUrl: './card-item.component.html',
-  styleUrls: [
-    './card-item.component.scss',
-    './card-item_edit.component.scss',
-    './card-item_doing.component.scss'
-  ],
+  styleUrls: ['./card-item.component.scss', './card-item_edit.component.scss', './card-item_doing.component.scss'],
   providers: [StructureService]
 })
 export class CardItemComponent implements OnInit {
@@ -131,10 +119,8 @@ export class CardItemComponent implements OnInit {
    * @param id structure ID
    */
   async duplicate(id: number) {
-    this._structureService
-      .duplicateStructure(id)
-      .then((structure: Structure) => {
-        this.structEvent.emit(structure);
-      });
+    this._structureService.duplicateStructure(id).then((structure: Structure) => {
+      this.structEvent.emit(structure);
+    });
   }
 }

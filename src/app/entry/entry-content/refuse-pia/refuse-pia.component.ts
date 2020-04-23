@@ -13,19 +13,20 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./refuse-pia.component.scss']
 })
 export class RefusePIAComponent implements OnInit {
-
   rejectionReasonForm: FormGroup;
   rejectionState: boolean;
   showRejectionReasonButtons: boolean;
   showResendValidationButton: boolean;
   modificationsMadeForm: FormGroup;
 
-  constructor(private router: Router,
-              private el: ElementRef,
-              private _modalsService: ModalsService,
-              private _sidStatusService: SidStatusService,
-              public _piaService: PiaService,
-              private _translateService: TranslateService) { }
+  constructor(
+    private router: Router,
+    private el: ElementRef,
+    private _modalsService: ModalsService,
+    private _sidStatusService: SidStatusService,
+    public _piaService: PiaService,
+    private _translateService: TranslateService
+  ) {}
 
   ngOnInit() {
     this.rejectionReasonForm = new FormGroup({
@@ -42,8 +43,12 @@ export class RefusePIAComponent implements OnInit {
         this.showRejectionReasonButtons = true;
       }
 
-      if (this._piaService.pia.applied_adjustements && this._piaService.pia.rejected_reason
-          && this._piaService.pia.applied_adjustements.length > 0 && this._piaService.pia.rejected_reason.length > 0) {
+      if (
+        this._piaService.pia.applied_adjustements &&
+        this._piaService.pia.rejected_reason &&
+        this._piaService.pia.applied_adjustements.length > 0 &&
+        this._piaService.pia.rejected_reason.length > 0
+      ) {
         this.modificationsMadeForm.controls['modificationsMade'].patchValue(this._piaService.pia.applied_adjustements);
         this.modificationsMadeForm.controls['modificationsMade'].disable();
         if (this._piaService.pia.status === 1) {
@@ -61,7 +66,6 @@ export class RefusePIAComponent implements OnInit {
         this.autoTextareaResize(null, modificationsTextarea);
       }
     });
-
   }
 
   /**
@@ -168,7 +172,7 @@ export class RefusePIAComponent implements OnInit {
     if (textarea.clientHeight < textarea.scrollHeight) {
       textarea.style.height = textarea.scrollHeight + 'px';
       if (textarea.clientHeight < textarea.scrollHeight) {
-        textarea.style.height = (textarea.scrollHeight * 2 - textarea.clientHeight) + 'px';
+        textarea.style.height = textarea.scrollHeight * 2 - textarea.clientHeight + 'px';
       }
     }
   }

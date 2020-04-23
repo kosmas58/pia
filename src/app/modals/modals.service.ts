@@ -7,21 +7,14 @@ import { PaginationService } from 'src/app/entry/entry-content/pagination.servic
 export class ModalsService {
   public revisionDate: any;
 
-  constructor(
-    private router: Router,
-    private paginationService: PaginationService
-  ) {}
+  constructor(private router: Router, private paginationService: PaginationService) {}
 
   /**
    * Opens a specific modal through its unique key (id).
    * @param modalKey - Unique key (id) of the modal which has to be opened.
    */
   openModal(modalKey: string) {
-    if (
-      modalKey === 'pia-declare-measures' ||
-      modalKey === 'pia-action-plan-no-evaluation' ||
-      modalKey === 'pia-dpo-missing-evaluations'
-    ) {
+    if (modalKey === 'pia-declare-measures' || modalKey === 'pia-action-plan-no-evaluation' || modalKey === 'pia-dpo-missing-evaluations') {
       const mainContent = document.querySelector('.pia-entryContentBlock');
       if (mainContent) {
         mainContent.classList.add('blur-content');
@@ -56,19 +49,9 @@ export class ModalsService {
     modal.classList.remove('open');
     if (toAction && toAction.length > 0) {
       const goto = toAction.split('-');
-      const gotoSectionItem = this.paginationService.getNextSectionItem(
-        parseInt(goto[0], 10),
-        parseInt(goto[1], 10)
-      );
+      const gotoSectionItem = this.paginationService.getNextSectionItem(parseInt(goto[0], 10), parseInt(goto[1], 10));
 
-      this.router.navigate([
-        'entry',
-        piaId,
-        'section',
-        gotoSectionItem[0],
-        'item',
-        gotoSectionItem[1]
-      ]);
+      this.router.navigate(['entry', piaId, 'section', gotoSectionItem[0], 'item', gotoSectionItem[1]]);
     }
   }
 }
