@@ -1038,13 +1038,13 @@
 			"refuse_pia": "DSFA ablehnen",
 			"status": {
 				"evaluation": {
-					"cancel": "die Überprüfungssanfrage zurückziehen.",
+					"cancel": " die Überprüfungsanfrage zurückziehen.",
 					"cancel_button": "Die Überprüfungssanfrage zurückziehen",
 					"content": "Die Überprüfung dieses Teils hat noch nicht begonnen. Wenn Sie den Inhalt im Bearbeitungsmodus bearbeiten möchten, müssen Sie ",
 					"title": "Warten auf Überprüfung"
 				},
 				"validation": {
-					"cancel": "die Bestätigungsanfrage zurückziehen.",
+					"cancel": " die Bestätigungsanfrage zurückziehen.",
 					"cancel_button": "Die Bestätigungsanfrage zurückziehen",
 					"content": "Die Bewertung dieses Teils ist abgeschlossen und wartet auf die endgültige Bestätigung der Analyse. Wenn Sie die Bewertungen ändern möchten, müssen Sie",
 					"title": "Warten auf Bestätigung"
@@ -1378,11 +1378,11 @@
 		"csv_action_plan_comment": "Aktionsplankommentar",
 		"csv_evaluation_comment": "Bewertungskommentar",
 		"csv_file_title": "Aktionsplan",
-		"csv_implement_date": "Geschätztes Umsetzungsdatum",
+		"csv_implement_date": "Voraussichtlicher Zeitpunkt der Umsetzung",
 		"csv_people_in_charge": "Verantwortlicher",
 		"csv_section": "Abschnitt",
-		"csv_title_object": "Titel",
-		"download_csv": "TO TRANSLATE - Action plan (.csv)",
+		"csv_title_object": "Titel des betreffenden Objekts",
+		"download_csv": "Aktionsplan (CSV-Datei)",
 		"dpo_name": "Name des DSB",
 		"dpo_opinion": "Gutachten des DSB",
 		"dpo_status": "Feststellung des DSB",
@@ -1431,8 +1431,8 @@
 			"simple_validation": "Einfache Bestätigung"
 		},
 		"confirmation1": "Bestätige ich, dass der Kontext der Datenverarbeitung, so wie er in der DSFA beschrieben wurde, der Realität entspricht.",
-		"confirmation2": "Bestätige ich, dass mir die nach den aktuell umgesetzten oder geplanten Maßnahmen verbleibenden Risiken bewusst sind.",
-		"confirmation3": "Billige ich die angegebenen Korrekturmaßnahmen.",
+		"confirmation2": "Ich bestätige, dass ich die bestehenden Risiken aufgrund der aktuell umgesetzten oder geplanten Maßnahmen zur Kenntnis genommen habe.",
+		"confirmation3": "Ich bestätige die angegebenen Korrekturmaßnahmen.",
 		"confirmation4": "Verpflichte ich mich, die angegebenen Korrekturmaßnahmen so schnell wie möglich umzusetzen.",
 		"latest_signed_attachment": "Letzter hinzugefügter Anhang",
 		"mandatory_fields": "Alle Felder müssen angekreuzt sein",

@@ -91,16 +91,16 @@
 		"to_correct": "Za ispraviti"
 	},
 	"header": {
-		"archives": "TO TRANSLATE - PIA Archives",
-		"current_pias": "TO TRANSLATE - Current PIAs",
-		"exit_full_screen_mode": "TO TRANSLATE - Press F11 to exit full screen mode.",
+		"archives": "Arhivirani PIA",
+		"current_pias": "Aktivne PIA",
+		"exit_full_screen_mode": "Pritisnite F11 za izhod iz celozaslonskega načina.",
 		"help": {
-			"issue_reporting": "TO TRANSLATE - Report an issue",
-			"manual": "TO TRANSLATE - User manual",
+			"issue_reporting": "Prijavite napako",
+			"manual": "Uporabniški priročnik",
 			"pia_example_link": "Primjer PUP-a",
 			"title": "Pomoć"
 		},
-		"homepage_link": "TO TRANSLATE - My PIAs",
+		"homepage_link": "Moje PIA",
 		"knowledge_base_link": "Baza znanja",
 		"languages": {
 			"cnil_translations": "Prijevodi od strane CNIL-a",
@@ -130,13 +130,13 @@
 		},
 		"logo_subtitle": "privacy impact assessment",
 		"logo_title": "Procjena učinka na privatnost",
-		"structures": "PIA template",
+		"structures": "PIA modeli",
 		"tools": {
 			"about": "O programu",
 			"accessibility": "Pristupačnost za slabovidne osobe (boje visokog kontrasta, daltonizam)",
 			"settings": "Postavke",
 			"title": "Alati",
-			"url_setting": "TO TRANSLATE - Server URL configuration"
+			"url_setting": "Konfiguracija URL strežnika"
 		}
 	},
 	"help": {
@@ -176,7 +176,14 @@
 				},
 				"title": "Poznati problemi"
 			},
-			"footer": "TO BE TRANSLATED - If you have any other problems or suggestions for improvement, you can send them to us via this form <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
+			"footer": "Če naletite na druge težave ali imate predloge za izboljšave, nam jih lahko pošljete preko tega obrazca <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil -pia</a>."
+		},
+		"infografics": {
+			"display": "Oglejte si zemljevid procesa",
+			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"guide": "Pokažite vodnike PIA CNIL",
+			"hide": "Skrij zemljevid procesa",
+			"title": "Pregled obveznosti in načina"
 		},
 		"infografics": {
 			"display": "Oglejte si zemljevid procesa",
@@ -190,7 +197,7 @@
 	"homepage": {
 		"cards": {
 			"author": "Uređivanje",
-			"category": "TO TRANSLATE - Category",
+			"category": "Kategorija",
 			"creation_status": "Stvaranje",
 			"date": "Datum",
 			"evaluation": "Pregled",
@@ -198,18 +205,18 @@
 			"import_structure": "Uvezi obrazac",
 			"item": {
 				"consult_pia": "Pogledaj",
-				"consult_structure": "TO TRANSLATE - Consult template",
+				"consult_structure": "Oglejte si model",
 				"edit_pia": "Uredi",
 				"edit_structure": "Uredi obrazac",
 				"tools": {
 					"action_plan": "Prikaži<br>akcijski plan",
-					"archive": "TO TRANSLATE - Archive",
+					"archive": "Arhiv",
 					"duplicate": "Stvori kopiju",
 					"export": "Izvezi",
 					"more_options": "Više opcija",
 					"pia": "Prikaži<br>PUP",
-					"remove": "TO TRANSLATE - Delete",
-					"unarchive": "TO TRANSLATE - Unarchive"
+					"remove": "odstrani",
+					"unarchive": "Rasteretiti"
 				},
 				"validate_pia": "Preveri"
 			},
@@ -218,7 +225,7 @@
 			"or": "ili",
 			"pia_name": "PUP",
 			"placeholder_author": "Ime, prezime",
-			"placeholder_category": "TO TRANSLATE - Category",
+			"placeholder_category": "Kategorija",
 			"placeholder_evaluation": "Ime, prezime",
 			"placeholder_import_pia": "Uvezi PUP",
 			"placeholder_import_structure": "Uvezi obrazac",
@@ -241,14 +248,14 @@
 		"filters": {
 			"assessor": "Recenzentu",
 			"author": "Autoru",
-			"card": "TO TRANSLATE - Card view",
+			"card": "Pogled s kartice",
 			"card_rocket_content": "Započnite!<br><br>Kako bi započeli s PUP-om,<br> kliknite na Novi PUP",
 			"card_rocket_content_structure": "Započnite! Kako bi započeli s <br>obrascem, kliknite na +",
-			"category": "TO TRANSLATE - Category",
+			"category": "Kategorija",
 			"date": "Datumu",
 			"import_pia": "Uvezi PUP",
 			"import_structure": "Uvezi obrazac",
-			"list": "TO TRANSLATE - List view",
+			"list": "Pogled seznama",
 			"list_rocket_content": "Započnite! Kako bi započeli s <br>PUP-om, kliknite na +",
 			"list_rocket_content_structure": "Započnite! Kako bi započeli s <br>obrascem, kliknite na +",
 			"name": "Imenu",
@@ -263,7 +270,7 @@
 		"lists": {
 			"column_actions": "Radnje",
 			"column_author": "Uređivanje",
-			"column_category": "TO TRANSLATE - Category",
+			"column_category": "Kategorija",
 			"column_creation": "Stvoren",
 			"column_evaluation": "Pregled",
 			"column_pia": "PUP",
@@ -277,18 +284,18 @@
 			"item": {
 				"tools": {
 					"action_plan": "Prikaži akcijski plan",
-					"archive": "TO TRANSLATE - Archive",
+					"archive": "Arhiv",
 					"consult": "Pogledaj",
 					"duplicate": "Stvori kopiju",
 					"edit": "Uredi",
 					"export": "Izvezi",
 					"pia": "Prikaži PUP",
-					"remove": "TO TRANSLATE - Delete",
-					"unarchive": "TO TRANSLATE - Unarchive"
+					"remove": "odstrani",
+					"unarchive": "Rasteretiti"
 				}
 			}
 		},
-		"search_filter": "TO TRANSLATE - Search"
+		"search_filter": "poiskati"
 	},
 	"knowledge_base": {
 		"add_measure": "Dodaj",
@@ -298,7 +305,7 @@
 			"example": "Example",
 			"general_measure": "Kontrole fizičke sigurnosti",
 			"measure_on_data": "Kontrole logičke sigurnosti",
-			"method": "TO TRANSLATE - Methodology",
+			"method": "metodologija",
 			"organizational_measure": "Organizacijske kontrole",
 			"principle": "Princip"
 		},
@@ -526,8 +533,8 @@
 				"source": "pia1 page 6"
 			},
 			"PIA_EX_DC": {
-				"description": "TO BE TRANSLATED - Data for a score system, result of the application of the score....",
-				"name": "TO BE TRANSLATED - Calculated data"
+				"description": "Podatki za sistem točk, rezultat vloge za rezultat ...",
+				"name": "Izračunani podatki"
 			},
 			"PIA_EX_DCPC": {
 				"description": "<strong>Podaci o identitetu </strong>: građanski status, identitet, dob, itd. <strong> Osobni život </strong>: životne navike, bračni status, <strong> Podaci o vezi </strong>: IP adrese, zapisi o događajima itd. <br> <strong> Podaci o lokaciji </strong>: putovanja, GPS podaci, GSM podaci itd. <Strong> Ostalo </strong>: telefonski broj, adresa e-pošte itd.",
@@ -712,7 +719,7 @@
 				"source": "piaF Connected Objects p22 - WIKI"
 			},
 			"PIA_SEC_CTR": {
-				"description": "TO BE TRANSLATED - Les données à caractère personnel communiquées à ou gérées par des sous-traitants doivent bénéficier de garanties suffisantes. <strong>Faire appel uniquement à des sous-traitants présentant des garanties suffisantes</strong> (notamment en termes de connaissances spécialisées, de fiabilité et de ressources). Exiger la communication par le prestataire de sa politique de sécurité des systèmes d’information. <br>Prendre et documenter les moyens (audits de sécurité, visite des installations, etc.) permettant d’<strong>assurer l’effectivité des garanties offertes par le sous-traitant<strong> en matière de protection des données. Ces garanties incluent notamment :<br> - le chiffrement des données selon leur sensibilité ou à défaut l’existence de procédures garantissant que la société de prestation n’a pas accès aux données qui lui sont confiées<br>- le chiffrement des transmissions de données (ex : connexion de type HTTPS, VPN, etc.)<br>- des garanties en matière de protection du réseau, de traçabilité (journaux, audits), de gestion des habilitations, d’authentification, etc.<br><strong>Prévoir un contrat avec les sous-traitants</strong>, qui définit notamment l’objet, la durée, la finalité du traitement et les obligations des parties. S’assurer qu’il contient en particulier des dispositions fixant :<br>- leur obligation en matière de confidentialité des données personnelles confiées<br>- des contraintes minimales en matière d’authentification des utilisateurs<br>- les conditions de restitution et/ou de destruction des données en fin du contrat<br>- les règles de gestion et de notification des incidents. Celles-ci devraient comprendre une information du responsable de traitement en cas de découverte de faille de sécurité ou d’incident de sécurité et cela dans les plus brefs délais lorsqu’il s’agit d’une violation de données à caractère personnel.<br>- Dans le cas de l’utilisation de fournisseur de cloud computing :<br>\t1. identifier clairement les données et les traitements qui passeront dans le cloud ;<br>\t2. définir ses propres exigences de sécurité technique et juridique ;<br>\t3. conduire une étude de risques afin d'identifier les mesures de sécurité appropriées ;<br>\t4. identifier le type de cloud pertinent pour le traitement envisagé ;<br>\t5. choisir un prestataire présentant des garanties suffisantes ;<br>\t6. revoir la politique de sécurité interne ;<br>\t7. surveiller les évolutions dans le temps.",
+				"description": "Za osebne podatke, ki jih posredujejo podizvajalci ali jih upravlja, morajo imeti zadostna jamstva. <strong>Uporabljajte samo podizvajalce z zadostnimi garancijami</strong> (zlasti glede strokovnega znanja, zanesljivosti in virov). Zahtevajte, da ponudnik storitev sporoči svojo varnostno politiko informacijskih sistemov. <br>Vzemite in dokumentirajte sredstva (varnostne preglede, obisk objektov itd.) Do<strong>zagotovite učinkovitost garancij, ki jih ponuja podizvajalec</strong> v zvezi z varstvom podatkov. Te garancije vključujejo zlasti:<br> - šifriranje podatkov glede na njihovo občutljivost ali, če tega ni, obstoj postopkov, ki zagotavljajo, da storitveno podjetje nima dostopa do podatkov, ki so mu bili zaupani<br>- šifriranje prenosa podatki (npr .: HTTPS, povezava tipa VPN itd.)<br>- jamstva v smislu zaščite omrežja, sledljivosti (dnevniki, revizije), upravljanja pooblastil, avtentikacije itd.<br><strong>Navedite pogodbo s podizvajalci</strong>, v kateri so natančno opredeljeni predmet, trajanje, namen obdelave in obveznosti strank. Zagotovite, da vsebuje zlasti določbe, ki določajo:<br>- njihovo obveznost glede zaupnosti zaupnih osebnih podatkov<br>- minimalne omejitve v zvezi z avtentifikacijo uporabnikov<br>- pogoje vračila in / ali uničenje podatkov na koncu pogodbe<br>- pravila za upravljanje incidentov in obveščanje. To bi moralo vključevati informacije upravljavca podatkov v primeru odkritja kršitve varnosti ali varnostnega incidenta in to čim prej v primeru kršitve osebnih podatkov.<br>- V primeru uporabe ponudnika računalništva v oblaku:<br>1. jasno določite podatke in obdelavo, ki bo šla v oblak;<br>2. določiti lastne tehnične in pravne zahteve glede varnosti;<br>3. izvedite študijo tveganja, da ugotovite ustrezne varnostne ukrepe;<br>4. določite vrsto oblaka, ki je pomembna za predlagano obdelavo;<br>5. izberite ponudnika storitev z zadostnimi garancijami;<br>6. preglejte notranjo varnostno politiko;<br>7. spremljajte spremembe skozi čas.",
 				"name": "Ugovori o izvršavanju obrade",
 				"placeholder": "Ovdje opišite specifične mjere za izvršitelje obrade (društvo koje pruža usluge poslužitelja, drušvo za održavanje, administrator, specijalizirani pružatelji usluga itd.)",
 				"source": "Mjere_SAD nabava: identificirane i podložne ugovoru"
@@ -874,8 +881,8 @@
 		},
 		"archive": "Arhiviraj",
 		"archive_pia": {
-			"archive": "TO TRANSLATE - Archive PIA",
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>archive this PIA ?"
+			"archive": "Arhiviraj to PIA",
+			"content": "<span class='strong'>Pozor,</span><br>Ali ste prepričani, da želite<br>arhivirati PIA?"
 		},
 		"ask_for_evaluation": {
 			"content": "Ovaj odjeljak spreman je za pregled."
@@ -923,8 +930,8 @@
 		},
 		"recover_version": {
 			"continue": "Nastavi",
-			"message": "TO TRANSLATE - By continuing, you will restore this report version: {{date}}. You will have to validate again the PIA once it is completed.<br><br>The current version will be archived.",
-			"title": "TO TRANSLATE - Restore a previous version"
+			"message": "V nadaljevanju boste obnovili {{date}} različico te analize. Ko bo končana, morate znova potrditi analizo.<br><br>Trenutna različica bo arhivirana.",
+			"title": "Obnovite staro različico"
 		},
 		"refuse_pia": {
 			"content": "Kako ste odbili PUP, on je ponovno poslan na pregled kako bi se izvršile potrebne promjene."
@@ -941,7 +948,7 @@
 			"remove": "Ukloni ovu <br>mjeru"
 		},
 		"remove_pia": {
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>remove permanently this PIA?",
+			"content": "<span class='strong'>Pozor,</span><br>Ali ste prepričani, da želite<br>trajno izbrisati ta PIA?",
 			"remove": "Ukloni ovaj PUP"
 		},
 		"remove_question": {
@@ -965,8 +972,8 @@
 		},
 		"start_evaluation": "Započni pregled",
 		"unarchive_pia": {
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>unarchive this PIA ?",
-			"unarchive": "TO TRANSLATE - Unarchive PIA"
+			"content": "<span class='strong'>Pozor,</span><br>Ali ste prepričani, da želite<br>onemogočiti ta PIA?",
+			"unarchive": "Razveljavi to PIA"
 		},
 		"update_server_url_nok": {
 			"content": "Vezu nije moguće ostvariti."
@@ -1015,7 +1022,7 @@
 	"pia": {
 		"attachments": {
 			"add": "Dodaj",
-			"download": "TO TRANSLATE - Download the attachment",
+			"download": "Prenesite prilogo",
 			"remove": "Ukloni",
 			"title": "Prilozi"
 		},
@@ -1352,17 +1359,17 @@
 			"title": "Akcijski plan"
 		},
 		"actions": {
-			"complete_download": "TO TRANSLATE - Download the full report",
-			"complete_download_desc": "TO TRANSLATE - Export in a .zip archive all the report content (.doc and pictures), attachments and the action plan in a .csv format.",
-			"individual_download": "TO TRANSLATE - Download elements of the report",
-			"individual_download_desc": "TO TRANSLATE - Export specific elements of the report.",
-			"individual_download_doc": "TO TRANSLATE - Texts (.doc)",
-			"individual_download_images": "TO TRANSLATE - Visual elements (.png) including the risk overview, the risk mapping and the action plan.",
-			"individual_download_json": "TO TRANSLATE - Report to import into the PIA tool (.json file)",
-			"individual_download_select": "TO TRANSLATE - Select elements to export:",
-			"individual_to_download": "TO TRANSLATE - Download",
-			"print": "TO TRANSLATE - Print the report",
-			"print_and_download": "TO TRANSLATE - Print and download"
+			"complete_download": "Prenesite celotno analizo",
+			"complete_download_desc": "Izvozi vsebino analize (.doc in slike), pridružene priloge in akcijski načrt v .csv formatu v arhiv .zip.",
+			"individual_download": "nalaganje",
+			"individual_download_desc": "Izvaža posebne elemente analize.",
+			"individual_download_doc": "Besedilna vsebina (.doc datoteka)",
+			"individual_download_images": "Vizualni elementi (.png datoteke): pregled tveganj, preslikava tveganj, akcijski načrt",
+			"individual_download_json": "Analiza uvoza v orodje PIA (file.json)",
+			"individual_download_select": "Izberite elemente za izvoz:",
+			"individual_to_download": "Prenesi",
+			"print": "Natisnite analizo",
+			"print_and_download": "Tiskanje in prenos"
 		},
 		"attachments": "Prilozi",
 		"concerned_people_name": "Mišljenja dotičnih osoba",
@@ -1381,8 +1388,8 @@
 		"csv_implement_date": "Procijenjeni datum provedbe",
 		"csv_people_in_charge": "Odgovorna osoba",
 		"csv_section": "Odjeljak",
-		"csv_title_object": "Naslov",
-		"download_csv": "TO TRANSLATE - Action plan (.csv)",
+		"csv_title_object": "Naslov zadevnega predmeta",
+		"download_csv": "Akcijski načrt (.csv datoteka)",
 		"dpo_name": "Ime SZP-a",
 		"dpo_opinion": "Mišljenje SZP-a",
 		"dpo_status": "Status SZP-a",
@@ -1399,24 +1406,24 @@
 		"pia_author": "Ime autora",
 		"pia_name": "PUP",
 		"pia_validator": "Ime potvrditelja",
-		"preview_dpo_opinion": "TO TRANSLATE - DPO and data subjects opinion",
-		"preview_edition": "TO TRANSLATE - Editing",
-		"preview_evaluation": "TO TRANSLATE - Evaluation",
-		"preview_no_data": "TO TRANSLATE - No data to display.",
-		"preview_status": "TO TRANSLATE - Status",
-		"preview_subtitle": "TO TRANSLATE - General information",
-		"preview_title": "TO TRANSLATE - Preview",
-		"preview_validation": "TO TRANSLATE - Validation",
-		"preview_validation_section": "TO TRANSLATE - Validation",
+		"preview_dpo_opinion": "Mnenje DPO in zadevnih oseb",
+		"preview_edition": "zaseg",
+		"preview_evaluation": "vrednotenje",
+		"preview_no_data": "Ni podatkov za prikaz.",
+		"preview_status": "Stanje",
+		"preview_subtitle": "Splošne informacije",
+		"preview_title": "Pregled analize",
+		"preview_validation": "potrjevanje",
+		"preview_validation_section": "potrjevanje",
 		"previous_page": "Natrag na prethodnu stranicu",
 		"rejection_reason": "Razlog odbijanja",
 		"revision": {
-			"current_version": "TO TRANSLATE - Current version",
-			"pia_version": "TO TRANSLATE - PIA versions",
-			"restore_version": "TO TRANSLATE - Restore",
-			"revision": "TO TRANSLATE - Versions and revision",
-			"save": "TO TRANSLATE - Create a new version",
-			"show": "TO TRANSLATE - Display the {{length}} versions"
+			"current_version": "Trenutna različica",
+			"pia_version": "Različice PIA",
+			"restore_version": "Obnovite to različico",
+			"revision": "Različice in revizije",
+			"save": "Ustvari novo različico",
+			"show": "Prikaži {{length}} različice"
 		},
 		"risks_cartography_title": "Mapiranje rizika",
 		"risks_overview_title": "Pregled rizika",
@@ -1428,7 +1435,7 @@
 		"button": {
 			"rejection": "Odbij PUP",
 			"signed_validation": "Odobri PUP <br>(uz potpis)",
-			"simple_validation": "Odobri PUP <br>(izravno)"
+			"simple_validation": "Enostavno preverjanje"
 		},
 		"confirmation1": "Potvrđujem da je kontekst obrade opisan u PUP-u u skladu sa stvarnosti.",
 		"confirmation2": "Potvrđujem da sam svjestan rizika, ovisno o postojećim ili planiranim mjerama.",

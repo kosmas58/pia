@@ -91,12 +91,12 @@
 		"to_correct": "A corrigir"
 	},
 	"header": {
-		"archives": "TO TRANSLATE - PIA Archives",
-		"current_pias": "TO TRANSLATE - Current PIAs",
+		"archives": "PIAs arquivados",
+		"current_pias": "PIAs ativos",
 		"exit_full_screen_mode": "Pressione F11 para sair do mode de ecrã completo.",
 		"help": {
-			"issue_reporting": "TO TRANSLATE - Report an issue",
-			"manual": "TO TRANSLATE - User manual",
+			"issue_reporting": "Reportar um erro",
+			"manual": "Manual do usuário",
 			"pia_example_link": "Exemplo PIA",
 			"title": "Ajuda"
 		},
@@ -136,7 +136,7 @@
 			"accessibility": "Acessibilidade para pessoas com deficiência visual (cores de alto contraste, daltonismo)",
 			"settings": "Definições",
 			"title": "Ferramentas",
-			"url_setting": "TO TRANSLATE - Server URL configuration"
+			"url_setting": "Configuração de URL do servidor"
 		}
 	},
 	"help": {
@@ -190,7 +190,7 @@
 	"homepage": {
 		"cards": {
 			"author": "Editar",
-			"category": "TO TRANSLATE - Category",
+			"category": "Categoria",
 			"creation_status": "Criação",
 			"date": "Data",
 			"evaluation": "Revisão",
@@ -198,18 +198,18 @@
 			"import_structure": "Importar modelo",
 			"item": {
 				"consult_pia": "Consultar",
-				"consult_structure": "TO TRANSLATE - Consult template",
+				"consult_structure": "Veja o modelo",
 				"edit_pia": "Editar",
 				"edit_structure": "Editar modelo",
 				"tools": {
 					"action_plan": "Exibir<br>plano de ação",
-					"archive": "TO TRANSLATE - Archive",
+					"archive": "Arquivo",
 					"duplicate": "Duplicar",
 					"export": "Exportar",
 					"more_options": "Mais opções",
 					"pia": "Exibir análise <br>PIA",
-					"remove": "TO TRANSLATE - Delete",
-					"unarchive": "TO TRANSLATE - Unarchive"
+					"remove": "Remover",
+					"unarchive": "desempacotar"
 				},
 				"validate_pia": "Validar"
 			},
@@ -218,7 +218,7 @@
 			"or": "ou",
 			"pia_name": "PIA",
 			"placeholder_author": "Primeiro Nome, último nome",
-			"placeholder_category": "TO TRANSLATE - Category",
+			"placeholder_category": "Categoria",
 			"placeholder_evaluation": "Primeiro Nome, último nome",
 			"placeholder_import_pia": "Importar análise PIA",
 			"placeholder_import_structure": "Importar modelo",
@@ -241,14 +241,14 @@
 		"filters": {
 			"assessor": "Revisor",
 			"author": "Autor",
-			"card": "TO TRANSLATE - Card view",
+			"card": "Vista de cartão",
 			"card_rocket_content": "Iniciar !<br><br>Para iniciar uma análise PIA,<br> clicar na Nova análise PIA",
 			"card_rocket_content_structure": "Comece !<br><br>Para começar<br>um modelo, clique<br> no +",
-			"category": "TO TRANSLATE - Category",
+			"category": "Categoria",
 			"date": "Data",
 			"import_pia": "Importar PIA",
 			"import_structure": "Importar modelo",
-			"list": "TO TRANSLATE - List view",
+			"list": "Exibição de lista",
 			"list_rocket_content": "Iniciar ! Para iniciar <br>uma análise PIA, clicar no +",
 			"list_rocket_content_structure": "Comece ! Para começar<br>um modelo, clique no +",
 			"name": "Nome",
@@ -263,7 +263,7 @@
 		"lists": {
 			"column_actions": "Ações",
 			"column_author": "Editar",
-			"column_category": "TO TRANSLATE - Category",
+			"column_category": "Categoria",
 			"column_creation": "Criado",
 			"column_evaluation": "Revisão",
 			"column_pia": "PIA",
@@ -277,18 +277,18 @@
 			"item": {
 				"tools": {
 					"action_plan": "Exibir plano de ação",
-					"archive": "TO TRANSLATE - Archive",
+					"archive": "Arquivo",
 					"consult": "Consultar",
 					"duplicate": "Duplicar",
 					"edit": "Editar",
 					"export": "Exportar",
 					"pia": "Exibir análise PIA",
-					"remove": "TO TRANSLATE - Delete",
-					"unarchive": "TO TRANSLATE - Unarchive"
+					"remove": "Remover",
+					"unarchive": "desempacotar"
 				}
 			}
 		},
-		"search_filter": "TO TRANSLATE - Search"
+		"search_filter": "Procurar"
 	},
 	"knowledge_base": {
 		"add_measure": "Adicionar",
@@ -298,7 +298,7 @@
 			"example": "Exemplo",
 			"general_measure": "Controlo de segurança física",
 			"measure_on_data": "Controlo de segurança lógica",
-			"method": "TO TRANSLATE - Methodology",
+			"method": "metodologia",
 			"organizational_measure": "Controlo organizacional",
 			"principle": "Princípio"
 		},
@@ -874,8 +874,8 @@
 		},
 		"archive": "Arquivar",
 		"archive_pia": {
-			"archive": "TO TRANSLATE - Archive PIA",
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>archive this PIA ?"
+			"archive": "Arquivar este PIA",
+			"content": "<span class='strong'>Atenção,</span><br>Tem certeza de que deseja<br>arquivar esta PIA?"
 		},
 		"ask_for_evaluation": {
 			"content": "<span class='strong'>Parabéns</span><br>, a subsecção está agora <br>disponível para avaliação."
@@ -923,8 +923,8 @@
 		},
 		"recover_version": {
 			"continue": "Continuar",
-			"message": "TO TRANSLATE - By continuing, you will restore this report version: {{date}}. You will have to validate again the PIA once it is completed.<br><br>The current version will be archived.",
-			"title": "TO TRANSLATE - Restore a previous version"
+			"message": "Continuando, você restaurará a versão {{date}} desta análise. Você precisará validar a análise novamente quando terminar.<br><br>A versão atual será arquivada.",
+			"title": "Restaurar uma versão antiga"
 		},
 		"refuse_pia": {
 			"content": "<span class='strong'>Como rejeitou a análise PIA,</span><br>esta regressou à revisão para corrigir as alterações necessárias."
@@ -941,7 +941,7 @@
 			"remove": "Remover esta <br>medida"
 		},
 		"remove_pia": {
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>remove permanently this PIA?",
+			"content": "<span class='strong'>Atenção,</span><br>Tem certeza de que deseja<br>excluir permanentemente esta PIA?",
 			"remove": "Remover esta análise PIA"
 		},
 		"remove_question": {
@@ -957,7 +957,7 @@
 			"content": "<span class='strong'>Atenção,</span> Por favor insira um comentário diferente do último gravado<br>."
 		},
 		"signed_pia_validation": {
-			"content": "<span class='strong'>A análise PIA é aceite</span><br> Finalize a validação da análise PIA anexando<br>o relatório assinado pela pessoa responsável.",
+			"content": "Para finalizar a validação da análise,<br>anexe o relatório assinado como um anexo.",
 			"download_pia": "Descarregar o relatório PIA"
 		},
 		"simple_pia_validation": {
@@ -965,8 +965,8 @@
 		},
 		"start_evaluation": "Começar a revisão",
 		"unarchive_pia": {
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>unarchive this PIA ?",
-			"unarchive": "TO TRANSLATE - Unarchive PIA"
+			"content": "<span class='strong'>Atenção,</span><br>Tem certeza de que deseja<br>desarquivar esta PIA?",
+			"unarchive": "Desarquivar esta PIA"
 		},
 		"update_server_url_nok": {
 			"content": "Conexão impossível."
@@ -975,7 +975,7 @@
 			"content": "O endereço do servidor foi atualizado."
 		},
 		"validate_evaluation": {
-			"content": "<span class='strong'>Parabéns</span><br>, terminou de avaliar esta secção. <br>Outras partes da ferramenta PIA também devem ser avaliadas para poder validar a análise PIA."
+			"content": "A peça está pronta para a validação<br>da análise."
 		},
 		"validate_evaluation_to_correct": {
 			"content": "Lamento, <br>vários campos devem ser corrigidos. <br>Retornar ao modo de edição<br>para fazer correções."
@@ -1015,7 +1015,7 @@
 	"pia": {
 		"attachments": {
 			"add": "Adicionar",
-			"download": "TO TRANSLATE - Download the attachment",
+			"download": "Faça o download do anexo",
 			"remove": "Remover",
 			"title": "Anexos"
 		},
@@ -1352,17 +1352,17 @@
 			"title": "Plano de ação"
 		},
 		"actions": {
-			"complete_download": "Descarregar o relatório completo",
-			"complete_download_desc": "Exportar todo o conteúdo do relatório num .zip (.doc e imagens), anexos e o plano de ação em formato .csv.",
-			"individual_download": "Descarregar elementos do relatório",
-			"individual_download_desc": "Exportar elementos específicos do relatório.",
+      "complete_download": "Descarregar o relatório completo",
+      "complete_download_desc": "Exportar todo o conteúdo do relatório num .zip (.doc e imagens), anexos e o plano de ação em formato .csv.",
+      "individual_download": "Descarregar elementos do relatório",
+      "individual_download_desc": "Exportar elementos específicos do relatório.",
 			"individual_download_doc": "Textos (.doc)",
 			"individual_download_images": "Elementos visuais (.png) incluindo resumo de riscos, mapeamento de riscos e o plano de ação.",
-			"individual_download_json": "TO TRANSLATE - Report to import into the PIA tool (.json file)",
+			"individual_download_json": "Análise para importar para a ferramenta PIA (file.json)",
 			"individual_download_select": "Seleccionar elementos a exportar:",
-			"individual_to_download": "TO TRANSLATE - Download",
-			"print": "Imprimir o relatório",
-			"print_and_download": "Imprimir e descarregar"
+			"individual_to_download": "Baixar",
+			"print": "Imprimir a análise",
+			"print_and_download": "Impressão e download"
 		},
 		"attachments": "Anexos",
 		"concerned_people_name": "Opiniões de partes interessadas",
@@ -1381,7 +1381,7 @@
 		"csv_implement_date": "Data de implementação estimada",
 		"csv_people_in_charge": "Pessoa responsável",
 		"csv_section": "Secção",
-		"csv_title_object": "Título",
+		"csv_title_object": "Título do objeto em questão",
 		"download_csv": "Plano de ação (.csv)",
 		"dpo_name": "Nome do DPO",
 		"dpo_opinion": "Opinião do DPO",
@@ -1411,12 +1411,12 @@
 		"previous_page": "Voltar para a página anterior",
 		"rejection_reason": "Motivo da rejeição",
 		"revision": {
-			"current_version": "TO TRANSLATE - Current version",
-			"pia_version": "TO TRANSLATE - PIA versions",
-			"restore_version": "TO TRANSLATE - Restore",
-			"revision": "TO TRANSLATE - Versions and revision",
-			"save": "TO TRANSLATE - Create a new version",
-			"show": "TO TRANSLATE - Display the {{length}} versions"
+			"current_version": "Versão atual",
+			"pia_version": "Versões PIA",
+			"restore_version": "Restaurar esta versão",
+			"revision": "Versões e revisão",
+			"save": "Crie uma nova versão",
+			"show": "Mostrar {{length}} versão (s)"
 		},
 		"risks_cartography_title": "Mapeamento de riscos",
 		"risks_overview_title": "Visão geral dos riscos",
@@ -1428,7 +1428,7 @@
 		"button": {
 			"rejection": "Rejeitar análise PIA",
 			"signed_validation": "Aprovar análise PIA <br>(assinado)",
-			"simple_validation": "Aprovar análise PIA <br>(direto)"
+			"simple_validation": "Validação simples"
 		},
 		"confirmation1": "Eu atesto que o contexto do tratamento descrito na análise PIA é consistente com a realidade.",
 		"confirmation2": "Eu atesto que estou ciente dos riscos dependendo das medidas existentes ou planeadas.",

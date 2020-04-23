@@ -91,16 +91,16 @@
 		"to_correct": "Da correggere"
 	},
 	"header": {
-		"archives": "TO TRANSLATE - PIA Archives",
-		"current_pias": "TO TRANSLATE - Current PIAs",
+		"archives": "PIA archiviati",
+		"current_pias": "PIA attivi",
 		"exit_full_screen_mode": "Premi F11 per uscire dalla modalità schermo intero.",
 		"help": {
-			"issue_reporting": "TO TRANSLATE - Report an issue",
-			"manual": "TO TRANSLATE - User manual",
+			"issue_reporting": "Segnala un bug",
+			"manual": "Manuale dell'utente",
 			"pia_example_link": "Esempio PIA",
 			"title": "Aiuto"
 		},
-		"homepage_link": "TO TRANSLATE - My PIAs",
+		"homepage_link": "Le mie PIA",
 		"knowledge_base_link": "Archivio",
 		"languages": {
 			"cnil_translations": "Traduzioni fornite da CNIL",
@@ -136,7 +136,7 @@
 			"accessibility": "Accessibilità per ipovedenti (colori ad alto contrasto, daltonismo)",
 			"settings": "Impostazioni",
 			"title": "Strumenti",
-			"url_setting": "TO TRANSLATE - Server URL configuration"
+			"url_setting": "Configurazione dell'URL del server"
 		}
 	},
 	"help": {
@@ -190,7 +190,7 @@
 	"homepage": {
 		"cards": {
 			"author": "Autore",
-			"category": "TO TRANSLATE - Category",
+			"category": "CATEGORIA",
 			"creation_status": "Inizializzazione",
 			"date": "Data",
 			"evaluation": "Revisore",
@@ -198,18 +198,18 @@
 			"import_structure": "Importa modello",
 			"item": {
 				"consult_pia": "Visualizza PIA",
-				"consult_structure": "TO TRANSLATE - Consult template",
+				"consult_structure": "Visualizza il modello",
 				"edit_pia": "Modifica PIA",
 				"edit_structure": "Edita modello",
 				"tools": {
 					"action_plan": "Mostra<br>il piano d'azione",
-					"archive": "TO TRANSLATE - Archive",
+					"archive": "archivio",
 					"duplicate": "Crea una copia",
 					"export": "Esporta",
 					"more_options": "Altre opzioni",
 					"pia": "Mostra<br>PIA",
-					"remove": "TO TRANSLATE - Delete",
-					"unarchive": "TO TRANSLATE - Unarchive"
+					"remove": "Rimuovere",
+					"unarchive": "Disfare"
 				},
 				"validate_pia": "Convalidare"
 			},
@@ -218,17 +218,17 @@
 			"or": "oppure",
 			"pia_name": "PIA",
 			"placeholder_author": "Cognome, nome",
-			"placeholder_category": "TO TRANSLATE - Category",
+			"placeholder_category": "CATEGORIA",
 			"placeholder_evaluation": "Cognome, nome",
 			"placeholder_import_pia": "Importa PIA",
 			"placeholder_import_structure": "Importa modello",
 			"placeholder_new_pia": "Nuova PIA",
 			"placeholder_new_structure": "Nuovo modello",
 			"placeholder_pia_name": "Nome della PIA",
-			"placeholder_sector_name": "TO TRANSLATE - Associated sector's name",
+			"placeholder_sector_name": "Titolo del settore associato",
 			"placeholder_start": "Tutti i campi sono obbligatori",
 			"placeholder_structure": "Modello di base",
-			"placeholder_structure_name": "TO TRANSLATE - Template's title",
+			"placeholder_structure_name": "Titolo del modello",
 			"placeholder_validation": "Cognome, nome",
 			"sector_name": "Settore collegato",
 			"start": "Avvio",
@@ -241,20 +241,20 @@
 		"filters": {
 			"assessor": "Revisore",
 			"author": "Autore",
-			"card": "TO TRANSLATE - Card view",
+			"card": "Card View",
 			"card_rocket_content": "Inizia! Per impostare <br>una PIA, clicca sul +",
-			"card_rocket_content_structure": "TO BE TRANSLATED - Lancez-vous !<br><br>Pour commencer<br>un modèle, cliquez<br> sur le +",
-			"category": "TO TRANSLATE - Category",
+			"card_rocket_content_structure": "Inizia!<br><br>Per avviare<br>un modello, fai clic su<br> sul +",
+			"category": "CATEGORIA",
 			"date": "Data",
 			"import_pia": "Importa PIA",
-			"import_structure": "TO BE TRANSLATED - Importer modèle",
-			"list": "TO TRANSLATE - List view",
+			"import_structure": "Modello di importazione",
+			"list": "Visualizzazione elenco",
 			"list_rocket_content": "Inizia! Per impostare <br>una PIA, clicca sul +",
-			"list_rocket_content_structure": "TO BE TRANSLATED - Lancez-vous ! Pour commencer<br>un modèle, cliquez sur le +",
+			"list_rocket_content_structure": "Inizia! Per avviare<br>un modello, fai clic su +",
 			"name": "Nome",
 			"new_pia": "Nuova PIA",
-			"new_structure": "TO BE TRANSLATED - Nouveau modèle",
-			"sector_name": "TO BE TRANSLATED - Secteur associé",
+			"new_structure": "Nuovo modello",
+			"sector_name": "Settore associato",
 			"sort": "Ordina",
 			"sort_by": "per",
 			"status": "Stato",
@@ -263,32 +263,32 @@
 		"lists": {
 			"column_actions": "Azioni",
 			"column_author": "Autore",
-			"column_category": "TO TRANSLATE - Category",
+			"column_category": "CATEGORIA",
 			"column_creation": "Creato",
 			"column_evaluation": "Revisore",
 			"column_pia": "PIA",
 			"column_progression": "Avanzamento",
-			"column_sector_name": "TO TRANSLATE - Associated sector",
+			"column_sector_name": "Settore associato",
 			"column_status": "Stato",
-			"column_structure": "TO TRANSLATE - Template",
-			"column_structure_name": "TO TRANSLATE - Template",
+			"column_structure": "modello",
+			"column_structure_name": "modello",
 			"column_updated_at": "Cronologia",
 			"column_validation": "Validatore",
 			"item": {
 				"tools": {
 					"action_plan": "Mostra il piano d'azione",
-					"archive": "TO TRANSLATE - Archive",
+					"archive": "archivio",
 					"consult": "Visualizza",
 					"duplicate": "Crea una copia",
 					"edit": "Modifica",
 					"export": "Esporta",
 					"pia": "Mostra PIA",
-					"remove": "TO TRANSLATE - Delete",
-					"unarchive": "TO TRANSLATE - Unarchive"
+					"remove": "Rimuovere",
+					"unarchive": "Disfare"
 				}
 			}
 		},
-		"search_filter": "TO TRANSLATE - Search"
+		"search_filter": "Cercare"
 	},
 	"knowledge_base": {
 		"add_measure": "Aggiungi",
@@ -298,7 +298,7 @@
 			"example": "Esempio",
 			"general_measure": "Misure generali di sicurezza dei sistemi ",
 			"measure_on_data": "Misure applicate ai dati ",
-			"method": "TO TRANSLATE - Methodology",
+			"method": "metodologia",
 			"organizational_measure": "Misure organizzative",
 			"principle": "Principio"
 		},
@@ -874,8 +874,8 @@
 		},
 		"archive": "Archivia",
 		"archive_pia": {
-			"archive": "TO TRANSLATE - Archive PIA",
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>archive this PIA ?"
+			"archive": "Archivia questo PIA",
+			"content": "<span class='strong'>Attenzione,</span><br>Sei sicuro di voler<br>archiviare questo PIA?"
 		},
 		"ask_for_evaluation": {
 			"content": "<span class='strong'>Congratulazioni,</span><br>la sezione è <br>disponibile per la valutazione."
@@ -910,10 +910,10 @@
 			"content": "Si è verificato un errore<br>ti preghiamo di scusarci per questo inconveniente."
 		},
 		"import_wrong_pia_file": {
-			"content": "TO BE TRANSLATED - Le fichier importé ne correspond pas à un fichier de type PIA"
+			"content": "Il file importato non corrisponde a un file di tipo PIA"
 		},
 		"import_wrong_structure_file": {
-			"content": "TO BE TRANSLATED - Le fichier importé ne correspond pas à un fichier de type Modèle"
+			"content": "Il file importato non corrisponde a un file modello"
 		},
 		"modal_select_text_pia": {
 			"content": "I contenuti della PIA sono stati copiati negli appunti."
@@ -923,8 +923,8 @@
 		},
 		"recover_version": {
 			"continue": "Continua",
-			"message": "TO TRANSLATE - By continuing, you will restore this report version: {{date}}. You will have to validate again the PIA once it is completed.<br><br>The current version will be archived.",
-			"title": "TO TRANSLATE - Restore a previous version"
+			"message": "Continuando, ripristinerai la versione {{date}} di questa analisi. Dovrai convalidare nuovamente l'analisi una volta terminata.<br><br>La versione corrente verrà archiviata.",
+			"title": "Ripristina una versione precedente"
 		},
 		"refuse_pia": {
 			"content": "<span class='strong'>PIA rigettata,</span><br>Sono necessarie correzioni in più campi.<br>Torna alla modalità valutazione<br>per apportare le correzioni."
@@ -941,23 +941,23 @@
 			"remove": "Cancella questa <br>misura"
 		},
 		"remove_pia": {
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>remove permanently this PIA?",
+			"content": "<span class='strong'>Attenzione,</span><br>Sei sicuro di voler rimuovere questo PIA per una buona<br>?",
 			"remove": "Cancella questa PIA"
 		},
 		"remove_question": {
-			"content": "TO BE TRANSLATED - Souhaitez-vous supprimer la question ?",
-			"keep": "TO BE TRANSLATED - Annuler",
-			"remove": "TO BE TRANSLATED - Supprimer"
+			"content": "Vuoi eliminare la domanda?",
+			"keep": "annullare",
+			"remove": "Rimuovere"
 		},
 		"remove_structure": {
-			"content": "TO BE TRANSLATED - <span class='strong'>Attention,</span><br>Êtes-vous sûr de vouloir<br>supprimer ce modèle ?",
-			"remove": "TO BE TRANSLATED - Supprimer ce modèle"
+			"content": "<span class='strong'>Attenzione</span><br>Sei sicuro di voler rimuovere<br>questo modello?",
+			"remove": "Elimina questo modello"
 		},
 		"same_comment": {
 			"content": "<span class='strong'>Attenzione,</span><br>Inserire un commento diverso dall'ultimo inserito."
 		},
 		"signed_pia_validation": {
-			"content": "<span class='strong'>La PIA è accettata</span><br>Terminare validazione della PIA allegando<br>il report firmato dal responsabile della validazione.",
+			"content": "Per finalizzare la convalida dell'analisi,<br>allega il rapporto firmato come allegato.",
 			"download_pia": "Scarica report PIA"
 		},
 		"simple_pia_validation": {
@@ -965,17 +965,17 @@
 		},
 		"start_evaluation": "Inizia valutazione",
 		"unarchive_pia": {
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>unarchive this PIA ?",
-			"unarchive": "TO TRANSLATE - Unarchive PIA"
+			"content": "<span class='strong'>Attenzione,</span><br>Sei sicuro di voler<br>annullare l'archiviazione di questo PIA?",
+			"unarchive": "Annulla l'archiviazione di questo PIA"
 		},
 		"update_server_url_nok": {
-			"content": "TO BE TRANSLATED - Connection impossible."
+			"content": "Impossibile connettersi."
 		},
 		"update_server_url_ok": {
 			"content": "L'indirizzo del server è stato aggiornato."
 		},
 		"validate_evaluation": {
-			"content": "<span class='strong'>Congratulazioni,</span><br>la valutazione di questa sezione è conclusa.<br>Devono essere valutate anche le altre sezioni per poter accedere alla validazione della PIA."
+			"content": "La parte è pronta per la convalida dell'analisi<br>."
 		},
 		"validate_evaluation_to_correct": {
 			"content": "Spiacente,<br>Diversi campi necessitano di correzioni.<br>Torna alla modalità modifica<br>per apportare correzioni."
@@ -1015,14 +1015,14 @@
 	"pia": {
 		"attachments": {
 			"add": "Aggiungi",
-			"download": "TO TRANSLATE - Download the attachment",
+			"download": "Scarica l'allegato",
 			"remove": "Cancella",
 			"title": "Allegati"
 		},
 		"footer": {
 			"ask_evaluation": "Richiedi una revisione",
 			"mandatory_fields": "Tutti i campi sono obbligatori",
-			"structure_add_question": "TO BE TRANSLATED - Ajouter une question",
+			"structure_add_question": "Aggiungi domanda",
 			"subsection_validated": "Sezione rivista, in attesa di validazione finale",
 			"validate_evaluation": "Valida revisione"
 		},
@@ -1033,7 +1033,7 @@
 			"preview": "Anteprima"
 		},
 		"sections": {
-			"based_on_structure_name": "TO BE TRANSLATED - Basé sur le modèle :",
+			"based_on_structure_name": "Basato sul modello:",
 			"homepage_link": "Torna al pannello di controllo",
 			"refuse_pia": "Rifiuta PIA",
 			"status": {
@@ -1352,17 +1352,17 @@
 			"title": "Piano d'azione"
 		},
 		"actions": {
-			"complete_download": "TO TRANSLATE - Download the full report",
-			"complete_download_desc": "TO TRANSLATE - Export in a .zip archive all the report content (.doc and pictures), attachments and the action plan in a .csv format.",
-			"individual_download": "TO TRANSLATE - Download elements of the report",
-			"individual_download_desc": "TO TRANSLATE - Export specific elements of the report.",
-			"individual_download_doc": "TO TRANSLATE - Texts (.doc)",
-			"individual_download_images": "TO TRANSLATE - Visual elements (.png) including the risk overview, the risk mapping and the action plan.",
-			"individual_download_json": "TO TRANSLATE - Report to import into the PIA tool (.json file)",
-			"individual_download_select": "TO TRANSLATE - Select elements to export:",
-			"individual_to_download": "TO TRANSLATE - Download",
-			"print": "TO TRANSLATE - Print the report",
-			"print_and_download": "TO TRANSLATE - Print and download"
+			"complete_download": "Scarica l'intera analisi",
+			"complete_download_desc": "Esporta i contenuti dell'analisi (.doc e immagini), gli allegati associati e il piano d'azione in formato .csv in un archivio .zip.",
+			"individual_download": "scaricamento",
+			"individual_download_desc": "Esporta elementi specifici dell'analisi.",
+			"individual_download_doc": "Contenuto testuale (file .doc)",
+			"individual_download_images": "Elementi visivi (file .png): panoramica dei rischi, mappatura dei rischi, piano d'azione",
+			"individual_download_json": "Analisi da importare nello strumento PIA (file.json)",
+			"individual_download_select": "Seleziona gli elementi da esportare:",
+			"individual_to_download": "Scaricare",
+			"print": "Stampa l'analisi",
+			"print_and_download": "Stampa e download"
 		},
 		"attachments": "Allegati",
 		"concerned_people_name": "Nomi degli interessati",
@@ -1381,8 +1381,8 @@
 		"csv_implement_date": "Data stimata di implementazione",
 		"csv_people_in_charge": "Persona responsabile",
 		"csv_section": "Sezione",
-		"csv_title_object": "Titolo",
-		"download_csv": "TO TRANSLATE - Action plan (.csv)",
+		"csv_title_object": "Titolo dell'oggetto in questione",
+		"download_csv": "Piano d'azione (file .csv)",
 		"dpo_name": "Nome del DPO/RPD",
 		"dpo_opinion": "Parere del DPO/RPD",
 		"dpo_status": "Posizione del DPO/RPD",
@@ -1399,24 +1399,24 @@
 		"pia_author": "Nome autore",
 		"pia_name": "Nome della PIA",
 		"pia_validator": "Nome validatore",
-		"preview_dpo_opinion": "TO TRANSLATE - DPO and data subjects opinion",
-		"preview_edition": "TO TRANSLATE - Editing",
-		"preview_evaluation": "TO TRANSLATE - Evaluation",
-		"preview_no_data": "TO TRANSLATE - No data to display.",
-		"preview_status": "TO TRANSLATE - Status",
-		"preview_subtitle": "TO TRANSLATE - General information",
-		"preview_title": "TO TRANSLATE - Preview",
-		"preview_validation": "TO TRANSLATE - Validation",
-		"preview_validation_section": "TO TRANSLATE - Validation",
+		"preview_dpo_opinion": "Parere del responsabile della protezione dei dati e delle persone interessate",
+		"preview_edition": "sequestro",
+		"preview_evaluation": "Valutazione",
+		"preview_no_data": "Nessuna informazione da visualizzare.",
+		"preview_status": "stato",
+		"preview_subtitle": "Informazioni generali",
+		"preview_title": "Panoramica dell'analisi",
+		"preview_validation": "convalida",
+		"preview_validation_section": "convalida",
 		"previous_page": "Torna alla pagina precedente",
 		"rejection_reason": "Motivazione del rigetto",
 		"revision": {
-			"current_version": "TO TRANSLATE - Current version",
-			"pia_version": "TO TRANSLATE - PIA versions",
-			"restore_version": "TO TRANSLATE - Restoren",
-			"revision": "TO TRANSLATE - Versions and revision",
-			"save": "TO TRANSLATE - Create a new version",
-			"show": "TO TRANSLATE - Display the {{length}} versions"
+			"current_version": "Versione corrente",
+			"pia_version": "Versioni PIA",
+			"restore_version": "Ripristina questa versione",
+			"revision": "Versioni e revisione",
+			"save": "Crea una nuova versione",
+			"show": "Mostra {{length}} versioni"
 		},
 		"risks_cartography_title": "Mappaggio dei rischi",
 		"risks_overview_title": "Panoramica dei rischi",
@@ -1428,7 +1428,7 @@
 		"button": {
 			"rejection": "Negare la validazione",
 			"signed_validation": "Validazione con firma <br>",
-			"simple_validation": "Validazione semplice <br>"
+			"simple_validation": "Convalida semplice"
 		},
 		"confirmation1": "Dichiaro che la descrizione del contesto del mio trattamento corrisponde alla realtà.",
 		"confirmation2": "Dichiaro di essere consapevole dei rischi esistenti in funzione delle misure attualmente implementate o previste.",

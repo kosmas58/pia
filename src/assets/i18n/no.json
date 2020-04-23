@@ -77,10 +77,10 @@
 			"seriousness": "Taking into account the action plan, how do you re-evaluate the <span class='red-highlight'>seriousness of this risk</span> ({{value}})?"
 		},
 		"improvable": "Improvable",
-		"placeholder_acceptable": "TO BE TRANSLATED - According to the available information, the measures implemented are adequate to properly meet the requirements for protecting the data.",
-		"placeholder_improvable1": "TO BE TRANSLATED - According to the available information, additional measures are to be implemented in order to improve the data protection of the processing.",
-		"placeholder_improvable2": "TO TRANSLATE - Enter your comments.",
-		"placeholder_to_correct": "TO BE TRANSLATED - The information provided are not sufficient to properly evaluate them. Send back to the editor to improve the original submission.",
+		"placeholder_acceptable": "Skriv inn kommentarene dine for å forklare hvordan tiltakene som er iverksatt, er tilstrekkelige for å oppfylle kravene til databeskyttelse.",
+		"placeholder_improvable1": "Skriv inn kommentarene dine for å forklare hvilke tilleggstiltak som skal legges til for å forbedre databeskyttelsen av behandlingen.",
+		"placeholder_improvable2": "Skriv inn kommentarene dine.",
+		"placeholder_to_correct": "Skriv inn kommentarene dine for å forklare hvorfor informasjonen som gis ikke er tilstrekkelig til å vurdere den. Denne delen vil bli returnert for redigering for å berike det opprinnelige forslaget.",
 		"status": [
 			"Pending",
 			"To correct",
@@ -91,24 +91,24 @@
 		"to_correct": "To correct"
 	},
 	"header": {
-		"archives": "TO TRANSLATE - PIA Archives",
-		"current_pias": "TO TRANSLATE - Current PIAs",
-		"exit_full_screen_mode": "TO TRANSLATE - Press F11 to exit full screen mode.",
+		"archives": "Arkiverte PIAer",
+		"current_pias": "Aktive PIAer",
+		"exit_full_screen_mode": "Trykk F11 for å gå ut av fullskjermmodus.",
 		"help": {
-			"issue_reporting": "TO TRANSLATE - Report an issue",
-			"manual": "TO TRANSLATE - User manual",
+			"issue_reporting": "Rapporter en feil",
+			"manual": "Brukerhåndbok",
 			"pia_example_link": "Eksempel på vurdering av personvernkonsekvenser",
 			"title": "Hjelp"
 		},
-		"homepage_link": "TO TRANSLATE - My PIAs",
+		"homepage_link": "Mine PIA-er",
 		"knowledge_base_link": "Kunnskapsdatabase",
 		"languages": {
-			"cnil_translations": "TO BE TRANSLATED - CNIL provided translations",
-			"community_translations": "TO BE TRANSLATED - Community provided translations",
+			"cnil_translations": "Oversettelser levert av CNIL",
+			"community_translations": "Oversettelser levert av samfunnet",
 			"cz": "Česky",
 			"de": "Deutsch",
 			"dk": "Dansk",
-			"dpa_translations": "TO BE TRANSLATED - Translation revised by European DPA",
+			"dpa_translations": "Oversettelse revidert av europeisk ADP",
 			"el": "Ελληνικά",
 			"en": "English",
 			"es": "Español",
@@ -121,7 +121,7 @@
 			"lt": "Lietuviškai",
 			"nl": "Nederlands",
 			"no": "Norsk",
-			"official_translation": "TO BE TRANSLATED - Original version",
+			"official_translation": "Originalversjon",
 			"pl": "Polski",
 			"pt": "Português",
 			"ro": "Română",
@@ -130,13 +130,13 @@
 		},
 		"logo_subtitle": "Vurdering av personvernkonsekvenser",
 		"logo_title": "PIA",
-		"structures": "PIA templates",
+		"structures": "PIA-modeller",
 		"tools": {
 			"about": "Om",
 			"accessibility": "Tilgjengelighet for synshemmede (høykontrastfarger, daltonisme)",
 			"settings": "Innstillinger",
 			"title": "Verktøy",
-			"url_setting": "TO TRANSLATE - Server URL configuration"
+			"url_setting": "Server-URL-konfigurasjon"
 		}
 	},
 	"help": {
@@ -176,7 +176,14 @@
 				},
 				"title": "Known Issues"
 			},
-			"footer": "TO BE TRANSLATED - If you have any other problems or suggestions for improvement, you can send them to us via this form <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
+			"footer": "Hvis du støter på andre problemer, eller hvis du har forslag til forbedring, kan du sende dem til oss via dette skjemaet <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil -pia</a>."
+		},
+		"infografics": {
+			"display": "Vis prosesskartet",
+			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"guide": "Vis PIA-guider til CNIL",
+			"hide": "Skjul prosesskartet",
+			"title": "Oversikt over forpliktelser og metode"
 		},
 		"infografics": {
 			"display": "Vis prosesskartet",
@@ -190,71 +197,71 @@
 	"homepage": {
 		"cards": {
 			"author": "Forfatter",
-			"category": "TO TRANSLATE - Category",
+			"category": "Kategori",
 			"creation_status": "Opprettelse",
 			"date": "Dato",
 			"evaluation": "Saksbehandling",
 			"import_pia": "Importer PIA",
-			"import_structure": "TO TRANSLATE - Import template",
+			"import_structure": "Importer modell",
 			"item": {
-				"consult_pia": "TO TRANSLATE - Consult",
-				"consult_structure": "TO TRANSLATE - Consult template",
+				"consult_pia": "Rådføre",
+				"consult_structure": "Vis modellen",
 				"edit_pia": "Regiger",
-				"edit_structure": "TO TRANSLATE - Edit template",
+				"edit_structure": "Rediger modellen",
 				"tools": {
 					"action_plan": "Vis<br>handlingsplan",
-					"archive": "TO TRANSLATE - Archive",
+					"archive": "Arkiv",
 					"duplicate": "Dupliser",
 					"export": "Eksporter",
 					"more_options": "Flere valg",
 					"pia": "Vis<br>PIA",
-					"remove": "TO TRANSLATE - Delete",
-					"unarchive": "TO TRANSLATE - Unarchive"
+					"remove": "remove",
+					"unarchive": "Pakk ut"
 				},
 				"validate_pia": "Validere"
 			},
 			"new_pia": "Ny PIA",
-			"new_structure": "TO TRANSLATE - New template",
+			"new_structure": "Ny modell",
 			"or": "or",
 			"pia_name": "PIA",
 			"placeholder_author": "Fornavn, etternavn",
-			"placeholder_category": "TO TRANSLATE - Category",
+			"placeholder_category": "Kategori",
 			"placeholder_evaluation": "Fornavn, etternavn",
 			"placeholder_import_pia": "Importer PIA",
-			"placeholder_import_structure": "TO TRANSLATE - Import template",
+			"placeholder_import_structure": "Importer modell",
 			"placeholder_new_pia": "Ny PIA",
-			"placeholder_new_structure": "TO TRANSLATE - New template",
+			"placeholder_new_structure": "Ny modell",
 			"placeholder_pia_name": "PIA-tittel",
-			"placeholder_sector_name": "TO TRANSLATE - Associated sector's name",
+			"placeholder_sector_name": "Tittel på tilknyttet sektor",
 			"placeholder_start": "Alle felt må fylles ut",
-			"placeholder_structure": "TO TRANSLATE - Default template",
-			"placeholder_structure_name": "TO TRANSLATE - Template's title",
+			"placeholder_structure": "Standard mal",
+			"placeholder_structure_name": "Modelltittel",
 			"placeholder_validation": "Fornavn, etternavn",
-			"sector_name": "TO BE TRANSLATED - Secteur associé",
+			"sector_name": "Tilknyttet sektor",
 			"start": "Start",
 			"status": "Status",
-			"structure": "TO TRANSLATE - Template",
-			"structure_name": "TO TRANSLATE - Template's name",
+			"structure": "Modell",
+			"structure_name": "Modellnavn",
 			"title_close_creation": "Lukk",
 			"validation": "Forankring"
 		},
 		"filters": {
 			"assessor": "Saksbehandler",
 			"author": "Forfatter",
-			"card": "TO TRANSLATE - Card view",
+			"card": "Kortvisning",
 			"card_rocket_content": "Kom i gang !<br><br>For å starte en PIA,<br> klikk på Ny PIA",
-			"card_rocket_content_structure": "TO BE TRANSLATED - Lancez-vous !<br><br>Pour commencer<br>un modèle, cliquez<br> sur le +",
-			"category": "TO TRANSLATE - Category",
+			"card_rocket_content_structure": "Kom i gang!<br><br>For å starte<br>en modell, klikker du på<br> på +",
+			"category": "Kategori",
 			"date": "Dato",
 			"import_pia": "Importer PIA",
-			"import_structure": "TO BE TRANSLATED - Importer modèle",
-			"list": "TO TRANSLATE - List view",
+			"import_structure": "Importer modell",
+			"list": "Listevisning",
 			"list_rocket_content": "Kom i gang ! For å starte <br>en PIA, klikk på +",
-			"list_rocket_content_structure": "TO BE TRANSLATED - Lancez-vous ! Pour commencer<br>un modèle, cliquez sur le +",
+			"list_rocket_content_structure": "Kom i gang! For å starte<br>en modell, klikk på +",
 			"name": "Navn",
 			"new_pia": "Ny PIA",
-			"new_structure": "TO BE TRANSLATED - Nouveau modèle",
-			"sector_name": "TO BE TRANSLATED - Secteur associé",
+			"new_structure": "Ny modell",
+			"sector_name": "Tilknyttet sektor",
 			"sort": "Sorter",
 			"sort_by": "etter",
 			"status": "Status",
@@ -263,32 +270,32 @@
 		"lists": {
 			"column_actions": "Handlinger",
 			"column_author": "Rediger",
-			"column_category": "TO TRANSLATE - Category",
+			"column_category": "Kategori",
 			"column_creation": "Opprettet",
 			"column_evaluation": "Evaluer",
 			"column_pia": "PIA",
 			"column_progression": "Fremgang",
-			"column_sector_name": "TO TRANSLATE - Associated sector",
+			"column_sector_name": "Tilknyttet sektor",
 			"column_status": "Status",
-			"column_structure": "TO TRANSLATE - Template",
-			"column_structure_name": "TO TRANSLATE - Template",
+			"column_structure": "Modell",
+			"column_structure_name": "Modell",
 			"column_updated_at": "Sist åpnet",
 			"column_validation": "Valider",
 			"item": {
 				"tools": {
 					"action_plan": "Vis handlingsplan",
-					"archive": "TO TRANSLATE - Archive",
-					"consult": "TO BE TRANSLATED - Consult",
+					"archive": "Arkiv",
+					"consult": "Rådføre",
 					"duplicate": "Dupliser",
 					"edit": "Rediger",
 					"export": "Eksporter",
 					"pia": "Vis PIA",
-					"remove": "TO TRANSLATE - Delete",
-					"unarchive": "TO TRANSLATE - Unarchive"
+					"remove": "remove",
+					"unarchive": "Pakk ut"
 				}
 			}
 		},
-		"search_filter": "TO TRANSLATE - Search"
+		"search_filter": "Søke"
 	},
 	"knowledge_base": {
 		"add_measure": "Legg til",
@@ -298,7 +305,7 @@
 			"example": "Eksempel",
 			"general_measure": "Fysisk informasjonssikkerhet",
 			"measure_on_data": "Teknisk informasjonssikkerhet",
-			"method": "TO TRANSLATE - Methodology",
+			"method": "metodikk",
 			"organizational_measure": "Styringssystemer",
 			"principle": "Prinsipp"
 		},
@@ -451,8 +458,8 @@
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIND": {
-				"description": "TO BE TRANSLATED - Reduce the severity of risks by minimizing the data themselves, by taking measures aimed at reducing their sensitivity such as filtering and removing unnecessary data, pseudonymising data, etc.",
-				"name": "TO BE TRANSLATED - Minimization of data themselves",
+				"description": "Reduser alvorlighetsgraden av risikoen ved å minimere dataene i seg selv, med tiltak som er ment å redusere deres følsomhet, for eksempel filtrering og fjerning av unødvendige data, pseudonymisering av dataene, etc.",
+				"name": "Minimering av selve dataene",
 				"source": "PIA3 p64"
 			},
 			"PIA_DEF_OPP": {
@@ -526,8 +533,8 @@
 				"source": "PIA1 page 6"
 			},
 			"PIA_EX_DC": {
-				"description": "TO BE TRANSLATED - Data for a score system, result of the application of the score....",
-				"name": "TO BE TRANSLATED - Calculated data"
+				"description": "Data for et skåresystem, resultat av skåresøknaden ...",
+				"name": "Beregnede data"
 			},
 			"PIA_EX_DCPC": {
 				"description": "<strong>Identification data</strong> : Civil status, identity, age, etc. <br><strong>Personal life</strong> : living habits, marital status, etc. <br><strong>Professional life </strong> : résumé, education and professional training, awards, etc. <br><strong>Connection data </strong> : IP addresses, event logs, etc.<br><strong>Location data</strong> : travels, GPS data, GSM data, etc.<br><strong>Others</strong> : phone number, email address, etc.",
@@ -712,7 +719,7 @@
 				"source": "PIAF Connected Objects p22 - WIKI"
 			},
 			"PIA_SEC_CTR": {
-				"description": "TO BE TRANSLATED - <strong>Only use subcontractors which are able to provide sufficient guarantees</strong> (in particular in terms of specialised knowledge, reliability and resources). Require service providers to communicate their information system security policy before signing a contract with them. <br>Take and document the means (security audits, installation visits, etc.) used to <strong>ensure the effectiveness of the guarantees offered by the subcontractor</strong> in terms of data protection. These guarantees include: <br>- encryption of data according to its sensitivity or, at least, the existence of procedures guaranteeing that the service company does not have access to the data; <br>- encryption of data transmissions (e.g.: HTTPS type connection, VPN, etc.); <br>- guarantees in terms of network protection, traceability (logs, audits), access rights management, authentication, etc. <br><strong>Sign a contract with the subcontractors</strong>, which defines the subject, the length and the purpose of the processing, as well as obligations of each party. Ensure that it contains, in particular, provisions targeting: <br>- their obligation in terms of <strong>confidentiality of the entrusted personal data</strong>;<br>- <strong>minimal standards in terms of user authentication</strong>;<br>- <strong>conditions of restitution of data and/or its destruction at end of the contract</strong>;<br>- <strong>incident management and notification rules. </strong> They should include notification of the data controller whenever a security breach or a security incident is discovered, which should happen as soon as possible when it concerns personal data.",
+				"description": "Personopplysningene som er kommunisert til eller administrert av underleverandører, må dra fordel av tilstrekkelige garantier. <strong>Bruk bare underleverandører med tilstrekkelige garantier</strong> (spesielt når det gjelder spesialisert kunnskap, pålitelighet og ressurser). Be tjenesteleverandøren kommunisere sikkerhetspolitikken for informasjonssystemer. <br>Ta og dokumenter midlene (sikkerhetsrevisjoner, besøk til installasjonene osv.) For å<strong>sikre effektiviteten av garantiene som tilbys av underleverandøren</strong> når det gjelder databeskyttelse. Disse garantiene inkluderer spesielt:<br> - kryptering av data i henhold til deres følsomhet eller, hvis ikke det, eksistensen av prosedyrer som garanterer at serviceselskapet ikke har tilgang til dataene som er betrodd den<br>- kryptering av overføring av data (f.eks. tilkoblingstype HTTPS, VPN, etc.)<br>- garantier når det gjelder nettverksbeskyttelse, sporbarhet (logger, revisjoner), styring av autorisasjoner, autentisering, etc.<br><strong>Gi en kontrakt med underleverandørene</strong>, som spesielt definerer objektet, varigheten, formålet med behandlingen og partenes forpliktelser. Forsikre deg om at den inneholder bestemte bestemmelser som fastsetter:<br>- deres plikt til konfidensialitet av personopplysningene som er betrodd<br>- minimumsbegrensninger når det gjelder brukerautentisering<br>- vilkårene for retur og / eller ødeleggelse av data ved kontraktens slutt<br>- reglene for hendelseshåndtering og varsling. Dette skal omfatte informasjon fra databehandleren i tilfelle det oppdages et sikkerhetsbrudd eller sikkerhetshendelse, og dette så snart som mulig i tilfelle brudd på personopplysninger.<br>- I tilfelle av bruk av en leverandør av sky computing:<br>1. Identifiser tydelig dataene og behandlingen som vil gå inn i skyen;<br>2. definere egne tekniske og juridiske sikkerhetskrav;<br>3. gjennomføre en risikostudie for å identifisere passende sikkerhetstiltak;<br>4. identifisere typen sky som er relevant for den foreslåtte behandlingen;<br>5. velge en tjenesteleverandør med tilstrekkelige garantier;<br>6. gjennomgå den interne sikkerhetspolitikken;<br>7. overvåke endringer over tid.",
 				"name": "Processing contracts",
 				"placeholder": "Describe here specific measures for processors (host, maintenance company, administrator, specialist service providers, etc.)",
 				"source": "Mesures_US Procurement: identified and governed by a contract"
@@ -865,35 +872,35 @@
 	},
 	"modals": {
 		"abandon_pia": {
-			"additional_text": "TO BE TRANSLATED - Archiving is not definitive and the PIA can go back to it if needed.",
-			"content": "TO BE TRANSLATED - Do you wish to give up the processing?"
+			"additional_text": "Arkivering er ikke endelig, og du kan<br>fortsette analysen senere hvis nødvendig.",
+			"content": "Vil du forlate<br>behandlingen?"
 		},
 		"action_plan_no_evaluation": {
-			"content": "TO BE TRANSLATED - You need to begin the review of the analysis to create the action plan.",
-			"review_section": "TO BE TRANSLATED - Review a section"
+			"content": "Start analyseevalueringen for å generere handlingsplanen.",
+			"review_section": "Evaluer en seksjon"
 		},
 		"archive": "Archive",
 		"archive_pia": {
-			"archive": "TO TRANSLATE - Archive PIA",
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>archive this PIA ?"
+			"archive": "Arkiver denne PIA",
+			"content": "<span class='strong'>Oppmerksomhet,</span><br>Er du sikker på at du vil<br>arkivere denne PIA?"
 		},
 		"ask_for_evaluation": {
-			"content": "TO BE TRANSLATED - This section is ready to be reviewed."
+			"content": "Spillet er tilgjengelig<br>for evaluering."
 		},
 		"back_to_edition": {
-			"content": "TO BE TRANSLATED - This section has been sent back for editing.<br> Several fields must be corrected<br> to enable its proper review."
+			"content": "Delen returneres for redigering,<br>informasjon må legges til<br>for å tillate evaluering."
 		},
 		"back_to_evaluation": {
-			"content": "TO BE TRANSLATED - This section has been sent back for review.<br> Several fields must be reviewed<br> to enable its proper validation."
+			"content": "Delen returneres for evaluering,<br>informasjon må evalueres<br>for å tillate validering."
 		},
 		"back_to_home": "Back to home",
 		"cancel": "Cancel",
 		"close": "Close",
 		"completed_edition": {
-			"content": "TO BE TRANSLATED - The PIA has been fully edited and has to be reviewed."
+			"content": "Alle delene er redigert.<br>Analysen skal nå evalueres."
 		},
 		"completed_evaluation": {
-			"content": "TO BE TRANSLATED - The PIA has been fully reviewed and can be validated."
+			"content": "Alle delene blir evaluert.<br>Analysen kan valideres."
 		},
 		"continue": "Continue",
 		"declare_measures": {
@@ -901,36 +908,39 @@
 			"declare": "Declare existing or planned measures"
 		},
 		"dpo_missing_evaluations": {
-			"comment": "TO BE TRANSLATED - Comment",
-			"content": "TO BE TRANSLATED - You need to complete the review of the analysis to access the DPO page.",
+			"comment": "Kommentar",
+			"content": "Fullfør analyseevalueringen for å få tilgang til DPO-siden.",
 			"remove": "Remove",
-			"review_section": "TO BE TRANSLATED - Review a section"
+			"review_section": "Evaluer en seksjon"
+		},
+		"general_error": {
+			"content": "Det har oppstått en feil.<br>unnskyld oss for denne ulempen."
 		},
 		"general_error": {
 			"content": "Det har oppstått en feil.<br>unnskyld oss for denne ulempen."
 		},
 		"import_wrong_pia_file": {
-			"content": "TO BE TRANSLATED - Le fichier importé ne correspond pas à un fichier de type PIA"
+			"content": "Den importerte filen tilsvarer ikke en PIA-type fil"
 		},
 		"import_wrong_structure_file": {
-			"content": "TO BE TRANSLATED - Le fichier importé ne correspond pas à un fichier de type Modèle"
+			"content": "Importert fil samsvarer ikke med en malfil"
 		},
 		"modal_select_text_pia": {
-			"content": "TO BE TRANSLATED - The content of the PIA has been copied to clipboard."
+			"content": "Innholdet i PIA-rapporten er kopiert til utklippstavlen din."
 		},
 		"not_enough_measures_to_remove": {
 			"content": "<span class='strong'>Warning,</span><br>At least one measure must be filled: no deletion possible."
 		},
 		"recover_version": {
 			"continue": "Continue",
-			"message": "TO TRANSLATE - By continuing, you will restore this report version: {{date}}. You will have to validate again the PIA once it is completed.<br><br>The current version will be archived.",
-			"title": "TO TRANSLATE - Restore a previous version"
+			"message": "Fortsetter vil du gjenopprette {{date}} versjonen av denne analysen. Du må validere analysen igjen når den er ferdig.<br><br>Den nåværende versjonen blir arkivert.",
+			"title": "Gjenopprett en gammel versjon"
 		},
 		"refuse_pia": {
-			"content": "TO BE TRANSLATED - As you have rejected the PIA, it is sent back for review to make the required changes."
+			"content": "Etter avslaget ditt blir analysen<br> sendt tilbake til evaluering for å gjøre<br>de nødvendige modifikasjonene."
 		},
 		"remove_attachment": {
-			"comment": "TO BE TRANSLATED - Comment",
+			"comment": "kommentarer",
 			"content": "<span class='strong'>Warning,</span><br>Are you sure you want to<br>remove this attachment?",
 			"keep": "Keep",
 			"remove": "Remove"
@@ -941,41 +951,41 @@
 			"remove": "Remove this <br>measure"
 		},
 		"remove_pia": {
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>remove permanently this PIA?",
-			"remove": "TO TRANSLATE - Remove this PIA"
+			"content": "<span class='strong'>Oppmerksomhet,</span><br>Er du sikker på at du vil<br>slette denne PIA permanent?",
+			"remove": "Slett denne PIA"
 		},
 		"remove_question": {
-			"content": "TO BE TRANSLATED - Souhaitez-vous supprimer la question ?",
-			"keep": "TO BE TRANSLATED - Annuler",
-			"remove": "TO BE TRANSLATED - Supprimer"
+			"content": "Vil du slette spørsmålet?",
+			"keep": "Avbryte",
+			"remove": "remove"
 		},
 		"remove_structure": {
-			"content": "TO BE TRANSLATED - <span class='strong'>Attention,</span><br>Êtes-vous sûr de vouloir<br>supprimer ce modèle ?",
-			"remove": "TO BE TRANSLATED - Supprimer ce modèle"
+			"content": "<span class='strong'>Vær forsiktig,</span><br>er du sikker på at du vil<br>fjerne denne modellen?",
+			"remove": "Slett denne modellen"
 		},
 		"same_comment": {
 			"content": "<span class='strong'>Warning,</span><br>Please enter a comment different from the last recorded."
 		},
 		"signed_pia_validation": {
-			"content": "TO BE TRANSLATED - To approve the PIA, attach the signed report.",
+			"content": "For å fullføre valideringen av analysen, vedlegger<br>den signerte rapporten som et vedlegg.",
 			"download_pia": "Download report"
 		},
 		"simple_pia_validation": {
-			"content": "TO BE TRANSLATED - You have approved the PIA."
+			"content": "Du har akkurat validert analysen."
 		},
-		"start_evaluation": "TO BE TRANSLATED - Start review",
+		"start_evaluation": "Start vurderingen",
 		"unarchive_pia": {
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>unarchive this PIA ?",
-			"unarchive": "TO TRANSLATE - Unarchive PIA"
+			"content": "<span class='strong'>Oppmerksomhet,</span><br>Er du sikker på at du vil<br>fjerne denne PIA?",
+			"unarchive": "Unarkiver denne PIA"
 		},
 		"update_server_url_nok": {
-			"content": "TO BE TRANSLATED - Connection impossible."
+			"content": "Kan ikke koble til."
 		},
 		"update_server_url_ok": {
-			"content": "TO BE TRANSLATED - The server address has been updated."
+			"content": "Serveradressen er oppdatert."
 		},
 		"validate_evaluation": {
-			"content": "TO BE TRANSLATED - This section is ready for validating the PIA."
+			"content": "Delen er klar for<br>validering av analysen."
 		},
 		"validate_evaluation_to_correct": {
 			"content": "Sorry,<br>Several fields must be corrected.<br>Return to edition mode<br>to make corrections."
@@ -1015,25 +1025,25 @@
 	"pia": {
 		"attachments": {
 			"add": "Legg til",
-			"download": "TO TRANSLATE - Download the attachment",
+			"download": "Last ned vedlegget",
 			"remove": "Fjern",
 			"title": "Vedlegg"
 		},
 		"footer": {
 			"ask_evaluation": "Forespør saksbehandling",
 			"mandatory_fields": "Alle felter må fylles ut",
-			"structure_add_question": "TO BE TRANSLATED - Ajouter une question",
+			"structure_add_question": "Legg til spørsmål",
 			"subsection_validated": "Underavsnitt saksbehandlet. Avventer endelig validering",
 			"validate_evaluation": "Valider saksbehandling"
 		},
 		"header": {
 			"display_action_plan": "Vis<br>handlingsplan",
-			"edition": "TO BE TRANSLATED - Edition",
-			"evaluation": "TO BE TRANSLATED - Evaluation",
+			"edition": "utgave",
+			"evaluation": "evaluering",
 			"preview": "Forhåndsvis"
 		},
 		"sections": {
-			"based_on_structure_name": "TO BE TRANSLATED - Basé sur le modèle :",
+			"based_on_structure_name": "Basert på modellen:",
 			"homepage_link": "Tilbake til hovedside",
 			"refuse_pia": "Avvist PIA",
 			"status": {
@@ -1070,21 +1080,21 @@
 			"Important",
 			"Maximum"
 		],
-		"placeholder_title": "TO BE TRANSLATED - Titre de la question (obligatoire)",
-		"remove": "TO BE TRANSLATED - Supprimer la question"
+		"placeholder_title": "Spørsmålstittel (påkrevd)",
+		"remove": "Slett spørsmål"
 	},
 	"rejection_page": {
-		"applied_adjustments": "TO BE TRANSLATED - Adjustments proposed",
-		"applied_adjustments_placeholder": "TO BE TRANSLATED - Describe the changes brought to the PIA.",
+		"applied_adjustments": "Endringer gjort",
+		"applied_adjustments_placeholder": "Beskriv endringene til PIA.",
 		"button": {
-			"abandon_treatment": "TO BE TRANSLATED - Abandon processing",
-			"reject_pia": "TO BE TRANSLATED - Reject PIA",
-			"send_for_validation": "TO BE TRANSLATED - Resend for approval"
+			"abandon_treatment": "Avbryt behandling",
+			"reject_pia": "Nekter PIA",
+			"send_for_validation": "Retur for validering"
 		},
-		"previous_rejection": "TO BE TRANSLATED - Previous refusal",
-		"rejection_reason": "TO BE TRANSLATED - Refusal reason",
-		"rejection_reason_placeholder": "TO BE TRANSLATED - Describe the reasons for refusing the PIA.",
-		"title": "TO BE TRANSLATED - Validation history"
+		"previous_rejection": "Tidligere avslag",
+		"rejection_reason": "Årsak til avslag",
+		"rejection_reason_placeholder": "Beskriv årsakene til å nekte å validere PIA.",
+		"title": "Valideringshistorie"
 	},
 	"sections": {
 		"1": {
@@ -1326,10 +1336,10 @@
 					"title": "DPO and concerned persons opinions"
 				},
 				"4": {
-					"title": "TO BE TRANSLATED - Validate the PIA"
+					"title": "Valider PIA"
 				},
 				"5": {
-					"title": "TO BE TRANSLATED - Rejected PIA"
+					"title": "PIA nektet"
 				}
 			},
 			"short_help": "This section allows you to prepare and formalise the PIA validation.",
@@ -1352,17 +1362,17 @@
 			"title": "Action plan"
 		},
 		"actions": {
-			"complete_download": "TO TRANSLATE - Download the full report",
-			"complete_download_desc": "TO TRANSLATE - Export in a .zip archive all the report content (.doc and pictures), attachments and the action plan in a .csv format.",
-			"individual_download": "TO TRANSLATE - Download elements of the report",
-			"individual_download_desc": "TO TRANSLATE - Export specific elements of the report.",
-			"individual_download_doc": "TO TRANSLATE - Texts (.doc)",
-			"individual_download_images": "TO TRANSLATE - Visual elements (.png) including the risk overview, the risk mapping and the action plan.",
-			"individual_download_json": "TO TRANSLATE - Report to import into the PIA tool (.json file)",
-			"individual_download_select": "TO TRANSLATE - Select elements to export:",
-			"individual_to_download": "TO TRANSLATE - Download",
-			"print": "TO TRANSLATE - Print the report",
-			"print_and_download": "TO TRANSLATE - Print and download"
+			"complete_download": "Last ned hele analysen",
+			"complete_download_desc": "Eksporter innholdet i analysen (.doc og bilder), de tilknyttede vedleggene og handlingsplanen i .csv-format til et .zip-arkiv.",
+			"individual_download": "nedlasting",
+			"individual_download_desc": "Eksporterer spesifikke elementer i analysen.",
+			"individual_download_doc": "Tekstlig innhold (.doc-fil)",
+			"individual_download_images": "Visuelle elementer (.png-filer): oversikt over risikoer, risikokartlegging, handlingsplan",
+			"individual_download_json": "Analyse for å importere til PIA-verktøyet (file.json)",
+			"individual_download_select": "Velg elementene som skal eksporteres:",
+			"individual_to_download": "nedlasting",
+			"print": "Skriv ut analysen",
+			"print_and_download": "Trykking og nedlasting"
 		},
 		"attachments": "Attachments",
 		"concerned_people_name": "Concerned people opinions",
@@ -1375,14 +1385,14 @@
 			"The treatment could be implemented."
 		],
 		"creation_date": "Creation date",
-		"csv_action_plan_comment": "TO BE TRANSLATED - Action plan comment",
-		"csv_evaluation_comment": "TO BE TRANSLATED - Evaluation comment",
-		"csv_file_title": "TO BE TRANSLATED - action-plan",
-		"csv_implement_date": "TO BE TRANSLATED - Estimated implementation date",
-		"csv_people_in_charge": "TO BE TRANSLATED - Person in charge",
-		"csv_section": "TO BE TRANSLATED - Section",
-		"csv_title_object": "TO BE TRANSLATED - Title",
-		"download_csv": "TO TRANSLATE - Action plan (.csv)",
+		"csv_action_plan_comment": "Kommentarer til handlingsplanen",
+		"csv_evaluation_comment": "Evaluering kommentarer",
+		"csv_file_title": "Plan-til-Handling",
+		"csv_implement_date": "Estimert implementeringsdato",
+		"csv_people_in_charge": "Ansvarlig for implementering",
+		"csv_section": "seksjon",
+		"csv_title_object": "Tittel på det aktuelle objektet",
+		"download_csv": "Handlingsplan (.csv-fil)",
 		"dpo_name": "DPO's name",
 		"dpo_opinion": "DPO's opinion",
 		"dpo_status": "DPO's status",
@@ -1399,51 +1409,51 @@
 		"pia_author": "Author's name",
 		"pia_name": "PIA",
 		"pia_validator": "Validator's name",
-		"preview_dpo_opinion": "TO TRANSLATE - DPO and data subjects opinion",
-		"preview_edition": "TO TRANSLATE - Editing",
-		"preview_evaluation": "TO TRANSLATE - Evaluation",
-		"preview_no_data": "TO TRANSLATE - No data to display.",
-		"preview_status": "TO TRANSLATE - Status",
-		"preview_subtitle": "TO TRANSLATE - General information",
-		"preview_title": "TO TRANSLATE - Preview",
-		"preview_validation": "TO TRANSLATE - Validation",
-		"preview_validation_section": "TO TRANSLATE - Validation",
+		"preview_dpo_opinion": "Oppfatning av DPO og de berørte personer",
+		"preview_edition": "anfall",
+		"preview_evaluation": "evaluering",
+		"preview_no_data": "Ingen informasjon å vise.",
+		"preview_status": "Status",
+		"preview_subtitle": "Generell informasjon",
+		"preview_title": "Analyse oversikt",
+		"preview_validation": "Validering",
+		"preview_validation_section": "Validering",
 		"previous_page": "Back to previous page",
 		"rejection_reason": "Rejection reason",
 		"revision": {
-			"current_version": "TO TRANSLATE - Current version",
-			"pia_version": "TO TRANSLATE - PIA versions",
-			"restore_version": "TO TRANSLATE - Restore",
-			"revision": "TO TRANSLATE - Versions and revision",
-			"save": "TO TRANSLATE - Create a new version",
-			"show": "TO TRANSLATE - Display the {{length}} versions"
+			"current_version": "Gjeldende versjon",
+			"pia_version": "PIA-versjoner",
+			"restore_version": "Gjenopprett denne versjonen",
+			"revision": "Versjoner og revisjon",
+			"save": "Lag en ny versjon",
+			"show": "Vis {{length}} versjon (er)"
 		},
-		"risks_cartography_title": "TO BE TRANSLATED - Risk mapping",
-		"risks_overview_title": "TO BE TRANSLATED - Risks overview",
+		"risks_cartography_title": "Risikokartlegging",
+		"risks_overview_title": "Oversikt over risikoer",
 		"title": "PIA information"
 	},
 	"validation_page": {
-		"add_signed_pia": "TO BE TRANSLATED - Add the signed PIA",
-		"after_reading": "TO BE TRANSLATED - After reading full PIA relating to the data processing linked to ",
+		"add_signed_pia": "Legg til den signerte PIA-rapporten",
+		"after_reading": "Etter full gjennomlesing av PIA om behandling av data relatert til aktiviteten til:",
 		"button": {
-			"rejection": "TO BE TRANSLATED - Reject PIA",
-			"signed_validation": "TO BE TRANSLATED - Approve PIA <br>(signed)",
-			"simple_validation": "TO BE TRANSLATED - Approve PIA <br>(direct)"
+			"rejection": "Avvis validering",
+			"signed_validation": "Be sjefen signere PIA",
+			"simple_validation": "Enkel validering"
 		},
-		"confirmation1": "TO BE TRANSLATED - I attest that the context of the processing described in the PIA is consistent with the reality.",
-		"confirmation2": "TO BE TRANSLATED - I attest that I am aware of the risks depending on the existing or planned measures.",
-		"confirmation3": "TO BE TRANSLATED - I ratify the corrective actions indicated in the action plan.",
-		"confirmation4": "TO BE TRANSLATED - I commit to implement as quickly as possible the indicated corrective actions.",
-		"latest_signed_attachment": "TO BE TRANSLATED - Last signed attachment",
-		"mandatory_fields": "TO BE TRANSLATED - All boxes must be checked",
-		"remove_attachment": "TO BE TRANSLATED - Remove the attachment",
-		"responsible": "TO BE TRANSLATED - Person accountable for validating the PIA: ",
-		"signed_attachments_history": "TO BE TRANSLATED - Signed attachments history",
+		"confirmation1": "Jeg bekrefter at beskrivelsen av konteksten av behandlingen min er sann.",
+		"confirmation2": "Jeg bekrefter at jeg har lest de eksisterende risikoer basert på tiltakene som er iverksatt eller planlagt.",
+		"confirmation3": "Jeg validerer de angitte korrigerende tiltak.",
+		"confirmation4": "Jeg forplikter meg til å iverksette de angitte korrigerende tiltak så snart som mulig.",
+		"latest_signed_attachment": "Sist signert vedlegg",
+		"mandatory_fields": "Alle felt må sjekkes",
+		"remove_attachment": "remove",
+		"responsible": "Ansvarlig for validering av PIA:",
+		"signed_attachments_history": "Historikk om signerte vedlegg",
 		"tools": {
-			"dashboard": "TO BE TRANSLATED - Dashboard",
-			"display_pia": "TO BE TRANSLATED - Display report"
+			"dashboard": "Velkommen",
+			"display_pia": "Se rapport"
 		},
-		"validated_pia_with_signature": "TO BE TRANSLATED - Approved",
-		"waiting_for_signature": "TO BE TRANSLATED - Pending signed PIA"
+		"validated_pia_with_signature": "Validert",
+		"waiting_for_signature": "Venter på signatur av PIA-rapporten"
 	}
 }

@@ -874,7 +874,7 @@
 		},
 		"archive": "Archive",
 		"archive_pia": {
-			"archive": "Archive PIA",
+			"archive": "Archive this PIA",
 			"content": "<span class='strong'>Warning,</span><br>Are you sure you want to<br>archive this PIA ?"
 		},
 		"ask_for_evaluation": {
@@ -966,7 +966,7 @@
 		"start_evaluation": "Start review",
 		"unarchive_pia": {
 			"content": "<span class='strong'>Warning,</span><br>Are you sure you want to<br>unarchive this PIA ?",
-			"unarchive": "Unarchive PIA"
+			"unarchive": "Unarchive this PIA"
 		},
 		"update_server_url_nok": {
 			"content": "Connection impossible."
@@ -1358,7 +1358,7 @@
 			"individual_download_desc": "Export specific elements of the report.",
 			"individual_download_doc": "Texts (.doc)",
 			"individual_download_images": "Visual elements (.png) including the risk overview, the risk mapping and the action plan.",
-			"individual_download_json": "TO TRANSLATE - Report to import into the PIA tool (.json file)",
+			"individual_download_json": "Report to import into the PIA tool (.json file)",
 			"individual_download_select": "Select elements to export:",
 			"individual_to_download": "Download",
 			"print": "Print the report",
@@ -1381,7 +1381,7 @@
 		"csv_implement_date": "Estimated implementation date",
 		"csv_people_in_charge": "Person in charge",
 		"csv_section": "Section",
-		"csv_title_object": "Title",
+		"csv_title_object": "Title of the object concerned",
 		"download_csv": "Action plan (.csv)",
 		"dpo_name": "DPO's name",
 		"dpo_opinion": "DPO's opinion",
@@ -1399,7 +1399,7 @@
 		"pia_author": "Author's name",
 		"pia_name": "PIA",
 		"pia_validator": "Validator's name",
-		"preview_dpo_opinion": "TO TRANSLATE - DPO and data subjects opinion",
+		"preview_dpo_opinion": "DPO and data subjects opinion",
 		"preview_edition": "Editing",
 		"preview_evaluation": "Evaluation",
 		"preview_no_data": "No data to display.",
@@ -1428,7 +1428,7 @@
 		"button": {
 			"rejection": "Reject PIA",
 			"signed_validation": "Approve PIA <br>(signed)",
-			"simple_validation": "Approve PIA <br>(direct)"
+			"simple_validation": "Simple validation"
 		},
 		"confirmation1": "I attest that the context of the processing described in the PIA is consistent with the reality.",
 		"confirmation2": "I attest that I am aware of the risks depending on the existing or planned measures.",

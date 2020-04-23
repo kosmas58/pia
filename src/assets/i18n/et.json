@@ -91,16 +91,16 @@
 		"to_correct": "Saadetud täiendamiseks"
 	},
 	"header": {
-		"archives": "TO TRANSLATE - PIA Archives",
-		"current_pias": "TO TRANSLATE - Current PIAs",
-		"exit_full_screen_mode": "TO TRANSLATE - Press F11 to exit full screen mode.",
+		"archives": "Arhiveeritud PIA-d",
+		"current_pias": "Aktiivsed PIA-d",
+		"exit_full_screen_mode": "Täisekraanirežiimist väljumiseks vajutage F11.",
 		"help": {
-			"issue_reporting": "TO TRANSLATE - Report an issue",
-			"manual": "TO TRANSLATE - User manual",
+			"issue_reporting": "Teata veast",
+			"manual": "Kasutusjuhend",
 			"pia_example_link": "Mõjuhinnangu näidis",
 			"title": "Abi"
 		},
-		"homepage_link": "TO TRANSLATE - My PIAs",
+		"homepage_link": "Minu PIA-d",
 		"knowledge_base_link": "Teadmiste pagas",
 		"languages": {
 			"cnil_translations": "CNIL’i  esitatud tõlge",
@@ -136,7 +136,7 @@
 			"accessibility": "Vaegnägijale",
 			"settings": "Seaded",
 			"title": "Tööriistad",
-			"url_setting": "TO TRANSLATE - Server URL configuration"
+			"url_setting": "Serveri URL-i konfiguratsioon"
 		}
 	},
 	"help": {
@@ -190,26 +190,26 @@
 	"homepage": {
 		"cards": {
 			"author": "Toimeta",
-			"category": "TO TRANSLATE - Category",
+			"category": "Kategooria",
 			"creation_status": "Loomine",
 			"date": "Kuupäev",
 			"evaluation": "Ülevaade",
 			"import_pia": "Impordi mõjuhinnang",
 			"import_structure": "Impordi mõjuhinnang",
 			"item": {
-				"consult_pia": "TO TRANSLATE - Consult",
-				"consult_structure": "TO TRANSLATE - Consult template",
-				"edit_pia": "TO TRANSLATE - Edit",
+				"consult_pia": "konsulteerima",
+				"consult_structure": "Vaadake mudelit",
+				"edit_pia": "Muuta",
 				"edit_structure": "Toimeta mõjuhinnagut",
 				"tools": {
 					"action_plan": "Näita<br>tegevuskava",
-					"archive": "TO TRANSLATE - Archive",
+					"archive": "Arhiiv",
 					"duplicate": "Dubleeri",
 					"export": "Ekspordi",
 					"more_options": "Rohkem valikuid",
 					"pia": "Näita<br>mõjuhinnagut",
-					"remove": "TO TRANSLATE - Delete",
-					"unarchive": "TO TRANSLATE - Unarchive"
+					"remove": "Eemalda",
+					"unarchive": "lahti pakkima"
 				},
 				"validate_pia": "Valideerima"
 			},
@@ -218,7 +218,7 @@
 			"or": "või",
 			"pia_name": "Mõjuhinnang",
 			"placeholder_author": "Eesnimi, perenimi",
-			"placeholder_category": "TO TRANSLATE - Category",
+			"placeholder_category": "Kategooria",
 			"placeholder_evaluation": "Eesnimi, perenimi",
 			"placeholder_import_pia": "Impordi mõjuhinnang",
 			"placeholder_import_structure": "Impordi mõjuhinnang",
@@ -241,14 +241,14 @@
 		"filters": {
 			"assessor": "Hindaja",
 			"author": "Läbiviija",
-			"card": "TO TRANSLATE - Card view",
+			"card": "Kaardivaade",
 			"card_rocket_content": "<br><br>uue alustamiseks vajuta Uus mõjuhinnag",
 			"card_rocket_content_structure": "<br><br>Alustamiseks<br>vajutage<br> nuppu +",
-			"category": "TO TRANSLATE - Category",
+			"category": "Kategooria",
 			"date": "Kuupäev",
 			"import_pia": "Impordi mõjuhinnang",
 			"import_structure": "Impordi mõjuhinnang",
-			"list": "TO TRANSLATE - List view",
+			"list": "Loendivaade",
 			"list_rocket_content": "Uue <br>alustamiseks vajuta +",
 			"list_rocket_content_structure": "Alustamiseks<br>vajutage nuppu +",
 			"name": "Nimi",
@@ -263,7 +263,7 @@
 		"lists": {
 			"column_actions": "Tegevused",
 			"column_author": "Toimetamine",
-			"column_category": "TO TRANSLATE - Category",
+			"column_category": "Kategooria",
 			"column_creation": "Loodud",
 			"column_evaluation": "Ülevaade",
 			"column_pia": "Mõjuhinnang",
@@ -277,18 +277,18 @@
 			"item": {
 				"tools": {
 					"action_plan": "Näita tegevuskava",
-					"archive": "TO TRANSLATE - Archive",
+					"archive": "Arhiiv",
 					"consult": "Konsulteeri",
 					"duplicate": "Dubleeri",
 					"edit": "Toimeta",
 					"export": "Ekspordi",
 					"pia": "Näita mõjuhinnagut",
-					"remove": "TO TRANSLATE - Delete",
-					"unarchive": "TO TRANSLATE - Unarchive"
+					"remove": "Eemalda",
+					"unarchive": "lahti pakkima"
 				}
 			}
 		},
-		"search_filter": "TO TRANSLATE - Search"
+		"search_filter": "otsima"
 	},
 	"knowledge_base": {
 		"add_measure": "Lisa",
@@ -298,7 +298,7 @@
 			"example": "Näide",
 			"general_measure": "Füüsiline turbekontroll",
 			"measure_on_data": "Loogiline turbekontroll",
-			"method": "TO TRANSLATE - Methodology",
+			"method": "metoodika",
 			"organizational_measure": "Organisatsiooniline kontroll",
 			"principle": "Põhimõte"
 		},
@@ -874,8 +874,8 @@
 		},
 		"archive": "Arhiiv",
 		"archive_pia": {
-			"archive": "TO TRANSLATE - Archive PIA",
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>archive this PIA ?"
+			"archive": "Arhiivige see PIA",
+			"content": "<span class='strong'>Tähelepanu!</span><br>Kas soovite kindlasti<br>selle PIA arhiivida?"
 		},
 		"ask_for_evaluation": {
 			"content": "See osa on valmis ülevaatamiseks."
@@ -923,8 +923,8 @@
 		},
 		"recover_version": {
 			"continue": "Jätka",
-			"message": "TO TRANSLATE - By continuing, you will restore this report version: {{date}}. You will have to validate again the PIA once it is completed.<br><br>The current version will be archived.",
-			"title": "TO TRANSLATE - Restore a previous version"
+			"message": "Jätkates taastate selle analüüsi versiooni {{date}} . Kui see on lõpule viidud, peate analüüsi uuesti valideerima.<br><br>Praegune versioon arhiivitakse.",
+			"title": "Taastage vana versioon"
 		},
 		"refuse_pia": {
 			"content": "Kunas lükkasite mõjuhinnagu tagasi, siis tagastatakse see ülevaatamiseks ja muudatuste tegemiseks."
@@ -941,7 +941,7 @@
 			"remove": "Eemalda <br>see meede"
 		},
 		"remove_pia": {
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>remove permanently this PIA?",
+			"content": "<span class='strong'>Tähelepanu!</span><br>Kas soovite kindlasti<br>selle PIA jäädavalt kustutada?",
 			"remove": "Eemalda see mõjuhinnang"
 		},
 		"remove_question": {
@@ -965,8 +965,8 @@
 		},
 		"start_evaluation": "Alusta ülevaatamist",
 		"unarchive_pia": {
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>unarchive this PIA ?",
-			"unarchive": "TO TRANSLATE - Unarchive PIA"
+			"content": "<span class='strong'>Tähelepanu!</span><br>Kas olete kindel, et soovite<br>selle PIA arhiivida?",
+			"unarchive": "Selle PIA arhiivimine tühistatakse"
 		},
 		"update_server_url_nok": {
 			"content": "Ühendus puudub."
@@ -1015,7 +1015,7 @@
 	"pia": {
 		"attachments": {
 			"add": "Lisa",
-			"download": "TO TRANSLATE - Download the attachment",
+			"download": "Laadige manus alla",
 			"remove": "Eemalda",
 			"title": "Manused"
 		},
@@ -1352,17 +1352,17 @@
 			"title": "Tegevuskava"
 		},
 		"actions": {
-			"complete_download": "TO TRANSLATE - Download the full report",
-			"complete_download_desc": "TO TRANSLATE - Export in a .zip archive all the report content (.doc and pictures), attachments and the action plan in a .csv format.",
-			"individual_download": "TO TRANSLATE - Download elements of the report",
-			"individual_download_desc": "TO TRANSLATE - Export specific elements of the report.",
-			"individual_download_doc": "TO TRANSLATE - Texts (.doc)",
-			"individual_download_images": "TO TRANSLATE - Visual elements (.png) including the risk overview, the risk mapping and the action plan.",
-			"individual_download_json": "TO TRANSLATE - Report to import into the PIA tool (.json file)",
-			"individual_download_select": "TO TRANSLATE - Select elements to export:",
-			"individual_to_download": "TO TRANSLATE - Download",
-			"print": "TO TRANSLATE - Print the report",
-			"print_and_download": "TO TRANSLATE - Print and download"
+			"complete_download": "Laadige alla kogu analüüs",
+			"complete_download_desc": "Eksportib analüüsi sisu (.doc ja pildid), nendega seotud manused ja tegevuskava .csv-vormingus .zip-arhiivi.",
+			"individual_download": "allalaadimine",
+			"individual_download_desc": "Eksportib analüüsi konkreetsed elemendid.",
+			"individual_download_doc": "Tekstiline sisu (.doc-fail)",
+			"individual_download_images": "Visuaalsed elemendid (.png-failid): ülevaade riskidest, riskide kaardistamine, tegevuskava",
+			"individual_download_json": "Analüüs PIA-tööriista importimiseks (file.json)",
+			"individual_download_select": "Valige eksporditavad elemendid:",
+			"individual_to_download": "Lae alla",
+			"print": "Printige analüüs",
+			"print_and_download": "Trükkimine ja allalaadimine"
 		},
 		"attachments": "Manused",
 		"concerned_people_name": "Puudutatud isikute arvmused",
@@ -1381,8 +1381,8 @@
 		"csv_implement_date": "Hinnanguline rakendamise kuupäev",
 		"csv_people_in_charge": "Vastutav isik",
 		"csv_section": "Jaotis",
-		"csv_title_object": "Pealkiri",
-		"download_csv": "TO TRANSLATE - Action plan (.csv)",
+		"csv_title_object": "Asjaomase objekti nimetus",
+		"download_csv": "Tegevuskava (.csv-fail)",
 		"dpo_name": "Mõjuhinnangu nimi",
 		"dpo_opinion": "Andmekaitsespetsialisti arvamus",
 		"dpo_status": "Mõjuhinnangu staatus",
@@ -1399,24 +1399,24 @@
 		"pia_author": "Autori nimi",
 		"pia_name": "Mõjuhinnang",
 		"pia_validator": "Valideerija nimi",
-		"preview_dpo_opinion": "TO TRANSLATE - DPO and data subjects opinion",
-		"preview_edition": "TO TRANSLATE - Editing",
-		"preview_evaluation": "TO TRANSLATE - Evaluation",
-		"preview_no_data": "TO TRANSLATE - No data to display.",
-		"preview_status": "TO TRANSLATE - Status",
-		"preview_subtitle": "TO TRANSLATE - General information",
-		"preview_title": "TO TRANSLATE - Preview",
-		"preview_validation": "TO TRANSLATE - Validation",
-		"preview_validation_section": "TO TRANSLATE - Validation",
+		"preview_dpo_opinion": "Andmekaitseametniku ja asjaomaste isikute arvamused",
+		"preview_edition": "arestimine",
+		"preview_evaluation": "hindamine",
+		"preview_no_data": "Pole kuvatavat teavet.",
+		"preview_status": "Staatus",
+		"preview_subtitle": "Üldine teave",
+		"preview_title": "Analüüsi ülevaade",
+		"preview_validation": "Kinnitamine",
+		"preview_validation_section": "Kinnitamine",
 		"previous_page": "Tagasi eelmisele lehele",
 		"rejection_reason": "Tagasilükkamise põhjus",
 		"revision": {
-			"current_version": "TO TRANSLATE - Current version",
-			"pia_version": "TO TRANSLATE - PIA versions",
-			"restore_version": "TO TRANSLATE - Restore",
-			"revision": "TO TRANSLATE - Versions and revision",
-			"save": "TO TRANSLATE - Create a new version",
-			"show": "TO TRANSLATE - Display the {{length}} versions"
+			"current_version": "Praegune versioon",
+			"pia_version": "PIA versioonid",
+			"restore_version": "Taastage see versioon",
+			"revision": "Versioonid ja versioon",
+			"save": "Looge uus versioon",
+			"show": "Kuva {{length}} versioon (id)"
 		},
 		"risks_cartography_title": "Riskide kaarditamine",
 		"risks_overview_title": "Riskide ülevaade",
@@ -1428,7 +1428,7 @@
 		"button": {
 			"rejection": "Lükkan tagasi",
 			"signed_validation": "Kinnitan <br>(allkiri)",
-			"simple_validation": "Kinnitan <br>(direct)"
+			"simple_validation": "Lihtne valideerimine"
 		},
 		"confirmation1": "Kinnitan, et mõjuhinnagus kirjeldatu on kooskõlas tegelikkusega.",
 		"confirmation2": "Kinniatn, et olen kursis olemasolevate ja/või planeeritavate toimingutega seotud sohtude ja riskidega.",
