@@ -528,10 +528,6 @@
 		"remove_attachment": "",
 		"responsible": "",
 		"signed_attachments_history": "",
-		"tools": {
-			"dashboard": "",
-			"display_pia": ""
-		},
 		"validated_pia_with_signature": "",
 		"waiting_for_signature": ""
 	}
