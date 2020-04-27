@@ -143,10 +143,10 @@
 		"logo_title": "Privacy impact assessment",
 		"structures": "PIA templates",
 		"tools": {
+      "onboarding": "Restart tutorial",
 			"about": "About",
 			"accessibility": "Visually impaired accessibility (high contrast colors, daltonism)",
 			"settings": "Settings",
-			"title": "Tools",
 			"url_setting": "Server URL configuration"
 		}
 	},
@@ -1449,5 +1449,64 @@
 		},
 		"validated_pia_with_signature": "Approved",
 		"waiting_for_signature": "Pending signed PIA"
-	}
+	},
+  "onboarding": {
+    "general": {
+      "next": "Next",
+      "skip": "Skip",
+      "done": "Confirm"
+    },
+    "dashboard": {
+      "step1": {
+        "title": "Create a PIA",
+        "description": "Click on the <strong>+</strong> to create your first PIA."
+      },
+      "step2": {
+        "title": "Roles around the PIA",
+        "description": "<p><strong>Editors</strong> are...</p><p>TODO...</p>"
+      },
+      "step3": {
+        "title": "Roles around the PIA",
+        "description": "<p><strong>Reviewers</strong> are ...</p><p>TODO...</p>"
+      },
+      "step4": {
+        "title": "Roles around the PIA",
+        "description": "<p><strong>Validators</strong> are ...</p><p>TODO...</p>"
+      },
+      "step5": {
+        "title": "Modeles",
+        "description": "<p><strong>Models</strong> are...</p>"
+      }
+    },
+    "entry": {
+			"step1": {
+				"title": "Navigation",
+				"description": "TODO..."
+			},
+			"step2": {
+				"title": "Context",
+				"description": "TODO..."
+			},
+			"step3": {
+				"title": "Fundamental principles",
+				"description": "TODO..."
+			},
+			"step4": {
+				"title": "Risks",
+				"description": "TODO..."
+			},
+			"step5": {
+				"title": "Validation",
+				"description": "TODO..."
+			},
+			"step6": {
+				"title": "Knowledge base",
+				"description": "TODO..."
+			},
+			"step7": {
+				"title": "Export the report",
+				"description": "TODO..."
+      }
+    }
+  }
 }

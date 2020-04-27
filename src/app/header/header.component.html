@@ -47,6 +47,9 @@
                     <input type="checkbox" name="pia-accessibility" id="pia-accessibility" [checked]="increaseContrast === 'true'" (change)="changeContrast($event)">
                     <label for="pia-accessibility">{{ 'header.tools.accessibility' | translate }}</label>
                   </div>
+                  <div style="border-top:0">
+                    <button type="button" name="pia-onboarding" id="pia-onboarding" (click)="restartOnboarding()">{{ 'header.tools.onboarding' | translate }}</button>
+                  </div>
                   <div>
                     <a routerLink="/about">{{ 'header.tools.about' | translate }}</a>
                   </div>
