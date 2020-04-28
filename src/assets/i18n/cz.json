@@ -185,13 +185,6 @@
 			"hide": "Skrýt mapu procesu",
 			"title": "Přehled povinností a metody"
 		},
-		"infografics": {
-			"display": "Zobrazit mapu procesu",
-			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
-			"guide": "Zobrazit průvodce PIA CNIL",
-			"hide": "Skrýt mapu procesu",
-			"title": "Přehled povinností a metody"
-		},
 		"title": "Nápověda"
 	},
 	"homepage": {
@@ -912,9 +905,6 @@
 			"content": "Pro přístup na stránku DPO vyplňte vyhodnocení analýzy.",
 			"remove": "Odebrat",
 			"review_section": "Vyhodnoťte sekci"
-		},
-		"general_error": {
-			"content": "Došlo k chybě.<br>prosím omluvte nás za tyto nepříjemnosti."
 		},
 		"general_error": {
 			"content": "Došlo k chybě.<br>prosím omluvte nás za tyto nepříjemnosti."

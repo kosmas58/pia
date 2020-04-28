@@ -1352,10 +1352,10 @@
 			"title": "Plano de ação"
 		},
 		"actions": {
-      "complete_download": "Descarregar o relatório completo",
-      "complete_download_desc": "Exportar todo o conteúdo do relatório num .zip (.doc e imagens), anexos e o plano de ação em formato .csv.",
-      "individual_download": "Descarregar elementos do relatório",
-      "individual_download_desc": "Exportar elementos específicos do relatório.",
+			"complete_download": "Descarregar o relatório completo",
+			"complete_download_desc": "Exportar todo o conteúdo do relatório num .zip (.doc e imagens), anexos e o plano de ação em formato .csv.",
+			"individual_download": "Descarregar elementos do relatório",
+			"individual_download_desc": "Exportar elementos específicos do relatório.",
 			"individual_download_doc": "Textos (.doc)",
 			"individual_download_images": "Elementos visuais (.png) incluindo resumo de riscos, mapeamento de riscos e o plano de ação.",
 			"individual_download_json": "Análise para importar para a ferramenta PIA (file.json)",

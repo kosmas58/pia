@@ -185,13 +185,6 @@
 			"hide": "Slėpti proceso žemėlapį",
 			"title": "Įsipareigojimų ir metodo apžvalga"
 		},
-		"infografics": {
-			"display": "Peržiūrėkite proceso žemėlapį",
-			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
-			"guide": "Parodykite PIA vadovus CNIL",
-			"hide": "Slėpti proceso žemėlapį",
-			"title": "Įsipareigojimų ir metodo apžvalga"
-		},
 		"title": "Pagalba"
 	},
 	"homepage": {

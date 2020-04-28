@@ -185,13 +185,6 @@
 			"hide": "Ocultar el mapa del proceso",
 			"title": "Resumen de obligaciones y método"
 		},
-		"infografics": {
-			"display": "Ver el mapa del proceso",
-			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
-			"guide": "Mostrar las guías de PIA de la CNIL",
-			"hide": "Ocultar el mapa del proceso",
-			"title": "Resumen de obligaciones y método"
-		},
 		"title": "Ayuda"
 	},
 	"homepage": {
