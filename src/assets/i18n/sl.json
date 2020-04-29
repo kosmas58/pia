@@ -113,7 +113,7 @@
 		},
 		"homepage_link": "TO TRANSLATE - My PIAs",
 		"knowledge_base_link": "Baza znanja",
-		"knowledges": "",
+		"knowledges": "Baza znanja",
 		"languages": {
 			"cnil_translations": "Prijevodi od strane CNIL-a",
 			"community_translations": "Prijevodi od strane zajednice",
@@ -219,19 +219,19 @@
 				"validate_pia": "TO TRANSLATE - Validate"
 			},
 			"knowledges": {
-				"import": "",
-				"new": "",
-				"placeholder_author": "",
-				"placeholder_contributors": "",
-				"placeholder_entry_number": "",
-				"placeholder_name": ""
+				"import": "Uvoz baze znanja",
+				"new": "Ustvari bazo znanja",
+				"placeholder_author": "Avtor",
+				"placeholder_contributors": "Sodelujoči",
+				"placeholder_entry_number": "Število vnosov",
+				"placeholder_name": "Ime baze znanja"
 			},
 			"knowledges_entry": {
-				"new": "",
-				"placeholder_category": "",
-				"placeholder_description": "",
-				"placeholder_name": "",
-				"placeholder_updated_at": ""
+				"new": "Ustvari element",
+				"placeholder_category": "Kategorija",
+				"placeholder_description": "Vaš opis tukaj ...",
+				"placeholder_name": "Ime predmeta",
+				"placeholder_updated_at": "Spremenjeno"
 			},
 			"new_pia": "Novi PUP",
 			"new_structure": "Novi obrazac",
@@ -927,7 +927,7 @@
 			"review_section": "Pregledajte odjeljak"
 		},
 		"general_error": {
-			"content": ""
+			"content": "Vsa naša opravičila je prišlo do napake."
 		},
 		"import_wrong_pia_file": {
 			"content": "Uvezena datoteka ne odgovara datoteci izvještaja PUP-a"
@@ -936,8 +936,8 @@
 			"content": "Uvezena datoteka ne odgovara datoteci obrasca PUP-a"
 		},
 		"knowledges": {
-			"content": "",
-			"remove": ""
+			"content": "Ali ste prepričani, da želite izbrisati to bazo znanja?",
+			"remove": "Izbrišite to bazo znanja"
 		},
 		"modal_select_text_pia": {
 			"content": "Sadržaj PUP-a kopiran je u međuspremnik."
@@ -1009,49 +1009,49 @@
 		"dashboard": {
 			"step1": {
 				"description": "TO TRANSLATE - Cliquez sur le <strong>+</strong> pour créer votre premier PIA.",
-				"title": "Create a PIA"
+				"title": "Ustvari PIA"
 			},
 			"step2": {
 				"description": "TO TRANSLATE - <p>Les <strong>rédacteurs</strong> sont ceux rédigeant la première version de l'analyse.</p><p>Ce sont par exemple les chefs du projet associés au traitement.</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"title": "Vloge okoli PIA"
 			},
 			"step3": {
 				"description": "TO TRANSLATE - <p>Les <strong>évaluateurs</strong> interviennent dans un second temps.</p><p>Ils jaugent, à l'aune de leur expertise juridique ou technique, la qualité et la conformité du traitement.</p><p>Ce sont par exemple le RSSI, des juristes, le DPO, ...</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"title": "Vloge okoli PIA"
 			},
 			"step4": {
 				"description": "TO TRANSLATE - <p>Les <strong>validateurs</strong> acceptent ou non la mise en oeuvre du traitement.Ils doivent signer l'analyse.</p><p>Ce sont les responsables de traitement, comme par exemple le CEO.</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"title": "Vloge okoli PIA"
 			},
 			"step5": {
 				"description": "TO TRANSLATE - <p>Les <strong>modèles</strong> sont une fonctionnalité avancée.Ils permettent de créer une base pré-remplie de l'analyse.</p><p>Vous pouvez créer des modèles en allant dans la section associée depuis le menu du haut.</p>",
-				"title": "Models"
+				"title": "Modeli"
 			}
 		},
 		"entry": {
 			"step1": {
 				"description": "TO TRANSLATE - Pour passer d'une partie à l'autre de l'analyse, utilisez le menu de navigation de gauche.",
-				"title": "TO TRANSLATE - Naviguer"
+				"title": "Navigacija"
 			},
 			"step2": {
 				"description": "TO TRANSLATE - Il sert à expliquer l'objectif du traitement et comment il sera mis en oeuvre.",
-				"title": "Context"
+				"title": "Kontekst"
 			},
 			"step3": {
 				"description": "TO TRANSLATE - Ils permettent de s'assurer que le traitement est juridiquement conforme au RGPD.",
-				"title": "Fundamental principles"
+				"title": "Temeljna načela"
 			},
 			"step4": {
 				"description": "TO TRANSLATE - Ils décrivent les mesures de sécurité déjà prévues sur le traitement et permettent d'évaluer les impacts potentiels sur les personnes concernées.",
-				"title": "Risks"
+				"title": "Tveganja"
 			},
 			"step5": {
 				"description": "TO TRANSLATE - Elle permet au DPO d'exprimer son avis sur la mise en oeuvre du traitement et au responsable de traitement de l'accepter ou de le refuser.",
-				"title": "Validation"
+				"title": "Validacija"
 			},
 			"step6": {
 				"description": "TO TRANSLATE - <p>Elle fournit une aide contextuelle à la réalisation de l'analyse et s'appuie sur le RGPD, le guide de sécurité et les guides AIPD de la CNIL.</p><p>En plus de ces contenus, vous pouvez également créer vos propres bases de connaissances pour accéder facilement à des informations spécifiques à votre organisme.</p>",
-				"title": "Knowledge base"
+				"title": "Baza znanja"
 			},
 			"step7": {
 				"description": "TO TRANSLATE - À tout moment lors de la réalisation de l'analyse, vous pouvez télécharger l'analyse sous divers formats pour la partager avec vos collaborateurs.",
@@ -1081,9 +1081,9 @@
 			}
 		},
 		"general": {
-			"done": "Confirm",
-			"next": "Next",
-			"skip": "Skip"
+      "done": "Potrdite",
+      "next": "Naslednji",
+      "skip": "Preskoči"
 		},
 		"validated": {
 			"step1": {

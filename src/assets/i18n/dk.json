@@ -113,7 +113,7 @@
 		},
 		"homepage_link": "TO TRANSLATE - My PIAs",
 		"knowledge_base_link": "Vidensbase",
-		"knowledges": "",
+		"knowledges": "Vidensbase",
 		"languages": {
 			"cnil_translations": "Oversættelser af CNILs",
 			"community_translations": "Community oversættelser",
@@ -219,19 +219,19 @@
 				"validate_pia": "TO TRANSLATE - Validate"
 			},
 			"knowledges": {
-				"import": "",
-				"new": "",
-				"placeholder_author": "",
-				"placeholder_contributors": "",
-				"placeholder_entry_number": "",
-				"placeholder_name": ""
+				"import": "Importer en videnbase",
+				"new": "Opret en videnbase",
+				"placeholder_author": "Forfatter",
+				"placeholder_contributors": "Bidragydere",
+				"placeholder_entry_number": "Antal poster",
+				"placeholder_name": "Videnbase navn"
 			},
 			"knowledges_entry": {
-				"new": "",
-				"placeholder_category": "",
-				"placeholder_description": "",
-				"placeholder_name": "",
-				"placeholder_updated_at": ""
+				"new": "Opret vare",
+				"placeholder_category": "Kategori",
+				"placeholder_description": "Din beskrivelse her ...",
+				"placeholder_name": "Tingens navn",
+				"placeholder_updated_at": "modificeret"
 			},
 			"new_pia": "Ny PIA",
 			"new_structure": "Ny skabelon",
@@ -927,7 +927,7 @@
 			"review_section": "Evaluere sektionen"
 		},
 		"general_error": {
-			"content": ""
+			"content": "Alle vores undskyldninger, der er opstået en fejl."
 		},
 		"import_wrong_pia_file": {
 			"content": "Den importerede fil relaterer ikke til en PIA rapport fil"
@@ -936,8 +936,8 @@
 			"content": "Den importerede fil relaterer ikke til en PIA skabelon fil"
 		},
 		"knowledges": {
-			"content": "",
-			"remove": ""
+			"content": "Er du sikker på, at du vil slette denne vidensbase?",
+			"remove": "Slet denne vidensbase"
 		},
 		"modal_select_text_pia": {
 			"content": "Indholdet af PIA er kopieret til clipboard."
@@ -1009,49 +1009,49 @@
 		"dashboard": {
 			"step1": {
 				"description": "TO TRANSLATE - Cliquez sur le <strong>+</strong> pour créer votre premier PIA.",
-				"title": "Create a PIA"
+				"title": "Opret en PIA"
 			},
 			"step2": {
 				"description": "TO TRANSLATE - <p>Les <strong>rédacteurs</strong> sont ceux rédigeant la première version de l'analyse.</p><p>Ce sont par exemple les chefs du projet associés au traitement.</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"title": "Roller omkring PIA"
 			},
 			"step3": {
 				"description": "TO TRANSLATE - <p>Les <strong>évaluateurs</strong> interviennent dans un second temps.</p><p>Ils jaugent, à l'aune de leur expertise juridique ou technique, la qualité et la conformité du traitement.</p><p>Ce sont par exemple le RSSI, des juristes, le DPO, ...</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"title": "Roller omkring PIA"
 			},
 			"step4": {
 				"description": "TO TRANSLATE - <p>Les <strong>validateurs</strong> acceptent ou non la mise en oeuvre du traitement.Ils doivent signer l'analyse.</p><p>Ce sont les responsables de traitement, comme par exemple le CEO.</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"title": "Roller omkring PIA"
 			},
 			"step5": {
 				"description": "TO TRANSLATE - <p>Les <strong>modèles</strong> sont une fonctionnalité avancée.Ils permettent de créer une base pré-remplie de l'analyse.</p><p>Vous pouvez créer des modèles en allant dans la section associée depuis le menu du haut.</p>",
-				"title": "Models"
+				"title": "Modellerne"
 			}
 		},
 		"entry": {
 			"step1": {
 				"description": "TO TRANSLATE - Pour passer d'une partie à l'autre de l'analyse, utilisez le menu de navigation de gauche.",
-				"title": "TO TRANSLATE - Naviguer"
+				"title": "Navigation"
 			},
 			"step2": {
 				"description": "TO TRANSLATE - Il sert à expliquer l'objectif du traitement et comment il sera mis en oeuvre.",
-				"title": "Context"
+				"title": "Sammenhæng"
 			},
 			"step3": {
 				"description": "TO TRANSLATE - Ils permettent de s'assurer que le traitement est juridiquement conforme au RGPD.",
-				"title": "Fundamental principles"
+				"title": "Grundlæggende principper"
 			},
 			"step4": {
 				"description": "TO TRANSLATE - Ils décrivent les mesures de sécurité déjà prévues sur le traitement et permettent d'évaluer les impacts potentiels sur les personnes concernées.",
-				"title": "Risks"
+				"title": "Risici"
 			},
 			"step5": {
 				"description": "TO TRANSLATE - Elle permet au DPO d'exprimer son avis sur la mise en oeuvre du traitement et au responsable de traitement de l'accepter ou de le refuser.",
-				"title": "Validation"
+				"title": "Validering"
 			},
 			"step6": {
 				"description": "TO TRANSLATE - <p>Elle fournit une aide contextuelle à la réalisation de l'analyse et s'appuie sur le RGPD, le guide de sécurité et les guides AIPD de la CNIL.</p><p>En plus de ces contenus, vous pouvez également créer vos propres bases de connaissances pour accéder facilement à des informations spécifiques à votre organisme.</p>",
-				"title": "Knowledge base"
+				"title": "Vidensbase"
 			},
 			"step7": {
 				"description": "TO TRANSLATE - À tout moment lors de la réalisation de l'analyse, vous pouvez télécharger l'analyse sous divers formats pour la partager avec vos collaborateurs.",
@@ -1081,9 +1081,9 @@
 			}
 		},
 		"general": {
-			"done": "Confirm",
-			"next": "Next",
-			"skip": "Skip"
+      "done": "Bekræfte",
+      "next": "Næste",
+      "skip": "Springe"
 		},
 		"validated": {
 			"step1": {
