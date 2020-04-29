@@ -10,6 +10,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { ModalsService } from 'src/app/modals/modals.service';
 import { PiaService } from 'src/app/services/pia.service';
 import { StructureService } from 'src/app/services/structure.service';
+import { IntrojsService } from '../services/introjs.service';
 
 import * as introJs from 'intro.js/intro.js';
 
@@ -38,7 +39,8 @@ export class CardsComponent implements OnInit, OnDestroy {
     public _modalsService: ModalsService,
     public _piaService: PiaService,
     public _structureService: StructureService,
-    private _translateService: TranslateService
+    private _translateService: TranslateService,
+    private _introjsService: IntrojsService
   ) {}
 
   ngOnInit() {
@@ -89,89 +91,21 @@ export class CardsComponent implements OnInit, OnDestroy {
   }
 
   ngAfterViewInit() {
-    if (!localStorage.getItem('onboardingDashboardConfirmed')) {
-      this.initializeOnboarding();
-    }
-  }
-
-  initializeOnboarding() {
-    introJs()
-      .addStep({
-        element: document.querySelector('.pia-newBlock-item.front'),
-        tooltipClass: 'pia-onboarding-dashboard-1',
-        intro: `
-        <div class='pia-onboarding-title'>${this._translateService.instant('onboarding.dashboard.step2.title')}</div>
-        <div class='pia-onboarding-description'>
-          ${this._translateService.instant('onboarding.dashboard.step1.description')}
-        </div>
-        <div class='pia-onboarding-steps'>1/5</div>
-      `,
-        position: 'right'
-      })
-      .addStep({
-        element: document.querySelector('.pia-cardsBlock.pia-editBlock.back'),
-        tooltipClass: 'pia-onboarding-dashboard-2',
-        intro: `
-        <div class='pia-onboarding-title'>${this._translateService.instant('onboarding.dashboard.step2.title')}</div>
-        <div class='pia-onboarding-description'>
-          ${this._translateService.instant('onboarding.dashboard.step2.description')}
-        </div>
-        <div class='pia-onboarding-steps'>2/5</div>
-      `,
-        position: 'right'
-      })
-      .addStep({
-        element: document.querySelector('.pia-cardsBlock.pia-editBlock.back'),
-        tooltipClass: 'pia-onboarding-dashboard-3',
-        intro: `
-        <div class='pia-onboarding-title'>${this._translateService.instant('onboarding.dashboard.step3.title')}</div>
-        <div class='pia-onboarding-description'>
-          ${this._translateService.instant('onboarding.dashboard.step3.description')}
-        </div>
-        <div class='pia-onboarding-steps'>3/5</div>
-      `,
-        position: 'right'
-      })
-      .addStep({
-        element: document.querySelector('.pia-cardsBlock.pia-editBlock.back'),
-        tooltipClass: 'pia-onboarding-dashboard-4',
-        intro: `
-        <div class='pia-onboarding-title'>${this._translateService.instant('onboarding.dashboard.step4.title')}</div>
-        <div class='pia-onboarding-description'>
-          ${this._translateService.instant('onboarding.dashboard.step4.description')}
-        </div>
-        <div class='pia-onboarding-steps'>4/5</div>
-      `,
-        position: 'right'
-      })
-      .addStep({
-        element: document.querySelector('.pia-cardsBlock.pia-editBlock.back'),
-        tooltipClass: 'pia-onboarding-dashboard-5',
-        intro: `
-        <div class='pia-onboarding-title'>${this._translateService.instant('onboarding.dashboard.step5.title')}</div>
-        <div class='pia-onboarding-description'>
-          ${this._translateService.instant('onboarding.dashboard.step5.description')}
-        </div>
-        <div class='pia-onboarding-steps'>5/5</div>
-      `,
-        position: 'right'
-      })
-      .onbeforechange(targetElement => {
-        if (targetElement.classList.contains('back')) {
-          const cardsToSwitch = document.getElementById('cardsSwitch');
-          cardsToSwitch.classList.add('flipped');
+    const temp = new Pia();
+    temp.getAllActives().then((data: []) => {
+      let validated = data.filter((e: Pia) => e.status == 2 || e.status == 3);
+      if (validated.length > 0) {
+        // Validated introjs
+        this._introjsService.start('validated');
+      } else {
+        // dashboard introjs
+        if (!localStorage.getItem('onboardingDashboardConfirmed')) {
+          if (localStorage.getItem('homepageDisplayMode') === 'card') {
+            this._introjsService.start('dashboard');
+          }
         }
-      })
-      .onexit(() => {
-        localStorage.setItem('onboardingDashboardConfirmed', 'true');
-      })
-      .setOption('exitOnOverlayClick', false)
-      .setOption('disableInteraction', true)
-      .setOption('nextLabel', this._translateService.instant('onboarding.general.next'))
-      .setOption('skipLabel', this._translateService.instant('onboarding.general.skip'))
-      .setOption('doneLabel', this._translateService.instant('onboarding.general.done'))
-      .setOption('showBullets', false)
-      .start();
+      }
+    });
   }
 
   /**

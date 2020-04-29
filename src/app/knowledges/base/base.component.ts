@@ -36,6 +36,7 @@ export class BaseComponent implements OnInit {
   filters: string[] = [];
   data: any;
   itemsSelected: any = [];
+  lockedChoice: boolean = false;
 
   constructor(
     private _languagesService: LanguagesService,
@@ -78,9 +79,22 @@ export class BaseComponent implements OnInit {
         this.filters.push(item.filters);
       }
     }
-    console.log(this.filters);
-
     this.data = this._appDataService.dataNav;
+  }
+
+  checkLockedChoice() {
+    console.log('passing');
+    if (
+      this.entryForm.value.category === 'knowledge_base.category.organizational_measure' ||
+      this.entryForm.value.category === 'knowledge_base.category.measure_on_data' ||
+      this.entryForm.value.category === 'knowledge_base.category.general_measure'
+    ) {
+      this.lockedChoice = true;
+      return true;
+    } else {
+      this.lockedChoice = false;
+      return false;
+    }
   }
 
   /**
@@ -93,6 +107,11 @@ export class BaseComponent implements OnInit {
     entry.slug = slugify(entry.name);
     entry.category = this.entryForm.value.category;
     entry.description = this.entryForm.value.description;
+
+    if (this.checkLockedChoice()) {
+      entry.items = ['31'];
+      this.itemsSelected = ['31'];
+    }
 
     entry.create(this._knowledgesService.selected).then((result: Knowledge) => {
       this.knowledges.push(result);
@@ -122,6 +141,8 @@ export class BaseComponent implements OnInit {
           this.itemsSelected = result.items;
         }
         // SHOW FORM
+        this.checkLockedChoice();
+
         this.editMode = 'edit';
         this.showForm = true;
       })
@@ -144,6 +165,12 @@ export class BaseComponent implements OnInit {
         entry.category = this.entryForm.value.category;
         entry.description = this.entryForm.value.description;
         entry.items = this.itemsSelected;
+
+        if (this.checkLockedChoice()) {
+          entry.items = ['31'];
+          this.itemsSelected = ['31'];
+        }
+
         // Update object
         entry
           .update()
@@ -162,7 +189,6 @@ export class BaseComponent implements OnInit {
   }
 
   onCheckboxChange(e) {
-    console.log(e.target.value, e.target.checked);
     let ar = this.itemsSelected;
     if (e.target.checked) {
       ar.push(e.target.value);

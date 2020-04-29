@@ -47,7 +47,6 @@ export class KnowledgesService {
   }
 
   public removeKnowledgeBase() {
-    console.log('selected', this.selected);
     let kbTemp = new KnowledgeBase();
     kbTemp
       .delete(this.selected)
@@ -59,8 +58,8 @@ export class KnowledgesService {
           this._modalsService.closeModal();
         }
       })
-      .catch(() => {
-        console.log('Erreur !');
+      .catch(error => {
+        console.log(error);
       });
   }
 
@@ -84,7 +83,7 @@ export class KnowledgesService {
   }
 
   import(data) {
-    let newKnowledgeBase = new KnowledgeBase(data.id, data.name, data.author, data.contributors, data.knowleges);
+    let newKnowledgeBase = new KnowledgeBase(null, data.name + ' (copy)', data.author, data.contributors, data.knowleges);
     newKnowledgeBase
       .create()
       .then(() => {

@@ -69,12 +69,70 @@
       top: 530px !important;
     }
     &-6 {
-      right: 314px !important;
+      right: 326px !important;
       top: 234px !important;
     }
     &-7 {
-      right: 314px !important;
+      right: 326px !important;
       top: 204px !important;
+    }
+  }
+
+  // EVALUATION
+  &-evaluation {
+    &-step {
+      &-evaluationBlock,
+      &-refuseButton-doubleButtons,
+      &-refuseButton-tripleButtons,
+      &-actionPlanButton,
+      &-acceptableButton {
+        margin-bottom: 12px;
+        &.introjs-tooltip {
+          max-width: 350px !important;
+        }
+      }
+      &-cancelEvaluationBlock {
+        margin-top: 12px;
+        &.introjs-tooltip {
+          max-width: 350px !important;
+        }
+      }
+      &-refuseButton {
+        &-doubleButtons {
+          bottom: 90px !important;
+          left: 159px !important;
+        }
+        &-tripleButtons {
+          bottom: 54px !important;
+          left: 32px !important;
+        }
+      }
+      &-actionPlanButton {
+        bottom: 54px !important;
+        left: 198px !important;
+      }
+      &-acceptableButton {
+        &-doubleButtons {
+          bottom: 103px !important;
+          left: 320px !important;
+        }
+        &-tripleButtons {
+          bottom: 67px !important;
+          left: 360px !important;
+        }
+      }
+    }
+  }
+
+  // VALIDATED PIAs
+  &-validated {
+    &-1 {
+      left: 230px !important;
+      top: 361px !important;
+    }
+    &-2 {
+      top: -9px !important;
+      right: 128px !important;
     }
   }
 }
@@ -110,10 +168,25 @@
   .introjs-arrow {
     border: 12px solid transparent;
   }
+  .introjs-arrow.top {
+    border-bottom-color: $pia-green !important;
+    left: 45px;
+    top: -24px;
+  }
+  .introjs-arrow.bottom {
+    border-top-color: $pia-green !important;
+    left: 45px;
+    bottom: -24px;
+  }
+  .introjs-arrow.left {
+    border-right-color: $pia-green !important;
+  }
+  .introjs-arrow.right {
+    border-left-color: $pia-green !important;
+  }
   .introjs-arrow.left,
   .introjs-arrow.right,
   .introjs-arrow.left-bottom {
-    border-right-color: $pia-green !important;
     left: -24px !important;
     top: 41px !important;
     margin-top: -18px !important;
@@ -122,7 +195,6 @@
   .introjs-arrow.right {
     left: inherit !important;
     right: -24px;
-    border-left-color: $pia-green !important;
     border-right-color: transparent !important;
   }
   .introjs-tooltiptext {
