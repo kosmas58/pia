@@ -113,7 +113,7 @@
 		},
 		"homepage_link": "My PIAs",
 		"knowledge_base_link": "Knowledge base",
-		"knowledges": "",
+		"knowledges": "Knowledge base",
 		"languages": {
 			"cnil_translations": "CNIL provided translations",
 			"community_translations": "Community provided translations",
@@ -219,19 +219,19 @@
 				"validate_pia": "Validate"
 			},
 			"knowledges": {
-				"import": "",
-				"new": "",
-				"placeholder_author": "",
-				"placeholder_contributors": "",
-				"placeholder_entry_number": "",
-				"placeholder_name": ""
+				"import": "Import a knowledge base",
+				"new": "Create a knowledge base",
+				"placeholder_author": "Author",
+				"placeholder_contributors": "Contributors",
+				"placeholder_entry_number": "Number of entries",
+				"placeholder_name": "Knowledge base name"
 			},
 			"knowledges_entry": {
-				"new": "",
-				"placeholder_category": "",
-				"placeholder_description": "",
-				"placeholder_name": "",
-				"placeholder_updated_at": ""
+				"new": "Create item",
+				"placeholder_category": "Category",
+				"placeholder_description": "Your description here ...",
+				"placeholder_name": "Item Name",
+				"placeholder_updated_at": "Modified"
 			},
 			"new_pia": "New PIA",
 			"new_structure": "New template",
@@ -936,8 +936,8 @@
 			"content": "The imported file doesn't correspond to a PIA template file."
 		},
 		"knowledges": {
-			"content": "",
-			"remove": ""
+			"content": "Are you sure you want to delete this knowledge base?",
+			"remove": "Delete this knowledge base"
 		},
 		"modal_select_text_pia": {
 			"content": "The content of the PIA has been copied to clipboard."
@@ -1013,15 +1013,15 @@
 			},
 			"step2": {
 				"description": "TO TRANSLATE - <p>Les <strong>rédacteurs</strong> sont ceux rédigeant la première version de l'analyse.</p><p>Ce sont par exemple les chefs du projet associés au traitement.</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"title": "Roles around the PIA"
 			},
 			"step3": {
 				"description": "TO TRANSLATE - <p>Les <strong>évaluateurs</strong> interviennent dans un second temps.</p><p>Ils jaugent, à l'aune de leur expertise juridique ou technique, la qualité et la conformité du traitement.</p><p>Ce sont par exemple le RSSI, des juristes, le DPO, ...</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"title": "Roles around the PIA"
 			},
 			"step4": {
 				"description": "TO TRANSLATE - <p>Les <strong>validateurs</strong> acceptent ou non la mise en oeuvre du traitement.Ils doivent signer l'analyse.</p><p>Ce sont les responsables de traitement, comme par exemple le CEO.</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"title": "Roles around the PIA"
 			},
 			"step5": {
 				"description": "TO TRANSLATE - <p>Les <strong>modèles</strong> sont une fonctionnalité avancée.Ils permettent de créer une base pré-remplie de l'analyse.</p><p>Vous pouvez créer des modèles en allant dans la section associée depuis le menu du haut.</p>",
@@ -1031,7 +1031,7 @@
 		"entry": {
 			"step1": {
 				"description": "TO TRANSLATE - Pour passer d'une partie à l'autre de l'analyse, utilisez le menu de navigation de gauche.",
-				"title": "TO TRANSLATE - Naviguer"
+				"title": "Navigation"
 			},
 			"step2": {
 				"description": "TO TRANSLATE - Il sert à expliquer l'objectif du traitement et comment il sera mis en oeuvre.",
@@ -1055,7 +1055,7 @@
 			},
 			"step7": {
 				"description": "TO TRANSLATE - À tout moment lors de la réalisation de l'analyse, vous pouvez télécharger l'analyse sous divers formats pour la partager avec vos collaborateurs.",
-				"title": "TO TRANSLATE - Exporter son AIPD"
+				"title": "Export the report"
 			}
 		},
 		"evaluation": {
