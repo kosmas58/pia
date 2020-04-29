@@ -53,20 +53,8 @@
 		"send": "Verzenden"
 	},
 	"date": {
-		"april": "TO TRANSLATE - April",
-		"august": "TO TRANSLATE - August",
-		"december": "TO TRANSLATE - December",
 		"earlier-in-this-month": "TO TRANSLATE - Earlier this month",
 		"earlier-in-this-week": "TO TRANSLATE - Earlier this week",
-		"february": "TO TRANSLATE - February",
-		"january": "TO TRANSLATE - January",
-		"july": "TO TRANSLATE - July",
-		"june": "TO TRANSLATE - June",
-		"march": "TO TRANSLATE - March",
-		"may": "TO TRANSLATE - May",
-		"november": "TO TRANSLATE - November",
-		"october": "TO TRANSLATE - October",
-		"september": "TO TRANSLATE - September",
 		"today": "TO TRANSLATE - Today",
 		"yesterday": "TO TRANSLATE - Yesterday"
 	},
@@ -1008,91 +996,91 @@
 	"onboarding": {
 		"dashboard": {
 			"step1": {
-				"description": "TO TRANSLATE - Cliquez sur le <strong>+</strong> pour créer votre premier PIA.",
+				"description": "Klik op <strong>+</strong> om je eerste PIA te maken.",
 				"title": "Maak een PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - <p>Les <strong>rédacteurs</strong> sont ceux rédigeant la première version de l'analyse.</p><p>Ce sont par exemple les chefs du projet associés au traitement.</p>",
+				"description": "<p>De <strong>schrijvers</strong> zijn degenen die de eerste versie van de analyse schrijven.</p><p>Dit zijn bijvoorbeeld de projectleiders die bij de behandeling horen.</p>",
 				"title": "Rollen rond de PIA"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>Les <strong>évaluateurs</strong> interviennent dans un second temps.</p><p>Ils jaugent, à l'aune de leur expertise juridique ou technique, la qualité et la conformité du traitement.</p><p>Ce sont par exemple le RSSI, des juristes, le DPO, ...</p>",
+				"description": "<p>De <strong>beoordelaars</strong> komen tussenbeide in een tweede stap.</p><p>Ze meten op basis van hun juridische of technische expertise de kwaliteit en naleving van de verwerking.</p><p>Dit zijn bijvoorbeeld CISO, advocaten, DPO, ...</p>",
 				"title": "Rollen rond de PIA"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - <p>Les <strong>validateurs</strong> acceptent ou non la mise en oeuvre du traitement.Ils doivent signer l'analyse.</p><p>Ce sont les responsables de traitement, comme par exemple le CEO.</p>",
+				"description": "<p>De <strong>validators</strong> accepteren of niet de implementatie van de behandeling. Ze moeten de analyse ondertekenen.</p><p>Dit zijn de controllers, zoals de CEO.</p>",
 				"title": "Rollen rond de PIA"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - <p>Les <strong>modèles</strong> sont une fonctionnalité avancée.Ils permettent de créer une base pré-remplie de l'analyse.</p><p>Vous pouvez créer des modèles en allant dans la section associée depuis le menu du haut.</p>",
+				"description": "<p>De <strong>modellen</strong> zijn een geavanceerde functie waarmee u een vooraf ingevulde database met analyses kunt maken.</p><p>U kunt sjablonen maken door naar het bijbehorende gedeelte te gaan vanuit het hoofdmenu.</p>",
 				"title": "De modellen"
 			}
 		},
 		"entry": {
 			"step1": {
-				"description": "TO TRANSLATE - Pour passer d'une partie à l'autre de l'analyse, utilisez le menu de navigation de gauche.",
+				"description": "Gebruik het linkernavigatiemenu om van het ene deel van de analyse naar het andere te gaan.",
 				"title": "Navigatie"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - Il sert à expliquer l'objectif du traitement et comment il sera mis en oeuvre.",
+				"description": "Het wordt gebruikt om het doel van de behandeling uit te leggen en hoe deze zal worden geïmplementeerd.",
 				"title": "Context"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - Ils permettent de s'assurer que le traitement est juridiquement conforme au RGPD.",
+				"description": "Ze maken het mogelijk om ervoor te zorgen dat de verwerking wettelijk conform de AVG is.",
 				"title": "Fundamentele principes"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - Ils décrivent les mesures de sécurité déjà prévues sur le traitement et permettent d'évaluer les impacts potentiels sur les personnes concernées.",
+				"description": "Ze beschrijven de veiligheidsmaatregelen die al gepland zijn voor de behandeling en maken het mogelijk de potentiële effecten op de betrokken personen te beoordelen.",
 				"title": "Risico's"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - Elle permet au DPO d'exprimer son avis sur la mise en oeuvre du traitement et au responsable de traitement de l'accepter ou de le refuser.",
+				"description": "Het stelt de DPO in staat om zijn mening te geven over de uitvoering van de verwerking en de gegevensbeheerder om deze te accepteren of te weigeren.",
 				"title": "Bevestiging"
 			},
 			"step6": {
-				"description": "TO TRANSLATE - <p>Elle fournit une aide contextuelle à la réalisation de l'analyse et s'appuie sur le RGPD, le guide de sécurité et les guides AIPD de la CNIL.</p><p>En plus de ces contenus, vous pouvez également créer vos propres bases de connaissances pour accéder facilement à des informations spécifiques à votre organisme.</p>",
+				"description": "<p>Het biedt contextuele hulp bij het uitvoeren van de analyse en is gebaseerd op de GDPR, de beveiligingsgids en de PIA-handleidingen van de CNIL.</p><p>Naast deze inhoud kunt u ook uw eigen kennisbanken maken voor gemakkelijke toegang tot informatie die specifiek is voor uw organisatie.</p>",
 				"title": "Kennis basis"
 			},
 			"step7": {
-				"description": "TO TRANSLATE - À tout moment lors de la réalisation de l'analyse, vous pouvez télécharger l'analyse sous divers formats pour la partager avec vos collaborateurs.",
-				"title": "TO TRANSLATE - Exporter son AIPD"
+				"description": "U kunt de analyse op elk moment tijdens de analyse in verschillende formaten downloaden om deze met uw medewerkers te delen.",
+				"title": "Exporteer uw PIA"
 			}
 		},
 		"evaluation": {
 			"step1": {
-				"description": "TO TRANSLATE - L'évaluation peut se faire au niveau d'une section entière, ou bien au niveau de chaque élément d'une section.",
-				"title": "TO TRANSLATE - Évaluer l'AIPD"
+				"description": "De evaluatie kan plaatsvinden op het niveau van een hele sectie of op het niveau van elk element van een sectie.",
+				"title": "Evalueer de PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - <p>Cette évaluation indique aux rédacteurs que des éléments sont manquants pour pouvoir faire une évaluation pertinente.</p><p>L'évaluateur doit indiquer ceux-ci dans le champ <strong>commentaire d'évaluation</strong> associé. Le rédacteur reverra sa copie en fonction.</p>",
-				"title": "TO TRANSLATE - À corriger"
+				"description": "<p>Deze evaluatie geeft de redactie aan dat er elementen ontbreken om een relevante evaluatie te kunnen maken.</p><p>De beoordelaar moet deze aangeven in het bijbehorende <strong>beoordelingscommentaarveld</strong> . De redacteur zal zijn exemplaar dienovereenkomstig beoordelen.</p>",
+				"title": "Om te corrigeren"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>Cette évaluation indique les points du traitement à réviser et sont détaillés dans le champ <strong>plan d'action / mesures correctives</strong>.</p><p>Ces mesures seront ajoutées automatiquement à la partie plan d'action de l'analyse. Il est nécessaire de les mettre en oeuvre dans les plus brefs délais.</p>",
-				"title": "TO TRANSLATE - Améliorable"
+				"description": "<p>Deze evaluatie geeft aan welke verwerkingspunten moeten worden herzien en worden gedetailleerd beschreven in het veld <strong>actieplan / corrigerende maatregelen</strong>.</p><p>Deze maatregelen worden automatisch toegevoegd aan het actieplangedeelte van de analyse. Het is noodzakelijk om ze zo snel mogelijk te implementeren.</p>",
+				"title": "Uit te breiden"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - Cette évaluation signifie que, en l'état, ce point du traitement peut être mis en oeuvre sans y apporter de modifications.",
-				"title": "TO TRANSLATE - Acceptable"
+				"description": "Deze evaluatie betekent dat dit verwerkingspunt in zijn huidige vorm kan worden geïmplementeerd zonder wijzigingen aan te brengen.",
+				"title": "Acceptabel"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - Si l'évaluation d'une section n'a pas encore commencé, il est possible d'annuler la demande d'évaluation pour apporter des modifications à la description du traitement.",
-				"title": "TO TRANSLATE - Annuler une demande"
+				"description": "Als de evaluatie van een sectie nog niet is begonnen, is het mogelijk om het evaluatieverzoek te annuleren om wijzigingen aan te brengen in de beschrijving van de behandeling.",
+				"title": "Annuleer een verzoek"
 			}
 		},
 		"general": {
-      "done": "Bevestigen",
-      "next": "volgende",
-      "skip": "overspringen"
+			"done": "Bevestigen",
+			"next": "volgende",
+			"skip": "overspringen"
 		},
 		"validated": {
 			"step1": {
-				"description": "TO TRANSLATE - Une analyse faite dans son intégralité et validée peut être consultée à tout moment via une interface dédiée.",
-				"title": "TO TRANSLATE - Consulter une AIPD validée"
+				"description": "Een analyse die in zijn geheel is gemaakt en gevalideerd, kan op elk moment worden geraadpleegd via een speciale interface.",
+				"title": "Raadpleeg een gevalideerde PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - Il est nécessaire de réviser son analyse régulièrement. Vous pouvez à tout moment l'éditer ou la dupliquer pour revoir son contenu en fonction des évolutions du traitement.",
-				"title": "TO TRANSLATE - Mettre à jour une AIPD validée"
+				"description": "Het is noodzakelijk om uw analyse regelmatig te herzien. U kunt het op elk moment bewerken of dupliceren om de inhoud te bekijken op basis van wijzigingen in de verwerking.",
+				"title": "Update een gevalideerde PIA"
 			}
 		}
 	},

@@ -53,20 +53,8 @@
 		"send": "Send"
 	},
 	"date": {
-		"april": "TO TRANSLATE - April",
-		"august": "TO TRANSLATE - August",
-		"december": "TO TRANSLATE - December",
 		"earlier-in-this-month": "TO TRANSLATE - Earlier this month",
 		"earlier-in-this-week": "TO TRANSLATE - Earlier this week",
-		"february": "TO TRANSLATE - February",
-		"january": "TO TRANSLATE - January",
-		"july": "TO TRANSLATE - July",
-		"june": "TO TRANSLATE - June",
-		"march": "TO TRANSLATE - March",
-		"may": "TO TRANSLATE - May",
-		"november": "TO TRANSLATE - November",
-		"october": "TO TRANSLATE - October",
-		"september": "TO TRANSLATE - September",
 		"today": "TO TRANSLATE - Today",
 		"yesterday": "TO TRANSLATE - Yesterday"
 	},
@@ -318,7 +306,7 @@
 			"example": "Eksempel",
 			"general_measure": "Fysisk informasjonssikkerhet",
 			"measure_on_data": "Teknisk informasjonssikkerhet",
-			"method": "TO TRANSLATE - Methodology",
+			"method": "Metodikk",
 			"organizational_measure": "Styringssystemer",
 			"principle": "Prinsipp"
 		},
@@ -1008,91 +996,91 @@
 	"onboarding": {
 		"dashboard": {
 			"step1": {
-				"description": "TO TRANSLATE - Cliquez sur le <strong>+</strong> pour créer votre premier PIA.",
+				"description": "Klikk på <strong>+</strong> for å lage din første PIA.",
 				"title": "Lag en PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - <p>Les <strong>rédacteurs</strong> sont ceux rédigeant la première version de l'analyse.</p><p>Ce sont par exemple les chefs du projet associés au traitement.</p>",
+				"description": "<p> <strong>forfatterne</strong> er de som skriver den første versjonen av analysen.</p><p>Dette er for eksempel prosjektlederne knyttet til behandlingen.</p>",
 				"title": "Roller rundt PIA"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>Les <strong>évaluateurs</strong> interviennent dans un second temps.</p><p>Ils jaugent, à l'aune de leur expertise juridique ou technique, la qualité et la conformité du traitement.</p><p>Ce sont par exemple le RSSI, des juristes, le DPO, ...</p>",
+				"description": "<p> <strong>evaluerere</strong> griper inn i et andre trinn.</p><p>De måler, basert på deres juridiske eller tekniske ekspertise, kvaliteten og etterlevelsen av behandlingen.</p><p>Dette er for eksempel CISO, advokater, DPO, ...</p>",
 				"title": "Roller rundt PIA"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - <p>Les <strong>validateurs</strong> acceptent ou non la mise en oeuvre du traitement.Ils doivent signer l'analyse.</p><p>Ce sont les responsables de traitement, comme par exemple le CEO.</p>",
+				"description": "<p> <strong>valideringene</strong> aksepterer eller ikke gjennomføringen av behandlingen. De må signere analysen.</p><p>Dette er kontrollerne, for eksempel administrerende direktør.</p>",
 				"title": "Roller rundt PIA"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - <p>Les <strong>modèles</strong> sont une fonctionnalité avancée.Ils permettent de créer une base pré-remplie de l'analyse.</p><p>Vous pouvez créer des modèles en allant dans la section associée depuis le menu du haut.</p>",
+				"description": "<p> <strong>-modellene</strong> er en avansert funksjon som lar deg lage en ferdigfylt database for analysen.</p><p>Du kan lage maler ved å gå til den tilhørende delen fra toppmenyen.</p>",
 				"title": "Modellene"
 			}
 		},
 		"entry": {
 			"step1": {
-				"description": "TO TRANSLATE - Pour passer d'une partie à l'autre de l'analyse, utilisez le menu de navigation de gauche.",
+				"description": "For å gå fra en del av analysen til den andre, bruk venstre navigasjonsmeny.",
 				"title": "Navigasjon"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - Il sert à expliquer l'objectif du traitement et comment il sera mis en oeuvre.",
+				"description": "Den brukes til å forklare formålet med behandlingen og hvordan den vil bli implementert.",
 				"title": "Kontekst"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - Ils permettent de s'assurer que le traitement est juridiquement conforme au RGPD.",
+				"description": "De gjør det mulig å sikre at behandlingen er lovlig i samsvar med GDPR.",
 				"title": "Grunnleggende prinsipper"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - Ils décrivent les mesures de sécurité déjà prévues sur le traitement et permettent d'évaluer les impacts potentiels sur les personnes concernées.",
+				"description": "De beskriver sikkerhetstiltakene som allerede er planlagt for behandlingen, og lar potensielle innvirkninger på de berørte personer vurderes.",
 				"title": "Risiko"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - Elle permet au DPO d'exprimer son avis sur la mise en oeuvre du traitement et au responsable de traitement de l'accepter ou de le refuser.",
+				"description": "Det lar DPO uttale sin mening om implementeringen av behandlingen og datakontrolleren å godta eller avslå den.",
 				"title": "Validering"
 			},
 			"step6": {
-				"description": "TO TRANSLATE - <p>Elle fournit une aide contextuelle à la réalisation de l'analyse et s'appuie sur le RGPD, le guide de sécurité et les guides AIPD de la CNIL.</p><p>En plus de ces contenus, vous pouvez également créer vos propres bases de connaissances pour accéder facilement à des informations spécifiques à votre organisme.</p>",
+				"description": "<p>Den gir kontekstuell hjelp til å utføre analysen og er basert på GDPR, sikkerhetsguiden og PIA-guider til CNIL.</p><p>I tillegg til dette innholdet, kan du også lage dine egne kunnskapsbaser for enkel tilgang til informasjon spesifikk for organisasjonen din.</p>",
 				"title": "Kunnskapsbase"
 			},
 			"step7": {
-				"description": "TO TRANSLATE - À tout moment lors de la réalisation de l'analyse, vous pouvez télécharger l'analyse sous divers formats pour la partager avec vos collaborateurs.",
-				"title": "TO TRANSLATE - Exporter son AIPD"
+				"description": "Når som helst i løpet av analysen, kan du laste ned analysen i forskjellige formater for å dele den med dine samarbeidspartnere.",
+				"title": "Eksporter din PIA"
 			}
 		},
 		"evaluation": {
 			"step1": {
-				"description": "TO TRANSLATE - L'évaluation peut se faire au niveau d'une section entière, ou bien au niveau de chaque élément d'une section.",
-				"title": "TO TRANSLATE - Évaluer l'AIPD"
+				"description": "Evalueringen kan gjøres på nivået av en hel seksjon, eller på nivået for hvert element i en seksjon.",
+				"title": "Evaluer PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - <p>Cette évaluation indique aux rédacteurs que des éléments sont manquants pour pouvoir faire une évaluation pertinente.</p><p>L'évaluateur doit indiquer ceux-ci dans le champ <strong>commentaire d'évaluation</strong> associé. Le rédacteur reverra sa copie en fonction.</p>",
-				"title": "TO TRANSLATE - À corriger"
+				"description": "<p>Denne evalueringen indikerer for redaktørene at elementer mangler for å kunne gjøre en relevant evaluering.</p><p>Evaluereren må angi disse i det tilknyttede <strong>evalueringskommentarfeltet</strong> . Redaktøren vil gjennomgå kopien hans deretter.</p>",
+				"title": "For å rette opp"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>Cette évaluation indique les points du traitement à réviser et sont détaillés dans le champ <strong>plan d'action / mesures correctives</strong>.</p><p>Ces mesures seront ajoutées automatiquement à la partie plan d'action de l'analyse. Il est nécessaire de les mettre en oeuvre dans les plus brefs délais.</p>",
-				"title": "TO TRANSLATE - Améliorable"
+				"description": "<p>Denne evalueringen indikerer behandlingspunktene som skal revideres og er detaljert i feltet <strong>handlingsplan / korrigerende tiltak</strong>.</p><p>Disse tiltakene blir automatisk lagt til i handlingsplandelen av analysen. Det er nødvendig å implementere dem så snart som mulig.</p>",
+				"title": "forbedres"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - Cette évaluation signifie que, en l'état, ce point du traitement peut être mis en oeuvre sans y apporter de modifications.",
-				"title": "TO TRANSLATE - Acceptable"
+				"description": "Denne evalueringen betyr at slik det fremgår, dette behandlingspunktet kan implementeres uten å gjøre noen endringer.",
+				"title": "akseptabelt"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - Si l'évaluation d'une section n'a pas encore commencé, il est possible d'annuler la demande d'évaluation pour apporter des modifications à la description du traitement.",
-				"title": "TO TRANSLATE - Annuler une demande"
+				"description": "Hvis evalueringen av en seksjon ennå ikke har startet, er det mulig å avbryte evalueringsforespørselen for å gjøre endringer i beskrivelsen av behandlingen.",
+				"title": "Avbryt en forespørsel"
 			}
 		},
 		"general": {
-      "done": "Bekrefte",
-      "next": "Neste",
-      "skip": "Hopp"
+			"done": "Bekrefte",
+			"next": "Neste",
+			"skip": "Hopp"
 		},
 		"validated": {
 			"step1": {
-				"description": "TO TRANSLATE - Une analyse faite dans son intégralité et validée peut être consultée à tout moment via une interface dédiée.",
-				"title": "TO TRANSLATE - Consulter une AIPD validée"
+				"description": "En analyse gjort i sin helhet og validert kan konsulteres når som helst via et dedikert grensesnitt.",
+				"title": "Rådfør deg med en validert PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - Il est nécessaire de réviser son analyse régulièrement. Vous pouvez à tout moment l'éditer ou la dupliquer pour revoir son contenu en fonction des évolutions du traitement.",
-				"title": "TO TRANSLATE - Mettre à jour une AIPD validée"
+				"description": "Det er nødvendig å gjennomgå analysen din regelmessig. Du kan når som helst redigere eller duplisere det for å se innholdet i henhold til endringer i behandlingen.",
+				"title": "Oppdater en validert PIA"
 			}
 		}
 	},

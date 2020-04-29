@@ -53,20 +53,8 @@
 		"send": "Lähetä"
 	},
 	"date": {
-		"april": "TO TRANSLATE - April",
-		"august": "TO TRANSLATE - August",
-		"december": "TO TRANSLATE - December",
 		"earlier-in-this-month": "TO TRANSLATE - Earlier this month",
 		"earlier-in-this-week": "TO TRANSLATE - Earlier this week",
-		"february": "TO TRANSLATE - February",
-		"january": "TO TRANSLATE - January",
-		"july": "TO TRANSLATE - July",
-		"june": "TO TRANSLATE - June",
-		"march": "TO TRANSLATE - March",
-		"may": "TO TRANSLATE - May",
-		"november": "TO TRANSLATE - November",
-		"october": "TO TRANSLATE - October",
-		"september": "TO TRANSLATE - September",
 		"today": "TO TRANSLATE - Today",
 		"yesterday": "TO TRANSLATE - Yesterday"
 	},
@@ -318,7 +306,7 @@
 			"example": "Esimerkki",
 			"general_measure": "Fyysinen suojaustoimi",
 			"measure_on_data": "Looginen suojaustoimi",
-			"method": "TO TRANSLATE - Methodology",
+			"method": "Metodologia",
 			"organizational_measure": "Organisatorinen suojaustoimi",
 			"principle": "Periaate"
 		},
@@ -1008,91 +996,91 @@
 	"onboarding": {
 		"dashboard": {
 			"step1": {
-				"description": "TO TRANSLATE - Cliquez sur le <strong>+</strong> pour créer votre premier PIA.",
+				"description": "Luo ensimmäinen PIA napsauttamalla <strong>+</strong> .",
 				"title": "Luo PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - <p>Les <strong>rédacteurs</strong> sont ceux rédigeant la première version de l'analyse.</p><p>Ce sont par exemple les chefs du projet associés au traitement.</p>",
+				"description": "<p> <strong>kirjoittajat</strong> kirjoittavat analyysin ensimmäisen version.</p><p>Nämä ovat esimerkiksi hoitoon liittyviä projektijohtajia.</p>",
 				"title": "Rooleja PIA: n ympärillä"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>Les <strong>évaluateurs</strong> interviennent dans un second temps.</p><p>Ils jaugent, à l'aune de leur expertise juridique ou technique, la qualité et la conformité du traitement.</p><p>Ce sont par exemple le RSSI, des juristes, le DPO, ...</p>",
+				"description": "<p> <strong>arvioijat</strong> puuttuvat toiseen vaiheeseen.</p><p>He arvioivat oikeudellisen tai teknisen asiantuntemuksensa perusteella käsittelyn laadun ja vaatimustenmukaisuuden.</p><p>Näitä ovat esimerkiksi CISO, lakimiehet, tietosuojavaltuutettu, ...</p>",
 				"title": "Rooleja PIA: n ympärillä"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - <p>Les <strong>validateurs</strong> acceptent ou non la mise en oeuvre du traitement.Ils doivent signer l'analyse.</p><p>Ce sont les responsables de traitement, comme par exemple le CEO.</p>",
+				"description": "<p> <strong>validoijat</strong> hyväksyvät tai eivät hyväksy hoidon toteuttamista. Niiden on allekirjoitettava analyysi.</p><p>Nämä ovat valvojia, kuten toimitusjohtaja.</p>",
 				"title": "Rooleja PIA: n ympärillä"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - <p>Les <strong>modèles</strong> sont une fonctionnalité avancée.Ils permettent de créer une base pré-remplie de l'analyse.</p><p>Vous pouvez créer des modèles en allant dans la section associée depuis le menu du haut.</p>",
+				"description": "<p> <strong>mallit</strong> ovat edistyksellisiä ominaisuuksia, joiden avulla voit luoda esitäytetyn tietokannan analyysista.</p><p>Voit luoda malleja siirtymällä vastaavaan osaan ylävalikosta.</p>",
 				"title": "Mallit"
 			}
 		},
 		"entry": {
 			"step1": {
-				"description": "TO TRANSLATE - Pour passer d'une partie à l'autre de l'analyse, utilisez le menu de navigation de gauche.",
+				"description": "Siirry analyysin yhdestä osasta toiseen käyttämällä vasenta navigointivalikkoa.",
 				"title": "Suunnistus"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - Il sert à expliquer l'objectif du traitement et comment il sera mis en oeuvre.",
+				"description": "Sitä käytetään selittämään hoidon tarkoitus ja miten se toteutetaan.",
 				"title": "Konteksti"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - Ils permettent de s'assurer que le traitement est juridiquement conforme au RGPD.",
+				"description": "Niiden avulla voidaan varmistaa, että käsittely on laillisesti GDPR: n mukainen.",
 				"title": "Perusperiaatteet"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - Ils décrivent les mesures de sécurité déjà prévues sur le traitement et permettent d'évaluer les impacts potentiels sur les personnes concernées.",
+				"description": "Ne kuvaavat hoidolle jo suunnitellut turvatoimenpiteet ja mahdollistavat mahdollisten vaikutusten arvioinnin asianomaisiin henkilöihin.",
 				"title": "Riskit"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - Elle permet au DPO d'exprimer son avis sur la mise en oeuvre du traitement et au responsable de traitement de l'accepter ou de le refuser.",
+				"description": "Sen avulla tietosuojavaltuutettu voi ilmaista mielipiteensä käsittelyn toteuttamisesta ja rekisterinpitäjän hyväksyä tai evätä se.",
 				"title": "Validation"
 			},
 			"step6": {
-				"description": "TO TRANSLATE - <p>Elle fournit une aide contextuelle à la réalisation de l'analyse et s'appuie sur le RGPD, le guide de sécurité et les guides AIPD de la CNIL.</p><p>En plus de ces contenus, vous pouvez également créer vos propres bases de connaissances pour accéder facilement à des informations spécifiques à votre organisme.</p>",
+				"description": "<p>Se tarjoaa kontekstuaalista apua analyysin suorittamisessa ja perustuu GDPR: ään, turvallisuusoppaaseen ja CNIL: n PIA-oppaisiin.</p><p>Tämän sisällön lisäksi voit luoda myös omat tietopohjat, joiden avulla pääset helposti organisaatiosi erityisiin tietoihin.</p>",
 				"title": "Tietopohja"
 			},
 			"step7": {
-				"description": "TO TRANSLATE - À tout moment lors de la réalisation de l'analyse, vous pouvez télécharger l'analyse sous divers formats pour la partager avec vos collaborateurs.",
-				"title": "TO TRANSLATE - Exporter son AIPD"
+				"description": "Voit milloin tahansa analyysin aikana ladata analyysin eri muodoissa jakaaksesi sen yhteistyökumppaneidesi kanssa.",
+				"title": "Vie PIA"
 			}
 		},
 		"evaluation": {
 			"step1": {
-				"description": "TO TRANSLATE - L'évaluation peut se faire au niveau d'une section entière, ou bien au niveau de chaque élément d'une section.",
-				"title": "TO TRANSLATE - Évaluer l'AIPD"
+				"description": "Arviointi voidaan suorittaa koko osion tasolla tai osion kunkin elementin tasolla.",
+				"title": "Arvioi PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - <p>Cette évaluation indique aux rédacteurs que des éléments sont manquants pour pouvoir faire une évaluation pertinente.</p><p>L'évaluateur doit indiquer ceux-ci dans le champ <strong>commentaire d'évaluation</strong> associé. Le rédacteur reverra sa copie en fonction.</p>",
-				"title": "TO TRANSLATE - À corriger"
+				"description": "<p>Tämä arvio osoittaa toimittajille, että elementtejä puuttuu voidakseen tehdä asiaankuuluva arviointi.</p><p>Arvioijan on ilmoitettava nämä siihen liittyvässä <strong>arviointikommenttikentässä</strong> . Toimittaja tarkistaa kopionsa vastaavasti.</p>",
+				"title": "Korjataksesi"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>Cette évaluation indique les points du traitement à réviser et sont détaillés dans le champ <strong>plan d'action / mesures correctives</strong>.</p><p>Ces mesures seront ajoutées automatiquement à la partie plan d'action de l'analyse. Il est nécessaire de les mettre en oeuvre dans les plus brefs délais.</p>",
-				"title": "TO TRANSLATE - Améliorable"
+				"description": "<p>Tämä arvio osoittaa tarkistettavat käsittelypisteet ja esitetään yksityiskohtaisesti kentässä <strong>toimintasuunnitelma / korjaavat toimenpiteet</strong>.</p><p>Nämä toimenpiteet lisätään automaattisesti analyysin osaan toimintasuunnitelmaa. Ne on tarpeen panna täytäntöön mahdollisimman pian.</p>",
+				"title": "parannettavissa"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - Cette évaluation signifie que, en l'état, ce point du traitement peut être mis en oeuvre sans y apporter de modifications.",
-				"title": "TO TRANSLATE - Acceptable"
+				"description": "Tämä arviointi tarkoittaa, että tämä käsittelypiste voidaan nykyisessä muodossaan toteuttaa tekemättä muutoksia.",
+				"title": "hyväksyttävä"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - Si l'évaluation d'une section n'a pas encore commencé, il est possible d'annuler la demande d'évaluation pour apporter des modifications à la description du traitement.",
-				"title": "TO TRANSLATE - Annuler une demande"
+				"description": "Jos osan arviointi ei ole vielä alkanut, on mahdollista peruuttaa arviointipyyntö muutosten tekemiseksi hoidon kuvaukseen.",
+				"title": "Peruuta pyyntö"
 			}
 		},
 		"general": {
-      "done": "Vahvistaa",
-      "next": "Seuraava",
-      "skip": "hyppiä"
+			"done": "Vahvistaa",
+			"next": "Seuraava",
+			"skip": "hyppiä"
 		},
 		"validated": {
 			"step1": {
-				"description": "TO TRANSLATE - Une analyse faite dans son intégralité et validée peut être consultée à tout moment via une interface dédiée.",
-				"title": "TO TRANSLATE - Consulter une AIPD validée"
+				"description": "Kokonaisuutena tehty ja validoitu analyysi voidaan tutustua milloin tahansa erillisen käyttöliittymän kautta.",
+				"title": "Ota yhteys validoituun PIA: han"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - Il est nécessaire de réviser son analyse régulièrement. Vous pouvez à tout moment l'éditer ou la dupliquer pour revoir son contenu en fonction des évolutions du traitement.",
-				"title": "TO TRANSLATE - Mettre à jour une AIPD validée"
+				"description": "On tarpeen tarkistaa analyysisi säännöllisesti. Voit muokata tai kopioida sitä milloin tahansa tarkistaaksesi sen sisällön prosessoinnin muutosten mukaan.",
+				"title": "Päivitä validoitu PIA"
 			}
 		}
 	},
