@@ -134,7 +134,7 @@
 		"tools": {
 			"about": "Tietoa ohjelmasta",
 			"accessibility": "Visuaaliset helppokäyttöisyysasetukset (suuri kontrasti, värisokeus)",
-			"onboarding": "TO TRANSLATE - Restart tutorial",
+			"onboarding": "Käynnistä opetusohjelma uudelleen",
 			"settings": "Asetukset",
 			"url_setting": "TO TRANSLATE - Server URL configuration"
 		}
