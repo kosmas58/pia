@@ -140,13 +140,13 @@ export class ApplicationDb {
         fetch(this.getServerUrl(), {
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -183,13 +183,13 @@ export class ApplicationDb {
           fetch(this.getServerUrl() + '/' + id, {
             mode: 'cors'
           })
-            .then(response => {
+            .then((response) => {
               return response.json();
             })
             .then((result: any) => {
               resolve(result);
             })
-            .catch(error => {
+            .catch((error) => {
               console.error('Request failed', error);
               reject();
             });
@@ -223,13 +223,13 @@ export class ApplicationDb {
           method: 'DELETE',
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response;
           })
-          .then(item => {
+          .then((item) => {
             resolve();
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });

@@ -20,8 +20,8 @@ export class HighlightDirective implements OnChanges {
 
   everythingChecked(dataSection) {
     let bool = true;
-    dataSection.items.forEach(dataItem => {
-      let temp = this.defaultColor.findIndex(e => e === dataSection.id.toString() + dataItem.id.toString());
+    dataSection.items.forEach((dataItem) => {
+      let temp = this.defaultColor.findIndex((e) => e === dataSection.id.toString() + dataItem.id.toString());
       if (temp == -1) {
         bool = false;
       }

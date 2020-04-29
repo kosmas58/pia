@@ -20,13 +20,13 @@ export class KnowledgesService {
         .findAll()
         .then((response: any) => {
           let result = [];
-          response.forEach(e => {
+          response.forEach((e) => {
             result.push(new KnowledgeBase(e.id, e.name, e.author, e.contributors, e.created_at));
           });
           this.list = result;
           resolve(result);
         })
-        .catch(error => {
+        .catch((error) => {
           reject(error);
         });
     });
@@ -37,10 +37,10 @@ export class KnowledgesService {
       let kTemp = new Knowledge();
       kTemp
         .findAllByBaseId(baseId)
-        .then(response => {
+        .then((response) => {
           resolve(response);
         })
-        .catch(err => {
+        .catch((err) => {
           reject(err);
         });
     });
@@ -52,13 +52,13 @@ export class KnowledgesService {
       .delete(this.selected)
       .then(() => {
         // removeFrom this.list
-        let index = this.list.findIndex(e => e.id === this.selected);
+        let index = this.list.findIndex((e) => e.id === this.selected);
         if (index !== -1) {
           this.list.splice(index, 1);
           this._modalsService.closeModal();
         }
       })
-      .catch(error => {
+      .catch((error) => {
         console.log(error);
       });
   }
@@ -70,7 +70,7 @@ export class KnowledgesService {
   export(id: number) {
     const date = new Date().getTime();
     let kbTemp = new KnowledgeBase();
-    kbTemp.find(id).then(data => {
+    kbTemp.find(id).then((data) => {
       const a = document.getElementById('pia-exportBlock');
       const url = 'data:text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(data));
       a.setAttribute('href', url);
@@ -89,7 +89,7 @@ export class KnowledgesService {
       .then(() => {
         this.list.push(newKnowledgeBase);
       })
-      .catch(error => {
+      .catch((error) => {
         console.log(error);
       });
   }
@@ -97,7 +97,7 @@ export class KnowledgesService {
   duplicate(id: number) {
     const date = new Date().getTime();
     let kbTemp = new KnowledgeBase();
-    kbTemp.find(id).then(data => {
+    kbTemp.find(id).then((data) => {
       this.import(data);
     });
   }

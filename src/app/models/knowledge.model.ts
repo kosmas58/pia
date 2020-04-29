@@ -42,7 +42,7 @@ export class Knowledge extends ApplicationDb {
           }
           resolve();
         })
-        .catch(err => {
+        .catch((err) => {
           console.log(err);
           reject(err);
         });
@@ -60,13 +60,13 @@ export class Knowledge extends ApplicationDb {
         fetch(this.getServerUrl(), {
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -159,11 +159,11 @@ export class Knowledge extends ApplicationDb {
             body: formData,
             mode: 'cors'
           })
-            .then(response => {
+            .then((response) => {
               resolve();
               return response.json();
             })
-            .catch(error => {
+            .catch((error) => {
               console.error('Request failed', error);
               reject();
             });

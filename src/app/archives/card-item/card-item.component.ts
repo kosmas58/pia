@@ -10,11 +10,7 @@ import { LanguagesService } from 'src/app/services/languages.service';
 @Component({
   selector: 'app-card-item',
   templateUrl: './card-item.component.html',
-  styleUrls: [
-    './card-item.component.scss',
-    './card-item_edit.component.scss',
-    './card-item_doing.component.scss'
-  ],
+  styleUrls: ['./card-item.component.scss', './card-item_edit.component.scss', './card-item_doing.component.scss'],
   providers: []
 })
 export class CardItemComponent implements OnInit {
@@ -33,7 +29,7 @@ export class CardItemComponent implements OnInit {
     this.attachments = [];
     attachmentModel.pia_id = this.archivedPia.id;
     attachmentModel.findAll().then((entries: any) => {
-      entries.forEach(element => {
+      entries.forEach((element) => {
         if (element['file'] && element['file'].length) {
           this.attachments.push(element);
         }

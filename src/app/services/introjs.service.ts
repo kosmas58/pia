@@ -20,12 +20,12 @@ export class IntrojsService {
   constructor(private router: Router, private _translateService: TranslateService) {
     console.log('Introjs connected');
 
-    this.sectionsChange.subscribe(bool => {
+    this.sectionsChange.subscribe((bool) => {
       console.log('changements sections', bool);
       this.sectionsLoaded = bool;
       this.autoSelectOnBoarding();
     });
-    this.evaluationsChange.subscribe(bool => {
+    this.evaluationsChange.subscribe((bool) => {
       console.log('changements evaluations', bool);
       this.evaluationsLoaded = bool;
       this.autoSelectOnBoarding();
@@ -117,7 +117,7 @@ export class IntrojsService {
     `,
         position: 'right'
       })
-      .onbeforechange(targetElement => {
+      .onbeforechange((targetElement) => {
         if (targetElement.classList.contains('back')) {
           const cardsToSwitch = document.getElementById('cardsSwitch');
           cardsToSwitch.classList.add('flipped');
@@ -226,7 +226,7 @@ export class IntrojsService {
       `,
         position: 'left'
       })
-      .onbeforechange(targetElement => {
+      .onbeforechange((targetElement) => {
         if (targetElement.classList.contains('pia-rightSidebarBlock')) {
           if (i == 1) {
             this.entrySideViewChange.next('export');

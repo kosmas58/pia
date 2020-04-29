@@ -114,7 +114,7 @@ export class CardsComponent implements OnInit, OnDestroy {
    */
   piaChange(pia) {
     if (this._piaService.pias.includes(pia)) {
-      this._piaService.pias.forEach(item => {
+      this._piaService.pias.forEach((item) => {
         if (item.id === pia.id) item = pia;
       });
     } else {

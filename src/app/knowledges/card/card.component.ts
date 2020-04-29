@@ -30,7 +30,7 @@ export class CardComponent implements OnInit {
       .then((result: Knowledge[]) => {
         this.nbEntries = result.length;
       })
-      .catch(err => {
+      .catch((err) => {
         console.log('catch');
       });
   }

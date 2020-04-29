@@ -24,14 +24,14 @@ export class Answer extends ApplicationDb {
           body: this.setFormData(data),
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             this.id = result.id;
             resolve();
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -62,13 +62,13 @@ export class Answer extends ApplicationDb {
             body: this.setFormData(entry),
             mode: 'cors'
           })
-            .then(response => {
+            .then((response) => {
               return response.json();
             })
             .then((result: any) => {
               resolve();
             })
-            .catch(error => {
+            .catch((error) => {
               console.error('Request failed', error);
               reject();
             });
@@ -146,7 +146,7 @@ export class Answer extends ApplicationDb {
         fetch(this.getServerUrl() + '?reference_to=' + this.reference_to, {
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
@@ -161,7 +161,7 @@ export class Answer extends ApplicationDb {
               resolve(false);
             }
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -199,13 +199,13 @@ export class Answer extends ApplicationDb {
         fetch(this.getServerUrl(), {
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -239,13 +239,13 @@ export class Answer extends ApplicationDb {
         fetch(this.getServerUrl(), {
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });

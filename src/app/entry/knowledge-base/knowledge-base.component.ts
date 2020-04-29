@@ -42,7 +42,7 @@ export class KnowledgeBaseComponent implements OnInit {
     this.searchForm = new FormGroup({
       q: new FormControl()
     });
-    window.onscroll = function(ev) {
+    window.onscroll = function (ev) {
       if (window.innerWidth > 640) {
         const el: any = document.querySelector('.pia-knowledgeBaseBlock');
         const el2 = document.querySelector('.pia-knowledgeBaseBlock-list');
@@ -100,8 +100,8 @@ export class KnowledgeBaseComponent implements OnInit {
           content: ''
         };
         this._structureService.structure.data.sections
-          .filter(s => s.id === 3)[0]
-          .items.filter(i => i.id === 1)[0]
+          .filter((s) => s.id === 3)[0]
+          .items.filter((i) => i.id === 1)[0]
           .answers.push(measure);
         this._structureService.structure.update().then(() => {
           this.item.answers.push(measure);
@@ -118,7 +118,7 @@ export class KnowledgeBaseComponent implements OnInit {
         // SET LOCALSTORAGE
         localStorage.setItem('pia_' + this.route.snapshot.params.id + '_knowledgebase', selectedKnowledBase);
       })
-      .catch(err => {
+      .catch((err) => {
         console.log(err);
       });
   }
