@@ -146,7 +146,7 @@ export class BaseComponent implements OnInit {
         this.editMode = 'edit';
         this.showForm = true;
       })
-      .catch(err => {
+      .catch((err) => {
         console.log(err);
       });
   }
@@ -176,12 +176,12 @@ export class BaseComponent implements OnInit {
           .update()
           .then(() => {
             // Update list
-            let index = this.knowledges.findIndex(e => e.id == entry.id);
+            let index = this.knowledges.findIndex((e) => e.id == entry.id);
             if (index !== -1) {
               this.knowledges[index] = entry;
             }
           })
-          .catch(err => {
+          .catch((err) => {
             console.log(err);
           });
       });
@@ -193,7 +193,7 @@ export class BaseComponent implements OnInit {
     if (e.target.checked) {
       ar.push(e.target.value);
     } else {
-      let index = ar.findIndex(item => item == e.target.value);
+      let index = ar.findIndex((item) => item == e.target.value);
       if (index !== -1) {
         ar.splice(index, 1);
       }
@@ -223,11 +223,15 @@ export class BaseComponent implements OnInit {
    */
   sectionCheckedVerification(dataSection) {
     let checked = true;
-    dataSection.items.forEach(item => {
+    dataSection.items.forEach((item) => {
       if (!this.itemsSelected.includes(`${dataSection.id}${item.id}`)) {
         checked = false;
       }
     });
     return checked;
+  }
+
+  closeNewElementForm() {
+    this.showForm = false;
   }
 }
