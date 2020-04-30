@@ -215,10 +215,10 @@
 				"placeholder_name": "Videnbase navn"
 			},
 			"knowledges_entry": {
-				"choose_category": "TO TRANSLATE - Choose a category",
-				"contents": "TO TRANSLATE - Contents",
-				"create": "TO TRANSLATE - Create this element",
-				"linked_to": "TO TRANSLATE - Linked to",
+				"choose_category": "Vælg en kategori",
+				"contents": "Indhold",
+				"create": "Opret dette element",
+				"linked_to": "Knyttet til",
 				"new": "Opret vare",
 				"placeholder_category": "Kategori",
 				"placeholder_description": "Din beskrivelse her ...",

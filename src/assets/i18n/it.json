@@ -215,10 +215,10 @@
 				"placeholder_name": "Nome della knowledge base"
 			},
 			"knowledges_entry": {
-				"choose_category": "TO TRANSLATE - Choose a category",
-				"contents": "TO TRANSLATE - Contents",
-				"create": "TO TRANSLATE - Create this element",
-				"linked_to": "TO TRANSLATE - Linked to",
+				"choose_category": "Scegli una categoria",
+				"contents": "contenuto",
+				"create": "Crea questo elemento",
+				"linked_to": "Collegato a",
 				"new": "Crea un oggetto",
 				"placeholder_category": "CATEGORIA",
 				"placeholder_description": "La tua descrizione qui ...",

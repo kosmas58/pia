@@ -215,10 +215,10 @@
 				"placeholder_name": "Naam kennisbank"
 			},
 			"knowledges_entry": {
-				"choose_category": "TO TRANSLATE - Choose a category",
-				"contents": "TO TRANSLATE - Contents",
-				"create": "TO TRANSLATE - Create this element",
-				"linked_to": "TO TRANSLATE - Linked to",
+				"choose_category": "Kies een categorie",
+				"contents": "Inhoud",
+				"create": "Maak dit element",
+				"linked_to": "Gekoppeld aan",
 				"new": "Item maken",
 				"placeholder_category": "Categorie",
 				"placeholder_description": "Uw beschrijving hier ...",
