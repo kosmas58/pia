@@ -101,7 +101,6 @@
 		},
 		"homepage_link": "TO TRANSLATE - My PIAs",
 		"knowledge_base_link": "Teadmiste pagas",
-		"knowledges": "Teadmistepagas",
 		"languages": {
 			"cnil_translations": "CNIL’i  esitatud tõlge",
 			"community_translations": "Kogukondade tehtud tõlked",
@@ -207,6 +206,7 @@
 				"validate_pia": "TO TRANSLATE - Validate"
 			},
 			"knowledges": {
+				"edit": "Muutke teadmistebaasi",
 				"import": "Importige teadmistebaas",
 				"new": "Loo teadmistebaas",
 				"placeholder_author": "Autor",
@@ -215,6 +215,10 @@
 				"placeholder_name": "Teadmistebaasi nimi"
 			},
 			"knowledges_entry": {
+				"choose_category": "TO TRANSLATE - Choose a category",
+				"contents": "TO TRANSLATE - Contents",
+				"create": "TO TRANSLATE - Create this element",
+				"linked_to": "TO TRANSLATE - Linked to",
 				"new": "Loo üksus",
 				"placeholder_category": "Kategooria",
 				"placeholder_description": "Teie kirjeldus siin ...",
@@ -310,6 +314,8 @@
 			"organizational_measure": "Organisatsiooniline kontroll",
 			"principle": "Põhimõte"
 		},
+		"choose_knowledge_base": "Valige oma teadmistebaas",
+		"default_knowledge_base": "CNILi teadmistebaas (vaikimisi)",
 		"filters": {
 			"all": "Kõik",
 			"definitions": "Mõisted",

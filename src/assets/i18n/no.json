@@ -101,7 +101,6 @@
 		},
 		"homepage_link": "TO TRANSLATE - My PIAs",
 		"knowledge_base_link": "Kunnskapsdatabase",
-		"knowledges": "Kunnskapsbase",
 		"languages": {
 			"cnil_translations": "TO BE TRANSLATED - CNIL provided translations",
 			"community_translations": "TO BE TRANSLATED - Community provided translations",
@@ -207,6 +206,7 @@
 				"validate_pia": "TO TRANSLATE - Validate"
 			},
 			"knowledges": {
+				"edit": "Rediger kunnskapsbasen",
 				"import": "Importer et kunnskapsgrunnlag",
 				"new": "Lag en kunnskapsbase",
 				"placeholder_author": "Forfatter",
@@ -215,6 +215,10 @@
 				"placeholder_name": "Navn på kunnskapsbase"
 			},
 			"knowledges_entry": {
+				"choose_category": "TO TRANSLATE - Choose a category",
+				"contents": "TO TRANSLATE - Contents",
+				"create": "TO TRANSLATE - Create this element",
+				"linked_to": "TO TRANSLATE - Linked to",
 				"new": "Lag element",
 				"placeholder_category": "Kategori",
 				"placeholder_description": "Din beskrivelse her ...",
@@ -310,6 +314,8 @@
 			"organizational_measure": "Styringssystemer",
 			"principle": "Prinsipp"
 		},
+		"choose_knowledge_base": "Velg kunnskapsbase",
+		"default_knowledge_base": "CNILs kunnskapsbase (standard)",
 		"filters": {
 			"all": "Alle",
 			"definitions": "Definisjoner",

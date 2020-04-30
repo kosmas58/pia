@@ -101,7 +101,6 @@
 		},
 		"homepage_link": "TO TRANSLATE - My PIAs",
 		"knowledge_base_link": "Pagalba",
-		"knowledges": "Žinių bazė",
 		"languages": {
 			"cnil_translations": "CNIL vertimas",
 			"community_translations": "Bendruomenės pasiūlytas vertimas",
@@ -207,6 +206,7 @@
 				"validate_pia": "TO TRANSLATE - Validate"
 			},
 			"knowledges": {
+				"edit": "Redaguoti žinių bazę",
 				"import": "Importuokite žinių bazę",
 				"new": "Sukurkite žinių bazę",
 				"placeholder_author": "Autorius",
@@ -215,6 +215,10 @@
 				"placeholder_name": "Žinių bazės pavadinimas"
 			},
 			"knowledges_entry": {
+				"choose_category": "TO TRANSLATE - Choose a category",
+				"contents": "TO TRANSLATE - Contents",
+				"create": "TO TRANSLATE - Create this element",
+				"linked_to": "TO TRANSLATE - Linked to",
 				"new": "Sukurti elementą",
 				"placeholder_category": "Kategorija",
 				"placeholder_description": "Jūsų aprašymas čia ...",
@@ -310,6 +314,8 @@
 			"organizational_measure": "Organizacinės apsaugos priemonės",
 			"principle": "Principas"
 		},
+		"choose_knowledge_base": "Pasirinkite savo žinių bazę",
+		"default_knowledge_base": "CNIL žinių bazė (numatytoji)",
 		"filters": {
 			"all": "Visi",
 			"definitions": "Apibrėžimai",

@@ -101,7 +101,6 @@
 		},
 		"homepage_link": "My PIAs",
 		"knowledge_base_link": "Knowledge base",
-		"knowledges": "Knowledge base",
 		"languages": {
 			"cnil_translations": "CNIL provided translations",
 			"community_translations": "Community provided translations",
@@ -207,19 +206,24 @@
 				"validate_pia": "Validate"
 			},
 			"knowledges": {
-				"import": "Import a knowledge base",
-				"new": "Create a knowledge base",
+				"edit": "Edit the base",
+				"import": "Import a base",
+				"new": "Create a base",
 				"placeholder_author": "Author",
 				"placeholder_contributors": "Contributors",
 				"placeholder_entry_number": "Number of entries",
-				"placeholder_name": "Knowledge base name"
+				"placeholder_name": "Base's name"
 			},
 			"knowledges_entry": {
-				"new": "Create item",
+				"choose_category": "Choose a category",
+				"contents": "Contents",
+				"create": "Create this element",
+				"linked_to": "Linked to",
+				"new": "Create an element",
 				"placeholder_category": "Category",
-				"placeholder_description": "Your description here ...",
-				"placeholder_name": "Item Name",
-				"placeholder_updated_at": "Modified"
+				"placeholder_description": "Your description here...",
+				"placeholder_name": "Element's name",
+				"placeholder_updated_at": "Last updated"
 			},
 			"new_pia": "New PIA",
 			"new_structure": "New template",
@@ -310,6 +314,8 @@
 			"organizational_measure": "Organisational control",
 			"principle": "Principle"
 		},
+		"choose_knowledge_base": "Choose your knowledge base",
+		"default_knowledge_base": "CNIL's knowledge base (default)",
 		"filters": {
 			"all": "All",
 			"definitions": "Definitions",

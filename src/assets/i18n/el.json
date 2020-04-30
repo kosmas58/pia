@@ -101,7 +101,6 @@
 		},
 		"homepage_link": "TO TRANSLATE - My PIAs",
 		"knowledge_base_link": "Βάση γνώσεων",
-		"knowledges": "Βάση γνώσεων",
 		"languages": {
 			"cnil_translations": "Μεταφράσεις που παρείχε η CNIL",
 			"community_translations": "Μεταφράσεις που παρείχε η κοινότητα",
@@ -207,6 +206,7 @@
 				"validate_pia": "TO TRANSLATE - Validate"
 			},
 			"knowledges": {
+				"edit": "Επεξεργαστείτε τη βάση γνώσεων",
 				"import": "Εισαγάγετε μια βάση γνώσεων",
 				"new": "Δημιουργήστε μια βάση γνώσεων",
 				"placeholder_author": "Συντάκτης",
@@ -215,6 +215,10 @@
 				"placeholder_name": "Όνομα βάσης γνώσεων"
 			},
 			"knowledges_entry": {
+				"choose_category": "TO TRANSLATE - Choose a category",
+				"contents": "TO TRANSLATE - Contents",
+				"create": "TO TRANSLATE - Create this element",
+				"linked_to": "TO TRANSLATE - Linked to",
 				"new": "Δημιουργία αντικειμένου",
 				"placeholder_category": "Κατηγορία",
 				"placeholder_description": "Η περιγραφή σας εδώ ...",
@@ -310,6 +314,8 @@
 			"organizational_measure": "Οργανωτικό μέτρο",
 			"principle": "Αρχή"
 		},
+		"choose_knowledge_base": "Επιλέξτε τη βάση γνώσεων σας",
+		"default_knowledge_base": "Γνωσιακή βάση CNIL (προεπιλογή)",
 		"filters": {
 			"all": "Όλα",
 			"definitions": "Ορισμοί",

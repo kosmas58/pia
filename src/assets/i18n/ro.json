@@ -101,7 +101,6 @@
 		},
 		"homepage_link": "TO TRANSLATE - My PIAs",
 		"knowledge_base_link": "Baza de cunoaștere",
-		"knowledges": "Baza de cunoștințe",
 		"languages": {
 			"cnil_translations": "Traduceri oferite de către CNIL",
 			"community_translations": "Traduceri oferite de către Comunitate",
@@ -207,6 +206,7 @@
 				"validate_pia": "TO TRANSLATE - Validate"
 			},
 			"knowledges": {
+				"edit": "Editați baza de cunoștințe",
 				"import": "Importați o bază de cunoștințe",
 				"new": "Creați o bază de cunoștințe",
 				"placeholder_author": "Autor",
@@ -215,6 +215,10 @@
 				"placeholder_name": "Numele bazei de cunoștințe"
 			},
 			"knowledges_entry": {
+				"choose_category": "TO TRANSLATE - Choose a category",
+				"contents": "TO TRANSLATE - Contents",
+				"create": "TO TRANSLATE - Create this element",
+				"linked_to": "TO TRANSLATE - Linked to",
 				"new": "Creare articol",
 				"placeholder_category": "Categorie",
 				"placeholder_description": "Descrierea ta aici ...",
@@ -310,6 +314,8 @@
 			"organizational_measure": "Control organizațional",
 			"principle": "Principle"
 		},
+		"choose_knowledge_base": "Alegeți baza de cunoștințe",
+		"default_knowledge_base": "Baza de cunoștințe CNIL (implicit)",
 		"filters": {
 			"all": "Toate",
 			"definitions": "Definiții",

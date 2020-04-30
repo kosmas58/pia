@@ -101,7 +101,6 @@
 		},
 		"homepage_link": "TO TRANSLATE - My PIAs",
 		"knowledge_base_link": "Base de conocimientos",
-		"knowledges": "Base de conocimientos",
 		"languages": {
 			"cnil_translations": "Traducciones del CNIL",
 			"community_translations": "Traducciones de la comunidad",
@@ -207,6 +206,7 @@
 				"validate_pia": "TO TRANSLATE - Validate"
 			},
 			"knowledges": {
+				"edit": "Editar la base de conocimiento",
 				"import": "Importar una base de conocimiento",
 				"new": "Crea una base de conocimiento",
 				"placeholder_author": "autor",
@@ -215,6 +215,10 @@
 				"placeholder_name": "Nombre de la base de conocimiento"
 			},
 			"knowledges_entry": {
+				"choose_category": "TO TRANSLATE - Choose a category",
+				"contents": "TO TRANSLATE - Contents",
+				"create": "TO TRANSLATE - Create this element",
+				"linked_to": "TO TRANSLATE - Linked to",
 				"new": "Crear artículo",
 				"placeholder_category": "CATEGORÍA",
 				"placeholder_description": "Tu descripción aquí ...",
@@ -310,6 +314,8 @@
 			"organizational_measure": "Controles organizativos",
 			"principle": "Principio"
 		},
+		"choose_knowledge_base": "Elige tu base de conocimiento",
+		"default_knowledge_base": "Base de conocimiento de CNIL (predeterminado)",
 		"filters": {
 			"all": "Todo",
 			"definitions": "Definiciones",
