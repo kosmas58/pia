@@ -219,19 +219,24 @@
 				"validate_pia": "Validate"
 			},
 			"knowledges": {
-				"import": "",
-				"new": "",
-				"placeholder_author": "",
-				"placeholder_contributors": "",
-				"placeholder_entry_number": "",
-				"placeholder_name": ""
+				"edit": "Edit the base",
+				"import": "Import a base",
+				"new": "Create a base",
+				"placeholder_author": "Author",
+				"placeholder_contributors": "Contributors",
+				"placeholder_entry_number": "Number of entries",
+				"placeholder_name": "Base's name"
 			},
 			"knowledges_entry": {
-				"new": "",
-				"placeholder_category": "",
-				"placeholder_description": "",
-				"placeholder_name": "",
-				"placeholder_updated_at": ""
+				"choose_category": "Choose a category",
+				"contents": "Contents",
+				"create": "Create this element",
+				"linked_to": "Linked to",
+				"new": "Create an element",
+				"placeholder_category": "Category",
+				"placeholder_description": "Your description here...",
+				"placeholder_name": "Element's name",
+				"placeholder_updated_at": "Last updated"
 			},
 			"new_pia": "New PIA",
 			"new_structure": "New template",
@@ -256,27 +261,7 @@
 			"structure": "Template",
 			"structure_name": "Template's name",
 			"title_close_creation": "Close",
-      "validation": "Validation",
-      "knowledges": {
-				"new": "Create a base",
-        "import": "Import a base",
-        "edit": "Edit the base",
-				"placeholder_name": "Base's name",
-				"placeholder_author": "Author",
-				"placeholder_contributors": "Contributors",
-				"placeholder_entry_number": "Number of entries"
-			},
-			"knowledges_entry": {
-        "new": "Create an element",
-        "create": "Create this element",
-				"placeholder_name": "Element's name",
-				"placeholder_category": "Category",
-				"placeholder_description": "Your description here...",
-				"placeholder_updated_at": "Last updated",
-        "contents": "Contents",
-        "choose_category":"Choose a category",
-        "linked_to": "Linked to"
-			}
+			"validation": "Validation"
 		},
 		"filters": {
 			"assessor": "Reviewer",
@@ -331,8 +316,6 @@
 		"search_filter": "Search"
 	},
 	"knowledge_base": {
-    "choose_knowledge_base": "Choose your knowledge base",
-    "default_knowledge_base": "CNIL's knowledge base (default)",
 		"add_measure": "Add",
 		"add_measure_hint": "You can also add a measure from the knowledge base.",
 		"category": {
@@ -344,6 +327,8 @@
 			"organizational_measure": "Organisational control",
 			"principle": "Principle"
 		},
+		"choose_knowledge_base": "Choose your knowledge base",
+		"default_knowledge_base": "CNIL's knowledge base (default)",
 		"filters": {
 			"all": "All",
 			"definitions": "Definitions",
