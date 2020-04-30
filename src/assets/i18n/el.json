@@ -53,20 +53,8 @@
 		"send": "Αποστολή"
 	},
 	"date": {
-		"april": "TO TRANSLATE - April",
-		"august": "TO TRANSLATE - August",
-		"december": "TO TRANSLATE - December",
 		"earlier-in-this-month": "TO TRANSLATE - Earlier this month",
 		"earlier-in-this-week": "TO TRANSLATE - Earlier this week",
-		"february": "TO TRANSLATE - February",
-		"january": "TO TRANSLATE - January",
-		"july": "TO TRANSLATE - July",
-		"june": "TO TRANSLATE - June",
-		"march": "TO TRANSLATE - March",
-		"may": "TO TRANSLATE - May",
-		"november": "TO TRANSLATE - November",
-		"october": "TO TRANSLATE - October",
-		"september": "TO TRANSLATE - September",
 		"today": "TO TRANSLATE - Today",
 		"yesterday": "TO TRANSLATE - Yesterday"
 	},
@@ -113,7 +101,6 @@
 		},
 		"homepage_link": "TO TRANSLATE - My PIAs",
 		"knowledge_base_link": "Βάση γνώσεων",
-		"knowledges": "",
 		"languages": {
 			"cnil_translations": "Μεταφράσεις που παρείχε η CNIL",
 			"community_translations": "Μεταφράσεις που παρείχε η κοινότητα",
@@ -146,7 +133,7 @@
 		"tools": {
 			"about": "Σχετικά",
 			"accessibility": "Προσβασιμότητα με προβλήματα όρασης (χρώματα υψηλής αντίθεσης, δαλτονισμός)",
-			"onboarding": "TO TRANSLATE - Restart tutorial",
+			"onboarding": "Επανεκκινήστε το σεμινάριο",
 			"settings": "Ρυθμίσεις",
 			"url_setting": "TO TRANSLATE - Server URL configuration"
 		}
@@ -219,24 +206,24 @@
 				"validate_pia": "TO TRANSLATE - Validate"
 			},
 			"knowledges": {
-				"edit": "TO TRANSLATE - Edit the base",
-				"import": "TO TRANSLATE - Import a base",
-				"new": "TO TRANSLATE - Create a base",
-				"placeholder_author": "TO TRANSLATE - Author",
-				"placeholder_contributors": "TO TRANSLATE - Contributors",
-				"placeholder_entry_number": "TO TRANSLATE - Number of entries",
-				"placeholder_name": "TO TRANSLATE - Base's name"
+				"edit": "Επεξεργαστείτε τη βάση γνώσεων",
+				"import": "Εισαγάγετε μια βάση γνώσεων",
+				"new": "Δημιουργήστε μια βάση γνώσεων",
+				"placeholder_author": "Συντάκτης",
+				"placeholder_contributors": "Συνεισφέροντες",
+				"placeholder_entry_number": "Αριθμός καταχωρήσεων",
+				"placeholder_name": "Όνομα βάσης γνώσεων"
 			},
 			"knowledges_entry": {
 				"choose_category": "TO TRANSLATE - Choose a category",
 				"contents": "TO TRANSLATE - Contents",
 				"create": "TO TRANSLATE - Create this element",
 				"linked_to": "TO TRANSLATE - Linked to",
-				"new": "TO TRANSLATE - Create an element",
-				"placeholder_category": "TO TRANSLATE - Category",
-				"placeholder_description": "TO TRANSLATE - Your description here...",
-				"placeholder_name": "TO TRANSLATE - Element's name",
-				"placeholder_updated_at": "TO TRANSLATE - Last updated"
+				"new": "Δημιουργία αντικειμένου",
+				"placeholder_category": "Κατηγορία",
+				"placeholder_description": "Η περιγραφή σας εδώ ...",
+				"placeholder_name": "Ονομα προϊόντος",
+				"placeholder_updated_at": "Τροποποιήθηκε"
 			},
 			"new_pia": "Νέα ΕΑ",
 			"new_structure": "Νέο υπόδειγμα",
@@ -327,8 +314,8 @@
 			"organizational_measure": "Οργανωτικό μέτρο",
 			"principle": "Αρχή"
 		},
-		"choose_knowledge_base": "TO TRANSLATE - Choose your knowledge base",
-		"default_knowledge_base": "TO TRANSLATE - CNIL's knowledge base (default)",
+		"choose_knowledge_base": "Επιλέξτε τη βάση γνώσεων σας",
+		"default_knowledge_base": "Γνωσιακή βάση CNIL (προεπιλογή)",
 		"filters": {
 			"all": "Όλα",
 			"definitions": "Ορισμοί",
@@ -934,7 +921,7 @@
 			"review_section": "Αξιολόγηση ενός τμήματος"
 		},
 		"general_error": {
-			"content": ""
+			"content": "Συγγνώμη, προέκυψε σφάλμα."
 		},
 		"import_wrong_pia_file": {
 			"content": "Το εισαγόμενο αρχείο δεν αντιστοιχεί σε ένα αρχείο ΕΑ."
@@ -943,8 +930,8 @@
 			"content": "Το εισαγόμενο αρχείο δεν αντιστοιχεί σε ένα αρχείο Υποδείγματος."
 		},
 		"knowledges": {
-			"content": "",
-			"remove": ""
+			"content": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν τη βάση γνώσεων;",
+			"remove": "Διαγράψτε αυτήν τη βάση γνώσεων"
 		},
 		"modal_select_text_pia": {
 			"content": "Το περιεχόμενο της ΕΑ έχει αντιγραφεί στο πρόχειρο."
@@ -1015,91 +1002,91 @@
 	"onboarding": {
 		"dashboard": {
 			"step1": {
-				"description": "TO TRANSLATE - Cliquez sur le <strong>+</strong> pour créer votre premier PIA.",
-				"title": "Create a PIA"
+				"description": "Κάντε κλικ στο <strong>+</strong> για να δημιουργήσετε το πρώτο σας PIA.",
+				"title": "Δημιουργήστε ένα PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - <p>Les <strong>rédacteurs</strong> sont ceux rédigeant la première version de l'analyse.</p><p>Ce sont par exemple les chefs du projet associés au traitement.</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"description": "<p>Οι <strong>συγγραφείς</strong> είναι αυτοί που γράφουν την πρώτη έκδοση της ανάλυσης.</p><p>Αυτά είναι, για παράδειγμα, οι υπεύθυνοι του έργου που σχετίζονται με τη θεραπεία.</p>",
+				"title": "Ρόλοι γύρω από το PIA"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>Les <strong>évaluateurs</strong> interviennent dans un second temps.</p><p>Ils jaugent, à l'aune de leur expertise juridique ou technique, la qualité et la conformité du traitement.</p><p>Ce sont par exemple le RSSI, des juristes, le DPO, ...</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"description": "<p>Οι <strong>αξιολογητές</strong> παρεμβαίνουν σε ένα δεύτερο βήμα.</p><p>Μετρούν, βάσει της νομικής ή τεχνικής τους εμπειρογνωμοσύνης, την ποιότητα και τη συμμόρφωση της επεξεργασίας.</p><p>Αυτά, για παράδειγμα, CISO, δικηγόροι, DPO, ...</p>",
+				"title": "Ρόλοι γύρω από το PIA"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - <p>Les <strong>validateurs</strong> acceptent ou non la mise en oeuvre du traitement.Ils doivent signer l'analyse.</p><p>Ce sont les responsables de traitement, comme par exemple le CEO.</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"description": "<p>Οι <strong>επικυρωτές</strong> αποδέχονται ή όχι την εφαρμογή της θεραπείας. Πρέπει να υπογράψουν την ανάλυση.</p><p>Αυτοί είναι οι ελεγκτές, όπως ο διευθύνων σύμβουλος.</p>",
+				"title": "Ρόλοι γύρω από το PIA"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - <p>Les <strong>modèles</strong> sont une fonctionnalité avancée.Ils permettent de créer une base pré-remplie de l'analyse.</p><p>Vous pouvez créer des modèles en allant dans la section associée depuis le menu du haut.</p>",
-				"title": "Models"
+				"description": "<p>Τα <strong>μοντέλα</strong> είναι μια προηγμένη δυνατότητα που σας επιτρέπει να δημιουργήσετε μια προγεμισμένη βάση δεδομένων της ανάλυσης.</p><p>Μπορείτε να δημιουργήσετε πρότυπα μεταβαίνοντας στη σχετική ενότητα από το επάνω μενού.</p>",
+				"title": "Τα μοντέλα"
 			}
 		},
 		"entry": {
 			"step1": {
-				"description": "TO TRANSLATE - Pour passer d'une partie à l'autre de l'analyse, utilisez le menu de navigation de gauche.",
-				"title": "TO TRANSLATE - Naviguer"
+				"description": "Για να μετακινηθείτε από το ένα μέρος της ανάλυσης στο άλλο, χρησιμοποιήστε το αριστερό μενού πλοήγησης.",
+				"title": "Πλοήγηση"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - Il sert à expliquer l'objectif du traitement et comment il sera mis en oeuvre.",
-				"title": "Context"
+				"description": "Χρησιμοποιείται για να εξηγήσει τον σκοπό της θεραπείας και πώς θα εφαρμοστεί.",
+				"title": "συμφραζόμενα"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - Ils permettent de s'assurer que le traitement est juridiquement conforme au RGPD.",
-				"title": "Fundamental principles"
+				"description": "Καθιστούν δυνατή τη διασφάλιση της νομικής συμμόρφωσης της επεξεργασίας με τον GDPR.",
+				"title": "Θεμελιώδεις αρχές"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - Ils décrivent les mesures de sécurité déjà prévues sur le traitement et permettent d'évaluer les impacts potentiels sur les personnes concernées.",
-				"title": "Risks"
+				"description": "Περιγράφουν τα μέτρα ασφαλείας που έχουν ήδη προγραμματιστεί για τη θεραπεία και επιτρέπουν την αξιολόγηση των πιθανών επιπτώσεων στα ενδιαφερόμενα άτομα.",
+				"title": "Κίνδυνοι"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - Elle permet au DPO d'exprimer son avis sur la mise en oeuvre du traitement et au responsable de traitement de l'accepter ou de le refuser.",
-				"title": "Validation"
+				"description": "Επιτρέπει στον DPO να εκφράσει τη γνώμη του σχετικά με την εφαρμογή της επεξεργασίας και ο υπεύθυνος επεξεργασίας δεδομένων να το αποδεχτεί ή να το απορρίψει.",
+				"title": "Επικύρωση"
 			},
 			"step6": {
-				"description": "TO TRANSLATE - <p>Elle fournit une aide contextuelle à la réalisation de l'analyse et s'appuie sur le RGPD, le guide de sécurité et les guides AIPD de la CNIL.</p><p>En plus de ces contenus, vous pouvez également créer vos propres bases de connaissances pour accéder facilement à des informations spécifiques à votre organisme.</p>",
-				"title": "Knowledge base"
+				"description": "<p>Παρέχει βοήθεια με βάση τα συμφραζόμενα κατά τη διεξαγωγή της ανάλυσης και βασίζεται στον GDPR, στον οδηγό ασφαλείας και στους οδηγούς PIA του CNIL.</p><p>Εκτός από αυτό το περιεχόμενο, μπορείτε επίσης να δημιουργήσετε τις δικές σας γνώσεις για εύκολη πρόσβαση σε συγκεκριμένες πληροφορίες για τον οργανισμό σας.</p>",
+				"title": "Βάση γνώσεων"
 			},
 			"step7": {
-				"description": "TO TRANSLATE - À tout moment lors de la réalisation de l'analyse, vous pouvez télécharger l'analyse sous divers formats pour la partager avec vos collaborateurs.",
-				"title": "TO TRANSLATE - Exporter son AIPD"
+				"description": "Ανά πάσα στιγμή κατά τη διάρκεια της ανάλυσης, μπορείτε να πραγματοποιήσετε λήψη της ανάλυσης σε διάφορες μορφές για να τη μοιραστείτε με τους συνεργάτες σας.",
+				"title": "Εξαγάγετε το PIA σας"
 			}
 		},
 		"evaluation": {
 			"step1": {
-				"description": "TO TRANSLATE - L'évaluation peut se faire au niveau d'une section entière, ou bien au niveau de chaque élément d'une section.",
-				"title": "TO TRANSLATE - Évaluer l'AIPD"
+				"description": "Η αξιολόγηση μπορεί να γίνει σε επίπεδο ολόκληρης της ενότητας ή στο επίπεδο κάθε στοιχείου μιας ενότητας.",
+				"title": "Αξιολογήστε το PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - <p>Cette évaluation indique aux rédacteurs que des éléments sont manquants pour pouvoir faire une évaluation pertinente.</p><p>L'évaluateur doit indiquer ceux-ci dans le champ <strong>commentaire d'évaluation</strong> associé. Le rédacteur reverra sa copie en fonction.</p>",
-				"title": "TO TRANSLATE - À corriger"
+				"description": "<p>Αυτή η αξιολόγηση δείχνει στους συντάκτες ότι λείπουν στοιχεία για να είναι σε θέση να πραγματοποιήσουν μια σχετική αξιολόγηση.</p><p>Ο αξιολογητής πρέπει να τις αναφέρει στο σχετικό <strong>πεδίο σχολίων αξιολόγησης</strong> . Ο συντάκτης θα επανεξετάσει το αντίγραφό του αναλόγως.</p>",
+				"title": "Για να διορθώσετε"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>Cette évaluation indique les points du traitement à réviser et sont détaillés dans le champ <strong>plan d'action / mesures correctives</strong>.</p><p>Ces mesures seront ajoutées automatiquement à la partie plan d'action de l'analyse. Il est nécessaire de les mettre en oeuvre dans les plus brefs délais.</p>",
-				"title": "TO TRANSLATE - Améliorable"
+				"description": "<p>Αυτή η αξιολόγηση δείχνει τα σημεία επεξεργασίας που πρέπει να αναθεωρηθούν και αναφέρονται λεπτομερώς στο πεδίο <strong>σχέδιο δράσης / διορθωτικά μέτρα</strong>.</p><p>Αυτά τα μέτρα θα προστεθούν αυτόματα στο σχέδιο δράσης μέρος της ανάλυσης. Είναι απαραίτητο να τα εφαρμόσετε το συντομότερο δυνατό.</p>",
+				"title": "Αναβαθμίσιμο"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - Cette évaluation signifie que, en l'état, ce point du traitement peut être mis en oeuvre sans y apporter de modifications.",
-				"title": "TO TRANSLATE - Acceptable"
+				"description": "Αυτή η αξιολόγηση σημαίνει ότι, ως έχει, αυτό το σημείο επεξεργασίας μπορεί να εφαρμοστεί χωρίς καμία τροποποίηση.",
+				"title": "Αποδεκτή"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - Si l'évaluation d'une section n'a pas encore commencé, il est possible d'annuler la demande d'évaluation pour apporter des modifications à la description du traitement.",
-				"title": "TO TRANSLATE - Annuler une demande"
+				"description": "Εάν η αξιολόγηση μιας τομής δεν έχει ξεκινήσει ακόμη, είναι δυνατόν να ακυρώσετε το αίτημα αξιολόγησης για να κάνετε αλλαγές στην περιγραφή της θεραπείας.",
+				"title": "Ακύρωση αιτήματος"
 			}
 		},
 		"general": {
-			"done": "Confirm",
-			"next": "Next",
-			"skip": "Skip"
+			"done": "Επιβεβαιώνω",
+			"next": "Επόμενο",
+			"skip": "Παραλείπω"
 		},
 		"validated": {
 			"step1": {
-				"description": "TO TRANSLATE - Une analyse faite dans son intégralité et validée peut être consultée à tout moment via une interface dédiée.",
-				"title": "TO TRANSLATE - Consulter une AIPD validée"
+				"description": "Μια ανάλυση που γίνεται στο σύνολό της και επικυρώνεται μπορεί να ζητηθεί ανά πάσα στιγμή μέσω μιας ειδικής διεπαφής.",
+				"title": "Συμβουλευτείτε ένα επικυρωμένο PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - Il est nécessaire de réviser son analyse régulièrement. Vous pouvez à tout moment l'éditer ou la dupliquer pour revoir son contenu en fonction des évolutions du traitement.",
-				"title": "TO TRANSLATE - Mettre à jour une AIPD validée"
+				"description": "Είναι απαραίτητο να ελέγχετε τακτικά την ανάλυσή σας. Μπορείτε να το επεξεργαστείτε ή να το αντιγράψετε ανά πάσα στιγμή για να ελέγξετε το περιεχόμενό του σύμφωνα με τις αλλαγές στην επεξεργασία.",
+				"title": "Ενημέρωση επικυρωμένου PIA"
 			}
 		}
 	},

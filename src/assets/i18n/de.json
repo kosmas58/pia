@@ -53,20 +53,8 @@
 		"send": "Senden"
 	},
 	"date": {
-		"april": "TO TRANSLATE - April",
-		"august": "TO TRANSLATE - August",
-		"december": "TO TRANSLATE - December",
 		"earlier-in-this-month": "TO TRANSLATE - Earlier this month",
 		"earlier-in-this-week": "TO TRANSLATE - Earlier this week",
-		"february": "TO TRANSLATE - February",
-		"january": "TO TRANSLATE - January",
-		"july": "TO TRANSLATE - July",
-		"june": "TO TRANSLATE - June",
-		"march": "TO TRANSLATE - March",
-		"may": "TO TRANSLATE - May",
-		"november": "TO TRANSLATE - November",
-		"october": "TO TRANSLATE - October",
-		"september": "TO TRANSLATE - September",
 		"today": "TO TRANSLATE - Today",
 		"yesterday": "TO TRANSLATE - Yesterday"
 	},
@@ -113,7 +101,6 @@
 		},
 		"homepage_link": "TO TRANSLATE - My PIAs",
 		"knowledge_base_link": "Wissensbasis",
-		"knowledges": "",
 		"languages": {
 			"cnil_translations": "Von der CNIL bereitgestellte Übersetzungen",
 			"community_translations": "Von der Community bereitgestellte Übersetzungen",
@@ -146,7 +133,7 @@
 		"tools": {
 			"about": "Über",
 			"accessibility": "Unterstützung für Sehbehinderte (kontrastreiche Farben, bei Rot-Grün-Sehschwäche)",
-			"onboarding": "TO TRANSLATE - Restart tutorial",
+			"onboarding": "Starten Sie das Tutorial neu",
 			"settings": "Einstellungen",
 			"url_setting": "TO TRANSLATE - Server URL configuration"
 		}
@@ -219,24 +206,24 @@
 				"validate_pia": "TO TRANSLATE - Validate"
 			},
 			"knowledges": {
-				"edit": "TO TRANSLATE - Edit the base",
-				"import": "TO TRANSLATE - Import a base",
-				"new": "TO TRANSLATE - Create a base",
-				"placeholder_author": "TO TRANSLATE - Author",
-				"placeholder_contributors": "TO TRANSLATE - Contributors",
-				"placeholder_entry_number": "TO TRANSLATE - Number of entries",
-				"placeholder_name": "TO TRANSLATE - Base's name"
+				"edit": "Bearbeiten Sie die Wissensdatenbank",
+				"import": "Importieren Sie eine Wissensbasis",
+				"new": "Erstellen Sie eine Wissensbasis",
+				"placeholder_author": "Autor",
+				"placeholder_contributors": "Mitwirkende",
+				"placeholder_entry_number": "Anzahl der Einträge",
+				"placeholder_name": "Name der Wissensbasis"
 			},
 			"knowledges_entry": {
 				"choose_category": "TO TRANSLATE - Choose a category",
 				"contents": "TO TRANSLATE - Contents",
 				"create": "TO TRANSLATE - Create this element",
 				"linked_to": "TO TRANSLATE - Linked to",
-				"new": "TO TRANSLATE - Create an element",
-				"placeholder_category": "TO TRANSLATE - Category",
-				"placeholder_description": "TO TRANSLATE - Your description here...",
-				"placeholder_name": "TO TRANSLATE - Element's name",
-				"placeholder_updated_at": "TO TRANSLATE - Last updated"
+				"new": "Element erstellen",
+				"placeholder_category": "Kategorie",
+				"placeholder_description": "Ihre Beschreibung hier ...",
+				"placeholder_name": "Artikelname",
+				"placeholder_updated_at": "geändert am"
 			},
 			"new_pia": "Neue DSFA",
 			"new_structure": "Neue Vorlage",
@@ -327,8 +314,8 @@
 			"organizational_measure": "Organisationsmaßnahme",
 			"principle": "Prinzip"
 		},
-		"choose_knowledge_base": "TO TRANSLATE - Choose your knowledge base",
-		"default_knowledge_base": "TO TRANSLATE - CNIL's knowledge base (default)",
+		"choose_knowledge_base": "Wählen Sie Ihre Wissensbasis",
+		"default_knowledge_base": "CNILs Wissensdatenbank (Standard)",
 		"filters": {
 			"all": "Alle",
 			"definitions": "Definitionen",
@@ -934,7 +921,7 @@
 			"review_section": "Überprüfen Sie einen Abschnitt"
 		},
 		"general_error": {
-			"content": ""
+			"content": "Ein Fehler ist aufgetreten.<br>Bitte entschuldigen Sie die Unannehmlichkeiten."
 		},
 		"import_wrong_pia_file": {
 			"content": "Die importierte Datei entspricht nicht dem Dateityp einer DSFA."
@@ -943,8 +930,8 @@
 			"content": "Die importierte Datei entspricht nicht dem Dateityp einer Vorlage."
 		},
 		"knowledges": {
-			"content": "",
-			"remove": ""
+			"content": "Möchten Sie diese Wissensdatenbank wirklich löschen?",
+			"remove": "Löschen Sie diese Wissensbasis"
 		},
 		"modal_select_text_pia": {
 			"content": "Der Inhalt der DSFA wurde in die Zwischenablage kopiert."
@@ -1015,91 +1002,91 @@
 	"onboarding": {
 		"dashboard": {
 			"step1": {
-				"description": "TO TRANSLATE - Cliquez sur le <strong>+</strong> pour créer votre premier PIA.",
-				"title": "Create a PIA"
+				"description": "Klicken Sie auf <strong>+</strong> , um Ihre erste PIA zu erstellen.",
+				"title": "Erstellen Sie eine DSFA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - <p>Les <strong>rédacteurs</strong> sont ceux rédigeant la première version de l'analyse.</p><p>Ce sont par exemple les chefs du projet associés au traitement.</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"description": "<p>Die <strong>Autoren</strong> sind diejenigen, die die erste Version der Analyse schreiben.</p><p>Dies sind zum Beispiel die mit der Behandlung verbundenen Projektleiter.</p>",
+				"title": "Rollen rund um die DSFA"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>Les <strong>évaluateurs</strong> interviennent dans un second temps.</p><p>Ils jaugent, à l'aune de leur expertise juridique ou technique, la qualité et la conformité du traitement.</p><p>Ce sont par exemple le RSSI, des juristes, le DPO, ...</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"description": "<p>Die <strong>Prüfer</strong> greifen in einem zweiten Schritt ein.</p><p>Sie beurteilen anhand ihrer rechtlichen oder technischen Fachkenntnisse die Qualität und Konformität der Verarbeitung.</p><p>Dies sind zum Beispiel der CISO, Anwälte, der Datenschutzbeauftragte, ...</p>",
+				"title": "Rollen rund um die DSFA"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - <p>Les <strong>validateurs</strong> acceptent ou non la mise en oeuvre du traitement.Ils doivent signer l'analyse.</p><p>Ce sont les responsables de traitement, comme par exemple le CEO.</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"description": "<p>Die <strong>Bestätiger</strong> akzeptieren die Implementierung der Behandlung oder nicht. Sie müssen die Analyse unterschreiben.</p><p>Dies sind die Verantwortlichen, z. B. der CEO.</p>",
+				"title": "Rollen rund um die DSFA"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - <p>Les <strong>modèles</strong> sont une fonctionnalité avancée.Ils permettent de créer une base pré-remplie de l'analyse.</p><p>Vous pouvez créer des modèles en allant dans la section associée depuis le menu du haut.</p>",
-				"title": "Models"
+				"description": "<p>Die <strong>Vorlagen</strong> sind eine erweiterte Funktion, mit der Sie eine vorgefüllte Datenbank der Analyse erstellen können.</p><p>Sie können Vorlagen erstellen, indem Sie im zugehörigen Menü des zugehörigen Abschnitts aufrufen.</p>",
+				"title": "Die Vorlagen"
 			}
 		},
 		"entry": {
 			"step1": {
-				"description": "TO TRANSLATE - Pour passer d'une partie à l'autre de l'analyse, utilisez le menu de navigation de gauche.",
-				"title": "TO TRANSLATE - Naviguer"
+				"description": "Verwenden Sie das linke Navigationsmenü, um von einem Teil der Analyse zum anderen zu wechseln.",
+				"title": "Navigation"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - Il sert à expliquer l'objectif du traitement et comment il sera mis en oeuvre.",
-				"title": "Context"
+				"description": "Es wird verwendet, um den Zweck der Verarbeitung und deren Durchführung zu erläutern.",
+				"title": "Kontext"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - Ils permettent de s'assurer que le traitement est juridiquement conforme au RGPD.",
-				"title": "Fundamental principles"
+				"description": "Sie ermöglichen es sicherzustellen, dass die Verarbeitung rechtlich mit der DSGVO vereinbar ist.",
+				"title": "Fundamentale Prinzipien"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - Ils décrivent les mesures de sécurité déjà prévues sur le traitement et permettent d'évaluer les impacts potentiels sur les personnes concernées.",
-				"title": "Risks"
+				"description": "Sie beschreiben die bereits für die Verarbeitung geplanten Sicherheitsmaßnahmen und ermöglichen die Bewertung der möglichen Auswirkungen auf die betroffenen Personen.",
+				"title": "Risiken"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - Elle permet au DPO d'exprimer son avis sur la mise en oeuvre du traitement et au responsable de traitement de l'accepter ou de le refuser.",
-				"title": "Validation"
+				"description": "Es ermöglicht dem Datenschutzbeauftragten, seine Meinung zur Durchführung der Verarbeitung zu äußern, und dem für die Verarbeitung Verantwortlichen, diese zu akzeptieren oder abzulehnen.",
+				"title": "Bestätigung"
 			},
 			"step6": {
-				"description": "TO TRANSLATE - <p>Elle fournit une aide contextuelle à la réalisation de l'analyse et s'appuie sur le RGPD, le guide de sécurité et les guides AIPD de la CNIL.</p><p>En plus de ces contenus, vous pouvez également créer vos propres bases de connaissances pour accéder facilement à des informations spécifiques à votre organisme.</p>",
-				"title": "Knowledge base"
+				"description": "<p>Es bietet kontextbezogene Unterstützung bei der Durchführung der Analyse und basiert auf der DSGVO, dem Sicherheitsleitfaden und den PIA-Leitfäden der CNIL.</p><p>Zusätzlich zu diesem Inhalt können Sie auch eigene Wissensdatenbanken erstellen, um auf einfache Weise auf unternehmensspezifische Informationen zugreifen zu können.</p>",
+				"title": "Wissensbasis"
 			},
 			"step7": {
-				"description": "TO TRANSLATE - À tout moment lors de la réalisation de l'analyse, vous pouvez télécharger l'analyse sous divers formats pour la partager avec vos collaborateurs.",
-				"title": "TO TRANSLATE - Exporter son AIPD"
+				"description": "Während der Analyse können Sie die Analyse jederzeit in verschiedenen Formaten herunterladen, um sie für Ihre Mitarbeiter freizugeben.",
+				"title": "Exportieren Sie Ihre DSFA"
 			}
 		},
 		"evaluation": {
 			"step1": {
-				"description": "TO TRANSLATE - L'évaluation peut se faire au niveau d'une section entière, ou bien au niveau de chaque élément d'une section.",
-				"title": "TO TRANSLATE - Évaluer l'AIPD"
+				"description": "Die Bewertung kann auf der Ebene eines gesamten Abschnitts oder auf der Ebene jedes Elements eines Abschnitts erfolgen.",
+				"title": "Überprüfen Sie die DSFA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - <p>Cette évaluation indique aux rédacteurs que des éléments sont manquants pour pouvoir faire une évaluation pertinente.</p><p>L'évaluateur doit indiquer ceux-ci dans le champ <strong>commentaire d'évaluation</strong> associé. Le rédacteur reverra sa copie en fonction.</p>",
-				"title": "TO TRANSLATE - À corriger"
+				"description": "<p>Diese Überprüfung zeigt den Verfassern an, dass Elemente fehlen, um eine relevante Bewertung vornehmen zu können.</p><p>Der Prüfer muss diese im zugehörigen Feld <strong>Bewertungskommentar</strong> angeben. Der Autor wird sein Exemplar entsprechend rezensieren.</p>",
+				"title": "Zu korrigieren"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>Cette évaluation indique les points du traitement à réviser et sont détaillés dans le champ <strong>plan d'action / mesures correctives</strong>.</p><p>Ces mesures seront ajoutées automatiquement à la partie plan d'action de l'analyse. Il est nécessaire de les mettre en oeuvre dans les plus brefs délais.</p>",
-				"title": "TO TRANSLATE - Améliorable"
+				"description": "<p>Diese Bewertung gibt die zu überarbeitenden Verarbeitungspunkte an und ist im Feld <strong>Aktionsplan / Korrekturmaßnahmen</strong>aufgeführt.</p><p>Diese Maßnahmen werden automatisch zum Aktionsplanteil der Analyse hinzugefügt. Es ist notwendig, sie so schnell wie möglich umzusetzen.</p>",
+				"title": "Verbesserungsfähig"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - Cette évaluation signifie que, en l'état, ce point du traitement peut être mis en oeuvre sans y apporter de modifications.",
-				"title": "TO TRANSLATE - Acceptable"
+				"description": "Diese Bewertung bedeutet, dass diese Verarbeitungtätigkeit derzeit ohne Änderungen implementiert werden kann.",
+				"title": "Akzeptabel"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - Si l'évaluation d'une section n'a pas encore commencé, il est possible d'annuler la demande d'évaluation pour apporter des modifications à la description du traitement.",
-				"title": "TO TRANSLATE - Annuler une demande"
+				"description": "Wenn die Bewertung eines Abschnitts noch nicht begonnen hat, kann die Bewertungsanforderung abgebrochen werden, um Änderungen an der Beschreibung der Verarbeitung vorzunehmen.",
+				"title": "Anfrage abbrechen"
 			}
 		},
 		"general": {
-			"done": "Confirm",
-			"next": "Next",
-			"skip": "Skip"
+			"done": "Bestätigen",
+			"next": "Nächster",
+			"skip": "Überspringen"
 		},
 		"validated": {
 			"step1": {
-				"description": "TO TRANSLATE - Une analyse faite dans son intégralité et validée peut être consultée à tout moment via une interface dédiée.",
-				"title": "TO TRANSLATE - Consulter une AIPD validée"
+				"description": "Eine vollständig durchgeführte und bestätigte Analyse kann jederzeit über eine spezielle Schnittstelle abgerufen werden.",
+				"title": "Eine bestätigte DSFA anzeigen"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - Il est nécessaire de réviser son analyse régulièrement. Vous pouvez à tout moment l'éditer ou la dupliquer pour revoir son contenu en fonction des évolutions du traitement.",
-				"title": "TO TRANSLATE - Mettre à jour une AIPD validée"
+				"description": "Es ist notwendig, Ihre Analyse regelmäßig zu überprüfen. Sie können sie jederzeit bearbeiten oder duplizieren, um den Inhalt entsprechend den Änderungen in der Verarbeitung zu überprüfen.",
+				"title": "Aktualisieren Sie eine bestätigte DSFA"
 			}
 		}
 	},

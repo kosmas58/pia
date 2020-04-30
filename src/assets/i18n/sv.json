@@ -53,20 +53,8 @@
 		"send": "Skicka"
 	},
 	"date": {
-		"april": "TO TRANSLATE - April",
-		"august": "TO TRANSLATE - August",
-		"december": "TO TRANSLATE - December",
 		"earlier-in-this-month": "TO TRANSLATE - Earlier this month",
 		"earlier-in-this-week": "TO TRANSLATE - Earlier this week",
-		"february": "TO TRANSLATE - February",
-		"january": "TO TRANSLATE - January",
-		"july": "TO TRANSLATE - July",
-		"june": "TO TRANSLATE - June",
-		"march": "TO TRANSLATE - March",
-		"may": "TO TRANSLATE - May",
-		"november": "TO TRANSLATE - November",
-		"october": "TO TRANSLATE - October",
-		"september": "TO TRANSLATE - September",
 		"today": "TO TRANSLATE - Today",
 		"yesterday": "TO TRANSLATE - Yesterday"
 	},
@@ -113,7 +101,6 @@
 		},
 		"homepage_link": "Hem",
 		"knowledge_base_link": "Kunskapsbas",
-		"knowledges": "",
 		"languages": {
 			"cnil_translations": "Traductions fournies par la CNIL",
 			"community_translations": "Traductions fournies par la communauté",
@@ -146,7 +133,7 @@
 		"tools": {
 			"about": "Om",
 			"accessibility": "Tillgänglighet för funktionsvariationer (skarpa kontrastfärger, anpassning till färgblindhet)",
-			"onboarding": "TO TRANSLATE - Restart tutorial",
+			"onboarding": "Starta om tutorialen",
 			"settings": "Inställningar",
 			"url_setting": "TO TRANSLATE - Server URL configuration"
 		}
@@ -219,24 +206,24 @@
 				"validate_pia": "TO TRANSLATE - Validate"
 			},
 			"knowledges": {
-				"edit": "TO TRANSLATE - Edit the base",
-				"import": "TO TRANSLATE - Import a base",
-				"new": "TO TRANSLATE - Create a base",
-				"placeholder_author": "TO TRANSLATE - Author",
-				"placeholder_contributors": "TO TRANSLATE - Contributors",
-				"placeholder_entry_number": "TO TRANSLATE - Number of entries",
-				"placeholder_name": "TO TRANSLATE - Base's name"
+				"edit": "Redigera kunskapsbasen",
+				"import": "Importera en kunskapsbas",
+				"new": "Skapa en kunskapsbas",
+				"placeholder_author": "Författare",
+				"placeholder_contributors": "Medverkande",
+				"placeholder_entry_number": "Antal poster",
+				"placeholder_name": "Kunskapsbasens namn"
 			},
 			"knowledges_entry": {
 				"choose_category": "TO TRANSLATE - Choose a category",
 				"contents": "TO TRANSLATE - Contents",
 				"create": "TO TRANSLATE - Create this element",
 				"linked_to": "TO TRANSLATE - Linked to",
-				"new": "TO TRANSLATE - Create an element",
-				"placeholder_category": "TO TRANSLATE - Category",
-				"placeholder_description": "TO TRANSLATE - Your description here...",
-				"placeholder_name": "TO TRANSLATE - Element's name",
-				"placeholder_updated_at": "TO TRANSLATE - Last updated"
+				"new": "Skapa objekt",
+				"placeholder_category": "KAtegori",
+				"placeholder_description": "Din beskrivning här ...",
+				"placeholder_name": "Föremålsnamn",
+				"placeholder_updated_at": "Ändrad"
 			},
 			"new_pia": "Ny PIA",
 			"new_structure": "Ny mall",
@@ -327,8 +314,8 @@
 			"organizational_measure": "Organisatorisk åtgärd",
 			"principle": "Princip"
 		},
-		"choose_knowledge_base": "TO TRANSLATE - Choose your knowledge base",
-		"default_knowledge_base": "TO TRANSLATE - CNIL's knowledge base (default)",
+		"choose_knowledge_base": "Välj din kunskapsbas",
+		"default_knowledge_base": "CNILs kunskapsbas (standard)",
 		"filters": {
 			"all": "Alla",
 			"definitions": "Definitioner",
@@ -934,7 +921,7 @@
 			"review_section": "Utvärdera en sektion"
 		},
 		"general_error": {
-			"content": ""
+			"content": "Alla våra ursäkter ett fel har inträffat."
 		},
 		"import_wrong_pia_file": {
 			"content": "Den importerade filen är inte en korrekt PIA-fil"
@@ -943,8 +930,8 @@
 			"content": "Den importerade filen är inte en korrekt mall-fil"
 		},
 		"knowledges": {
-			"content": "",
-			"remove": ""
+			"content": "Är du säker på att du vill ta bort den här kunskapsbasen?",
+			"remove": "Ta bort denna kunskapsbas"
 		},
 		"modal_select_text_pia": {
 			"content": "Innehållet i PIAn är kopierat till urklipp"
@@ -1015,91 +1002,91 @@
 	"onboarding": {
 		"dashboard": {
 			"step1": {
-				"description": "TO TRANSLATE - Cliquez sur le <strong>+</strong> pour créer votre premier PIA.",
-				"title": "Create a PIA"
+				"description": "Klicka på <strong>+</strong> för att skapa din första PIA.",
+				"title": "Skapa en PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - <p>Les <strong>rédacteurs</strong> sont ceux rédigeant la première version de l'analyse.</p><p>Ce sont par exemple les chefs du projet associés au traitement.</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"description": "<p> <strong>författarna</strong> är de som skriver den första versionen av analysen.</p><p>Dessa är till exempel projektledarna som är förknippade med behandlingen.</p>",
+				"title": "Roller kring PIA"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>Les <strong>évaluateurs</strong> interviennent dans un second temps.</p><p>Ils jaugent, à l'aune de leur expertise juridique ou technique, la qualité et la conformité du traitement.</p><p>Ce sont par exemple le RSSI, des juristes, le DPO, ...</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"description": "<p> <strong>utvärderarna</strong> ingriper i ett andra steg.</p><p>De mäter, baserat på deras juridiska eller tekniska expertis, kvaliteten och efterlevnaden av behandlingen.</p><p>Dessa är till exempel CISO, advokater, DPO, ...</p>",
+				"title": "Roller kring PIA"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - <p>Les <strong>validateurs</strong> acceptent ou non la mise en oeuvre du traitement.Ils doivent signer l'analyse.</p><p>Ce sont les responsables de traitement, comme par exemple le CEO.</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"description": "<p> <strong>validerare</strong> accepterar eller inte genomförandet av behandlingen. De måste underteckna analysen.</p><p>Det här är kontrollerna, till exempel VD.</p>",
+				"title": "Roller kring PIA"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - <p>Les <strong>modèles</strong> sont une fonctionnalité avancée.Ils permettent de créer une base pré-remplie de l'analyse.</p><p>Vous pouvez créer des modèles en allant dans la section associée depuis le menu du haut.</p>",
-				"title": "Models"
+				"description": "<p>Modellerna <strong></strong> är en avancerad funktion som låter dig skapa en förfylld databas för analysen.</p><p>Du kan skapa mallar genom att gå till tillhörande avsnitt från toppmenyn.</p>",
+				"title": "Modellerna"
 			}
 		},
 		"entry": {
 			"step1": {
-				"description": "TO TRANSLATE - Pour passer d'une partie à l'autre de l'analyse, utilisez le menu de navigation de gauche.",
-				"title": "TO TRANSLATE - Naviguer"
+				"description": "För att flytta från en del av analysen till den andra använder du vänster navigationsmeny.",
+				"title": "Navigering"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - Il sert à expliquer l'objectif du traitement et comment il sera mis en oeuvre.",
-				"title": "Context"
+				"description": "Det används för att förklara syftet med behandlingen och hur den kommer att implementeras.",
+				"title": "Sammanhang"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - Ils permettent de s'assurer que le traitement est juridiquement conforme au RGPD.",
-				"title": "Fundamental principles"
+				"description": "De gör det möjligt att säkerställa att behandlingen är lagligt förenlig med GDPR.",
+				"title": "Fundamentala principer"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - Ils décrivent les mesures de sécurité déjà prévues sur le traitement et permettent d'évaluer les impacts potentiels sur les personnes concernées.",
-				"title": "Risks"
+				"description": "De beskriver de säkerhetsåtgärder som redan planerats för behandlingen och gör det möjligt att bedöma de potentiella effekterna på de berörda personerna.",
+				"title": "Risker"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - Elle permet au DPO d'exprimer son avis sur la mise en oeuvre du traitement et au responsable de traitement de l'accepter ou de le refuser.",
-				"title": "Validation"
+				"description": "Det tillåter DPO att uttala sig om genomförandet av behandlingen och datakontrollanten att acceptera eller vägra den.",
+				"title": "Godkännande"
 			},
 			"step6": {
-				"description": "TO TRANSLATE - <p>Elle fournit une aide contextuelle à la réalisation de l'analyse et s'appuie sur le RGPD, le guide de sécurité et les guides AIPD de la CNIL.</p><p>En plus de ces contenus, vous pouvez également créer vos propres bases de connaissances pour accéder facilement à des informations spécifiques à votre organisme.</p>",
-				"title": "Knowledge base"
+				"description": "<p>Den ger kontextuell hjälp vid genomförandet av analysen och är baserad på GDPR, säkerhetsguiden och PIA-guiderna från CNIL.</p><p>Utöver detta innehåll kan du också skapa dina egna kunskapsbaser för enkel åtkomst till information som är specifik för din organisation.</p>",
+				"title": "Kunskapsbas"
 			},
 			"step7": {
-				"description": "TO TRANSLATE - À tout moment lors de la réalisation de l'analyse, vous pouvez télécharger l'analyse sous divers formats pour la partager avec vos collaborateurs.",
-				"title": "TO TRANSLATE - Exporter son AIPD"
+				"description": "När som helst under analysen kan du ladda ner analysen i olika format för att dela den med dina medarbetare.",
+				"title": "Exportera din PIA"
 			}
 		},
 		"evaluation": {
 			"step1": {
-				"description": "TO TRANSLATE - L'évaluation peut se faire au niveau d'une section entière, ou bien au niveau de chaque élément d'une section.",
-				"title": "TO TRANSLATE - Évaluer l'AIPD"
+				"description": "Utvärderingen kan göras på nivån för ett helt avsnitt eller på nivån för varje element i ett avsnitt.",
+				"title": "Utvärdera PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - <p>Cette évaluation indique aux rédacteurs que des éléments sont manquants pour pouvoir faire une évaluation pertinente.</p><p>L'évaluateur doit indiquer ceux-ci dans le champ <strong>commentaire d'évaluation</strong> associé. Le rédacteur reverra sa copie en fonction.</p>",
-				"title": "TO TRANSLATE - À corriger"
+				"description": "<p>Denna utvärdering indikerar för redaktörerna att element saknas för att kunna göra en relevant utvärdering.</p><p>Utvärderaren måste ange dessa i det tillhörande <strong>utvärderingskommentarfältet</strong> . Redaktören kommer att granska sin kopia därefter.</p>",
+				"title": "För att korrigera"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>Cette évaluation indique les points du traitement à réviser et sont détaillés dans le champ <strong>plan d'action / mesures correctives</strong>.</p><p>Ces mesures seront ajoutées automatiquement à la partie plan d'action de l'analyse. Il est nécessaire de les mettre en oeuvre dans les plus brefs délais.</p>",
-				"title": "TO TRANSLATE - Améliorable"
+				"description": "<p>Denna utvärdering anger de bearbetningspunkter som ska revideras och är detaljerade i fältet <strong>handlingsplan / korrigerande åtgärder</strong>.</p><p>Dessa åtgärder kommer automatiskt att läggas till i handlingsplanens del av analysen. Det är nödvändigt att implementera dem så snart som möjligt.</p>",
+				"title": "improvable"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - Cette évaluation signifie que, en l'état, ce point du traitement peut être mis en oeuvre sans y apporter de modifications.",
-				"title": "TO TRANSLATE - Acceptable"
+				"description": "Denna utvärdering innebär att den nuvarande behandlingspunkten kan implementeras utan några modifieringar.",
+				"title": "acceptabel"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - Si l'évaluation d'une section n'a pas encore commencé, il est possible d'annuler la demande d'évaluation pour apporter des modifications à la description du traitement.",
-				"title": "TO TRANSLATE - Annuler une demande"
+				"description": "Om utvärderingen av ett avsnitt ännu inte har startat, är det möjligt att avbryta utvärderingsbegäran för att göra ändringar i beskrivningen av behandlingen.",
+				"title": "Avbryt en begäran"
 			}
 		},
 		"general": {
-			"done": "Confirm",
-			"next": "Next",
-			"skip": "Skip"
+			"done": "Bekräfta",
+			"next": "Nästa",
+			"skip": "Hoppa"
 		},
 		"validated": {
 			"step1": {
-				"description": "TO TRANSLATE - Une analyse faite dans son intégralité et validée peut être consultée à tout moment via une interface dédiée.",
-				"title": "TO TRANSLATE - Consulter une AIPD validée"
+				"description": "En analys gjord i sin helhet och validerad kan konsulteras när som helst via ett dedikerat gränssnitt.",
+				"title": "Konsultera en validerad PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - Il est nécessaire de réviser son analyse régulièrement. Vous pouvez à tout moment l'éditer ou la dupliquer pour revoir son contenu en fonction des évolutions du traitement.",
-				"title": "TO TRANSLATE - Mettre à jour une AIPD validée"
+				"description": "Det är nödvändigt att granska din analys regelbundet. Du kan redigera eller duplicera det när som helst för att granska innehållet i enlighet med ändringar i behandlingen.",
+				"title": "Uppdatera en validerad PIA"
 			}
 		}
 	},

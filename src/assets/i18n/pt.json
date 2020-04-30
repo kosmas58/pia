@@ -53,20 +53,8 @@
 		"send": "Enviar"
 	},
 	"date": {
-		"april": "TO TRANSLATE - April",
-		"august": "TO TRANSLATE - August",
-		"december": "TO TRANSLATE - December",
 		"earlier-in-this-month": "TO TRANSLATE - Earlier this month",
 		"earlier-in-this-week": "TO TRANSLATE - Earlier this week",
-		"february": "TO TRANSLATE - February",
-		"january": "TO TRANSLATE - January",
-		"july": "TO TRANSLATE - July",
-		"june": "TO TRANSLATE - June",
-		"march": "TO TRANSLATE - March",
-		"may": "TO TRANSLATE - May",
-		"november": "TO TRANSLATE - November",
-		"october": "TO TRANSLATE - October",
-		"september": "TO TRANSLATE - September",
 		"today": "TO TRANSLATE - Today",
 		"yesterday": "TO TRANSLATE - Yesterday"
 	},
@@ -113,7 +101,6 @@
 		},
 		"homepage_link": "TO TRANSLATE - My PIAs",
 		"knowledge_base_link": "Base de conhecimento",
-		"knowledges": "",
 		"languages": {
 			"cnil_translations": "Traduções fornecidas pela CNIL",
 			"community_translations": "Traduções fornecidas pela comunidade",
@@ -146,7 +133,7 @@
 		"tools": {
 			"about": "Sobre",
 			"accessibility": "Acessibilidade para pessoas com deficiência visual (cores de alto contraste, daltonismo)",
-			"onboarding": "TO TRANSLATE - Restart tutorial",
+			"onboarding": "Relançar o tutorial",
 			"settings": "Definições",
 			"url_setting": "TO TRANSLATE - Server URL configuration"
 		}
@@ -219,24 +206,24 @@
 				"validate_pia": "TO TRANSLATE - Validate"
 			},
 			"knowledges": {
-				"edit": "TO TRANSLATE - Edit the base",
-				"import": "TO TRANSLATE - Import a base",
-				"new": "TO TRANSLATE - Create a base",
-				"placeholder_author": "TO TRANSLATE - Author",
-				"placeholder_contributors": "TO TRANSLATE - Contributors",
-				"placeholder_entry_number": "TO TRANSLATE - Number of entries",
-				"placeholder_name": "TO TRANSLATE - Base's name"
+				"edit": "Edite a base de conhecimento",
+				"import": "Importar uma base de conhecimento",
+				"new": "Crie uma base de conhecimento",
+				"placeholder_author": "Autor",
+				"placeholder_contributors": "Colaboradores",
+				"placeholder_entry_number": "Número de entradas",
+				"placeholder_name": "Nome da base de conhecimento"
 			},
 			"knowledges_entry": {
 				"choose_category": "TO TRANSLATE - Choose a category",
 				"contents": "TO TRANSLATE - Contents",
 				"create": "TO TRANSLATE - Create this element",
 				"linked_to": "TO TRANSLATE - Linked to",
-				"new": "TO TRANSLATE - Create an element",
-				"placeholder_category": "TO TRANSLATE - Category",
-				"placeholder_description": "TO TRANSLATE - Your description here...",
-				"placeholder_name": "TO TRANSLATE - Element's name",
-				"placeholder_updated_at": "TO TRANSLATE - Last updated"
+				"new": "Criar item",
+				"placeholder_category": "Categoria",
+				"placeholder_description": "Sua descrição aqui ...",
+				"placeholder_name": "Nome do item",
+				"placeholder_updated_at": "Modificado"
 			},
 			"new_pia": "Nova análise PIA",
 			"new_structure": "Novo modelo",
@@ -323,12 +310,12 @@
 			"example": "Exemplo",
 			"general_measure": "Controlo de segurança física",
 			"measure_on_data": "Controlo de segurança lógica",
-			"method": "TO TRANSLATE - Methodology",
+			"method": "Metodologia",
 			"organizational_measure": "Controlo organizacional",
 			"principle": "Princípio"
 		},
-		"choose_knowledge_base": "TO TRANSLATE - Choose your knowledge base",
-		"default_knowledge_base": "TO TRANSLATE - CNIL's knowledge base (default)",
+		"choose_knowledge_base": "Escolha sua base de conhecimento",
+		"default_knowledge_base": "Base de conhecimento da CNIL (padrão)",
 		"filters": {
 			"all": "Todos",
 			"definitions": "Definições",
@@ -934,7 +921,7 @@
 			"review_section": "Rever uma secção"
 		},
 		"general_error": {
-			"content": ""
+			"content": "Todas as nossas desculpas ocorreu um erro."
 		},
 		"import_wrong_pia_file": {
 			"content": "O ficheiro importado não corresponde a um ficheiro do tipo PIA"
@@ -943,8 +930,8 @@
 			"content": "O ficheiro importado não corresponde a um ficheiro do tipo Modelo"
 		},
 		"knowledges": {
-			"content": "",
-			"remove": ""
+			"content": "Tem certeza de que deseja excluir esta base de conhecimento?",
+			"remove": "Excluir esta base de conhecimento"
 		},
 		"modal_select_text_pia": {
 			"content": "O conteúdo da análise PIA foi copiado para a área de transferência."
@@ -1015,91 +1002,91 @@
 	"onboarding": {
 		"dashboard": {
 			"step1": {
-				"description": "TO TRANSLATE - Cliquez sur le <strong>+</strong> pour créer votre premier PIA.",
-				"title": "Create a PIA"
+				"description": "Clique em <strong>+</strong> para criar sua primeira PIA.",
+				"title": "Crie uma PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - <p>Les <strong>rédacteurs</strong> sont ceux rédigeant la première version de l'analyse.</p><p>Ce sont par exemple les chefs du projet associés au traitement.</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"description": "<p>Os <strong>escritores</strong> são aqueles que escrevem a primeira versão da análise.</p><p>Estes são, por exemplo, os líderes do projeto associados ao tratamento.</p>",
+				"title": "Funções em torno da PIA"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>Les <strong>évaluateurs</strong> interviennent dans un second temps.</p><p>Ils jaugent, à l'aune de leur expertise juridique ou technique, la qualité et la conformité du traitement.</p><p>Ce sont par exemple le RSSI, des juristes, le DPO, ...</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"description": "<p>Os <strong>avaliadores</strong> intervêm em uma segunda etapa.</p><p>Eles avaliam, com base em seus conhecimentos legais ou técnicos, a qualidade e conformidade do processamento.</p><p>São, por exemplo, CISO, advogados, DPO, ...</p>",
+				"title": "Funções em torno da PIA"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - <p>Les <strong>validateurs</strong> acceptent ou non la mise en oeuvre du traitement.Ils doivent signer l'analyse.</p><p>Ce sont les responsables de traitement, comme par exemple le CEO.</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"description": "<p>Os <strong>validadores</strong> aceitam ou não a implementação do tratamento e devem assinar a análise.</p><p>Estes são os controladores, como o CEO.</p>",
+				"title": "Funções em torno da PIA"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - <p>Les <strong>modèles</strong> sont une fonctionnalité avancée.Ils permettent de créer une base pré-remplie de l'analyse.</p><p>Vous pouvez créer des modèles en allant dans la section associée depuis le menu du haut.</p>",
-				"title": "Models"
+				"description": "<p>Os <strong>modelos</strong> são um recurso avançado que permite criar um banco de dados pré-preenchido da análise.</p><p>Você pode criar modelos acessando a seção associada no menu superior.</p>",
+				"title": "Os modelos"
 			}
 		},
 		"entry": {
 			"step1": {
-				"description": "TO TRANSLATE - Pour passer d'une partie à l'autre de l'analyse, utilisez le menu de navigation de gauche.",
-				"title": "TO TRANSLATE - Naviguer"
+				"description": "Para passar de uma parte da análise para a outra, use o menu de navegação esquerdo.",
+				"title": "Navegação"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - Il sert à expliquer l'objectif du traitement et comment il sera mis en oeuvre.",
-				"title": "Context"
+				"description": "É usado para explicar o objetivo do tratamento e como ele será implementado.",
+				"title": "Contexto"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - Ils permettent de s'assurer que le traitement est juridiquement conforme au RGPD.",
-				"title": "Fundamental principles"
+				"description": "Eles possibilitam garantir que o processamento seja legalmente compatível com o GDPR.",
+				"title": "Princípios fundamentais"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - Ils décrivent les mesures de sécurité déjà prévues sur le traitement et permettent d'évaluer les impacts potentiels sur les personnes concernées.",
-				"title": "Risks"
+				"description": "Eles descrevem as medidas de segurança já planejadas para o tratamento e permitem avaliar os possíveis impactos nas pessoas em questão.",
+				"title": "Riscos"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - Elle permet au DPO d'exprimer son avis sur la mise en oeuvre du traitement et au responsable de traitement de l'accepter ou de le refuser.",
-				"title": "Validation"
+				"description": "Permite ao DPO expressar sua opinião sobre a implementação do processamento e o controlador de dados para aceitá-lo ou recusá-lo.",
+				"title": "Validação"
 			},
 			"step6": {
-				"description": "TO TRANSLATE - <p>Elle fournit une aide contextuelle à la réalisation de l'analyse et s'appuie sur le RGPD, le guide de sécurité et les guides AIPD de la CNIL.</p><p>En plus de ces contenus, vous pouvez également créer vos propres bases de connaissances pour accéder facilement à des informations spécifiques à votre organisme.</p>",
-				"title": "Knowledge base"
+				"description": "<p>Ele fornece assistência contextual na realização da análise e é baseado no GDPR, no guia de segurança e nos guias PIA do CNIL.</p><p>Além deste conteúdo, você também pode criar suas próprias bases de conhecimento para facilitar o acesso a informações específicas da sua organização.</p>",
+				"title": "Base de conhecimento"
 			},
 			"step7": {
-				"description": "TO TRANSLATE - À tout moment lors de la réalisation de l'analyse, vous pouvez télécharger l'analyse sous divers formats pour la partager avec vos collaborateurs.",
-				"title": "TO TRANSLATE - Exporter son AIPD"
+				"description": "A qualquer momento durante a análise, você pode fazer o download da análise em vários formatos para compartilhá-la com seus colaboradores.",
+				"title": "Exporte seu PIA"
 			}
 		},
 		"evaluation": {
 			"step1": {
-				"description": "TO TRANSLATE - L'évaluation peut se faire au niveau d'une section entière, ou bien au niveau de chaque élément d'une section.",
-				"title": "TO TRANSLATE - Évaluer l'AIPD"
+				"description": "A avaliação pode ser feita no nível de uma seção inteira ou no nível de cada elemento de uma seção.",
+				"title": "Avalie o PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - <p>Cette évaluation indique aux rédacteurs que des éléments sont manquants pour pouvoir faire une évaluation pertinente.</p><p>L'évaluateur doit indiquer ceux-ci dans le champ <strong>commentaire d'évaluation</strong> associé. Le rédacteur reverra sa copie en fonction.</p>",
-				"title": "TO TRANSLATE - À corriger"
+				"description": "<p>Esta avaliação indica aos editores que faltam elementos para poder fazer uma avaliação relevante.</p><p>O avaliador deve indicá-los no campo de comentário de avaliação <strong>associado</strong> . O editor revisará sua cópia de acordo.</p>",
+				"title": "Para corrigir"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>Cette évaluation indique les points du traitement à réviser et sont détaillés dans le champ <strong>plan d'action / mesures correctives</strong>.</p><p>Ces mesures seront ajoutées automatiquement à la partie plan d'action de l'analyse. Il est nécessaire de les mettre en oeuvre dans les plus brefs délais.</p>",
-				"title": "TO TRANSLATE - Améliorable"
+				"description": "<p>Esta avaliação indica os pontos de processamento a serem revisados e são detalhados no campo <strong>plano de ação / medidas corretivas</strong>.</p><p>Essas medidas serão adicionadas automaticamente à parte do plano de ação da análise. É necessário implementá-los o mais rápido possível.</p>",
+				"title": "Atualizável"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - Cette évaluation signifie que, en l'état, ce point du traitement peut être mis en oeuvre sans y apporter de modifications.",
-				"title": "TO TRANSLATE - Acceptable"
+				"description": "Essa avaliação significa que, como está, esse ponto de processamento pode ser implementado sem nenhuma modificação.",
+				"title": "Aceitável"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - Si l'évaluation d'une section n'a pas encore commencé, il est possible d'annuler la demande d'évaluation pour apporter des modifications à la description du traitement.",
-				"title": "TO TRANSLATE - Annuler une demande"
+				"description": "Se a avaliação de uma seção ainda não tiver sido iniciada, é possível cancelar a solicitação de avaliação para fazer alterações na descrição do tratamento.",
+				"title": "Cancelar uma solicitação"
 			}
 		},
 		"general": {
-			"done": "Confirm",
-			"next": "Next",
-			"skip": "Skip"
+			"done": "Confirme",
+			"next": "Próximo",
+			"skip": "Pular"
 		},
 		"validated": {
 			"step1": {
-				"description": "TO TRANSLATE - Une analyse faite dans son intégralité et validée peut être consultée à tout moment via une interface dédiée.",
-				"title": "TO TRANSLATE - Consulter une AIPD validée"
+				"description": "Uma análise feita na íntegra e validada pode ser consultada a qualquer momento por meio de uma interface dedicada.",
+				"title": "Consulte um PIA validado"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - Il est nécessaire de réviser son analyse régulièrement. Vous pouvez à tout moment l'éditer ou la dupliquer pour revoir son contenu en fonction des évolutions du traitement.",
-				"title": "TO TRANSLATE - Mettre à jour une AIPD validée"
+				"description": "É necessário revisar sua análise regularmente. Você pode editá-lo ou duplicá-lo a qualquer momento para revisar seu conteúdo de acordo com as alterações no processamento.",
+				"title": "Atualizar um PIA validado"
 			}
 		}
 	},

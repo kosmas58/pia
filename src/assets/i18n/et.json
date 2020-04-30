@@ -53,20 +53,8 @@
 		"send": "Saada"
 	},
 	"date": {
-		"april": "TO TRANSLATE - April",
-		"august": "TO TRANSLATE - August",
-		"december": "TO TRANSLATE - December",
 		"earlier-in-this-month": "TO TRANSLATE - Earlier this month",
 		"earlier-in-this-week": "TO TRANSLATE - Earlier this week",
-		"february": "TO TRANSLATE - February",
-		"january": "TO TRANSLATE - January",
-		"july": "TO TRANSLATE - July",
-		"june": "TO TRANSLATE - June",
-		"march": "TO TRANSLATE - March",
-		"may": "TO TRANSLATE - May",
-		"november": "TO TRANSLATE - November",
-		"october": "TO TRANSLATE - October",
-		"september": "TO TRANSLATE - September",
 		"today": "TO TRANSLATE - Today",
 		"yesterday": "TO TRANSLATE - Yesterday"
 	},
@@ -113,7 +101,6 @@
 		},
 		"homepage_link": "TO TRANSLATE - My PIAs",
 		"knowledge_base_link": "Teadmiste pagas",
-		"knowledges": "",
 		"languages": {
 			"cnil_translations": "CNIL’i  esitatud tõlge",
 			"community_translations": "Kogukondade tehtud tõlked",
@@ -146,7 +133,7 @@
 		"tools": {
 			"about": "Tarkvarast",
 			"accessibility": "Vaegnägijale",
-			"onboarding": "TO TRANSLATE - Restart tutorial",
+			"onboarding": "Taaskäivitage õpetus",
 			"settings": "Seaded",
 			"url_setting": "TO TRANSLATE - Server URL configuration"
 		}
@@ -219,24 +206,24 @@
 				"validate_pia": "TO TRANSLATE - Validate"
 			},
 			"knowledges": {
-				"edit": "TO TRANSLATE - Edit the base",
-				"import": "TO TRANSLATE - Import a base",
-				"new": "TO TRANSLATE - Create a base",
-				"placeholder_author": "TO TRANSLATE - Author",
-				"placeholder_contributors": "TO TRANSLATE - Contributors",
-				"placeholder_entry_number": "TO TRANSLATE - Number of entries",
-				"placeholder_name": "TO TRANSLATE - Base's name"
+				"edit": "Muutke teadmistebaasi",
+				"import": "Importige teadmistebaas",
+				"new": "Loo teadmistebaas",
+				"placeholder_author": "Autor",
+				"placeholder_contributors": "Kaasautorid",
+				"placeholder_entry_number": "Sissekannete arv",
+				"placeholder_name": "Teadmistebaasi nimi"
 			},
 			"knowledges_entry": {
 				"choose_category": "TO TRANSLATE - Choose a category",
 				"contents": "TO TRANSLATE - Contents",
 				"create": "TO TRANSLATE - Create this element",
 				"linked_to": "TO TRANSLATE - Linked to",
-				"new": "TO TRANSLATE - Create an element",
-				"placeholder_category": "TO TRANSLATE - Category",
-				"placeholder_description": "TO TRANSLATE - Your description here...",
-				"placeholder_name": "TO TRANSLATE - Element's name",
-				"placeholder_updated_at": "TO TRANSLATE - Last updated"
+				"new": "Loo üksus",
+				"placeholder_category": "Kategooria",
+				"placeholder_description": "Teie kirjeldus siin ...",
+				"placeholder_name": "Asja nimi",
+				"placeholder_updated_at": "Muudetud"
 			},
 			"new_pia": "Uus mõjuhinnag",
 			"new_structure": "Uus mõjuhinnag",
@@ -323,12 +310,12 @@
 			"example": "Näide",
 			"general_measure": "Füüsiline turbekontroll",
 			"measure_on_data": "Loogiline turbekontroll",
-			"method": "TO TRANSLATE - Methodology",
+			"method": "Metoodika",
 			"organizational_measure": "Organisatsiooniline kontroll",
 			"principle": "Põhimõte"
 		},
-		"choose_knowledge_base": "TO TRANSLATE - Choose your knowledge base",
-		"default_knowledge_base": "TO TRANSLATE - CNIL's knowledge base (default)",
+		"choose_knowledge_base": "Valige oma teadmistebaas",
+		"default_knowledge_base": "CNILi teadmistebaas (vaikimisi)",
 		"filters": {
 			"all": "Kõik",
 			"definitions": "Mõisted",
@@ -934,7 +921,7 @@
 			"review_section": "Vaadake jaotis üle"
 		},
 		"general_error": {
-			"content": ""
+			"content": "Kõikide meie vabanduste pärast on ilmnenud viga."
 		},
 		"import_wrong_pia_file": {
 			"content": "Imporditu ei vasta mõjuhinnangu failile"
@@ -943,8 +930,8 @@
 			"content": "Imporditu ei vasta mudelile"
 		},
 		"knowledges": {
-			"content": "",
-			"remove": ""
+			"content": "Kas soovite kindlasti selle teadmistebaasi kustutada?",
+			"remove": "Kustutage see teadmistebaas"
 		},
 		"modal_select_text_pia": {
 			"content": "Mõjuhinnangu sisu on kopeeritud lõikelauale."
@@ -1015,91 +1002,91 @@
 	"onboarding": {
 		"dashboard": {
 			"step1": {
-				"description": "TO TRANSLATE - Cliquez sur le <strong>+</strong> pour créer votre premier PIA.",
-				"title": "Create a PIA"
+				"description": "Oma esimese VIP-i loomiseks klõpsake <strong>+</strong> .",
+				"title": "Looge PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - <p>Les <strong>rédacteurs</strong> sont ceux rédigeant la première version de l'analyse.</p><p>Ce sont par exemple les chefs du projet associés au traitement.</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"description": "<p> <strong>kirjutajad</strong> kirjutavad analüüsi esimese versiooni.</p><p>Need on näiteks raviga seotud projektijuhid.</p>",
+				"title": "Rollid PIA ümber"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>Les <strong>évaluateurs</strong> interviennent dans un second temps.</p><p>Ils jaugent, à l'aune de leur expertise juridique ou technique, la qualité et la conformité du traitement.</p><p>Ce sont par exemple le RSSI, des juristes, le DPO, ...</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"description": "<p> <strong>hindajad</strong> sekkuvad teise sammuna.</p><p>Nad hindavad oma juriidiliste või tehniliste teadmiste põhjal töötlemise kvaliteeti ja nõuetele vastavust.</p><p>Need on näiteks CISO, juristid, andmekaitseametnik, ...</p>",
+				"title": "Rollid PIA ümber"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - <p>Les <strong>validateurs</strong> acceptent ou non la mise en oeuvre du traitement.Ils doivent signer l'analyse.</p><p>Ce sont les responsables de traitement, comme par exemple le CEO.</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"description": "<p> <strong>valideerijad</strong> nõustuvad raviga või ei, peavad nad allkirjastama analüüsi.</p><p>Need on kontrolörid, näiteks tegevjuht.</p>",
+				"title": "Rollid PIA ümber"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - <p>Les <strong>modèles</strong> sont une fonctionnalité avancée.Ils permettent de créer une base pré-remplie de l'analyse.</p><p>Vous pouvez créer des modèles en allant dans la section associée depuis le menu du haut.</p>",
-				"title": "Models"
+				"description": "<p> <strong>mudelid</strong> on täiustatud funktsioon, mis võimaldab teil luua analüüsi eeltäidetud andmebaasi.</p><p>Malle saate luua, minnes ülamenüü vastavasse jaotisse.</p>",
+				"title": "Mudelid"
 			}
 		},
 		"entry": {
 			"step1": {
-				"description": "TO TRANSLATE - Pour passer d'une partie à l'autre de l'analyse, utilisez le menu de navigation de gauche.",
-				"title": "TO TRANSLATE - Naviguer"
+				"description": "Analüüsi ühest osast teise liikumiseks kasutage vasakpoolset navigeerimismenüüd.",
+				"title": "Navigeerimine"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - Il sert à expliquer l'objectif du traitement et comment il sera mis en oeuvre.",
-				"title": "Context"
+				"description": "Seda kasutatakse ravi eesmärgi ja selle rakendamise selgitamiseks.",
+				"title": "Kontekst"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - Ils permettent de s'assurer que le traitement est juridiquement conforme au RGPD.",
-				"title": "Fundamental principles"
+				"description": "Need võimaldavad tagada, et töötlemine vastab õiguslikult GDPR-ile.",
+				"title": "Aluspõhimõtted"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - Ils décrivent les mesures de sécurité déjà prévues sur le traitement et permettent d'évaluer les impacts potentiels sur les personnes concernées.",
-				"title": "Risks"
+				"description": "Need kirjeldavad raviks juba kavandatud ohutusmeetmeid ja võimaldavad hinnata võimalikku mõju asjaomastele isikutele.",
+				"title": "Riskid"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - Elle permet au DPO d'exprimer son avis sur la mise en oeuvre du traitement et au responsable de traitement de l'accepter ou de le refuser.",
-				"title": "Validation"
+				"description": "See võimaldab andmekaitseametnikul avaldada arvamust töötlemise rakendamise kohta ja vastutav töötleja selle heaks kiita või sellest keelduda.",
+				"title": "Kinnitamine"
 			},
 			"step6": {
-				"description": "TO TRANSLATE - <p>Elle fournit une aide contextuelle à la réalisation de l'analyse et s'appuie sur le RGPD, le guide de sécurité et les guides AIPD de la CNIL.</p><p>En plus de ces contenus, vous pouvez également créer vos propres bases de connaissances pour accéder facilement à des informations spécifiques à votre organisme.</p>",
-				"title": "Knowledge base"
+				"description": "<p>See pakub kontekstipõhist abi analüüsi läbiviimisel ja põhineb GDPR-il, turvajuhendil ja CNIL-i PIA-juhenditel.</p><p>Lisaks sellele sisule saate luua ka oma teadmistebaasid, et hõlpsalt pääseda juurde teie organisatsiooni konkreetsele teabele.</p>",
+				"title": "Teadmistepagas"
 			},
 			"step7": {
-				"description": "TO TRANSLATE - À tout moment lors de la réalisation de l'analyse, vous pouvez télécharger l'analyse sous divers formats pour la partager avec vos collaborateurs.",
-				"title": "TO TRANSLATE - Exporter son AIPD"
+				"description": "Analüüsi ajal saate analüüsi igal ajal eri vormingutes alla laadida, et seda kaastöötajatega jagada.",
+				"title": "Ekspordi oma PIA"
 			}
 		},
 		"evaluation": {
 			"step1": {
-				"description": "TO TRANSLATE - L'évaluation peut se faire au niveau d'une section entière, ou bien au niveau de chaque élément d'une section.",
-				"title": "TO TRANSLATE - Évaluer l'AIPD"
+				"description": "Hindamise võib läbi viia terve sektsiooni tasandil või sektsiooni iga elemendi tasandil.",
+				"title": "Hinnake PIA-d"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - <p>Cette évaluation indique aux rédacteurs que des éléments sont manquants pour pouvoir faire une évaluation pertinente.</p><p>L'évaluateur doit indiquer ceux-ci dans le champ <strong>commentaire d'évaluation</strong> associé. Le rédacteur reverra sa copie en fonction.</p>",
-				"title": "TO TRANSLATE - À corriger"
+				"description": "<p>See hinnang näitab toimetajatele, et asjakohase hinnangu andmiseks puuduvad elemendid.</p><p>Hindaja peab need märkima seotud <strong>hindamise kommentaari väljale</strong> . Toimetaja vaatab oma eksemplari vastavalt üle.</p>",
+				"title": "Parandamiseks"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>Cette évaluation indique les points du traitement à réviser et sont détaillés dans le champ <strong>plan d'action / mesures correctives</strong>.</p><p>Ces mesures seront ajoutées automatiquement à la partie plan d'action de l'analyse. Il est nécessaire de les mettre en oeuvre dans les plus brefs délais.</p>",
-				"title": "TO TRANSLATE - Améliorable"
+				"description": "<p>See hinnang näitab töötlemispunkte, mis tuleb üle vaadata, ja on üksikasjalikult määratletud valdkonnas <strong>tegevuskava / parandusmeetmed</strong>.</p><p>Need meetmed lisatakse automaatselt analüüsi tegevuskava ossa. On vaja neid võimalikult kiiresti rakendada.</p>",
+				"title": "Uuendatav"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - Cette évaluation signifie que, en l'état, ce point du traitement peut être mis en oeuvre sans y apporter de modifications.",
-				"title": "TO TRANSLATE - Acceptable"
+				"description": "See hinnang tähendab, et praeguses seisukorras saab seda töötlemispunkti rakendada ilma muudatusi tegemata.",
+				"title": "Vastuvõetav"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - Si l'évaluation d'une section n'a pas encore commencé, il est possible d'annuler la demande d'évaluation pour apporter des modifications à la description du traitement.",
-				"title": "TO TRANSLATE - Annuler une demande"
+				"description": "Kui lõigu hindamine pole veel alanud, on võimalik hindamise taotlus ravi kirjelduses muudatuste tegemiseks tühistada.",
+				"title": "Loobu päringust"
 			}
 		},
 		"general": {
-			"done": "Confirm",
-			"next": "Next",
-			"skip": "Skip"
+			"done": "Kinnita",
+			"next": "Järgmine",
+			"skip": "Vahele jätma"
 		},
 		"validated": {
 			"step1": {
-				"description": "TO TRANSLATE - Une analyse faite dans son intégralité et validée peut être consultée à tout moment via une interface dédiée.",
-				"title": "TO TRANSLATE - Consulter une AIPD validée"
+				"description": "Tervikuna tehtud ja valideeritud analüüsiga saab spetsiaalse liidese kaudu igal ajal tutvuda.",
+				"title": "Pöörduge kinnitatud PIA poole"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - Il est nécessaire de réviser son analyse régulièrement. Vous pouvez à tout moment l'éditer ou la dupliquer pour revoir son contenu en fonction des évolutions du traitement.",
-				"title": "TO TRANSLATE - Mettre à jour une AIPD validée"
+				"description": "On vaja oma analüüs regulaarselt üle vaadata. Saate seda igal ajal muuta või dubleerida, et vaadata selle sisu vastavalt töötlemise muudatustele.",
+				"title": "Uuendage kinnitatud PIA-d"
 			}
 		}
 	},

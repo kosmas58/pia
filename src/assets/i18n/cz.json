@@ -53,20 +53,8 @@
 		"send": "Send"
 	},
 	"date": {
-		"april": "TO TRANSLATE - April",
-		"august": "TO TRANSLATE - August",
-		"december": "TO TRANSLATE - December",
 		"earlier-in-this-month": "TO TRANSLATE - Earlier this month",
 		"earlier-in-this-week": "TO TRANSLATE - Earlier this week",
-		"february": "TO TRANSLATE - February",
-		"january": "TO TRANSLATE - January",
-		"july": "TO TRANSLATE - July",
-		"june": "TO TRANSLATE - June",
-		"march": "TO TRANSLATE - March",
-		"may": "TO TRANSLATE - May",
-		"november": "TO TRANSLATE - November",
-		"october": "TO TRANSLATE - October",
-		"september": "TO TRANSLATE - September",
 		"today": "TO TRANSLATE - Today",
 		"yesterday": "TO TRANSLATE - Yesterday"
 	},
@@ -113,7 +101,6 @@
 		},
 		"homepage_link": "TO TRANSLATE - My PIAs",
 		"knowledge_base_link": "Znalostní báze",
-		"knowledges": "",
 		"languages": {
 			"cnil_translations": "TO BE TRANSLATED - CNIL provided translations",
 			"community_translations": "TO BE TRANSLATED - Community provided translations",
@@ -146,7 +133,7 @@
 		"tools": {
 			"about": "O nás",
 			"accessibility": "Dostupnost pro zrakově postižené (barvy s vysokým kontrastem, daltonismem)",
-			"onboarding": "TO TRANSLATE - Restart tutorial",
+			"onboarding": "Znovu spusťte výuku",
 			"settings": "TO TRANSLATE - Settings",
 			"url_setting": "TO TRANSLATE - Server URL configuration"
 		}
@@ -219,24 +206,24 @@
 				"validate_pia": "TO TRANSLATE - Validate"
 			},
 			"knowledges": {
-				"edit": "TO TRANSLATE - Edit the base",
-				"import": "TO TRANSLATE - Import a base",
-				"new": "TO TRANSLATE - Create a base",
-				"placeholder_author": "TO TRANSLATE - Author",
-				"placeholder_contributors": "TO TRANSLATE - Contributors",
-				"placeholder_entry_number": "TO TRANSLATE - Number of entries",
-				"placeholder_name": "TO TRANSLATE - Base's name"
+				"edit": "Upravit znalostní základnu",
+				"import": "Importujte znalostní bázi",
+				"new": "Vytvořte znalostní základnu",
+				"placeholder_author": "Autor",
+				"placeholder_contributors": "Přispěvatelé",
+				"placeholder_entry_number": "Počet vstupů",
+				"placeholder_name": "Název znalostní báze"
 			},
 			"knowledges_entry": {
 				"choose_category": "TO TRANSLATE - Choose a category",
 				"contents": "TO TRANSLATE - Contents",
 				"create": "TO TRANSLATE - Create this element",
 				"linked_to": "TO TRANSLATE - Linked to",
-				"new": "TO TRANSLATE - Create an element",
-				"placeholder_category": "TO TRANSLATE - Category",
-				"placeholder_description": "TO TRANSLATE - Your description here...",
-				"placeholder_name": "TO TRANSLATE - Element's name",
-				"placeholder_updated_at": "TO TRANSLATE - Last updated"
+				"new": "Vytvořit položku",
+				"placeholder_category": "Kategorie",
+				"placeholder_description": "Váš popis zde ...",
+				"placeholder_name": "Název položky",
+				"placeholder_updated_at": "Upraveno"
 			},
 			"new_pia": "Nová PIA",
 			"new_structure": "TO TRANSLATE - New template",
@@ -323,12 +310,12 @@
 			"example": "Příklad",
 			"general_measure": "Fyzická bezpečnostní kontrola",
 			"measure_on_data": "Logická bezpečnostní kontrola",
-			"method": "TO TRANSLATE - Methodology",
+			"method": "Metodologie",
 			"organizational_measure": "Organizační kontrola",
 			"principle": "Zásada"
 		},
-		"choose_knowledge_base": "TO TRANSLATE - Choose your knowledge base",
-		"default_knowledge_base": "TO TRANSLATE - CNIL's knowledge base (default)",
+		"choose_knowledge_base": "Vyberte si vědomostní základnu",
+		"default_knowledge_base": "Znalostní báze CNIL (výchozí)",
 		"filters": {
 			"all": "Vše",
 			"definitions": "Definice",
@@ -934,7 +921,7 @@
 			"review_section": "TO BE TRANSLATED - Review a section"
 		},
 		"general_error": {
-			"content": ""
+			"content": "Všechny naše omluvy došlo k chybě."
 		},
 		"import_wrong_pia_file": {
 			"content": "TO BE TRANSLATED - Le fichier importé ne correspond pas à un fichier de type PIA"
@@ -943,8 +930,8 @@
 			"content": "TO BE TRANSLATED - Le fichier importé ne correspond pas à un fichier de type Modèle"
 		},
 		"knowledges": {
-			"content": "",
-			"remove": ""
+			"content": "Opravdu chcete tuto znalostní databázi odstranit?",
+			"remove": "Odstranit tuto znalostní bázi"
 		},
 		"modal_select_text_pia": {
 			"content": "TO BE TRANSLATED - The content of the PIA has been copied to clipboard."
@@ -1015,91 +1002,91 @@
 	"onboarding": {
 		"dashboard": {
 			"step1": {
-				"description": "TO TRANSLATE - Cliquez sur le <strong>+</strong> pour créer votre premier PIA.",
-				"title": "Create a PIA"
+				"description": "Kliknutím na <strong>+</strong> vytvořte první PIA.",
+				"title": "Vytvořte PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - <p>Les <strong>rédacteurs</strong> sont ceux rédigeant la première version de l'analyse.</p><p>Ce sont par exemple les chefs du projet associés au traitement.</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"description": "<p> <strong>spisovatelé</strong> jsou ti, kteří píšou první verzi analýzy.</p><p>Jedná se například o vedoucí projektu spojeného s léčbou.</p>",
+				"title": "Role kolem PIA"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>Les <strong>évaluateurs</strong> interviennent dans un second temps.</p><p>Ils jaugent, à l'aune de leur expertise juridique ou technique, la qualité et la conformité du traitement.</p><p>Ce sont par exemple le RSSI, des juristes, le DPO, ...</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"description": "<p>Hodnotitelé <strong></strong> zasáhnou ve druhém kroku.</p><p>Na základě svých právních nebo technických znalostí měří kvalitu a soulad zpracování.</p><p>Jedná se například o CISO, právníky, DPO, ...</p>",
+				"title": "Role kolem PIA"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - <p>Les <strong>validateurs</strong> acceptent ou non la mise en oeuvre du traitement.Ils doivent signer l'analyse.</p><p>Ce sont les responsables de traitement, comme par exemple le CEO.</p>",
-				"title": "TO TRANSLATE - Les rôles autour du PIA"
+				"description": "<p>Validátoři <strong></strong> přijímají nebo nepřijímají provádění léčby. Musí analýzu podepsat.</p><p>Toto jsou ovladače, jako je generální ředitel.</p>",
+				"title": "Role kolem PIA"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - <p>Les <strong>modèles</strong> sont une fonctionnalité avancée.Ils permettent de créer une base pré-remplie de l'analyse.</p><p>Vous pouvez créer des modèles en allant dans la section associée depuis le menu du haut.</p>",
-				"title": "Models"
+				"description": "<p>Modely <strong></strong> jsou pokročilé funkce, které vám umožní vytvořit předplněnou databázi analýzy.</p><p>Šablony můžete vytvořit přechodem na související sekci z horního menu.</p>",
+				"title": "Modely"
 			}
 		},
 		"entry": {
 			"step1": {
-				"description": "TO TRANSLATE - Pour passer d'une partie à l'autre de l'analyse, utilisez le menu de navigation de gauche.",
-				"title": "TO TRANSLATE - Naviguer"
+				"description": "Chcete-li přejít z jedné části analýzy do druhé, použijte navigační nabídku vlevo.",
+				"title": "Navigace"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - Il sert à expliquer l'objectif du traitement et comment il sera mis en oeuvre.",
-				"title": "Context"
+				"description": "Používá se k vysvětlení účelu léčby a způsobu jejího provedení.",
+				"title": "Kontext"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - Ils permettent de s'assurer que le traitement est juridiquement conforme au RGPD.",
-				"title": "Fundamental principles"
+				"description": "Umožňují zajistit, aby zpracování bylo právně v souladu s GDPR.",
+				"title": "Základní principy"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - Ils décrivent les mesures de sécurité déjà prévues sur le traitement et permettent d'évaluer les impacts potentiels sur les personnes concernées.",
-				"title": "Risks"
+				"description": "Popisují již naplánovaná bezpečnostní opatření pro léčbu a umožňují posouzení potenciálních dopadů na dotčené osoby.",
+				"title": "Rizika"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - Elle permet au DPO d'exprimer son avis sur la mise en oeuvre du traitement et au responsable de traitement de l'accepter ou de le refuser.",
-				"title": "Validation"
+				"description": "Umožňuje inspektorovi ochrany údajů vyjádřit svůj názor na provádění zpracování a správce údajů jej přijmout nebo odmítnout.",
+				"title": "Validace"
 			},
 			"step6": {
-				"description": "TO TRANSLATE - <p>Elle fournit une aide contextuelle à la réalisation de l'analyse et s'appuie sur le RGPD, le guide de sécurité et les guides AIPD de la CNIL.</p><p>En plus de ces contenus, vous pouvez également créer vos propres bases de connaissances pour accéder facilement à des informations spécifiques à votre organisme.</p>",
-				"title": "Knowledge base"
+				"description": "<p>Poskytuje kontextovou pomoc při provádění analýzy a je založen na GDPR, bezpečnostní příručce a PIA průvodcích CNIL.</p><p>Kromě tohoto obsahu si také můžete vytvořit vlastní znalostní základny pro snadný přístup k informacím specifickým pro vaši organizaci.</p>",
+				"title": "Znalostní báze"
 			},
 			"step7": {
-				"description": "TO TRANSLATE - À tout moment lors de la réalisation de l'analyse, vous pouvez télécharger l'analyse sous divers formats pour la partager avec vos collaborateurs.",
-				"title": "TO TRANSLATE - Exporter son AIPD"
+				"description": "Kdykoli během analýzy si můžete stáhnout analýzu v různých formátech a sdílet ji se svými spolupracovníky.",
+				"title": "Exportujte svůj PIA"
 			}
 		},
 		"evaluation": {
 			"step1": {
-				"description": "TO TRANSLATE - L'évaluation peut se faire au niveau d'une section entière, ou bien au niveau de chaque élément d'une section.",
-				"title": "TO TRANSLATE - Évaluer l'AIPD"
+				"description": "Vyhodnocení může být provedeno na úrovni celé sekce nebo na úrovni každého prvku sekce.",
+				"title": "Vyhodnoťte PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - <p>Cette évaluation indique aux rédacteurs que des éléments sont manquants pour pouvoir faire une évaluation pertinente.</p><p>L'évaluateur doit indiquer ceux-ci dans le champ <strong>commentaire d'évaluation</strong> associé. Le rédacteur reverra sa copie en fonction.</p>",
-				"title": "TO TRANSLATE - À corriger"
+				"description": "<p>Toto hodnocení naznačuje editorům, že chybí prvky, aby bylo možné provést příslušné vyhodnocení.</p><p>Hodnotitel je musí označit v přidruženém <strong>poli pro hodnocení hodnocení</strong> . Editor odpovídajícím způsobem zkontroluje jeho kopii.</p>",
+				"title": "OPRAVIT"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>Cette évaluation indique les points du traitement à réviser et sont détaillés dans le champ <strong>plan d'action / mesures correctives</strong>.</p><p>Ces mesures seront ajoutées automatiquement à la partie plan d'action de l'analyse. Il est nécessaire de les mettre en oeuvre dans les plus brefs délais.</p>",
-				"title": "TO TRANSLATE - Améliorable"
+				"description": "<p>Toto hodnocení označuje body zpracování, které mají být revidovány, a jsou podrobně popsány v poli <strong>akční plán / nápravná opatření</strong>.</p><p>Tato opatření budou automaticky přidána do části akčního plánu analýzy. Je nutné je provést co nejdříve.</p>",
+				"title": "Upgradovatelný"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - Cette évaluation signifie que, en l'état, ce point du traitement peut être mis en oeuvre sans y apporter de modifications.",
-				"title": "TO TRANSLATE - Acceptable"
+				"description": "Toto vyhodnocení znamená, že za současného stavu může být tento bod zpracování proveden bez jakýchkoli modifikací.",
+				"title": "Přijatelné"
 			},
 			"step5": {
-				"description": "TO TRANSLATE - Si l'évaluation d'une section n'a pas encore commencé, il est possible d'annuler la demande d'évaluation pour apporter des modifications à la description du traitement.",
-				"title": "TO TRANSLATE - Annuler une demande"
+				"description": "Pokud hodnocení sekce ještě nezačalo, je možné zrušit žádost o vyhodnocení a provést změny v popisu léčby.",
+				"title": "Zrušit požadavek"
 			}
 		},
 		"general": {
-			"done": "Confirm",
-			"next": "Next",
-			"skip": "Skip"
+			"done": "Potvrdit",
+			"next": "další",
+			"skip": "Přeskočit"
 		},
 		"validated": {
 			"step1": {
-				"description": "TO TRANSLATE - Une analyse faite dans son intégralité et validée peut être consultée à tout moment via une interface dédiée.",
-				"title": "TO TRANSLATE - Consulter une AIPD validée"
+				"description": "Analýzu provedenou v plném rozsahu a ověřenou lze kdykoli konzultovat prostřednictvím vyhrazeného rozhraní.",
+				"title": "Poraďte se s ověřeným PIA"
 			},
 			"step2": {
-				"description": "TO TRANSLATE - Il est nécessaire de réviser son analyse régulièrement. Vous pouvez à tout moment l'éditer ou la dupliquer pour revoir son contenu en fonction des évolutions du traitement.",
-				"title": "TO TRANSLATE - Mettre à jour une AIPD validée"
+				"description": "Je nutné pravidelně analyzovat vaši analýzu. Můžete jej kdykoli upravit nebo duplikovat a zkontrolovat jeho obsah podle změn ve zpracování.",
+				"title": "Aktualizujte ověřené PIA"
 			}
 		}
 	},

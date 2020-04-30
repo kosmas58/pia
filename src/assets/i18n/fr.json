@@ -53,20 +53,8 @@
 		"send": "Envoyer"
 	},
 	"date": {
-		"april": "Avril",
-		"august": "Août",
-		"december": "Décembre",
 		"earlier-in-this-month": "Plus tôt ce mois-ci",
 		"earlier-in-this-week": "Plus tôt cette semaine",
-		"february": "Février",
-		"january": "Janvier",
-		"july": "Juillet",
-		"june": "Juin",
-		"march": "Mars",
-		"may": "Mai",
-		"november": "Novembre",
-		"october": "Octobre",
-		"september": "Septembre",
 		"today": "Aujourd'hui",
 		"yesterday": "Hier"
 	},
@@ -113,7 +101,6 @@
 		},
 		"homepage_link": "Mes PIAs",
 		"knowledge_base_link": "Base de connaissances",
-		"knowledges": "",
 		"languages": {
 			"cnil_translations": "Traductions fournies par la CNIL",
 			"community_translations": "Traductions fournies par la communauté",
