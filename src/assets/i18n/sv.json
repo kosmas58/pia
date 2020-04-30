@@ -215,10 +215,10 @@
 				"placeholder_name": "Kunskapsbasens namn"
 			},
 			"knowledges_entry": {
-				"choose_category": "TO TRANSLATE - Choose a category",
-				"contents": "TO TRANSLATE - Contents",
-				"create": "TO TRANSLATE - Create this element",
-				"linked_to": "TO TRANSLATE - Linked to",
+				"choose_category": "Välj en kategori",
+				"contents": "Innehåll",
+				"create": "Skapa detta element",
+				"linked_to": "Länkad till",
 				"new": "Skapa objekt",
 				"placeholder_category": "KAtegori",
 				"placeholder_description": "Din beskrivning här ...",

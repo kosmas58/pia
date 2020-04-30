@@ -215,10 +215,10 @@
 				"placeholder_name": "Ime baze znanja"
 			},
 			"knowledges_entry": {
-				"choose_category": "TO TRANSLATE - Choose a category",
-				"contents": "TO TRANSLATE - Contents",
-				"create": "TO TRANSLATE - Create this element",
-				"linked_to": "TO TRANSLATE - Linked to",
+				"choose_category": "Izberite kategorijo",
+				"contents": "Vsebina",
+				"create": "Ustvari ta element",
+				"linked_to": "Povezan z",
 				"new": "Ustvari element",
 				"placeholder_category": "Kategorija",
 				"placeholder_description": "Vaš opis tukaj ...",

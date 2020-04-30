@@ -215,10 +215,10 @@
 				"placeholder_name": "Teadmistebaasi nimi"
 			},
 			"knowledges_entry": {
-				"choose_category": "TO TRANSLATE - Choose a category",
-				"contents": "TO TRANSLATE - Contents",
-				"create": "TO TRANSLATE - Create this element",
-				"linked_to": "TO TRANSLATE - Linked to",
+				"choose_category": "Valige kategooria",
+				"contents": "Sisu",
+				"create": "Looge see element",
+				"linked_to": "Seotud",
 				"new": "Loo üksus",
 				"placeholder_category": "Kategooria",
 				"placeholder_description": "Teie kirjeldus siin ...",

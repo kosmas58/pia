@@ -215,10 +215,10 @@
 				"placeholder_name": "Numele bazei de cunoștințe"
 			},
 			"knowledges_entry": {
-				"choose_category": "TO TRANSLATE - Choose a category",
-				"contents": "TO TRANSLATE - Contents",
-				"create": "TO TRANSLATE - Create this element",
-				"linked_to": "TO TRANSLATE - Linked to",
+				"choose_category": "Alege o categorie",
+				"contents": "Cuprins",
+				"create": "Creați acest element",
+				"linked_to": "Legat de",
 				"new": "Creare articol",
 				"placeholder_category": "Categorie",
 				"placeholder_description": "Descrierea ta aici ...",

@@ -215,9 +215,9 @@
 				"placeholder_name": "Tietokannan nimi"
 			},
 			"knowledges_entry": {
-				"choose_category": "TO TRANSLATE - Choose a category",
-				"contents": "TO TRANSLATE - Contents",
-				"create": "TO TRANSLATE - Create this element",
+				"choose_category": "Valitse kategoria",
+				"contents": "Sisällys",
+				"create": "Luo tämä elementti",
 				"linked_to": "TO TRANSLATE - Linked to",
 				"new": "Luo kohde",
 				"placeholder_category": "Kategoria",

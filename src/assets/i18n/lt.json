@@ -215,10 +215,10 @@
 				"placeholder_name": "Žinių bazės pavadinimas"
 			},
 			"knowledges_entry": {
-				"choose_category": "TO TRANSLATE - Choose a category",
-				"contents": "TO TRANSLATE - Contents",
-				"create": "TO TRANSLATE - Create this element",
-				"linked_to": "TO TRANSLATE - Linked to",
+				"choose_category": "Pasirinkite kategoriją",
+				"contents": "Turinys",
+				"create": "Sukurkite šį elementą",
+				"linked_to": "Susieta su",
 				"new": "Sukurti elementą",
 				"placeholder_category": "Kategorija",
 				"placeholder_description": "Jūsų aprašymas čia ...",

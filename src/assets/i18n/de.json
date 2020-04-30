@@ -215,10 +215,10 @@
 				"placeholder_name": "Name der Wissensbasis"
 			},
 			"knowledges_entry": {
-				"choose_category": "TO TRANSLATE - Choose a category",
-				"contents": "TO TRANSLATE - Contents",
-				"create": "TO TRANSLATE - Create this element",
-				"linked_to": "TO TRANSLATE - Linked to",
+				"choose_category": "Wähle eine Kategorie",
+				"contents": "Inhalt",
+				"create": "Erstellen Sie dieses Element",
+				"linked_to": "Verbunden mit",
 				"new": "Element erstellen",
 				"placeholder_category": "Kategorie",
 				"placeholder_description": "Ihre Beschreibung hier ...",
@@ -1006,7 +1006,7 @@
 				"title": "Erstellen Sie eine DSFA"
 			},
 			"step2": {
-				"description": "<p>Die <strong>Autoren</strong> sind diejenigen, die die erste Version der Analyse schreiben.</p><p>Dies sind zum Beispiel die mit der Behandlung verbundenen Projektleiter.</p>",
+				"description": "<p>Die <strong>Bearbeiter</strong> sind diejenigen, die die erste Version der Analyse schreiben.</p><p>Dies sind zum Beispiel die mit der Behandlung verbundenen Projektleiter.</p>",
 				"title": "Rollen rund um die DSFA"
 			},
 			"step3": {
@@ -1014,7 +1014,7 @@
 				"title": "Rollen rund um die DSFA"
 			},
 			"step4": {
-				"description": "<p>Die <strong>Bestätiger</strong> akzeptieren die Implementierung der Behandlung oder nicht. Sie müssen die Analyse unterschreiben.</p><p>Dies sind die Verantwortlichen, z. B. der CEO.</p>",
+				"description": "<p>Die <strong>Bestätigenden</strong> akzeptieren die Implementierung der Behandlung oder nicht. Sie müssen die Analyse unterschreiben.</p><p>Dies sind die Verantwortlichen, z. B. der CEO.</p>",
 				"title": "Rollen rund um die DSFA"
 			},
 			"step5": {
