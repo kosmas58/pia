@@ -113,7 +113,7 @@
 		},
 		"homepage_link": "Mes PIAs",
 		"knowledge_base_link": "Base de connaissances",
-		"knowledges": "Base de connaissance",
+		"knowledges": "",
 		"languages": {
 			"cnil_translations": "Traductions fournies par la CNIL",
 			"community_translations": "Traductions fournies par la communauté",
@@ -219,6 +219,7 @@
 				"validate_pia": "Valider"
 			},
 			"knowledges": {
+				"edit": "Éditer la base",
 				"import": "Importer une base",
 				"new": "Créer une base",
 				"placeholder_author": "Auteur",
@@ -227,6 +228,10 @@
 				"placeholder_name": "Nom de la base"
 			},
 			"knowledges_entry": {
+				"choose_category": "Choisissez une catégorie",
+				"contents": "Contenus",
+				"create": "Créer l'élément",
+				"linked_to": "Lié à",
 				"new": "Créer un élément",
 				"placeholder_category": "Catégorie",
 				"placeholder_description": "Votre description ici...",
@@ -312,7 +317,7 @@
 	},
 	"knowledge_base": {
 		"add_measure": "Ajouter",
-		"add_measure_hint": "Ajoutez aussi une mesure à partir de la base de connaissance.",
+		"add_measure_hint": "Ajoutez aussi une mesure à partir de la base de connaissances.",
 		"category": {
 			"definition": "Définition",
 			"example": "Exemple",
@@ -322,6 +327,8 @@
 			"organizational_measure": "Mesure organisationnelle",
 			"principle": "Principe"
 		},
+		"choose_knowledge_base": "Sélectionnez votre base de connaissances",
+		"default_knowledge_base": "Base de connaissances CNIL (par défaut)",
 		"filters": {
 			"all": "Tout",
 			"definitions": "Définitions",
@@ -874,7 +881,7 @@
 		"title": "Base de connaissances"
 	},
 	"measures": {
-		"add": "Créer une mesure (ou en ajouter une proposée dans la base de connaissance à droite)",
+		"add": "Créer une mesure (ou en ajouter une proposée dans la base de connaissances à droite)",
 		"default_placeholder": "Décrivez les mesures existantes ou prévues pour garantir la sécurité des données.",
 		"edit": "Éditer la mesure",
 		"placeholder_title": "Titre de la mesure",
@@ -936,7 +943,7 @@
 			"content": "Le fichier importé ne correspond pas à un fichier de type Modèle"
 		},
 		"knowledges": {
-			"content": "Êtes vous sûr de vouloir supprimer cette base de connaissance ?",
+			"content": "Êtes vous sûr de vouloir supprimer cette base de connaissances ?",
 			"remove": "Supprimer cette base"
 		},
 		"modal_select_text_pia": {
