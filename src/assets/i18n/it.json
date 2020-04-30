@@ -101,7 +101,6 @@
 		},
 		"homepage_link": "TO TRANSLATE - My PIAs",
 		"knowledge_base_link": "Archivio",
-		"knowledges": "Base di conoscenza",
 		"languages": {
 			"cnil_translations": "Traduzioni fornite da CNIL",
 			"community_translations": "Traduzioni fornite da soggetti diversi",
@@ -207,6 +206,7 @@
 				"validate_pia": "TO TRANSLATE - Validate"
 			},
 			"knowledges": {
+				"edit": "Modifica la knowledge base",
 				"import": "Importa una knowledge base",
 				"new": "Creare una base di conoscenza",
 				"placeholder_author": "Autore",
@@ -215,6 +215,10 @@
 				"placeholder_name": "Nome della knowledge base"
 			},
 			"knowledges_entry": {
+				"choose_category": "TO TRANSLATE - Choose a category",
+				"contents": "TO TRANSLATE - Contents",
+				"create": "TO TRANSLATE - Create this element",
+				"linked_to": "TO TRANSLATE - Linked to",
 				"new": "Crea un oggetto",
 				"placeholder_category": "CATEGORIA",
 				"placeholder_description": "La tua descrizione qui ...",
@@ -310,6 +314,8 @@
 			"organizational_measure": "Misure organizzative",
 			"principle": "Principio"
 		},
+		"choose_knowledge_base": "Scegli la tua base di conoscenza",
+		"default_knowledge_base": "Base di conoscenza CNIL (impostazione predefinita)",
 		"filters": {
 			"all": "Tutti",
 			"definitions": "Definizioni",

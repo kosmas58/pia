@@ -101,7 +101,6 @@
 		},
 		"homepage_link": "TO TRANSLATE - My PIAs",
 		"knowledge_base_link": "Baza znanja",
-		"knowledges": "Baza znanja",
 		"languages": {
 			"cnil_translations": "Prijevodi od strane CNIL-a",
 			"community_translations": "Prijevodi od strane zajednice",
@@ -207,6 +206,7 @@
 				"validate_pia": "TO TRANSLATE - Validate"
 			},
 			"knowledges": {
+				"edit": "Uredite bazu znanja",
 				"import": "Uvoz baze znanja",
 				"new": "Stvorite bazu znanja",
 				"placeholder_author": "Autor",
@@ -215,6 +215,10 @@
 				"placeholder_name": "Naziv baze znanja"
 			},
 			"knowledges_entry": {
+				"choose_category": "TO TRANSLATE - Choose a category",
+				"contents": "TO TRANSLATE - Contents",
+				"create": "TO TRANSLATE - Create this element",
+				"linked_to": "TO TRANSLATE - Linked to",
 				"new": "Stvorite stavku",
 				"placeholder_category": "Kategorija",
 				"placeholder_description": "Vaš opis ovdje ...",
@@ -310,6 +314,8 @@
 			"organizational_measure": "Organizacijske kontrole",
 			"principle": "Princip"
 		},
+		"choose_knowledge_base": "Odaberite bazu znanja",
+		"default_knowledge_base": "Baza znanja CNIL-a (zadano)",
 		"filters": {
 			"all": "Sve",
 			"definitions": "Definicije",

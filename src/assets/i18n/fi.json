@@ -101,7 +101,6 @@
 		},
 		"homepage_link": "TO TRANSLATE - My PIAs",
 		"knowledge_base_link": "Tietopankki",
-		"knowledges": "Tietopohja",
 		"languages": {
 			"cnil_translations": "CNIL:n tarjoamat käännökset",
 			"community_translations": "Epäviralliset käännökset",
@@ -207,6 +206,7 @@
 				"validate_pia": "TO TRANSLATE - Validate"
 			},
 			"knowledges": {
+				"edit": "Muokkaa tietokantaa",
 				"import": "Tuo tietokanta",
 				"new": "Luo tietokanta",
 				"placeholder_author": "kirjailija",
@@ -215,6 +215,10 @@
 				"placeholder_name": "Tietokannan nimi"
 			},
 			"knowledges_entry": {
+				"choose_category": "TO TRANSLATE - Choose a category",
+				"contents": "TO TRANSLATE - Contents",
+				"create": "TO TRANSLATE - Create this element",
+				"linked_to": "TO TRANSLATE - Linked to",
 				"new": "Luo kohde",
 				"placeholder_category": "Kategoria",
 				"placeholder_description": "Kuvauksesi täällä ...",
@@ -310,6 +314,8 @@
 			"organizational_measure": "Organisatorinen suojaustoimi",
 			"principle": "Periaate"
 		},
+		"choose_knowledge_base": "Valitse tietokanta",
+		"default_knowledge_base": "CNIL: n tietokanta (oletus)",
 		"filters": {
 			"all": "Kaikki",
 			"definitions": "Määritelmät",

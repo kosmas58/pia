@@ -101,7 +101,6 @@
 		},
 		"homepage_link": "TO TRANSLATE - My PIAs",
 		"knowledge_base_link": "Tudásbázis",
-		"knowledges": "Tudásbázis",
 		"languages": {
 			"cnil_translations": "A CNIL által biztosított fordítások",
 			"community_translations": "Nem hivatalos fordítások",
@@ -207,6 +206,7 @@
 				"validate_pia": "TO TRANSLATE - Validate"
 			},
 			"knowledges": {
+				"edit": "Szerkessze a tudásbázist",
 				"import": "Importáljon tudásbázist",
 				"new": "Hozzon létre egy tudásbázist",
 				"placeholder_author": "Szerző",
@@ -215,6 +215,10 @@
 				"placeholder_name": "Tudásbázis neve"
 			},
 			"knowledges_entry": {
+				"choose_category": "TO TRANSLATE - Choose a category",
+				"contents": "TO TRANSLATE - Contents",
+				"create": "TO TRANSLATE - Create this element",
+				"linked_to": "TO TRANSLATE - Linked to",
 				"new": "Elem létrehozása",
 				"placeholder_category": "Kategória",
 				"placeholder_description": "Itt található az Ön leírása ...",
@@ -310,6 +314,8 @@
 			"organizational_measure": "Szervezeti védelmi intézkedések",
 			"principle": "Útmutatás"
 		},
+		"choose_knowledge_base": "Válassza ki tudásbázisát",
+		"default_knowledge_base": "CNIL tudásbázis (alapértelmezett)",
 		"filters": {
 			"all": "Mind",
 			"definitions": "Mit jelent?",

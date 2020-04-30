@@ -101,7 +101,6 @@
 		},
 		"homepage_link": "Hem",
 		"knowledge_base_link": "Kunskapsbas",
-		"knowledges": "Kunskapsbas",
 		"languages": {
 			"cnil_translations": "Traductions fournies par la CNIL",
 			"community_translations": "Traductions fournies par la communauté",
@@ -207,6 +206,7 @@
 				"validate_pia": "TO TRANSLATE - Validate"
 			},
 			"knowledges": {
+				"edit": "Redigera kunskapsbasen",
 				"import": "Importera en kunskapsbas",
 				"new": "Skapa en kunskapsbas",
 				"placeholder_author": "Författare",
@@ -215,6 +215,10 @@
 				"placeholder_name": "Kunskapsbasens namn"
 			},
 			"knowledges_entry": {
+				"choose_category": "TO TRANSLATE - Choose a category",
+				"contents": "TO TRANSLATE - Contents",
+				"create": "TO TRANSLATE - Create this element",
+				"linked_to": "TO TRANSLATE - Linked to",
 				"new": "Skapa objekt",
 				"placeholder_category": "KAtegori",
 				"placeholder_description": "Din beskrivning här ...",
@@ -310,6 +314,8 @@
 			"organizational_measure": "Organisatorisk åtgärd",
 			"principle": "Princip"
 		},
+		"choose_knowledge_base": "Välj din kunskapsbas",
+		"default_knowledge_base": "CNILs kunskapsbas (standard)",
 		"filters": {
 			"all": "Alla",
 			"definitions": "Definitioner",
