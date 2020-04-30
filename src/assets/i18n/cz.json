@@ -215,10 +215,10 @@
 				"placeholder_name": "Název znalostní báze"
 			},
 			"knowledges_entry": {
-				"choose_category": "TO TRANSLATE - Choose a category",
-				"contents": "TO TRANSLATE - Contents",
-				"create": "TO TRANSLATE - Create this element",
-				"linked_to": "TO TRANSLATE - Linked to",
+				"choose_category": "Vyberte kategorii",
+				"contents": "Obsah",
+				"create": "Vytvořte tento prvek",
+				"linked_to": "Spojené s",
 				"new": "Vytvořit položku",
 				"placeholder_category": "Kategorie",
 				"placeholder_description": "Váš popis zde ...",

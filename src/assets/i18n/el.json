@@ -215,10 +215,10 @@
 				"placeholder_name": "Όνομα βάσης γνώσεων"
 			},
 			"knowledges_entry": {
-				"choose_category": "TO TRANSLATE - Choose a category",
-				"contents": "TO TRANSLATE - Contents",
-				"create": "TO TRANSLATE - Create this element",
-				"linked_to": "TO TRANSLATE - Linked to",
+				"choose_category": "Επιλέξτε μια κατηγορία",
+				"contents": "περιεχόμενα",
+				"create": "Δημιουργήστε αυτό το στοιχείο",
+				"linked_to": "Που συνδέονται με την",
 				"new": "Δημιουργία αντικειμένου",
 				"placeholder_category": "Κατηγορία",
 				"placeholder_description": "Η περιγραφή σας εδώ ...",
