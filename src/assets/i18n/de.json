@@ -1036,12 +1036,12 @@
 				"title": "Navigation"
 			},
 			"step2": {
-				"description": "Es wird verwendet, um den Zweck der Verarbeitung und deren Durchführung zu erläutern.",
+				"description": "Er wird verwendet, um den Zweck der Verarbeitung und deren Durchführung zu erläutern.",
 				"title": "Kontext"
 			},
 			"step3": {
-				"description": "Sie ermöglichen es sicherzustellen, dass die Verarbeitung rechtlich mit der DSGVO vereinbar ist.",
-				"title": "Fundamentale Prinzipien"
+				"description": "Deren Anwendung stellt sicher, dass die Verarbeitung rechtlich mit der DS-GVO vereinbar ist.",
+				"title": "Grundlegende Prinzipien"
 			},
 			"step4": {
 				"description": "Sie beschreiben die bereits für die Verarbeitung geplanten Sicherheitsmaßnahmen und ermöglichen die Bewertung der möglichen Auswirkungen auf die betroffenen Personen.",
@@ -1052,7 +1052,7 @@
 				"title": "Bestätigung"
 			},
 			"step6": {
-				"description": "<p>Es bietet kontextbezogene Unterstützung bei der Durchführung der Analyse und basiert auf der DSGVO, dem Sicherheitsleitfaden und den PIA-Leitfäden der CNIL.</p><p>Zusätzlich zu diesem Inhalt können Sie auch eigene Wissensdatenbanken erstellen, um auf einfache Weise auf unternehmensspezifische Informationen zugreifen zu können.</p>",
+				"description": "<p>Es bietet kontextbezogene Unterstützung bei der Durchführung der Analyse und basiert auf der DS-GVO, dem Sicherheitsleitfaden und den PIA-Leitfäden der CNIL.</p><p>Zusätzlich zu diesem Inhalt können Sie auch eigene Wissensdatenbanken erstellen, um auf einfache Weise auf unternehmensspezifische Informationen zugreifen zu können.</p>",
 				"title": "Wissensbasis"
 			},
 			"step7": {
@@ -1066,8 +1066,8 @@
 				"title": "Überprüfen Sie die DSFA"
 			},
 			"step2": {
-				"description": "<p>Diese Überprüfung zeigt den Bearbeitern an, dass Elemente fehlen, um eine relevante Bewertung vornehmen zu können.</p><p>Der Prüfer muss diese im zugehörigen Feld <strong>Bewertungskommentar</strong> angeben. Der Autor wird sein Exemplar entsprechend rezensieren.</p>",
-				"title": "Zu korrigieren"
+				"description": "<p>Diese Überprüfung zeigt den Bearbeitern an, dass Elemente fehlen, um eine relevante Bewertung vornehmen zu können.</p><p>Der Prüfer muss diese im zugehörigen Feld <strong>Bewertungskommentar</strong> angeben. Der Bearbeiter wird sein Exemplar entsprechend anpassen.</p>",
+				"title": "Zu berichtigen"
 			},
 			"step3": {
 				"description": "<p>Diese Bewertung gibt die zu überarbeitenden Verarbeitungspunkte an und ist im Feld <strong>Aktionsplan / Korrekturmaßnahmen</strong>aufgeführt.</p><p>Diese Maßnahmen werden automatisch zum Teil Aktionsplan der Analyse hinzugefügt. Es ist notwendig, sie so schnell wie möglich umzusetzen.</p>",
