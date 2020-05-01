@@ -31,7 +31,8 @@ export class LanguagesService {
       'pl',
       'pt',
       'ro',
-      'sl'
+      'sl',
+      'sv'
     ]);
     this._translateService.setDefaultLang('fr');
   }
@@ -47,7 +48,7 @@ export class LanguagesService {
     } else {
       // Set default language
       const browserLang = this._translateService.getBrowserLang();
-      language = browserLang.match(/en|cz|de|dk|el|es|et|fi|fr|hr|hu|it|lt|nl|no|pl|pt|ro|sl/) ? browserLang : 'fr';
+      language = browserLang.match(/en|cz|de|dk|el|es|et|fi|fr|hr|hu|it|lt|nl|no|pl|pt|ro|sl|sv/) ? browserLang : 'fr';
       this._translateService.use(language);
     }
     this.selectedLanguage = language;
