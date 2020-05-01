@@ -5,7 +5,7 @@
 		"licences": "Bibliotekslicenser:",
 		"title": "Om PIA værktøjet",
 		"translators": "Værktøjet er i øjeblikket tilgængeligt på atten sprog. De franske og engelske versioner leveres af CNIL. De andre versioner er resultatet af bidrag fra følgende personer:",
-		"translators_name": "<ul><li>Croatian : <a target=\"_blank\" href=\"https://github.com/B2KapitalBA\">B2KapitalBA</a> ;</li><li>Czech : Jiří Grohmann, Manuel d’Orso ;</li><li>Danish : <a target=\"_blank\" href=\"https://github.com/moolsen\">Michael Drews Olsen</a> ;</li><li>Dutch : Ruud van Driel, Manuel d’Orso ;</li><li>English : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Estonian : Eva Arumets, Lauri Bender, Rebeka Dronia, Kärol Kibena, Simon Suuban, <a target=\"_blank\" href=\"https://kochpartners.ee/en/people/urmas-kukk/\">Urmas Kukk, <a target=\"_blank\" href=\"https://github.com/PrivacyAssessment1\">PrivacyAssessment1</a> ;</li><li>Finnish : <a target=\"_blank\" href=\"https://tietosuoja.fi/etusivu\">Tietosuojavaltuutetun toimisto</a> ;</li><li>French : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>German  : <a target=\"_blank\" href=\"https://github.com/kosmas58\">Kosmas Schütz</a> , Corina Scheiter (<a target=\"_blank\" href=\"https://www.datenschutz-bayern.de/\">BayLfD</a>) ;</li><li>Greek : <a target=\"_blank\" href=\"https://tzellis.gr\">Dimitris Tzellis</a> ;</li><li>Hungarian : <a target=\"_blank\" href=\"https://naih.hu/\">Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)</a> ;</li><li>Italian : Manuel d’Orso, Gianluca Markos, Antonio Caselli (<a target=\"_blank\" href=\"http://gpdp.it\">Garante per la Protezione dei Dai Personali (GPDP)</a>) ;</li><li>Lithuanian : Paulius Galubickas (<a target=\"_blank\" href=\"http://galubickas.lt\">Law firm Galubickas</a>) ;</li><li>Norwegian : <a target=\"_blank\" href=\"https://www.datatilsynet.no\">Datatilsynet</a> ;</li><li>Polish : <a target=\"_blank\" href=\"https://github.com/JoannaKar\">Joanna Karczewska</a> , Michal Mazur (<a target=\"_blank\" href=\"https://giodo.gov.pl\">Generalny Inspektor Ochrony Danych Osobowych (GIODO)</a>) ;</li><li>Portuguese : <a target=\"_blank\" href=\"https://github.com/bagois\">Barbara Gois</a> ;</li><li>Romanian : <a target=\"_blank\" href=\"https://github.com/webmyday\">webmyday</a> ;</li><li>Spanish : <a target=\"_blank\" href=\"https://github.com/ylachgar\">ylachgar</a> .</li></ul>",
+		"translators_name": "<ul><li>Croatian : <a target=\"_blank\" href=\"https://github.com/B2KapitalBA\">B2KapitalBA</a> ;</li><li>Czech : Jiří Grohmann, Manuel d’Orso ;</li><li>Danish : <a target=\"_blank\" href=\"https://github.com/moolsen\">Michael Drews Olsen</a> ;</li><li>Dutch : Ruud van Driel, Manuel d’Orso ;</li><li>English : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Estonian : Eva Arumets, Lauri Bender, Rebeka Dronia, Kärol Kibena, Simon Suuban, <a target=\"_blank\" href=\"https://kochpartners.ee/en/people/urmas-kukk/\">Urmas Kukk, <a target=\"_blank\" href=\"https://github.com/PrivacyAssessment1\">PrivacyAssessment1</a> ;</li><li>Finnish : <a target=\"_blank\" href=\"https://tietosuoja.fi/etusivu\">Tietosuojavaltuutetun toimisto</a> ;</li><li>French : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>German  : <a target=\"_blank\" href=\"https://github.com/kosmas58\">Kosmas Schütz</a> , Corina Scheiter (<a target=\"_blank\" href=\"https://www.datenschutz-bayern.de/\">BayLfD</a>) ;</li><li>Greek : <a target=\"_blank\" href=\"https://tzellis.gr\">Dimitris Tzellis</a> ;</li><li>Hungarian : <a target=\"_blank\" href=\"https://naih.hu/\">Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)</a> ;</li><li>Italian : Manuel d’Orso, Gianluca Markos, Antonio Caselli (<a target=\"_blank\" href=\"http://gpdp.it\">Garante per la Protezione dei Dai Personali (GPDP)</a>) ;</li><li>Lithuanian : Paulius Galubickas (<a target=\"_blank\" href=\"http://galubickas.lt\">Law firm Galubickas</a>) ;</li><li>Norwegian : <a target=\"_blank\" href=\"https://www.datatilsynet.no\">Datatilsynet</a> ;</li><li>Polish : <a target=\"_blank\" href=\"https://github.com/JoannaKar\">Joanna Karczewska</a> , Michal Mazur (<a target=\"_blank\" href=\"https://giodo.gov.pl\">Generalny Inspektor Ochrony Danych Osobowych (GIODO)</a>) ;</li><li>Portuguese : <a target=\"_blank\" href=\"https://github.com/bagois\">Barbara Gois</a> ;</li><li>Romanian : <a target=\"_blank\" href=\"https://github.com/webmyday\">webmyday</a> ;</li><li>Spanish : <a target=\"_blank\" href=\"https://github.com/ylachgar\">ylachgar</a>, <a target=\"_blank\" href=\"https://github.com/antoniormesa\">antoniormesa</a> ;</li><li>Swedish : Per von Bahr <a target=\"_blank\" href=\"https://www.soprasteria.se\">(Sopra Steria AB)</a>  .</li></ul>",
 		"version_number": "Version nummer"
 	},
 	"action_plan": {
@@ -43,6 +43,7 @@
 		"negligible": "Ubetydelig",
 		"risk1_access": "(U)",
 		"risk2_modification": "(Æ)",
+		"risk3_disappearance": "(T)",
 		"seriousness_axe": "Risiko alvorlighed"
 	},
 	"comments": {
@@ -53,10 +54,10 @@
 		"send": "Send"
 	},
 	"date": {
-		"earlier-in-this-month": "TO TRANSLATE - Earlier this month",
-		"earlier-in-this-week": "TO TRANSLATE - Earlier this week",
-		"today": "TO TRANSLATE - Today",
-		"yesterday": "TO TRANSLATE - Yesterday"
+		"earlier-in-this-month": "Tidligere denne måned",
+		"earlier-in-this-week": "Tidligere denne uge",
+		"today": "i dag",
+		"yesterday": "I GÅR"
 	},
 	"errors": {
 		"content": "Hvis du støder på andre problemer, eller hvis du har forslag til forbedringer, <br> kan du sende dem tilbage via denne formular: <a href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\" target=\"_blank\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>",
@@ -90,16 +91,16 @@
 		"to_correct": "At rette"
 	},
 	"header": {
-		"archives": "TO TRANSLATE - PIA Archives",
-		"current_pias": "TO TRANSLATE - Current PIAs",
-		"exit_full_screen_mode": "TO TRANSLATE - Press F11 to exit full screen mode.",
+		"archives": "Arkiverede PIA'er",
+		"current_pias": "Aktive PIA'er",
+		"exit_full_screen_mode": "Tryk på F11 for at afslutte fuldskærmstilstand.",
 		"help": {
-			"issue_reporting": "TO TRANSLATE - Report an issue",
-			"manual": "TO TRANSLATE - User manual",
+			"issue_reporting": "Rapporter en fejl",
+			"manual": "Brugermanual",
 			"pia_example_link": "PIA exempel",
 			"title": "Hjælp"
 		},
-		"homepage_link": "TO TRANSLATE - My PIAs",
+		"homepage_link": "Mine PIA'er",
 		"knowledge_base_link": "Vidensbase",
 		"languages": {
 			"cnil_translations": "Oversættelser af CNILs",
@@ -135,7 +136,7 @@
 			"accessibility": "Øget tilgængelighed (høje kontrast farver, daltonism)",
 			"onboarding": "Genstart tutorial",
 			"settings": "Konfiguration",
-			"url_setting": "TO TRANSLATE - Server URL configuration"
+			"url_setting": "Server-URL-konfiguration"
 		}
 	},
 	"help": {
@@ -177,12 +178,19 @@
 			},
 			"footer": "Hvis du støder på andre problemer, eller hvis du har forslag til forbedringer, kan du sende dem tilbage via denne formular <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
 		},
+		"infografics": {
+			"display": "Se proceskortet",
+			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"guide": "Vis PIA-guiderne på CNIL",
+			"hide": "Skjul proceskortet",
+			"title": "Oversigt over forpligtelser og metode"
+		},
 		"title": "Hjælp"
 	},
 	"homepage": {
 		"cards": {
 			"author": "Editing",
-			"category": "TO TRANSLATE - Category",
+			"category": "Kategori",
 			"creation_status": "Kreation",
 			"date": "Dato",
 			"evaluation": "Review",
@@ -190,20 +198,20 @@
 			"import_structure": "Importere skabelon",
 			"item": {
 				"consult_pia": "Konsultere",
-				"consult_structure": "TO TRANSLATE - Consult template",
+				"consult_structure": "Se modellen",
 				"edit_pia": "Redigere",
 				"edit_structure": "Redigere skabelon",
 				"tools": {
 					"action_plan": "Vis<br>handlingsplan",
-					"archive": "TO TRANSLATE - Archive",
+					"archive": "Arkiv",
 					"duplicate": "duplikere",
 					"export": "Exportere",
 					"more_options": "Flere optioner",
 					"pia": "Vis<br>PIA",
-					"remove": "TO TRANSLATE - Delete",
-					"unarchive": "TO TRANSLATE - Unarchive"
+					"remove": "",
+					"unarchive": "udpakning"
 				},
-				"validate_pia": "TO TRANSLATE - Validate"
+				"validate_pia": "Validere"
 			},
 			"knowledges": {
 				"edit": "Rediger vidensbasen",
@@ -230,7 +238,7 @@
 			"or": "or",
 			"pia_name": "PIA",
 			"placeholder_author": "Fornavn, efternavn",
-			"placeholder_category": "TO TRANSLATE - Category",
+			"placeholder_category": "Kategori",
 			"placeholder_evaluation": "Fornavn, efternavn",
 			"placeholder_import_pia": "Importere PIA",
 			"placeholder_import_structure": "Importere skabelon",
@@ -253,14 +261,14 @@
 		"filters": {
 			"assessor": "Analytiker",
 			"author": "Forfatter",
-			"card": "TO TRANSLATE - Card view",
+			"card": "Kortvisning",
 			"card_rocket_content": "Begynd !<br><br>For at starte en PIA,<br> klik på Ny PIA",
 			"card_rocket_content_structure": "Begynd ! For at starte <br>en skabelon, klik på +",
-			"category": "TO TRANSLATE - Category",
+			"category": "Kategori",
 			"date": "Dato",
 			"import_pia": "Importere PIA",
 			"import_structure": "Importere skabelon",
-			"list": "TO TRANSLATE - List view",
+			"list": "Listevisning",
 			"list_rocket_content": "Begynd ! For at starte <br>en PIA, klik på +",
 			"list_rocket_content_structure": "Begynd ! For at starte <br>en skabelon, klik på +",
 			"name": "Navn",
@@ -275,7 +283,7 @@
 		"lists": {
 			"column_actions": "Aktioner",
 			"column_author": "Redigere",
-			"column_category": "TO TRANSLATE - Category",
+			"column_category": "Kategori",
 			"column_creation": "Skabt",
 			"column_evaluation": "Evaluere",
 			"column_pia": "PIA",
@@ -289,18 +297,18 @@
 			"item": {
 				"tools": {
 					"action_plan": "Vis handlingsplan",
-					"archive": "TO TRANSLATE - Archive",
+					"archive": "Arkiv",
 					"consult": "Konsultere",
 					"duplicate": "Duplikere",
 					"edit": "Redigere",
 					"export": "Exportere",
 					"pia": "Vis PIA",
-					"remove": "TO TRANSLATE - Delete",
-					"unarchive": "TO TRANSLATE - Unarchive"
+					"remove": "fjern",
+					"unarchive": "udpakning"
 				}
 			}
 		},
-		"search_filter": "TO TRANSLATE - Search"
+		"search_filter": "søge"
 	},
 	"knowledge_base": {
 		"add_measure": "Tilføj",
@@ -888,8 +896,8 @@
 		},
 		"archive": "Arkiver",
 		"archive_pia": {
-			"archive": "TO TRANSLATE - Archive PIA",
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>archive this PIA ?"
+			"archive": "Arkiver denne PIA",
+			"content": "<span class='strong'>Bemærk,</span><br>Er du sikker på, at du vil<br>arkivere denne PIA?"
 		},
 		"ask_for_evaluation": {
 			"content": "Denne sektion er klar til evaluering."
@@ -941,8 +949,8 @@
 		},
 		"recover_version": {
 			"continue": "Fortsæt",
-			"message": "TO TRANSLATE - By continuing, you will restore this report version: {{date}}.<br><br>The current version will be saved.",
-			"title": "TO TRANSLATE - Restore a previous version"
+			"message": "Fortsat vil du gendanne {{date}} versionen af denne analyse. Du bliver nødt til at validere analysen igen, når den er færdig.<br><br>Den aktuelle version arkiveres.",
+			"title": "Gendan en gammel version"
 		},
 		"refuse_pia": {
 			"content": "Efter din afvisning, returneres analysen til evaluering for at foretage de nødvendige ændringer."
@@ -959,7 +967,7 @@
 			"remove": "Slet denne<br>foranstaltning"
 		},
 		"remove_pia": {
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>remove permanently this PIA?",
+			"content": "<span class='strong'>Bemærk,</span><br>Er du sikker på, at du vil<br>slette denne PIA permanent?",
 			"remove": "Slet denne PIA"
 		},
 		"remove_question": {
@@ -983,8 +991,8 @@
 		},
 		"start_evaluation": "Start evaluering",
 		"unarchive_pia": {
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>unarchive this PIA ?",
-			"unarchive": "TO TRANSLATE - Unarchive PIA"
+			"content": "<span class='strong'>Bemærk,</span><br>Er du sikker på, at du vil<br>fjerne arkivering af denne PIA?",
+			"unarchive": "Fjern arkivering af denne PIA"
 		},
 		"update_server_url_nok": {
 			"content": "Ingen forbindelse."
@@ -1124,7 +1132,7 @@
 	"pia": {
 		"attachments": {
 			"add": "Tilføj",
-			"download": "TO TRANSLATE - Download the attachment",
+			"download": "Download vedhæftningen",
 			"remove": "Slet",
 			"title": "Vedhæftelser"
 		},
@@ -1461,17 +1469,17 @@
 			"title": "Handlingsplan"
 		},
 		"actions": {
-			"complete_download": "TO TRANSLATE - Download the full report",
-			"complete_download_desc": "TO TRANSLATE - Export in a .zip archive all the report content (.doc and pictures), attachments and the action plan in a .csv format.",
-			"individual_download": "TO TRANSLATE - Download elements of the report",
-			"individual_download_desc": "TO TRANSLATE - Export specific elements of the report.",
-			"individual_download_doc": "TO TRANSLATE - Texts (.doc)",
-			"individual_download_images": "TO TRANSLATE - Visual elements (.png) including the risk overview, the risk mapping and the action plan.",
-			"individual_download_json": "TO TRANSLATE - Report to import into the PIA tool (.json file)",
-			"individual_download_select": "TO TRANSLATE - Select elements to export:",
-			"individual_to_download": "TO TRANSLATE - Download",
-			"print": "TO TRANSLATE - Print the report",
-			"print_and_download": "TO TRANSLATE - Print and download"
+			"complete_download": "Download hele analysen",
+			"complete_download_desc": "Eksporterer indholdet af analysen (.doc og billeder), de tilknyttede vedhæftede filer og handlingsplanen i et .csv-format til et .zip-arkiv.",
+			"individual_download": "Downloading",
+			"individual_download_desc": "Eksporterer specifikke elementer i analysen.",
+			"individual_download_doc": "Tekstindhold (.doc-fil)",
+			"individual_download_images": "Visuelle elementer (.png-filer): oversigt over risici, risikokortlægning, handlingsplan",
+			"individual_download_json": "Analyse til import til PIA-værktøjet (file.json)",
+			"individual_download_select": "Vælg de elementer, der skal eksporteres:",
+			"individual_to_download": "Downloade",
+			"print": "Print analysen",
+			"print_and_download": "Udskrivning og download"
 		},
 		"attachments": "Vedhæftelser",
 		"concerned_people_name": "Navn på de berørte personer",
@@ -1490,8 +1498,8 @@
 		"csv_implement_date": "Forventet dato for implementation",
 		"csv_people_in_charge": "Ansvarlig for gennemførelsen",
 		"csv_section": "Sektion",
-		"csv_title_object": "Titel",
-		"download_csv": "TO TRANSLATE - Action plan (.csv)",
+		"csv_title_object": "Titel på det pågældende objekt",
+		"download_csv": "Handlingsplan (.csv-fil)",
 		"dpo_name": "DPO's navn",
 		"dpo_opinion": "DPO's holdning",
 		"dpo_status": "DPO's status",
@@ -1508,24 +1516,24 @@
 		"pia_author": "Forfatterens navn",
 		"pia_name": "PIA",
 		"pia_validator": "Godkenders navn",
-		"preview_dpo_opinion": "TO TRANSLATE - DPO and data subjects opinion",
-		"preview_edition": "TO TRANSLATE - Editing",
-		"preview_evaluation": "TO TRANSLATE - Evaluation",
-		"preview_no_data": "TO TRANSLATE - No data to display.",
-		"preview_status": "TO TRANSLATE - Status",
-		"preview_subtitle": "TO TRANSLATE - General information",
-		"preview_title": "TO TRANSLATE - Preview",
-		"preview_validation": "TO TRANSLATE - Validation",
-		"preview_validation_section": "TO TRANSLATE - Validation",
+		"preview_dpo_opinion": "Udtalelse fra DPO og de berørte personer",
+		"preview_edition": "beslaglæggelse",
+		"preview_evaluation": "evaluering",
+		"preview_no_data": "Ingen oplysninger at vise.",
+		"preview_status": "status",
+		"preview_subtitle": "Generel information",
+		"preview_title": "Analyseoversigt",
+		"preview_validation": "Validering",
+		"preview_validation_section": "Validering",
 		"previous_page": "tilbage til forgående side",
 		"rejection_reason": "Begrundelse for afvisning",
 		"revision": {
-			"current_version": "TO TRANSLATE - Current version",
-			"pia_version": "TO TRANSLATE - PIA versions",
-			"restore_version": "TO TRANSLATE - Restore",
-			"revision": "TO TRANSLATE - Versions and revision",
-			"save": "TO TRANSLATE - Create a new version",
-			"show": "TO TRANSLATE - Display the {{length}} versions"
+			"current_version": "Nuværende version",
+			"pia_version": "PIA-versioner",
+			"restore_version": "Gendan denne version",
+			"revision": "Versioner og revision",
+			"save": "Opret en ny version",
+			"show": "Vis {{length}} version (er)"
 		},
 		"risks_cartography_title": "Risikokortlægning",
 		"risks_overview_title": "Risiko oversigt",
@@ -1537,7 +1545,7 @@
 		"button": {
 			"rejection": "Afvis PIA",
 			"signed_validation": "Godkend PIA <br>(signatur)",
-			"simple_validation": "Godkend PIA <br>(direkte)"
+			"simple_validation": "Enkel validering"
 		},
 		"confirmation1": "Jeg bekræfter, at beskrivelsen af sammenhængen i min behandling er i overensstemmelse med virkeligheden.",
 		"confirmation2": "Jeg bekræfter, at jeg har noteret de eksisterende risici i henhold til de foranstaltninger, der i øjeblikket gennemføres eller planlægges.",
