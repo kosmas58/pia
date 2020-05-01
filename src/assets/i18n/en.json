@@ -5,7 +5,7 @@
 		"licences": "Library licences:",
 		"title": "About the Tool PIA",
 		"translators": "The PIA software is currently available in eighteen languages. The French and English versions are provided by the CNIL. The others versions result from the contributions of the following individuals:",
-		"translators_name": "<ul><li>Croatian : <a target=\"_blank\" href=\"https://github.com/B2KapitalBA\">B2KapitalBA</a> ;</li><li>Czech : Jiří Grohmann, Manuel d’Orso ;</li><li>Danish : <a target=\"_blank\" href=\"https://github.com/moolsen\">Michael Drews Olsen</a> ;</li><li>Dutch : Ruud van Driel, Manuel d’Orso ;</li><li>English : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Estonian : Eva Arumets, Lauri Bender, Rebeka Dronia, Kärol Kibena, Simon Suuban, <a target=\"_blank\" href=\"https://kochpartners.ee/en/people/urmas-kukk/\">Urmas Kukk, <a target=\"_blank\" href=\"https://github.com/PrivacyAssessment1\">PrivacyAssessment1</a> ;</li><li>Finnish : <a target=\"_blank\" href=\"https://tietosuoja.fi/etusivu\">Tietosuojavaltuutetun toimisto</a> ;</li><li>French : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>German  : <a target=\"_blank\" href=\"https://github.com/kosmas58\">Kosmas Schütz</a> , Corina Scheiter (<a target=\"_blank\" href=\"https://www.datenschutz-bayern.de/\">BayLfD</a>) ;</li><li>Greek : <a target=\"_blank\" href=\"https://tzellis.gr\">Dimitris Tzellis</a> ;</li><li>Hungarian : <a target=\"_blank\" href=\"https://naih.hu/\">Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)</a> ;</li><li>Italian : Manuel d’Orso, Gianluca Markos, Antonio Caselli (<a target=\"_blank\" href=\"http://gpdp.it\">Garante per la Protezione dei Dai Personali (GPDP)</a>) ;</li><li>Lithuanian : Paulius Galubickas (<a target=\"_blank\" href=\"http://galubickas.lt\">Law firm Galubickas</a>) ;</li><li>Norwegian : <a target=\"_blank\" href=\"https://www.datatilsynet.no\">Datatilsynet</a> ;</li><li>Polish : <a target=\"_blank\" href=\"https://github.com/JoannaKar\">Joanna Karczewska</a> , Michal Mazur (<a target=\"_blank\" href=\"https://giodo.gov.pl\">Generalny Inspektor Ochrony Danych Osobowych (GIODO)</a>) ;</li><li>Portuguese : <a target=\"_blank\" href=\"https://github.com/bagois\">Barbara Gois</a> ;</li><li>Romanian : <a target=\"_blank\" href=\"https://github.com/webmyday\">webmyday</a> ;</li><li>Spanish : <a target=\"_blank\" href=\"https://github.com/ylachgar\">ylachgar</a> .</li></ul>",
+		"translators_name": "<ul><li>Croatian : <a target=\"_blank\" href=\"https://github.com/B2KapitalBA\">B2KapitalBA</a> ;</li><li>Czech : Jiří Grohmann, Manuel d’Orso ;</li><li>Danish : <a target=\"_blank\" href=\"https://github.com/moolsen\">Michael Drews Olsen</a> ;</li><li>Dutch : Ruud van Driel, Manuel d’Orso ;</li><li>English : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Estonian : Eva Arumets, Lauri Bender, Rebeka Dronia, Kärol Kibena, Simon Suuban, <a target=\"_blank\" href=\"https://kochpartners.ee/en/people/urmas-kukk/\">Urmas Kukk, <a target=\"_blank\" href=\"https://github.com/PrivacyAssessment1\">PrivacyAssessment1</a> ;</li><li>Finnish : <a target=\"_blank\" href=\"https://tietosuoja.fi/etusivu\">Tietosuojavaltuutetun toimisto</a> ;</li><li>French : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>German  : <a target=\"_blank\" href=\"https://github.com/kosmas58\">Kosmas Schütz</a> , Corina Scheiter (<a target=\"_blank\" href=\"https://www.datenschutz-bayern.de/\">BayLfD</a>) ;</li><li>Greek : <a target=\"_blank\" href=\"https://tzellis.gr\">Dimitris Tzellis</a> ;</li><li>Hungarian : <a target=\"_blank\" href=\"https://naih.hu/\">Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)</a> ;</li><li>Italian : Manuel d’Orso, Gianluca Markos, Antonio Caselli (<a target=\"_blank\" href=\"http://gpdp.it\">Garante per la Protezione dei Dai Personali (GPDP)</a>) ;</li><li>Lithuanian : Paulius Galubickas (<a target=\"_blank\" href=\"http://galubickas.lt\">Law firm Galubickas</a>) ;</li><li>Norwegian : <a target=\"_blank\" href=\"https://www.datatilsynet.no\">Datatilsynet</a> ;</li><li>Polish : <a target=\"_blank\" href=\"https://github.com/JoannaKar\">Joanna Karczewska</a> , Michal Mazur (<a target=\"_blank\" href=\"https://giodo.gov.pl\">Generalny Inspektor Ochrony Danych Osobowych (GIODO)</a>) ;</li><li>Portuguese : <a target=\"_blank\" href=\"https://github.com/bagois\">Barbara Gois</a> ;</li><li>Romanian : <a target=\"_blank\" href=\"https://github.com/webmyday\">webmyday</a> ;</li><li>Spanish : <a target=\"_blank\" href=\"https://github.com/ylachgar\">ylachgar</a>, <a target=\"_blank\" href=\"https://github.com/antoniormesa\">antoniormesa</a> ;</li><li>Swedish : Per von Bahr <a target=\"_blank\" href=\"https://www.soprasteria.se\">(Sopra Steria AB)</a> .</li></ul>",
 		"version_number": "Version number"
 	},
 	"action_plan": {
@@ -43,6 +43,7 @@
 		"negligible": "Negligible",
 		"risk1_access": "(I)",
 		"risk2_modification": "(U)",
+		"risk3_disappearance": "(D)",
 		"seriousness_axe": "Risk seriousness"
 	},
 	"comments": {
@@ -127,7 +128,7 @@
 			"sl": "Slovenščina",
 			"sv": "Svenska"
 		},
-		"logo_subtitle": "",
+		"logo_subtitle": "privacy impact assessment",
 		"logo_title": "Privacy impact assessment",
 		"structures": "PIA templates",
 		"tools": {
@@ -176,6 +177,13 @@
 				"title": "Known Issues"
 			},
 			"footer": "If you have any other problems or suggestions for improvement, you can visit our <a target=\"_blank\" href=\"https://github.com/LINCnil/pia\">Github resository</a> and submit an issue or a pull request."
+		},
+		"infografics": {
+			"display": "Show process map",
+			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"guide": "Show PIA Guides of the CNIL",
+			"hide": "Hide process map",
+			"title": "An overview of the requirements and methodology"
 		},
 		"title": "Help"
 	},
@@ -888,7 +896,7 @@
 		},
 		"archive": "Archive",
 		"archive_pia": {
-			"archive": "Archive PIA",
+			"archive": "Archive this PIA",
 			"content": "<span class='strong'>Warning,</span><br>Are you sure you want to<br>archive this PIA ?"
 		},
 		"ask_for_evaluation": {
@@ -941,7 +949,7 @@
 		},
 		"recover_version": {
 			"continue": "Continue",
-			"message": "By continuing, you will restore this report version: {{date}}.<br><br>The current version will be saved.",
+			"message": "By continuing, you will restore this report version: {{date}}. You will have to validate again the PIA once it is completed.<br><br>The current version will be archived.",
 			"title": "Restore a previous version"
 		},
 		"refuse_pia": {
@@ -984,7 +992,7 @@
 		"start_evaluation": "Start review",
 		"unarchive_pia": {
 			"content": "<span class='strong'>Warning,</span><br>Are you sure you want to<br>unarchive this PIA ?",
-			"unarchive": "Unarchive PIA"
+			"unarchive": "Unarchive this PIA"
 		},
 		"update_server_url_nok": {
 			"content": "Connection impossible."
@@ -1467,7 +1475,7 @@
 			"individual_download_desc": "Export specific elements of the report.",
 			"individual_download_doc": "Texts (.doc)",
 			"individual_download_images": "Visual elements (.png) including the risk overview, the risk mapping and the action plan.",
-			"individual_download_json": "TO TRANSLATE - Report to import into the PIA tool (.json file)",
+			"individual_download_json": "Report to import into the PIA tool (.json file)",
 			"individual_download_select": "Select elements to export:",
 			"individual_to_download": "Download",
 			"print": "Print the report",
@@ -1490,7 +1498,7 @@
 		"csv_implement_date": "Estimated implementation date",
 		"csv_people_in_charge": "Person in charge",
 		"csv_section": "Section",
-		"csv_title_object": "Title",
+		"csv_title_object": "Title of the object concerned",
 		"download_csv": "Action plan (.csv)",
 		"dpo_name": "DPO's name",
 		"dpo_opinion": "DPO's opinion",
@@ -1508,7 +1516,7 @@
 		"pia_author": "Author's name",
 		"pia_name": "PIA",
 		"pia_validator": "Validator's name",
-		"preview_dpo_opinion": "TO TRANSLATE - DPO and data subjects opinion",
+		"preview_dpo_opinion": "DPO and data subjects opinion",
 		"preview_edition": "Editing",
 		"preview_evaluation": "Evaluation",
 		"preview_no_data": "No data to display.",
@@ -1537,7 +1545,7 @@
 		"button": {
 			"rejection": "Reject PIA",
 			"signed_validation": "Approve PIA <br>(signed)",
-			"simple_validation": "Approve PIA <br>(direct)"
+			"simple_validation": "Simple validation"
 		},
 		"confirmation1": "I attest that the context of the processing described in the PIA is consistent with the reality.",
 		"confirmation2": "I attest that I am aware of the risks depending on the existing or planned measures.",

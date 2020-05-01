@@ -5,7 +5,7 @@
 		"licences": "Licencje bibliotek:",
 		"title": "O narzędziu PIA",
 		"translators": "Aplikacja PIA jest obecnie dostępna w osiemnaście językach. CNIL opracowała wersję francuską i angielską. Pozostałe wersje stanowią wynik pracy następujących osób:",
-		"translators_name": "<ul><li>Croatian : <a target=\"_blank\" href=\"https://github.com/B2KapitalBA\">B2KapitalBA</a> ;</li><li>Czech : Jiří Grohmann, Manuel d’Orso ;</li><li>Danish : <a target=\"_blank\" href=\"https://github.com/moolsen\">Michael Drews Olsen</a> ;</li><li>Dutch : Ruud van Driel, Manuel d’Orso ;</li><li>English : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Estonian : Eva Arumets, Lauri Bender, Rebeka Dronia, Kärol Kibena, Simon Suuban, <a target=\"_blank\" href=\"https://kochpartners.ee/en/people/urmas-kukk/\">Urmas Kukk, <a target=\"_blank\" href=\"https://github.com/PrivacyAssessment1\">PrivacyAssessment1</a> ;</li><li>Finnish : <a target=\"_blank\" href=\"https://tietosuoja.fi/etusivu\">Tietosuojavaltuutetun toimisto</a> ;</li><li>French : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>German  : <a target=\"_blank\" href=\"https://github.com/kosmas58\">Kosmas Schütz</a> , Corina Scheiter (<a target=\"_blank\" href=\"https://www.datenschutz-bayern.de/\">BayLfD</a>) ;</li><li>Greek : <a target=\"_blank\" href=\"https://tzellis.gr\">Dimitris Tzellis</a> ;</li><li>Hungarian : <a target=\"_blank\" href=\"https://naih.hu/\">Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)</a> ;</li><li>Italian : Manuel d’Orso, Gianluca Markos, Antonio Caselli (<a target=\"_blank\" href=\"http://gpdp.it\">Garante per la Protezione dei Dai Personali (GPDP)</a>) ;</li><li>Lithuanian : Paulius Galubickas (<a target=\"_blank\" href=\"http://galubickas.lt\">Law firm Galubickas</a>) ;</li><li>Norwegian : <a target=\"_blank\" href=\"https://www.datatilsynet.no\">Datatilsynet</a> ;</li><li>Polish : <a target=\"_blank\" href=\"https://github.com/JoannaKar\">Joanna Karczewska</a>, Michal Mazur (<a target=\"_blank\" href=\"https://giodo.gov.pl\">Generalny Inspektor Ochrony Danych Osobowych (GIODO)</a>), Michał Kapica ;</li><li>Portuguese : <a target=\"_blank\" href=\"https://github.com/bagois\">Barbara Gois</a> ;</li><li>Romanian : <a target=\"_blank\" href=\"https://github.com/webmyday\">webmyday</a> ;</li><li>Spanish : <a target=\"_blank\" href=\"https://github.com/ylachgar\">ylachgar</a> .</li></ul>",
+		"translators_name": "<ul><li>Croatian : <a target=\"_blank\" href=\"https://github.com/B2KapitalBA\">B2KapitalBA</a> ;</li><li>Czech : Jiří Grohmann, Manuel d’Orso ;</li><li>Danish : <a target=\"_blank\" href=\"https://github.com/moolsen\">Michael Drews Olsen</a> ;</li><li>Dutch : Ruud van Driel, Manuel d’Orso ;</li><li>English : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Estonian : Eva Arumets, Lauri Bender, Rebeka Dronia, Kärol Kibena, Simon Suuban, <a target=\"_blank\" href=\"https://kochpartners.ee/en/people/urmas-kukk/\">Urmas Kukk, <a target=\"_blank\" href=\"https://github.com/PrivacyAssessment1\">PrivacyAssessment1</a> ;</li><li>Finnish : <a target=\"_blank\" href=\"https://tietosuoja.fi/etusivu\">Tietosuojavaltuutetun toimisto</a> ;</li><li>French : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>German  : <a target=\"_blank\" href=\"https://github.com/kosmas58\">Kosmas Schütz</a> , Corina Scheiter (<a target=\"_blank\" href=\"https://www.datenschutz-bayern.de/\">BayLfD</a>) ;</li><li>Greek : <a target=\"_blank\" href=\"https://tzellis.gr\">Dimitris Tzellis</a> ;</li><li>Hungarian : <a target=\"_blank\" href=\"https://naih.hu/\">Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)</a> ;</li><li>Italian : Manuel d’Orso, Gianluca Markos, Antonio Caselli (<a target=\"_blank\" href=\"http://gpdp.it\">Garante per la Protezione dei Dai Personali (GPDP)</a>) ;</li><li>Lithuanian : Paulius Galubickas (<a target=\"_blank\" href=\"http://galubickas.lt\">Law firm Galubickas</a>) ;</li><li>Norwegian : <a target=\"_blank\" href=\"https://www.datatilsynet.no\">Datatilsynet</a> ;</li><li>Polish : <a target=\"_blank\" href=\"https://github.com/JoannaKar\">Joanna Karczewska</a>, Michal Mazur (<a target=\"_blank\" href=\"https://giodo.gov.pl\">Generalny Inspektor Ochrony Danych Osobowych (GIODO)</a>), Michał Kapica ;</li><li>Portuguese : <a target=\"_blank\" href=\"https://github.com/bagois\">Barbara Gois</a> ;</li><li>Romanian : <a target=\"_blank\" href=\"https://github.com/webmyday\">webmyday</a> ;</li><li>Spanish : <a target=\"_blank\" href=\"https://github.com/ylachgar\">ylachgar</a>, <a target=\"_blank\" href=\"https://github.com/antoniormesa\">antoniormesa</a> ;</li><li>Swedish : Per von Bahr <a target=\"_blank\" href=\"https://www.soprasteria.se\">(Sopra Steria AB)</a> .</li></ul>",
 		"version_number": "Numer wersji"
 	},
 	"action_plan": {
@@ -43,6 +43,7 @@
 		"negligible": "Pomijalne",
 		"risk1_access": "(D)",
 		"risk2_modification": "(M)",
+		"risk3_disappearance": "(Z)",
 		"seriousness_axe": "Istotność ryzyka"
 	},
 	"comments": {
@@ -53,10 +54,10 @@
 		"send": "Wstaw komentarz"
 	},
 	"date": {
-		"earlier-in-this-month": "TO TRANSLATE - Earlier this month",
-		"earlier-in-this-week": "TO TRANSLATE - Earlier this week",
-		"today": "TO TRANSLATE - Today",
-		"yesterday": "TO TRANSLATE - Yesterday"
+		"earlier-in-this-month": "Wcześniej w tym miesiącu",
+		"earlier-in-this-week": "Wcześniej w tym tygodniu",
+		"today": "Dzisiaj",
+		"yesterday": "Wczoraj"
 	},
 	"errors": {
 		"content": "Jeżeli wystąpią inne problemy lub mają Państwo sugestie dotyczące ulepszeń, prosimy skorzystać z formularza <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>.",
@@ -90,16 +91,16 @@
 		"to_correct": "Do poprawienia"
 	},
 	"header": {
-		"archives": "TO TRANSLATE - PIA Archives",
-		"current_pias": "TO TRANSLATE - Current PIAs",
-		"exit_full_screen_mode": "TO TRANSLATE - Press F11 to exit full screen mode.",
+		"archives": "Zarchiwizowane PIA",
+		"current_pias": "Aktywne PIA",
+		"exit_full_screen_mode": "Naciśnij F11, aby wyjść z trybu pełnoekranowego.",
 		"help": {
-			"issue_reporting": "TO TRANSLATE - Report an issue",
-			"manual": "TO TRANSLATE - User manual",
+			"issue_reporting": "Zgłoś błąd",
+			"manual": "instrukcja obsługi",
 			"pia_example_link": "Przykład PIA",
 			"title": "Pomoc"
 		},
-		"homepage_link": "TO TRANSLATE - My PIAs",
+		"homepage_link": "Strona główna",
 		"knowledge_base_link": "Baza wiedzy",
 		"languages": {
 			"cnil_translations": "Wersje przetłumaczone przez CNIL",
@@ -135,7 +136,7 @@
 			"accessibility": "Dostępność dla osób słabowidzących (kolory o mocnym kontraście, dopasowane do daltonizmu)",
 			"onboarding": "Uruchom ponownie samouczek",
 			"settings": "Ustawienia",
-			"url_setting": "TO TRANSLATE - Server URL configuration"
+			"url_setting": "Konfiguracja adresu URL serwera"
 		}
 	},
 	"help": {
@@ -177,12 +178,19 @@
 			},
 			"footer": "Jeśli masz inne problemy lub propozycje ulepszeń, możesz wysłać je do nas za pomocą tego formularza <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
 		},
+		"infografics": {
+			"display": "Zobacz mapę procesu",
+			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"guide": "Pokaż przewodniki PIA CNIL",
+			"hide": "Ukryj mapę procesu",
+			"title": "Przegląd obowiązków i metody"
+		},
 		"title": "Pomoc"
 	},
 	"homepage": {
 		"cards": {
 			"author": "Edytowanie",
-			"category": "TO TRANSLATE - Category",
+			"category": "Kategoria",
 			"creation_status": "Utworzenie",
 			"date": "Data",
 			"evaluation": "Ocena",
@@ -190,20 +198,20 @@
 			"import_structure": "Import szablonu",
 			"item": {
 				"consult_pia": "Konsultacja",
-				"consult_structure": "TO TRANSLATE - Consult template",
+				"consult_structure": "Zobacz model",
 				"edit_pia": "Edycja",
 				"edit_structure": "Edycja szablonu",
 				"tools": {
 					"action_plan": "Wyświetlenie<br>planu działania",
-					"archive": "TO TRANSLATE - Archive",
+					"archive": "Archiwum",
 					"duplicate": "Duplikacja",
 					"export": "Eksport",
 					"more_options": "Więcej opcji",
 					"pia": "Wyświetlenie<br>PIA",
-					"remove": "TO TRANSLATE - Delete",
-					"unarchive": "TO TRANSLATE - Unarchive"
+					"remove": "Usunięcie",
+					"unarchive": "Rozpakować"
 				},
-				"validate_pia": "TO TRANSLATE - Validate"
+				"validate_pia": "Uprawomocnić"
 			},
 			"knowledges": {
 				"edit": "Edytuj bazę wiedzy",
@@ -230,14 +238,14 @@
 			"or": "or",
 			"pia_name": "PIA",
 			"placeholder_author": "Imię, nazwisko",
-			"placeholder_category": "TO TRANSLATE - Category",
+			"placeholder_category": "Kategoria",
 			"placeholder_evaluation": "Imię, nazwisko",
 			"placeholder_import_pia": "Import PIA",
 			"placeholder_import_structure": "Import szablonu",
 			"placeholder_new_pia": "Nowa PIA",
 			"placeholder_new_structure": "Nowy szablon",
 			"placeholder_pia_name": "Tytuł PIA",
-			"placeholder_sector_name": "TO TRANSLATE - Associated sector's name",
+			"placeholder_sector_name": "Tytuł powiązanego sektora",
 			"placeholder_start": "Należy wypełnić wszystkie pola",
 			"placeholder_structure": "Domyślny szablon",
 			"placeholder_structure_name": "Tytuł szablonu",
@@ -253,20 +261,20 @@
 		"filters": {
 			"assessor": "Oceniającego",
 			"author": "Autora",
-			"card": "TO TRANSLATE - Card view",
+			"card": "Widok karty",
 			"card_rocket_content": "Zaczynajmy!<br><br>By rozpocząć PIA,<br> należy kliknąć Nowa PIA",
 			"card_rocket_content_structure": "Zaczynajmy!<br><br> By rozpocząć <br>szablon, prosimy kliknąć<br> +",
-			"category": "TO TRANSLATE - Category",
+			"category": "Kategoria",
 			"date": "Daty",
 			"import_pia": "Import PIA",
 			"import_structure": "Import szablonu",
-			"list": "TO TRANSLATE - List view",
+			"list": "Widok listy",
 			"list_rocket_content": "Zaczynajmy! By rozpocząć <br>PIA, prosimy kliknąć +",
 			"list_rocket_content_structure": "Zaczynajmy! By rozpocząć <br>szablon, prosimy kliknąć +",
 			"name": "Nazwiska",
 			"new_pia": "Nowa PIA",
 			"new_structure": "Nowy szablon",
-			"sector_name": "TO BE TRANSLATED - Secteur associé",
+			"sector_name": "Sfera",
 			"sort": "Sortowanie",
 			"sort_by": "według",
 			"status": "Statusu",
@@ -275,12 +283,12 @@
 		"lists": {
 			"column_actions": "Działania",
 			"column_author": "Edytowanie",
-			"column_category": "TO TRANSLATE - Category",
+			"column_category": "Kategoria",
 			"column_creation": "Utworzenie",
 			"column_evaluation": "Ocena",
 			"column_pia": "PIA",
 			"column_progression": "Postęp",
-			"column_sector_name": "TO TRANSLATE - Associated sector",
+			"column_sector_name": "Sfera",
 			"column_status": "Status",
 			"column_structure": "Szablon",
 			"column_structure_name": "Szablon",
@@ -289,18 +297,18 @@
 			"item": {
 				"tools": {
 					"action_plan": "Wyświetlenie planu działania",
-					"archive": "TO TRANSLATE - Archive",
+					"archive": "Archiwum",
 					"consult": "Konsultacja",
 					"duplicate": "Duplikacja",
 					"edit": "Edycja",
 					"export": "Eksport",
 					"pia": "Wyświetlenie PIA",
-					"remove": "TO TRANSLATE - Delete",
-					"unarchive": "TO TRANSLATE - Unarchive"
+					"remove": "Usunięcie",
+					"unarchive": "Rozpakować"
 				}
 			}
 		},
-		"search_filter": "TO TRANSLATE - Search"
+		"search_filter": "Szukać"
 	},
 	"knowledge_base": {
 		"add_measure": "Dodanie",
@@ -540,8 +548,8 @@
 				"source": "PIA1 page 6"
 			},
 			"PIA_EX_DC": {
-				"description": "TO BE TRANSLATED - Data for a score system, result of the application of the score....",
-				"name": "TO BE TRANSLATED - Calculated data"
+				"description": "Dane dla systemu punktacji, wynik zastosowania punktacji ...",
+				"name": "Obliczone dane"
 			},
 			"PIA_EX_DCPC": {
 				"description": "<strong>Dane identyfikacyjne</strong>: stan cywilny, wiek, narodowość, adres pocztowy, itd. <br><strong>Życie osobiste</strong>: stan cywilny, liczba dzieci, rodzaj mieszkania, długość zamieszkania w danym miejscu, itd. <br><strong>Życie zawodowe</strong>: zawód, wykształcenie i kompetencje zawodowe, miejsce pracy, długość stażu pracy, bezrobocie, itd. <br><strong>Dane połączeniowe</strong>: adresy IP, logi zdarzeń, itd.<br><strong>Dane lokalizacyjne</strong>: podróże, dane GP, dane GSM, itd.<br><strong>Inne</strong>: numer telefonu, adres email, itd.",
@@ -888,8 +896,8 @@
 		},
 		"archive": "Archiwizacja",
 		"archive_pia": {
-			"archive": "TO TRANSLATE - Archive PIA",
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>archive this PIA ?"
+			"archive": "Zarchiwizuj tę PIA",
+			"content": "<span class='strong'>Uwaga,</span><br>Czy na pewno chcesz<br>zarchiwizować tę PIA?"
 		},
 		"ask_for_evaluation": {
 			"content": "Ta sekcja jest gotowa do sprawdzenia."
@@ -941,8 +949,8 @@
 		},
 		"recover_version": {
 			"continue": "Dalsza praca",
-			"message": "TO TRANSLATE - By continuing, you will restore this report version: {{date}}.<br><br>The current version will be saved.",
-			"title": "TO TRANSLATE - Restore a previous version"
+			"message": "Kontynuując, przywrócisz wersję tej analizy {{date}} . Po jej zakończeniu będziesz musiał ponownie zweryfikować analizę.<br><br>Aktualna wersja zostanie zarchiwizowana.",
+			"title": "Przywróć starą wersję"
 		},
 		"refuse_pia": {
 			"content": "Ponieważ odrzuciłeś PIA, zostaje ona odesłana do sprawdzenia w celu wprowadzenia wymaganych zmian."
@@ -959,7 +967,7 @@
 			"remove": "Usunięcie <br>środka"
 		},
 		"remove_pia": {
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>remove permanently this PIA?",
+			"content": "<span class='strong'>Uwaga,</span><br>Czy na pewno chcesz<br>trwale usunąć tę PIA?",
 			"remove": "Usuń PIA"
 		},
 		"remove_question": {
@@ -983,8 +991,8 @@
 		},
 		"start_evaluation": "Rozpoczęcie oceny",
 		"unarchive_pia": {
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>unarchive this PIA ?",
-			"unarchive": "TO TRANSLATE - Unarchive PIA"
+			"content": "<span class='strong'>Uwaga,</span><br>Czy na pewno chcesz<br>cofnąć archiwizację tej PIA?",
+			"unarchive": "Zarchiwizuj tę PIA"
 		},
 		"update_server_url_nok": {
 			"content": "Połączenie niemożliwe."
@@ -993,7 +1001,7 @@
 			"content": "Adres serwera został zaktualizowany."
 		},
 		"validate_evaluation": {
-			"content": "<span class='strong'>Gratulacje,</span><br>ocena tej sekcji została zakończona.<br>Pozostałe sekcje również muszą zostać ocenione, aby móc zatwierdzić PIA"
+			"content": "Część jest gotowa do zatwierdzenia analizy<br>."
 		},
 		"validate_evaluation_to_correct": {
 			"content": "Odesłano do edycji w celu naniesienia poprawek."
@@ -1124,7 +1132,7 @@
 	"pia": {
 		"attachments": {
 			"add": "Dodaj załącznik",
-			"download": "TO TRANSLATE - Download the attachment",
+			"download": "Pobierz załącznik",
 			"remove": "Usuń",
 			"title": "Załączniki"
 		},
@@ -1461,17 +1469,17 @@
 			"title": "Plan działania"
 		},
 		"actions": {
-			"complete_download": "TO TRANSLATE - Download the full report",
-			"complete_download_desc": "TO TRANSLATE - Export in a .zip archive all the report content (.doc and pictures), attachments and the action plan in a .csv format.",
-			"individual_download": "TO TRANSLATE - Download elements of the report",
-			"individual_download_desc": "TO TRANSLATE - Export specific elements of the report.",
-			"individual_download_doc": "TO TRANSLATE - Texts (.doc)",
-			"individual_download_images": "TO TRANSLATE - Visual elements (.png) including the risk overview, the risk mapping and the action plan.",
-			"individual_download_json": "TO TRANSLATE - Report to import into the PIA tool (.json file)",
-			"individual_download_select": "TO TRANSLATE - Select elements to export:",
-			"individual_to_download": "TO TRANSLATE - Download",
-			"print": "TO TRANSLATE - Print the report",
-			"print_and_download": "TO TRANSLATE - Print and download"
+			"complete_download": "Pobierz pełen raport",
+			"complete_download_desc": "Wyeksportuj w formacie archiwum .zip pełną zawartość, raport (jako .doc i grafiki), załączniki plan działań jako .csv.",
+			"individual_download": "Pobierz elementy raportu.",
+			"individual_download_desc": "Wyeksportuj wybrane elementy raportu.",
+			"individual_download_doc": "Tekst (.doc)",
+			"individual_download_images": "Grafiki (.png) łącznie z obrazem ryzyk, mapą ryzyk i planem działań.",
+			"individual_download_json": "Pobierz (.json)",
+			"individual_download_select": "Wybierz elementy do eksportu:",
+			"individual_to_download": "Pobierz",
+			"print": "Wydrukuj raport",
+			"print_and_download": "Wydrukuj i pobierz"
 		},
 		"attachments": "Załączniki",
 		"concerned_people_name": "Nazwiska osób, których dane dotyczą",
@@ -1491,7 +1499,7 @@
 		"csv_people_in_charge": "Osoba odpowiedzialna",
 		"csv_section": "Sekcja",
 		"csv_title_object": "Tytuł",
-		"download_csv": "TO TRANSLATE - Action plan (.csv)",
+		"download_csv": "Plan działań(.csv)",
 		"dpo_name": "Nazwisko IOD",
 		"dpo_opinion": "Opinia IOD",
 		"dpo_status": "Status IOD",
@@ -1508,24 +1516,24 @@
 		"pia_author": "Nazwisko autora",
 		"pia_name": "Nazwa PIA",
 		"pia_validator": "Nazwisko zatwierdzającego",
-		"preview_dpo_opinion": "TO TRANSLATE - DPO and data subjects opinion",
-		"preview_edition": "TO TRANSLATE - Editing",
-		"preview_evaluation": "TO TRANSLATE - Evaluation",
-		"preview_no_data": "TO TRANSLATE - No data to display.",
-		"preview_status": "TO TRANSLATE - Status",
-		"preview_subtitle": "TO TRANSLATE - General information",
-		"preview_title": "TO TRANSLATE - Preview",
-		"preview_validation": "TO TRANSLATE - Validation",
-		"preview_validation_section": "TO TRANSLATE - Validation",
+		"preview_dpo_opinion": "Opinia IOD oraz osób, których dane dotyczą",
+		"preview_edition": "Edycja",
+		"preview_evaluation": "Ocena",
+		"preview_no_data": "Brak danych do wyświetlenia.",
+		"preview_status": "Status",
+		"preview_subtitle": "Ogólne Informacje",
+		"preview_title": "Podgląd",
+		"preview_validation": "Weryfikacja",
+		"preview_validation_section": "Weryfikacja",
 		"previous_page": "Powrót do poprzedniej strony",
 		"rejection_reason": "Powód odmowy",
 		"revision": {
-			"current_version": "TO TRANSLATE - Current version",
-			"pia_version": "TO TRANSLATE - PIA versions",
-			"restore_version": "TO TRANSLATE - Restore",
-			"revision": "TO TRANSLATE - Versions and revision",
-			"save": "TO TRANSLATE - Create a new version",
-			"show": "TO TRANSLATE - Display the {{length}} versions"
+			"current_version": "Aktualna wersja",
+			"pia_version": "Wersje PIA",
+			"restore_version": "Przywróć tę wersję",
+			"revision": "Wersje i zmiany",
+			"save": "Utwórz nową wersję",
+			"show": "Pokaż wersje {{length}} "
 		},
 		"risks_cartography_title": "Mapowanie ryzyka",
 		"risks_overview_title": "Przegląd ryzyka",
