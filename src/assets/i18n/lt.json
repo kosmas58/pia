@@ -5,7 +5,7 @@
 		"licences": "Bibliotekų licencijos:",
 		"title": "Apie PDAV programą",
 		"translators": "PIA programa yra išversta į daugiau nei aštuonioliką kalbų. Programos prancūzišką ir anglišką versijas sukūrė CNIL. Programos versijas kitomis kalbomis parengė šie asmenys:",
-		"translators_name": "<ul><li>Croatian : <a target=\"_blank\" href=\"https://github.com/B2KapitalBA\">B2KapitalBA</a> ;</li><li>Czech : Jiří Grohmann, Manuel d’Orso ;</li><li>Danish : <a target=\"_blank\" href=\"https://github.com/moolsen\">Michael Drews Olsen</a> ;</li><li>Dutch : Ruud van Driel, Manuel d’Orso ;</li><li>English : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Estonian : Eva Arumets, Lauri Bender, Rebeka Dronia, Kärol Kibena, Simon Suuban, <a target=\"_blank\" href=\"https://kochpartners.ee/en/people/urmas-kukk/\">Urmas Kukk, <a target=\"_blank\" href=\"https://github.com/PrivacyAssessment1\">PrivacyAssessment1</a> ;</li><li>Finnish : <a target=\"_blank\" href=\"https://tietosuoja.fi/etusivu\">Tietosuojavaltuutetun toimisto</a> ;</li><li>French : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>German  : <a target=\"_blank\" href=\"https://github.com/kosmas58\">Kosmas Schütz</a> , Corina Scheiter (<a target=\"_blank\" href=\"https://www.datenschutz-bayern.de/\">BayLfD</a>) ;</li><li>Greek : <a target=\"_blank\" href=\"https://tzellis.gr\">Dimitris Tzellis</a> ;</li><li>Hungarian : <a target=\"_blank\" href=\"https://naih.hu/\">Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)</a> ;</li><li>Italian : Manuel d’Orso, Gianluca Markos, Antonio Caselli (<a target=\"_blank\" href=\"http://gpdp.it\">Garante per la Protezione dei Dai Personali (GPDP)</a>) ;</li><li>Lithuanian : Paulius Galubickas (<a target=\"_blank\" href=\"http://galubickas.lt\">Law firm Galubickas</a>) ;</li><li>Norwegian : <a target=\"_blank\" href=\"https://www.datatilsynet.no\">Datatilsynet</a> ;</li><li>Polish : <a target=\"_blank\" href=\"https://github.com/JoannaKar\">Joanna Karczewska</a> , Michal Mazur (<a target=\"_blank\" href=\"https://giodo.gov.pl\">Generalny Inspektor Ochrony Danych Osobowych (GIODO)</a>) ;</li><li>Portuguese : <a target=\"_blank\" href=\"https://github.com/bagois\">Barbara Gois</a> ;</li><li>Romanian : <a target=\"_blank\" href=\"https://github.com/webmyday\">webmyday</a> ;</li><li>Spanish : <a target=\"_blank\" href=\"https://github.com/ylachgar\">ylachgar</a> .</li></ul>",
+		"translators_name": "<ul><li>Croatian : <a target=\"_blank\" href=\"https://github.com/B2KapitalBA\">B2KapitalBA</a> ;</li><li>Czech : Jiří Grohmann, Manuel d’Orso ;</li><li>Danish : <a target=\"_blank\" href=\"https://github.com/moolsen\">Michael Drews Olsen</a> ;</li><li>Dutch : Ruud van Driel, Manuel d’Orso ;</li><li>English : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Estonian : Eva Arumets, Lauri Bender, Rebeka Dronia, Kärol Kibena, Simon Suuban, <a target=\"_blank\" href=\"https://kochpartners.ee/en/people/urmas-kukk/\">Urmas Kukk, <a target=\"_blank\" href=\"https://github.com/PrivacyAssessment1\">PrivacyAssessment1</a> ;</li><li>Finnish : <a target=\"_blank\" href=\"https://tietosuoja.fi/etusivu\">Tietosuojavaltuutetun toimisto</a> ;</li><li>French : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>German  : <a target=\"_blank\" href=\"https://github.com/kosmas58\">Kosmas Schütz</a> , Corina Scheiter (<a target=\"_blank\" href=\"https://www.datenschutz-bayern.de/\">BayLfD</a>) ;</li><li>Greek : <a target=\"_blank\" href=\"https://tzellis.gr\">Dimitris Tzellis</a> ;</li><li>Hungarian : <a target=\"_blank\" href=\"https://naih.hu/\">Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)</a> ;</li><li>Italian : Manuel d’Orso, Gianluca Markos, Antonio Caselli (<a target=\"_blank\" href=\"http://gpdp.it\">Garante per la Protezione dei Dai Personali (GPDP)</a>) ;</li><li>Lithuanian : Paulius Galubickas (<a target=\"_blank\" href=\"http://galubickas.lt\">Law firm Galubickas</a>) ;</li><li>Norwegian : <a target=\"_blank\" href=\"https://www.datatilsynet.no\">Datatilsynet</a> ;</li><li>Polish : <a target=\"_blank\" href=\"https://github.com/JoannaKar\">Joanna Karczewska</a> , Michal Mazur (<a target=\"_blank\" href=\"https://giodo.gov.pl\">Generalny Inspektor Ochrony Danych Osobowych (GIODO)</a>) ;</li><li>Portuguese : <a target=\"_blank\" href=\"https://github.com/bagois\">Barbara Gois</a> ;</li><li>Romanian : <a target=\"_blank\" href=\"https://github.com/webmyday\">webmyday</a> ;</li><li>Spanish : <a target=\"_blank\" href=\"https://github.com/ylachgar\">ylachgar</a>, <a target=\"_blank\" href=\"https://github.com/antoniormesa\">antoniormesa</a> ;</li><li>Swedish : Per von Bahr <a target=\"_blank\" href=\"https://www.soprasteria.se\">(Sopra Steria AB)</a> .</li></ul>",
 		"version_number": "Versijos Nr."
 	},
 	"action_plan": {
@@ -43,6 +43,7 @@
 		"negligible": "Nežymus",
 		"risk1_access": "(NP)",
 		"risk2_modification": "(NDP)",
+		"risk3_disappearance": "(DP)",
 		"seriousness_axe": "Rizikos dydis"
 	},
 	"comments": {
@@ -53,10 +54,10 @@
 		"send": "Siųsti"
 	},
 	"date": {
-		"earlier-in-this-month": "TO TRANSLATE - Earlier this month",
-		"earlier-in-this-week": "TO TRANSLATE - Earlier this week",
-		"today": "TO TRANSLATE - Today",
-		"yesterday": "TO TRANSLATE - Yesterday"
+		"earlier-in-this-month": "Anksčiau šį mėnesį",
+		"earlier-in-this-week": "Anksčiau šią savaitę",
+		"today": "Šiandien",
+		"yesterday": "Vakar"
 	},
 	"errors": {
 		"content": "Jei susiduriate su problemomis, besinaudodami PIA programa, ar turite pasiūlymų, kaip ją galima būtų patobulinti, galite mums parašyti, užpildydami šią formą: <a href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\" target=\"_blank\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>",
@@ -90,16 +91,16 @@
 		"to_correct": "Taisytinas"
 	},
 	"header": {
-		"archives": "TO TRANSLATE - PIA Archives",
-		"current_pias": "TO TRANSLATE - Current PIAs",
-		"exit_full_screen_mode": "TO TRANSLATE - Press F11 to exit full screen mode.",
+		"archives": "Archyvuoti VIP",
+		"current_pias": "Aktyvūs VIP",
+		"exit_full_screen_mode": "Norėdami išeiti iš viso ekrano režimo, paspauskite F11.",
 		"help": {
-			"issue_reporting": "TO TRANSLATE - Report an issue",
-			"manual": "TO TRANSLATE - User manual",
+			"issue_reporting": "Pranešti apie klaidą",
+			"manual": "Vartotojo vadovas",
 			"pia_example_link": "PDAV pavyzdys",
 			"title": "Pagalba"
 		},
-		"homepage_link": "TO TRANSLATE - My PIAs",
+		"homepage_link": "Mano VIP",
 		"knowledge_base_link": "Pagalba",
 		"languages": {
 			"cnil_translations": "CNIL vertimas",
@@ -135,7 +136,7 @@
 			"accessibility": "Regėjimo sutrikimą turintiems (padidinto ryškumo spalvos, daltonismas)",
 			"onboarding": "Vėl paleiskite mokymo programą",
 			"settings": "Nustatymai",
-			"url_setting": "TO TRANSLATE - Server URL configuration"
+			"url_setting": "Serverio URL konfigūracija"
 		}
 	},
 	"help": {
@@ -175,14 +176,21 @@
 				},
 				"title": "Žinomos problemos (LT - Bus išversta į lietuvių k. vėliau arba būtume dėkingi, jei patys prisidėtumėte prie vertimo)"
 			},
-			"footer": "TO BE TRANSLATED - If you have any other problems or suggestions for improvement, you can send them to us via this form <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
+			"footer": "Jei susiduriate su kitomis problemomis arba turite pasiūlymų, kaip juos patobulinti, galite atsiųsti juos mums naudodami šią formą <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil -apija</a>."
+		},
+		"infografics": {
+			"display": "Peržiūrėkite proceso žemėlapį",
+			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"guide": "Parodykite PIA vadovus CNIL",
+			"hide": "Slėpti proceso žemėlapį",
+			"title": "Įsipareigojimų ir metodo apžvalga"
 		},
 		"title": "Pagalba"
 	},
 	"homepage": {
 		"cards": {
 			"author": "Redagavimas",
-			"category": "TO TRANSLATE - Category",
+			"category": "Kategorija",
 			"creation_status": "Sukūrimas",
 			"date": "Data",
 			"evaluation": "Tikrinimas",
@@ -190,20 +198,20 @@
 			"import_structure": "Importuoti šabloną",
 			"item": {
 				"consult_pia": "Peržiūrėti",
-				"consult_structure": "TO TRANSLATE - Consult template",
+				"consult_structure": "Peržiūrėkite modelį",
 				"edit_pia": "Redaguoti",
 				"edit_structure": "Redaguoti šabloną",
 				"tools": {
 					"action_plan": "Peržiūrėti<br>veiksmų planą",
-					"archive": "TO TRANSLATE - Archive",
+					"archive": "Archyvas",
 					"duplicate": "Daryti kopiją",
 					"export": "Eksportas",
 					"more_options": "Daugiau funkcijų",
 					"pia": "Atidaryti<br>PDAV",
-					"remove": "TO TRANSLATE - Delete",
-					"unarchive": "TO TRANSLATE - Unarchive"
+					"remove": "Pašalinti",
+					"unarchive": "išpakuoti"
 				},
-				"validate_pia": "TO TRANSLATE - Validate"
+				"validate_pia": "Patvirtinti"
 			},
 			"knowledges": {
 				"edit": "Redaguoti žinių bazę",
@@ -230,7 +238,7 @@
 			"or": "arba",
 			"pia_name": "PDAV",
 			"placeholder_author": "Vardas, Pavardė",
-			"placeholder_category": "TO TRANSLATE - Category",
+			"placeholder_category": "Kategorija",
 			"placeholder_evaluation": "Vardas, Pavardė",
 			"placeholder_import_pia": "Importuoti PDAV",
 			"placeholder_import_structure": "Importuoti šabloną",
@@ -253,14 +261,14 @@
 		"filters": {
 			"assessor": "Tikrintoją",
 			"author": "Autorių",
-			"card": "TO TRANSLATE - Card view",
+			"card": "Kortelės vaizdas",
 			"card_rocket_content": "Pradėti !<br><br> Tam, kad pradėti<br> spausk Naujas PDAV",
 			"card_rocket_content_structure": "Pradėk ! Tam, kad pradėti rengti <br>šabloną, spausk +",
-			"category": "TO TRANSLATE - Category",
+			"category": "Kategorija",
 			"date": "Datą",
 			"import_pia": "Importuoti PDAV",
 			"import_structure": "Importuoti šabloną",
-			"list": "TO TRANSLATE - List view",
+			"list": "Sarašas",
 			"list_rocket_content": "Pradėti ! Tam, kad pradėti <br>PDAV, spausk +",
 			"list_rocket_content_structure": "Pradėk ! Tam, kad pradėti rengti <br>šabloną, spausk +",
 			"name": "Pavadinimą",
@@ -275,7 +283,7 @@
 		"lists": {
 			"column_actions": "Veiksmai",
 			"column_author": "Redagavimas",
-			"column_category": "TO TRANSLATE - Category",
+			"column_category": "Kategorija",
 			"column_creation": "Sukurtas",
 			"column_evaluation": "Tikrinimas",
 			"column_pia": "PDAV",
@@ -289,18 +297,18 @@
 			"item": {
 				"tools": {
 					"action_plan": "Peržiūrėti veiksmų planą",
-					"archive": "TO TRANSLATE - Archive",
+					"archive": "Archyvas",
 					"consult": "Peržiūrėti",
 					"duplicate": "Kopijuoti",
 					"edit": "Redaguoti",
 					"export": "Eksportuoti",
 					"pia": "Atidaryti PDAV",
-					"remove": "TO TRANSLATE - Delete",
-					"unarchive": "TO TRANSLATE - Unarchive"
+					"remove": "Pašalinti",
+					"unarchive": "išpakuoti"
 				}
 			}
 		},
-		"search_filter": "TO TRANSLATE - Search"
+		"search_filter": "Ieškoti"
 	},
 	"knowledge_base": {
 		"add_measure": "Įvesti",
@@ -540,8 +548,8 @@
 				"source": "PIA1 page 6"
 			},
 			"PIA_EX_DC": {
-				"description": "TO BE TRANSLATED - Data for a score system, result of the application of the score....",
-				"name": "TO BE TRANSLATED - Calculated data"
+				"description": "Taškų sistemos duomenys, taškų taikymo rezultatas ...",
+				"name": "Apskaičiuoti duomenys"
 			},
 			"PIA_EX_DCPC": {
 				"description": "<strong>Identifikaciniai duomenys</strong> : vardas, pavardė, amžius,  pilietybė, gyv, vietos adresas, t.t. <br><strong>Asmens gyvenimas</strong> : pmoėgiai, įpročiai, šeimyninė padėtis, t.t. <br><strong>Profesinis gyvenimas </strong> : darbovietė, veiklos pobūdis, išsilavinimas, gyvenimo aprašymas (CV), išsilavinimas, mokymai, profesiniai pasiekimai, apdovanojimai, t.t. <br><strong>Ryšio duomenys </strong> : IP adresas, veiksmų žurnalas (angl. event logs), t.t.<br><strong>Geografinės vietos duomenys</strong> : keliavimo maršrutai, GPS duomenys, GPS duomenys, t.t.<br><strong>Kita informacija</strong> : telefono numeris, el. pašto adresas, t.t.",
@@ -888,8 +896,8 @@
 		},
 		"archive": "Archyvuoti",
 		"archive_pia": {
-			"archive": "TO TRANSLATE - Archive PIA",
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>archive this PIA ?"
+			"archive": "Archyvuoti šį VIP",
+			"content": "<span class='strong'>Dėmesio,</span><br>ar tikrai norite<br>archyvuoti šį VIP?"
 		},
 		"ask_for_evaluation": {
 			"content": "Ši dalis paruošta peržiūrai."
@@ -941,8 +949,8 @@
 		},
 		"recover_version": {
 			"continue": "Tęsti",
-			"message": "TO TRANSLATE - By continuing, you will restore this report version: {{date}}.<br><br>The current version will be saved.",
-			"title": "TO TRANSLATE - Restore a previous version"
+			"message": "Tęsdami atkursite {{date}} šios analizės versiją. Atlikę analizę turėsite dar kartą patvirtinti.<br><br>Dabartinė versija bus archyvuojama.",
+			"title": "Atkurti seną versiją"
 		},
 		"refuse_pia": {
 			"content": "Kadangi atsisakėte tvirtinti PDAV, jis yra grąžintas tobulinimui."
@@ -959,7 +967,7 @@
 			"remove": "Ištrinti <br>šią priemonę"
 		},
 		"remove_pia": {
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>remove permanently this PIA?",
+			"content": "<span class='strong'>Dėmesio,</span><br>ar tikrai norite<br>visam laikui ištrinti šį VIP?",
 			"remove": "Ištrinti šį PDAV"
 		},
 		"remove_question": {
@@ -983,8 +991,8 @@
 		},
 		"start_evaluation": "Pradėti peržiūrą",
 		"unarchive_pia": {
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>unarchive this PIA ?",
-			"unarchive": "TO TRANSLATE - Unarchive PIA"
+			"content": "<span class='strong'>Dėmesio,</span><br>ar tikrai norite<br>išarchyvuoti šį VIP?",
+			"unarchive": "Išarchyvuokite šį VIP"
 		},
 		"update_server_url_nok": {
 			"content": "Nėra ryšio."
@@ -1124,7 +1132,7 @@
 	"pia": {
 		"attachments": {
 			"add": "Pridėti",
-			"download": "TO TRANSLATE - Download the attachment",
+			"download": "Atsisiųskite priedą",
 			"remove": "Pašalinti",
 			"title": "Priedai"
 		},
@@ -1461,17 +1469,17 @@
 			"title": "Veiksmų planas"
 		},
 		"actions": {
-			"complete_download": "TO TRANSLATE - Download the full report",
-			"complete_download_desc": "TO TRANSLATE - Export in a .zip archive all the report content (.doc and pictures), attachments and the action plan in a .csv format.",
-			"individual_download": "TO TRANSLATE - Download elements of the report",
-			"individual_download_desc": "TO TRANSLATE - Export specific elements of the report.",
-			"individual_download_doc": "TO TRANSLATE - Texts (.doc)",
-			"individual_download_images": "TO TRANSLATE - Visual elements (.png) including the risk overview, the risk mapping and the action plan.",
-			"individual_download_json": "TO TRANSLATE - Report to import into the PIA tool (.json file)",
-			"individual_download_select": "TO TRANSLATE - Select elements to export:",
-			"individual_to_download": "TO TRANSLATE - Download",
-			"print": "TO TRANSLATE - Print the report",
-			"print_and_download": "TO TRANSLATE - Print and download"
+			"complete_download": "Atsisiųskite visą analizę",
+			"complete_download_desc": "Eksportuokite analizės turinį (.doc ir vaizdus), susijusius priedus ir veiksmų planą .csv formatu į .zip archyvą.",
+			"individual_download": "parsisiuntimas",
+			"individual_download_desc": "Eksportuoja specifinius analizės elementus.",
+			"individual_download_doc": "Tekstinis turinys (.doc failas)",
+			"individual_download_images": "Vaizdiniai elementai (.png failai): rizikos apžvalga, rizikos žemėlapis, veiksmų planas",
+			"individual_download_json": "Analizė importuoti į VIP įrankį (file.json)",
+			"individual_download_select": "Pasirinkite eksportuotinus elementus:",
+			"individual_to_download": "parsisiųsti",
+			"print": "Atspausdinkite analizę",
+			"print_and_download": "Spausdinimas ir atsisiuntimas"
 		},
 		"attachments": "Priedeliai",
 		"concerned_people_name": "Duomenų subjektų vardai, pavardės",
@@ -1490,8 +1498,8 @@
 		"csv_implement_date": "Planuojamas įgyvendinimo terminas",
 		"csv_people_in_charge": "Atsakingas asmuo",
 		"csv_section": "Dalis",
-		"csv_title_object": "Pavadinimas",
-		"download_csv": "TO TRANSLATE - Action plan (.csv)",
+		"csv_title_object": "Atitinkamo objekto pavadinimas",
+		"download_csv": "Veiksmų planas (.csv failas)",
 		"dpo_name": "DPA vardas, pavardė",
 		"dpo_opinion": "DPA nuomonė",
 		"dpo_status": "DPA paskyrimo detalės (išorinis, vidinis)",
@@ -1508,24 +1516,24 @@
 		"pia_author": "Rengėjo vardas, pavardė, el. pašto adresas",
 		"pia_name": "PDAV",
 		"pia_validator": "Tvirtintojo vardas, pavardė, el. pašto adresas",
-		"preview_dpo_opinion": "TO TRANSLATE - DPO and data subjects opinion",
-		"preview_edition": "TO TRANSLATE - Editing",
-		"preview_evaluation": "TO TRANSLATE - Evaluation",
-		"preview_no_data": "TO TRANSLATE - No data to display.",
-		"preview_status": "TO TRANSLATE - Status",
-		"preview_subtitle": "TO TRANSLATE - General information",
-		"preview_title": "TO TRANSLATE - Preview",
-		"preview_validation": "TO TRANSLATE - Validation",
-		"preview_validation_section": "TO TRANSLATE - Validation",
+		"preview_dpo_opinion": "DAP ir susijusių asmenų nuomonė",
+		"preview_edition": "priepuolis",
+		"preview_evaluation": "vertinimas",
+		"preview_no_data": "Nėra rodomos informacijos.",
+		"preview_status": "Statusas",
+		"preview_subtitle": "Bendroji informacija",
+		"preview_title": "Analizės apžvalga",
+		"preview_validation": "Patvirtinimas",
+		"preview_validation_section": "Patvirtinimas",
 		"previous_page": "Atgal į ankstesnį puslapį",
 		"rejection_reason": "Atmetimo priežastys",
 		"revision": {
-			"current_version": "TO TRANSLATE - Current version",
-			"pia_version": "TO TRANSLATE - PIA versions",
-			"restore_version": "TO TRANSLATE - Restore",
-			"revision": "TO TRANSLATE - Versions and revision",
-			"save": "TO TRANSLATE - Create a new version",
-			"show": "TO TRANSLATE - Display the {{length}} versions"
+			"current_version": "Dabartinė versija",
+			"pia_version": "VIP versijos",
+			"restore_version": "Atkurti šią versiją",
+			"revision": "Versijos ir peržiūra",
+			"save": "Sukurkite naują versiją",
+			"show": "Rodyti {{length}} versiją (-as)"
 		},
 		"risks_cartography_title": "Rizikų tarpusavio sąsajos",
 		"risks_overview_title": "Rizikų apžvalga",
@@ -1537,7 +1545,7 @@
 		"button": {
 			"rejection": "Netvirtinti PDAV",
 			"signed_validation": "Tvirtinti PDAV <br>(pasirašant)",
-			"simple_validation": "Tvirtinti PDAV <br>(nepasirašant)"
+			"simple_validation": "Paprastas patvirtinimas"
 		},
 		"confirmation1": "Patvirtintu, kad PDAV aprašytas asmens duomenų tvarkymas atitinka tikrovę.",
 		"confirmation2": "Patvirtinu, kad man žinomos likusios rizikos, susijusios su planuojamomis arba jau įgyvendintomis priemonėmis.",

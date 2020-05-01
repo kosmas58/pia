@@ -5,7 +5,7 @@
 		"licences": "Kirjastolisenssit:",
 		"title": "Tietoa tietosuojaa koskevasta vaikutustenarviointityökalusta",
 		"translators": "Vaikutustenarviointiohjelmisto on tällä hetkellä saatavilla 18 kielellä. CNIL on laatinut työkalun ranskan- ja englanninkieliset versiot. Muut kieliversiot ovat seuraavien henkilöiden työn tulosta:",
-		"translators_name": "<ul><li>Croatian : <a target=\"_blank\" href=\"https://github.com/B2KapitalBA\">B2KapitalBA</a> ;</li><li>Czech : Jiří Grohmann, Manuel d’Orso ;</li><li>Danish : <a target=\"_blank\" href=\"https://github.com/moolsen\">Michael Drews Olsen</a> ;</li><li>Dutch : Ruud van Driel, Manuel d’Orso ;</li><li>English : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Estonian : Eva Arumets, Lauri Bender, Rebeka Dronia, Kärol Kibena, Simon Suuban, <a target=\"_blank\" href=\"https://kochpartners.ee/en/people/urmas-kukk/\">Urmas Kukk, <a target=\"_blank\" href=\"https://github.com/PrivacyAssessment1\">PrivacyAssessment1</a> ;</li><li>Finnish : <a target=\"_blank\" href=\"https://tietosuoja.fi/etusivu\">Tietosuojavaltuutetun toimisto</a> ;</li><li>French : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>German  : <a target=\"_blank\" href=\"https://github.com/kosmas58\">Kosmas Schütz</a> , Corina Scheiter (<a target=\"_blank\" href=\"https://www.datenschutz-bayern.de/\">BayLfD</a>) ;</li><li>Greek : <a target=\"_blank\" href=\"https://tzellis.gr\">Dimitris Tzellis</a> ;</li><li>Hungarian : <a target=\"_blank\" href=\"https://naih.hu/\">Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)</a> ;</li><li>Italian : Manuel d’Orso, Gianluca Markos, Antonio Caselli (<a target=\"_blank\" href=\"http://gpdp.it\">Garante per la Protezione dei Dai Personali (GPDP)</a>) ;</li><li>Lithuanian : Paulius Galubickas (<a target=\"_blank\" href=\"http://galubickas.lt\">Law firm Galubickas</a>) ;</li><li>Norwegian : <a target=\"_blank\" href=\"https://www.datatilsynet.no\">Datatilsynet</a> ;</li><li>Polish : <a target=\"_blank\" href=\"https://github.com/JoannaKar\">Joanna Karczewska</a> , Michal Mazur (<a target=\"_blank\" href=\"https://giodo.gov.pl\">Generalny Inspektor Ochrony Danych Osobowych (GIODO)</a>) ;</li><li>Portuguese : <a target=\"_blank\" href=\"https://github.com/bagois\">Barbara Gois</a> ;</li><li>Romanian : <a target=\"_blank\" href=\"https://github.com/webmyday\">webmyday</a> ;</li><li>Spanish : <a target=\"_blank\" href=\"https://github.com/ylachgar\">ylachgar</a> .</li></ul>",
+		"translators_name": "<ul><li>Croatian : <a target=\"_blank\" href=\"https://github.com/B2KapitalBA\">B2KapitalBA</a> ;</li><li>Czech : Jiří Grohmann, Manuel d’Orso ;</li><li>Danish : <a target=\"_blank\" href=\"https://github.com/moolsen\">Michael Drews Olsen</a> ;</li><li>Dutch : Ruud van Driel, Manuel d’Orso ;</li><li>English : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>Estonian : Eva Arumets, Lauri Bender, Rebeka Dronia, Kärol Kibena, Simon Suuban, <a target=\"_blank\" href=\"https://kochpartners.ee/en/people/urmas-kukk/\">Urmas Kukk, <a target=\"_blank\" href=\"https://github.com/PrivacyAssessment1\">PrivacyAssessment1</a> ;</li><li>Finnish : <a target=\"_blank\" href=\"https://tietosuoja.fi/etusivu\">Tietosuojavaltuutetun toimisto</a> ;</li><li>French : <a target=\"_blank\" href=\"https://www.cnil.fr\">CNIL</a> ;</li><li>German  : <a target=\"_blank\" href=\"https://github.com/kosmas58\">Kosmas Schütz</a> , Corina Scheiter (<a target=\"_blank\" href=\"https://www.datenschutz-bayern.de/\">BayLfD</a>) ;</li><li>Greek : <a target=\"_blank\" href=\"https://tzellis.gr\">Dimitris Tzellis</a> ;</li><li>Hungarian : <a target=\"_blank\" href=\"https://naih.hu/\">Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)</a> ;</li><li>Italian : Manuel d’Orso, Gianluca Markos, Antonio Caselli (<a target=\"_blank\" href=\"http://gpdp.it\">Garante per la Protezione dei Dai Personali (GPDP)</a>) ;</li><li>Lithuanian : Paulius Galubickas (<a target=\"_blank\" href=\"http://galubickas.lt\">Law firm Galubickas</a>) ;</li><li>Norwegian : <a target=\"_blank\" href=\"https://www.datatilsynet.no\">Datatilsynet</a> ;</li><li>Polish : <a target=\"_blank\" href=\"https://github.com/JoannaKar\">Joanna Karczewska</a> , Michal Mazur (<a target=\"_blank\" href=\"https://giodo.gov.pl\">Generalny Inspektor Ochrony Danych Osobowych (GIODO)</a>) ;</li><li>Portuguese : <a target=\"_blank\" href=\"https://github.com/bagois\">Barbara Gois</a> ;</li><li>Romanian : <a target=\"_blank\" href=\"https://github.com/webmyday\">webmyday</a> ;</li><li>Spanish : <a target=\"_blank\" href=\"https://github.com/ylachgar\">ylachgar</a>, <a target=\"_blank\" href=\"https://github.com/antoniormesa\">antoniormesa</a> ;</li><li>Swedish : Per von Bahr <a target=\"_blank\" href=\"https://www.soprasteria.se\">(Sopra Steria AB)</a> .</li></ul>",
 		"version_number": "Versio"
 	},
 	"action_plan": {
@@ -43,6 +43,7 @@
 		"negligible": "Vähäinen",
 		"risk1_access": "(L)",
 		"risk2_modification": "(E)",
+		"risk3_disappearance": "(T)",
 		"seriousness_axe": "Riskin vakavuus"
 	},
 	"comments": {
@@ -53,10 +54,10 @@
 		"send": "Lähetä"
 	},
 	"date": {
-		"earlier-in-this-month": "TO TRANSLATE - Earlier this month",
-		"earlier-in-this-week": "TO TRANSLATE - Earlier this week",
-		"today": "TO TRANSLATE - Today",
-		"yesterday": "TO TRANSLATE - Yesterday"
+		"earlier-in-this-month": "Aiemmin tässä kuussa",
+		"earlier-in-this-week": "Aiemmin tällä viikolla",
+		"today": "tänään",
+		"yesterday": "Eilen"
 	},
 	"errors": {
 		"content": "Jos kohtaat muita ongelmia tai sinulla on parannusehdotuksia,<br>voit olla meihin yhteydessä tällä lomakkeella: <a href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\" target=\"_blank\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>",
@@ -90,16 +91,16 @@
 		"to_correct": "Korjattava"
 	},
 	"header": {
-		"archives": "TO TRANSLATE - PIA Archives",
-		"current_pias": "TO TRANSLATE - Current PIAs",
-		"exit_full_screen_mode": "TO TRANSLATE - Press F11 to exit full screen mode.",
+		"archives": "Arkistoidut PIA: t",
+		"current_pias": "Aktiiviset PIA: t",
+		"exit_full_screen_mode": "Paina F11 poistuaksesi koko näytön tilasta.",
 		"help": {
-			"issue_reporting": "TO TRANSLATE - Report an issue",
-			"manual": "TO TRANSLATE - User manual",
+			"issue_reporting": "Ilmoita virheestä",
+			"manual": "käyttöohje",
 			"pia_example_link": "Esimerkki vaikutustenarvioinnista",
 			"title": "Ohje"
 		},
-		"homepage_link": "TO TRANSLATE - My PIAs",
+		"homepage_link": "Minun PIA",
 		"knowledge_base_link": "Tietopankki",
 		"languages": {
 			"cnil_translations": "CNIL:n tarjoamat käännökset",
@@ -129,13 +130,13 @@
 		},
 		"logo_subtitle": "privacy impact assessment",
 		"logo_title": "Tietosuojaa koskeva vaikutustenarviointi",
-		"structures": "PIA templates",
+		"structures": "PIA-mallit",
 		"tools": {
 			"about": "Tietoa ohjelmasta",
 			"accessibility": "Visuaaliset helppokäyttöisyysasetukset (suuri kontrasti, värisokeus)",
 			"onboarding": "Käynnistä opetusohjelma uudelleen",
 			"settings": "Asetukset",
-			"url_setting": "TO TRANSLATE - Server URL configuration"
+			"url_setting": "Palvelimen URL-osoitteen määritys"
 		}
 	},
 	"help": {
@@ -175,35 +176,42 @@
 				},
 				"title": "Tiedossa olevat ongelmat"
 			},
-			"footer": "TO BE TRANSLATED - If you have any other problems or suggestions for improvement, you can send them to us via this form <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
+			"footer": "Jos sinulla on muita ongelmia tai jos sinulla on parannusehdotuksia, voit lähettää ne meille tällä lomakkeella <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil -pia</a>."
+		},
+		"infografics": {
+			"display": "Tarkastele prosessikarttaa",
+			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
+			"guide": "Näytä CNIL: n PIA-oppaat",
+			"hide": "Piilota prosessikartta",
+			"title": "Yleiskatsaus velvoitteisiin ja menetelmiin"
 		},
 		"title": "Ohje"
 	},
 	"homepage": {
 		"cards": {
 			"author": "Muokkaus",
-			"category": "TO TRANSLATE - Category",
+			"category": "Luokka",
 			"creation_status": "Luonti",
 			"date": "Päiväys",
 			"evaluation": "Tarkasta",
 			"import_pia": "Tuo vaikutustenarviointi",
-			"import_structure": "TO TRANSLATE - Import template",
+			"import_structure": "Tuo malli",
 			"item": {
-				"consult_pia": "TO TRANSLATE - Consult",
-				"consult_structure": "TO TRANSLATE - Consult template",
-				"edit_pia": "TO TRANSLATE - Edit",
-				"edit_structure": "TO TRANSLATE - Edit template",
+				"consult_pia": "konsultoida",
+				"consult_structure": "Näytä malli",
+				"edit_pia": "muokata",
+				"edit_structure": "Muokkaa mallia",
 				"tools": {
 					"action_plan": "Näytä<br>toimintasuunnitelma",
-					"archive": "TO TRANSLATE - Archive",
+					"archive": "arkisto",
 					"duplicate": "Kahdenna",
 					"export": "Vie",
 					"more_options": "Lisää valintoja",
 					"pia": "Näytä<br>Tietosuojaa koskeva vaikutustenarviointi",
-					"remove": "TO TRANSLATE - Delete",
-					"unarchive": "TO TRANSLATE - Unarchive"
+					"remove": "Poista",
+					"unarchive": "purkaa matkalaukku"
 				},
-				"validate_pia": "TO TRANSLATE - Validate"
+				"validate_pia": "Validate"
 			},
 			"knowledges": {
 				"edit": "Muokkaa tietokantaa",
@@ -218,7 +226,7 @@
 				"choose_category": "Valitse kategoria",
 				"contents": "Sisällys",
 				"create": "Luo tämä elementti",
-				"linked_to": "TO TRANSLATE - Linked to",
+				"linked_to": "Sidoksissa",
 				"new": "Luo kohde",
 				"placeholder_category": "Kategoria",
 				"placeholder_description": "Kuvauksesi täällä ...",
@@ -226,47 +234,47 @@
 				"placeholder_updated_at": "Modified"
 			},
 			"new_pia": "Uusi vaikutustenarviointi",
-			"new_structure": "TO TRANSLATE - New template",
+			"new_structure": "Uusi malli",
 			"or": "tai",
 			"pia_name": "Tietosuojaa koskeva vaikutustenarviointi",
 			"placeholder_author": "Etunimi, sukunimi",
-			"placeholder_category": "TO TRANSLATE - Category",
+			"placeholder_category": "Luokka",
 			"placeholder_evaluation": "Etunimi, sukunimi",
 			"placeholder_import_pia": "Tuo vaikutustenarviointi",
-			"placeholder_import_structure": "TO TRANSLATE - Import template",
+			"placeholder_import_structure": "Tuo malli",
 			"placeholder_new_pia": "Uusi vaikutustenarviointi",
-			"placeholder_new_structure": "TO TRANSLATE - New template",
+			"placeholder_new_structure": "Uusi malli",
 			"placeholder_pia_name": "Vaikutustenarvioinnin otsikko",
-			"placeholder_sector_name": "TO TRANSLATE - Associated sector's name",
+			"placeholder_sector_name": "Liittyvän sektorin nimi",
 			"placeholder_start": "Kaikki kentät tulee täyttää",
-			"placeholder_structure": "TO TRANSLATE - Default template",
-			"placeholder_structure_name": "TO TRANSLATE - Template's title",
+			"placeholder_structure": "Oletusmalli",
+			"placeholder_structure_name": "Mallin nimi",
 			"placeholder_validation": "Etunimi, sukunimi",
-			"sector_name": "TO BE TRANSLATED - Secteur associé",
+			"sector_name": "Liittyvä ala",
 			"start": "Aloita",
 			"status": "Tila",
-			"structure": "TO TRANSLATE - Template",
-			"structure_name": "TO TRANSLATE - Template's name",
+			"structure": "malli",
+			"structure_name": "Mallin nimi",
 			"title_close_creation": "Sulje",
 			"validation": "Validointi"
 		},
 		"filters": {
 			"assessor": "Tarkastaja",
 			"author": "Laatija",
-			"card": "TO TRANSLATE - Card view",
+			"card": "Kortinäkymä",
 			"card_rocket_content": "Aloitetaan!<br><br>Luo vaikutustenarviointi<br>  napsauttamalla Uusi vaikutustenarviointi -painiketta",
-			"card_rocket_content_structure": "TO BE TRANSLATED - Lancez-vous !<br><br>Pour commencer<br>un modèle, cliquez<br> sur le +",
-			"category": "TO TRANSLATE - Category",
+			"card_rocket_content_structure": "Aloita!<br><br>Aloita<br>malli napsauttamalla<br> + -painiketta",
+			"category": "Kategoria",
 			"date": "Päiväys",
 			"import_pia": "Tuo vaikutustenarviointi",
-			"import_structure": "TO BE TRANSLATED - Importer modèle",
-			"list": "TO TRANSLATE - List view",
+			"import_structure": "Tuo malli",
+			"list": "Listanäkymä",
 			"list_rocket_content": "Aloitetaan! Luo vaikutustenarviointi <br> napsauttamalla +-painiketta",
-			"list_rocket_content_structure": "TO BE TRANSLATED - Lancez-vous ! Pour commencer<br>un modèle, cliquez sur le +",
+			"list_rocket_content_structure": "Aloita! Aloita<br>malli napsauttamalla +",
 			"name": "Nimi",
 			"new_pia": "Uusi vaikutustenarviointi",
-			"new_structure": "TO BE TRANSLATED - Nouveau modèle",
-			"sector_name": "TO BE TRANSLATED - Secteur associé",
+			"new_structure": "Uusi malli",
+			"sector_name": "Liittyvä ala",
 			"sort": "Lajittele",
 			"sort_by": "kriteeri",
 			"status": "Tila",
@@ -275,32 +283,32 @@
 		"lists": {
 			"column_actions": "Toiminnat",
 			"column_author": "Muokkaus",
-			"column_category": "TO TRANSLATE - Category",
+			"column_category": "Luokka",
 			"column_creation": "Luotu",
 			"column_evaluation": "Tarkasta",
 			"column_pia": "Tietosuojaa koskeva vaikutustenarviointi",
 			"column_progression": "Edistyminen",
-			"column_sector_name": "TO TRANSLATE - Associated sector",
+			"column_sector_name": "Liittyvä ala",
 			"column_status": "Tila",
-			"column_structure": "TO TRANSLATE - Template",
-			"column_structure_name": "TO TRANSLATE - Template",
+			"column_structure": "malli",
+			"column_structure_name": "malli",
 			"column_updated_at": "Viimeksi avattu",
 			"column_validation": "Validointi",
 			"item": {
 				"tools": {
 					"action_plan": "Näytä toimintasuunnitelma",
-					"archive": "TO TRANSLATE - Archive",
+					"archive": "arkisto",
 					"consult": "Kysy neuvoa",
 					"duplicate": "Kahdenna",
 					"edit": "Muokkaa",
 					"export": "Vie",
 					"pia": "Näytä vaikutustenarviointi",
-					"remove": "TO TRANSLATE - Delete",
-					"unarchive": "TO TRANSLATE - Unarchive"
+					"remove": "Poista",
+					"unarchive": "purkaa matkalaukku"
 				}
 			}
 		},
-		"search_filter": "TO TRANSLATE - Search"
+		"search_filter": "etsiä"
 	},
 	"knowledge_base": {
 		"add_measure": "Lisää",
@@ -540,8 +548,8 @@
 				"source": "PIA1 s. 6"
 			},
 			"PIA_EX_DC": {
-				"description": "TO BE TRANSLATED - Data for a score system, result of the application of the score....",
-				"name": "TO BE TRANSLATED - Calculated data"
+				"description": "Tiedot pisteet-järjestelmästä, pisteet-sovelluksen tulos ...",
+				"name": "Lasketut tiedot"
 			},
 			"PIA_EX_DCPC": {
 				"description": "<strong>Tunnistetiedot</strong>: Kansallisuus, henkilöllisyys, ikä jne. <br><strong>Yksityiselämä</strong>: elintavat, siviilisääty jne. <br><strong>Työelämä</strong>: ansioluettelo, koulutus ja ammatillinen koulutus, palkinnot jne. <br><strong>Yhteyden tiedot</strong>: IP-osoitteet, tapahtumalokit jne.<br><strong>Sijaintitiedot</strong>: matkustelu, GPS-tiedot, GSM-tiedot jne.<br><strong>Muut</strong>: puhelinnumero, sähköpostiosoite jne.",
@@ -726,7 +734,7 @@
 				"source": "PIAF Connected Objects s. 22 - WIKI"
 			},
 			"PIA_SEC_CTR": {
-				"description": "TO BE TRANSLATED - <strong>Only use subcontractors which are able to provide sufficient guarantees</strong> (in particular in terms of specialised knowledge, reliability and resources). Require service providers to communicate their information system security policy before signing a contract with them. <br>Take and document the means (security audits, installation visits, etc.) used to <strong>ensure the effectiveness of the guarantees offered by the subcontractor</strong> in terms of data protection. These guarantees include: <br>- encryption of data according to its sensitivity or, at least, the existence of procedures guaranteeing that the service company does not have access to the data; <br>- encryption of data transmissions (e.g.: HTTPS type connection, VPN, etc.); <br>- guarantees in terms of network protection, traceability (logs, audits), access rights management, authentication, etc. <br><strong>Sign a contract with the subcontractors</strong>, which defines the subject, the length and the purpose of the processing, as well as obligations of each party. Ensure that it contains, in particular, provisions targeting: <br>- their obligation in terms of <strong>confidentiality of the entrusted personal data</strong>;<br>- <strong>minimal standards in terms of user authentication</strong>;<br>- <strong>conditions of restitution of data and/or its destruction at end of the contract</strong>;<br>- <strong>incident management and notification rules. </strong> They should include notification of the data controller whenever a security breach or a security incident is discovered, which should happen as soon as possible when it concerns personal data.",
+				"description": "Alihankkijoille välitetyille tai hallinnoimille henkilötiedoille on annettava riittävät takeet. <strong>Käytä vain alihankkijoita, joilla on riittävät takeet</strong> (erityisesti erikoistuneen tiedon, luotettavuuden ja resurssien suhteen). Vaadi palveluntarjoajaa ilmoittamaan tietojärjestelmiensä tietoturvakäytäntö. <br>Otetaan ja dokumentoidaan välineet (turvatarkastukset, käynti laitoksissa jne.)<strong>varmistaakseen alihankkijan</strong> tarjoamien takuiden tehokkuuden tietosuojan suhteen. Näihin takeisiin sisältyy erityisesti:<br> - tietojen salaus niiden herkkyyden mukaan tai, ellei tätä ole, menettelyjen olemassaolo, joilla taataan, että palveluyrityksellä ei ole pääsyä sille uskottuihin tietoihin<br>- tiedot (esim. yhteystyyppi HTTPS, VPN jne.)<br>- takaa verkon suojauksen, jäljitettävyyden (lokit, auditoinnit), valtuuksien hallinnan, todennuksen jne.<br><strong>Tarjoa sopimus alihankkijoiden kanssa</strong>, jossa määritellään erityisesti esine, kesto, käsittelyn tarkoitus ja osapuolten velvollisuudet. Varmista, että se sisältää erityisesti säännökset, joissa vahvistetaan:<br>- heidän velvollisuutensa luottamuksellisten henkilötietojen luottamuksellisuudesta<br>- käyttäjän todentamisen vähimmäisrajoitukset<br>- palauttamisen ehdot ja / tai tietojen tuhoaminen sopimuksen päättyessä<br>- tapausten hallintaa ja ilmoittamista koskevat säännöt. Tämän olisi sisällettävä rekisterinpitäjän tiedot, jos havaitaan tietoturvaloukkauksia tai tietoturvaloukkauksia, ja tämä tulee tapahtua niin pian kuin mahdollista, kun kyseessä on henkilötietojen rikkomus.<br>- käytettäessä pilvipalveluntarjoajaa:<br>1. tunnista selkeästi pilveen menevä tieto ja käsittely;<br>2. määritellä omat tekniset ja oikeudelliset turvallisuusvaatimuksensa;<br>3. suorittaa riskitutkimus sopivien turvatoimenpiteiden löytämiseksi;<br>4. tunnistaa ehdotetun käsittelyn kannalta merkityksellinen pilvityyppi;<br>5. valitse palveluntarjoaja, jolla on riittävät takeet;<br>6. tarkastaa sisäisen turvallisuuden politiikka;<br>7. tarkkaile muutoksia ajan myötä.",
 				"name": "Sopimusten käsittely",
 				"placeholder": "Kuvaile tässä henkilötietojen käsittelijöihin sovellettavat toimenpiteet (isäntäpalvelin, huoltoyhtiö, pääkäyttäjä, erikoistuneet palveluntarjoajat jne.)",
 				"source": "Mesures_US Procurement: tunnistettu ja sopimuksella säädelty"
@@ -888,8 +896,8 @@
 		},
 		"archive": "Arkistoi",
 		"archive_pia": {
-			"archive": "TO TRANSLATE - Archive PIA",
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>archive this PIA ?"
+			"archive": "Arkistoi tämä PIA",
+			"content": "<span class='strong'>Huomio,</span><br>Haluatko varmasti<br>arkistoida tämän PIA: n?"
 		},
 		"ask_for_evaluation": {
 			"content": "<span class='strong'>Erinomaista,</span><br>tämä alaosio on nyt<br>valmis arvioitavaksi."
@@ -924,10 +932,10 @@
 			"content": "Kaikissa anteeksi anteeksi on tapahtunut virhe."
 		},
 		"import_wrong_pia_file": {
-			"content": "TO BE TRANSLATED - Le fichier importé ne correspond pas à un fichier de type PIA"
+			"content": "Tuotu tiedosto ei vastaa PIA-tyyppistä tiedostoa"
 		},
 		"import_wrong_structure_file": {
-			"content": "TO BE TRANSLATED - Le fichier importé ne correspond pas à un fichier de type Modèle"
+			"content": "Tuotu tiedosto ei vastaa mallitiedostoa"
 		},
 		"knowledges": {
 			"content": "Haluatko varmasti poistaa tämän tietokannan?",
@@ -941,8 +949,8 @@
 		},
 		"recover_version": {
 			"continue": "Jatka",
-			"message": "TO TRANSLATE - By continuing, you will restore this report version: {{date}}.<br><br>The current version will be saved.",
-			"title": "TO TRANSLATE - Restore a previous version"
+			"message": "Jatkamalla palautat tämän analyysin {{date}} version. Sinun on vahvistettava analyysi uudelleen, kun se on valmis.<br><br>Nykyinen versio arkistoidaan.",
+			"title": "Palauta vanha versio"
 		},
 		"refuse_pia": {
 			"content": "<span class='strong'>Tietosuojaa koskeva vaikutustenarviointi on hylätty,</span><br>Useiden kenttien sisältöä on korjattava.<br>Palaa arviointitilaan<br>ja tee korjaukset."
@@ -959,23 +967,23 @@
 			"remove": "Poista tämä <br>toimenpide"
 		},
 		"remove_pia": {
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>remove permanently this PIA?",
+			"content": "<span class='strong'>Huomio,</span><br>Haluatko varmasti<br>poistaa tämän PIA: n pysyvästi?",
 			"remove": "Poista tämä tietosuojaa koskeva vaikutustenarviointi"
 		},
 		"remove_question": {
-			"content": "TO BE TRANSLATED - Souhaitez-vous supprimer la question ?",
-			"keep": "TO BE TRANSLATED - Annuler",
-			"remove": "TO BE TRANSLATED - Supprimer"
+			"content": "Haluatko poistaa kysymyksen?",
+			"keep": "Peruuttaa",
+			"remove": "Poista"
 		},
 		"remove_structure": {
-			"content": "TO BE TRANSLATED - <span class='strong'>Attention,</span><br>Êtes-vous sûr de vouloir<br>supprimer ce modèle ?",
-			"remove": "TO BE TRANSLATED - Supprimer ce modèle"
+			"content": "<span class='strong'>Varoitus,</span><br>Haluatko varmasti<br>poistaa tämän mallin?",
+			"remove": "Poista tämä malli"
 		},
 		"same_comment": {
 			"content": "<span class='strong'>Varoitus,</span><br>Syötä kommentti, joka ei ole sama kuin edellinen tallennettu kommentti."
 		},
 		"signed_pia_validation": {
-			"content": "<span class='strong'>Tietosuojaa koskeva vaikutustenarviointi on hyväksytty</span><br>Viimeistele tietosuojaa koskevan vaikutustenarvioinnin validointi liittämällä<br> hyväksyjän allekirjoittama raportti.",
+			"content": "Viimeistele analyysin validointi<br>liittämällä allekirjoitettu raportti liitteenä.",
 			"download_pia": "Lataa tietosuojaa koskevan vaikutustenarvioinnin raportti"
 		},
 		"simple_pia_validation": {
@@ -983,17 +991,17 @@
 		},
 		"start_evaluation": "Aloita tarkistaminen",
 		"unarchive_pia": {
-			"content": "TO TRANSLATE - <span class='strong'>Warning,</span><br>Are you sure you want to<br>unarchive this PIA ?",
-			"unarchive": "TO TRANSLATE - Unarchive PIA"
+			"content": "<span class='strong'>Huomio,</span><br>Haluatko varmasti<br>poistaa tämän PIA: n arkistoinnin?",
+			"unarchive": "Poista tämän PIA: n arkisto"
 		},
 		"update_server_url_nok": {
-			"content": "TO BE TRANSLATED - Connection impossible."
+			"content": "Yhteyden muodostaminen epäonnistui."
 		},
 		"update_server_url_ok": {
 			"content": "Palvelimen osoite on päivitetty."
 		},
 		"validate_evaluation": {
-			"content": "<span class='strong'>Erinomaista,</span><br>tietosuojaa koskeva vaikutustenarviointi odottaa yleistä validointia."
+			"content": "Osa on valmis<br>analyysin validointiin."
 		},
 		"validate_evaluation_to_correct": {
 			"content": "Pahoittelut,<br>Useiden kenttien sisältöä on korjattava.<br>Palaa muokkaustilaan<br>ja tee korjaukset."
@@ -1124,14 +1132,14 @@
 	"pia": {
 		"attachments": {
 			"add": "Lisää",
-			"download": "TO TRANSLATE - Download the attachment",
+			"download": "Lataa liite",
 			"remove": "Poista",
 			"title": "Liitteet"
 		},
 		"footer": {
 			"ask_evaluation": "Pyydä tarkastusta",
 			"mandatory_fields": "Kaikki kentät tulee täyttää",
-			"structure_add_question": "TO BE TRANSLATED - Ajouter une question",
+			"structure_add_question": "Lisää kysymys",
 			"subsection_validated": "Osa-alue tarkastettu, odottaa lopullista validointia",
 			"validate_evaluation": "Validoi tarkastus"
 		},
@@ -1142,7 +1150,7 @@
 			"preview": "Esikatselu"
 		},
 		"sections": {
-			"based_on_structure_name": "TO BE TRANSLATED - Basé sur le modèle :",
+			"based_on_structure_name": "Perustuu malliin:",
 			"homepage_link": "Takaisin ohjauspaneeliin",
 			"refuse_pia": "Hylätty vaikutustenarviointi",
 			"status": {
@@ -1179,8 +1187,8 @@
 			"Merkittävä",
 			"Suurin"
 		],
-		"placeholder_title": "TO BE TRANSLATED - Titre de la question (obligatoire)",
-		"remove": "TO BE TRANSLATED - Supprimer la question"
+		"placeholder_title": "Kysymyksen otsikko (pakollinen)",
+		"remove": "Poista kysymys"
 	},
 	"rejection_page": {
 		"applied_adjustments": "Tehdyt muokkaukset",
@@ -1461,17 +1469,17 @@
 			"title": "Toimintasuunnitelma"
 		},
 		"actions": {
-			"complete_download": "TO TRANSLATE - Download the full report",
-			"complete_download_desc": "TO TRANSLATE - Export in a .zip archive all the report content (.doc and pictures), attachments and the action plan in a .csv format.",
-			"individual_download": "TO TRANSLATE - Download elements of the report",
-			"individual_download_desc": "TO TRANSLATE - Export specific elements of the report.",
-			"individual_download_doc": "TO TRANSLATE - Texts (.doc)",
-			"individual_download_images": "TO TRANSLATE - Visual elements (.png) including the risk overview, the risk mapping and the action plan.",
-			"individual_download_json": "TO TRANSLATE - Report to import into the PIA tool (.json file)",
-			"individual_download_select": "TO TRANSLATE - Select elements to export:",
-			"individual_to_download": "TO TRANSLATE - Download",
-			"print": "TO TRANSLATE - Print the report",
-			"print_and_download": "TO TRANSLATE - Print and download"
+			"complete_download": "Lataa koko analyysi",
+			"complete_download_desc": "Vie analyysin sisältö (.doc ja kuvat), niihin liittyvät liitteet ja toimintasuunnitelma .csv-muodossa .zip-arkistoon.",
+			"individual_download": "lataaminen",
+			"individual_download_desc": "Vie tietyt analyysielementit.",
+			"individual_download_doc": "Tekstisisältö (.doc-tiedosto)",
+			"individual_download_images": "Visuaaliset elementit (.png-tiedostot): yleiskuva riskeistä, riskien kartoitus, toimintasuunnitelma",
+			"individual_download_json": "PIA-työkaluun tuotava analyysi (file.json)",
+			"individual_download_select": "Valitse vietävät elementit:",
+			"individual_to_download": "download",
+			"print": "Tulosta analyysi",
+			"print_and_download": "Tulostaminen ja lataaminen"
 		},
 		"attachments": "Liitteet",
 		"concerned_people_name": "Asianomaisten mielipiteet",
@@ -1490,8 +1498,8 @@
 		"csv_implement_date": "Arvioitu käyttöönottopäivä",
 		"csv_people_in_charge": "Vastuuhenkilö",
 		"csv_section": "Osio",
-		"csv_title_object": "Otsikko",
-		"download_csv": "TO TRANSLATE - Action plan (.csv)",
+		"csv_title_object": "Kohteen nimi",
+		"download_csv": "Toimintasuunnitelma (.csv-tiedosto)",
 		"dpo_name": "Tietosuojavastaavan nimi",
 		"dpo_opinion": "Tietosuojavastaavan mielipide",
 		"dpo_status": "Tietosuojavastaavan tila",
@@ -1508,24 +1516,24 @@
 		"pia_author": "Laatijan nimi",
 		"pia_name": "Tietosuojaa koskeva vaikutustenarviointi",
 		"pia_validator": "Hyväksyjän nimi",
-		"preview_dpo_opinion": "TO TRANSLATE - DPO and data subjects opinion",
-		"preview_edition": "TO TRANSLATE - Editing",
-		"preview_evaluation": "TO TRANSLATE - Evaluation",
-		"preview_no_data": "TO TRANSLATE - No data to display.",
-		"preview_status": "TO TRANSLATE - Status",
-		"preview_subtitle": "TO TRANSLATE - General information",
-		"preview_title": "TO TRANSLATE - Preview",
-		"preview_validation": "TO TRANSLATE - Validation",
-		"preview_validation_section": "TO TRANSLATE - Validation",
+		"preview_dpo_opinion": "DAP: n ja asianomaisten henkilöiden lausunto",
+		"preview_edition": "kaappaus",
+		"preview_evaluation": "Arviointi",
+		"preview_no_data": "Ei näytettäviä tietoja.",
+		"preview_status": "tila",
+		"preview_subtitle": "Yleistä tietoa",
+		"preview_title": "Analyysin yleiskatsaus",
+		"preview_validation": "validointi",
+		"preview_validation_section": "validointi",
 		"previous_page": "Takaisin edelliselle sivulle",
 		"rejection_reason": "Hylkäyksen syy",
 		"revision": {
-			"current_version": "TO TRANSLATE - Current version",
-			"pia_version": "TO TRANSLATE - PIA versions",
-			"restore_version": "TO TRANSLATE - Restore",
-			"revision": "TO TRANSLATE - Versions and revision",
-			"save": "TO TRANSLATE - Create a new version",
-			"show": "TO TRANSLATE - Display the {{length}} versions"
+			"current_version": "Nykyinen versio",
+			"pia_version": "PIA-versiot",
+			"restore_version": "Palauta tämä versio",
+			"revision": "Versiot ja versio",
+			"save": "Luo uusi versio",
+			"show": "Näytä {{length}} versiot"
 		},
 		"risks_cartography_title": "Riskien kartoitus",
 		"risks_overview_title": "Riskien yleiskatsaus",
