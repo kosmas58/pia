@@ -23,6 +23,7 @@ export class RisksCartographyComponent implements OnInit, OnDestroy {
   dataJSON: any;
   risk1Letter;
   risk2Letter;
+  risk3Letter;
 
   constructor(
     private http: HttpClient,
@@ -35,9 +36,11 @@ export class RisksCartographyComponent implements OnInit, OnDestroy {
   async ngOnInit() {
     this.risk1Letter = this._translateService.instant('cartography.risk1_access');
     this.risk2Letter = this._translateService.instant('cartography.risk2_modification');
+    this.risk3Letter = this._translateService.instant('cartography.risk3_disappearance');
     this.subscription = this._translateService.onLangChange.subscribe((event: LangChangeEvent) => {
       this.risk1Letter = this._translateService.instant('cartography.risk1_access');
       this.risk2Letter = this._translateService.instant('cartography.risk2_modification');
+      this.risk3Letter = this._translateService.instant('cartography.risk3_disappearance');
       this.loadCartography();
     });
 
@@ -217,7 +220,11 @@ export class RisksCartographyComponent implements OnInit, OnDestroy {
       context.font = 'bold 1.1rem Roboto, Times, serif';
       context.fillStyle = '#333';
       try {
-        context.fillText('(D)', this.dataJSON['risk-disappearance']['author'].x - 8, this.dataJSON['risk-disappearance']['author'].y + 20);
+        context.fillText(
+          this.risk3Letter,
+          this.dataJSON['risk-disappearance']['author'].x - 8,
+          this.dataJSON['risk-disappearance']['author'].y + 20
+        );
       } catch (ex) {}
     }
 
