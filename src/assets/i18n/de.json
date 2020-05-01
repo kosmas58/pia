@@ -1066,11 +1066,11 @@
 				"title": "Überprüfen Sie die DSFA"
 			},
 			"step2": {
-				"description": "<p>Diese Überprüfung zeigt den Verfassern an, dass Elemente fehlen, um eine relevante Bewertung vornehmen zu können.</p><p>Der Prüfer muss diese im zugehörigen Feld <strong>Bewertungskommentar</strong> angeben. Der Autor wird sein Exemplar entsprechend rezensieren.</p>",
+				"description": "<p>Diese Überprüfung zeigt den Bearbeitern an, dass Elemente fehlen, um eine relevante Bewertung vornehmen zu können.</p><p>Der Prüfer muss diese im zugehörigen Feld <strong>Bewertungskommentar</strong> angeben. Der Autor wird sein Exemplar entsprechend rezensieren.</p>",
 				"title": "Zu korrigieren"
 			},
 			"step3": {
-				"description": "<p>Diese Bewertung gibt die zu überarbeitenden Verarbeitungspunkte an und ist im Feld <strong>Aktionsplan / Korrekturmaßnahmen</strong>aufgeführt.</p><p>Diese Maßnahmen werden automatisch zum Aktionsplanteil der Analyse hinzugefügt. Es ist notwendig, sie so schnell wie möglich umzusetzen.</p>",
+				"description": "<p>Diese Bewertung gibt die zu überarbeitenden Verarbeitungspunkte an und ist im Feld <strong>Aktionsplan / Korrekturmaßnahmen</strong>aufgeführt.</p><p>Diese Maßnahmen werden automatisch zum Teil Aktionsplan der Analyse hinzugefügt. Es ist notwendig, sie so schnell wie möglich umzusetzen.</p>",
 				"title": "Verbesserungsfähig"
 			},
 			"step4": {
