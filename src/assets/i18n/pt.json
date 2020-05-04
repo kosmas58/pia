@@ -113,7 +113,6 @@
 		},
 		"homepage_link": "TO TRANSLATE - My PIAs",
 		"knowledge_base_link": "Base de conhecimento",
-		"knowledges": "",
 		"languages": {
 			"cnil_translations": "Traduções fornecidas pela CNIL",
 			"community_translations": "Traduções fornecidas pela comunidade",
@@ -228,6 +227,7 @@
 				"placeholder_name": "TO TRANSLATE - Base's name"
 			},
 			"knowledges_entry": {
+				"all_sections": "TO TRANSLATE - All sections",
 				"choose_category": "TO TRANSLATE - Choose a category",
 				"contents": "TO TRANSLATE - Contents",
 				"create": "TO TRANSLATE - Create this element",
