@@ -223,6 +223,7 @@
 				"placeholder_name": "Nome della knowledge base"
 			},
 			"knowledges_entry": {
+				"all_sections": "Tutte le sezioni",
 				"choose_category": "Scegli una categoria",
 				"contents": "contenuto",
 				"create": "Crea questo elemento",

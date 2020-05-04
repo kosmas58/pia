@@ -223,6 +223,7 @@
 				"placeholder_name": "Navn på kunnskapsbase"
 			},
 			"knowledges_entry": {
+				"all_sections": "Alle seksjoner",
 				"choose_category": "Velg en kategori",
 				"contents": "innhold",
 				"create": "Lag dette elementet",
