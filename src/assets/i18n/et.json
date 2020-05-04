@@ -223,6 +223,7 @@
 				"placeholder_name": "Teadmistebaasi nimi"
 			},
 			"knowledges_entry": {
+				"all_sections": "Kõik jaotised",
 				"choose_category": "Valige kategooria",
 				"contents": "Sisu",
 				"create": "Looge see element",

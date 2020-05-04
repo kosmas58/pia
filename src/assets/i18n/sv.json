@@ -223,6 +223,7 @@
 				"placeholder_name": "Kunskapsbasens namn"
 			},
 			"knowledges_entry": {
+				"all_sections": "Alla avsnitt",
 				"choose_category": "Välj en kategori",
 				"contents": "Innehåll",
 				"create": "Skapa detta element",

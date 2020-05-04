@@ -223,6 +223,7 @@
 				"placeholder_name": "Numele bazei de cunoștințe"
 			},
 			"knowledges_entry": {
+				"all_sections": "Toate secțiunile",
 				"choose_category": "Alege o categorie",
 				"contents": "Cuprins",
 				"create": "Creați acest element",

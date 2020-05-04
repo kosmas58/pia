@@ -223,6 +223,7 @@
 				"placeholder_name": "Nom de la base"
 			},
 			"knowledges_entry": {
+				"all_sections": "Toutes les sections",
 				"choose_category": "Choisissez une catégorie",
 				"contents": "Contenus",
 				"create": "Créer l'élément",
