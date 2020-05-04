@@ -223,6 +223,7 @@
 				"placeholder_name": "Název znalostní báze"
 			},
 			"knowledges_entry": {
+				"all_sections": "Všechny sekce",
 				"choose_category": "Vyberte kategorii",
 				"contents": "Obsah",
 				"create": "Vytvořte tento prvek",
