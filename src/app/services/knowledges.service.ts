@@ -20,13 +20,13 @@ export class KnowledgesService {
         .findAll()
         .then((response: any) => {
           let result = [];
-          response.forEach(e => {
+          response.forEach((e) => {
             result.push(new KnowledgeBase(e.id, e.name, e.author, e.contributors, e.created_at));
           });
           this.list = result;
           resolve(result);
         })
-        .catch(error => {
+        .catch((error) => {
           reject(error);
         });
     });
@@ -37,10 +37,10 @@ export class KnowledgesService {
       let kTemp = new Knowledge();
       kTemp
         .findAllByBaseId(baseId)
-        .then(response => {
+        .then((response) => {
           resolve(response);
         })
-        .catch(err => {
+        .catch((err) => {
           reject(err);
         });
     });
@@ -52,13 +52,13 @@ export class KnowledgesService {
       .delete(this.selected)
       .then(() => {
         // removeFrom this.list
-        let index = this.list.findIndex(e => e.id === this.selected);
+        let index = this.list.findIndex((e) => e.id === this.selected);
         if (index !== -1) {
           this.list.splice(index, 1);
           this._modalsService.closeModal();
         }
       })
-      .catch(error => {
+      .catch((error) => {
         console.log(error);
       });
   }
@@ -70,7 +70,7 @@ export class KnowledgesService {
   export(id: number) {
     const date = new Date().getTime();
     let kbTemp = new KnowledgeBase();
-    kbTemp.find(id).then(data => {
+    kbTemp.find(id).then((data) => {
       const a = document.getElementById('pia-exportBlock');
       const url = 'data:text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(data));
       a.setAttribute('href', url);
@@ -83,22 +83,47 @@ export class KnowledgesService {
   }
 
   import(data) {
-    let newKnowledgeBase = new KnowledgeBase(null, data.name + ' (copy)', data.author, data.contributors, data.knowleges);
-    newKnowledgeBase
-      .create()
-      .then(() => {
-        this.list.push(newKnowledgeBase);
-      })
-      .catch(error => {
-        console.log(error);
-      });
+    return new Promise((resolve, reject) => {
+      let newKnowledgeBase = new KnowledgeBase(null, data.name + ' (copy)', data.author, data.contributors, data.knowleges);
+      newKnowledgeBase
+        .create()
+        .then((resp: KnowledgeBase) => {
+          newKnowledgeBase.id = resp.id;
+          this.list.push(newKnowledgeBase);
+          resolve(newKnowledgeBase);
+        })
+        .catch((error) => {
+          console.log(error);
+          reject(error);
+        });
+    });
   }
 
   duplicate(id: number) {
     const date = new Date().getTime();
     let kbTemp = new KnowledgeBase();
-    kbTemp.find(id).then(data => {
-      this.import(data);
+    kbTemp.find(id).then((data: KnowledgeBase) => {
+      this.import(data).then((newKnowledgeBase: KnowledgeBase) => {
+        // Duplicate entries
+        this.getEntries(id).then((knowledges: Knowledge[]) => {
+          knowledges.forEach((entry: Knowledge) => {
+            let temp = new Knowledge();
+            temp.id = entry.id;
+            temp.slug = entry.slug;
+            temp.filters = entry.filters;
+            temp.category = entry.category;
+            temp.placeholder = entry.placeholder;
+            temp.name = entry.name;
+            temp.description = entry.description;
+            temp.items = entry.items;
+            temp.created_at = new Date(entry.created_at);
+            temp.updated_at = new Date(entry.updated_at);
+            temp.create(newKnowledgeBase.id).then((e) => {
+              console.log(e);
+            });
+          });
+        });
+      });
     });
   }
 }
