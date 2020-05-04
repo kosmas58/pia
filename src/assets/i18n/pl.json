@@ -223,7 +223,7 @@
 				"placeholder_name": "Nazwa bazy wiedzy"
 			},
 			"knowledges_entry": {
-				"all_sections": "TO TRANSLATE - All sections",
+				"all_sections": "Wszystkie sekcje",
 				"choose_category": "Wybierz kategorię",
 				"contents": "Zawartość",
 				"create": "Utwórz ten element",
