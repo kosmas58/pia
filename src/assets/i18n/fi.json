@@ -223,6 +223,7 @@
 				"placeholder_name": "Tietokannan nimi"
 			},
 			"knowledges_entry": {
+				"all_sections": "TO TRANSLATE - All sections",
 				"choose_category": "Valitse kategoria",
 				"contents": "Sisällys",
 				"create": "Luo tämä elementti",

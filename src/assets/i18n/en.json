@@ -223,6 +223,7 @@
 				"placeholder_name": "Base's name"
 			},
 			"knowledges_entry": {
+				"all_sections": "All sections",
 				"choose_category": "Choose a category",
 				"contents": "Contents",
 				"create": "Create this element",

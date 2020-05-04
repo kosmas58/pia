@@ -223,6 +223,7 @@
 				"placeholder_name": "Όνομα βάσης γνώσεων"
 			},
 			"knowledges_entry": {
+				"all_sections": "TO TRANSLATE - All sections",
 				"choose_category": "Επιλέξτε μια κατηγορία",
 				"contents": "περιεχόμενα",
 				"create": "Δημιουργήστε αυτό το στοιχείο",

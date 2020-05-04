@@ -223,6 +223,7 @@
 				"placeholder_name": "Naam kennisbank"
 			},
 			"knowledges_entry": {
+				"all_sections": "TO TRANSLATE - All sections",
 				"choose_category": "Kies een categorie",
 				"contents": "Inhoud",
 				"create": "Maak dit element",

@@ -223,6 +223,7 @@
 				"placeholder_name": "Tudásbázis neve"
 			},
 			"knowledges_entry": {
+				"all_sections": "TO TRANSLATE - All sections",
 				"choose_category": "Válasszon kategóriát",
 				"contents": "Tartalom",
 				"create": "Hozza létre ezt az elemet",

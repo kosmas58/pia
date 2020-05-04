@@ -223,6 +223,7 @@
 				"placeholder_name": "Name der Wissensbasis"
 			},
 			"knowledges_entry": {
+				"all_sections": "TO TRANSLATE - All sections",
 				"choose_category": "Wähle eine Kategorie",
 				"contents": "Inhalt",
 				"create": "Erstellen Sie dieses Element",

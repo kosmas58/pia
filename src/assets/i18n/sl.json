@@ -223,6 +223,7 @@
 				"placeholder_name": "Ime baze znanja"
 			},
 			"knowledges_entry": {
+				"all_sections": "TO TRANSLATE - All sections",
 				"choose_category": "Izberite kategorijo",
 				"contents": "Vsebina",
 				"create": "Ustvari ta element",
