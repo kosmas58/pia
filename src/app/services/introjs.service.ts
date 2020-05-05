@@ -331,21 +331,21 @@ export class IntrojsService {
             `,
           position: 'top'
         });
-        if (document.querySelector('.pia-status-info.evaluationsStatus > div')) {
-          INTROJS.addStep({
-            // Top evaluation block (cancel block)
-            tooltipClass: 'pia-onboarding-evaluation-step-cancelEvaluationBlock',
-            element: document.querySelector('.pia-status-info.evaluationsStatus > div'),
-            intro: `
+      if (document.querySelector('.pia-status-info.evaluationsStatus > div')) {
+        INTROJS.addStep({
+          // Top evaluation block (cancel block)
+          tooltipClass: 'pia-onboarding-evaluation-step-cancelEvaluationBlock',
+          element: document.querySelector('.pia-status-info.evaluationsStatus > div'),
+          intro: `
                   <div class='pia-onboarding-title'>${this._translateService.instant('onboarding.evaluation.step5.title')}</div>
                   <div class='pia-onboarding-description'>
                     ${this._translateService.instant('onboarding.evaluation.step5.description')}
                   </div>
                   <div class='pia-onboarding-steps'>5/${stepsQuantity}</div>
                 `,
-            position: 'bottom'
-          });
-        }
+          position: 'bottom'
+        });
+      }
     } else {
       INTROJS.addStep({
         // "Cancel" button
