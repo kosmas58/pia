@@ -413,7 +413,7 @@ export class IntrojsService {
                 </div>
                 <div class='pia-onboarding-steps'>1/2</div>
               `,
-      position: 'right'
+      position: 'top'
     }).addStep({
       tooltipClass: 'pia-onboarding-validated-2',
       element: document.querySelector('.pia-cardsBlock.pia-archiveBlock'),
@@ -424,7 +424,7 @@ export class IntrojsService {
                 </div>
                 <div class='pia-onboarding-steps'>2/2</div>
               `,
-      position: 'left'
+      position: 'top'
     });
 
     INTROJS.onexit(() => {
