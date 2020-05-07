@@ -208,7 +208,7 @@
 					"export": "Exportere",
 					"more_options": "Flere optioner",
 					"pia": "Vis<br>PIA",
-					"remove": "",
+					"remove": "Fjern",
 					"unarchive": "udpakning"
 				},
 				"validate_pia": "Validere"
@@ -937,6 +937,10 @@
 		},
 		"import_wrong_structure_file": {
 			"content": "Den importerede fil relaterer ikke til en PIA skabelon fil"
+		},
+		"knowledge": {
+			"content": "Er du sikker på, at du vil slette dette emne?",
+			"remove": "Fjern dette emne"
 		},
 		"knowledges": {
 			"content": "Er du sikker på, at du vil slette denne vidensbase?",

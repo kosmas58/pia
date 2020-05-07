@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "Il file importato non corrisponde a un file modello"
 		},
+		"knowledge": {
+			"content": "Sei sicuro di voler eliminare questo elemento?",
+			"remove": "Elimina questo elemento"
+		},
 		"knowledges": {
 			"content": "Sei sicuro di voler eliminare questa knowledge base?",
 			"remove": "Elimina questa knowledge base"

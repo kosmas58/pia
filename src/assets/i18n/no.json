@@ -208,7 +208,7 @@
 					"export": "Eksporter",
 					"more_options": "Flere valg",
 					"pia": "Vis<br>PIA",
-					"remove": "remove",
+					"remove": "Remove",
 					"unarchive": "Pakk ut"
 				},
 				"validate_pia": "Validere"
@@ -937,6 +937,10 @@
 		},
 		"import_wrong_structure_file": {
 			"content": "Importert fil samsvarer ikke med en malfil"
+		},
+		"knowledge": {
+			"content": "Er du sikker på at du vil slette dette elementet?",
+			"remove": "Fjern dette elementet"
 		},
 		"knowledges": {
 			"content": "Er du sikker på at du vil slette denne kunnskapsbasen?",

@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "Imporditu ei vasta mudelile"
 		},
+		"knowledge": {
+			"content": "Kas soovite kindlasti selle üksuse kustutada?",
+			"remove": "Kustutage see üksus"
+		},
 		"knowledges": {
 			"content": "Kas soovite kindlasti selle teadmistebaasi kustutada?",
 			"remove": "Kustutage see teadmistebaas"

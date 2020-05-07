@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "Het geïmporteerde bestand stemt niet overeen met een bestand van het type sjabloon"
 		},
+		"knowledge": {
+			"content": "Weet je zeker dat je dit item wilt verwijderen?",
+			"remove": "Verwijder dit item"
+		},
 		"knowledges": {
 			"content": "Weet u zeker dat u deze kennisbank wilt verwijderen?",
 			"remove": "Verwijder deze kennisbank"
