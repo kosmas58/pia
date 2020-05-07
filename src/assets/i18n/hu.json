@@ -939,8 +939,8 @@
 			"content": "Az importált fájl nem felel meg a sablon fájlnak"
 		},
 		"knowledge": {
-			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
-			"remove": "TO TRANSLATE - Delete this element"
+			"content": "Biztosan törli ezt az elemet?",
+			"remove": "Törölje ezt az elemet"
 		},
 		"knowledges": {
 			"content": "Biztosan törli ezt a tudásbázist?",

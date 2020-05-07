@@ -939,8 +939,8 @@
 			"content": "Die importierte Datei entspricht nicht dem Dateityp einer Vorlage."
 		},
 		"knowledge": {
-			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
-			"remove": "TO TRANSLATE - Delete this element"
+			"content": "Möchten Sie diesen Artikel wirklich löschen?",
+			"remove": "Entfernen Sie diesen Artikel"
 		},
 		"knowledges": {
 			"content": "Möchten Sie diese Wissensdatenbank wirklich löschen?",

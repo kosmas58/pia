@@ -939,8 +939,8 @@
 			"content": "Imporditu ei vasta mudelile"
 		},
 		"knowledge": {
-			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
-			"remove": "TO TRANSLATE - Delete this element"
+			"content": "Kas soovite kindlasti selle üksuse kustutada?",
+			"remove": "Kustutage see üksus"
 		},
 		"knowledges": {
 			"content": "Kas soovite kindlasti selle teadmistebaasi kustutada?",

@@ -939,8 +939,8 @@
 			"content": "Importuotas failas skiriasi nuo PDAV ataskaitos failo"
 		},
 		"knowledge": {
-			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
-			"remove": "TO TRANSLATE - Delete this element"
+			"content": "Ar tikrai norite ištrinti šį elementą?",
+			"remove": "Pašalinti šį elementą"
 		},
 		"knowledges": {
 			"content": "Ar tikrai norite ištrinti šią žinių bazę?",

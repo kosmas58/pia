@@ -939,8 +939,8 @@
 			"content": "Il file importato non corrisponde a un file modello"
 		},
 		"knowledge": {
-			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
-			"remove": "TO TRANSLATE - Delete this element"
+			"content": "Sei sicuro di voler eliminare questo elemento?",
+			"remove": "Elimina questo elemento"
 		},
 		"knowledges": {
 			"content": "Sei sicuro di voler eliminare questa knowledge base?",
