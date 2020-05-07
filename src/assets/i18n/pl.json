@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "Zaimportowany plik nie odpowiada plikowi szablonu"
 		},
+		"knowledge": {
+			"content": "Czy na pewno chcesz usunąć ten element?",
+			"remove": "Usuń ten element"
+		},
 		"knowledges": {
 			"content": "Czy na pewno chcesz usunąć tę bazę wiedzy?",
 			"remove": "Usuń tę bazę wiedzy"

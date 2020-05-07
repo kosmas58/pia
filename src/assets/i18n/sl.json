@@ -208,7 +208,7 @@
 					"export": "Izvezi",
 					"more_options": "Više opcija",
 					"pia": "Prikaži<br>PUP",
-					"remove": "odstrani",
+					"remove": "Odstrani",
 					"unarchive": "Rasteretiti"
 				},
 				"validate_pia": "Preveri"
@@ -937,6 +937,10 @@
 		},
 		"import_wrong_structure_file": {
 			"content": "Uvezena datoteka ne odgovara datoteci obrasca PUP-a"
+		},
+		"knowledge": {
+			"content": "Ali ste prepričani, da želite izbrisati ta element?",
+			"remove": "Izbrišite ta element"
 		},
 		"knowledges": {
 			"content": "Ali ste prepričani, da želite izbrisati to bazo znanja?",

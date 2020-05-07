@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "El archivo importado no coincide con un archivo de plantilla"
 		},
+		"knowledge": {
+			"content": "¿Estás seguro de que deseas eliminar este elemento?",
+			"remove": "Eliminar este artículo"
+		},
 		"knowledges": {
 			"content": "¿Seguro que quieres eliminar esta base de conocimiento?",
 			"remove": "Eliminar esta base de conocimiento"

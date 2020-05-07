@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "Fișierul importat nu se potrivește cu fișierul șabloane"
 		},
+		"knowledge": {
+			"content": "Sigur doriți să ștergeți acest articol?",
+			"remove": "Ștergeți acest articol"
+		},
 		"knowledges": {
 			"content": "Sigur doriți să ștergeți această bază de cunoștințe?",
 			"remove": "Ștergeți această bază de cunoștințe"
