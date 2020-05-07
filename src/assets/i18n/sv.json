@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "Den importerade filen är inte en korrekt mall-fil"
 		},
+		"knowledge": {
+			"content": "Är du säker på att du vill ta bort det här objektet?",
+			"remove": "Ta bort detta objekt"
+		},
 		"knowledges": {
 			"content": "Är du säker på att du vill ta bort den här kunskapsbasen?",
 			"remove": "Ta bort denna kunskapsbas"
