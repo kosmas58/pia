@@ -8,6 +8,7 @@ export class KnowledgeBase extends ApplicationDb {
   public contributors: string;
   public knowledges: Knowledge[] = [];
   public created_at: Date;
+  public is_example: Boolean = false;
 
   constructor(id = null, name = null, author = null, contributors = null, createdAt = null) {
     super(201911191636, 'knowledgeBase');
@@ -36,7 +37,7 @@ export class KnowledgeBase extends ApplicationDb {
           }
           resolve();
         })
-        .catch(err => {
+        .catch((err) => {
           console.log(err);
           reject(err);
         });
@@ -95,13 +96,13 @@ export class KnowledgeBase extends ApplicationDb {
             body: formData,
             mode: 'cors'
           })
-            .then(response => {
+            .then((response) => {
               return response.json();
             })
             .then((result: any) => {
               resolve();
             })
-            .catch(error => {
+            .catch((error) => {
               console.error('Request failed', error);
               reject();
             });
