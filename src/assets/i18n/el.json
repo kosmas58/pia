@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "Το εισαγόμενο αρχείο δεν αντιστοιχεί σε ένα αρχείο Υποδείγματος."
 		},
+		"knowledge": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
+			"remove": "TO TRANSLATE - Delete this element"
+		},
 		"knowledges": {
 			"content": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν τη βάση γνώσεων;",
 			"remove": "Διαγράψτε αυτήν τη βάση γνώσεων"

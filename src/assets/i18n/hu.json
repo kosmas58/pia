@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "Az importált fájl nem felel meg a sablon fájlnak"
 		},
+		"knowledge": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
+			"remove": "TO TRANSLATE - Delete this element"
+		},
 		"knowledges": {
 			"content": "Biztosan törli ezt a tudásbázist?",
 			"remove": "Törölje ezt a tudásbázist"

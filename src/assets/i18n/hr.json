@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "Uvezena datoteka ne odgovara datoteci obrasca PUP-a"
 		},
+		"knowledge": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
+			"remove": "TO TRANSLATE - Delete this element"
+		},
 		"knowledges": {
 			"content": "Jeste li sigurni da želite izbrisati ovu bazu znanja?",
 			"remove": "Izbrišite ovu bazu znanja"

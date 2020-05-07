@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "Tuotu tiedosto ei vastaa mallitiedostoa"
 		},
+		"knowledge": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
+			"remove": "TO TRANSLATE - Delete this element"
+		},
 		"knowledges": {
 			"content": "Haluatko varmasti poistaa tämän tietokannan?",
 			"remove": "Poista tämä tietokanta"

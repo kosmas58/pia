@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "Die importierte Datei entspricht nicht dem Dateityp einer Vorlage."
 		},
+		"knowledge": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
+			"remove": "TO TRANSLATE - Delete this element"
+		},
 		"knowledges": {
 			"content": "Möchten Sie diese Wissensdatenbank wirklich löschen?",
 			"remove": "Löschen Sie diese Wissensbasis"

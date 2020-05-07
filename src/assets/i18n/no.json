@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "Importert fil samsvarer ikke med en malfil"
 		},
+		"knowledge": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
+			"remove": "TO TRANSLATE - Delete this element"
+		},
 		"knowledges": {
 			"content": "Er du sikker på at du vil slette denne kunnskapsbasen?",
 			"remove": "Slett dette kunnskapsgrunnlaget"

@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "Importovaný soubor neodpovídá souboru šablony"
 		},
+		"knowledge": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
+			"remove": "TO TRANSLATE - Delete this element"
+		},
 		"knowledges": {
 			"content": "Opravdu chcete tuto znalostní databázi odstranit?",
 			"remove": "Odstranit tuto znalostní bázi"

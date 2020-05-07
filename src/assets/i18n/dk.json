@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "Den importerede fil relaterer ikke til en PIA skabelon fil"
 		},
+		"knowledge": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
+			"remove": "TO TRANSLATE - Delete this element"
+		},
 		"knowledges": {
 			"content": "Er du sikker på, at du vil slette denne vidensbase?",
 			"remove": "Slet denne vidensbase"

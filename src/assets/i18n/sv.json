@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "Den importerade filen är inte en korrekt mall-fil"
 		},
+		"knowledge": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
+			"remove": "TO TRANSLATE - Delete this element"
+		},
 		"knowledges": {
 			"content": "Är du säker på att du vill ta bort den här kunskapsbasen?",
 			"remove": "Ta bort denna kunskapsbas"

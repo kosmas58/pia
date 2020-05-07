@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "O ficheiro importado não corresponde a um ficheiro do tipo Modelo"
 		},
+		"knowledge": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
+			"remove": "TO TRANSLATE - Delete this element"
+		},
 		"knowledges": {
 			"content": "Tem certeza de que deseja excluir esta base de conhecimento?",
 			"remove": "Excluir esta base de conhecimento"
