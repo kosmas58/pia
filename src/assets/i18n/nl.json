@@ -934,7 +934,7 @@
 			"review_section": "Controleer een sectie"
 		},
 		"general_error": {
-			"content": ""
+			"content": "TO TRANSLATE - All our apologies an error has occurred."
 		},
 		"import_wrong_pia_file": {
 			"content": "Het geïmporteerde bestand stemt niet overeen met een bestand van het type PIA"
@@ -942,9 +942,13 @@
 		"import_wrong_structure_file": {
 			"content": "Het geïmporteerde bestand stemt niet overeen met een bestand van het type sjabloon"
 		},
+		"knowledge": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
+			"remove": "TO TRANSLATE - Delete this element"
+		},
 		"knowledges": {
-			"content": "",
-			"remove": ""
+			"content": "TO TRANSLATE - Are you sure you want to delete this knowledge base?",
+			"remove": "TO TRANSLATE - Delete this knowledge base"
 		},
 		"modal_select_text_pia": {
 			"content": "De inhoud van de PIA is gekopieerd naar het klembord."

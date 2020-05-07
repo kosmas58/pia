@@ -934,7 +934,7 @@
 			"review_section": "Évaluer une section"
 		},
 		"general_error": {
-			"content": ""
+			"content": "TO TRANSLATE - All our apologies an error has occurred."
 		},
 		"import_wrong_pia_file": {
 			"content": "TO BE TRANSLATED - Le fichier importé ne correspond pas à un fichier de type PIA"
@@ -942,9 +942,13 @@
 		"import_wrong_structure_file": {
 			"content": "TO BE TRANSLATED - Le fichier importé ne correspond pas à un fichier de type Modèle"
 		},
+		"knowledge": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
+			"remove": "TO TRANSLATE - Delete this element"
+		},
 		"knowledges": {
-			"content": "",
-			"remove": ""
+			"content": "TO TRANSLATE - Are you sure you want to delete this knowledge base?",
+			"remove": "TO TRANSLATE - Delete this knowledge base"
 		},
 		"modal_select_text_pia": {
 			"content": "Le contenu du Rapport PIA a été copié dans votre presse-papier."

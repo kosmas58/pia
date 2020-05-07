@@ -934,7 +934,7 @@
 			"review_section": "Utvärdera en sektion"
 		},
 		"general_error": {
-			"content": ""
+			"content": "TO TRANSLATE - All our apologies an error has occurred."
 		},
 		"import_wrong_pia_file": {
 			"content": "Den importerade filen är inte en korrekt PIA-fil"
@@ -942,9 +942,13 @@
 		"import_wrong_structure_file": {
 			"content": "Den importerade filen är inte en korrekt mall-fil"
 		},
+		"knowledge": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
+			"remove": "TO TRANSLATE - Delete this element"
+		},
 		"knowledges": {
-			"content": "",
-			"remove": ""
+			"content": "TO TRANSLATE - Are you sure you want to delete this knowledge base?",
+			"remove": "TO TRANSLATE - Delete this knowledge base"
 		},
 		"modal_select_text_pia": {
 			"content": "Innehållet i PIAn är kopierat till urklipp"

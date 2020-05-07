@@ -942,8 +942,12 @@
 		"import_wrong_structure_file": {
 			"content": "Le fichier importé ne correspond pas à un fichier de type Modèle"
 		},
+		"knowledge": {
+			"content": "Êtes-vous sûr de vouloir supprimer cet élément ?",
+			"remove": "Supprimer cet élément"
+		},
 		"knowledges": {
-			"content": "Êtes vous sûr de vouloir supprimer cette base de connaissances ?",
+			"content": "Êtes-vous sûr de vouloir supprimer cette base de connaissances ?",
 			"remove": "Supprimer cette base"
 		},
 		"modal_select_text_pia": {
