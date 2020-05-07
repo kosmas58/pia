@@ -934,7 +934,7 @@
 			"review_section": "Αξιολόγηση ενός τμήματος"
 		},
 		"general_error": {
-			"content": ""
+			"content": "TO TRANSLATE - All our apologies an error has occurred."
 		},
 		"import_wrong_pia_file": {
 			"content": "Το εισαγόμενο αρχείο δεν αντιστοιχεί σε ένα αρχείο ΕΑ."
@@ -942,9 +942,13 @@
 		"import_wrong_structure_file": {
 			"content": "Το εισαγόμενο αρχείο δεν αντιστοιχεί σε ένα αρχείο Υποδείγματος."
 		},
+		"knowledge": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
+			"remove": "TO TRANSLATE - Delete this element"
+		},
 		"knowledges": {
-			"content": "",
-			"remove": ""
+			"content": "TO TRANSLATE - Are you sure you want to delete this knowledge base?",
+			"remove": "TO TRANSLATE - Delete this knowledge base"
 		},
 		"modal_select_text_pia": {
 			"content": "Το περιεχόμενο της ΕΑ έχει αντιγραφεί στο πρόχειρο."
@@ -1010,18 +1014,7 @@
 		},
 		"validate_evaluation_to_correct": {
 			"content": "Συγγνώμη,<br>Αρκετά πεδία πρέπει να διορθωθούν.<br>Επιστροφή στη λειτουργία επεξεργασίας<br> για να κάνετε διορθώσεις."
-		},
-		"general_error": {
-			"content": "TO TRANSLATE - All our apologies an error has occurred."
-    },
-    "knowledges": {
-			"content": "TO TRANSLATE - Are you sure you want to delete this knowledge base?",
-			"remove": "TO TRANSLATE - Delete this knowledge base"
-    },
-    "knowledge": {
-      "content": "TO TRANSLATE - Are you sure you want to delete this element?",
-      "remove": "TO TRANSLATE - Delete this element"
-    }
+		}
 	},
 	"onboarding": {
 		"dashboard": {

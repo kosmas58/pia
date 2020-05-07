@@ -143,9 +143,9 @@
 		"logo_title": "Privacy impact assessment",
 		"structures": "PIA templates",
 		"tools": {
-      "onboarding": "Restart tutorial",
 			"about": "About",
 			"accessibility": "Visually impaired accessibility (high contrast colors, daltonism)",
+			"onboarding": "Restart tutorial",
 			"settings": "Settings",
 			"url_setting": "Server URL configuration"
 		}
@@ -203,7 +203,6 @@
 			"item": {
 				"consult_pia": "Consult",
 				"consult_structure": "Consult template",
-        "validate_pia": "Validate",
 				"edit_pia": "Edit",
 				"edit_structure": "Edit template",
 				"tools": {
@@ -215,7 +214,29 @@
 					"pia": "Display<br>PIA",
 					"remove": "Delete",
 					"unarchive": "Unarchive"
-				}
+				},
+				"validate_pia": "Validate"
+			},
+			"knowledges": {
+				"edit": "Edit the base",
+				"import": "Import a base",
+				"new": "Create a base",
+				"placeholder_author": "Author",
+				"placeholder_contributors": "Contributors",
+				"placeholder_entry_number": "Number of entries",
+				"placeholder_name": "Base's name"
+			},
+			"knowledges_entry": {
+				"all_sections": "All sections",
+				"choose_category": "Choose a category",
+				"contents": "Contents",
+				"create": "Create this element",
+				"linked_to": "Linked to",
+				"new": "Create an element",
+				"placeholder_category": "Category",
+				"placeholder_description": "Your description here...",
+				"placeholder_name": "Element's name",
+				"placeholder_updated_at": "Last updated"
 			},
 			"new_pia": "New PIA",
 			"new_structure": "New template",
@@ -240,28 +261,7 @@
 			"structure": "Template",
 			"structure_name": "Template's name",
 			"title_close_creation": "Close",
-      "validation": "Validation",
-      "knowledges": {
-				"new": "Create a base",
-        "import": "Import a base",
-        "edit": "Edit the base",
-				"placeholder_name": "Base's name",
-				"placeholder_author": "Author",
-				"placeholder_contributors": "Contributors",
-				"placeholder_entry_number": "Number of entries"
-			},
-			"knowledges_entry": {
-        "new": "Create an element",
-        "create": "Create this element",
-				"placeholder_name": "Element's name",
-				"placeholder_category": "Category",
-				"placeholder_description": "Your description here...",
-				"placeholder_updated_at": "Last updated",
-        "contents": "Contents",
-        "choose_category":"Choose a category",
-        "linked_to": "Linked to",
-        "all_sections": "All sections"
-			}
+			"validation": "Validation"
 		},
 		"filters": {
 			"assessor": "Reviewer",
@@ -316,8 +316,6 @@
 		"search_filter": "Search"
 	},
 	"knowledge_base": {
-    "choose_knowledge_base": "Choose your knowledge base",
-    "default_knowledge_base": "CNIL's knowledge base (default)",
 		"add_measure": "Add",
 		"add_measure_hint": "You can also add a measure from the knowledge base.",
 		"category": {
@@ -329,6 +327,8 @@
 			"organizational_measure": "Organisational control",
 			"principle": "Principle"
 		},
+		"choose_knowledge_base": "Choose your knowledge base",
+		"default_knowledge_base": "CNIL's knowledge base (default)",
 		"filters": {
 			"all": "All",
 			"definitions": "Definitions",
@@ -933,11 +933,22 @@
 			"remove": "Remove",
 			"review_section": "Review a section"
 		},
+		"general_error": {
+			"content": "All our apologies an error has occurred."
+		},
 		"import_wrong_pia_file": {
 			"content": "The imported file doesn't correspond to a PIA report file."
 		},
 		"import_wrong_structure_file": {
 			"content": "The imported file doesn't correspond to a PIA template file."
+		},
+		"knowledge": {
+			"content": "Are you sure you want to delete this element?",
+			"remove": "Delete this element"
+		},
+		"knowledges": {
+			"content": "Are you sure you want to delete this knowledge base?",
+			"remove": "Delete this knowledge base"
 		},
 		"modal_select_text_pia": {
 			"content": "The content of the PIA has been copied to clipboard."
@@ -1003,18 +1014,98 @@
 		},
 		"validate_evaluation_to_correct": {
 			"content": "Sorry,<br>Several fields must be corrected.<br>Return to edition mode<br>to make corrections."
+		}
+	},
+	"onboarding": {
+		"dashboard": {
+			"step1": {
+				"description": "TO TRANSLATE - Cliquez sur le <strong>+</strong> pour créer votre premier PIA.",
+				"title": "Create a PIA"
+			},
+			"step2": {
+				"description": "TO TRANSLATE - <p>Les <strong>rédacteurs</strong> sont ceux rédigeant la première version de l'analyse.</p><p>Ce sont par exemple les chefs du projet associés au traitement.</p>",
+				"title": "TO TRANSLATE - Les rôles autour du PIA"
+			},
+			"step3": {
+				"description": "TO TRANSLATE - <p>Les <strong>évaluateurs</strong> interviennent dans un second temps.</p><p>Ils jaugent, à l'aune de leur expertise juridique ou technique, la qualité et la conformité du traitement.</p><p>Ce sont par exemple le RSSI, des juristes, le DPO, ...</p>",
+				"title": "TO TRANSLATE - Les rôles autour du PIA"
+			},
+			"step4": {
+				"description": "TO TRANSLATE - <p>Les <strong>validateurs</strong> acceptent ou non la mise en oeuvre du traitement.Ils doivent signer l'analyse.</p><p>Ce sont les responsables de traitement, comme par exemple le CEO.</p>",
+				"title": "TO TRANSLATE - Les rôles autour du PIA"
+			},
+			"step5": {
+				"description": "TO TRANSLATE - <p>Les <strong>modèles</strong> sont une fonctionnalité avancée.Ils permettent de créer une base pré-remplie de l'analyse.</p><p>Vous pouvez créer des modèles en allant dans la section associée depuis le menu du haut.</p>",
+				"title": "Models"
+			}
 		},
-		"general_error": {
-			"content": "All our apologies an error has occurred."
-    },
-    "knowledges": {
-			"content": "Are you sure you want to delete this knowledge base?",
-			"remove": "Delete this knowledge base"
-    },
-    "knowledge": {
-      "content": "Are you sure you want to delete this element?",
-      "remove": "Delete this element"
-    }
+		"entry": {
+			"step1": {
+				"description": "TO TRANSLATE - Pour passer d'une partie à l'autre de l'analyse, utilisez le menu de navigation de gauche.",
+				"title": "TO TRANSLATE - Naviguer"
+			},
+			"step2": {
+				"description": "TO TRANSLATE - Il sert à expliquer l'objectif du traitement et comment il sera mis en oeuvre.",
+				"title": "Context"
+			},
+			"step3": {
+				"description": "TO TRANSLATE - Ils permettent de s'assurer que le traitement est juridiquement conforme au RGPD.",
+				"title": "Fundamental principles"
+			},
+			"step4": {
+				"description": "TO TRANSLATE - Ils décrivent les mesures de sécurité déjà prévues sur le traitement et permettent d'évaluer les impacts potentiels sur les personnes concernées.",
+				"title": "Risks"
+			},
+			"step5": {
+				"description": "TO TRANSLATE - Elle permet au DPO d'exprimer son avis sur la mise en oeuvre du traitement et au responsable de traitement de l'accepter ou de le refuser.",
+				"title": "Validation"
+			},
+			"step6": {
+				"description": "TO TRANSLATE - <p>Elle fournit une aide contextuelle à la réalisation de l'analyse et s'appuie sur le RGPD, le guide de sécurité et les guides AIPD de la CNIL.</p><p>En plus de ces contenus, vous pouvez également créer vos propres bases de connaissances pour accéder facilement à des informations spécifiques à votre organisme.</p>",
+				"title": "Knowledge base"
+			},
+			"step7": {
+				"description": "TO TRANSLATE - À tout moment lors de la réalisation de l'analyse, vous pouvez télécharger l'analyse sous divers formats pour la partager avec vos collaborateurs.",
+				"title": "TO TRANSLATE - Exporter son AIPD"
+			}
+		},
+		"evaluation": {
+			"step1": {
+				"description": "TO TRANSLATE - L'évaluation peut se faire au niveau d'une section entière, ou bien au niveau de chaque élément d'une section.",
+				"title": "TO TRANSLATE - Évaluer l'AIPD"
+			},
+			"step2": {
+				"description": "TO TRANSLATE - <p>Cette évaluation indique aux rédacteurs que des éléments sont manquants pour pouvoir faire une évaluation pertinente.</p><p>L'évaluateur doit indiquer ceux-ci dans le champ <strong>commentaire d'évaluation</strong> associé. Le rédacteur reverra sa copie en fonction.</p>",
+				"title": "TO TRANSLATE - À corriger"
+			},
+			"step3": {
+				"description": "TO TRANSLATE - <p>Cette évaluation indique les points du traitement à réviser et sont détaillés dans le champ <strong>plan d'action / mesures correctives</strong>.</p><p>Ces mesures seront ajoutées automatiquement à la partie plan d'action de l'analyse. Il est nécessaire de les mettre en oeuvre dans les plus brefs délais.</p>",
+				"title": "TO TRANSLATE - Améliorable"
+			},
+			"step4": {
+				"description": "TO TRANSLATE - Cette évaluation signifie que, en l'état, ce point du traitement peut être mis en oeuvre sans y apporter de modifications.",
+				"title": "TO TRANSLATE - Acceptable"
+			},
+			"step5": {
+				"description": "TO TRANSLATE - Si l'évaluation d'une section n'a pas encore commencé, il est possible d'annuler la demande d'évaluation pour apporter des modifications à la description du traitement.",
+				"title": "TO TRANSLATE - Annuler une demande"
+			}
+		},
+		"general": {
+			"done": "Confirm",
+			"next": "Next",
+			"skip": "Skip"
+		},
+		"validated": {
+			"step1": {
+				"description": "TO TRANSLATE - Une analyse faite dans son intégralité et validée peut être consultée à tout moment via une interface dédiée.",
+				"title": "TO TRANSLATE - Consulter une AIPD validée"
+			},
+			"step2": {
+				"description": "TO TRANSLATE - Il est nécessaire de réviser son analyse régulièrement. Vous pouvez à tout moment l'éditer ou la dupliquer pour revoir son contenu en fonction des évolutions du traitement.",
+				"title": "TO TRANSLATE - Mettre à jour une AIPD validée"
+			}
+		}
 	},
 	"opinions": {
 		"content": ", consider that :",
@@ -1480,96 +1571,5 @@
 		},
 		"validated_pia_with_signature": "Approved",
 		"waiting_for_signature": "Pending signed PIA"
-	},
-  "onboarding": {
-    "general": {
-      "next": "Next",
-      "skip": "Skip",
-      "done": "Confirm"
-    },
-    "dashboard": {
-      "step1": {
-        "title": "Create a PIA",
-        "description": "TO TRANSLATE - Cliquez sur le <strong>+</strong> pour créer votre premier PIA."
-      },
-      "step2": {
-        "title": "TO TRANSLATE - Les rôles autour du PIA",
-        "description": "TO TRANSLATE - <p>Les <strong>rédacteurs</strong> sont ceux rédigeant la première version de l'analyse.</p><p>Ce sont par exemple les chefs du projet associés au traitement.</p>"
-      },
-      "step3": {
-        "title": "TO TRANSLATE - Les rôles autour du PIA",
-        "description": "TO TRANSLATE - <p>Les <strong>évaluateurs</strong> interviennent dans un second temps.</p><p>Ils jaugent, à l'aune de leur expertise juridique ou technique, la qualité et la conformité du traitement.</p><p>Ce sont par exemple le RSSI, des juristes, le DPO, ...</p>"
-      },
-      "step4": {
-        "title": "TO TRANSLATE - Les rôles autour du PIA",
-        "description": "TO TRANSLATE - <p>Les <strong>validateurs</strong> acceptent ou non la mise en oeuvre du traitement.Ils doivent signer l'analyse.</p><p>Ce sont les responsables de traitement, comme par exemple le CEO.</p>"
-      },
-      "step5": {
-        "title": "Models",
-        "description": "TO TRANSLATE - <p>Les <strong>modèles</strong> sont une fonctionnalité avancée.Ils permettent de créer une base pré-remplie de l'analyse.</p><p>Vous pouvez créer des modèles en allant dans la section associée depuis le menu du haut.</p>"
-      }
-		},
-		"entry": {
-			"step1": {
-				"title": "TO TRANSLATE - Naviguer",
-				"description": "TO TRANSLATE - Pour passer d'une partie à l'autre de l'analyse, utilisez le menu de navigation de gauche."
-			},
-			"step2": {
-				"title": "Context",
-				"description": "TO TRANSLATE - Il sert à expliquer l'objectif du traitement et comment il sera mis en oeuvre."
-			},
-			"step3": {
-				"title": "Fundamental principles",
-				"description": "TO TRANSLATE - Ils permettent de s'assurer que le traitement est juridiquement conforme au RGPD."
-			},
-			"step4": {
-				"title": "Risks",
-				"description": "TO TRANSLATE - Ils décrivent les mesures de sécurité déjà prévues sur le traitement et permettent d'évaluer les impacts potentiels sur les personnes concernées."
-			},
-			"step5": {
-				"title": "Validation",
-				"description": "TO TRANSLATE - Elle permet au DPO d'exprimer son avis sur la mise en oeuvre du traitement et au responsable de traitement de l'accepter ou de le refuser."
-			},
-			"step6": {
-				"title": "Knowledge base",
-				"description": "TO TRANSLATE - <p>Elle fournit une aide contextuelle à la réalisation de l'analyse et s'appuie sur le RGPD, le guide de sécurité et les guides AIPD de la CNIL.</p><p>En plus de ces contenus, vous pouvez également créer vos propres bases de connaissances pour accéder facilement à des informations spécifiques à votre organisme.</p>"
-			},
-			"step7": {
-				"title": "TO TRANSLATE - Exporter son AIPD",
-				"description": "TO TRANSLATE - À tout moment lors de la réalisation de l'analyse, vous pouvez télécharger l'analyse sous divers formats pour la partager avec vos collaborateurs."
-			}
-		},
-    "evaluation": {
-			"step1": {
-				"title": "TO TRANSLATE - Évaluer l'AIPD",
-				"description": "TO TRANSLATE - L'évaluation peut se faire au niveau d'une section entière, ou bien au niveau de chaque élément d'une section."
-			},
-			"step2": {
-				"title": "TO TRANSLATE - À corriger",
-				"description": "TO TRANSLATE - <p>Cette évaluation indique aux rédacteurs que des éléments sont manquants pour pouvoir faire une évaluation pertinente.</p><p>L'évaluateur doit indiquer ceux-ci dans le champ <strong>commentaire d'évaluation</strong> associé. Le rédacteur reverra sa copie en fonction.</p>"
-			},
-			"step3": {
-				"title": "TO TRANSLATE - Améliorable",
-				"description": "TO TRANSLATE - <p>Cette évaluation indique les points du traitement à réviser et sont détaillés dans le champ <strong>plan d'action / mesures correctives</strong>.</p><p>Ces mesures seront ajoutées automatiquement à la partie plan d'action de l'analyse. Il est nécessaire de les mettre en oeuvre dans les plus brefs délais.</p>"
-			},
-			"step4": {
-				"title": "TO TRANSLATE - Acceptable",
-				"description": "TO TRANSLATE - Cette évaluation signifie que, en l'état, ce point du traitement peut être mis en oeuvre sans y apporter de modifications."
-			},
-			"step5": {
-				"title": "TO TRANSLATE - Annuler une demande",
-				"description": "TO TRANSLATE - Si l'évaluation d'une section n'a pas encore commencé, il est possible d'annuler la demande d'évaluation pour apporter des modifications à la description du traitement."
-			}
-    },
-    "validated": {
-			"step1": {
-				"title": "TO TRANSLATE - Consulter une AIPD validée",
-				"description": "TO TRANSLATE - Une analyse faite dans son intégralité et validée peut être consultée à tout moment via une interface dédiée."
-			},
-			"step2": {
-				"title": "TO TRANSLATE - Mettre à jour une AIPD validée",
-				"description": "TO TRANSLATE - Il est nécessaire de réviser son analyse régulièrement. Vous pouvez à tout moment l'éditer ou la dupliquer pour revoir son contenu en fonction des évolutions du traitement."
-			}
-		}
-  }
+	}
 }

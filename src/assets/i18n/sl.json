@@ -934,7 +934,7 @@
 			"review_section": "Pregledajte odjeljak"
 		},
 		"general_error": {
-			"content": ""
+			"content": "TO TRANSLATE - All our apologies an error has occurred."
 		},
 		"import_wrong_pia_file": {
 			"content": "Uvezena datoteka ne odgovara datoteci izvještaja PUP-a"
@@ -942,9 +942,13 @@
 		"import_wrong_structure_file": {
 			"content": "Uvezena datoteka ne odgovara datoteci obrasca PUP-a"
 		},
+		"knowledge": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
+			"remove": "TO TRANSLATE - Delete this element"
+		},
 		"knowledges": {
-			"content": "",
-			"remove": ""
+			"content": "TO TRANSLATE - Are you sure you want to delete this knowledge base?",
+			"remove": "TO TRANSLATE - Delete this knowledge base"
 		},
 		"modal_select_text_pia": {
 			"content": "Sadržaj PUP-a kopiran je u međuspremnik."
@@ -1010,18 +1014,7 @@
 		},
 		"validate_evaluation_to_correct": {
 			"content": "Žao nam je,<br> potrebno je ispraviti nekoliko polja.<br>Povratak na način uređivanja<br> radi unošenja ispravaka."
-		},
-		"general_error": {
-			"content": "TO TRANSLATE - All our apologies an error has occurred."
-    },
-    "knowledges": {
-			"content": "TO TRANSLATE - Are you sure you want to delete this knowledge base?",
-			"remove": "TO TRANSLATE - Delete this knowledge base"
-    },
-    "knowledge": {
-      "content": "TO TRANSLATE - Are you sure you want to delete this element?",
-      "remove": "TO TRANSLATE - Delete this element"
-    }
+		}
 	},
 	"onboarding": {
 		"dashboard": {

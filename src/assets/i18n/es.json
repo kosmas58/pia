@@ -934,7 +934,7 @@
 			"review_section": "Evaluar una sección"
 		},
 		"general_error": {
-			"content": ""
+			"content": "TO TRANSLATE - All our apologies an error has occurred."
 		},
 		"import_wrong_pia_file": {
 			"content": "El archivo importado no corresponde con un archivo de tipo PIA"
@@ -942,9 +942,13 @@
 		"import_wrong_structure_file": {
 			"content": "TO BE TRANSLATED - Le fichier importé ne correspond pas à un fichier de type Modèle"
 		},
+		"knowledge": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
+			"remove": "TO TRANSLATE - Delete this element"
+		},
 		"knowledges": {
-			"content": "",
-			"remove": ""
+			"content": "TO TRANSLATE - Are you sure you want to delete this knowledge base?",
+			"remove": "TO TRANSLATE - Delete this knowledge base"
 		},
 		"modal_select_text_pia": {
 			"content": "El contenido del PIA se ha copiado al portapapeles."
@@ -1010,18 +1014,7 @@
 		},
 		"validate_evaluation_to_correct": {
 			"content": "Lo siento,<br>Se deben corregir varios campos. <br> Volver al modo de edición<br>para realizar correcciones"
-		},
-		"general_error": {
-			"content": "TO TRANSLATE - All our apologies an error has occurred."
-    },
-    "knowledges": {
-			"content": "TO TRANSLATE - Are you sure you want to delete this knowledge base?",
-			"remove": "TO TRANSLATE - Delete this knowledge base"
-    },
-    "knowledge": {
-      "content": "TO TRANSLATE - Are you sure you want to delete this element?",
-      "remove": "TO TRANSLATE - Delete this element"
-    }
+		}
 	},
 	"onboarding": {
 		"dashboard": {
