@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "Importuotas failas skiriasi nuo PDAV ataskaitos failo"
 		},
+		"knowledge": {
+			"content": "Ar tikrai norite ištrinti šį elementą?",
+			"remove": "Pašalinti šį elementą"
+		},
 		"knowledges": {
 			"content": "Ar tikrai norite ištrinti šią žinių bazę?",
 			"remove": "Ištrinkite šią žinių bazę"

@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "Die importierte Datei entspricht nicht dem Dateityp einer Vorlage."
 		},
+		"knowledge": {
+			"content": "Möchten Sie diesen Artikel wirklich löschen?",
+			"remove": "Entfernen Sie diesen Artikel"
+		},
 		"knowledges": {
 			"content": "Möchten Sie diese Wissensdatenbank wirklich löschen?",
 			"remove": "Löschen Sie diese Wissensbasis"

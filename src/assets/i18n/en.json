@@ -938,6 +938,10 @@
 		"import_wrong_structure_file": {
 			"content": "The imported file doesn't correspond to a PIA template file."
 		},
+		"knowledge": {
+			"content": "Are you sure you want to delete this element?",
+			"remove": "Delete this element"
+		},
 		"knowledges": {
 			"content": "Are you sure you want to delete this knowledge base?",
 			"remove": "Delete this knowledge base"
