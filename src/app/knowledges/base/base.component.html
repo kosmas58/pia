@@ -73,9 +73,11 @@
                 </ng-template>
               </div>
               <div class="pia-knowledges_base-displayData-description">
-                <ng-container *ngIf="!base.is_example;else elseblock3">{{item.description}}</ng-container>
+                <ng-container *ngIf="!base.is_example;else elseblock3">
+                  <div [innerHTML]="item.description"></div>
+                </ng-container>
                 <ng-template #elseblock3>
-                  {{item.description | translate }}
+                  <div [innerHTML]="item.description | translate"></div>
                 </ng-template>
               </div>
             </td>
@@ -113,7 +115,7 @@
         <!-- Navigation associations (checkboxes) -->
         <h3>{{ 'homepage.cards.knowledges_entry.linked_to' | translate }}</h3>
         <div class="pia-knowledges_base-form-checkboxes" *ngIf="data && data.sections.length > 0">
-          <div class="pia-knowledges_base-form-checkboxes-title">
+          <div class="pia-knowledges_base-form-checkboxes-title" *ngIf="!this.lockedChoice">
             <input id="select_all_sections" name="select_all_sections" type="checkbox" [disabled]="lockedChoice" (click)="globalCheckingAllElementInDataSection($event)" [checked]="allSectionCheckedVerification(data?.sections)">
             <label for="select_all_sections">{{ 'homepage.cards.knowledges_entry.all_sections' | translate }}</label>
           </div>
