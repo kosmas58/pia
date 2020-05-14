@@ -56,7 +56,7 @@
     "rxjs-compat": "^6.5.5",
     "save-svg-as-png": "^1.4.17",
     "tinymce": "^4.9.10",
-    "tslib": "^1.10.0",
+    "tslib": "^1.13.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
