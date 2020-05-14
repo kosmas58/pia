@@ -10,7 +10,7 @@ import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
   styleUrls: ['./help.component.scss']
 })
 export class HelpComponent implements OnInit, OnDestroy {
-  @ViewChild('pdfViewerAutoLoad', { static: false }) pdfViewerAutoLoad;
+  @ViewChild('pdfViewerAutoLoad') pdfViewerAutoLoad;
 
   public tableOfTitles = [];
   public content;
