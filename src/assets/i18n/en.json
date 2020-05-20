@@ -324,7 +324,7 @@
 			"principle": "Principle"
 		},
 		"choose_knowledge_base": "Choose your knowledge base",
-		"default_knowledge_base": "CNIL's knowledge base (default)",
+		"default_knowledge_base": "CNIL's knowledge base",
 		"filters": {
 			"all": "All",
 			"definitions": "Definitions",
