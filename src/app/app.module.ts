@@ -44,6 +44,8 @@ import { PreviewComponent } from './preview/preview.component';
 import { ExportComponent } from './shared/export/export.component';
 import { RevisionsComponent } from './shared/revisions/revisions.component';
 import { LoadingOverlayComponent } from './shared/loading-overlay/loading-overlay.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 import { KnowledgesService } from './services/knowledges.service';
 import { IntrojsService } from './services/introjs.service';
 
@@ -90,7 +92,10 @@ import { IntrojsService } from './services/introjs.service';
     ArchivesModule,
     Angular2CsvModule,
     PdfJsViewerModule,
-    KnowledgesModule
+    KnowledgesModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production
+    })
   ],
   bootstrap: [AppComponent]
 })
