@@ -58,13 +58,20 @@ export class ActionPlanService {
             if (evaluation.action_plan_comment && evaluation.action_plan_comment.length > 0) {
               this.principlesActionPlanReady = true;
             }
-            this.results.push({
+
+            // item
+            let temp = {
               status: evaluation.status,
               short_title: q.short_title,
               action_plan_comment: evaluation.action_plan_comment,
               evaluation_comment: evaluation.evaluation_comment,
               evaluation
-            });
+            };
+
+            if (this.results.findIndex((e) => e.status === temp.status && e.short_title === temp.short_title) === -1) {
+              // check if not exist
+              this.results.push(temp);
+            }
             if (title1) {
               title1 = false;
               this.csvRows.push({ title: this._translateService.instant('action_plan.principles') });
