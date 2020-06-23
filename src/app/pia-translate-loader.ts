@@ -82,6 +82,7 @@ export class PiaTranslateLoader implements TranslateLoader {
           break;
         case 'sl':
           observer.next(sl);
+          break;
         case 'sv':
           observer.next(sv);
           break;
