@@ -35,7 +35,7 @@ export class ApplicationDb {
         evt2.onerror = (event2: any) => {
           console.error(event2);
           reject(Error(event2));
-        }
+        };
       };
       evt.onsuccess = (event: any) => {
         resolve(event.target.result);
