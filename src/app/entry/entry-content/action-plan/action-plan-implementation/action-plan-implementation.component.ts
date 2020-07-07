@@ -17,8 +17,8 @@ export class ActionPlanImplementationComponent implements OnInit {
   actionPlanForm: FormGroup;
   displayEditButton = false;
 
-  @ViewChild('estimatedEvaluationDate', { static: false }) private estimatedEvaluationDate: ElementRef;
-  @ViewChild('personInCharge', { static: false }) private personInCharge: ElementRef;
+  @ViewChild('estimatedEvaluationDate') private estimatedEvaluationDate: ElementRef;
+  @ViewChild('personInCharge') private personInCharge: ElementRef;
 
   constructor(private _piaService: PiaService, public _globalEvaluationService: GlobalEvaluationService) {}
 

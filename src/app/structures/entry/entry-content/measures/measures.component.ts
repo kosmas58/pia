@@ -1,3 +1,5 @@
+declare var tinymce: any;
+
 import { Component, Input, ElementRef, Renderer2, OnInit, OnDestroy, NgZone } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 
