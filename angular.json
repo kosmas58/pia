@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": ["file-saver", "rxjs", "rxjs-compat", "save-svg-as-png", "@angular/compiler/src/util"],
             "aot": true,
             "outputPath": "dist/pia",
             "index": "src/index.html",
