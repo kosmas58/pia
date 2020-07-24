@@ -2001,11 +2001,11 @@ amdefine@>=0.0.4:
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
   integrity sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
 
-"angular2-csv@git+https://github.com/dauledk/angular2-csv.git":
+"angular2-csv@git+https://github.com/kosmas58/angular2-csv.git":
   version "0.2.9"
-  resolved "git+https://github.com/dauledk/angular2-csv.git#f28e815410e91a15931471f48c66b83d7f1b9a81"
+  resolved "git+https://github.com/kosmas58/angular2-csv.git#73c3debf3c53429d712f201c6dba66742da0dbd0"
   dependencies:
-    tslib "^1.9.0"
+    tslib "^2.0.0"
 
 ansi-align@^3.0.0:
   version "3.0.0"
@@ -11651,6 +11651,11 @@ tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
+
+tslib@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.0.tgz#18d13fc2dce04051e20f074cc8387fd8089ce4f3"
+  integrity sha512-lTqkx847PI7xEDYJntxZH89L2/aXInsyF2luSafe/+0fHOMjlBNXdH6th7f70qxLDhul7KZK0zC8V5ZIyHl0/g==
 
 tslint@~6.1.2:
   version "6.1.2"
