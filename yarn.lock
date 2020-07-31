@@ -229,14 +229,27 @@
   dependencies:
     tslib "^2.0.0"
 
+"@angular/pwa@~0.1000.4":
+  version "0.1000.4"
+  resolved "https://registry.yarnpkg.com/@angular/pwa/-/pwa-0.1000.4.tgz#7a2a3c613aedb9187caa2d5af6a72380d53ee97a"
+  integrity sha512-dGSHsP+9mnb4/djBBnN7RWJ0YKtqatKhYfdP/pgLfv3hxUEvWcpYA/jxu3FCa7As2qkgyFf74iiwgPddSMNc3A==
+  dependencies:
+    "@angular-devkit/core" "10.0.4"
+    "@angular-devkit/schematics" "10.0.4"
+    "@schematics/angular" "10.0.4"
+    parse5-html-rewriting-stream "6.0.0"
+
 "@angular/router@~10.0.7":
   version "10.0.7"
   resolved "https://registry.yarnpkg.com/@angular/router/-/router-10.0.7.tgz#8fe294f1054214a8aff9a3d982756a4b4dcf6284"
   integrity sha512-uZAUTSQNuDvpkWGqF2qTkqr+btrNwg9USRB08lzhkWH351Myt1S/7ECVYOWNek6b/NmlAA+e3Kcyb94uDwMEew==
-"@angular/service-worker@~10.0.6":
-  version "10.0.6"
-  resolved "https://registry.yarnpkg.com/@angular/service-worker/-/service-worker-10.0.6.tgz#da381153bd16a353f79e701cefb0ea639400ea78"
-  integrity sha512-zs2uXkcS/T+jDT5BPrnf5NiLuEvDRN3LEPcaEOB06at0xmcXzZ7Rtnqm9pRx56xyW6bn0YjTPV0T9iyUd4wFfw==
+  dependencies:
+    tslib "^2.0.0"
+
+"@angular/service-worker@~10.0.7":
+  version "10.0.7"
+  resolved "https://registry.yarnpkg.com/@angular/service-worker/-/service-worker-10.0.7.tgz#ccb12755c0abe983edd365f6d51d3744966cfac4"
+  integrity sha512-yUJveLtvVkNmmvDCAkTsem07Ia/BiGan4JFezPa0npU03p1J3yR63j8nFehwilSvNQbBe+wyA/3Y8sKNcj/s3A==
   dependencies:
     tslib "^2.0.0"
 
@@ -2392,16 +2405,6 @@ ajv@^6.12.0:
   version "6.12.0"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.0.tgz#06d60b96d87b8454a5adaba86e7854da629db4b7"
   integrity sha512-D6gFiFA0RRLyUbvijN74DWAjXSFxWKaWP7mldxkVhyhAV3+SWA9HEJPHQ2c9soIeTFJqcSdFDGFgdqs1iUU2Hw==
-  dependencies:
-    fast-deep-equal "^3.1.1"
-    fast-json-stable-stringify "^2.0.0"
-    json-schema-traverse "^0.4.1"
-    uri-js "^4.2.2"
-
-ajv@^6.12.2:
-  version "6.12.2"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.2.tgz#c629c5eced17baf314437918d2da88c99d5958cd"
-  integrity sha512-k+V+hzjm5q/Mr8ef/1Y9goCmlsK4I6Sm74teeyGvFk1XrOsbsKLjEdrvny42CZ+a8sXbk8KWpY/bDwS+FLL2UQ==
   dependencies:
     fast-deep-equal "^3.1.1"
     fast-json-stable-stringify "^2.0.0"
