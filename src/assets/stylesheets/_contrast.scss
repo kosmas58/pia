@@ -684,7 +684,9 @@ body.pia-contrast {
   }
   #modal-list-new-knowledgebase {
     input {
-      &:focus, &:hover, &:active {
+      &:focus,
+      &:hover,
+      &:active {
         outline: 1px dotted $pia-red-dark !important;
       }
     }
