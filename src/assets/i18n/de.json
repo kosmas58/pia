@@ -453,103 +453,153 @@
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIN2": {
+				"descripción": "",
 				"description": "Nach dem Empfang sensibler Daten im Rahmen allgemeiner Informationen oder zu statistischen Zwecken können diese in eine weniger sensible oder pseudonymisierte Form umgewandelt werden. Zum Beispiel:<br>- Wenn das System die IP-Adresse sammelt, um den Standort des Benutzers für statistische Zwecke zu ermitteln, kann die IP-Adresse nach Ermittlung der Stadt oder des Bezirks gelöscht werden;<br>- Wenn das System Videodaten von Überwachungskameras empfängt, kann es Personen, die in der Szene stehen oder sich bewegen, erkennen und unscharf machen;<br>- Wenn das System ein intelligentes Messgerät ist, kann es die Energienutzung über einen bestimmten Zeitraum hinweg aggregieren, ohne ihn in Echtzeit zu erfassen.",
+				"fuente": "",
 				"name": "Verringerung der Sensibilität durch Umwandlung",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIN3": {
+				"descripción": "",
 				"description": "Das System kann sicherstellen, dass:<br>- Der Benutzer eine Ressource oder einen Dienstes ohne das Risiko der Offenlegung seiner / ihrer Identität (anonyme Daten) verwenden kann.<br>- Der Benutzer eine Ressource oder Dienstleistung ohne Offenlegung seiner / ihrer Identität benutzen kann. Er bleibt aber identifizierbar und verantwortlich für diese Nutzung (pseudonymisierte Daten).<br>- Der Benutzer kann Ressourcen oder Dienste mehrfach nutzen, ohne dass diese Nutzungen miteinander verknüpft werden können (nicht korrelierbare / verkettbare Daten).<br>- Der Benutzer kann eine Ressource oder Dienstleistung ohne Risiko nutzen, dass andere, insbesondere Dritte, in der Lage sind, zu beobachten, dass die Ressource oder Dienstleistung genutzt wird (Nichtbeobachtbarkeit).<br>Eine Methode aus der obigen Liste muss von den erkannten Bedrohungen abhängen. Für einige Arten von Datenschutzbedrohungen ist die Pseudonymisierung geeigneter als die Anonymisierung (z. B. wenn Nachverfolgbarkeit erforderlich ist). Darüber hinaus werden einige Datenschutzbedrohungen durch eine Kombination mehrerer Methoden behoben.",
+				"fuente": "",
 				"name": "Verringerung der identifizierenden Natur der Daten",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIN4": {
+				"descripción": "",
 				"description": "Das System kann in unabhängige Teile mit separaten Zugriffssteuerungsfunktionen strukturiert sein. Die Daten können auch auf diese unabhängigen Teilsysteme verteilt und von jedem Teilsystem unter Verwendung verschiedener Zugriffssteuerungsmechanismen gesteuert werden. Wenn ein Subsystem kompromittiert wird, hat dies keine Auswirkungen auf den gesamten Datenbestand. ",
+				"fuente": "",
 				"name": "Nichtverkettbarkeit",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIN5": {
+				"descripción": "",
 				"description": "Das System kann den Zugriff auf Daten nach dem \"need to know\"-Prinzip einschränken. Das System kann vertrauliche Daten von den sonstigen Daten trennen und spezifische Zugriffsrichtlinien anwenden.<br>Das System kann sensible Daten verschlüsseln, um die Vertraulichkeit während der Übertragung und Speicherung zu schützen. Der Zugriff auf temporäre Dateien, die während der Datenverarbeitung erzeugt werden, sollte ebenfalls geschützt werden.",
+				"fuente": "",
 				"name": "Beschränkung des Datenzugriffs",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MINC": {
+				"Descripción": "",
 				"description": "Verringerung der Schwere von Risiken, indem die Anzahl der erfassten personenbezogenen Daten auf das Minimum dessen begrenzt wird, was für einen bestimmten Zweck unbedingt erforderlich ist; Vermeiden Sie die Sammlung unnötiger Daten, die Verwendung von Daten, die nichts mit dem Zweck zu tun haben, und die exzessive Auswirkungen auf Einzelpersonen haben können.",
+				"fuente": "",
 				"name": "Minimierung der Datenmenge",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIND": {
+				"descripción": "",
 				"description": "Verringern Sie die Schwere von Risiken, indem Sie die Anzahl Daten selbst minimieren und Maßnahmen ergreifen, um deren Sensibilität zu verringern.",
+				"fuente": "",
 				"name": "Minimierung der Daten selbst",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_OPP": {
+				"descripción": "",
 				"description": "Die betroffene Person hat das Recht, aus Gründen, die sich aus ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung sie betreffender personenbezogener Daten, die aufgrund von Art. 6 Abs. 1 lit. e oder f erfolgt, Widerspruch einzulegen.<br>Siehe <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=DE\">Art. 21 der [DS-GVO]</a>",
+				"fuente": "",
 				"name": "Recht auf Widerspruch",
 				"source": "DS-GVO Art. 21"
 			},
 			"PIA_DEF_PBDS": {
+				"descripción": "",
 				"description": "Maßnahmen zur Berücksichtigung des Schutzes personenbezogener Daten bereits bei der Konzeption einer neuen Verarbeitung (Zertifizierungen, anerkannte Verhaltensregeln, Risikomanagement für die betreffende Person gemäß der Methodik der CNIL oder einer internen Methode usw.), einschließlich:<br>- Nutzen Sie den Risikomanagementansatz der CNIL, sobald ein Dienst oder eine Anwendung entwickelt wird.<br>– Setzen Sie in den Bereichen IT auf Zertifizierungen (für Verfahren, Produkte, Managementsysteme, Organisationen, Personen usw.).<br>- Verwenden Sie bewährte und anerkannte Verhaltensregeln und Standards.",
+				"fuente": "",
 				"name": "Projektmanagement",
+				"nombre": "",
 				"source": "WIKI Gestion_des_projets - les recommandations ne sont pas citées"
 			},
 			"PIA_DEF_PC": {
+				"descripción": "",
 				"description": "Person, deren Daten verarbeitet werden.",
+				"fuente": "",
 				"name": "Betroffener",
 				"source": "PIA1 p11"
 			},
 			"PIA_DEF_PORT": {
+				"descripción": "",
 				"description": "Die betroffene Person hat das Recht, die sie betreffenden personenbezogenen Daten, die sie einem Verantwortlichen bereitgestellt hat, in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten, und sie hat das Recht, diese Daten einem anderen Verantwortlichen ohne Behinderung durch den Verantwortlichen, dem die personenbezogenen Daten bereitgestellt wurden, zu übermitteln.<br> Siehe <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=DE\">Art. 20 der [DS-GVO]</a>",
+				"fuente": "",
 				"name": "Recht auf Datenübertragbarkeit",
 				"source": "DS-GVO Art. 20"
 			},
 			"PIA_DEF_PSEU": {
+				"descripción": "",
 				"description": "Verarbeitung personenbezogener Daten in einer Weise, dass sie nicht ohne die Verwendung zusätzlicher Informationen einer bestimmten Person zugeordnet werden können. Sofern diese zusätzlichen Informationen getrennt aufbewahrt werden und technischen und organisatorischen Maßnahmen unterliegen, die sicherzustellen, dass personenbezogene Daten nicht einer bestimmten oder identifizierbaren natürlichen Person zugeordnet werden.<br>Pseudonymisierung verringert das Risiko der Korrelation eines Datensatzes mit der ursprünglichen Identität einer betroffenen Person. Daher ist sie <strong>eine nützliche Sicherheitsmaßnahme, aber keine Methode der Anonymisierung.</strong>.",
+				"fuente": "",
 				"name": "Pseudonymisierung",
+				"nombre": "",
 				"source": "DS-GVO Art. 4.5 und Empfehlungen der Art.29.Gruppe S. 24 http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_de.pdf"
 			},
 			"PIA_DEF_PWD": {
+				"descripción": "",
 				"description": "Basierend auf der Verwaltung eines Geheimnisses ist die Authentifizierung durch Benutzername und Kennwort eine einfache und kostengünstige Möglichkeit, um den Zugriff zu kontrollieren. Diese Authentifizierungsmethode weist jedoch ein niedriges Sicherheitsniveau auf.<br>Die Mindestanforderungen der CNIL in Bezug auf Länge und Komplexität des Kennworts hängen von den zusätzlichen Maßnahmen ab, die implementiert werden, um den Authentifizierungsprozess zuverlässiger zu machen:<br>Wenn also eine Authentifizierung ausschließlich auf einem Kennwort basiert, bedeutet dies zumindest die Verwendung eines komplexen Kennwortes mit mindestens 12 Zeichen bestehend aus Großbuchstaben, Ziffern und Sonderzeichen. Zusätzliche Maßnahmen zur Eingabe eines Kennworts (Beschränkungen des Zugriffs, Einbezug anderer Daten, eigene Unterstützung durch den Benutzer) können die Länge und Komplexität des Kennworts aufgrund dieser Maßnahmen verringern. Sie stellen ein Sicherheitsniveau sicher, das äquivalent zu einem Kennwort ist.",
+				"fuente": "",
 				"name": "Verwendung von Kennwörtern",
+				"nombre": "",
 				"source": "Guide Bleu 2017 p7 : https://www.cnil.fr/fr/authentification-par-mot-de-passe-les-mesures-de-securite-elementaires synthétisé"
 			},
 			"PIA_DEF_RECT": {
+				"descripción": "",
 				"description": "Die betroffene Person hat das Recht, von dem Verantwortlichen unverzüglich die Berichtigung sie betreffender unrichtiger personenbezogener Daten zu verlangen. Unter Berücksichtigung der Zwecke der Verarbeitung hat die betroffene Person das Recht, die Vervollständigung unvollständiger personenbezogener Daten — auch mittels einer ergänzenden Erklärung — zu verlangen. Siehe <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=DE\">Art. 16 der [DS-GVO]</a>",
+				"fuente": "",
 				"name": "Recht auf Berichtigung",
+				"nombre": "",
 				"source": "DS-GVO Art. 16"
 			},
 			"PIA_DEF_RGPD": {
+				"Descripción": "",
 				"description": "Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG",
+				"fuente": "",
 				"name": "DS-GVO (Datenschutz-Grundverordnung)",
 				"source": "DS-GVO title"
 			},
 			"PIA_DEF_RT": {
+				"descripción": "",
 				"description": "Die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet; sind die Zwecke und Mittel dieser Verarbeitung durch das Unionsrecht oder das Recht der Mitgliedstaaten vorgegeben, so kann der Verantwortliche beziehungsweise können die bestimmten Kriterien seiner Benennung nach dem Unionsrecht oder dem Recht der Mitgliedstaaten vorgesehen werden;<br>Weitere Informationen zu den Pflichten des für die Verarbeitung Verantwortlichen finden Sie  unter <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=DE\">Art. 4.7 der [DS-GVO]</a>",
+				"fuente": "",
 				"name": "Verantwortlicher",
+				"nombre": "",
 				"source": "DS-GVO Art. 4.7"
 			},
 			"PIA_DEF_SRC": {
+				"descripción": "",
 				"description": "Person (intern oder extern), die zufälliger oder vorsätzlicher Weise handelt oder eine nichtmenschliche Quelle (z.B. Wasser, gefährliche Stoffe, Computerviren), die ein Risiko für die Datenverarbeitung verursacht(z. B. IT-Administrator, Benutzer, externer Angreifer, Mitbewerber).",
+				"fuente": "",
 				"name": "Risikoquelle",
+				"nombre": "",
 				"source": "PIA1 p12 et WIKI Types_et_exemples_de_sources_de_risques synthétisés"
 			},
 			"PIA_DEF_ST": {
+				"descripción": "",
 				"description": "Natürliche oder juristische Personen, Behörden, Dienste oder andere Stellen, die personenbezogene Daten im Auftrag des für die Verarbeitung Verantwortlichen verarbeiten, gemäß <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=DE\">Art. 4.8 der [DS-GVO]</a><br>Der Auftragsverarbeiter und jede Person, die unter der Aufsicht des für die Verarbeitung Verantwortlichen oder des Auftragsverarbeiters handelt und Zugang zu personenbezogenen Daten hat, können diese Daten nur auf Anweisung der für die Daten Verantwortlichen verarbeiten. Es sei denn, dies ist durch das Unionsrecht oder das Recht eines Mitgliedstaats vorgeschrieben, gemäß <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=DE\">Art. 29 der [DS-GVO]</a>.",
+				"fuente": "",
 				"name": "Auftragsverarbeiter",
+				"nombre": "",
 				"source": "DS-GVO Art. 4.8 und 29"
 			},
 			"PIA_DEF_SUPT": {
+				"descripción": "",
 				"description": "<strong>Hardware und elektronische Datenträger</strong>: Computer, Kommunikationsgeräte, USB-Sticks, Festplatten ...<br><strong>Software</strong>: Betriebssysteme, Messagingsysteme, Datenbanken, Business-Anwendungen ...<br><strong>IT-Netzwerke </strong>: Kabel, WLAN, Glasfaser<br><br> <strong>Personen</strong>: Benutzer, IT-Administratoren, Entscheidungsträger ...<br><strong>Papierdokumente</strong>: Ausdrucke, Fotokopien, handschriftliche Dokumente ...<br><strong>Übertragung von Papierdokumenten</strong>: Postversand, Umlaufmappen ...",
+				"fuente": "",
 				"name": "Unterstützung der Verarbeitung",
+				"nombre": "",
 				"source": "WIKI Types_et_exemples_de_supports_des_données"
 			},
 			"PIA_DEF_VIOL": {
+				"descripción": "",
 				"description": "Eine Verletzung der Sicherheit, die, ob unbeabsichtigt oder unrechtmäßig, zur Vernichtung, zum Verlust, zur Veränderung, oder zur unbefugten Offenlegung von beziehungsweise zum unbefugten Zugang zu personenbezogenen Daten führt, die übermittelt, gespeichert oder auf sonstige Weise verarbeitet wurden.",
+				"fuente": "",
 				"name": "Verletzung des Schutzes personenbezogener Daten",
+				"nombre": "",
 				"source": "DS-GVO Art. 4.12"
 			},
 			"PIA_DEF_VRA": {
+				"Descripción": "",
 				"description": "Die Wahrscheinlichkeit spiegelt die Möglichkeit wieder, dass ein Risiko eintritt. Es hängt hauptsächlich von den Angreifbarkeit der eingesetzten Betriebsmittel hinsichtlich der Bedrohungen und Risikoquellen ab.",
+				"fuente": "",
 				"name": "Eintrittswahrscheinlichkeit",
+				"nombre": "",
 				"source": "PIA1 page 12"
 			},
 			"PIA_EX_DC": {
@@ -1031,7 +1081,7 @@
 				"title": "TO TRANSLATE - PIA's roles"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - The <p><strong>validator</strong> accepts or rejects the implementation of the processing. He must sign the analysis.</p><p>He is the controller, e.g. the CEO.</p>",
+				"description": "TO TRANSLATE - <p>The <strong>validator</strong> accepts or rejects the implementation of the processing. He must sign the analysis.</p><p>He is the controller, e.g. the CEO.</p>",
 				"title": "TO TRANSLATE - PIA's roles"
 			},
 			"step5": {
@@ -1079,7 +1129,7 @@
 				"title": "TO TRANSLATE - To correct"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>This assessment indicates the processing elements to be revised. Theyare detailed in the <strong>action plan / corrective action</strong> field.</p><p>These measures will be automatically added to the action plan part of the analysis. It is necessary to implement them as soon as possible.</p>",
+				"description": "TO TRANSLATE - <p>This assessment indicates the processing elements to be revised. They are detailed in the <strong>action plan / corrective action</strong> field.</p><p>These measures will be automatically added to the action plan part of the analysis. It is necessary to implement them as soon as possible.</p>",
 				"title": "TO TRANSLATE - Improvable"
 			},
 			"step4": {

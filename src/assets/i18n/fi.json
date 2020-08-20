@@ -453,103 +453,153 @@
 				"source": "PIAF Connected Objects s. 42 - WIKI"
 			},
 			"PIA_DEF_MIN2": {
+				"descripción": "",
 				"description": "Yleisten tietojen osana tai yksinomaan tilastollisia tarkoituksia varten saadut arkaluonteiset tiedot voidaan muuntaa vähemmän arkaluonteiseen muotoon tai pseudonymisoida. Esimerkiksi: <br>- Jos järjestelmä tallentaa IP-osoitteen käyttäjän sijainnin määrittelemiseksi tilastoja varten, IP-osoite voidaan poistaa, kun kaupunki tai kaupunginosa on määritelty<br>- Videotietoja valvontakameroista vastaanottava järjestelmä voi tunnistaa kuvassa seisovat tai liikkuvat ihmiset ja sumentaa heidät tunnistamattomiksi<br>- Älykäs kulutusmittari voi koostaa tietyn aikavälin energiankulutustiedot tallentamatta niitä reaaliaikaisesti",
+				"fuente": "",
 				"name": "Tietojen arkaluonteisuuden vähentäminen",
 				"source": "PIAF Connected Objects s. 42 - WIKI"
 			},
 			"PIA_DEF_MIN3": {
+				"descripción": "",
 				"description": "Järjestelmä voi varmistaa, että: <br>- käyttäjä voi käyttää resursseja tai palveluita ilman vaaraa hänen henkilöllisyytensä paljastumisesta (anonyymit tiedot)<br>- käyttäjä voi käyttää resursseja tai palveluita ilman vaaraa hänen henkilöllisyytensä paljastumisesta, mutta olla kuitenkin tunnistettavissa ja vastuussa käytöstä (pseudonymisoidut tiedot)<br>- käyttäjä voi käyttää useita resursseja tai palveluita ilman, että käyttökertoja voi liittää toisiinsa (tietoja ei voi yhdistellä)<br>- käyttäjä voi käyttää resursseja tai palveluita ilman, että muut tahot ja erityisesti kolmannet osapuolet voivat havaita, että resurssia tai palvelua käytetään (havaitsemattomuus)<br>Yllä olevasta listasta tulee valita tunnistettujen uhkien mukaiset menetelmät. Pseudonymisointi sopii joihinkin yksityisyyteen kohdistuviin uhkiin paremmin kuin anonymisointi (esimerkiksi jos käytön on oltava jäljitettävissä). Jotkut yksityisyyteen kohdistuvat uhat vaativat usean menetelmän yhdistelmää.",
+				"fuente": "",
 				"name": "Tietojen tunnistettavuuden vähentäminen",
 				"source": "PIAF Connected Objects s. 42 - WIKI"
 			},
 			"PIA_DEF_MIN4": {
+				"descripción": "",
 				"description": "Järjestelmä voidaan järjestää itsenäisiin osiin, joilla on erilliset pääsynvalvontatoiminnot. Tiedot voidaan myös jakaa näiden itsenäisten alijärjestelmien välillä, ja jokainen alijärjestelmä voi käyttää tietoja erillisillä pääsynvalvontamekanismeilla. Tällöin yhden alijärjestelmän vaarantuminen ei vaikuta yhtä paljon tietoihin kokonaisuutena.",
+				"fuente": "",
 				"name": "Tietojen kertymisen vähentäminen",
 				"source": "PIAF Connected Objects s. 42 - WIKI"
 			},
 			"PIA_DEF_MIN5": {
+				"descripción": "",
 				"description": "Järjestelmä voi rajoittaa tietojen käyttöoikeudet käyttäjille, jotka tarvitsevat tietoja. Järjestelmä kykenee erottelemaan erityiset henkilötietoryhmät ja soveltamaan niihin erillisiä pääsynvalvontakäytänteitä. Järjestelmä pystyy suojelemaan erityisten henkilötietoryhmien luottamuksellisuutta siirron ja varastoinnin aikana salaamalla tiedot. Myös henkilötietojen käsittelyn yhteydessä syntyvät väliaikaiset evästeet on suojattava.",
+				"fuente": "",
 				"name": "Tietojen käyttöoikeuksien rajoittaminen",
 				"source": "PIAF Connected Objects s. 42 - WIKI"
 			},
 			"PIA_DEF_MINC": {
+				"Descripción": "",
 				"description": "Riskien pienentäminen rajoittamalla käsiteltävien henkilötietojen määrä tietoihin, jotka ovat käsittelyn määriteltyä tarkoitusta varten ehdottoman välttämättömiä. Muita tietoja ei tule kerätä.",
+				"fuente": "",
 				"name": "Henkilötietojen määrän minimointi",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIND": {
+				"descripción": "",
 				"description": "Pienennä henkilötietietojen käsittelyyn liittyvää riskiä minimoimalla käsiteltävät henkilötiedot. Henkilötietoja voidaan minimoida esimerkiksi vähentämällä tiedon arkaluonteisuutta suodattamalla, pseudonymisoimalla ja poistamalla kaikki tarpeettomat tiedot.",
+				"fuente": "",
 				"name": "Henkilötietojen minimointi",
 				"source": "PIA3 p64"
 			},
 			"PIA_DEF_OPP": {
+				"descripción": "",
 				"description": "Rekisteröidyllä on oikeus henkilökohtaiseen erityiseen tilanteeseensa liittyvällä perusteella milloin tahansa vastustaa häntä koskevien henkilötietojen käsittelyä <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">21  artiklan, [GDPR] mukaisesti.</a>",
+				"fuente": "",
 				"name": "Vastustamisoikeus",
 				"source": "Yleisen tietosuoja-asetuksen  21 artikla"
 			},
 			"PIA_DEF_PBDS": {
+				"descripción": "",
 				"description": "Toimenpiteet, joilla henkilötietojen suojaus toteutetaan kaikissa uusissa käsittelyoperaatioissa (luotetut henkilöt, ohjeet, riskienhallintamenetelmät tai muut sisäiset käytänteet).",
+				"fuente": "",
 				"name": "Projektinhallinta",
+				"nombre": "",
 				"source": "Mesures_US"
 			},
 			"PIA_DEF_PC": {
+				"descripción": "",
 				"description": "Henkilö, johon käsiteltävät tiedot liittyvät.",
+				"fuente": "",
 				"name": "Rekisteröity",
 				"source": "PIA1 s. 9"
 			},
 			"PIA_DEF_PORT": {
+				"descripción": "",
 				"description": " Rekisteröidyllä on oikeus saada häntä koskevat henkilötiedot, jotka hän on toimittanut rekisterinpitäjälle, jäsennellyssä, yleisesti käytetyssä ja koneellisesti luettavassa muodossa, ja oikeus siirtää kyseiset tiedot toiselle rekisterinpitäjälle sen rekisterinpitäjän estämättä, jolle henkilötiedot on toimitettu; ks. <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">20  artikla [GDPR].</a>",
+				"fuente": "",
 				"name": "Oikeus siirtää tiedot järjestelmästä toiseen",
 				"source": "Yleisen tietosuoja-asetuksen  20 artikla"
 			},
 			"PIA_DEF_PSEU": {
+				"descripción": "",
 				"description": "Henkilötietojen käsitteleminen siten, että henkilötietoja ei voida enää yhdistää tiettyyn rekisteröityyn käyttämättä lisätietoja, edellyttäen että tällaiset lisätiedot säilytetään erillään ja niihin sovelletaan teknisiä ja organisatorisia toimenpiteitä, joilla varmistetaan, ettei henkilötietojen yhdistämistä tunnistettuun tai tunnistettavissa olevaan luonnolliseen henkilöön tapahdu.<br>Pseudonymisointi vähentää tietojoukon liitettävyyttä rekisteröidyn alkuperäiseen henkilöllisyyteen ja on näin ollen hyödyllinen suojatoimenpide, muttei anonymisoi tietoja.",
+				"fuente": "",
 				"name": "Pseudonymisointi",
+				"nombre": "",
 				"source": "Yleisen tietosuoja-asetuksen  4 artiklan 5 kohta ja ohje G29, s. 22 http://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2014/wp216_fi.pdf"
 			},
 			"PIA_DEF_PWD": {
+				"descripción": "",
 				"description": "Salasanojen tulee sisältää vähintään kahdeksan merkkiä. Salasanat tulee vaihtaa, jos niiden paljastumisesta on pienintäkään epäilystä, ja lisäksi mahdollisesti väliajoin (puolen vuoden tai vuoden välein). Salasanojen tulee sisältää vähintään kolmea tai neljää merkkityyppiä (isot kirjaimet, pienet kirjaimet, numerot ja erikoismerkit). Kun salasana vaihdetaan, uudeksi salasanaksi ei saa valita mitään viidestä edellistä salasanasta. Samaa salasanaa ei tule käyttää eri järjestelmiin. Salasanoja ei pidä johtaa henkilökohtaisista tiedoista (kuten nimestä tai syntymäajasta). Määrittele sallittujen kirjautumisyritysten määrä, ennen kuin käyttäjälle lähetetään varoitus ja tili lukitaan (väliaikaisesti tai kunnes se avataan manuaalisesti).",
+				"fuente": "",
 				"name": "Salasana",
+				"nombre": "",
 				"source": "Mesure_US"
 			},
 			"PIA_DEF_RECT": {
+				"descripción": "",
 				"description": "Rekisteröidyllä on oikeus vaatia, että rekisterinpitäjä oikaisee ilman aiheetonta viivytystä rekisteröityä koskevat epätarkat ja virheelliset henkilötiedot. Ottaen huomioon tarkoitukset, joihin tietoja käsiteltiin, rekisteröidyllä on oikeus saada puutteelliset henkilötiedot täydennettyä, muun muassa toimittamalla lisäselvitys.",
+				"fuente": "",
 				"name": "Oikeus tietojen oikaisemiseen",
+				"nombre": "",
 				"source": "Yleisen tietosuoja-asetuksen  16 artikla"
 			},
 			"PIA_DEF_RGPD": {
+				"Descripción": "",
 				"description": "Euroopan parlamentin ja neuvoston asetus (EU) 2016/679 luonnollisten henkilöiden suojelusta henkilötietojen käsittelyssä sekä näiden tietojen vapaasta liikkuvuudesta ja direktiivin 95/46/EY kumoamisesta.",
+				"fuente": "",
 				"name": "GDPR (Yleinen tietosuoja-asetus)",
 				"source": "Yleisen tietosuoja-asetuksen otsikko"
 			},
 			"PIA_DEF_RT": {
+				"descripción": "",
 				"description": "Luonnollinen henkilö tai oikeushenkilö, viranomainen, virasto tai muu elin, joka yksin tai yhdessä toisten kanssa määrittelee henkilötietojen käsittelyn tarkoitukset ja keinot; jos tällaisen käsittelyn tarkoitukset ja keinot määritellään unionin tai jäsenvaltioiden lainsäädännössä, rekisterinpitäjä tai tämän nimittämistä koskevat erityiset kriteerit voidaan vahvistaa unionin oikeuden tai jäsenvaltion lainsäädännön mukaisesti.<br>Ks. <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">4 artiklan 7 kohta, [GDPR]</a>",
+				"fuente": "",
 				"name": "Rekisterinpitäjä",
+				"nombre": "",
 				"source": "Yleisen tietosuoja-asetuksen  4 artiklan 7 kohta"
 			},
 			"PIA_DEF_SRC": {
+				"descripción": "",
 				"description": "Henkilö tai ei-inhimillinen tekijä, joka voi aiheuttaa riskin. Riskitekijän toiminta voi olla tahatonta tai tahallista.",
+				"fuente": "",
 				"name": "Riskitekijä",
+				"nombre": "",
 				"source": "PIA1 s. 11 - WIKI"
 			},
 			"PIA_DEF_ST": {
+				"descripción": "",
 				"description": "Luonnollinen henkilö tai oikeushenkilö, viranomainen, virasto tai muu elin, joka käsittelee henkilötietoja rekisterinpitäjän lukuun; ks. <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">4 artiklan  8 kohta, [GDPR]</a>.<br>Henkilötietojen käsittelijä tai kukaan rekisterinpitäjän tai henkilötietojen käsittelijän alaisuudessa toimiva henkilö, jolla on pääsy henkilötietoihin, ei saa käsitellä niitä muuten kuin rekisterinpitäjän ohjeiden mukaisesti, ellei unionin oikeudessa tai jäsenvaltion lainsäädännössä niin vaadita; ks. <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">29 artikla,  [GDPR]</a>.",
+				"fuente": "",
 				"name": "Henkilötietojen käsittelijä",
+				"nombre": "",
 				"source": "Yleisen tietosuoja-asetuksen  4 artiklan 8 kohta ja 29 artikla "
 			},
 			"PIA_DEF_SUPT": {
+				"descripción": "",
 				"description": "Resurssit, joita henkilötietojen käsittely vaatii. Ne voivat sisältää laitteistoja, ohjelmistoja, verkostoja, henkilöitä, asiakirjoja ja asiakirjojen välittämiseen käytettäviä kanavia.",
+				"fuente": "",
 				"name": "Tietojen käsittelyyn käytettävät resurssit",
+				"nombre": "",
 				"source": "PIA1 s. 10"
 			},
 			"PIA_DEF_VIOL": {
+				"descripción": "",
 				"description": "Tietoturvaloukkaus, jonka seurauksena on siirrettyjen, tallennettujen tai muuten käsiteltyjen henkilötietojen vahingossa tapahtuva tai lainvastainen tuhoaminen, häviäminen, muuttaminen, luvaton luovuttaminen taikka pääsy tietoihin.",
+				"fuente": "",
 				"name": "Henkilötietojen tietoturvaloukkaus",
+				"nombre": "",
 				"source": "Yleisen tietosuoja-asetuksen  4 artiklan 12 kohta"
 			},
 			"PIA_DEF_VRA": {
+				"Descripción": "",
 				"description": "Todennäköisyys kuvaa riskin toteutumisen mahdollisuutta. Se riippuu pääasiassa käsittelyssä käytettävien resurssien haavoittuvuudesta uhille ja riskitekijöiden kyvyistä hyödyntää niiden haavoittuvuuksia.",
+				"fuente": "",
 				"name": "Todennäköisyys",
+				"nombre": "",
 				"source": "PIA1 s. 6"
 			},
 			"PIA_EX_DC": {
@@ -1031,7 +1081,7 @@
 				"title": "TO TRANSLATE - PIA's roles"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - The <p><strong>validator</strong> accepts or rejects the implementation of the processing. He must sign the analysis.</p><p>He is the controller, e.g. the CEO.</p>",
+				"description": "TO TRANSLATE - <p>The <strong>validator</strong> accepts or rejects the implementation of the processing. He must sign the analysis.</p><p>He is the controller, e.g. the CEO.</p>",
 				"title": "TO TRANSLATE - PIA's roles"
 			},
 			"step5": {
@@ -1079,7 +1129,7 @@
 				"title": "TO TRANSLATE - To correct"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>This assessment indicates the processing elements to be revised. Theyare detailed in the <strong>action plan / corrective action</strong> field.</p><p>These measures will be automatically added to the action plan part of the analysis. It is necessary to implement them as soon as possible.</p>",
+				"description": "TO TRANSLATE - <p>This assessment indicates the processing elements to be revised. They are detailed in the <strong>action plan / corrective action</strong> field.</p><p>These measures will be automatically added to the action plan part of the analysis. It is necessary to implement them as soon as possible.</p>",
 				"title": "TO TRANSLATE - Improvable"
 			},
 			"step4": {

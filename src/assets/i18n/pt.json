@@ -453,103 +453,153 @@
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN2": {
+				"descripción": "",
 				"description": "Uma vez recebidos os dados sensíveis, como parte de uma série de informações gerais ou transmitidos apenas para fins estatísticos, estes podem ser convertidos para uma forma menos sensível ou pseudonimizada. Por exemplo: <br>- Se o sistema recolher o endereço IP para determinar a localização do usuário para fins estatísticos, o endereço IP poderá ser excluído assim que a cidade ou distrito for deduzido.<br>- Se o sistema receber dados de vídeo de câmaras de vigilância, ele poderá reconhecer pessoas em pé ou em movimento na cena e borrá-las.<br>- se o sistema for um medidor inteligente, ele pode agregar o uso de energia durante um certo período, sem gravá-lo em tempo real",
+				"fuente": "",
 				"name": "Redução da sensibilidade via conversão",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN3": {
+				"descripción": "",
 				"description": "O sistema pode garantir que: <br>- o usuário pode usar um recurso ou serviço sem o risco de revelar sua identidade (dados anónimos)<br>- o usuário pode usar um recurso ou serviço sem o risco de revelar sua identidade, mas permanecer identificável e responsável por esse uso (dados pseudônimos)<br>- o usuário pode fazer múltiplos usos de recursos ou serviços sem o risco de esses diferentes usos serem vinculados (dados não podem ser correlacionados)<br>- o usuário pode usar um recurso ou serviço sem o risco de outros, em particular terceiros, serem capazes de observar que o recurso ou serviço está sendo usado (não observável)<br>A escolha de um método da lista acima deve ser feita com base nas ameaças identificadas. Para alguns tipos de ameaça à privacidade, a pseudonimização será mais apropriada do que a anonimização (por exemplo, se houver uma necessidade de rastreabilidade). Além disso, algumas ameaças à privacidade serão abordadas usando uma combinação de métodos.",
+				"fuente": "",
 				"name": "Redução da natureza identificadora dos dados",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN4": {
+				"descripción": "",
 				"description": "O sistema pode ser organizado em partes independentes com funções separadas de controlo de acesso. Os dados também podem ser divididos entre esses subsistemas independentes e controlados por cada subsistema usando diferentes mecanismos de controlo de acesso. Se um subsistema for comprometido, os impactos em todos os dados podem ser reduzidos.",
+				"fuente": "",
 				"name": "Redução da acumulação de dados",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN5": {
+				"descripción": "",
 				"description": "O sistema pode limitar o acesso aos dados de acordo com o princípio de 'necessidade de saber'. O sistema pode separar os dados confidenciais e aplicar políticas específicas de controlo de acesso. O sistema também pode criptografar os dados para proteger sua confidencialidade durante a transmissão e o armazenamento. O acesso a cookies temporários produzidos durante o tratamento de dados também deve ser protegido.",
+				"fuente": "",
 				"name": "Restrição do acesso de dados",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MINC": {
+				"Descripción": "",
 				"description": "Reduzir a gravidade dos riscos, limitando a quantidade de dados pessoais ao estritamente necessário para alcançar um propósito definido, caso contrário os dados não serão recolhidos.",
+				"fuente": "",
 				"name": "Minimizar a quantidade de dados pessoais",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIND": {
+				"descripción": "",
 				"description": "Reduzir a gravidade dos riscos minimizando os dados, adotando medidas que visem reduzir sua sensibilidade, como filtrar e remover dados desnecessários, pseudonimizando os dados, etc.",
+				"fuente": "",
 				"name": "Minimização dos dados pessoais",
 				"source": "PIA3 p64"
 			},
 			"PIA_DEF_OPP": {
+				"descripción": "",
 				"description": "O titular dos dados tem o direito de se opor, por motivos relacionados com a sua situação particular, a qualquer momento ao tratamento de dados pessoais que lhe digam respeito, nos termos do <a target=\"_blank\" href=\"https://eur-lex.europa.eu/legal-content/PT/TXT/HTML/?uri=CELEX:32016R0679\">Art. 21 de [GDPR]</a>",
+				"fuente": "",
 				"name": "Direito à oposição",
 				"source": "GDPR Art. 21"
 			},
 			"PIA_DEF_PBDS": {
+				"descripción": "",
 				"description": "Medidas tomadas para integrar a proteção de dados pessoais em todas as novas operações de tratamento (nomes confiáveis, diretrizes, metodologia CNIL para gerenciamento de risco ou outra metodologia interna).",
+				"fuente": "",
 				"name": "Gerenciamento de projetos",
+				"nombre": "",
 				"source": "Mesures_US"
 			},
 			"PIA_DEF_PC": {
+				"descripción": "",
 				"description": "Pessoas a quem os dados abrangidos pelo tratamento dizem respeito.",
+				"fuente": "",
 				"name": "Titular de dados",
 				"source": "PIA1 p9"
 			},
 			"PIA_DEF_PORT": {
+				"descripción": "",
 				"description": "O titular dos dados tem o direito de receber os dados pessoais que lhe são fornecidos, que forneceu a um responsável pelo tratamento, num formato estruturado, normalmente utilizado e legível por máquina, e tem o direito de os transmitir para outro responsável pelo tratamento sem impedimento do primeiro responsável pelo tratamento para o qual os dados pessoais foram fornecidos, ver <a target=\"_blank\" href=\"https://eur-lex.europa.eu/legal-content/PT/TXT/HTML/?uri=CELEX:32016R0679\">Art. 20 de [RGPD]</a>",
+				"fuente": "",
 				"name": "Direito à portabilidade dos dados",
 				"source": "GDPR Art. 20"
 			},
 			"PIA_DEF_PSEU": {
+				"descripción": "",
 				"description": "Tratamento de dados pessoais de tal maneira que os mesmos dados não possam mais ser atribuídos a um indivíduo de dados específico sem o uso de informações adicionais, desde que essas informações adicionais sejam mantidas separadamente e estejam sujeitas a medidas técnicas e organizacionais para garantir que os dados pessoais não são atribuídos a uma pessoa singular identificada ou identificável.<br>A pseudonimização reduz a vinculação de um conjunto de dados com a identidade original de um sujeito de dados; como tal, é uma medida de segurança útil, mas não um método de anonimização.",
+				"fuente": "",
 				"name": "Pseudonimização",
+				"nombre": "",
 				"source": "GDPR Art. 4.5 and guidelines G29 p22 http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_en.pdf"
 			},
 			"PIA_DEF_PWD": {
+				"descripción": "",
 				"description": "As senhas devem ser compostas de oito caracteres, no mínimo; devem ser renovadas se houver a mínima preocupação de que possam ter sido comprometidas e, possivelmente, periodicamente (a cada seis meses ou uma vez por ano) e devem incluir no mínimo três dos quatro tipos de caracteres (maiúsculas, minúsculas, numerais e caracteres especiais); quando uma senha é alterada, as últimas cinco senhas não podem ser reutilizadas; a mesma senha não deve ser usada para acessos diferentes; as senhas não devem estar relacionadas às informações pessoais (incluindo nome ou data de nascimento). Defina um número máximo de tentativas além do qual um aviso é emitido e a autenticação é bloqueada (temporariamente ou até que seja manualmente desbloqueada).",
+				"fuente": "",
 				"name": "Senha",
+				"nombre": "",
 				"source": "Mesure_US"
 			},
 			"PIA_DEF_RECT": {
+				"descripción": "",
 				"description": "O titular dos dados terá o direito de obter do responsável pelo tratamento, sem demora injustificada, a retificação de dados pessoais incorretos que lhe digam respeito. Tendo em conta os fins do tratamento, o titular dos dados tem o direito de fornecer dados pessoais incompletos, incluindo meios através de uma declaração suplementar.",
+				"fuente": "",
 				"name": "Direito à retificação",
+				"nombre": "",
 				"source": "GDPR Art. 16"
 			},
 			"PIA_DEF_RGPD": {
+				"Descripción": "",
 				"description": "Regulamento relativo à protecção das pessoas singulares no que diz respeito ao tratamento de dados pessoais e à livre circulação desses dados e que revoga a Directiva 95/46/CE.",
+				"fuente": "",
 				"name": "RGPD (Regulamento Geral de Proteção de Dados)",
 				"source": "GDPR title"
 			},
 			"PIA_DEF_RT": {
+				"descripción": "",
 				"description": "Pessoa singular ou coletiva, autoridade pública, agência ou outro organismo que, individualmente ou em conjunto com outros (responsáveis conjuntos), determina os fins e meios do tratamento de dados pessoais. Se os fins e os meios desse tratamento forem determinados pela legislação da União ou do Estado-Membro, o responsável pelo tratamento ou os critérios específicos para a sua nomeação podem ser estabelecidos pelo direito da União ou do Estado-Membro.<br>Ver <a target=\"_blank\" href=\"https://eur-lex.europa.eu/legal-content/PT/TXT/HTML/?uri=CELEX:32016R0679\">Art. 4.7 de [RGPD]</a>",
+				"fuente": "",
 				"name": "Responsável pelo tratamento",
+				"nombre": "",
 				"source": "Art. 4.7"
 			},
 			"PIA_DEF_SRC": {
+				"descripción": "",
 				"description": "Pessoa ou fonte não humana que pode causar um risco. Esta fonte pode agir acidentalmente ou deliberadamente.",
+				"fuente": "",
 				"name": "Fonte de risco",
+				"nombre": "",
 				"source": "PIA1 p11 - WIKI"
 			},
 			"PIA_DEF_ST": {
+				"descripción": "",
 				"description": "Pessoa singular ou coletiva, autoridade pública, agência ou outro organismo que processa dados pessoais em nome do responsável pelo tratamento, ver <a target=\"_blank\" href=\"https://eur-lex.europa.eu/legal-content/PT/TXT/HTML/?uri=CELEX:32016R0679\">Art. 4.8 de [RGPD]</a>.<br>O subcontratante e qualquer pessoa que atue sob a autoridade do responsável pelo tratamento ou do subcontratante, que tenha acesso a dados pessoais, não devem processar esses dados, salvo instruções do responsável pelo tratamento, a menos que tal seja exigido pela legislação da União ou do Estado-Membro, ver <a target=\"_blank\" href=\"https://eur-lex.europa.eu/legal-content/PT/TXT/HTML/?uri=CELEX:32016R0679\">Art. 29 de [RGPD]</a>.",
+				"fuente": "",
 				"name": "Subcontratante",
+				"nombre": "",
 				"source": "GDPR Art. 4.8 and 29"
 			},
 			"PIA_DEF_SUPT": {
+				"descripción": "",
 				"description": "Ativo em que os dados pessoais dependem. Pode ser hardware, software, redes, pessoas, papel ou canais de transmissão de papel",
+				"fuente": "",
 				"name": "Ativos de suporte",
+				"nombre": "",
 				"source": "PIA1 p10"
 			},
 			"PIA_DEF_VIOL": {
+				"descripción": "",
 				"description": "Violação de segurança que leva à destruição acidental ou ilegal, perda, alteração, divulgação não autorizada ou acesso a dados pessoais transmitidos, armazenados ou processados de outra forma.",
+				"fuente": "",
 				"name": "Violação de dados pessoais",
+				"nombre": "",
 				"source": "GDPR Art. 4.12"
 			},
 			"PIA_DEF_VRA": {
+				"Descripción": "",
 				"description": "Probabilidade expressa a possibilidade de ocorrer um risco. Depende principalmente do nível de vulnerabilidades dos ativos de suporte quando sob ameaça e do nível de recursos das fontes de risco para explorá-los.",
+				"fuente": "",
 				"name": "Probabilidade",
+				"nombre": "",
 				"source": "PIA1 page 6"
 			},
 			"PIA_EX_DC": {
@@ -1031,7 +1081,7 @@
 				"title": "TO TRANSLATE - PIA's roles"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - The <p><strong>validator</strong> accepts or rejects the implementation of the processing. He must sign the analysis.</p><p>He is the controller, e.g. the CEO.</p>",
+				"description": "TO TRANSLATE - <p>The <strong>validator</strong> accepts or rejects the implementation of the processing. He must sign the analysis.</p><p>He is the controller, e.g. the CEO.</p>",
 				"title": "TO TRANSLATE - PIA's roles"
 			},
 			"step5": {
@@ -1079,7 +1129,7 @@
 				"title": "TO TRANSLATE - To correct"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>This assessment indicates the processing elements to be revised. Theyare detailed in the <strong>action plan / corrective action</strong> field.</p><p>These measures will be automatically added to the action plan part of the analysis. It is necessary to implement them as soon as possible.</p>",
+				"description": "TO TRANSLATE - <p>This assessment indicates the processing elements to be revised. They are detailed in the <strong>action plan / corrective action</strong> field.</p><p>These measures will be automatically added to the action plan part of the analysis. It is necessary to implement them as soon as possible.</p>",
 				"title": "TO TRANSLATE - Improvable"
 			},
 			"step4": {

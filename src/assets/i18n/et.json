@@ -453,103 +453,153 @@
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN2": {
+				"descripción": "",
 				"description": "Kui tundlikud andmed on saadud üldise teabe seeria osana või edastatud üksnes statistilisteks eesmärkideks, on võimalik neid konverteerida vähem tundlikusse vormi või pseudonümiseerida. Näiteks : <br>- kui süsteem kogub IP-aadressi kasutaja asukoha kindlaksmääramiseks statistilisel eesmärgil, saab IP-aadressi kustutada pärast linna või piirkonna tuvastamist<br>- kui süsteem tunnustab vidoematerjali valvekaameratest, tunneb ta ära inimesed, kes seisavad või liiguvad pildil ning saab need hägustada<br>- kui süsteem on arukas mõõtja saab ta kokku koguda energiakulu teatud aja jooksul seda reaalajas salvestamata",
+				"fuente": "",
 				"name": "Tundlikkuse vähendamine läbi konverteerimise ",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN3": {
+				"descripción": "",
 				"description": "Süsteem saab kindlustada, et : <br>- kasutaja saab kasutada ressurssi või teenust ilma riskita oma identiteeti avalikustada (anonüümsed andmed)<br>- kasutaja saab kasutada ressurssi või teenust ilma riskita oma identiteeti avalikustada, kuid võib olla tuvstatav ja vastutav selle kasutamise eest (pseudonüümsed andmed)<br>- kasutaja saab ressursse või teenuseid mitmel otstarbel kasutada ilma riskita, et neid erinevaid kasutusviise oleks võimalik omavahel siduda (andmeid ei saa korreleerida)<br>- kasutaja saab kasutada ressurssi või teenust ilma ohuta, et keegi teine eelkõige kolmandad isikud saaksid jälgida, et ressurssi või teenust kasutatakse (mitte-jälitavus)<br>Eespool loetletud meetodi valik tuleb teha tuvastatud ohtude põhjal. Mõne ohu puhul eraelu puutumatusele on pseudonümiseerimine sobivam kui anonüümseks muutmine (nt, kui on vajadus jälgida tegevusi). Lisaks käsitletakse mõnda ohtu eraelu puutumatusele meetodeid kombineerides.",
+				"fuente": "",
 				"name": "Andmete identifitseeritava olemuse vähendamine",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN4": {
+				"descripción": "",
 				"description": "Süsteemi saab jagada eraldiseisvateks osadeks eraldi juurdepääsuga kontrolli funktsioonidele. Andmeid saab ka jagada iseseisvate allsüsteemide vahel ja kontrollida iga allsüsteemiga kasutades erinevaid juurdepääsu kontrollmehhanisme. Kui allsüsteem on ohustatud, siis võib väheneda mõju ülejäänud andmetel.",
+				"fuente": "",
 				"name": "Andmete kogumise vähendamine",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN5": {
+				"descripción": "",
 				"description": "Süsteem saab piirata juurdepääsu vastavalt \"vaja teada\" põhimõttele. Süsteem saab eristada tundlikud andmed ning rakendada konkreetseid juurdepääsu kontrollimise eeskirju. Süsteem saab ka krüpteerida tundlikud andmed, et kaitsta nende konfidentsiaalsust edastamise ja salvestamise vältel. Samuti tuleb kaitsta juurdepääs andmetöötluse käigus toodetud ajutistele küpsistele.",
+				"fuente": "",
 				"name": "Andmetele juurdepääsu piiramine",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MINC": {
+				"Descripción": "",
 				"description": "Vähenda riskide tõsidust vähendades ka isikuandmete kogust rangelt vajalikuni, et saavutada määratletud eesmärk. Vastasel juhul  andmeid ei koguta.",
+				"fuente": "",
 				"name": "Isikuandmete koguse vähendamine",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIND": {
+				"descripción": "",
 				"description": "Vähenda riskide tõsidust vähendades andmeid, võttes meetmeid, mis on suunatud andmete tundlikuse vähendamisele nagu filtreerimine ja ebavajalike andmete eemaldamine, andmete pseudonümiseerimine jne.",
+				"fuente": "",
 				"name": "Andmete vähendamine",
 				"source": "PIA3 p64"
 			},
 			"PIA_DEF_OPP": {
+				"descripción": "",
 				"description": "Andmesubjektil on õigus oma konkreetsest olukorrast lähtudes esitada igal ajal vastuväiteid teda puudutavate isikuandmete töötlemise suhtes, vastavalt <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/ET/TXT/HTML/?uri=CELEX:32016R0679&from=ET\">Üldmääruse 2016/679 Art. 21 </a>",
+				"fuente": "",
 				"name": "Õigus esitada vastuväiteid",
 				"source": "Üldmääruse 2016/679 Art. 21"
 			},
 			"PIA_DEF_PBDS": {
+				"descripción": "",
 				"description": "Meetmed, mis on võetud isikuandmete kaitse integreerimiseks kõikidesse uutesse töötlemistoimingutesse (usaldatud nimed, juhised, riskijuhtumise metoodika või muu sisemine metoodika).",
+				"fuente": "",
 				"name": "Projekti juhtimine",
+				"nombre": "",
 				"source": "Mesures_US"
 			},
 			"PIA_DEF_PC": {
+				"descripción": "",
 				"description": "Isikud, kellega seonduvad töödeldavad andmed.",
+				"fuente": "",
 				"name": "Andmesubjekt",
 				"source": "PIA1 p9"
 			},
 			"PIA_DEF_PORT": {
+				"descripción": "",
 				"description": " Andmesubjektil on õigus saada teda puudutavaid isikuandmeid, mida andmesubjkt on vastutavale töötajale esitanud, struktureeritud, üldkasutavas vormingus ning masinloetaval kujul ning õigus edastada need andmed teisele vastutavale töötlejale, ilma et vastutav töötleja, kellele kõnealused isikuandmed on esitatud, seda takistaks, vt <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/ET/TXT/HTML/?uri=CELEX:32016R0679&from=ET\">Üldmääruse 2016/679 Art. 20 </a>",
+				"fuente": "",
 				"name": "Andmete ülekandmise õigus",
 				"source": "Üldmääruse 2016/679 Art. 20"
 			},
 			"PIA_DEF_PSEU": {
+				"descripción": "",
 				"description": "Isikuandmete töötlemine sellisel viisil, et isikuandmeid ei saa enam täiendavat teavet kasutamata seostada konkreetse andmesubjektiga, tingimusel et sellist täiendavat teavet hoitakse eraldi ja andmete tuvastatud või tuvastatava füüsilise isikuga seostamise välitmiseks võetakse tehnilisi ja korralduslikke meetmeid.<br>Pseudonümiseerimine vähendab andmestiku seostatavust andmesubjekti esialgse identiteediga. Sellisena on pseudonümiseerimine kasulik turvameede, kuid mitte anonüümseks muutmise meetod.",
+				"fuente": "",
 				"name": "Pseudonümiseerimine",
+				"nombre": "",
 				"source": "Üldmääruse 2016/679 Art. 4.5 and WP29 juhise p22 http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_en.pdf"
 			},
 			"PIA_DEF_PWD": {
+				"descripción": "",
 				"description": "Salasõnad koosnevad vähemalt minimaalsest etteanutd tähemärkide hulgast; peavad olema uuendatud kui esineb kahtlus, et nad võivad olla ohustatud ja võimaluse korral perioodiliselt (iga kuue kuu tagant või kord aastas) ning peavad sisaldama vähemalt kolme tähmärki neljast sordist (suurtähed, väiketähed, numbrid ja erilised tähemärgid); kui salasõna muudetakse ei tohi viimaseid viit salasõna taaskasutada; sama salasõna ei tohi kasutada erinevate ligipääsude puhul; salasõnad ei tohiks olla seotud isiku isiklike andmetega (st nimi või sünniaasta). Määratle maksimaalne katsete arv, mida ületades esineb hoiatus ning autentimise blokeerimine (ajutiselt või kuni blokeering manuaalselt eemaldatakse).",
+				"fuente": "",
 				"name": "Salasõna",
+				"nombre": "",
 				"source": "Mesure_US"
 			},
 			"PIA_DEF_RECT": {
+				"descripción": "",
 				"description": "Andmesubjektil on õigus nõuda, et vastutav töötleja parandaks põhjendamatu viivituseta teda puudutavad ebaõiged isikuandmed. Võttes arvesse andmete töötlemise eesmärke, on andmesubjektil õigus nõuda mittetäielike isikuandmete täiendamist, sealhulgas täiendava õiendi esitamise teel.",
+				"fuente": "",
 				"name": "Õigus andmete parandamisele",
+				"nombre": "",
 				"source": "Üldmääruse 2016/679 Art. 16"
 			},
 			"PIA_DEF_RGPD": {
+				"Descripción": "",
 				"description": "Regulatsioon, mis käsitleb füüsiliste isikute kaitset seoses iskuandmete töötlemisega ja selliste andmete vaba liikumist ning direktiivi 95/46/EÜ kehtetuks tunnistamisega.",
+				"fuente": "",
 				"name": "Isikuandmete kaitse üldmäärus 2016/679",
 				"source": "GDPR title"
 			},
 			"PIA_DEF_RT": {
+				"descripción": "",
 				"description": "Füüsiline või juriidiline isik, avalik-õiguslik isik, amet või muu üksus, kes üksi või koos teistega, määrab isikuandmete käitluse eesmärgid ja vahendid; kui eesmärgid ja vahendid selliseks käitluseks on määratud Euroopa Liidu liikmesriigi õigusega, siis revident või spetsiifilised tingimused tema nimetamiseks peavad olema määratud Euroopa liidu liikmestiigi õigusega.<br>Vaata <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/ET/TXT/HTML/?uri=CELEX:32016R0679&from=ET\">Üldmääruse 2016/679 Art. 4.7 </a>",
+				"fuente": "",
 				"name": "Vastutav töötleja",
+				"nombre": "",
 				"source": "Üldmääruse 2016/679 art. 4.7"
 			},
 			"PIA_DEF_SRC": {
+				"descripción": "",
 				"description": "Inimene või mitte-inimene, mis võib ohu luua. Selline allikas võib toimida tahtlikult või tahtmatult.",
+				"fuente": "",
 				"name": "Riski allikas",
+				"nombre": "",
 				"source": "PIA1 p11 - WIKI"
 			},
 			"PIA_DEF_ST": {
+				"descripción": "",
 				"description": "Füüsiline või juriidiline isik, riigiasutus, esindus või muu organ, kes töötleb isikuandmeid vastutava töötleja nimel, vt <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 4.8 of [GDPR]</a>.<br>Töötleja ja mistahes vastutav töötleja või töötleja alluvuses olev isik, kelle on juurdepääs isikuandmetele, ei töötle neid anmdeid kui vastutav töötleja ei ole andnud juhiseid ning juhul, kui see ei ole nõutav liidu või liikmesriigi õiguses , vt <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/ET/TXT/HTML/?uri=CELEX:32016R0679&from=ET\">Üldmääruse 2016/679 Art. 29 </a>.",
+				"fuente": "",
 				"name": "Töötleja",
+				"nombre": "",
 				"source": "Üldmääruse 2016/679Art. 4.8 and 29"
 			},
 			"PIA_DEF_SUPT": {
+				"descripción": "",
 				"description": "Vahendid, millest isikuandmete töötlemine sõltub. Need võivad olla riistvara, võrgud, inimesed, paber või paberi edasiandmise kanalid",
+				"fuente": "",
 				"name": "Toetavad vahendid",
+				"nombre": "",
 				"source": "PIA1 p10"
 			},
 			"PIA_DEF_VIOL": {
+				"descripción": "",
 				"description": "Turvanõuete rikkumine, mille tulemuseks on isikuandmete tahtmatu või ebaseaduslik hävitamine, kadu, muutmine, volitamata avlikustamine või ligipääs isikuandmetele, mida hoitakse või töödeldakse.",
+				"fuente": "",
 				"name": "Isikuandmete töötlemise seotud rikkumine",
+				"nombre": "",
 				"source": "Üldmääruse 2016/679 Art. 4.12"
 			},
 			"PIA_DEF_VRA": {
+				"Descripción": "",
 				"description": "Tõenäosuse väljendab riski tekkimise võimalikkust. See sõltub peamiselt toetava vara haavatavuse tasemest, kui see on ohus.",
+				"fuente": "",
 				"name": "Tõenäosus",
+				"nombre": "",
 				"source": "PIA1 page 6"
 			},
 			"PIA_EX_DC": {
@@ -1031,7 +1081,7 @@
 				"title": "TO TRANSLATE - PIA's roles"
 			},
 			"step4": {
-				"description": "TO TRANSLATE - The <p><strong>validator</strong> accepts or rejects the implementation of the processing. He must sign the analysis.</p><p>He is the controller, e.g. the CEO.</p>",
+				"description": "TO TRANSLATE - <p>The <strong>validator</strong> accepts or rejects the implementation of the processing. He must sign the analysis.</p><p>He is the controller, e.g. the CEO.</p>",
 				"title": "TO TRANSLATE - PIA's roles"
 			},
 			"step5": {
@@ -1079,7 +1129,7 @@
 				"title": "TO TRANSLATE - To correct"
 			},
 			"step3": {
-				"description": "TO TRANSLATE - <p>This assessment indicates the processing elements to be revised. Theyare detailed in the <strong>action plan / corrective action</strong> field.</p><p>These measures will be automatically added to the action plan part of the analysis. It is necessary to implement them as soon as possible.</p>",
+				"description": "TO TRANSLATE - <p>This assessment indicates the processing elements to be revised. They are detailed in the <strong>action plan / corrective action</strong> field.</p><p>These measures will be automatically added to the action plan part of the analysis. It is necessary to implement them as soon as possible.</p>",
 				"title": "TO TRANSLATE - Improvable"
 			},
 			"step4": {
