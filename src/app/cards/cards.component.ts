@@ -93,15 +93,20 @@ export class CardsComponent implements OnInit, OnDestroy {
   ngAfterViewInit() {
     const temp = new Pia();
     temp.getAllActives().then((data: []) => {
-      let validated = data.filter((e: Pia) => e.status == 2 || e.status == 3);
+      const validated = data.filter((e: Pia) => e.status === 2 || e.status === 3);
       if (validated.length > 0) {
         // Validated introjs
-        this._introjsService.start('validated');
+        if (!localStorage.getItem('onboardingValidatedConfirmed')) {
+          this._introjsService.start('validated');
+        }
       } else {
         // dashboard introjs
-        if (!localStorage.getItem('onboardingDashboardConfirmed')) {
-          if (localStorage.getItem('homepageDisplayMode') === 'card') {
-            this._introjsService.start('dashboard');
+        const inProgress = data.filter((e: Pia) => e.status === 1);
+        if (inProgress && inProgress.length === 0) {
+          if (!localStorage.getItem('onboardingDashboardConfirmed')) {
+            if (localStorage.getItem('homepageDisplayMode') === 'card') {
+              this._introjsService.start('dashboard');
+            }
           }
         }
       }
@@ -114,7 +119,7 @@ export class CardsComponent implements OnInit, OnDestroy {
    */
   piaChange(pia) {
     if (this._piaService.pias.includes(pia)) {
-      this._piaService.pias.forEach(item => {
+      this._piaService.pias.forEach((item) => {
         if (item.id === pia.id) item = pia;
       });
     } else {
