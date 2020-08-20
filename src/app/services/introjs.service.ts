@@ -20,9 +20,6 @@ export class IntrojsService {
   private introjsChecked = false;
 
   constructor(private router: Router, private _translateService: TranslateService) {
-    console.log('Introjs connected');
-    console.log('test introjscherc', this.introjsChecked);
-
     this.sectionsChange.subscribe(bool => {
       if (!this.introjsChecked) {
         console.log('changements sections', bool);
@@ -401,6 +398,9 @@ export class IntrojsService {
       .start();
   }
 
+  /**
+   * Prepare onboarding for PIA homepage for validated PIAs
+   */
   private prepareValidatedOnBoarding() {
     const INTROJS = introJs();
     INTROJS.addStep({
