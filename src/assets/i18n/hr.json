@@ -143,9 +143,9 @@
 		"logo_title": "Procjena učinka na privatnost",
 		"structures": "PIA templates",
 		"tools": {
-      "onboarding": "TO TRANSLATE - Restart tutorial",
 			"about": "O programu",
 			"accessibility": "Pristupačnost za slabovidne osobe (boje visokog kontrasta, daltonizam)",
+			"onboarding": "TO TRANSLATE - Restart tutorial",
 			"settings": "Postavke",
 			"url_setting": "TO TRANSLATE - Server URL configuration"
 		}
@@ -203,7 +203,6 @@
 			"item": {
 				"consult_pia": "Pogledaj",
 				"consult_structure": "TO TRANSLATE - Consult template",
-        "validate_pia": "TO TRANSLATE - Validate",
 				"edit_pia": "Uredi",
 				"edit_structure": "Uredi obrazac",
 				"tools": {
@@ -215,7 +214,29 @@
 					"pia": "Prikaži<br>PUP",
 					"remove": "TO TRANSLATE - Delete",
 					"unarchive": "TO TRANSLATE - Unarchive"
-				}
+				},
+				"validate_pia": "TO TRANSLATE - Validate"
+			},
+			"knowledges": {
+				"edit": "TO TRANSLATE - Edit the base",
+				"import": "TO TRANSLATE - Import a base",
+				"new": "TO TRANSLATE - Create a base",
+				"placeholder_author": "TO TRANSLATE - Author",
+				"placeholder_contributors": "TO TRANSLATE - Contributors",
+				"placeholder_entry_number": "TO TRANSLATE - Number of entries",
+				"placeholder_name": "TO TRANSLATE - Base's name"
+			},
+			"knowledges_entry": {
+				"all_sections": "TO TRANSLATE - All sections",
+				"choose_category": "TO TRANSLATE - Choose a category",
+				"contents": "TO TRANSLATE - Contents",
+				"create": "TO TRANSLATE - Create this element",
+				"linked_to": "TO TRANSLATE - Linked to",
+				"new": "TO TRANSLATE - Create an element",
+				"placeholder_category": "TO TRANSLATE - Category",
+				"placeholder_description": "TO TRANSLATE - Your description here...",
+				"placeholder_name": "TO TRANSLATE - Element's name",
+				"placeholder_updated_at": "TO TRANSLATE - Last updated"
 			},
 			"new_pia": "Novi PUP",
 			"new_structure": "Novi obrazac",
@@ -240,28 +261,7 @@
 			"structure": "Obrazac",
 			"structure_name": "Naziv obrasca",
 			"title_close_creation": "Zatvori",
-			"validation": "Potvrda",
-      "knowledges": {
-				"new": "TO TRANSLATE - Create a base",
-        "import": "TO TRANSLATE - Import a base",
-        "edit": "TO TRANSLATE - Edit the base",
-				"placeholder_name": "TO TRANSLATE - Base's name",
-				"placeholder_author": "TO TRANSLATE - Author",
-				"placeholder_contributors": "TO TRANSLATE - Contributors",
-				"placeholder_entry_number": "TO TRANSLATE - Number of entries"
-			},
-			"knowledges_entry": {
-        "new": "TO TRANSLATE - Create an element",
-        "create": "TO TRANSLATE - Create this element",
-				"placeholder_name": "TO TRANSLATE - Element's name",
-				"placeholder_category": "TO TRANSLATE - Category",
-				"placeholder_description": "TO TRANSLATE - Your description here...",
-				"placeholder_updated_at": "TO TRANSLATE - Last updated",
-        "contents": "TO TRANSLATE - Contents",
-        "choose_category":"TO TRANSLATE - Choose a category",
-        "linked_to": "TO TRANSLATE - Linked to",
-        "all_sections": "TO TRANSLATE - All sections"
-			}
+			"validation": "Potvrda"
 		},
 		"filters": {
 			"assessor": "Recenzentu",
@@ -316,8 +316,6 @@
 		"search_filter": "TO TRANSLATE - Search"
 	},
 	"knowledge_base": {
-    "choose_knowledge_base": "TO TRANSLATE - Choose your knowledge base",
-    "default_knowledge_base": "TO TRANSLATE - CNIL's knowledge base",
 		"add_measure": "Dodaj",
 		"add_measure_hint": "Dodati možete i mjere iz baze znanja.",
 		"category": {
@@ -329,6 +327,8 @@
 			"organizational_measure": "Organizacijske kontrole",
 			"principle": "Princip"
 		},
+		"choose_knowledge_base": "TO TRANSLATE - Choose your knowledge base",
+		"default_knowledge_base": "TO TRANSLATE - CNIL's knowledge base",
 		"filters": {
 			"all": "Sve",
 			"definitions": "Definicije",
@@ -453,103 +453,153 @@
 				"source": "piaF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN2": {
+				"descripción": "",
 				"description": "Nakon što su primljeni osjetljivi podaci, kao dio niza općih informacija ili koji se prenose samo u statističke svrhe, oni se mogu pretvoriti u manje osjetljivi oblik ili pseudonimizirani. Na primjer: <br> - ako sustav prikuplja IP adresu kako bi utvrdio lokaciju korisnika za statističku svrhu, IP adresa može biti izbrisana nakon što je donesen zaključak o gradu ili okrugu - <br> ako sustav prima video podatke iz nadzornih kamera može prepoznati ljude koji stoje ili se kreću na sceni i zamutiti ih<br> - ako je sustav pametno brojilo, može skupljati energiju tijekom određenog razdoblja, a da je ne snima u stvarnom vremenu",
+				"fuente": "",
 				"name": "Smanjenje osjetljivosti putem pretvorbe",
 				"source": "piaF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN3": {
+				"descripción": "",
 				"description": "Sustav može osigurati da: <br>- korisnik može koristiti resurs ili uslugu bez rizika otkrivanja identiteta (anonimnih podataka) <br>- korisnik može koristiti resurs ili uslugu bez rizika otkrivanja njegovog/njezinog identiteta, ali ostaju prepoznatljivi i odgovorni za to korištenje (pseudonimni podaci) <br>- korisnik može izvršiti višestruku upotrebu resursa ili usluga bez rizika da se te različite upotrebe povezuju zajedno (podaci se ne mogu povezati) <br>- korisnik može koristiti resurs ili uslugu bez rizika od drugih, osobito trećih osoba, koje mogu primijetiti korištenje resursa ili usluge (neobavezanost) <br> Izbor metode s gornjeg popisa mora biti napravljen na temelju utvrđenih prijetnji. Za neke vrste prijetnji po privatnost, pseudonimizacija će biti prikladnija od anonimizacije (na primjer, ako postoji potreba za sljedivosti). Osim toga, neke prijetnje po privatnost riješit će se pomoću kombinacije metoda.",
+				"fuente": "",
 				"name": "Smanjenje identificirajuće prirode podataka",
 				"source": "piaF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN4": {
+				"descripción": "",
 				"description": "Sustav se može organizirati u nezavisne dijelove s posebnim funkcijama kontrole pristupa. Podaci se također mogu podijeliti između tih nezavisnih podsustava i svaki podsustav može ih kontrolirati koristeći različite mehanizme kontrole pristupa. Ako je podsustav kompromitiran, utjecaji na cjelokupne podatke mogu se smanjiti.",
+				"fuente": "",
 				"name": "Smanjenje akumulacije podataka",
 				"source": "piaF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN5": {
+				"descripción": "",
 				"description": "Sustav može ograničiti pristup podacima prema principu \"nužnog znanja\". Sustav može odvojiti osjetljive podatke i primijeniti određene politike kontrole pristupa. Sustav također može enkriptirati osjetljive podatke kako bi zaštitila njihova povjerljivost tijekom prijenosa i pohrane. Također je potrebno zaštititi pristup privremenim kolačićima koji se proizvode tijekom obrade podataka.",
+				"fuente": "",
 				"name": "Ograničavanje pristupa podacima",
 				"source": "piaF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MINC": {
+				"Descripción": "",
 				"description": "Smanjite ozbiljnost rizika smanjivanjem količine osobnih podataka koji će se obrađivati ograničavanjem tih podataka na samo one koji su strogo nužni u svrhe za koje se obrađuju (inače ih se ne smije prikupljati).",
+				"fuente": "",
 				"name": "Smanjenje količine podataka",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIND": {
+				"descripción": "",
 				"description": "Reduce the severity of risks by minimizing the data themselves, by taking measures aimed at reducing their sensitivity such as filtering and removing unnecessary data, pseudonymising data, etc.",
+				"fuente": "",
 				"name": "Smanjenje količine samih podataka",
 				"source": "pia3 p64"
 			},
 			"PIA_DEF_OPP": {
+				"descripción": "",
 				"description": "Ispitanik ima pravo na temelju svoje posebne situacije u svakom trenutku uložiti prigovor na obradu osobnih podataka koji se odnose na njega, sukladno <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 21 of [GDPR]</a>",
+				"fuente": "",
 				"name": "Pravo na prigovor",
 				"source": "OUZP čl. 21"
 			},
 			"PIA_DEF_PBDS": {
+				"descripción": "",
 				"description": "Mjere poduzete za integraciju zaštite osobnih podataka u sve nove aktivnosti obrade (pouzdana imena, smjernice, CNIL metodologija za upravljanje rizikom ili druga interna metodologija).",
+				"fuente": "",
 				"name": "Upravljanje projektima",
+				"nombre": "",
 				"source": "Mesures_US"
 			},
 			"PIA_DEF_PC": {
+				"descripción": "",
 				"description": "Osobe na koje se odnose podaci obuhvaćeni obradom.",
+				"fuente": "",
 				"name": "Ispitanik",
 				"source": "pia1 p9"
 			},
 			"PIA_DEF_PORT": {
+				"descripción": "",
 				"description": "Ispitanik ima pravo zaprimiti osobne podatke koji se odnose na njega, a koje je pružio voditelju obrade u strukturiranom, uobičajeno upotrebljavanom i strojno čitljivom formatu te ima pravo prenijeti te podatke drugom voditelju obrade bez ometanja od strane voditelja obrade kojem su osobni podaci pruženi, pogledajte <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 20 of [GDPR]</a>",
+				"fuente": "",
 				"name": "Pravo na prenosivost podataka",
 				"source": "OUZP čl. 20"
 			},
 			"PIA_DEF_PSEU": {
+				"descripción": "",
 				"description": "Obrada osobnih podataka na način da se osobni podaci više ne mogu pripisati određenom ispitaniku bez uporabe dodatnih informacija, pod uvjetom da se takve dodatne informacije drže odvojeno te da podliježu tehničkim i organizacijskim mjerama kako bi se osiguralo da se osobni podaci ne mogu pripisati pojedincu čiji je identitet utvrđen ili se može utvrditi.<br>Pseudonimizacija smanjuje povezivost skupova podataka s izvornim identitetom ispitanika; kao takva je korisna mjera sigurnosti, ali ne i metoda anonimizacije.",
+				"fuente": "",
 				"name": "Pseudonimizacija",
+				"nombre": "",
 				"source": "OUZP čl. 4.5 i smjernice G29 p22 http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_en.pdf"
 			},
 			"PIA_DEF_PWD": {
+				"descripción": "",
 				"description": "Lozinke moraju biti sastavljene od najmanje osam znakova; moraju se obnoviti ako postoji najmanja zabrinutost da bi one mogli biti ugrožene, a eventualno i povremeno (svakih šest mjeseci ili jednom godišnje) i moraju sadržavati najmanje tri od četiri vrste znakova (velika slova, mala slova, brojevi i posebni znakovi); kada se promijeni lozinka, posljednjih pet lozinki ne smiju se ponovno koristiti; istu lozinku ne smije se koristiti za različite pristupe; lozinke ne bi trebale biti povezane s osobnim podacima (uključujući ime ili datum rođenja). Odredite maksimalni broj pokušaja nakon kojih se izdaje upozorenje i autentikacija blokira (privremeno ili dok se ručno ne deblokira).",
+				"fuente": "",
 				"name": "Lozinka",
+				"nombre": "",
 				"source": "Mesure_US"
 			},
 			"PIA_DEF_RECT": {
+				"descripción": "",
 				"description": "Ispitanik ima pravo bez nepotrebnog odgađanja ishoditi od voditelja obrade ispravak netočnih osobnih podataka koji se na njega odnose. Uzimajući u obzir svrhe obrade, ispitanik ima pravo dopuniti nepotpune osobne podatke, među ostalim i davanjem dodatne izjave.",
+				"fuente": "",
 				"name": "Pravo na ispravak",
+				"nombre": "",
 				"source": "OUZP čl. 16"
 			},
 			"PIA_DEF_RGPD": {
+				"Descripción": "",
 				"description": "Uredba o zaštiti pojedinaca u vezi s obradom osobnih podataka i o slobodnom kretanju takvih podataka te o stavljanju izvan snage Direktive 95/46/EZ.",
+				"fuente": "",
 				"name": "OUZP (Opća uredba o zaštiti podataka, engl. GDPR - General Data Protection Regulation",
 				"source": "GDPR title"
 			},
 			"PIA_DEF_RT": {
+				"descripción": "",
 				"description": "Fizička ili pravna osoba, tijelo javne vlasti, agencija ili drugo tijelo koje samo ili zajedno s drugima određuje svrhe i sredstva obrade osobnih podataka; kada su svrhe i sredstva takve obrade utvrđeni pravom Unije ili pravom države članice, voditelj obrade ili posebni kriteriji za njegovo imenovanje mogu se predvidjeti pravom Unije ili pravom države članice.<br>Pogledajte <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">čl. 4.7 [GDPR]</a>",
+				"fuente": "",
 				"name": "Voditelj obrade",
+				"nombre": "",
 				"source": "OUZP čl. 4.7"
 			},
 			"PIA_DEF_SRC": {
+				"descripción": "",
 				"description": "Osoba ili ne-ljudski izvor koji može uzrokovati rizik. Taj izvor može djelovati slučajno ili namjerno.",
+				"fuente": "",
 				"name": "Izvor rizika",
+				"nombre": "",
 				"source": "pia1 p11 - WIKI"
 			},
 			"PIA_DEF_ST": {
+				"descripción": "",
 				"description": "fizička ili pravna osoba, tijelo javne vlasti, agencija ili drugo tijelo koje obrađuje osobne podatke u ime voditelja obrade, pogledajte <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 4.8 of [GDPR]</a>.<br>Izvršitelj obrade i bilo koja osoba koja djeluje pod vodstvom voditelja obrade ili izvršitelja obrade koja ima pristup osobnim podacima, ne obrađuje te podatke ako to ne zatraži voditelj obrade, osim ako to nalaže pravo Unije ili pravo države članice, pogledajte <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 29 of [GDPR]</a>.",
+				"fuente": "",
 				"name": "Izvršitelj obrade",
+				"nombre": "",
 				"source": "OUZP čl. 4.8 and 29"
 			},
 			"PIA_DEF_SUPT": {
+				"descripción": "",
 				"description": "Sredstvo na koje se osobni podaci oslanjaju. To može biti hardver, softver, mreže, ljudi, papir ili papirnati prijenosni kanali",
+				"fuente": "",
 				"name": "Pomoćna sredstva",
+				"nombre": "",
 				"source": "pia1 p10"
 			},
 			"PIA_DEF_VIOL": {
+				"descripción": "",
 				"description": "Povreda sigurnosti koja dovodi do slučajnog ili nezakonitog uništenja, gubitka, izmjene, neovlaštenog otkrivanja ili pristupa osobnim podacima koji su preneseni, pohranjeni ili na drugi način obrađeni.",
+				"fuente": "",
 				"name": "Povreda osobnih podataka",
+				"nombre": "",
 				"source": "OUZP čl. 4.12"
 			},
 			"PIA_DEF_VRA": {
+				"Descripción": "",
 				"description": "Vjerojatnost izražava mogućnost nastanka rizika. Ona prvenstveno ovisi o razini ranjivosti pomoćnih sredstava prilikom prijetnji i razini sposobnosti izvora rizika da ih iskoriste.",
+				"fuente": "",
 				"name": "Vjerojatnost",
+				"nombre": "",
 				"source": "pia1 page 6"
 			},
 			"PIA_EX_DC": {
@@ -933,11 +983,22 @@
 			"remove": "Ukloni",
 			"review_section": "Pregledajte odjeljak"
 		},
+		"general_error": {
+			"content": "TO TRANSLATE - All our apologies an error has occurred."
+		},
 		"import_wrong_pia_file": {
 			"content": "Uvezena datoteka ne odgovara datoteci izvještaja PUP-a"
 		},
 		"import_wrong_structure_file": {
 			"content": "Uvezena datoteka ne odgovara datoteci obrasca PUP-a"
+		},
+		"knowledge": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
+			"remove": "TO TRANSLATE - Delete this element"
+		},
+		"knowledges": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this knowledge base?",
+			"remove": "TO TRANSLATE - Delete this knowledge base"
 		},
 		"modal_select_text_pia": {
 			"content": "Sadržaj PUP-a kopiran je u međuspremnik."
@@ -1003,18 +1064,98 @@
 		},
 		"validate_evaluation_to_correct": {
 			"content": "Žao nam je,<br> potrebno je ispraviti nekoliko polja.<br>Povratak na način uređivanja<br> radi unošenja ispravaka."
+		}
+	},
+	"onboarding": {
+		"dashboard": {
+			"step1": {
+				"description": "TO TRANSLATE - Click on the <strong>+</strong> to create your first PIA.",
+				"title": "TO TRANSLATE - Create a PIA"
+			},
+			"step2": {
+				"description": "TO TRANSLATE - <p><strong>Editors</strong> write the first version of the analysis.</p><p>They are, for example, the project managers associated with the data processing.</p>",
+				"title": "TO TRANSLATE - PIA's roles"
+			},
+			"step3": {
+				"description": "TO TRANSLATE - <p><strong>Reviewers</strong> are involved in a second phase.</p><p>They use their legal or technical expertise to check the quality and compliance of the processing.</p><p>They are, for example, DPO, legal experts, ...</p>",
+				"title": "TO TRANSLATE - PIA's roles"
+			},
+			"step4": {
+				"description": "TO TRANSLATE - <p>The <strong>validator</strong> accepts or rejects the implementation of the processing. He must sign the analysis.</p><p>He is the controller, e.g. the CEO.</p>",
+				"title": "TO TRANSLATE - PIA's roles"
+			},
+			"step5": {
+				"description": "TO TRANSLATE - <p><strong>Templates</strong> are an advanced feature. They are used to create a pre-filled basis for the analysis.</p><p>You can create templates by going to the associated section accessible from the top menu.</p>",
+				"title": "TO TRANSLATE - Templates"
+			}
 		},
-		"general_error": {
-			"content": "TO TRANSLATE - All our apologies an error has occurred."
-    },
-    "knowledges": {
-			"content": "TO TRANSLATE - Are you sure you want to delete this knowledge base?",
-			"remove": "TO TRANSLATE - Delete this knowledge base"
-    },
-    "knowledge": {
-      "content": "TO TRANSLATE - Are you sure you want to delete this element?",
-      "remove": "TO TRANSLATE - Delete this element"
-    }
+		"entry": {
+			"step1": {
+				"description": "TO TRANSLATE - To move from one part of the analysis to another, use the left navigation menu.",
+				"title": "TO TRANSLATE - Browse"
+			},
+			"step2": {
+				"description": "TO TRANSLATE - This is used to explain the purpose of the processing and how it will be implemented.",
+				"title": "TO TRANSLATE - Context"
+			},
+			"step3": {
+				"description": "TO TRANSLATE - These aim to ensure that the processing complies with the GDPR.",
+				"title": "TO TRANSLATE - Fundamental principles"
+			},
+			"step4": {
+				"description": "TO TRANSLATE - These describe the security measures already planned for the processing operation and make it possible to assess its potential impact on the data subjects.",
+				"title": "TO TRANSLATE - Risks"
+			},
+			"step5": {
+				"description": "TO TRANSLATE - This allows the DPO to express her opinion on the implementation of the processing and the controller to accept or refuse it.",
+				"title": "TO TRANSLATE - Validation"
+			},
+			"step6": {
+				"description": "TO TRANSLATE - <p>It provides contextual assistance in carrying out the analysis and is based on the GDPR, the security guide and the CNIL's PIA guides</p><p>In addition to these contents, you can also create your own knowledge bases to easily access information specific to your organization.</p>",
+				"title": "TO TRANSLATE - The knowledge base"
+			},
+			"step7": {
+				"description": "TO TRANSLATE - At any time during the analysis, you can download the analysis in various formats to share it with your colleagues.",
+				"title": "TO TRANSLATE - Export your PIA"
+			}
+		},
+		"evaluation": {
+			"step1": {
+				"description": "TO TRANSLATE - The evaluation can take an entire section into account, or at the level of each element of a section.",
+				"title": "TO TRANSLATE - Evaluate the PIA"
+			},
+			"step2": {
+				"description": "TO TRANSLATE - <p>This evaluation indicates to the editors that elements are missing in order to make a relevant assessment.</p><p>The assessor must indicate these in the associated <strong>evaluation comment</strong> field. The editor will make the necessary corrections.</p>",
+				"title": "TO TRANSLATE - To correct"
+			},
+			"step3": {
+				"description": "TO TRANSLATE - <p>This assessment indicates the processing elements to be revised. They are detailed in the <strong>action plan / corrective action</strong> field.</p><p>These measures will be automatically added to the action plan part of the analysis. It is necessary to implement them as soon as possible.</p>",
+				"title": "TO TRANSLATE - Improvable"
+			},
+			"step4": {
+				"description": "TO TRANSLATE - This assessment means that this part of the processing can be implemented without modification.",
+				"title": "TO TRANSLATE - Acceptable"
+			},
+			"step5": {
+				"description": "TO TRANSLATE - If the assessment of a section has not yet begun, the request forassessment may be cancelled to make changes to the processing description.",
+				"title": "TO TRANSLATE - Cancel a request"
+			}
+		},
+		"general": {
+			"done": "Confirm",
+			"next": "Next",
+			"skip": "Skip"
+		},
+		"validated": {
+			"step1": {
+				"description": "TO TRANSLATE - A complete and validated analysis can be consulted at any time via a dedicated interface.",
+				"title": "TO TRANSLATE - Consult a validated PIA"
+			},
+			"step2": {
+				"description": "TO TRANSLATE - It is necessary to review regularly an analysis. You can edit or duplicate it at any time to review its content according to the processing evolution.",
+				"title": "TO TRANSLATE - Update a validated PIA"
+			}
+		}
 	},
 	"opinions": {
 		"content": ", razmotrite sljedeće :",
@@ -1480,96 +1621,5 @@
 		},
 		"validated_pia_with_signature": "Odobreno",
 		"waiting_for_signature": "Čeka se na potpis PUP-a"
-	},
-  "onboarding": {
-    "general": {
-      "next": "Next",
-      "skip": "Skip",
-      "done": "Confirm"
-    },
-    "dashboard": {
-      "step1": {
-        "title": "TO TRANSLATE - Create a PIA",
-        "description": "TO TRANSLATE - Click on the <strong>+</strong> to create your first PIA."
-      },
-      "step2": {
-        "title": "TO TRANSLATE - PIA's roles",
-        "description": "TO TRANSLATE - <p><strong>Editors</strong> write the first version of the analysis.</p><p>They are, for example, the project managers associated with the data processing.</p>"
-      },
-      "step3": {
-        "title": "TO TRANSLATE - PIA's roles",
-        "description": "TO TRANSLATE - <p><strong>Reviewers</strong> are involved in a second phase.</p><p>They use their legal or technical expertise to check the quality and compliance of the processing.</p><p>They are, for example, DPO, legal experts, ...</p>"
-      },
-      "step4": {
-        "title": "TO TRANSLATE - PIA's roles",
-        "description": "TO TRANSLATE - <p>The <strong>validator</strong> accepts or rejects the implementation of the processing. He must sign the analysis.</p><p>He is the controller, e.g. the CEO.</p>"
-      },
-      "step5": {
-        "title": "TO TRANSLATE - Templates",
-        "description": "TO TRANSLATE - <p><strong>Templates</strong> are an advanced feature. They are used to create a pre-filled basis for the analysis.</p><p>You can create templates by going to the associated section accessible from the top menu.</p>"
-      }
-		},
-		"entry": {
-			"step1": {
-				"title": "TO TRANSLATE - Browse",
-				"description": "TO TRANSLATE - To move from one part of the analysis to another, use the left navigation menu."
-			},
-			"step2": {
-				"title": "TO TRANSLATE - Context",
-				"description": "TO TRANSLATE - This is used to explain the purpose of the processing and how it will be implemented."
-			},
-			"step3": {
-				"title": "TO TRANSLATE - Fundamental principles",
-				"description": "TO TRANSLATE - These aim to ensure that the processing complies with the GDPR."
-			},
-			"step4": {
-				"title": "TO TRANSLATE - Risks",
-				"description": "TO TRANSLATE - These describe the security measures already planned for the processing operation and make it possible to assess its potential impact on the data subjects."
-			},
-			"step5": {
-				"title": "TO TRANSLATE - Validation",
-				"description": "TO TRANSLATE - This allows the DPO to express her opinion on the implementation of the processing and the controller to accept or refuse it."
-			},
-			"step6": {
-				"title": "TO TRANSLATE - The knowledge base",
-				"description": "TO TRANSLATE - <p>It provides contextual assistance in carrying out the analysis and is based on the GDPR, the security guide and the CNIL's PIA guides</p><p>In addition to these contents, you can also create your own knowledge bases to easily access information specific to your organization.</p>"
-			},
-			"step7": {
-				"title": "TO TRANSLATE - Export your PIA",
-				"description": "TO TRANSLATE - At any time during the analysis, you can download the analysis in various formats to share it with your colleagues."
-			}
-		},
-    "evaluation": {
-			"step1": {
-				"title": "TO TRANSLATE - Evaluate the PIA",
-				"description": "TO TRANSLATE - The evaluation can take an entire section into account, or at the level of each element of a section."
-			},
-			"step2": {
-				"title": "TO TRANSLATE - To correct",
-				"description": "TO TRANSLATE - <p>This evaluation indicates to the editors that elements are missing in order to make a relevant assessment.</p><p>The assessor must indicate these in the associated <strong>evaluation comment</strong> field. The editor will make the necessary corrections.</p>"
-			},
-			"step3": {
-				"title": "TO TRANSLATE - Improvable",
-				"description": "TO TRANSLATE - <p>This assessment indicates the processing elements to be revised. They are detailed in the <strong>action plan / corrective action</strong> field.</p><p>These measures will be automatically added to the action plan part of the analysis. It is necessary to implement them as soon as possible.</p>"
-			},
-			"step4": {
-				"title": "TO TRANSLATE - Acceptable",
-				"description": "TO TRANSLATE - This assessment means that this part of the processing can be implemented without modification."
-			},
-			"step5": {
-				"title": "TO TRANSLATE - Cancel a request",
-				"description": "TO TRANSLATE - If the assessment of a section has not yet begun, the request forassessment may be cancelled to make changes to the processing description."
-			}
-    },
-    "validated": {
-			"step1": {
-				"title": "TO TRANSLATE - Consult a validated PIA",
-				"description": "TO TRANSLATE - A complete and validated analysis can be consulted at any time via a dedicated interface."
-			},
-			"step2": {
-				"title": "TO TRANSLATE - Update a validated PIA",
-				"description": "TO TRANSLATE - It is necessary to review regularly an analysis. You can edit or duplicate it at any time to review its content according to the processing evolution."
-			}
-		}
-  }
+	}
 }

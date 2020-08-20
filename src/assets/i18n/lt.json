@@ -143,9 +143,9 @@
 		"logo_title": "Poveikio duomenų apsaugai vertinimas",
 		"structures": "PDAV šablonas",
 		"tools": {
-      "onboarding": "TO TRANSLATE - Restart tutorial",
 			"about": "Apie",
 			"accessibility": "Regėjimo sutrikimą turintiems (padidinto ryškumo spalvos, daltonismas)",
+			"onboarding": "TO TRANSLATE - Restart tutorial",
 			"settings": "Nustatymai",
 			"url_setting": "TO TRANSLATE - Server URL configuration"
 		}
@@ -203,7 +203,6 @@
 			"item": {
 				"consult_pia": "Peržiūrėti",
 				"consult_structure": "TO TRANSLATE - Consult template",
-        "validate_pia": "TO TRANSLATE - Validate",
 				"edit_pia": "Redaguoti",
 				"edit_structure": "Redaguoti šabloną",
 				"tools": {
@@ -215,7 +214,29 @@
 					"pia": "Atidaryti<br>PDAV",
 					"remove": "TO TRANSLATE - Delete",
 					"unarchive": "TO TRANSLATE - Unarchive"
-				}
+				},
+				"validate_pia": "TO TRANSLATE - Validate"
+			},
+			"knowledges": {
+				"edit": "TO TRANSLATE - Edit the base",
+				"import": "TO TRANSLATE - Import a base",
+				"new": "TO TRANSLATE - Create a base",
+				"placeholder_author": "TO TRANSLATE - Author",
+				"placeholder_contributors": "TO TRANSLATE - Contributors",
+				"placeholder_entry_number": "TO TRANSLATE - Number of entries",
+				"placeholder_name": "TO TRANSLATE - Base's name"
+			},
+			"knowledges_entry": {
+				"all_sections": "TO TRANSLATE - All sections",
+				"choose_category": "TO TRANSLATE - Choose a category",
+				"contents": "TO TRANSLATE - Contents",
+				"create": "TO TRANSLATE - Create this element",
+				"linked_to": "TO TRANSLATE - Linked to",
+				"new": "TO TRANSLATE - Create an element",
+				"placeholder_category": "TO TRANSLATE - Category",
+				"placeholder_description": "TO TRANSLATE - Your description here...",
+				"placeholder_name": "TO TRANSLATE - Element's name",
+				"placeholder_updated_at": "TO TRANSLATE - Last updated"
 			},
 			"new_pia": "Naujas PDAV",
 			"new_structure": "Naujas šablonas",
@@ -240,28 +261,7 @@
 			"structure": "Šablonas",
 			"structure_name": "Šablono pavadinimas",
 			"title_close_creation": "Uždaryti",
-			"validation": "Tvirtinimas",
-      "knowledges": {
-				"new": "TO TRANSLATE - Create a base",
-        "import": "TO TRANSLATE - Import a base",
-        "edit": "TO TRANSLATE - Edit the base",
-				"placeholder_name": "TO TRANSLATE - Base's name",
-				"placeholder_author": "TO TRANSLATE - Author",
-				"placeholder_contributors": "TO TRANSLATE - Contributors",
-				"placeholder_entry_number": "TO TRANSLATE - Number of entries"
-			},
-			"knowledges_entry": {
-        "new": "TO TRANSLATE - Create an element",
-        "create": "TO TRANSLATE - Create this element",
-				"placeholder_name": "TO TRANSLATE - Element's name",
-				"placeholder_category": "TO TRANSLATE - Category",
-				"placeholder_description": "TO TRANSLATE - Your description here...",
-				"placeholder_updated_at": "TO TRANSLATE - Last updated",
-        "contents": "TO TRANSLATE - Contents",
-        "choose_category":"TO TRANSLATE - Choose a category",
-        "linked_to": "TO TRANSLATE - Linked to",
-        "all_sections": "TO TRANSLATE - All sections"
-			}
+			"validation": "Tvirtinimas"
 		},
 		"filters": {
 			"assessor": "Tikrintoją",
@@ -316,8 +316,6 @@
 		"search_filter": "TO TRANSLATE - Search"
 	},
 	"knowledge_base": {
-    "choose_knowledge_base": "TO TRANSLATE - Choose your knowledge base",
-    "default_knowledge_base": "TO TRANSLATE - CNIL's knowledge base",
 		"add_measure": "Įvesti",
 		"add_measure_hint": "Galite pasirinkti priemonę iš Pagalboje pateikto jų sąrašo.",
 		"category": {
@@ -329,6 +327,8 @@
 			"organizational_measure": "Organizacinės apsaugos priemonės",
 			"principle": "Principas"
 		},
+		"choose_knowledge_base": "TO TRANSLATE - Choose your knowledge base",
+		"default_knowledge_base": "TO TRANSLATE - CNIL's knowledge base",
 		"filters": {
 			"all": "Visi",
 			"definitions": "Apibrėžimai",
@@ -453,103 +453,153 @@
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN2": {
+				"descripción": "",
 				"description": "Tam tikrais atvejais gavus jautrius duomenis, jie gali būti transformuojami į mažiau jautrius duomenis arba jiems gali būti suteikti pseudonimai. Pavyzdžiui: <br>-jei programoje tvarkomi IP adresai, kad statistiniais tikslais būtų galima nustatyti vartotojo geografinę vietą, tai, nustačius miestą ar regioną, IP adresą būtų galima ištrinti <br>-jei programoje renkami ir tvarkomi vaizdo duomenys, gaunami iš video stebėjimo sistemų, tai žmonių atvaizdus galima būtų retušuoti-jei naudojami išmanieji skaitikliai, tai galima apskaičiuoti bendrą energijos suvartojimą tam tikru laikotarpiu ir energijos suvartojimo neregistruoti realiuoju laiku.",
+				"fuente": "",
 				"name": "Duomenų jautrumo sumažinimas jų transformavimo pagalba",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN3": {
+				"descripción": "",
 				"description": "IT sistema gali leisti:<br>- vartotojui naudotis paslaugomis ar kitais resursais, neatskleidžiant savo tapatybės (tvarkomi tik anoniminiai vartotojų duomenys)<br>- vartotojui naudotis paslaugomis ar kitais resursais, neatskleidžiant savo tapatybės. Tačiau vartotojui suteikiant pseudonimus <br>- vartotojui naudotis paslaugomis ar kitais resursais be rizikos, kad visi jo skirtingi veiksmai bus tarpusavyje susieti ir apjungti<br>- vartotojui naudotis paslaugomis ar kitais resursais be galimybės trečiosioms šalis stebėti jo elgseną<br> Konkretaus iš minėtų būdų pasirinkimas priklauso nuo nustatytų galimų grėsmių privatumui. Dėl kai kurių grėsmių pseudonimų suteikimas yra tinkamesnis būdas nei duomenų nuasmeninimas (pvz., jei reikalingas veiksmų atsekamumas). Dėl tam tikrų grėsmių galima naudoti keletą būdų.",
+				"fuente": "",
 				"name": "Žmogų indentifikuojančių duomenų sumažinimas",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN4": {
+				"descripción": "",
 				"description": "IT sistema gali būti suskaidyta į atskiras dalis, turinčiomis atskiras prieigos kontroles. Duomenis taip pat galima paskirstyti tarp šių atskirų posistemių ir kontroliuoti kiekvieną posistemę naudojant skirtingus prieigos kontrolės mechanizmus. Jei viena iš posistemių yra pažeista, poveikis visiems duomenims gali būti reikšmingai sumažintas.",
+				"fuente": "",
 				"name": "Duomenų saugojimo išskaidymas",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN5": {
+				"descripción": "",
 				"description": "Prieigą prie duomenų galima riboti pagal principą \"tik tam, kam būtina\". Sistemoje galima laikyti specialių kategorijų duomenis atskirai ir dar griežčiau riboti prieigą prie jų. Specialių kategorijų duomenys gali būti šifruojami tiek juos saugant, tiek perduodant tinkle. Prieiga prie slapukų surinktų duomenų taip pat turi būti apsaugota.",
+				"fuente": "",
 				"name": "Prieigos prie duomenų ribojimas",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MINC": {
+				"Descripción": "",
 				"description": "Riziką galima sumažinti, sumažinant tvarkomų asmens duomenų apimtį. Reikia rinkti ir tvarkyti tik tuos duomenis, kurie būtini duomenų tvarkymo tikslui pasiekti.",
+				"fuente": "",
 				"name": "Asmens duomenų apimties mažinimas",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIND": {
+				"descripción": "",
 				"description": "Sumažinti riziką galimą, sumažinant tvarkomų duomenų kiekį ir sumažinant jų jautrumą pseudonimų suteikimo pagalba, ištrinant nebereikalingus duomenis, filtravimo pagalba ir pan.",
+				"fuente": "",
 				"name": "Asmens duomenų kiekio mažinimas",
 				"source": "PIA3 p64"
 			},
 			"PIA_DEF_OPP": {
+				"descripción": "",
 				"description": "Duomenų subjektas turi teisę dėl su jo konkrečiu atveju susijusių priežasčių bet kuriuo metu nesutikti, kad su juo susiję asmens duomenys būtų tvarkomi pagal <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/LT/TXT/HTML/?uri=CELEX:32016R0679&from=LT\">21 str. [BDAR]</a>",
+				"fuente": "",
 				"name": "Teisė nesutikti",
 				"source": "BDAR 21 str."
 			},
 			"PIA_DEF_PBDS": {
+				"descripción": "",
 				"description": "Priemonės, kurių imamasi diegiant duomenų apsaugos reikalavimus naujuose projektuose.",
+				"fuente": "",
 				"name": "Projekto valdymas",
+				"nombre": "",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_PC": {
+				"descripción": "",
 				"description": "Žmogus, kurio asmens duomenys yra tvarkomi.",
+				"fuente": "",
 				"name": "Duomenų subjektas",
 				"source": "PIA1 p9"
 			},
 			"PIA_DEF_PORT": {
+				"descripción": "",
 				"description": "Duomenų subjektas turi teisę gauti su juo susijusius asmens duomenis, kuriuos jis pateikė duomenų valdytojui susistemintu, įprastai naudojamu ir kompiuterio skaitomu formatu, ir turi teisę persiųsti tuos duomenis kitam duomenų valdytojui, o duomenų valdytojas, kuriam asmens duomenys buvo pateikti, turi nesudaryti tam kliūčių, žr. <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/LT/TXT/HTML/?uri=CELEX:32016R0679&from=LT\">20 str. [BDAR]</a>",
+				"fuente": "",
 				"name": "Teisė į duomenų perkeliamumą",
 				"source": "BDAR 20 str."
 			},
 			"PIA_DEF_PSEU": {
+				"descripción": "",
 				"description": "Asmens duomenų tvarkymas taip, kad asmens duomenys nebegalėtų būti priskirti konkrečiam duomenų subjektui nesinaudojant papildoma informacija, jeigu tokia papildoma informacija yra saugoma atskirai ir jos atžvilgiu taikomos techninės bei organizacinės priemonės siekiant užtikrinti asmens duomenų nepriskyrimą fiziniam asmeniui, kurio tapatybė yra nustatyta arba kurio tapatybę galima nustatyti. .<br>Pseudonimų suteikimas sumažina riziką, kad duomenys bus susieti su konkrečiu duomenų subjektu, tai naudingas metodas, tačiau tai nėra tas pats, kas duomenų nuasmeninimas.",
+				"fuente": "",
 				"name": "Pseudonimų duomenims suteikimas",
+				"nombre": "",
 				"source": "BDAR 4 str. 5 d. ir 29 Darbo Grupės nuomonė žr. http://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2014/wp216_lt.pdf"
 			},
 			"PIA_DEF_PWD": {
+				"descripción": "",
 				"description": "Slaptažodžius turi sudaryti ne mažiau kaip aštuoni simboliai. Slaptažodžiai turi būti keičiami, ypač tuomet, jei kyla bent mažiausių abejonių dėl to, kad slaptažodį galėjo sužinoti kitas asmuo. Periodiškai slaptažodžiai gali būti keičiami kas tris, šešis mėnesius arba kartą per metus. Slaptažodžius turėtų sudaryti bent trys iš keturių simbolių rūšių (didžiosios raidės, mažosios raidės, skaitmenys ir specialieji simboliai). Keičiant slaptažodį negalima vietoj jo naudoti penkių paskutinių prieš tai jau naudotų slaptažodžių. Tas pats slaptažodis neturėtų būti naudojamas autentifikuotis skirtingose prieigose. Slaptažodžiai neturėtų būti susiję su asmenine informacija (pvz., vardu ar gimimo data). Nustatykite maksimalų slaptažodžio įvedimo bandymų skaičių su įspėjimu apie autentifikavimosi užblokavimą (laikinai arba kol jis bus rankiniu būdu atblokuotas).",
+				"fuente": "",
 				"name": "Slaptažodžiai",
+				"nombre": "",
 				"source": "Mesure_US"
 			},
 			"PIA_DEF_RECT": {
+				"descripción": "",
 				"description": "Duomenų subjektas turi teisę reikalauti, kad duomenų valdytojas nepagrįstai nedelsdamas ištaisytų netikslius su juo susijusius asmens duomenis. Atsižvelgiant į tikslus, kuriais duomenys buvo tvarkomi, duomenų subjektas turi teisę reikalauti, kad būtų papildyti neišsamūs asmens duomenys, be kita ko, pateikdamas papildomą pareiškimą.",
+				"fuente": "",
 				"name": "Teisė reikalauti ištaisyti duomenis",
+				"nombre": "",
 				"source": "BDAR 16 str."
 			},
 			"PIA_DEF_RGPD": {
+				"Descripción": "",
 				"description": "Reglamentas (ES) 2016/679 dėl fizinių asmenų apsaugos tvarkant asmens duomenis ir dėl laisvo tokių duomenų judėjimo ir kuriuo panaikinama Direktyva 95/46/EB.",
+				"fuente": "",
 				"name": "BDAR (Bendrasis duomenų apsaugos reglamentas)",
 				"source": "BDAR pavadinimas"
 			},
 			"PIA_DEF_RT": {
+				"descripción": "",
 				"description": "fizinis arba juridinis asmuo, valdžios institucija, agentūra ar kita įstaiga, kuris vienas ar drauge su kitais nustato duomenų tvarkymo tikslus ir priemones; kai tokio duomenų tvarkymo tikslai ir priemonės nustatyti Sąjungos arba valstybės narės teisės, duomenų valdytojas arba konkretūs jo skyrimo kriterijai gali būti nustatyti Sąjungos arba valstybės narės teise.<br>Žr. <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/LT/TXT/HTML/?uri=CELEX:32016R0679&from=LT\"> 4 str. 7 d. [BDAR]</a>",
+				"fuente": "",
 				"name": "Duomenų valdytojas",
+				"nombre": "",
 				"source": "BDAR 4 str. 7 d."
 			},
 			"PIA_DEF_SRC": {
+				"descripción": "",
 				"description": "Riziką gali sukelti žmogaus veiksmai ir ne nuo žmogaus priklausantys faktoriai. Tai gali įvykti atsitiktinai arba sukelti tyčia.",
+				"fuente": "",
 				"name": "Rizikos šaltiniai",
+				"nombre": "",
 				"source": "PIA1 p11 - WIKI"
 			},
 			"PIA_DEF_ST": {
+				"descripción": "",
 				"description": "Fizinis arba juridinis asmuo, valdžios institucija, agentūra ar kita įstaiga, kuri duomenų valdytojo vardu tvarko asmens duomenis, žr. <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/LT/TXT/HTML/?uri=CELEX:32016R0679&from=LT\">4 str. 8 d. [BDAR]</a>. Duomenų tvarkytojas tvarko asmens duomenis tik pagal duomenų valdytojo dokumentais įformintus nurodymus, įskaitant susijusius su asmens duomenų perdavimu į trečiąją valstybę ar tarptautinei organizacijai, išskyrus atvejus, kai tai daryti reikalaujama pagal Sąjungos arba valstybės narės teisę, kuri yra taikoma duomenų tvarkytojui, žr. <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/LT/TXT/HTML/?uri=CELEX:32016R0679&from=LT\">29 str. [BDAR]</a>",
+				"fuente": "",
 				"name": "Duomenų tvarkytojas",
+				"nombre": "",
 				"source": "BDAR 4 str. 8 d. ir 29 str."
 			},
 			"PIA_DEF_SUPT": {
+				"descripción": "",
 				"description": "Ištekliai, nuo kurių priklauso duomenų tvarkymas. Jais gali būti techninė įranga, programinė įranga, tinklas, žmonės, popieriniai dokumentai, dokumentų perdavimo sistemos.",
+				"fuente": "",
 				"name": "Pagalbiniai ištekliai",
+				"nombre": "",
 				"source": "PIA1 p10"
 			},
 			"PIA_DEF_VIOL": {
+				"descripción": "",
 				"description": "Saugumo pažeidimas, dėl kurio netyčia arba neteisėtai sunaikinami, prarandami, pakeičiami, be leidimo atskleidžiami persiųsti, saugomi arba kitaip tvarkomi asmens duomenys arba prie jų be leidimo gaunama prieiga.",
+				"fuente": "",
 				"name": "Asmens duomenų saugumo pažeidimas",
+				"nombre": "",
 				"source": "BDAR 4 str. 12 d."
 			},
 			"PIA_DEF_VRA": {
+				"Descripción": "",
 				"description": "Tikimybė, kad įvyks potenciali rizika. Tikimybės dydis priklauso nuo įrangos ir kitų išteklių pažeidžiamumo laipsnio ir riziką sukeliančių šaltinių potencialo juos pažeisti.",
+				"fuente": "",
 				"name": "Tikimybė",
+				"nombre": "",
 				"source": "PIA1 page 6"
 			},
 			"PIA_EX_DC": {
@@ -933,11 +983,22 @@
 			"remove": "Ištrinti",
 			"review_section": "Peržiūra"
 		},
+		"general_error": {
+			"content": "TO TRANSLATE - All our apologies an error has occurred."
+		},
 		"import_wrong_pia_file": {
 			"content": "Importuotas failas skiriasi nuo PDAV ataskaitos failo"
 		},
 		"import_wrong_structure_file": {
 			"content": "Importuotas failas skiriasi nuo PDAV ataskaitos failo"
+		},
+		"knowledge": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
+			"remove": "TO TRANSLATE - Delete this element"
+		},
+		"knowledges": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this knowledge base?",
+			"remove": "TO TRANSLATE - Delete this knowledge base"
 		},
 		"modal_select_text_pia": {
 			"content": "PDAV turinys buvo nukopijuotas į kompiuterio laikiną atmintį."
@@ -1003,18 +1064,98 @@
 		},
 		"validate_evaluation_to_correct": {
 			"content": "Deja,<br>Tam tikri laukeliai turi būti pataisyti.<br>Grįžti į redagavimo būseną tam, kad atlikti pakeitimus."
+		}
+	},
+	"onboarding": {
+		"dashboard": {
+			"step1": {
+				"description": "TO TRANSLATE - Click on the <strong>+</strong> to create your first PIA.",
+				"title": "TO TRANSLATE - Create a PIA"
+			},
+			"step2": {
+				"description": "TO TRANSLATE - <p><strong>Editors</strong> write the first version of the analysis.</p><p>They are, for example, the project managers associated with the data processing.</p>",
+				"title": "TO TRANSLATE - PIA's roles"
+			},
+			"step3": {
+				"description": "TO TRANSLATE - <p><strong>Reviewers</strong> are involved in a second phase.</p><p>They use their legal or technical expertise to check the quality and compliance of the processing.</p><p>They are, for example, DPO, legal experts, ...</p>",
+				"title": "TO TRANSLATE - PIA's roles"
+			},
+			"step4": {
+				"description": "TO TRANSLATE - <p>The <strong>validator</strong> accepts or rejects the implementation of the processing. He must sign the analysis.</p><p>He is the controller, e.g. the CEO.</p>",
+				"title": "TO TRANSLATE - PIA's roles"
+			},
+			"step5": {
+				"description": "TO TRANSLATE - <p><strong>Templates</strong> are an advanced feature. They are used to create a pre-filled basis for the analysis.</p><p>You can create templates by going to the associated section accessible from the top menu.</p>",
+				"title": "TO TRANSLATE - Templates"
+			}
 		},
-		"general_error": {
-			"content": "TO TRANSLATE - All our apologies an error has occurred."
-    },
-    "knowledges": {
-			"content": "TO TRANSLATE - Are you sure you want to delete this knowledge base?",
-			"remove": "TO TRANSLATE - Delete this knowledge base"
-    },
-    "knowledge": {
-      "content": "TO TRANSLATE - Are you sure you want to delete this element?",
-      "remove": "TO TRANSLATE - Delete this element"
-    }
+		"entry": {
+			"step1": {
+				"description": "TO TRANSLATE - To move from one part of the analysis to another, use the left navigation menu.",
+				"title": "TO TRANSLATE - Browse"
+			},
+			"step2": {
+				"description": "TO TRANSLATE - This is used to explain the purpose of the processing and how it will be implemented.",
+				"title": "TO TRANSLATE - Context"
+			},
+			"step3": {
+				"description": "TO TRANSLATE - These aim to ensure that the processing complies with the GDPR.",
+				"title": "TO TRANSLATE - Fundamental principles"
+			},
+			"step4": {
+				"description": "TO TRANSLATE - These describe the security measures already planned for the processing operation and make it possible to assess its potential impact on the data subjects.",
+				"title": "TO TRANSLATE - Risks"
+			},
+			"step5": {
+				"description": "TO TRANSLATE - This allows the DPO to express her opinion on the implementation of the processing and the controller to accept or refuse it.",
+				"title": "TO TRANSLATE - Validation"
+			},
+			"step6": {
+				"description": "TO TRANSLATE - <p>It provides contextual assistance in carrying out the analysis and is based on the GDPR, the security guide and the CNIL's PIA guides</p><p>In addition to these contents, you can also create your own knowledge bases to easily access information specific to your organization.</p>",
+				"title": "TO TRANSLATE - The knowledge base"
+			},
+			"step7": {
+				"description": "TO TRANSLATE - At any time during the analysis, you can download the analysis in various formats to share it with your colleagues.",
+				"title": "TO TRANSLATE - Export your PIA"
+			}
+		},
+		"evaluation": {
+			"step1": {
+				"description": "TO TRANSLATE - The evaluation can take an entire section into account, or at the level of each element of a section.",
+				"title": "TO TRANSLATE - Evaluate the PIA"
+			},
+			"step2": {
+				"description": "TO TRANSLATE - <p>This evaluation indicates to the editors that elements are missing in order to make a relevant assessment.</p><p>The assessor must indicate these in the associated <strong>evaluation comment</strong> field. The editor will make the necessary corrections.</p>",
+				"title": "TO TRANSLATE - To correct"
+			},
+			"step3": {
+				"description": "TO TRANSLATE - <p>This assessment indicates the processing elements to be revised. They are detailed in the <strong>action plan / corrective action</strong> field.</p><p>These measures will be automatically added to the action plan part of the analysis. It is necessary to implement them as soon as possible.</p>",
+				"title": "TO TRANSLATE - Improvable"
+			},
+			"step4": {
+				"description": "TO TRANSLATE - This assessment means that this part of the processing can be implemented without modification.",
+				"title": "TO TRANSLATE - Acceptable"
+			},
+			"step5": {
+				"description": "TO TRANSLATE - If the assessment of a section has not yet begun, the request forassessment may be cancelled to make changes to the processing description.",
+				"title": "TO TRANSLATE - Cancel a request"
+			}
+		},
+		"general": {
+			"done": "Confirm",
+			"next": "Next",
+			"skip": "Skip"
+		},
+		"validated": {
+			"step1": {
+				"description": "TO TRANSLATE - A complete and validated analysis can be consulted at any time via a dedicated interface.",
+				"title": "TO TRANSLATE - Consult a validated PIA"
+			},
+			"step2": {
+				"description": "TO TRANSLATE - It is necessary to review regularly an analysis. You can edit or duplicate it at any time to review its content according to the processing evolution.",
+				"title": "TO TRANSLATE - Update a validated PIA"
+			}
+		}
 	},
 	"opinions": {
 		"content": ", atsižvelgiant kad :",
@@ -1480,96 +1621,5 @@
 		},
 		"validated_pia_with_signature": "Patvirtinta",
 		"waiting_for_signature": "Laukiama PDAV pasirašymo"
-	},
-  "onboarding": {
-    "general": {
-      "next": "Next",
-      "skip": "Skip",
-      "done": "Confirm"
-    },
-    "dashboard": {
-      "step1": {
-        "title": "TO TRANSLATE - Create a PIA",
-        "description": "TO TRANSLATE - Click on the <strong>+</strong> to create your first PIA."
-      },
-      "step2": {
-        "title": "TO TRANSLATE - PIA's roles",
-        "description": "TO TRANSLATE - <p><strong>Editors</strong> write the first version of the analysis.</p><p>They are, for example, the project managers associated with the data processing.</p>"
-      },
-      "step3": {
-        "title": "TO TRANSLATE - PIA's roles",
-        "description": "TO TRANSLATE - <p><strong>Reviewers</strong> are involved in a second phase.</p><p>They use their legal or technical expertise to check the quality and compliance of the processing.</p><p>They are, for example, DPO, legal experts, ...</p>"
-      },
-      "step4": {
-        "title": "TO TRANSLATE - PIA's roles",
-        "description": "TO TRANSLATE - <p>The <strong>validator</strong> accepts or rejects the implementation of the processing. He must sign the analysis.</p><p>He is the controller, e.g. the CEO.</p>"
-      },
-      "step5": {
-        "title": "TO TRANSLATE - Templates",
-        "description": "TO TRANSLATE - <p><strong>Templates</strong> are an advanced feature. They are used to create a pre-filled basis for the analysis.</p><p>You can create templates by going to the associated section accessible from the top menu.</p>"
-      }
-		},
-		"entry": {
-			"step1": {
-				"title": "TO TRANSLATE - Browse",
-				"description": "TO TRANSLATE - To move from one part of the analysis to another, use the left navigation menu."
-			},
-			"step2": {
-				"title": "TO TRANSLATE - Context",
-				"description": "TO TRANSLATE - This is used to explain the purpose of the processing and how it will be implemented."
-			},
-			"step3": {
-				"title": "TO TRANSLATE - Fundamental principles",
-				"description": "TO TRANSLATE - These aim to ensure that the processing complies with the GDPR."
-			},
-			"step4": {
-				"title": "TO TRANSLATE - Risks",
-				"description": "TO TRANSLATE - These describe the security measures already planned for the processing operation and make it possible to assess its potential impact on the data subjects."
-			},
-			"step5": {
-				"title": "TO TRANSLATE - Validation",
-				"description": "TO TRANSLATE - This allows the DPO to express her opinion on the implementation of the processing and the controller to accept or refuse it."
-			},
-			"step6": {
-				"title": "TO TRANSLATE - The knowledge base",
-				"description": "TO TRANSLATE - <p>It provides contextual assistance in carrying out the analysis and is based on the GDPR, the security guide and the CNIL's PIA guides</p><p>In addition to these contents, you can also create your own knowledge bases to easily access information specific to your organization.</p>"
-			},
-			"step7": {
-				"title": "TO TRANSLATE - Export your PIA",
-				"description": "TO TRANSLATE - At any time during the analysis, you can download the analysis in various formats to share it with your colleagues."
-			}
-		},
-    "evaluation": {
-			"step1": {
-				"title": "TO TRANSLATE - Evaluate the PIA",
-				"description": "TO TRANSLATE - The evaluation can take an entire section into account, or at the level of each element of a section."
-			},
-			"step2": {
-				"title": "TO TRANSLATE - To correct",
-				"description": "TO TRANSLATE - <p>This evaluation indicates to the editors that elements are missing in order to make a relevant assessment.</p><p>The assessor must indicate these in the associated <strong>evaluation comment</strong> field. The editor will make the necessary corrections.</p>"
-			},
-			"step3": {
-				"title": "TO TRANSLATE - Improvable",
-				"description": "TO TRANSLATE - <p>This assessment indicates the processing elements to be revised. They are detailed in the <strong>action plan / corrective action</strong> field.</p><p>These measures will be automatically added to the action plan part of the analysis. It is necessary to implement them as soon as possible.</p>"
-			},
-			"step4": {
-				"title": "TO TRANSLATE - Acceptable",
-				"description": "TO TRANSLATE - This assessment means that this part of the processing can be implemented without modification."
-			},
-			"step5": {
-				"title": "TO TRANSLATE - Cancel a request",
-				"description": "TO TRANSLATE - If the assessment of a section has not yet begun, the request forassessment may be cancelled to make changes to the processing description."
-			}
-    },
-    "validated": {
-			"step1": {
-				"title": "TO TRANSLATE - Consult a validated PIA",
-				"description": "TO TRANSLATE - A complete and validated analysis can be consulted at any time via a dedicated interface."
-			},
-			"step2": {
-				"title": "TO TRANSLATE - Update a validated PIA",
-				"description": "TO TRANSLATE - It is necessary to review regularly an analysis. You can edit or duplicate it at any time to review its content according to the processing evolution."
-			}
-		}
-  }
+	}
 }

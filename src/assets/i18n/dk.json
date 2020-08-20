@@ -143,9 +143,9 @@
 		"logo_title": "PIA Konsekvensanalyse",
 		"structures": "PIA skabelon",
 		"tools": {
-      "onboarding": "TO TRANSLATE - Restart tutorial",
 			"about": "Om applikationen",
 			"accessibility": "Øget tilgængelighed (høje kontrast farver, daltonism)",
+			"onboarding": "TO TRANSLATE - Restart tutorial",
 			"settings": "Konfiguration",
 			"url_setting": "TO TRANSLATE - Server URL configuration"
 		}
@@ -203,7 +203,6 @@
 			"item": {
 				"consult_pia": "Konsultere",
 				"consult_structure": "TO TRANSLATE - Consult template",
-        "validate_pia": "TO TRANSLATE - Validate",
 				"edit_pia": "Redigere",
 				"edit_structure": "Redigere skabelon",
 				"tools": {
@@ -215,7 +214,29 @@
 					"pia": "Vis<br>PIA",
 					"remove": "TO TRANSLATE - Delete",
 					"unarchive": "TO TRANSLATE - Unarchive"
-				}
+				},
+				"validate_pia": "TO TRANSLATE - Validate"
+			},
+			"knowledges": {
+				"edit": "TO TRANSLATE - Edit the base",
+				"import": "TO TRANSLATE - Import a base",
+				"new": "TO TRANSLATE - Create a base",
+				"placeholder_author": "TO TRANSLATE - Author",
+				"placeholder_contributors": "TO TRANSLATE - Contributors",
+				"placeholder_entry_number": "TO TRANSLATE - Number of entries",
+				"placeholder_name": "TO TRANSLATE - Base's name"
+			},
+			"knowledges_entry": {
+				"all_sections": "TO TRANSLATE - All sections",
+				"choose_category": "TO TRANSLATE - Choose a category",
+				"contents": "TO TRANSLATE - Contents",
+				"create": "TO TRANSLATE - Create this element",
+				"linked_to": "TO TRANSLATE - Linked to",
+				"new": "TO TRANSLATE - Create an element",
+				"placeholder_category": "TO TRANSLATE - Category",
+				"placeholder_description": "TO TRANSLATE - Your description here...",
+				"placeholder_name": "TO TRANSLATE - Element's name",
+				"placeholder_updated_at": "TO TRANSLATE - Last updated"
 			},
 			"new_pia": "Ny PIA",
 			"new_structure": "Ny skabelon",
@@ -240,28 +261,7 @@
 			"structure": "Skabelon",
 			"structure_name": "Titel på skabelon",
 			"title_close_creation": "Luk",
-			"validation": "Validation",
-      "knowledges": {
-				"new": "TO TRANSLATE - Create a base",
-        "import": "TO TRANSLATE - Import a base",
-        "edit": "TO TRANSLATE - Edit the base",
-				"placeholder_name": "TO TRANSLATE - Base's name",
-				"placeholder_author": "TO TRANSLATE - Author",
-				"placeholder_contributors": "TO TRANSLATE - Contributors",
-				"placeholder_entry_number": "TO TRANSLATE - Number of entries"
-			},
-			"knowledges_entry": {
-        "new": "TO TRANSLATE - Create an element",
-        "create": "TO TRANSLATE - Create this element",
-				"placeholder_name": "TO TRANSLATE - Element's name",
-				"placeholder_category": "TO TRANSLATE - Category",
-				"placeholder_description": "TO TRANSLATE - Your description here...",
-				"placeholder_updated_at": "TO TRANSLATE - Last updated",
-        "contents": "TO TRANSLATE - Contents",
-        "choose_category":"TO TRANSLATE - Choose a category",
-        "linked_to": "TO TRANSLATE - Linked to",
-        "all_sections": "TO TRANSLATE - All sections"
-			}
+			"validation": "Validation"
 		},
 		"filters": {
 			"assessor": "Analytiker",
@@ -316,8 +316,6 @@
 		"search_filter": "TO TRANSLATE - Search"
 	},
 	"knowledge_base": {
-    "choose_knowledge_base": "TO TRANSLATE - Choose your knowledge base",
-    "default_knowledge_base": "TO TRANSLATE - CNIL's knowledge base",
 		"add_measure": "Tilføj",
 		"add_measure_hint": "Du kan også tilføje en sikkerhedsforanstaltning fra vidensbasen.",
 		"category": {
@@ -329,6 +327,8 @@
 			"organizational_measure": "Organisatorisk foranstaltning",
 			"principle": "Principper"
 		},
+		"choose_knowledge_base": "TO TRANSLATE - Choose your knowledge base",
+		"default_knowledge_base": "TO TRANSLATE - CNIL's knowledge base",
 		"filters": {
 			"all": "Alle",
 			"definitions": "Definitioner",
@@ -453,103 +453,153 @@
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN2": {
+				"descripción": "",
 				"description": "Når følsomme personoplysninger modtages, enten som et standard datasæt eller for statistisk brug, kan disse eventuelt konverteres til et lavere følsomhedsniveau eller pseudonymiseret. For eksemple : <br>- Hvis systemet indsamler en IP addresse for at kende en geografisk placering med henblik på geostatistik, kan IP addressen slettes når by eller region er afklaret<br>- Hvis et system modtager videooptagelser for overvågningskamerarer, og personer kan genkendes, så kan disse sløres<br>- Hvis systemet er et smartmeter, kan energi informationer aggregeres over tid, uden realtidsoptagelser",
+				"fuente": "",
 				"name": "Formindske følsomhed ved konversion",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN3": {
+				"descripción": "",
 				"description": "Systemet sikre at: <br>- brugeren kan bruge en ressource eller tjeneste uden risiko for at afgive sin identitet (anonymitet)<br>- brugeren kan bruge en ressource eller tjeneste, men forbliver identificeret og ansvarlig for denne brug (pseudonym data)<br>- brugeren kan bruge en ressource eller tjeneste, forbliver identificeret men uden at personoplysningerne bliver korreleret (pseudonym data)<br>- brugeren kan bruge en ressource eller tjeneste uden risiko for, at andre, især tredjeparter, er i stand til at observere, at ressourcen eller tjenesten bliver brugt (ikke-observerbarhed)<br>Valget af en metode fra listen ovenfor afhænger af de identificerede trusler. For nogle typer af trusler for privatlivet, vil pseudonymisering være mere passende end anonymisering (for eksempel hvis der er behov for sporbarhed). Derudover vil nogle trusler for beskyttelse af privatlivet blive behandlet af en kombination af flere metoder.",
+				"fuente": "",
 				"name": "Reduktion af personoplysningernes henførbarhed",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN4": {
+				"descripción": "",
 				"description": "Systemet kan struktureres i uafhængige dele med separate adgangskontrolfunktioner. Personoplysninger kan også fordeles mellem disse uafhængige delsystemer og hvor hvert delsystem har forskellige adgangskontrolmekanismer. Hvis et delsystem er kompromitteret, kan konsekvenserne på datasættet reduceres.",
+				"fuente": "",
 				"name": "Formindske akkumulering af personoplysninger",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN5": {
+				"descripción": "",
 				"description": "Systemet kan begrænse adgangen til data i henhold til need-to-know princippet. Systemet kan adskille følsomme personoplysninger og anvende specifikke adgangskontrolpolitikker. Systemet kan også kryptere følsomme personoplysninger for at beskytte deres fortrolighed under transmission og opbevaring. Adgang til midlertidige skjulte filer, der produceres under databehandling, bør også beskyttes.",
+				"fuente": "",
 				"name": "Begræning af adgang til personoplysninger",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MINC": {
+				"Descripción": "",
 				"description": "Minimering af indsamling mindsker risiko niveauet for registerede ved kun at indsamle nødvendige personoplysninger til et specifikt behandlingsformål, ellers skal oplysningerne ikke indsamles.",
+				"fuente": "",
 				"name": "Minimering ved indsamling af personoplysninger",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIND": {
+				"descripción": "",
 				"description": "Risiko niveauet for registerede formindskes ved minimering af personoplysninger. Personoplynsingernes følsomhed kan mindskes, irellevante personoplysninger slettes, personoplysninger kan pseudonymiseres, osv.",
+				"fuente": "",
 				"name": "Minimering af personoplysninger",
 				"source": "PIA3 p64"
 			},
 			"PIA_DEF_OPP": {
+				"descripción": "",
 				"description": "Den registrerede har til enhver tid ret til af grunde, der vedrører den pågældendes særlige situation, at gøre indsigelse mod behandling af sine personoplysninger, jf. <a target=\"_blank\" href=\"https://eur-lex.europa.eu/legal-content/DA/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 21 af [GDPR]</a>",
+				"fuente": "",
 				"name": "Ret til indsigelse",
 				"source": "GDPR Art. 21"
 			},
 			"PIA_DEF_PBDS": {
+				"descripción": "",
 				"description": "Foranstaltninger, der træffes for at inkorporere beskyttelsen af personoplysninger i alle nye behandlingsoperationer (retningslinjer, metoder til risikostyring).",
+				"fuente": "",
 				"name": "Projekt styring",
+				"nombre": "",
 				"source": "Mesures_US"
 			},
 			"PIA_DEF_PC": {
+				"descripción": "",
 				"description": "Person, den registrerede, der ejer personoplysningerne indeholdt i behandlingen.",
+				"fuente": "",
 				"name": "Data subject",
 				"source": "PIA1 p9"
 			},
 			"PIA_DEF_PORT": {
+				"descripción": "",
 				"description": " Den registrerede har ret til i et struktureret, almindeligt forståeligt og maskinlæsbart format at modtage personoplysninger om sig selv, som vedkommende har givet til en dataansvarlig, og har ret til at transmittere disse oplysninger til en anden dataansvarlig uden hindring fra den dataansvarlige, som personoplysningerne er blevet givet til, se <a target=\"_blank\" href=\"https://eur-lex.europa.eu/legal-content/DA/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 20 of [GDPR]</a>",
+				"fuente": "",
 				"name": "Ret til dataportabilitet",
 				"source": "GDPR Art. 20"
 			},
 			"PIA_DEF_PSEU": {
+				"descripción": "",
 				"description": "Pseudonymisering er i databeskyttelsesforordningen defineret som behandling af personoplysninger på en sådan måde, at personoplysningerne ikke længere kan henføres til en bestemt registreret uden brug af supplerende oplysninger, forudsat at sådanne supplerende oplysninger opbevares separat og er underlagt tekniske og organisatoriske foranstaltninger for at sikre, at personoplysningerne ikke henføres til en identificeret eller identificerbar fysisk person.<br>Pseudonymisering reducerer linkbarheden af et datasæt med den registrerede persons oprindelige identitet; som sådan er det en nyttig sikkerhedsforanstaltning, men ikke en metode til anonymisering.",
+				"fuente": "",
 				"name": "Pseudonymisering",
+				"nombre": "",
 				"source": "GDPR Art. 4.5"
 			},
 			"PIA_DEF_PWD": {
+				"descripción": "",
 				"description": "Det anbefales at definere krav til adgangskoder (Passwords) afhængig af følsomheden af informationer der skal beskyttes. Således kan en Password politik sætte regler og krav til organisationens brug af passwords : længde, brug af specialkaraktere, forbud med brug af personoplysninger, levetid, genbrug af samme passwords, maximum login fejl, sikker reset procedure, osv.",
+				"fuente": "",
 				"name": "Password",
+				"nombre": "",
 				"source": "Mesure_US"
 			},
 			"PIA_DEF_RECT": {
+				"descripción": "",
 				"description": "Den registrerede har ret til at få urigtige personoplysninger om sig selv berigtiget af den dataansvarlige uden unødig forsinkelse. Den registrerede har under hensyntagen til formålene med behandlingen ret til få fuldstændiggjort ufuldstændige personoplysninger, bl.a. ved at fremlægge en supplerende erklæring.",
+				"fuente": "",
 				"name": "Ret til berigtigelse",
+				"nombre": "",
 				"source": "GDPR Art. 16"
 			},
 			"PIA_DEF_RGPD": {
+				"Descripción": "",
 				"description": "FORORDNING om beskyttelse af fysiske personer i forbindelse med behandling af personoplysninger og om fri udveksling af sådanne oplysninger og om ophævelse af direktiv 95/46/EF (generel forordning om databeskyttelse).",
+				"fuente": "",
 				"name": "GDPR (General Data Protection Regulation)",
 				"source": "GDPR title"
 			},
 			"PIA_DEF_RT": {
+				"descripción": "",
 				"description": "En fysisk eller juridisk person, en offentlig myndighed, en institution eller et andet organ, der alene eller sammen med andre afgør, til hvilke formål og med hvilke hjælpemidler der må foretages behandling af personoplysninger; hvis formålene og hjælpemidlerne til en sådan behandling er fastlagt i EU-retten eller medlemsstaternes nationale ret, kan den dataansvarlige eller de specifikke kriterier for udpegelse af denne fastsættes i EU-retten eller medlemsstaternes nationale ret.<br>Se <a target=\"_blank\" href=\"https://eur-lex.europa.eu/legal-content/DA/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 4.7 af [GDPR]</a>",
+				"fuente": "",
 				"name": "Dataansvarlig",
+				"nombre": "",
 				"source": "GDPR Art. 4.7"
 			},
 			"PIA_DEF_SRC": {
+				"descripción": "",
 				"description": "Person eller ikke-menneskelige kilde der præsentere en risiko. En sådan kilde kan agere frivilligt eller ufrivilligt.",
+				"fuente": "",
 				"name": "risikokilde",
+				"nombre": "",
 				"source": "PIA1 p11 - WIKI"
 			},
 			"PIA_DEF_ST": {
+				"descripción": "",
 				"description": "En fysisk eller juridisk person, en offentlig myndighed, en institution eller et andet organ, der behandler personoplysninger på den dataansvarliges vegne, se <a target=\"_blank\" href=\"https://eur-lex.europa.eu/legal-content/DA/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 4.8 af [GDPR]</a>.<br>Databehandleren og enhver, der udfører arbejde for den dataansvarlige eller databehandleren, og som har adgang til personoplysninger, behandler kun disse oplysninger efter instruks fra den dataansvarlige, medmindre det kræves i henhold til EU-retten eller medlemsstaternes nationale ret, se <a target=\"_blank\" href=\"https://eur-lex.europa.eu/legal-content/DA/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 29 af [GDPR]</a>.",
+				"fuente": "",
 				"name": "Processor",
+				"nombre": "",
 				"source": "GDPR Art. 4.8 and 29"
 			},
 			"PIA_DEF_SUPT": {
+				"descripción": "",
 				"description": "strong>Enheder til lagring af data</strong> : Computere, router, USB nøgler, hard diske...<br><strong>Software</strong> : operativ systemer, e-mail, databaser, fagsystemer...<br><strong>Kommunikations kanaler</strong> : Kabler, WiFi, optiske fibre<br><br><strong>Personer</strong> : brugere, system administratorer, ledere...<br><strong>Papier dokumenter</strong> : print, fotokopier, håndskrevet dokumenter...<br><strong>Papir transmission</strong> : fysiske breve, fax, underskriftsmapper...",
+				"fuente": "",
 				"name": "Understøttende informationsaktiver",
+				"nombre": "",
 				"source": "PIA1 p10"
 			},
 			"PIA_DEF_VIOL": {
+				"descripción": "",
 				"description": "Brud på sikkerheden, der fører til utilsigtet eller ulovlig destruktion, tab, ændring, uautoriseret offentliggørelse af eller adgang til personoplysninger, der overføres, opbevares eller på anden måde behandles.",
+				"fuente": "",
 				"name": "Sikkerhedsbrud",
+				"nombre": "",
 				"source": "GDPR Art. 4.12"
 			},
 			"PIA_DEF_VRA": {
+				"Descripción": "",
 				"description": "Sandsynlighed udtrykker muligheden for at en risiko udløses. Det afhænger først og fremmest af de sårbarheder, der er forbundet med de understøttende aktiver, når de er truet, og risikokildenes kapacitet til at udnytte disse trusler.",
+				"fuente": "",
 				"name": "Sandsynlighed",
+				"nombre": "",
 				"source": "PIA1 page 6"
 			},
 			"PIA_EX_DC": {
@@ -933,11 +983,22 @@
 			"remove": "Slet",
 			"review_section": "Evaluere sektionen"
 		},
+		"general_error": {
+			"content": "TO TRANSLATE - All our apologies an error has occurred."
+		},
 		"import_wrong_pia_file": {
 			"content": "Den importerede fil relaterer ikke til en PIA rapport fil"
 		},
 		"import_wrong_structure_file": {
 			"content": "Den importerede fil relaterer ikke til en PIA skabelon fil"
+		},
+		"knowledge": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this element?",
+			"remove": "TO TRANSLATE - Delete this element"
+		},
+		"knowledges": {
+			"content": "TO TRANSLATE - Are you sure you want to delete this knowledge base?",
+			"remove": "TO TRANSLATE - Delete this knowledge base"
 		},
 		"modal_select_text_pia": {
 			"content": "Indholdet af PIA er kopieret til clipboard."
@@ -1003,18 +1064,98 @@
 		},
 		"validate_evaluation_to_correct": {
 			"content": "Undskyld,<br>Alle felter skal korrigeres.<br>Tilbage til redigeringsstatus<br>for at korriger."
+		}
+	},
+	"onboarding": {
+		"dashboard": {
+			"step1": {
+				"description": "TO TRANSLATE - Click on the <strong>+</strong> to create your first PIA.",
+				"title": "TO TRANSLATE - Create a PIA"
+			},
+			"step2": {
+				"description": "TO TRANSLATE - <p><strong>Editors</strong> write the first version of the analysis.</p><p>They are, for example, the project managers associated with the data processing.</p>",
+				"title": "TO TRANSLATE - PIA's roles"
+			},
+			"step3": {
+				"description": "TO TRANSLATE - <p><strong>Reviewers</strong> are involved in a second phase.</p><p>They use their legal or technical expertise to check the quality and compliance of the processing.</p><p>They are, for example, DPO, legal experts, ...</p>",
+				"title": "TO TRANSLATE - PIA's roles"
+			},
+			"step4": {
+				"description": "TO TRANSLATE - <p>The <strong>validator</strong> accepts or rejects the implementation of the processing. He must sign the analysis.</p><p>He is the controller, e.g. the CEO.</p>",
+				"title": "TO TRANSLATE - PIA's roles"
+			},
+			"step5": {
+				"description": "TO TRANSLATE - <p><strong>Templates</strong> are an advanced feature. They are used to create a pre-filled basis for the analysis.</p><p>You can create templates by going to the associated section accessible from the top menu.</p>",
+				"title": "TO TRANSLATE - Templates"
+			}
 		},
-		"general_error": {
-			"content": "TO TRANSLATE - All our apologies an error has occurred."
-    },
-    "knowledges": {
-			"content": "TO TRANSLATE - Are you sure you want to delete this knowledge base?",
-			"remove": "TO TRANSLATE - Delete this knowledge base"
-    },
-    "knowledge": {
-      "content": "TO TRANSLATE - Are you sure you want to delete this element?",
-      "remove": "TO TRANSLATE - Delete this element"
-    }
+		"entry": {
+			"step1": {
+				"description": "TO TRANSLATE - To move from one part of the analysis to another, use the left navigation menu.",
+				"title": "TO TRANSLATE - Browse"
+			},
+			"step2": {
+				"description": "TO TRANSLATE - This is used to explain the purpose of the processing and how it will be implemented.",
+				"title": "TO TRANSLATE - Context"
+			},
+			"step3": {
+				"description": "TO TRANSLATE - These aim to ensure that the processing complies with the GDPR.",
+				"title": "TO TRANSLATE - Fundamental principles"
+			},
+			"step4": {
+				"description": "TO TRANSLATE - These describe the security measures already planned for the processing operation and make it possible to assess its potential impact on the data subjects.",
+				"title": "TO TRANSLATE - Risks"
+			},
+			"step5": {
+				"description": "TO TRANSLATE - This allows the DPO to express her opinion on the implementation of the processing and the controller to accept or refuse it.",
+				"title": "TO TRANSLATE - Validation"
+			},
+			"step6": {
+				"description": "TO TRANSLATE - <p>It provides contextual assistance in carrying out the analysis and is based on the GDPR, the security guide and the CNIL's PIA guides</p><p>In addition to these contents, you can also create your own knowledge bases to easily access information specific to your organization.</p>",
+				"title": "TO TRANSLATE - The knowledge base"
+			},
+			"step7": {
+				"description": "TO TRANSLATE - At any time during the analysis, you can download the analysis in various formats to share it with your colleagues.",
+				"title": "TO TRANSLATE - Export your PIA"
+			}
+		},
+		"evaluation": {
+			"step1": {
+				"description": "TO TRANSLATE - The evaluation can take an entire section into account, or at the level of each element of a section.",
+				"title": "TO TRANSLATE - Evaluate the PIA"
+			},
+			"step2": {
+				"description": "TO TRANSLATE - <p>This evaluation indicates to the editors that elements are missing in order to make a relevant assessment.</p><p>The assessor must indicate these in the associated <strong>evaluation comment</strong> field. The editor will make the necessary corrections.</p>",
+				"title": "TO TRANSLATE - To correct"
+			},
+			"step3": {
+				"description": "TO TRANSLATE - <p>This assessment indicates the processing elements to be revised. They are detailed in the <strong>action plan / corrective action</strong> field.</p><p>These measures will be automatically added to the action plan part of the analysis. It is necessary to implement them as soon as possible.</p>",
+				"title": "TO TRANSLATE - Improvable"
+			},
+			"step4": {
+				"description": "TO TRANSLATE - This assessment means that this part of the processing can be implemented without modification.",
+				"title": "TO TRANSLATE - Acceptable"
+			},
+			"step5": {
+				"description": "TO TRANSLATE - If the assessment of a section has not yet begun, the request forassessment may be cancelled to make changes to the processing description.",
+				"title": "TO TRANSLATE - Cancel a request"
+			}
+		},
+		"general": {
+			"done": "Confirm",
+			"next": "Next",
+			"skip": "Skip"
+		},
+		"validated": {
+			"step1": {
+				"description": "TO TRANSLATE - A complete and validated analysis can be consulted at any time via a dedicated interface.",
+				"title": "TO TRANSLATE - Consult a validated PIA"
+			},
+			"step2": {
+				"description": "TO TRANSLATE - It is necessary to review regularly an analysis. You can edit or duplicate it at any time to review its content according to the processing evolution.",
+				"title": "TO TRANSLATE - Update a validated PIA"
+			}
+		}
 	},
 	"opinions": {
 		"content": ", overveje at :",
@@ -1480,96 +1621,5 @@
 		},
 		"validated_pia_with_signature": "Godkendt",
 		"waiting_for_signature": "Afventende PIA signatur"
-	},
-  "onboarding": {
-    "general": {
-      "next": "Next",
-      "skip": "Skip",
-      "done": "Confirm"
-    },
-    "dashboard": {
-      "step1": {
-        "title": "TO TRANSLATE - Create a PIA",
-        "description": "TO TRANSLATE - Click on the <strong>+</strong> to create your first PIA."
-      },
-      "step2": {
-        "title": "TO TRANSLATE - PIA's roles",
-        "description": "TO TRANSLATE - <p><strong>Editors</strong> write the first version of the analysis.</p><p>They are, for example, the project managers associated with the data processing.</p>"
-      },
-      "step3": {
-        "title": "TO TRANSLATE - PIA's roles",
-        "description": "TO TRANSLATE - <p><strong>Reviewers</strong> are involved in a second phase.</p><p>They use their legal or technical expertise to check the quality and compliance of the processing.</p><p>They are, for example, DPO, legal experts, ...</p>"
-      },
-      "step4": {
-        "title": "TO TRANSLATE - PIA's roles",
-        "description": "TO TRANSLATE - <p>The <strong>validator</strong> accepts or rejects the implementation of the processing. He must sign the analysis.</p><p>He is the controller, e.g. the CEO.</p>"
-      },
-      "step5": {
-        "title": "TO TRANSLATE - Templates",
-        "description": "TO TRANSLATE - <p><strong>Templates</strong> are an advanced feature. They are used to create a pre-filled basis for the analysis.</p><p>You can create templates by going to the associated section accessible from the top menu.</p>"
-      }
-		},
-		"entry": {
-			"step1": {
-				"title": "TO TRANSLATE - Browse",
-				"description": "TO TRANSLATE - To move from one part of the analysis to another, use the left navigation menu."
-			},
-			"step2": {
-				"title": "TO TRANSLATE - Context",
-				"description": "TO TRANSLATE - This is used to explain the purpose of the processing and how it will be implemented."
-			},
-			"step3": {
-				"title": "TO TRANSLATE - Fundamental principles",
-				"description": "TO TRANSLATE - These aim to ensure that the processing complies with the GDPR."
-			},
-			"step4": {
-				"title": "TO TRANSLATE - Risks",
-				"description": "TO TRANSLATE - These describe the security measures already planned for the processing operation and make it possible to assess its potential impact on the data subjects."
-			},
-			"step5": {
-				"title": "TO TRANSLATE - Validation",
-				"description": "TO TRANSLATE - This allows the DPO to express her opinion on the implementation of the processing and the controller to accept or refuse it."
-			},
-			"step6": {
-				"title": "TO TRANSLATE - The knowledge base",
-				"description": "TO TRANSLATE - <p>It provides contextual assistance in carrying out the analysis and is based on the GDPR, the security guide and the CNIL's PIA guides</p><p>In addition to these contents, you can also create your own knowledge bases to easily access information specific to your organization.</p>"
-			},
-			"step7": {
-				"title": "TO TRANSLATE - Export your PIA",
-				"description": "TO TRANSLATE - At any time during the analysis, you can download the analysis in various formats to share it with your colleagues."
-			}
-		},
-    "evaluation": {
-			"step1": {
-				"title": "TO TRANSLATE - Evaluate the PIA",
-				"description": "TO TRANSLATE - The evaluation can take an entire section into account, or at the level of each element of a section."
-			},
-			"step2": {
-				"title": "TO TRANSLATE - To correct",
-				"description": "TO TRANSLATE - <p>This evaluation indicates to the editors that elements are missing in order to make a relevant assessment.</p><p>The assessor must indicate these in the associated <strong>evaluation comment</strong> field. The editor will make the necessary corrections.</p>"
-			},
-			"step3": {
-				"title": "TO TRANSLATE - Improvable",
-				"description": "TO TRANSLATE - <p>This assessment indicates the processing elements to be revised. They are detailed in the <strong>action plan / corrective action</strong> field.</p><p>These measures will be automatically added to the action plan part of the analysis. It is necessary to implement them as soon as possible.</p>"
-			},
-			"step4": {
-				"title": "TO TRANSLATE - Acceptable",
-				"description": "TO TRANSLATE - This assessment means that this part of the processing can be implemented without modification."
-			},
-			"step5": {
-				"title": "TO TRANSLATE - Cancel a request",
-				"description": "TO TRANSLATE - If the assessment of a section has not yet begun, the request forassessment may be cancelled to make changes to the processing description."
-			}
-    },
-    "validated": {
-			"step1": {
-				"title": "TO TRANSLATE - Consult a validated PIA",
-				"description": "TO TRANSLATE - A complete and validated analysis can be consulted at any time via a dedicated interface."
-			},
-			"step2": {
-				"title": "TO TRANSLATE - Update a validated PIA",
-				"description": "TO TRANSLATE - It is necessary to review regularly an analysis. You can edit or duplicate it at any time to review its content according to the processing evolution."
-			}
-		}
-  }
+	}
 }

@@ -143,9 +143,9 @@
 		"logo_title": "Analyse d'impact sur la protection des données",
 		"structures": "Modèles de PIA",
 		"tools": {
-      "onboarding": "Relancer le tutoriel",
 			"about": "À propos",
 			"accessibility": "Accessibilité malvoyants (couleurs à contraste fort, adapté daltonisme)",
+			"onboarding": "Relancer le tutoriel",
 			"settings": "Paramètres",
 			"url_setting": "Configuration URL serveur"
 		}
@@ -202,8 +202,7 @@
 			"import_structure": "Importer modèle",
 			"item": {
 				"consult_pia": "Consulter",
-        "consult_structure": "Consulter le modèle",
-        "validate_pia": "Valider",
+				"consult_structure": "Consulter le modèle",
 				"edit_pia": "Éditer",
 				"edit_structure": "Éditer le modèle",
 				"tools": {
@@ -215,7 +214,29 @@
 					"pia": "Afficher le<br>PIA",
 					"remove": "Supprimer",
 					"unarchive": "Désarchiver"
-				}
+				},
+				"validate_pia": "Valider"
+			},
+			"knowledges": {
+				"edit": "Éditer la base",
+				"import": "Importer une base",
+				"new": "Créer une base",
+				"placeholder_author": "Auteur",
+				"placeholder_contributors": "Contributeurs",
+				"placeholder_entry_number": "Nombre d'entrées",
+				"placeholder_name": "Nom de la base"
+			},
+			"knowledges_entry": {
+				"all_sections": "Toutes les sections",
+				"choose_category": "Choisissez une catégorie",
+				"contents": "Contenus",
+				"create": "Créer l'élément",
+				"linked_to": "Lié à",
+				"new": "Créer un élément",
+				"placeholder_category": "Catégorie",
+				"placeholder_description": "Votre description ici...",
+				"placeholder_name": "Nom de l'élément",
+				"placeholder_updated_at": "Modifié le"
 			},
 			"new_pia": "Nouveau PIA",
 			"new_structure": "Nouveau modèle",
@@ -240,28 +261,7 @@
 			"structure": "Modèle",
 			"structure_name": "Nom du modèle",
 			"title_close_creation": "Fermer",
-			"validation": "Validation",
-			"knowledges": {
-				"new": "Créer une base",
-        "import": "Importer une base",
-        "edit": "Éditer la base",
-				"placeholder_name": "Nom de la base",
-				"placeholder_author": "Auteur",
-				"placeholder_contributors": "Contributeurs",
-				"placeholder_entry_number": "Nombre d'entrées"
-			},
-			"knowledges_entry": {
-        "new": "Créer un élément",
-        "create": "Créer l'élément",
-				"placeholder_name": "Nom de l'élément",
-				"placeholder_category": "Catégorie",
-				"placeholder_description": "Votre description ici...",
-        "placeholder_updated_at": "Modifié le",
-        "contents": "Contenus",
-        "choose_category":"Choisissez une catégorie",
-        "linked_to": "Lié à",
-        "all_sections": "Toutes les sections"
-			}
+			"validation": "Validation"
 		},
 		"filters": {
 			"assessor": "Évaluateur",
@@ -316,8 +316,6 @@
 		"search_filter": "Chercher"
 	},
 	"knowledge_base": {
-    "choose_knowledge_base": "Sélectionnez votre base de connaissances",
-    "default_knowledge_base": "Base de connaissances CNIL",
 		"add_measure": "Ajouter",
 		"add_measure_hint": "Ajoutez aussi une mesure à partir de la base de connaissances.",
 		"category": {
@@ -329,6 +327,8 @@
 			"organizational_measure": "Mesure organisationnelle",
 			"principle": "Principe"
 		},
+		"choose_knowledge_base": "Sélectionnez votre base de connaissances",
+		"default_knowledge_base": "Base de connaissances CNIL",
 		"filters": {
 			"all": "Tout",
 			"definitions": "Définitions",
@@ -453,103 +453,153 @@
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIN2": {
+				"descripción": "",
 				"description": "Après réception de données sensibles, faisant partie d’un lot d’informations générales ou transmises à des fins statistiques uniquement, celles-ci peuvent être converties en une forme moins sensible ou pseudonymisée. Par exemple :<br>- si le système collecte l’adresse IP pour déterminer l'emplacement de l’utilisateur dans un but statistique, l’adresse IP peut être supprimées après déduction de la ville ou du quartier ;<br>- si le système reçoit des données vidéo à partir de caméras de surveillance, il peut reconnaître les personnes debout ou en mouvement dans la scène et les flouter ;<br>- si le système est un compteur intelligent, il peut agréger l'utilisation de l'énergie sur une certaine période, sans l’enregistrer en temps réel.",
+				"fuente": "",
 				"name": "Réduction de la sensibilité par transformations",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIN3": {
+				"descripción": "",
 				"description": "Le système peut faire en sorte que :<br>- l’utilisateur peut utiliser une ressource ou un service sans risque de divulguer son identité (données anonymes) ;<br>- l’utilisateur peut utiliser une ressource ou un service sans divulguer son identité, mais reste identifiable et responsable de cette utilisation (données pseudonymes) ;<br>- l’utilisateur peut faire de multiples utilisations des ressources ou des services sans risque que ces utilisations puissent être reliées ensemble (données non corrélables) ;<br>- l’utilisateur peut utiliser une ressource ou un service sans risque que d’autres, en particulier des tiers, puissent être en mesure d'observer que la ressource ou le service est utilisé (non-observabilité).<br>Le choix d'une méthode de la liste ci-dessus doit dépendre des menaces identifiées. Pour certains types de menaces sur la vie privée, la pseudonymisation sera plus appropriée que l'anonymisation (par exemple, s'il y a un besoin de traçabilité). En outre, certaines menaces sur la vie privée seront traitées par une combinaison de plusieurs méthodes.",
+				"fuente": "",
 				"name": "Réduction du caractère identifiant des données",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIN4": {
+				"descripción": "",
 				"description": "Le système peut être structuré en parties indépendantes avec des fonctions de contrôle d'accès distinctes. Les données peuvent également être réparties entre ces sous-systèmes indépendants et contrôlées par chaque sous-système en utilisant différents mécanismes de contrôle d'accès. Si un sous-système est compromis, les impacts sur l’ensemble des données peuvent ainsi être réduits.",
+				"fuente": "",
 				"name": "Réduction de l'accumulation de données",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIN5": {
+				"descripción": "",
 				"description": "Le système peut limiter l'accès aux données selon le principe du « besoin d’en connaître ». Le système peut séparer les données sensibles et appliquer des politiques de contrôle d'accès spécifiques.<br>Le système peut aussi chiffrer les données sensibles pour protéger leur confidentialité lors de la transmission et du stockage. L’accès aux fichiers cachés temporaires qui sont produits au cours du traitement des données devrait également être protégé.",
+				"fuente": "",
 				"name": "Restriction de l’accès aux données",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MINC": {
+				"Descripción": "",
 				"description": "Réduire la gravité des risques en limitant la collecte des données à caractère personnel au strict nécessaire au regard d’une finalité définie; éviter la collecte de données non nécessaires, l'utilisation de données sans lien avec la finalité et des impacts excessifs pour les personnes.",
+				"fuente": "",
 				"name": "Minimisation de la collecte",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIND": {
+				"descripción": "",
 				"description": "Réduire la gravité des risques en minimisant les données elles-mêmes, par des mesures destinées à réduire leur sensibilité, par exemple filtrer et retirer les données inutiles, pseudonymiser les données, etc.",
+				"fuente": "",
 				"name": "Minimisation des données elles-mêmes",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_OPP": {
+				"descripción": "",
 				"description": "La personne concernée a le droit de s'opposer à tout moment, pour des raisons tenant à sa situation particulière, à un  traitement  des  données à  caractère personnel la  concernant conformément à l'<a target=\"_blank\" href=\"https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre3#Article21\">article 21 du RGPD</a>.",
+				"fuente": "",
 				"name": "Droit à l'opposition",
 				"source": "RGPD Art. 21 (tronqué)"
 			},
 			"PIA_DEF_PBDS": {
+				"descripción": "",
 				"description": "Démarche consistant à prendre en compte la protection des données à caractère personnel dans tout nouveau traitement (labels de confiance, référentiels, gestion des risques pour la personne concernée selon la méthodologie de la CNIL ou une méthode interne, etc.), notamment :<br>- Utiliser la démarche de gestion des risques de la CNIL dès l’élaboration d’un service ou la conception d’une application.<br>- Privilégier le recours à des labels de confiance dans les domaines de la SSI et « Informatique et libertés » (procédures, produits, systèmes de management, organismes, personnes, etc.).<br>- Privilégier le recours à des référentiels éprouvés et reconnus.",
+				"fuente": "",
 				"name": "Gestion de projet",
+				"nombre": "",
 				"source": "WIKI Gestion_des_projets - les recommandations ne sont pas citées"
 			},
 			"PIA_DEF_PC": {
+				"descripción": "",
 				"description": "Personne à laquelle se rapportent les données qui font l'objet du traitement.",
+				"fuente": "",
 				"name": "Personne concernée",
 				"source": "PIA1 p11"
 			},
 			"PIA_DEF_PORT": {
+				"descripción": "",
 				"description": "Les personnes concernées ont le droit de recevoir les données à caractère personnel les concernant qu'elles ont fournies à un responsable du traitement, dans un format structuré, couramment utilisé et lisible par machine, et ont le droit de transmettre ces données à un autre responsable du traitement sans que le responsable du traitement auquel les données à caractère personnel ont été communiquées y fasse obstacle sous les conditions décrites à l'<a target=\"_blank\" href=\"https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre3#Article20\">Article 20 du RGPD</a>.",
+				"fuente": "",
 				"name": "Droit à la portabilité",
 				"source": "RGPD Art. 20"
 			},
 			"PIA_DEF_PSEU": {
+				"descripción": "",
 				"description": "Traitement des données à caractère personnel de telle façon que celles-ci ne puissent plus être attribuées à une personne concernée précise sans avoir recours à des informations supplémentaires, pour autant que ces informations supplémentaires soient conservées séparément et soumises à des mesures techniques et organisationnelles afin de garantir que les données à caractère personnel ne sont pas attribuées à une personne physique identifiée ou identifiable.<br>La pseudonymisation réduit le risque de mise en corrélation d’un ensemble de données avec l’identité  originale d’une personne concernée; à ce titre, <strong>c’est une mesure de sécurité utile, mais non une méthode d'anonymisation.</strong>",
+				"fuente": "",
 				"name": "Pseudonymisation",
+				"nombre": "",
 				"source": "RGPD Art. 4.5 pour la définition, guidelines G29 p22 pour le distinction avec l'anonymisation http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_fr.pdf"
 			},
 			"PIA_DEF_PWD": {
+				"descripción": "",
 				"description": "Basée sur la gestion d’un secret, l’authentification par identifiant et mot de passe est un moyen simple et peu coûteux à déployer pour contrôler un accès. Toutefois, cette méthode d’authentification présente un niveau de sécurité faible.<br>Les exigences minimales de la CNIL en termes de taille et de complexité du mot de passe varient en fonction des mesures complémentaires mises en place pour fiabiliser le processus d’authentification :<br>ainsi, si une authentification est basée exclusivement sur un mot de passe, cela implique a minima l’utilisation d’un mot de passe complexe d’au moins 12 caractères composé de majuscules de minuscules, de chiffres et de<br>caractères spéciaux.  Des mesures complémentaires à la saisie d’un mot de passe (restrictions, d’accès, collecte d’autres donnée, support détenu en propre par l’utilisateur) permettent de réduire la longueur et la complexité du mot de passe, car ces mesures permettent d’assurer un niveau de sécurité équivalent au mot de passe seul.",
+				"fuente": "",
 				"name": "Mot de passe",
+				"nombre": "",
 				"source": "Guide Bleu 2017 p7 : https://www.cnil.fr/fr/authentification-par-mot-de-passe-les-mesures-de-securite-elementaires synthétisé"
 			},
 			"PIA_DEF_RECT": {
+				"descripción": "",
 				"description": "La personne concernée a le droit d'obtenir du responsable du traitement, dans les meilleurs délais, la rectification des données à caractère personnel la concernant qui sont inexactes.<br>Compte tenu des finalités du traitement, la personne concernée a le droit d'obtenir que les données à caractère personnel incomplètes soient complétées, y compris en fournissant une déclaration complémentaire.",
+				"fuente": "",
 				"name": "Droit à la rectification",
+				"nombre": "",
 				"source": "RGPD Art. 16"
 			},
 			"PIA_DEF_RGPD": {
+				"Descripción": "",
 				"description": "Règlement relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données (<a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:32016R0679&from=DE\">UE 2016-679</a>), adopté le 27 avril 2016 par l'Union Européenne, il entrera en application  le 25/05/2018, abrogeant la directive 95/46/CE.",
+				"fuente": "",
 				"name": "RGPD (Règlement Général sur la Protection des Données)",
 				"source": "RGPD en-tête"
 			},
 			"PIA_DEF_RT": {
+				"descripción": "",
 				"description": "La personne physique ou morale, l'autorité publique, le service ou un autre organisme qui, seul ou conjointement avec d'autres, détermine les finalités et les moyens du traitement; lorsque les finalités et les moyens de ce traitement sont déterminés par le droit de l'Union ou le droit d'un État membre, le responsable du traitement peut être désigné ou les critères spécifiques applicables à sa désignation peuvent être prévus par le droit de l'Union ou par le droit d'un État membre.<br>Pour plus d'informations sur les obligations du responsable de traitement, se référer au <a target=\"_blank\" href=\"https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4#Section1\">chap. IV du [RGPD]</a>",
+				"fuente": "",
 				"name": "Responsable de traitement",
+				"nombre": "",
 				"source": "RGPD Art. 4.7"
 			},
 			"PIA_DEF_SRC": {
+				"descripción": "",
 				"description": "Personne, interne ou externe à l'organisme, agissant de manière accidentelle ou délibérée (ex : administrateur informatique, utilisateur, attaquant externe, concurrent), ou source non humaine (ex : eau, matériaux dangereux, virus informatique non ciblé) qui peut être à l’origine d’un risque.",
+				"fuente": "",
 				"name": "Source de risque",
+				"nombre": "",
 				"source": "PIA1 p12 et WIKI Types_et_exemples_de_sources_de_risques synthétisés"
 			},
 			"PIA_DEF_ST": {
+				"descripción": "",
 				"description": "Personne physique ou morale, autorité publique, service ou un autre organisme qui traite des données à caractère personnel pour le compte du responsable du traitement <a target=\"_blank\" href=\"https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre1#Article4\">Article 4.8 du RGPD</a>. <br>Le sous-traitant et toute personne agissant sous l'autorité du responsable du traitement ou sous celle du sous-traitant, qui a accès à des données à caractère personnel, ne peut pas traiter ces données, excepté sur instruction du responsable du traitement, à moins d'y être obligé par le droit de l'Union ou le droit d'un État membre <a target=\"_blank\" href=\"https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4#Article29\">Article 29 du RGPD</a>.",
+				"fuente": "",
 				"name": "Sous-traitant",
+				"nombre": "",
 				"source": "RGPD articles 4.8 et 29"
 			},
 			"PIA_DEF_SUPT": {
+				"descripción": "",
 				"description": "<strong>Matériels et supports de données électroniques</strong> : ordinateurs, relais de communication, clés USB, disques durs...<br><strong>Logiciels</strong> : systèmes d’exploitation, messagerie, bases de données, applications métier...<br><strong>Canaux informatiques</strong> : câbles, WiFi, fibre optique<br><br><strong>Personnes</strong> : utilisateurs, administrateurs informatiques, décideurs...<br><strong>Supports papier</strong> : impressions, photocopies, documents manuscrits...<br><strong>Canaux de transmission papier</strong> : envoi postal, circuit de validation...",
+				"fuente": "",
 				"name": "Typologie des supports de DCP",
+				"nombre": "",
 				"source": "WIKI Types_et_exemples_de_supports_des_données"
 			},
 			"PIA_DEF_VIOL": {
+				"descripción": "",
 				"description": "Violation de la sécurité entraînant, de manière accidentelle ou illicite, la destruction, la perte, l'altération, la divulgation non autorisée de données à caractère personnel transmises, conservées ou traitées d'une autre manière, ou l'accès non autorisé à de telles données.",
+				"fuente": "",
 				"name": "Violation de données",
+				"nombre": "",
 				"source": "RGPD Art. 4.12"
 			},
 			"PIA_DEF_VRA": {
+				"Descripción": "",
 				"description": "La vraisemblance traduit la possibilité qu’un risque se réalise. Elle dépend essentiellement des vulnérabilités des supports face aux menaces et des capacités des sources de risques à les exploiter.",
+				"fuente": "",
 				"name": "Vraisemblance",
+				"nombre": "",
 				"source": "PIA1 p12"
 			},
 			"PIA_EX_DC": {
@@ -933,11 +983,22 @@
 			"remove": "Supprimer",
 			"review_section": "Évaluer une section"
 		},
+		"general_error": {
+			"content": "Une erreur est survenue.<br>veuillez nous excuser pour ce désagrément."
+		},
 		"import_wrong_pia_file": {
 			"content": "Le fichier importé ne correspond pas à un fichier de type PIA"
 		},
 		"import_wrong_structure_file": {
 			"content": "Le fichier importé ne correspond pas à un fichier de type Modèle"
+		},
+		"knowledge": {
+			"content": "Êtes-vous sûr de vouloir supprimer cet élément ?",
+			"remove": "Supprimer cet élément"
+		},
+		"knowledges": {
+			"content": "Êtes-vous sûr de vouloir supprimer cette base de connaissances ?",
+			"remove": "Supprimer cette base"
 		},
 		"modal_select_text_pia": {
 			"content": "Le contenu du Rapport PIA a été copié dans votre presse-papier."
@@ -1003,18 +1064,98 @@
 		},
 		"validate_evaluation_to_correct": {
 			"content": "Désolé,<br>Plusieurs champs doivent être corrigés.<br>Retour au mode d'édition<br>pour apporter des corrections."
+		}
+	},
+	"onboarding": {
+		"dashboard": {
+			"step1": {
+				"description": "Cliquez sur le <strong>+</strong> pour créer votre première AIPD.",
+				"title": "Créer une AIPD"
+			},
+			"step2": {
+				"description": "<p>Les <strong>rédacteurs</strong> rédigent la première version de l'analyse.</p><p>Ce sont par exemple les chefs de projet associés au traitement.</p>",
+				"title": "Les rôles autour de l'AIPD"
+			},
+			"step3": {
+				"description": "<p>Les <strong>évaluateurs</strong> interviennent dans un second temps.</p><p>Ils contrôlent, grâce à leur expertise juridique ou technique, la qualité et la conformité du traitement.</p><p>Ce sont par exemple le RSSI, des juristes, ...</p>",
+				"title": "Les rôles autour de l'AIPD"
+			},
+			"step4": {
+				"description": "<p>Le <strong>validateur</strong> accepte ou non la mise en oeuvre du traitement. Il doit signer l'analyse.</p><p>Il s'agit du responsable de traitement, par exemple le CEO.</p>",
+				"title": "Les rôles autour de l'AIPD"
+			},
+			"step5": {
+				"description": "<p>Les <strong>modèles</strong> sont une fonctionnalité avancée. Ils permettent de créer une base pré-remplie pour l'analyse.</p><p>Vous pouvez créer des modèles en allant dans la section associée depuis le menu du haut.</p>",
+				"title": "Les modèles"
+			}
 		},
-		"general_error": {
-			"content": "Une erreur est survenue.<br>veuillez nous excuser pour ce désagrément."
+		"entry": {
+			"step1": {
+				"description": "Pour passer d'une partie à l'autre de l'analyse, utilisez le menu de navigation de gauche.",
+				"title": "Naviguer"
+			},
+			"step2": {
+				"description": "Il sert à expliquer l'objectif du traitement et comment il sera mis en oeuvre.",
+				"title": "Le contexte"
+			},
+			"step3": {
+				"description": "Ils permettent de s'assurer que le traitement est conforme au RGPD.",
+				"title": "Les principes fondamentaux"
+			},
+			"step4": {
+				"description": "Ils décrivent les mesures de sécurité déjà prévues pour le traitement et permettent d'évaluer ses impacts potentiels sur les personnes concernées.",
+				"title": "Les risques"
+			},
+			"step5": {
+				"description": "Elle permet au DPO d'exprimer son avis sur la mise en oeuvre du traitement et au responsable de traitement de l'accepter ou de la refuser.",
+				"title": "La validation"
+			},
+			"step6": {
+				"description": "<p>Elle fournit une aide contextuelle à la réalisation de l'analyse et s'appuie sur le RGPD, le guide sécurité et les guides AIPD de la CNIL.</p><p>En plus de ces contenus, vous pouvez également créer vos propres bases de connaissances pour accéder facilement à des informations spécifiques à votre organisme.</p>",
+				"title": "La base de connaissances"
+			},
+			"step7": {
+				"description": "À tout moment lors de la réalisation de l'analyse, vous pouvez télécharger l'analyse sous divers formats pour la partager avec vos collaborateurs.",
+				"title": "Exporter son AIPD"
+			}
 		},
-		"knowledges": {
-			"content": "Êtes-vous sûr de vouloir supprimer cette base de connaissances ?",
-			"remove": "Supprimer cette base"
-    },
-    "knowledge": {
-      "content": "Êtes-vous sûr de vouloir supprimer cet élément ?",
-      "remove": "Supprimer cet élément"
-    }
+		"evaluation": {
+			"step1": {
+				"description": "L'évaluation peut se faire au niveau d'une section entière, ou bien au niveau de chaque élément d'une section.",
+				"title": "Évaluer l'AIPD"
+			},
+			"step2": {
+				"description": "<p>Cette évaluation indique aux rédacteurs que des éléments sont manquants pour pouvoir faire une évaluation pertinente.</p><p>L'évaluateur doit indiquer ceux-ci dans le champ <strong>commentaire d'évaluation</strong> associé. Le rédacteur apportera les corrections nécessaires.</p>",
+				"title": "À corriger"
+			},
+			"step3": {
+				"description": "<p>Cette évaluation indique les points du traitement à réviser. Ils sont détaillés dans le champ <strong>plan d'action / mesures correctives</strong>.</p><p>Ces mesures seront ajoutées automatiquement à la partie plan d'action de l'analyse. Il est nécessaire de les mettre en oeuvre dans les plus brefs délais.</p>",
+				"title": "Améliorable"
+			},
+			"step4": {
+				"description": "Cette évaluation signifie que ce point du traitement peut être mis en oeuvre sans y apporter de modifications.",
+				"title": "Acceptable"
+			},
+			"step5": {
+				"description": "Si l'évaluation d'une section n'a pas encore commencé, il est possible d'annuler la demande d'évaluation pour apporter des modifications à la description du traitement.",
+				"title": "Annuler une demande"
+			}
+		},
+		"general": {
+			"done": "Terminer",
+			"next": "Suivant",
+			"skip": "Passer"
+		},
+		"validated": {
+			"step1": {
+				"description": "Une analyse faite dans son intégralité et validée peut être consultée à tout moment via une interface dédiée.",
+				"title": "Consulter une AIPD validée"
+			},
+			"step2": {
+				"description": "Il est nécessaire de réviser son analyse régulièrement. Vous pouvez à tout moment l'éditer ou la dupliquer pour revoir son contenu en fonction des évolutions du traitement.",
+				"title": "Mettre à jour une AIPD validée"
+			}
+		}
 	},
 	"opinions": {
 		"content": ", considère(nt) que :",
@@ -1480,96 +1621,5 @@
 		},
 		"validated_pia_with_signature": "Validé",
 		"waiting_for_signature": "En attente de la signature du rapport PIA"
-  },
-  "onboarding": {
-    "general": {
-      "next": "Suivant",
-      "skip": "Passer",
-      "done": "Terminer"
-    },
-    "dashboard": {
-      "step1": {
-        "title": "Créer une AIPD",
-        "description": "Cliquez sur le <strong>+</strong> pour créer votre première AIPD."
-      },
-      "step2": {
-        "title": "Les rôles autour de l'AIPD",
-        "description": "<p>Les <strong>rédacteurs</strong> rédigent la première version de l'analyse.</p><p>Ce sont par exemple les chefs de projet associés au traitement.</p>"
-      },
-      "step3": {
-        "title": "Les rôles autour de l'AIPD",
-        "description": "<p>Les <strong>évaluateurs</strong> interviennent dans un second temps.</p><p>Ils contrôlent, grâce à leur expertise juridique ou technique, la qualité et la conformité du traitement.</p><p>Ce sont par exemple le RSSI, des juristes, ...</p>"
-      },
-      "step4": {
-        "title": "Les rôles autour de l'AIPD",
-        "description": "<p>Le <strong>validateur</strong> accepte ou non la mise en oeuvre du traitement. Il doit signer l'analyse.</p><p>Il s'agit du responsable de traitement, par exemple le CEO.</p>"
-      },
-      "step5": {
-        "title": "Les modèles",
-        "description": "<p>Les <strong>modèles</strong> sont une fonctionnalité avancée. Ils permettent de créer une base pré-remplie pour l'analyse.</p><p>Vous pouvez créer des modèles en allant dans la section associée depuis le menu du haut.</p>"
-      }
-		},
-		"entry": {
-			"step1": {
-				"title": "Naviguer",
-				"description": "Pour passer d'une partie à l'autre de l'analyse, utilisez le menu de navigation de gauche."
-			},
-			"step2": {
-				"title": "Le contexte",
-				"description": "Il sert à expliquer l'objectif du traitement et comment il sera mis en oeuvre."
-			},
-			"step3": {
-				"title": "Les principes fondamentaux",
-				"description": "Ils permettent de s'assurer que le traitement est conforme au RGPD."
-			},
-			"step4": {
-				"title": "Les risques",
-				"description": "Ils décrivent les mesures de sécurité déjà prévues pour le traitement et permettent d'évaluer ses impacts potentiels sur les personnes concernées."
-			},
-			"step5": {
-				"title": "La validation",
-				"description": "Elle permet au DPO d'exprimer son avis sur la mise en oeuvre du traitement et au responsable de traitement de l'accepter ou de la refuser."
-			},
-			"step6": {
-				"title": "La base de connaissances",
-				"description": "<p>Elle fournit une aide contextuelle à la réalisation de l'analyse et s'appuie sur le RGPD, le guide sécurité et les guides AIPD de la CNIL.</p><p>En plus de ces contenus, vous pouvez également créer vos propres bases de connaissances pour accéder facilement à des informations spécifiques à votre organisme.</p>"
-			},
-			"step7": {
-				"title": "Exporter son AIPD",
-				"description": "À tout moment lors de la réalisation de l'analyse, vous pouvez télécharger l'analyse sous divers formats pour la partager avec vos collaborateurs."
-			}
-		},
-		"evaluation": {
-			"step1": {
-				"title": "Évaluer l'AIPD",
-				"description": "L'évaluation peut se faire au niveau d'une section entière, ou bien au niveau de chaque élément d'une section."
-			},
-			"step2": {
-				"title": "À corriger",
-				"description": "<p>Cette évaluation indique aux rédacteurs que des éléments sont manquants pour pouvoir faire une évaluation pertinente.</p><p>L'évaluateur doit indiquer ceux-ci dans le champ <strong>commentaire d'évaluation</strong> associé. Le rédacteur apportera les corrections nécessaires.</p>"
-			},
-			"step3": {
-				"title": "Améliorable",
-				"description": "<p>Cette évaluation indique les points du traitement à réviser. Ils sont détaillés dans le champ <strong>plan d'action / mesures correctives</strong>.</p><p>Ces mesures seront ajoutées automatiquement à la partie plan d'action de l'analyse. Il est nécessaire de les mettre en oeuvre dans les plus brefs délais.</p>"
-			},
-			"step4": {
-				"title": "Acceptable",
-				"description": "Cette évaluation signifie que ce point du traitement peut être mis en oeuvre sans y apporter de modifications."
-			},
-			"step5": {
-				"title": "Annuler une demande",
-				"description": "Si l'évaluation d'une section n'a pas encore commencé, il est possible d'annuler la demande d'évaluation pour apporter des modifications à la description du traitement."
-			}
-    },
-    "validated": {
-			"step1": {
-				"title": "Consulter une AIPD validée",
-				"description": "Une analyse faite dans son intégralité et validée peut être consultée à tout moment via une interface dédiée."
-			},
-			"step2": {
-				"title": "Mettre à jour une AIPD validée",
-				"description": "Il est nécessaire de réviser son analyse régulièrement. Vous pouvez à tout moment l'éditer ou la dupliquer pour revoir son contenu en fonction des évolutions du traitement."
-			}
-		}
-  }
+	}
 }
