@@ -1502,7 +1502,7 @@
       },
       "step4": {
         "title": "PIA's roles",
-        "description": "The <p><strong>validator</strong> accepts or rejects the implementation of the processing. He must sign the analysis.</p><p>He is the controller, e.g. the CEO.</p>"
+        "description": "<p>The <strong>validator</strong> accepts or rejects the implementation of the processing. He must sign the analysis.</p><p>He is the controller, e.g. the CEO.</p>"
       },
       "step5": {
         "title": "Templates",
@@ -1550,7 +1550,7 @@
 			},
 			"step3": {
 				"title": "Improvable",
-				"description": "<p>This assessment indicates the processing elements to be revised. Theyare detailed in the <strong>action plan / corrective action</strong> field.</p><p>These measures will be automatically added to the action plan part of the analysis. It is necessary to implement them as soon as possible.</p>"
+				"description": "<p>This assessment indicates the processing elements to be revised. They are detailed in the <strong>action plan / corrective action</strong> field.</p><p>These measures will be automatically added to the action plan part of the analysis. It is necessary to implement them as soon as possible.</p>"
 			},
 			"step4": {
 				"title": "Acceptable",
