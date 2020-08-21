@@ -449,153 +449,103 @@
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN2": {
-				"descripción": "",
 				"description": "Når følsomme personoplysninger modtages, enten som et standard datasæt eller for statistisk brug, kan disse eventuelt konverteres til et lavere følsomhedsniveau eller pseudonymiseret. For eksemple : <br>- Hvis systemet indsamler en IP addresse for at kende en geografisk placering med henblik på geostatistik, kan IP addressen slettes når by eller region er afklaret<br>- Hvis et system modtager videooptagelser for overvågningskamerarer, og personer kan genkendes, så kan disse sløres<br>- Hvis systemet er et smartmeter, kan energi informationer aggregeres over tid, uden realtidsoptagelser",
-				"fuente": "",
 				"name": "Formindske følsomhed ved konversion",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN3": {
-				"descripción": "",
 				"description": "Systemet sikre at: <br>- brugeren kan bruge en ressource eller tjeneste uden risiko for at afgive sin identitet (anonymitet)<br>- brugeren kan bruge en ressource eller tjeneste, men forbliver identificeret og ansvarlig for denne brug (pseudonym data)<br>- brugeren kan bruge en ressource eller tjeneste, forbliver identificeret men uden at personoplysningerne bliver korreleret (pseudonym data)<br>- brugeren kan bruge en ressource eller tjeneste uden risiko for, at andre, især tredjeparter, er i stand til at observere, at ressourcen eller tjenesten bliver brugt (ikke-observerbarhed)<br>Valget af en metode fra listen ovenfor afhænger af de identificerede trusler. For nogle typer af trusler for privatlivet, vil pseudonymisering være mere passende end anonymisering (for eksempel hvis der er behov for sporbarhed). Derudover vil nogle trusler for beskyttelse af privatlivet blive behandlet af en kombination af flere metoder.",
-				"fuente": "",
 				"name": "Reduktion af personoplysningernes henførbarhed",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN4": {
-				"descripción": "",
 				"description": "Systemet kan struktureres i uafhængige dele med separate adgangskontrolfunktioner. Personoplysninger kan også fordeles mellem disse uafhængige delsystemer og hvor hvert delsystem har forskellige adgangskontrolmekanismer. Hvis et delsystem er kompromitteret, kan konsekvenserne på datasættet reduceres.",
-				"fuente": "",
 				"name": "Formindske akkumulering af personoplysninger",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN5": {
-				"descripción": "",
 				"description": "Systemet kan begrænse adgangen til data i henhold til need-to-know princippet. Systemet kan adskille følsomme personoplysninger og anvende specifikke adgangskontrolpolitikker. Systemet kan også kryptere følsomme personoplysninger for at beskytte deres fortrolighed under transmission og opbevaring. Adgang til midlertidige skjulte filer, der produceres under databehandling, bør også beskyttes.",
-				"fuente": "",
 				"name": "Begræning af adgang til personoplysninger",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MINC": {
-				"Descripción": "",
 				"description": "Minimering af indsamling mindsker risiko niveauet for registerede ved kun at indsamle nødvendige personoplysninger til et specifikt behandlingsformål, ellers skal oplysningerne ikke indsamles.",
-				"fuente": "",
 				"name": "Minimering ved indsamling af personoplysninger",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIND": {
-				"descripción": "",
 				"description": "Risiko niveauet for registerede formindskes ved minimering af personoplysninger. Personoplynsingernes følsomhed kan mindskes, irellevante personoplysninger slettes, personoplysninger kan pseudonymiseres, osv.",
-				"fuente": "",
 				"name": "Minimering af personoplysninger",
 				"source": "PIA3 p64"
 			},
 			"PIA_DEF_OPP": {
-				"descripción": "",
 				"description": "Den registrerede har til enhver tid ret til af grunde, der vedrører den pågældendes særlige situation, at gøre indsigelse mod behandling af sine personoplysninger, jf. <a target=\"_blank\" href=\"https://eur-lex.europa.eu/legal-content/DA/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 21 af [GDPR]</a>",
-				"fuente": "",
 				"name": "Ret til indsigelse",
 				"source": "GDPR Art. 21"
 			},
 			"PIA_DEF_PBDS": {
-				"descripción": "",
 				"description": "Foranstaltninger, der træffes for at inkorporere beskyttelsen af personoplysninger i alle nye behandlingsoperationer (retningslinjer, metoder til risikostyring).",
-				"fuente": "",
 				"name": "Projekt styring",
-				"nombre": "",
 				"source": "Mesures_US"
 			},
 			"PIA_DEF_PC": {
-				"descripción": "",
 				"description": "Person, den registrerede, der ejer personoplysningerne indeholdt i behandlingen.",
-				"fuente": "",
 				"name": "Data subject",
 				"source": "PIA1 p9"
 			},
 			"PIA_DEF_PORT": {
-				"descripción": "",
 				"description": " Den registrerede har ret til i et struktureret, almindeligt forståeligt og maskinlæsbart format at modtage personoplysninger om sig selv, som vedkommende har givet til en dataansvarlig, og har ret til at transmittere disse oplysninger til en anden dataansvarlig uden hindring fra den dataansvarlige, som personoplysningerne er blevet givet til, se <a target=\"_blank\" href=\"https://eur-lex.europa.eu/legal-content/DA/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 20 of [GDPR]</a>",
-				"fuente": "",
 				"name": "Ret til dataportabilitet",
 				"source": "GDPR Art. 20"
 			},
 			"PIA_DEF_PSEU": {
-				"descripción": "",
 				"description": "Pseudonymisering er i databeskyttelsesforordningen defineret som behandling af personoplysninger på en sådan måde, at personoplysningerne ikke længere kan henføres til en bestemt registreret uden brug af supplerende oplysninger, forudsat at sådanne supplerende oplysninger opbevares separat og er underlagt tekniske og organisatoriske foranstaltninger for at sikre, at personoplysningerne ikke henføres til en identificeret eller identificerbar fysisk person.<br>Pseudonymisering reducerer linkbarheden af et datasæt med den registrerede persons oprindelige identitet; som sådan er det en nyttig sikkerhedsforanstaltning, men ikke en metode til anonymisering.",
-				"fuente": "",
 				"name": "Pseudonymisering",
-				"nombre": "",
 				"source": "GDPR Art. 4.5"
 			},
 			"PIA_DEF_PWD": {
-				"descripción": "",
 				"description": "Det anbefales at definere krav til adgangskoder (Passwords) afhængig af følsomheden af informationer der skal beskyttes. Således kan en Password politik sætte regler og krav til organisationens brug af passwords : længde, brug af specialkaraktere, forbud med brug af personoplysninger, levetid, genbrug af samme passwords, maximum login fejl, sikker reset procedure, osv.",
-				"fuente": "",
 				"name": "Password",
-				"nombre": "",
 				"source": "Mesure_US"
 			},
 			"PIA_DEF_RECT": {
-				"descripción": "",
 				"description": "Den registrerede har ret til at få urigtige personoplysninger om sig selv berigtiget af den dataansvarlige uden unødig forsinkelse. Den registrerede har under hensyntagen til formålene med behandlingen ret til få fuldstændiggjort ufuldstændige personoplysninger, bl.a. ved at fremlægge en supplerende erklæring.",
-				"fuente": "",
 				"name": "Ret til berigtigelse",
-				"nombre": "",
 				"source": "GDPR Art. 16"
 			},
 			"PIA_DEF_RGPD": {
-				"Descripción": "",
 				"description": "FORORDNING om beskyttelse af fysiske personer i forbindelse med behandling af personoplysninger og om fri udveksling af sådanne oplysninger og om ophævelse af direktiv 95/46/EF (generel forordning om databeskyttelse).",
-				"fuente": "",
 				"name": "GDPR (General Data Protection Regulation)",
 				"source": "GDPR title"
 			},
 			"PIA_DEF_RT": {
-				"descripción": "",
 				"description": "En fysisk eller juridisk person, en offentlig myndighed, en institution eller et andet organ, der alene eller sammen med andre afgør, til hvilke formål og med hvilke hjælpemidler der må foretages behandling af personoplysninger; hvis formålene og hjælpemidlerne til en sådan behandling er fastlagt i EU-retten eller medlemsstaternes nationale ret, kan den dataansvarlige eller de specifikke kriterier for udpegelse af denne fastsættes i EU-retten eller medlemsstaternes nationale ret.<br>Se <a target=\"_blank\" href=\"https://eur-lex.europa.eu/legal-content/DA/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 4.7 af [GDPR]</a>",
-				"fuente": "",
 				"name": "Dataansvarlig",
-				"nombre": "",
 				"source": "GDPR Art. 4.7"
 			},
 			"PIA_DEF_SRC": {
-				"descripción": "",
 				"description": "Person eller ikke-menneskelige kilde der præsentere en risiko. En sådan kilde kan agere frivilligt eller ufrivilligt.",
-				"fuente": "",
 				"name": "risikokilde",
-				"nombre": "",
 				"source": "PIA1 p11 - WIKI"
 			},
 			"PIA_DEF_ST": {
-				"descripción": "",
 				"description": "En fysisk eller juridisk person, en offentlig myndighed, en institution eller et andet organ, der behandler personoplysninger på den dataansvarliges vegne, se <a target=\"_blank\" href=\"https://eur-lex.europa.eu/legal-content/DA/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 4.8 af [GDPR]</a>.<br>Databehandleren og enhver, der udfører arbejde for den dataansvarlige eller databehandleren, og som har adgang til personoplysninger, behandler kun disse oplysninger efter instruks fra den dataansvarlige, medmindre det kræves i henhold til EU-retten eller medlemsstaternes nationale ret, se <a target=\"_blank\" href=\"https://eur-lex.europa.eu/legal-content/DA/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 29 af [GDPR]</a>.",
-				"fuente": "",
 				"name": "Processor",
-				"nombre": "",
 				"source": "GDPR Art. 4.8 and 29"
 			},
 			"PIA_DEF_SUPT": {
-				"descripción": "",
 				"description": "strong>Enheder til lagring af data</strong> : Computere, router, USB nøgler, hard diske...<br><strong>Software</strong> : operativ systemer, e-mail, databaser, fagsystemer...<br><strong>Kommunikations kanaler</strong> : Kabler, WiFi, optiske fibre<br><br><strong>Personer</strong> : brugere, system administratorer, ledere...<br><strong>Papier dokumenter</strong> : print, fotokopier, håndskrevet dokumenter...<br><strong>Papir transmission</strong> : fysiske breve, fax, underskriftsmapper...",
-				"fuente": "",
 				"name": "Understøttende informationsaktiver",
-				"nombre": "",
 				"source": "PIA1 p10"
 			},
 			"PIA_DEF_VIOL": {
-				"descripción": "",
 				"description": "Brud på sikkerheden, der fører til utilsigtet eller ulovlig destruktion, tab, ændring, uautoriseret offentliggørelse af eller adgang til personoplysninger, der overføres, opbevares eller på anden måde behandles.",
-				"fuente": "",
 				"name": "Sikkerhedsbrud",
-				"nombre": "",
 				"source": "GDPR Art. 4.12"
 			},
 			"PIA_DEF_VRA": {
-				"Descripción": "",
 				"description": "Sandsynlighed udtrykker muligheden for at en risiko udløses. Det afhænger først og fremmest af de sårbarheder, der er forbundet med de understøttende aktiver, når de er truet, og risikokildenes kapacitet til at udnytte disse trusler.",
-				"fuente": "",
 				"name": "Sandsynlighed",
-				"nombre": "",
 				"source": "PIA1 page 6"
 			},
 			"PIA_EX_DC": {

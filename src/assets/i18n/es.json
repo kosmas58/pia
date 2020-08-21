@@ -464,18 +464,14 @@
 				"source": "Objetos conectados PIAF p42 - WIKI"
 			},
 			"PIA_DEF_MIN5": {
-				"description": "El sistema puede limitar el acceso a los datos de acuerdo con el principio de 'necesidad de saber' . El sistema puede separar los datos confidenciales y aplicar políticas de control de acceso específicas. El sistema también puede cifrar datos confidenciales para proteger su confidencialidad durante la transmisión y el almacenamiento. el acceso a las cookies temporales que se producen durante el tratamiento de datos también debe ser protegido.",
-				"description": "",
-				"source": "Objetos conectados PIAF p42 - WIKI",
+				"description": "El sistema puede restringir el acceso a los datos según la \"necesidad de conocerlos\". El sistema puede separar datos sensibles y aplicar políticas de control de acceso específicas.<br>El sistema también puede cifrar datos confidenciales para proteger su confidencialidad durante la transmisión y el almacenamiento. También se debe proteger el acceso a archivos ocultos temporales que se producen durante el procesamiento de datos.",
 				"name": "Restricción del acceso a datos",
-				"source": ""
+				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MINC": {
-				"Descripción": "Reducir la gravedad de los riesgos mediante la limitación de la cantidad de datos personales a lo estrictamente necesario para alcanzar un propósito definido, de lo contrario los datos no se recogen.",
-				"description": "",
-				"fuente": "WIKI Minimisation_des_données _: _ adéquates, _pertinentes_et_limitées",
+				"description": "Reducir la gravedad de los riesgos mediante la limitación de la cantidad de datos personales a lo estrictamente necesario para alcanzar un propósito definido, de lo contrario los datos no se recogen.",
 				"name": "Minimizando la cantidad de datos personales",
-				"source": ""
+				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIND": {
 				"description": "Reduzca la gravedad de los riesgos minimizando los datos en sí mismos, mediante medidas destinadas a reducir su sensibilidad, por ejemplo, filtrando y eliminando datos innecesarios, seudonimizando los datos, etc.",
@@ -483,11 +479,9 @@
 				"source": "PIA3 p64"
 			},
 			"PIA_DEF_OPP": {
-				"descripción": "El interesado tendrá derecho a oponerse, por motivos relacionados con su situación particular, en cualquier momento al tratamiento de datos personales que le conciernen, de conformidad con <a target = \" _blank \" href = \" http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN \" > Art. 21 de [GDPR] </a>",
-				"description": "",
-				"fuente": "GDPR Art. 21",
+				"description": "El interesado tendrá derecho a oponerse, por motivos relacionados con su situación particular, en cualquier momento al tratamiento de datos personales que le conciernen, de conformidad con <a target = \" _blank \" href = \" http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN \" > Art. 21 de [GDPR] </a>",
 				"name": "Derecho a objetar",
-				"source": ""
+				"source": "GDPR Art. 21"
 			},
 			"PIA_DEF_PBDS": {
 				"description": "Medidas tomadas para integrar la protección de datos personales en todas las nuevas operaciones de tratamiento (nombres confiables, directrices, metodología CNIL para la gestión de riesgos u otra metodología interna)",
@@ -495,18 +489,14 @@
 				"source": "Mesures_US"
 			},
 			"PIA_DEF_PC": {
-				"descripción": "Personas a las que se refieren los datos cubiertos por el tratamiento",
-				"description": "",
-				"fuente": "PIA1 p9",
+				"description": "Personas a las que se refieren los datos cubiertos por el tratamiento",
 				"name": "Sujeto de datos",
-				"source": ""
+				"source": "PIA1 p9"
 			},
 			"PIA_DEF_PORT": {
-				"descripción": "El interesado tiene derecho a recibir los datos personales que le conciernen, que ha proporcionado a un controlador, en un formato estructurado, de uso común y legible por máquina, y tiene el derecho de transmitirlos datos a otro controlador sin obstáculos del controlador al que se han proporcionado los datos personales, consulte <a target = \" _blank \" href = \" http://eur-lex.europa.eu/legal-content/EN/ TXT / HTML /? Uri = CELEX: 32016R0679 & from = ES \" > Art. 20 de [GDPR] </a>",
-				"description": "",
-				"fuente": "GDPR Art. 20",
+				"description": "El interesado tiene derecho a recibir los datos personales que le conciernen, que ha proporcionado a un controlador, en un formato estructurado, de uso común y legible por máquina, y tiene el derecho de transmitirlos datos a otro controlador sin obstáculos del controlador al que se han proporcionado los datos personales, consulte <a target = \" _blank \" href = \" http://eur-lex.europa.eu/legal-content/EN/ TXT / HTML /? Uri = CELEX: 32016R0679 & from = ES \" > Art. 20 de [GDPR] </a>",
 				"name": "Derecho a la portabilidad de datos",
-				"source": ""
+				"source": "GDPR Art. 20"
 			},
 			"PIA_DEF_PSEU": {
 				"description": "tratamiento de datos personales de tal manera que los datos personales ya no se puedan atribuir a un sujeto de datos específico sin el uso de información adicional, siempre que dicha información adicional se mantenga por separado y esté sujeta a medidas técnicas y organizativas para garantizar que los datos personales no se atribuyan a una persona física identificada o identificable. <br> La seudonimización reduce la vinculación de un conjunto de datos con la identidad original de un sujeto de datos; como tal, es una medida de seguridad útil pero no un método de anonimización",
@@ -514,20 +504,14 @@
 				"source": "GDPR Art. 4.5 y directrices G29 p22 http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_en.pdf"
 			},
 			"PIA_DEF_PWD": {
-				"descripción": "Las contraseñas deben estar compuestas por un mínimo de ocho caracteres; deben renovarse si existe la menor preocupación de que puedan haber sido comprometidas y, posiblemente, periódicamente (cada seis meses o una vez al año) y deben incluir un mínimo de tres de los cuatro tipos de caracteres (letras mayúsculas, minúsculas, números y caracteres especiales); cuando se cambia una contraseña, no se pueden reutilizar las últimas cinco contraseñas; la misma contraseña no debe usarse para diferentes accesos; las contraseñas deben no estar relacionado con la propia información personal (incluyendo nombre o fecha de nacimiento.). Definir un número máximo de intentos más allá del cual se emite una advertencia y la autenticación se bloquea (temporal o hasta que se desbloquee manualmente).",
-				"description": "",
-				"fuente": "Mesure_US",
-				"name": "",
-				"nombre": "Contraseña",
-				"source": ""
+				"description": "Las contraseñas deben estar compuestas por un mínimo de ocho caracteres; deben renovarse si existe la menor preocupación de que puedan haber sido comprometidas y, posiblemente, periódicamente (cada seis meses o una vez al año) y deben incluir un mínimo de tres de los cuatro tipos de caracteres (letras mayúsculas, minúsculas, números y caracteres especiales); cuando se cambia una contraseña, no se pueden reutilizar las últimas cinco contraseñas; la misma contraseña no debe usarse para diferentes accesos; las contraseñas deben no estar relacionado con la propia información personal (incluyendo nombre o fecha de nacimiento.). Definir un número máximo de intentos más allá del cual se emite una advertencia y la autenticación se bloquea (temporal o hasta que se desbloquee manualmente).",
+				"name": "Contraseña",
+				"source": "Mesure_US"
 			},
 			"PIA_DEF_RECT": {
-				"descripción": "El interesado tendrá derecho a obtener del controlador sin demora indebida la rectificación de los datos personales inexactos que le conciernen. Teniendo en cuenta los fines del tratamiento, el interesado tendrá derecho a tener información incompleta datos personales completado, incluso por medio de proporcionar una declaración complementaria.",
-				"description": "",
-				"fuente": "GDPR Art. 16",
-				"name": "",
-				"nombre": "Derecho a la rectificación",
-				"source": ""
+				"description": "El interesado tendrá derecho a obtener del controlador sin demora indebida la rectificación de los datos personales inexactos que le conciernen. Teniendo en cuenta los fines del tratamiento, el interesado tendrá derecho a tener información incompleta datos personales completado, incluso por medio de proporcionar una declaración complementaria.",
+				"name": "Derecho a la rectificación",
+				"source": "GDPR Art. 16"
 			},
 			"PIA_DEF_RGPD": {
 				"description": "Reglamento sobre la protección de las personas físicas en lo que respecta al tratamiento de datos personales ya la libre circulación de estos datos, y se deroga la Directiva 95/46 / CE.",
@@ -540,12 +524,9 @@
 				"source": "GDPR Art. 4.7"
 			},
 			"PIA_DEF_SRC": {
-				"descripción": "Persona o fuente no humana que puede causar un riesgo. Esta fuente puede actuar accidental o deliberadamente",
-				"description": "",
-				"fuente": "PIA1 p11 - WIKI",
-				"name": "",
-				"nombre": "Fuente de riesgo",
-				"source": ""
+				"description": "Persona o fuente no humana que puede causar un riesgo. Esta fuente puede actuar accidental o deliberadamente",
+				"name": "Fuente de riesgo",
+				"source": "PIA1 p11 - WIKI"
 			},
 			"PIA_DEF_ST": {
 				"description": "Persona física o jurídica, autoridad pública, agencia u otro organismo que procesa datos personales en nombre del controlador, consulte <a target = \" _blank \" href = \" http: //eur-lex.europa .eu / legal-content / EN / TXT / HTML /? uri = CELEX: 32016R0679 & from = EN \" > Art. 4.8 de [GDPR] </a>. <br> El procesador y cualquier persona que actúe bajo la autoridad del el controlador o el procesador, que tiene acceso a datos personales, no procesará esos datos, excepto por instrucciones del controlador, a menos que así lo exija la legislación de la Unión o del Estado miembro, consulte <a target = \" _blank \" href = \"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN \" > Art. 29 de la [GDPR] </a>.",
@@ -553,12 +534,9 @@
 				"source": "GDPR Art. 4.8 y 29"
 			},
 			"PIA_DEF_SUPT": {
-				"descripción": "Activo en el que se basan los datos personales. Puede ser hardware, software, redes, personas, papel o canales de transmisión de papel",
-				"description": "",
-				"fuente": "PIA1 p10",
-				"name": "",
-				"nombre": "Activos de apoyo",
-				"source": ""
+				"description": "Activo en el que se basan los datos personales. Puede ser hardware, software, redes, personas, papel o canales de transmisión de papel",
+				"name": "Activos de apoyo",
+				"source": "PIA1 p10"
 			},
 			"PIA_DEF_VIOL": {
 				"description": "Infracción de seguridad que conduce a la destrucción accidental o ilegal, pérdida, alteración, divulgación no autorizada o acceso a datos personales transmitidos, almacenados o procesados ??de otra manera",

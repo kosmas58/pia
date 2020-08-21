@@ -449,153 +449,103 @@
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN2": {
-				"descripción": "",
 				"description": "Zodra gevoelige gegevens zijn ontvangen, als onderdeel van een reeks algemene informatie of alleen voor statistische doeleinden zijn verzonden, kunnen deze worden omgezet in een minder gevoelige vorm of gepseudonimiseerd. Bijvoorbeeld: <br> - als het systeem het IP-adres verzamelt om de locatie van de gebruiker te bepalen voor een statistisch doel, kan het IP-adres worden verwijderd nadat de stad of district is afgeleid <br> - als het systeem videogegevens ontvangt van surveillance camera's, kan het mensen herkennen die zich in de scène bevinden of bewegen en deze vervagen. - Als het systeem een slimme meter is, kan het het gebruik van energie gedurende een bepaalde periode samenvoegen, zonder het in realtime op te nemen",
-				"fuente": "",
 				"name": "Gevoeligheid verminderen via conversie",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN3": {
-				"descripción": "",
 				"description": "Het systeem kan ervoor zorgen dat: <br> - de gebruiker kan een bron of service gebruiken zonder het risico van het bekendmaken van zijn / haar identiteit (anonieme gegevens) <br> - de gebruiker kan een bron of service gebruiken zonder het risico te lopen zijn / zijn haar identiteit, maar blijft identificeerbaar en verantwoordelijk voor dit gebruik (pseudoniemgegevens) <br> - de gebruiker kan meerdere bronnen of services gebruiken zonder het risico dat deze verschillende soorten gebruik aan elkaar worden gekoppeld (gegevens kunnen niet worden gecorreleerd) <br> - de gebruiker kan een bron of service gebruiken zonder het risico van anderen, in het bijzonder derde partijen, om te kunnen constateren dat de bron of dienst wordt gebruikt (niet-observeerbaarheid) <br> De keuze van een methode uit de bovenstaande lijst moet worden gemaakt op basis van de geïdentificeerde bedreigingen. Voor sommige vormen van bedreiging van privacy is pseudonimisering geschikter dan anonimisering (bijvoorbeeld als er een traceerbaarheid nodig is). Bovendien zullen sommige bedreigingen van de privacy worden aangepakt met behulp van een combinatie van methoden.",
-				"fuente": "",
 				"name": "Het verminderen van de identificatie van de aard van de gegevens",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN4": {
-				"descripción": "",
 				"description": "The system can be organised into independent parts with separate access control functions. The data can also be divided between these independent sub-systems and controlled by each sub-system using different access control mechanisms. If a sub-system is compromised, the impacts on all of the data can thus be reduced.",
-				"fuente": "",
 				"name": "Vermindering van gegevensaccumulatie",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN5": {
-				"descripción": "",
 				"description": "Het systeem kan de gegevenstoegang beperken volgens het \\'need to know \\' -principe. Het systeem kan de gevoelige gegevens scheiden en specifieke toegangscontrolebeleid toepassen. Het systeem kan ook gevoelige gegevens coderen om hun vertrouwelijkheid tijdens verzending en opslag te beschermen. Toegang tot tijdelijke cookies die worden geproduceerd tijdens de gegevensverwerking moet ook worden beschermd.",
-				"fuente": "",
 				"name": "Gegevenstoegang beperken",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MINC": {
-				"Descripción": "",
 				"description": "Verminder de ernst van risico's door de hoeveelheid persoonlijke gegevens te beperken tot wat strikt noodzakelijk is om een bepaald doel te bereiken, anders worden de gegevens niet verzameld.",
-				"fuente": "",
 				"name": "Het minimaliseren van de hoeveelheid persoonlijke gegevens",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIND": {
-				"descripción": "",
 				"description": "De ernst van de risico's verminderen door de gegevens zelf te minimaliseren, door maatregelen te nemen om hun gevoeligheid te verminderen, zoals het filteren en verwijderen van onnodige gegevens, het pseudonimiseren van gegevens, enz.",
-				"fuente": "",
 				"name": "Minimalisatie van gegevens zelf",
 				"source": "PIA3 p64"
 			},
 			"PIA_DEF_OPP": {
-				"descripción": "",
 				"description": "De betrokkene heeft het recht om op grond van zijn specifieke situatie te allen tijde bezwaar te maken tegen de verwerking van persoonsgegevens die op hem betrekking hebben, overeenkomstig <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32016R0679&from=NL\">Art. 21 van de [AVG]</a>",
-				"fuente": "",
 				"name": "Recht van bezwaar",
 				"source": "AVG Art. 21"
 			},
 			"PIA_DEF_PBDS": {
-				"descripción": "",
 				"description": "Maatregelen die zijn genomen om de bescherming van persoonsgegevens in alle nieuwe verwerkingsactiviteiten te integreren (vertrouwde namen, richtlijnen, allerlei methodologieën voor risicobeheer of andere interne methodologie).",
-				"fuente": "",
 				"name": "Project Management",
-				"nombre": "",
 				"source": "Mesures_US"
 			},
 			"PIA_DEF_PC": {
-				"descripción": "",
 				"description": "Personen op wie de verwerkingde gegevens betrekking hebben .",
-				"fuente": "",
 				"name": "Betrokkene",
 				"source": "PIA1 p9"
 			},
 			"PIA_DEF_PORT": {
-				"descripción": "",
 				"description": " De betrokkene heeft het recht om de persoonsgegevens die hem of haar betreffen en die hij aan een verantwoordelijke heeft verstrekt, in een gestructureerd, veelgebruikt en machinaal leesbaar formaat te ontvangen en heeft het recht deze gegevens aan een andere verwerker door te geven zonder belemmering van de verwerker waaraan de persoonlijke gegevens zijn verstrekt, zie <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32016R0679&from=NL\">Art. 20 van de [AVG]</a>",
-				"fuente": "",
 				"name": "Recht op overdraagbaarheid van gegevens",
 				"source": "AVG Art. 20"
 			},
 			"PIA_DEF_PSEU": {
-				"descripción": "",
 				"description": "Verwerking van persoonsgegevens op een zodanige wijze, dat de persoonsgegevens niet langer aan een specifieke gegevenssubject kunnen worden toegeschreven zonder het gebruik van aanvullende informatie, op voorwaarde dat die aanvullende informatie afzonderlijk wordt bewaard en onderworpen is aan technische en organisatorische maatregelen om te gegevens worden niet toegeschreven aan een geïdentificeerde of identificeerbare natuurlijke persoon. <br> Pseudonimisering vermindert de koppelbaarheid van een gegevensset met de oorspronkelijke identiteit van een betrokkene; als zodanig is het een nuttige beveiligingsmaatregel, maar geen methode voor anonimisering.",
-				"fuente": "",
 				"name": "Pseudonimisering",
-				"nombre": "",
 				"source": "AVG Art. 4.5 and guidelines G29 p22 http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_en.pdf"
 			},
 			"PIA_DEF_PWD": {
-				"descripción": "",
 				"description": "Wachtwoorden bestaan uit minimaal acht tekens; moet worden vernieuwd als er de minste bezorgdheid bestaat dat ze mogelijk in gevaar zijn gebracht en mogelijk periodiek (elke zes maanden of eenmaal per jaar) en een minimum van drie van de vier soorten tekens moeten bevatten (hoofdletters, kleine letters, cijfers en speciale tekens); wanneer een wachtwoord wordt gewijzigd, worden de laatste vijf wachtwoorden mogelijk niet opnieuw gebruikt; hetzelfde wachtwoord mag niet worden gebruikt voor verschillende toegangen; wachtwoorden mogen niet gerelateerd zijn aan iemands persoonlijke informatie (inclusief naam of geboortedatum). Definieer een maximum aantal pogingen waarna een waarschuwing wordt verzonden en de verificatie wordt geblokkeerd (tijdelijk of totdat deze handmatig wordt gedeblokkeerd).",
-				"fuente": "",
 				"name": "Wachtwoorden",
-				"nombre": "",
 				"source": "Mesure_US"
 			},
 			"PIA_DEF_RECT": {
-				"descripción": "",
 				"description": "De betrokkene heeft het recht van de verwerkingsverantwoordelijke onverwijld de rectificatie van onjuiste persoonsgegevens die op hem of haar betrekking hebben, te verkrijgen. Rekening houdend met de doeleinden van de verwerking heeft de betrokkene het recht onvolledige persoonsgegevens te vervolledigen, onder meer door een aanvullende verklaring te verstrekken.",
-				"fuente": "",
 				"name": "Recht op rectificatie",
-				"nombre": "",
 				"source": "AVG Art. 16"
 			},
 			"PIA_DEF_RGPD": {
-				"Descripción": "",
 				"description": "Verordening betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van Richtlijn 95/46 / EG.",
-				"fuente": "",
 				"name": "Algemene verordening gegevensbescherming (AVG)",
 				"source": "Europese privacywetgeving AVG"
 			},
 			"PIA_DEF_RT": {
-				"descripción": "",
 				"description": "Natuurlijke of rechtspersoon, overheidsinstantie, agentschap of andere instantie die, alleen of samen met anderen, de doeleinden en middelen voor de verwerking van persoonsgegevens bepaalt; wanneer het doel en de middelen van een dergelijke verwerking worden bepaald door de wetgeving van de Unie of de lidstaat, kan de verwerkingsverantwoordelijke of de specifieke criteria voor de aanwijzing ervan door de wetgeving van de Unie of de lidstaten worden geregeld <br>zie <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32016R0679&from=NL\">Art. 4.7 van de [AVG]</a>",
-				"fuente": "",
 				"name": "Verwerkingsverantwoordelijke",
-				"nombre": "",
 				"source": "AVG Art. 4.7"
 			},
 			"PIA_DEF_SRC": {
-				"descripción": "",
 				"description": "Persoon of niet-menselijke bron die een risico kan veroorzaken. Deze bron kan per ongeluk of opzettelijk werken.",
-				"fuente": "",
 				"name": "Risicobron",
-				"nombre": "",
 				"source": "PIA1 p11 - WIKI"
 			},
 			"PIA_DEF_ST": {
-				"descripción": "",
 				"description": "Natuurlijke of rechtspersoon, overheidsinstantie, agentschap of andere instantie die persoonsgegevens namens de verantwoordelijke voor de verwerking verwerkt, zie <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32016R0679&from=NL\">Art. 4.8 van de [AVG]</a>.<br>The processor and any person acting under the authority of the controller or of the processor, who has access to personal data, shall not process those data except on instructions from the controller, unless required to do so by Union or Member State law, see <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32016R0679&from=NL\">Art. 29 van de [AVG]</a>.",
-				"fuente": "",
 				"name": "Verwerker",
-				"nombre": "",
 				"source": "AVG Art. 4.8 and 29"
 			},
 			"PIA_DEF_SUPT": {
-				"descripción": "",
 				"description": "Activum waarop persoonlijke gegevens vertrouwen. Dit kunnen hardware, software, netwerken, mensen, papier- of papiertransmissiekanalen zijn",
-				"fuente": "",
 				"name": "Ondersteunende activa",
-				"nombre": "",
 				"source": "PIA1 p10"
 			},
 			"PIA_DEF_VIOL": {
-				"descripción": "",
 				"description": "Overtreding van de beveiliging die leidt tot de accidentele of onrechtmatige vernietiging, verlies, wijziging, ongeautoriseerde openbaarmaking van of toegang tot doorgegeven, opgeslagen of anderszins verwerkte persoonsgegevens.",
-				"fuente": "",
 				"name": "Inbreuk op persoonsgegevens",
-				"nombre": "",
 				"source": "AVG Art. 4.12"
 			},
 			"PIA_DEF_VRA": {
-				"Descripción": "",
 				"description": "Waarschijnlijkheid drukt de mogelijkheid uit, dat een risico zich voordoet. Het hangt in de eerste plaats af van het niveau van kwetsbaarheden van de ondersteunende activa wanneer deze worden bedreigd en van het niveau van mogelijkheden van de risicobronnen om deze te exploiteren.",
-				"fuente": "",
 				"name": "Waarschijnlijkheid",
-				"nombre": "",
 				"source": "PIA1 page 6"
 			},
 			"PIA_EX_DC": {
