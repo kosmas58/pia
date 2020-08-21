@@ -1483,8 +1483,8 @@
 			"individual_download_json": "Análise para importar para a ferramenta PIA (file.json)",
 			"individual_download_select": "Seleccionar elementos a exportar:",
 			"individual_to_download": "Baixar",
-      "print": "Imprimir o relatório",
-      "print_and_download": "Imprimir e descarregar"
+			"print": "Imprimir o relatório",
+			"print_and_download": "Imprimir e descarregar"
 		},
 		"attachments": "Anexos",
 		"concerned_people_name": "Opiniões de partes interessadas",
