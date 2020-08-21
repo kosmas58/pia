@@ -1019,7 +1019,7 @@
 				"title": "Créer une AIPD"
 			},
 			"step2": {
-				"description": "<p>Les <strong>rédacteurs</strong> rédigent la première version de l'analyse.</p><p>Ce sont par exemple les chefs du projet associés au traitement.</p>",
+				"description": "<p>Les <strong>rédacteurs</strong> rédigent la première version de l'analyse.</p><p>Ce sont par exemple les chefs de projet associés au traitement.</p>",
 				"title": "Les rôles autour de l'AIPD"
 			},
 			"step3": {
