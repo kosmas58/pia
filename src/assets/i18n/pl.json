@@ -211,7 +211,7 @@
 					"remove": "Usuń",
 					"unarchive": "Niearchiwizuj"
 				},
-				"validate_pia": "Uprawomocnić"
+				"validate_pia": "Zatwierdź"
 			},
 			"knowledges": {
 				"edit": "Edytuj bazę",
@@ -449,103 +449,153 @@
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN2": {
+				"descripción": "",
 				"description": "Po otrzymaniu danych wrażliwych, wchodzących w skład zestawu informacji ogólnych lub przesłanych jedynie dla celów statystycznych, można je zamienić w postać mniej wrażliwą bądź spseudonimizowaną. Na przykład:<br>- jeżeli system zbiera adresy IP w celu ustalenia lokalizacji użytkownika dla celów statystycznych, można usuwać adres IP po ustaleniu miasta lub dzielnicy;<br>- jeżeli system otrzymuje dane wideo z kamer monitoringu, można rozpoznać osoby stojące lub będące w ruchu i je zamazać;<br>- jeżeli system jest licznikiem inteligentnym, może agregować zużycie energii elektrycznej w okreslonym czasie, bez zapisów w czasie rzeczywistym.",
+				"fuente": "",
 				"name": "Zmniejszenie wrażliwości poprzez konwersję",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN3": {
+				"descripción": "",
 				"description": "System może zapewnić, że: <br>- użytkownik skorzysta z zasobu lub usługi bez ryzyka ujawnienia swojej tożsamości (dane anonimowe);<br>- użytkownik skorzysta z zasobu lub usługi bez ryzyka ujawnienia swojej tożsamości, lecz będzie identyfikowalny i odpowiedzialny za skorzystanie z nich (dane spseudonimizowane)<br>- użytkownik skorzysta wielokrotnie z zasobów i usług bez ryzyka powiązania tych różnych zastosowań (danych nie można skorelować)<br>- użytkownik skorzysta z zasobu lub usługi bez ryzyka, że inni, w szczególności strony trzecie, będą mogły obserwować, do czego zasób lub usługa są wykorzystywane (nieobserwowalność)<br>Wybór metody z powyższej listy powinien zależeć od zidentyfikowanych zagrożeń. Dla niektórych zagrożeń dla prywatności, pseudonimizacja będzie bardziej stosowna niż anonimizacja (np. jeżeli jest potrzeba prześledzenia korzystania). Ponadto, obsługa niektórych zagrożeń dla prywatności będzie wymagała kombinacji kilku metod.",
+				"fuente": "",
 				"name": "Ograniczenie charakteru identyfikacyjnego danych",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN4": {
+				"descripción": "",
 				"description": "System można tak zorganizować, by składał się z niezależnych części z oddzielnymi funkcjami kontroli dostępu. Dane można także podzielić pomiędzy te niezależne podsystemy, zaś każdy podsystem może je kontrolować korzystając z różnych mechanizmów kontroli dostępu. Jeżeli podsystem zostanie naruszony, można w ten sposób ograniczyć skutki dla całości danych.",
+				"fuente": "",
 				"name": "Ograniczenie kumulacji danych",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN5": {
+				"descripción": "",
 				"description": "System może ograniczać dostęp do danych zgodnie z zasadą \"wiedzy koniecznej\". System może rozdzielać dane wrażliwe i zastosować określone polityki kontroli dostępu. System może także szyfrować dane wrażliwe, by chronić ich poufność w czasie transmisji i przechowywania. Należy także chronić dostęp do tymczasowych plików ciasteczek (cookies) generowanych w trakcie przetwarzania.",
+				"fuente": "",
 				"name": "Ograniczenie dostępu do danych",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MINC": {
+				"Descripción": "",
 				"description": "Ograniczenie istotności ryzyka poprzez ograniczenie danych osobowych do tego, co absolutnie niezbędne do wyznaczonego celu, w przeciwnym wypadku dane nie powinny być zbierane.",
+				"fuente": "",
 				"name": "Minimalizacja danych osobowych",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIND": {
+				"descripción": "",
 				"description": "Zmniejszenie wagi zagrożeń poprzez minimalizację samych danych. Minimalizacji danych można dokonać poprzez podjęcie działań mających na celu zmniejszenie ich wrażliwości, takich jak: filtrowanie i usuwanie niepotrzebnych danych, stosowanie pseudonimizacji danych itp.",
+				"fuente": "",
 				"name": "Minimalizacja samych danych",
 				"source": "PIA3 p64"
 			},
 			"PIA_DEF_OPP": {
+				"descripción": "",
 				"description": "Osoba, której dane dotyczą, ma prawo w dowolnym momencie wnieść sprzeciw – z przyczyn związanych z jej szczególną sytuacją – wobec przetwarzania dotyczących jej danych osobowych, zgodnie z <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32016R0679&from=PL\">Art. 21 [RODO]</a>",
+				"fuente": "",
 				"name": "Prawo do sprzeciwu",
 				"source": "RODO Art. 21"
 			},
 			"PIA_DEF_PBDS": {
+				"descripción": "",
 				"description": "Działania podejmowane, by uwzględnić ochronę danych osobowych w każdej nowej czynności przetwarzania (znaki zaufania, wytyczne, metodologia CNIL zarządzania ryzykiem).",
+				"fuente": "",
 				"name": "Zarządzanie projektami",
+				"nombre": "",
 				"source": "Mesures_US"
 			},
 			"PIA_DEF_PC": {
+				"descripción": "",
 				"description": "Osoba, której dotyczą dane podlegające przetwarzaniu.",
+				"fuente": "",
 				"name": "Osoba, której dane dotyczą",
 				"source": "PIA1 p9"
 			},
 			"PIA_DEF_PORT": {
+				"descripción": "",
 				"description": " Osoba, której dane dotyczą, ma prawo otrzymać w ustrukturyzowanym, powszechnie używanym formacie nadającym się do odczytu maszynowego dane osobowe jej dotyczące, które dostarczyła administratorowi, oraz ma prawo przesłać te dane osobowe innemu administratorowi bez przeszkód ze strony administratora, któremu dostarczono te dane osobowe - <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32016R0679&from=PL\">Art. 20 [RODO]</a>",
+				"fuente": "",
 				"name": "Prawo do przenoszenia danych",
 				"source": "RODO Art. 20"
 			},
 			"PIA_DEF_PSEU": {
+				"descripción": "",
 				"description": "Przetworzenie danych osobowych w taki sposób, by nie można ich było już przypisać konkretnej osobie, której dane dotyczą, bez użycia dodatkowych informacji, pod warunkiem że takie dodatkowe informacje są przechowywane osobno i są objęte środkami technicznymi i organizacyjnymi uniemożliwiającymi ich przypisanie zidentyfikowanej lub możliwej do zidentyfikowania osobie fizycznej.<br>Pseudonimizacja ogranicza możliwość powiązania zbioru danych z oryginalną tożsamością osoby, której dane dotyczą; jest to przydatny środek bezpieczeństwa ale nie metoda anonimizacji.",
+				"fuente": "",
 				"name": "Pseudonimizacja",
+				"nombre": "",
 				"source": "RODO Art. 4.5 oraz wytyczne str. 22 http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_en.pdf"
 			},
 			"PIA_DEF_PWD": {
+				"descripción": "",
 				"description": "Uwierzytelnianie za pomocą nazwy i hasła użytkownika stanowi prosty i tani sposób kontroli dostępu. Jednakże dla wyższego poziomu ochrony zaleca się m.in., by:<br>wymagano hasła złożonego z co najmniej 8 znaków obejmujących duże i małe litery oraz cyfry i znaki specjalne;<br>przy zmianie hasła - uniemożliwiać skorzystanie z ostatnich pięciu haseł;<br> używać różnych haseł do różnych dostępów;<br>hasła nie były powiązane z danymi osobistymi (np. data urodzenia własna czy dziecka.<br>Należy określić maksymalną liczbę nieudanych prób logowania się przed zablokowaniem konta użytkownika.",
+				"fuente": "",
 				"name": "Hasło",
+				"nombre": "",
 				"source": "Mesure_US"
 			},
 			"PIA_DEF_RECT": {
+				"descripción": "",
 				"description": "Osoba, której dane dotyczą, ma prawo żądania od administratora niezwłocznego sprostowania dotyczących jej danych osobowych, które są nieprawidłowe. Z uwzględnieniem celów przetwarzania, osoba, której dane dotyczą, ma prawo żądania uzupełnienia niekompletnych danych osobowych, w tym poprzez przedstawienie dodatkowego oświadczenia - <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32016R0679&from=PL\">Art. 16 [RODO]</a>",
+				"fuente": "",
 				"name": "Prawo do sprostowania danych",
+				"nombre": "",
 				"source": "RODO Art. 16"
 			},
 			"PIA_DEF_RGPD": {
+				"Descripción": "",
 				"description": "Rozporządzenie w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE.",
+				"fuente": "",
 				"name": "RODO (Ogólne Rozporządzenie o Ochronie Danych)",
 				"source": "Tytuł RODO"
 			},
 			"PIA_DEF_RT": {
+				"descripción": "",
 				"description": "Osoba fizyczna lub prawna, organ publiczny, jednostka lub inny podmiot, który samodzielnie lub wspólnie z innymi ustala cele i sposoby przetwarzania danych osobowych; jeżeli cele i sposoby takiego przetwarzania są określone w prawie Unii lub w prawie państwa członkowskiego, to również w prawie Unii lub w prawie państwa członkowskiego może zostać wyznaczony administrator lub mogą zostać określone konkretne kryteria jego wyznaczania.<br><a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32016R0679&from=PL\">Art. 4.7 [RODO]</a>",
+				"fuente": "",
 				"name": "Administrator",
+				"nombre": "",
 				"source": "RODO Art. 4.7"
 			},
 			"PIA_DEF_SRC": {
+				"descripción": "",
 				"description": "Osoba, z wewnątrz lub zewnątrz organizacji, działająca w sposób niezamierzony lub świadomy (np. administrator IT, użytkownik, osoba atakująca z zewnątrz, konkurencja) lub źródło nieosobowe (np. woda, materiały niebezpieczne, wirus komputerowy), które mogą stanowić ryzyko.",
+				"fuente": "",
 				"name": "Źródło ryzyka",
+				"nombre": "",
 				"source": "PIA1 p11 - WIKI"
 			},
 			"PIA_DEF_ST": {
+				"descripción": "",
 				"description": "Osoba fizyczna lub prawna, organ publiczny, jednostka lub inny podmiot, który przetwarza dane osobowe w imieniu administratora <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32016R0679&from=PL\">Art. 4.8 [RODO]</a>.<br>Podmiot przetwarzający oraz każda osoba działająca z upoważnienia administratora lub podmiotu przetwarzającego i mająca dostęp do danych osobowych przetwarzają je wyłącznie na polecenie administratora, chyba że wymaga tego prawo Unii lub prawo państwa członkowskiego <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32016R0679&from=PL\">Art. 29 [RODO]</a>.",
+				"fuente": "",
 				"name": "Podmiot przetwarzający",
+				"nombre": "",
 				"source": "RODO Art. 4.8 i 29"
 			},
 			"PIA_DEF_SUPT": {
+				"descripción": "",
 				"description": "<strong>Sprzęt i nośniki danych osobowych</strong>: komputery, przekaźniki, klucze USB, dyski twarde...<br><strong>Oprogramowanie</strong>: systemy eksploatacyjne, komunikatory, bazy danych, aplikacje biznesowe...<br><strong>Kanały informacyjne</strong>: kable, WiFi, światłowody<br><br><strong>Osoby</strong>: użytkownicy, administratorzy systemów, decydenci...<br><strong>Nośniki papierowe</strong>: wydruki, fotokopie, rękopisy...<br><strong>Kanały przesyłania papieru</strong>: poczta, obieg dokumentów...",
+				"fuente": "",
 				"name": "Zasoby wspierające",
+				"nombre": "",
 				"source": "PIA1 p10"
 			},
 			"PIA_DEF_VIOL": {
+				"descripción": "",
 				"description": "Naruszenie ochrony prowadzące do przypadkowego lub nielegalnego zniszczenia, utraty, zmiany, nieuprawnionego ujawnienia danych osobowych przesyłanych, przechowywanych bądź przetwarzanych w dowolny inny sposób.",
+				"fuente": "",
 				"name": "Naruszenie ochrony danych",
+				"nombre": "",
 				"source": "RODO Art. 4.12"
 			},
 			"PIA_DEF_VRA": {
+				"Descripción": "",
 				"description": "Prawdopodobieństwo oznacza możliwość ziszczenia się ryzyka. Przede wszystkim zależy od podatności zasobów na zagrożenia oraz zdolności źródeł ryzyka do ich wykorzystania.",
+				"fuente": "",
 				"name": "Prawdopodobieństwo",
+				"nombre": "",
 				"source": "PIA1 page 6"
 			},
 			"PIA_EX_DC": {

@@ -449,103 +449,153 @@
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN2": {
+				"descripción": "",
 				"description": "Once sensitive data have been received, as part of a series of general information or transmitted for statistical purposes only, these can be converted into a less sensitive form or pseudonymised. For example : <br>- if the system collects the IP address to determine the user's location for a statistical purpose, the IP address can be deleted once the city or district has been deduced<br>- if the system receives video data from surveillance cameras, it can recognise people who are standing or moving in the scene and blur them<br>- if the system is a smart meter, it can aggregate the use of energy over a certain period, without recording it in real time",
+				"fuente": "",
 				"name": "Reducing sensitivity via conversion",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN3": {
+				"descripción": "",
 				"description": "The system can ensure that: <br>- the user can use a resource or service without the risk of disclosing his/her identity (anonymous data)<br>- the user can use a resource or service without the risk of disclosing his/her identity, but remain identifiable and responsible for this use (pseudonymous data)<br>- the user can make multiple uses of resources or services without the risk of these different uses being linked together (data cannot be correlated)<br>- the user can use a resource or service without the risk of others, third parties in particular, being able to observe that the resource or service is being used (non-observability)<br>The choice of a method from the list above must be made on the basis of the threats identified. For some types of threat to privacy, pseudonymization will be more appropriate than anonymisation (for example, if there is a traceability need). In addition, some threats to privacy will be addressed using a combination of methods.",
+				"fuente": "",
 				"name": "Reducing the identifying nature of data",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN4": {
+				"descripción": "",
 				"description": "The system can be organised into independent parts with separate access control functions. The data can also be divided between these independent sub-systems and controlled by each sub-system using different access control mechanisms. If a sub-system is compromised, the impacts on all of the data can thus be reduced.",
+				"fuente": "",
 				"name": "Reducing data accumulation",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN5": {
+				"descripción": "",
 				"description": "The system can limit data access according to the \"need to know\" principle. The system can separate the sensitive data and apply specific access control policies. The system can also encrypt sensitive data to protect their confidentiality during transmission and storage. Access to temporary cookies which are produced during the data processing must also be protected.",
+				"fuente": "",
 				"name": "Restricting data access",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MINC": {
+				"Descripción": "",
 				"description": "Reduce the severity of risks by limiting the amount of personal data to what is strictly necessary to achieve a defined purpose, otherwise the data shall be not collected.",
+				"fuente": "",
 				"name": "Minimising the amount of personal data",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIND": {
+				"descripción": "",
 				"description": "Snižování závažnosti rizik minimalizováním samotných údajů, opatřeními zaměřenými na snížení jejich citlivosti, například filtrováním a odstraňováním nepotřebných údajů, pseudonymizací údajů atd.",
+				"fuente": "",
 				"name": "Minimalizace samotných dat",
 				"source": "PIA3 p64"
 			},
 			"PIA_DEF_OPP": {
+				"descripción": "",
 				"description": "The data subject shall have the right to object, on grounds relating to his or her particular situation, at any time to processing of personal data concerning him or her, pursuant to <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX:32016R0679&from=CS\">Art. 21 of [GDPR]</a>",
+				"fuente": "",
 				"name": "Right to object",
 				"source": "GDPR Art. 21"
 			},
 			"PIA_DEF_PBDS": {
+				"descripción": "",
 				"description": "Measures taken to integrate the protection of personal data in all new processing operations (trusted names, guidelines, CNIL methodology for risk management or other internal methodology).",
+				"fuente": "",
 				"name": "Project Management",
+				"nombre": "",
 				"source": "Mesures_US"
 			},
 			"PIA_DEF_PC": {
+				"descripción": "",
 				"description": "Persons to whom the data covered by the processing relate.",
+				"fuente": "",
 				"name": "Data subject",
 				"source": "PIA1 p9"
 			},
 			"PIA_DEF_PORT": {
+				"descripción": "",
 				"description": " The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, see <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX:32016R0679&from=CS\">Art. 20 of [GDPR]</a>",
+				"fuente": "",
 				"name": "Right to data portability",
 				"source": "GDPR Art. 20"
 			},
 			"PIA_DEF_PSEU": {
+				"descripción": "",
 				"description": "processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, provided that such additional information is kept separately and is subject to technical and organisational measures to ensure that the personal data are not attributed to an identified or identifiable natural person.<br>Pseudonymisation  reduces  the  linkability  of  a  dataset  with  the  original  identity  of  a  data subject; as such, it is a useful security measure but not a method of anonymisation.",
+				"fuente": "",
 				"name": "Pseudonymisation",
+				"nombre": "",
 				"source": "GDPR Art. 4.5 and guidelines G29 p22 http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_en.pdf"
 			},
 			"PIA_DEF_PWD": {
+				"descripción": "",
 				"description": "Passwords shall be composed of a minimum of eight characters; must be renewed if there is the least concern that they may have been compromised and, possibly, periodically (every six months or once a year) and must include a minimum of three of the four kinds of characters (capital letters, lower case letters, numerals and special characters); when a password is changed, the last five passwords may not be reused; the same password should not be used for different accesses; passwords should not be related to one's personal information (including name or date of birth.). Define a maximum number of attempts beyond which a warning is issued and authentication is blocked (temporarily or until it is manually unblocked).",
+				"fuente": "",
 				"name": "Password",
+				"nombre": "",
 				"source": "Mesure_US"
 			},
 			"PIA_DEF_RECT": {
+				"descripción": "",
 				"description": "The data subject shall have the right to obtain from the controller without undue delay the rectification of inaccurate personal data concerning him or her. Taking into account the purposes of the processing, the data subject shall have the right to have incomplete personal data completed, including by means of providing a supplementary statement.",
+				"fuente": "",
 				"name": "Right to rectification",
+				"nombre": "",
 				"source": "GDPR Art. 16"
 			},
 			"PIA_DEF_RGPD": {
+				"Descripción": "",
 				"description": "Regulation on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC.",
+				"fuente": "",
 				"name": "GDPR (General Data Protection Regulation",
 				"source": "GDPR title"
 			},
 			"PIA_DEF_RT": {
+				"descripción": "",
 				"description": "Natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data; where the purposes and means of such processing are determined by Union or Member State law, the controller or the specific criteria for its nomination may be provided for by Union or Member State law.<br>See <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX:32016R0679&from=CS\">Art. 4.7 of [GDPR]</a>",
+				"fuente": "",
 				"name": "Controller",
+				"nombre": "",
 				"source": "GDPR Art. 4.7"
 			},
 			"PIA_DEF_SRC": {
+				"descripción": "",
 				"description": "Person or non-human source that can cause a risk. This source may act accidentally or deliberately.",
+				"fuente": "",
 				"name": "Risk source",
+				"nombre": "",
 				"source": "PIA1 p11 - WIKI"
 			},
 			"PIA_DEF_ST": {
+				"descripción": "",
 				"description": "Natural or legal person, public authority, agency or other body which processes personal data on behalf of the controller, see <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX:32016R0679&from=CS\">Art. 4.8 of [GDPR]</a>.<br>The processor and any person acting under the authority of the controller or of the processor, who has access to personal data, shall not process those data except on instructions from the controller, unless required to do so by Union or Member State law, see <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX:32016R0679&from=CS\">Art. 29 of [GDPR]</a>.",
+				"fuente": "",
 				"name": "Processor",
+				"nombre": "",
 				"source": "GDPR Art. 4.8 and 29"
 			},
 			"PIA_DEF_SUPT": {
+				"descripción": "",
 				"description": "Asset on which personal data rely. This may be hardware, software, networks, people, paper or paper transmission channels",
+				"fuente": "",
 				"name": "Supporting assets",
+				"nombre": "",
 				"source": "PIA1 p10"
 			},
 			"PIA_DEF_VIOL": {
+				"descripción": "",
 				"description": "Breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data transmitted, stored or otherwise processed.",
+				"fuente": "",
 				"name": "Personal data breach",
+				"nombre": "",
 				"source": "GDPR Art. 4.12"
 			},
 			"PIA_DEF_VRA": {
+				"Descripción": "",
 				"description": "likelihood expresses the possibility of a risk occurring. It primarily depends on the level of vulnerabilities of the supporting assets when under threat and the level of capabilities of the risk sources to exploit them.",
+				"fuente": "",
 				"name": "Likelihood",
+				"nombre": "",
 				"source": "PIA1 page 6"
 			},
 			"PIA_EX_DC": {
@@ -1027,7 +1077,7 @@
 				"title": "Role kolem PIA"
 			},
 			"step4": {
-				"description": "<p>Validátoři <strong></strong> přijímají nebo nepřijímají provádění léčby. Musí analýzu podepsat.</p><p>Toto jsou ovladače, jako je generální ředitel.</p>",
+				"description": "<p><strong>Validátoři</strong> přijímají nebo nepřijímají provádění léčby. Musí analýzu podepsat.</p><p>Toto jsou ovladače, jako je generální ředitel.</p>",
 				"title": "Role kolem PIA"
 			},
 			"step5": {

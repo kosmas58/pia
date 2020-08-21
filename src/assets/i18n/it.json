@@ -449,103 +449,153 @@
 				"source": "PIAF Oggetti Connessi p42 - WIKI"
 			},
 			"PIA_DEF_MIN2": {
+				"descripción": "",
 				"description": "Dopo aver ricevuto dati sensibili, in quanto parte di un set di informazioni generali ovvero trasmessi solo a fini statistici, questi possono essere convertiti in un modulo meno sensibile oppure essere pseudonimizzati, per esempio: <br>- se il sistema raccoglie l'indirizzo IP per determinare la posizione dell'utente a fini statistici, l'indirizzo IP può essere eliminato una volta dedotti la città o il quartiere <br>- se il sistema riceve dati video da telecamere di sorveglianza, può riconoscere le persone immobili o in movimento nella scena e sfocarle; <br>- se il sistema è un contatore intelligente, può aggregare i dati sul consumo energetico lungo un determinato arco temporale senza registrarli in tempo reale",
+				"fuente": "",
 				"name": "Riduzione della sensibilità tramite conversione",
 				"source": "PIAF Oggetti Connessi p42 - WIKI"
 			},
 			"PIA_DEF_MIN3": {
+				"descripción": "",
 				"description": "Il sistema può consentire che: <br>- l'utente utilizzi una risorsa o un servizio senza rivelare la propria identità (dati anonimi) <br>- l'utente utilizzi una risorsa o un servizio senza rivelare la propria identità, ma rimanendo identificabile e responsabile di tale utilizzo (dati pseudonimi) <br>- l'utente effettui molteplici utilizzi di risorse o servizi senza che tali utilizzi siano reciprocamente correlati (dati non correlabili) <br>- l'utente utilizzi una risorsa o un servizio senza che altri, in particolare terze parti, siano in grado di osservare che la risorsa o il servizio è in uso (non osservabilità).<br>La scelta di un metodo fra quelli sopra elencati deve dipendere dalle minacce identificate e, per alcuni tipi di minacce alla riservatezza, la pseudonimizzazione sarà più idonea dell'anonimizzazione (ad esempio se vi sono esigenze di tracciabilità). Inoltre, alcune minacce alla privacy saranno affrontate associando più metodi",
+				"fuente": "",
 				"name": "Riduzione della natura identificativa dei dati",
 				"source": "PIAF Oggetti Connessi p42 - WIKI"
 			},
 			"PIA_DEF_MIN4": {
+				"descripción": "",
 				"description": "Il sistema può essere strutturato in parti (partizioni) indipendenti con funzioni distinte di controllo degli accessi. I dati possono anche essere distribuiti tra questi sottosistemi indipendenti ed essere controllati da ciascun sottosistema utilizzando diversi meccanismi di controllo degli accessi. In questo modo, se un sottosistema subisce una compromissione, possono essere ridotti gli impatti sul set complessivo di dati.",
+				"fuente": "",
 				"name": "Ridurre l'accumulazione dei dati",
 				"source": "PIAF Oggetti Connessi p42 - WIKI"
 			},
 			"PIA_DEF_MIN5": {
+				"descripción": "",
 				"description": "Il sistema può limitare l'accesso ai dati in base al principio detto 'need to know'. Il sistema può separare i dati sensibili e applicare politiche specifiche di controllo degli accessi.<br>Il sistema può, inoltre, crittografare i dati sensibili per proteggerne la riservatezza durante la trasmissione e l'archiviazione. Dovrebbe essere protetto anche l'accesso ai file temporanei nascosti che vengono generati durante l'elaborazione dei dati.",
+				"fuente": "",
 				"name": "Restrizioni d'accesso ai dati",
 				"source": "PIAF Oggetti Connessi p42 - WIKI"
 			},
 			"PIA_DEF_MINC": {
+				"Descripción": "",
 				"description": "Ridurre la gravità dei rischi limitando la raccolta di dati personali a ciò che è strettamente necessario in relazione a una finalità definita. Evitare la raccolta di dati non necessari, l'utilizzazione di dati che non sono correlati alla finalità, e impatti eccessivi sulle persone.",
+				"fuente": "",
 				"name": "Minimizzazione della raccolta di dati personali",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIND": {
+				"descripción": "",
 				"description": "Ridurre la gravità dei rischi minimizzando i dati in quanto tali, attraverso misure volte a ridurne la sensibilità.",
+				"fuente": "",
 				"name": "Minimizzazione dei dati in quanto tali",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_OPP": {
+				"descripción": "",
 				"description": "L'interessato ha il diritto di opporsi in qualsiasi momento, per motivi connessi alla sua situazione particolare, al trattamento dei dati personali che lo riguardano in conformità con l'<a target=\"_blank\" href=\"http://www.garanteprivacy.it/documents/10160/0/Regolamento+UE+2016+679.+Con+riferimenti+ai+considerando\">art. 21 del [GDPR]</a>",
+				"fuente": "",
 				"name": "Diritto di opposizione",
 				"source": "GDPR Art. 21"
 			},
 			"PIA_DEF_PBDS": {
+				"descripción": "",
 				"description": "Procedura implementata per integrare la protezione dei dati personali in ogni nuova attività di trattamento (certificazioni, norme di riferimento, gestione dei rischi per gli interessati sulla base di metodi indicati dal Garante o di approcci interni, ecc.).",
+				"fuente": "",
 				"name": "Gestione di progetto",
+				"nombre": "",
 				"source": "Mesures_US"
 			},
 			"PIA_DEF_PC": {
+				"descripción": "",
 				"description": "Persona alla quale si riferiscono i dati oggetto del trattamento.",
+				"fuente": "",
 				"name": "Interessato",
 				"source": "PIA1 p9"
 			},
 			"PIA_DEF_PORT": {
+				"descripción": "",
 				"description": "Gli interessati hanno il diritto di ricevere in un formato strutturato, di uso comune e leggibile da un dispositivo automatico i dati personali che li riguardano forniti a un titolare del trattamento, e hanno il diritto di trasmettere tali dati a un altro titolare del trattamento senza impedimenti da parte del titolare del trattamento cui i dati personali sono stati comunicati, alle condizioni descritte nell'<a target=\"_blank\" href=\"http://www.garanteprivacy.it/documents/10160/0/Regolamento+UE+2016+679.+Con+riferimenti+ai+considerando\">art. 20 del [GDPR]</a>",
+				"fuente": "",
 				"name": "Diritto alla portabilità dei dati",
 				"source": "GDPR Art. 20"
 			},
 			"PIA_DEF_PSEU": {
+				"descripción": "",
 				"description": "Trattamento dei dati personali in modo tale che i dati personali non possano più essere attribuiti a un interessato specifico senza l'utilizzo di informazioni aggiuntive, a condizione che tali informazioni aggiuntive siano conservate separatamente e soggette a misure tecniche e organizzative intese a  garantire che i dati personali non siano attribuiti a una persona fisica identificata o identificabile. <br>La pseudonimizzazione riduce il rischio di correlazione di un set di dati con l'identità originale di un individuo,<strong> è un'utile misura di sicurezza, ma non un metodo di anonimizzazione</strong>",
+				"fuente": "",
 				"name": "Pseudonimizzazione",
+				"nombre": "",
 				"source": "GDPR Art. 4.5 e linee guida G29 p22 http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_it.pdf"
 			},
 			"PIA_DEF_PWD": {
+				"descripción": "",
 				"description": "L'autenticazione basata sull'impiego di un identificativo e di una password rappresenta una metodica semplice e non costosa per il controllo degli accessi. Tuttavia, è una metodica caratterizzata da un basso livello di sicurezza.<br>Le indicazioni fornite dal Garante quanto a dimensioni e complessità delle password variano in rapporto alle misure ulteriori implementate per rafforzare il processo di autenticazione.<br>Per esempio, se la procedura di autenticazione si fonda esclusivamente sull'impiego di una password, allora si dovrà utilizzare almeno una password complessa, di lunghezza adeguata, comprendente caratteri alfanumerici, maiuscoli e minuscoli.  In presenza di misure ulteriori associate all'utilizzo di una password (limitazioni all'accesso, raccolta di altri dati, impiego di supporti in possesso dell'utente) si potranno ridurre lunghezza e complessità della password poiché tali misure offrono un livello di sicurezza equivalente all'impiego della sola password.",
+				"fuente": "",
 				"name": "Password",
+				"nombre": "",
 				"source": "Guide Bleu 2017 p7: https://www.cnil.fr/fr/authentification-par-mot-de-passe-les-mesures-de-securite-elementaires"
 			},
 			"PIA_DEF_RECT": {
+				"descripción": "",
 				"description": "L'interessato ha il diritto di ottenere dal titolare del trattamento la rettifica dei dati personali inesatti che lo riguardano senza ingiustificato ritardo. <br>Tenuto conto delle finalità del trattamento, l'interessato ha il diritto di ottenere l'integrazione dei dati personali incompleti, anche fornendo una dichiarazione integrativa.",
+				"fuente": "",
 				"name": "Diritto di rettifica",
+				"nombre": "",
 				"source": "GDPR Art. 16"
 			},
 			"PIA_DEF_RGPD": {
+				"Descripción": "",
 				"description": "Regolamento relativo alla protezione delle persone fisiche con riguardo al trattamento dei dati personali, nonché alla libera circolazione di tali dati ( <a target=\\\"_blank\\\" href=\\\"http://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32016R0679&from=IT\\\">UE 2016-679</a> ) adottato il 27 Aprile 2016 dall'Unione Europea e che entrerà in vigore il 25/05/2018, abrogando la direttiva 95/46/CE.",
+				"fuente": "",
 				"name": "GDPR (Regolamento generale sulla protezione dei dati)",
 				"source": "Titolo GDPR"
 			},
 			"PIA_DEF_RT": {
+				"descripción": "",
 				"description": "La persona fisica o giuridica, l'autorità pubblica, il servizio o altro organismo che, singolarmente o insieme ad altri, determina le finalità i mezzi del trattamento; quando le finalità e i mezzi di tale trattamento sono determinati dal diritto dell'Unione o degli Stati membri, il titolare del trattamento o i criteri specifici applicabili alla sua designazione possono essere stabiliti dal diritto dell'Unione o degli Stati membri.<br>Per maggiori informazioni sugli obblighi del titolare del trattamento vedi <a target=\"_blank\" href=\"http://www.garanteprivacy.it/documents/10160/0/Regolamento+UE+2016+679.+Con+riferimenti+ai+considerando\">art. 4.7 del [GDPR]</a>",
+				"fuente": "",
 				"name": "Titolare del trattamento",
+				"nombre": "",
 				"source": "GDPR Art. 4.7"
 			},
 			"PIA_DEF_SRC": {
+				"descripción": "",
 				"description": "Persona, interna o esterna all'organismo o all'ente, operante in via accidentale o intenzionale (esempio: amministratore IT, utente, attaccante esterno, concorrente),  o fonte non umana (acqua, materiali pericolosi, virus informatici generici) che può essere all'origine di un rischio.",
+				"fuente": "",
 				"name": "Fonte di rischio",
+				"nombre": "",
 				"source": "PIA1 p11 - WIKI"
 			},
 			"PIA_DEF_ST": {
+				"descripción": "",
 				"description": "La persona fisica o giuridica, l'autorità pubblica, il servizio o altro organismo che tratta dati personali per conto del titolare del trattamento, vedi  <a target=\"_blank\" href=\"http://www.garanteprivacy.it/documents/10160/0/Regolamento+UE+2016+679.+Con+riferimenti+ai+considerando\">Art. 4.8 del [GDPR]</a>.<br>Il responsabile del trattamento e chiunque agisca sotto la sua autorità o sotto quella del titolare del trattamento, che abbia accesso a dati personali, non può trattare tali dati se non è istruito in tal senso dal titolare del trattamento, salvo che lo richieda il diritto dell'Unione o di uno Stato membro. Vedi l'<a target=\"_blank\" href=\"http://www.garanteprivacy.it/documents/10160/0/Regolamento+UE+2016+679.+Con+riferimenti+ai+considerando\">art. 29 del [GDPR]</a>.",
+				"fuente": "",
 				"name": "Responsabile del trattamento",
+				"nombre": "",
 				"source": "GDPR Art. 4.8 e 29"
 			},
 			"PIA_DEF_SUPT": {
+				"descripción": "",
 				"description": "<strong>Materiali e supporti elettronici per i dati</strong> : computer, reti di comunicazioni, chiavi USB, hard disk...<br><strong>Software</strong> : sistemi operativi, sistemi di messaggistica, basi di dati, applicativi...<br><strong>Canali informatici</strong> : cavi, WiFi, fibra ottica<br><br><strong>Persone fisiche</strong> : utenti, amministratori IT, decisori...<br><strong>Supporti cartacei</strong> : pubblicazioni a stampa, fotocopie, manoscritti...<br><strong>Canali di trasmissione cartacei</strong> : spedizione postale, circuiti di validazione...",
+				"fuente": "",
 				"name": "Tipologia dei supporti dei dati",
+				"nombre": "",
 				"source": "PIA1 p10"
 			},
 			"PIA_DEF_VIOL": {
+				"descripción": "",
 				"description": "Violazione di sicurezza che comporta accidentalmente o in modo illecito la distruzione, la perdita, la modifica, la divulgazione non autorizzata o l'accesso non autorizzato ai dati personali trasmessi, conservati o altrimenti trattati.",
+				"fuente": "",
 				"name": "Violazione dei dati personali",
+				"nombre": "",
 				"source": "GDPR Art. 4.12"
 			},
 			"PIA_DEF_VRA": {
+				"Descripción": "",
 				"description": "La probabilità esprime la possibilità che un rischio si realizzi. Dipende principalmente dal livello di vulnerabilità delle risorse di supporto quando sottoposte alle minacce e dalla capacità delle fonti di rischio di sfruttare tali vulnerabilità.",
+				"fuente": "",
 				"name": "Probabilità",
+				"nombre": "",
 				"source": "PIA1 pg 6"
 			},
 			"PIA_EX_DC": {

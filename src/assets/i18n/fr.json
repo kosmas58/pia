@@ -449,103 +449,153 @@
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIN2": {
+				"descripción": "",
 				"description": "Après réception de données sensibles, faisant partie d’un lot d’informations générales ou transmises à des fins statistiques uniquement, celles-ci peuvent être converties en une forme moins sensible ou pseudonymisée. Par exemple :<br>- si le système collecte l’adresse IP pour déterminer l'emplacement de l’utilisateur dans un but statistique, l’adresse IP peut être supprimées après déduction de la ville ou du quartier ;<br>- si le système reçoit des données vidéo à partir de caméras de surveillance, il peut reconnaître les personnes debout ou en mouvement dans la scène et les flouter ;<br>- si le système est un compteur intelligent, il peut agréger l'utilisation de l'énergie sur une certaine période, sans l’enregistrer en temps réel.",
+				"fuente": "",
 				"name": "Réduction de la sensibilité par transformations",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIN3": {
+				"descripción": "",
 				"description": "Le système peut faire en sorte que :<br>- l’utilisateur peut utiliser une ressource ou un service sans risque de divulguer son identité (données anonymes) ;<br>- l’utilisateur peut utiliser une ressource ou un service sans divulguer son identité, mais reste identifiable et responsable de cette utilisation (données pseudonymes) ;<br>- l’utilisateur peut faire de multiples utilisations des ressources ou des services sans risque que ces utilisations puissent être reliées ensemble (données non corrélables) ;<br>- l’utilisateur peut utiliser une ressource ou un service sans risque que d’autres, en particulier des tiers, puissent être en mesure d'observer que la ressource ou le service est utilisé (non-observabilité).<br>Le choix d'une méthode de la liste ci-dessus doit dépendre des menaces identifiées. Pour certains types de menaces sur la vie privée, la pseudonymisation sera plus appropriée que l'anonymisation (par exemple, s'il y a un besoin de traçabilité). En outre, certaines menaces sur la vie privée seront traitées par une combinaison de plusieurs méthodes.",
+				"fuente": "",
 				"name": "Réduction du caractère identifiant des données",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIN4": {
+				"descripción": "",
 				"description": "Le système peut être structuré en parties indépendantes avec des fonctions de contrôle d'accès distinctes. Les données peuvent également être réparties entre ces sous-systèmes indépendants et contrôlées par chaque sous-système en utilisant différents mécanismes de contrôle d'accès. Si un sous-système est compromis, les impacts sur l’ensemble des données peuvent ainsi être réduits.",
+				"fuente": "",
 				"name": "Réduction de l'accumulation de données",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIN5": {
+				"descripción": "",
 				"description": "Le système peut limiter l'accès aux données selon le principe du « besoin d’en connaître ». Le système peut séparer les données sensibles et appliquer des politiques de contrôle d'accès spécifiques.<br>Le système peut aussi chiffrer les données sensibles pour protéger leur confidentialité lors de la transmission et du stockage. L’accès aux fichiers cachés temporaires qui sont produits au cours du traitement des données devrait également être protégé.",
+				"fuente": "",
 				"name": "Restriction de l’accès aux données",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MINC": {
+				"Descripción": "",
 				"description": "Réduire la gravité des risques en limitant la collecte des données à caractère personnel au strict nécessaire au regard d’une finalité définie; éviter la collecte de données non nécessaires, l'utilisation de données sans lien avec la finalité et des impacts excessifs pour les personnes.",
+				"fuente": "",
 				"name": "Minimisation de la collecte",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIND": {
+				"descripción": "",
 				"description": "Réduire la gravité des risques en minimisant les données elles-mêmes, par des mesures destinées à réduire leur sensibilité, par exemple filtrer et retirer les données inutiles, pseudonymiser les données, etc.",
+				"fuente": "",
 				"name": "Minimisation des données elles-mêmes",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_OPP": {
+				"descripción": "",
 				"description": "La personne concernée a le droit de s'opposer à tout moment, pour des raisons tenant à sa situation particulière, à un  traitement  des  données à  caractère personnel la  concernant conformément à l'<a target=\"_blank\" href=\"https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre3#Article21\">article 21 du RGPD</a>.",
+				"fuente": "",
 				"name": "Droit à l'opposition",
 				"source": "RGPD Art. 21 (tronqué)"
 			},
 			"PIA_DEF_PBDS": {
+				"descripción": "",
 				"description": "Démarche consistant à prendre en compte la protection des données à caractère personnel dans tout nouveau traitement (labels de confiance, référentiels, gestion des risques pour la personne concernée selon la méthodologie de la CNIL ou une méthode interne, etc.), notamment :<br>- Utiliser la démarche de gestion des risques de la CNIL dès l’élaboration d’un service ou la conception d’une application.<br>- Privilégier le recours à des labels de confiance dans les domaines de la SSI et « Informatique et libertés » (procédures, produits, systèmes de management, organismes, personnes, etc.).<br>- Privilégier le recours à des référentiels éprouvés et reconnus.",
+				"fuente": "",
 				"name": "Gestion de projet",
+				"nombre": "",
 				"source": "WIKI Gestion_des_projets - les recommandations ne sont pas citées"
 			},
 			"PIA_DEF_PC": {
+				"descripción": "",
 				"description": "Personne à laquelle se rapportent les données qui font l'objet du traitement.",
+				"fuente": "",
 				"name": "Personne concernée",
 				"source": "PIA1 p11"
 			},
 			"PIA_DEF_PORT": {
+				"descripción": "",
 				"description": "Les personnes concernées ont le droit de recevoir les données à caractère personnel les concernant qu'elles ont fournies à un responsable du traitement, dans un format structuré, couramment utilisé et lisible par machine, et ont le droit de transmettre ces données à un autre responsable du traitement sans que le responsable du traitement auquel les données à caractère personnel ont été communiquées y fasse obstacle sous les conditions décrites à l'<a target=\"_blank\" href=\"https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre3#Article20\">Article 20 du RGPD</a>.",
+				"fuente": "",
 				"name": "Droit à la portabilité",
 				"source": "RGPD Art. 20"
 			},
 			"PIA_DEF_PSEU": {
+				"descripción": "",
 				"description": "Traitement des données à caractère personnel de telle façon que celles-ci ne puissent plus être attribuées à une personne concernée précise sans avoir recours à des informations supplémentaires, pour autant que ces informations supplémentaires soient conservées séparément et soumises à des mesures techniques et organisationnelles afin de garantir que les données à caractère personnel ne sont pas attribuées à une personne physique identifiée ou identifiable.<br>La pseudonymisation réduit le risque de mise en corrélation d’un ensemble de données avec l’identité  originale d’une personne concernée; à ce titre, <strong>c’est une mesure de sécurité utile, mais non une méthode d'anonymisation.</strong>",
+				"fuente": "",
 				"name": "Pseudonymisation",
+				"nombre": "",
 				"source": "RGPD Art. 4.5 pour la définition, guidelines G29 p22 pour le distinction avec l'anonymisation http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_fr.pdf"
 			},
 			"PIA_DEF_PWD": {
+				"descripción": "",
 				"description": "Basée sur la gestion d’un secret, l’authentification par identifiant et mot de passe est un moyen simple et peu coûteux à déployer pour contrôler un accès. Toutefois, cette méthode d’authentification présente un niveau de sécurité faible.<br>Les exigences minimales de la CNIL en termes de taille et de complexité du mot de passe varient en fonction des mesures complémentaires mises en place pour fiabiliser le processus d’authentification :<br>ainsi, si une authentification est basée exclusivement sur un mot de passe, cela implique a minima l’utilisation d’un mot de passe complexe d’au moins 12 caractères composé de majuscules de minuscules, de chiffres et de<br>caractères spéciaux.  Des mesures complémentaires à la saisie d’un mot de passe (restrictions, d’accès, collecte d’autres donnée, support détenu en propre par l’utilisateur) permettent de réduire la longueur et la complexité du mot de passe, car ces mesures permettent d’assurer un niveau de sécurité équivalent au mot de passe seul.",
+				"fuente": "",
 				"name": "Mot de passe",
+				"nombre": "",
 				"source": "Guide Bleu 2017 p7 : https://www.cnil.fr/fr/authentification-par-mot-de-passe-les-mesures-de-securite-elementaires synthétisé"
 			},
 			"PIA_DEF_RECT": {
+				"descripción": "",
 				"description": "La personne concernée a le droit d'obtenir du responsable du traitement, dans les meilleurs délais, la rectification des données à caractère personnel la concernant qui sont inexactes.<br>Compte tenu des finalités du traitement, la personne concernée a le droit d'obtenir que les données à caractère personnel incomplètes soient complétées, y compris en fournissant une déclaration complémentaire.",
+				"fuente": "",
 				"name": "Droit à la rectification",
+				"nombre": "",
 				"source": "RGPD Art. 16"
 			},
 			"PIA_DEF_RGPD": {
+				"Descripción": "",
 				"description": "Règlement relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données (<a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:32016R0679&from=DE\">UE 2016-679</a>), adopté le 27 avril 2016 par l'Union Européenne, il entrera en application  le 25/05/2018, abrogeant la directive 95/46/CE.",
+				"fuente": "",
 				"name": "RGPD (Règlement Général sur la Protection des Données)",
 				"source": "RGPD en-tête"
 			},
 			"PIA_DEF_RT": {
+				"descripción": "",
 				"description": "La personne physique ou morale, l'autorité publique, le service ou un autre organisme qui, seul ou conjointement avec d'autres, détermine les finalités et les moyens du traitement; lorsque les finalités et les moyens de ce traitement sont déterminés par le droit de l'Union ou le droit d'un État membre, le responsable du traitement peut être désigné ou les critères spécifiques applicables à sa désignation peuvent être prévus par le droit de l'Union ou par le droit d'un État membre.<br>Pour plus d'informations sur les obligations du responsable de traitement, se référer au <a target=\"_blank\" href=\"https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4#Section1\">chap. IV du [RGPD]</a>",
+				"fuente": "",
 				"name": "Responsable de traitement",
+				"nombre": "",
 				"source": "RGPD Art. 4.7"
 			},
 			"PIA_DEF_SRC": {
+				"descripción": "",
 				"description": "Personne, interne ou externe à l'organisme, agissant de manière accidentelle ou délibérée (ex : administrateur informatique, utilisateur, attaquant externe, concurrent), ou source non humaine (ex : eau, matériaux dangereux, virus informatique non ciblé) qui peut être à l’origine d’un risque.",
+				"fuente": "",
 				"name": "Source de risque",
+				"nombre": "",
 				"source": "PIA1 p12 et WIKI Types_et_exemples_de_sources_de_risques synthétisés"
 			},
 			"PIA_DEF_ST": {
+				"descripción": "",
 				"description": "Personne physique ou morale, autorité publique, service ou un autre organisme qui traite des données à caractère personnel pour le compte du responsable du traitement <a target=\"_blank\" href=\"https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre1#Article4\">Article 4.8 du RGPD</a>. <br>Le sous-traitant et toute personne agissant sous l'autorité du responsable du traitement ou sous celle du sous-traitant, qui a accès à des données à caractère personnel, ne peut pas traiter ces données, excepté sur instruction du responsable du traitement, à moins d'y être obligé par le droit de l'Union ou le droit d'un État membre <a target=\"_blank\" href=\"https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4#Article29\">Article 29 du RGPD</a>.",
+				"fuente": "",
 				"name": "Sous-traitant",
+				"nombre": "",
 				"source": "RGPD articles 4.8 et 29"
 			},
 			"PIA_DEF_SUPT": {
+				"descripción": "",
 				"description": "<strong>Matériels et supports de données électroniques</strong> : ordinateurs, relais de communication, clés USB, disques durs...<br><strong>Logiciels</strong> : systèmes d’exploitation, messagerie, bases de données, applications métier...<br><strong>Canaux informatiques</strong> : câbles, WiFi, fibre optique<br><br><strong>Personnes</strong> : utilisateurs, administrateurs informatiques, décideurs...<br><strong>Supports papier</strong> : impressions, photocopies, documents manuscrits...<br><strong>Canaux de transmission papier</strong> : envoi postal, circuit de validation...",
+				"fuente": "",
 				"name": "Typologie des supports de DCP",
+				"nombre": "",
 				"source": "WIKI Types_et_exemples_de_supports_des_données"
 			},
 			"PIA_DEF_VIOL": {
+				"descripción": "",
 				"description": "Violation de la sécurité entraînant, de manière accidentelle ou illicite, la destruction, la perte, l'altération, la divulgation non autorisée de données à caractère personnel transmises, conservées ou traitées d'une autre manière, ou l'accès non autorisé à de telles données.",
+				"fuente": "",
 				"name": "Violation de données",
+				"nombre": "",
 				"source": "RGPD Art. 4.12"
 			},
 			"PIA_DEF_VRA": {
+				"Descripción": "",
 				"description": "La vraisemblance traduit la possibilité qu’un risque se réalise. Elle dépend essentiellement des vulnérabilités des supports face aux menaces et des capacités des sources de risques à les exploiter.",
+				"fuente": "",
 				"name": "Vraisemblance",
+				"nombre": "",
 				"source": "PIA1 p12"
 			},
 			"PIA_EX_DC": {
@@ -1019,7 +1069,7 @@
 				"title": "Créer une AIPD"
 			},
 			"step2": {
-				"description": "<p>Les <strong>rédacteurs</strong> rédigent la première version de l'analyse.</p><p>Ce sont par exemple les chefs du projet associés au traitement.</p>",
+				"description": "<p>Les <strong>rédacteurs</strong> rédigent la première version de l'analyse.</p><p>Ce sont par exemple les chefs de projet associés au traitement.</p>",
 				"title": "Les rôles autour de l'AIPD"
 			},
 			"step3": {

@@ -449,103 +449,153 @@
 				"source": "DPIAF Összekapcsolt tárgyak, 42. o. - WIKI"
 			},
 			"PIA_DEF_MIN2": {
+				"descripción": "",
 				"description": "Amennyiben érzékeny adatok birtokába jutnak, ezek átalakíthatók kevésbé érzékeny adatokká, illetve álnevesíthetők. Ha például a rendszer IP-cím alapján állapítja meg a használó tartózkodási helyét, az IP-cím törölhető a város vagy kerület azonosítása után; ha a rendszer videóadatokat kap megfigyelő kameráktól, azonosíthatja és elhomályosíthatja az álló vagy mozgó személyeket; ha okos fogyasztásmérőről van szó, az összesítheti az adott időszak energiahasználatát anélkül, hogy valósidőben rögzítené.",
+				"fuente": "",
 				"name": "Személyes adatok érzékenységének csökkentése átalakítással",
 				"source": "DPIAF, Összekapcsolt tárgyak, 42. o. - WIKI"
 			},
 			"PIA_DEF_MIN3": {
+				"descripción": "",
 				"description": "A rendszer biztosítani tudja a következőket: a felhasználó igénybe vehet valamely eszközt vagy szolgáltatást anélkül, hogy vállalná a személyazonossága közlésével járó kockázatot (anonim adatok), de azonosítható marad, és felelősséget vállal a használatért (álnevesített adat); a felhasználó többször is igénybe veheti az eszközöket vagy szolgáltatásokat anélkül, hogy a különböző használatok összekapcsolódnának (az adatokat nem lehet összekapcsolni); a felhasználó igénybe vehet valamely eszközt vagy szolgáltatást anélkül, hogy mások, különösen harmadik felek megfigyelhetnék az eszköz vagy szolgáltatás használatát (megfigyelhetetlenség). A fenti listából az azonosított veszélyek alapján kell a módszert kiválasztani. A személyes adatok bizonyos veszélyek esetén az álnevesítés alkalmasabb, mint az anonimizálás (ha például szükség van nyomon követésre). Ezen túlmenően a magánszférára vonatkozó kockázatokat több módszer együttes alkalmazásával kell kezelni.",
+				"fuente": "",
 				"name": "Az adatok személyazonosításra alkalmas jellegének csökkentése",
 				"source": "DPIAF Összekapcsolt tárgyak, 42. o. - WIKI"
 			},
 			"PIA_DEF_MIN4": {
+				"descripción": "",
 				"description": "A rendszer egymástól független részekre osztható, melyek mindegyike külön hozzáférés-védelmi funkcióval rendelkezik. Az adatok szintén eloszthatók a független alrendszerek között, és az egyes alrendszerek külön, különböző hozzáférés-védelmi mechanizmusokat használnak. Ha valamelyik alrendszer sérül, akkor az incidens hatása korlátok közé szorítható.",
+				"fuente": "",
 				"name": "Az adatfelhalmozás korlátozása",
 				"source": "DPIAF Összekapcsolt tárgyak, 42. o. - WIKI"
 			},
 			"PIA_DEF_MIN5": {
+				"descripción": "",
 				"description": "A rendszer korlátozhatja az adatokhoz való hozzáférést a szükséges ismeret elve alapján. A rendszer el tudja különíteni az érzékeny adatokat, és meghatározott hozzáférés-védelmi eljárásokat alkalmaz. A rendszer képes továbbá titkosítani az érzékeny adatokat, bizalmasan kezeli azokat továbbítás és tárolás során. Az adatkezelés során keletkező sütikhez való hozzáférést szintén védeni kell.",
+				"fuente": "",
 				"name": "Az adatokhoz való hozzáférés korlátozása",
 				"source": "DPIAF Összekapcsolt tárgyak, 42. o. - WIKI"
 			},
 			"PIA_DEF_MINC": {
+				"Descripción": "",
 				"description": "Csökkentse a kockázatok súlyosságát azáltal, hogy a kezelt személyes adatok körét azon adatokra szűkíti, amelyek feltétlenül szükségesek az adatkezelés céljai szempontjából (ezen túlmenően nem szabad gyűjteni azokat).",
+				"fuente": "",
 				"name": "Adatminimalizálás",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIND": {
+				"descripción": "",
 				"description": "A kockázatok súlyosságának csökkentése az adatok minimalizálása által (az adatok érzékenységének csökkentése például azok szűrésével, az adatkezelés célja szempontjából szükséges adatokon túlmenő adatok eltávolítása, álnevesítés stb.).",
+				"fuente": "",
 				"name": "Adatminimalizálás",
 				"source": "PIA3 p64"
 			},
 			"PIA_DEF_OPP": {
+				"descripción": "",
 				"description": "Az érintett jogosult arra, hogy a saját helyzetével kapcsolatos okokból bármikor tiltakozzon személyes adatainak a kezelése ellen <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/HU/TXT/HTML/?uri=CELEX:32016R0679&qid=1520586769024&from=HU\">GDPR 21. cikkét</a>.",
+				"fuente": "",
 				"name": "A tiltakozáshoz való jog",
 				"source": "a GDPR 21. cikke szerint"
 			},
 			"PIA_DEF_PBDS": {
+				"descripción": "",
 				"description": "Az egyes újonnan bevezetett adatkezelési műveletek esetán a személyes adatok védelmét integráló intézkedések  (megbízható nevek, iránymutatások, módszertanok).",
+				"fuente": "",
 				"name": "Projektmenedzsment",
+				"nombre": "",
 				"source": "Intézkedések "
 			},
 			"PIA_DEF_PC": {
+				"descripción": "",
 				"description": "Azon személyek, akikre a kezelt adatok vonatkoznak.",
+				"fuente": "",
 				"name": "Érintettek",
 				"source": "DPIA, 9. o."
 			},
 			"PIA_DEF_PORT": {
+				"descripción": "",
 				"description": " Az érintett jogosult arra, hogy a rá vonatkozó, általa egy adatkezelő rendelkezésére bocsátott személyes adatokat tagolt, széles körben használt, géppel olvasható formátumban megkapja, továbbá jogosult arra, hogy ezeket az adatokat egy másik adatkezelőnek továbbítsa anélkül, hogy ezt akadályozná az az adatkezelő, amelynek a személyes adatokat a rendelkezésére bocsátotta. Lásd a <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/HU/TXT/HTML/?uri=CELEX:32016R0679&qid=1520586769024&from=HU\">GDPR 20. cikkét</a>.",
+				"fuente": "",
 				"name": "Adathordozhatósághoz való jog",
 				"source": "A GDPR 20. cikke"
 			},
 			"PIA_DEF_PSEU": {
+				"descripción": "",
 				"description": "A személyes adatok olyan módon történő kezelése, amelynek következtében további információk felhasználása nélkül többé már nem állapítható meg, hogy a személyes adat mely konkrét természetes személyre vonatkozik. Ennek feltétele, hogy az ilyen további információt külön tárolják, és technikai és szervezési intézkedések megtételével biztosított, hogy azonosított vagy azonosítható természetes személyekhez ezt a személyes adatot nem lehet kapcsolni.",
+				"fuente": "",
 				"name": "Álnevesítés",
+				"nombre": "",
 				"source": "A GDPR 4. cikkének 5. pontja, illetve a 29-es munkacsoport iránymutatása 22. o. http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_en.pdf"
 			},
 			"PIA_DEF_PWD": {
+				"descripción": "",
 				"description": "A jelszónak legalább nyolc karakterből kell állnia, újat kell megadni a veszély legcsekélyebb gyanúja esetén, illetve lehetőleg rendszeresen (félévente vagy évente); a négy karaktertípusból legalább hármat kell tartalmaznia (kis- és nagybetű, szám és egyéb jel); jelszó cseréjekor az utolsó öt nem használható újra; ugyanaz a jelszó nem használható más hozzáférés esetén; a jelszó ne kapcsolódjon személyes adatokhoz (beleértve a nevet vagy a születési időt). Meg kell határozni a belépési kísérletek maximális számát, amelynek elérése után figyelmeztetést kell küldeni, és a belépést megtagadni.",
+				"fuente": "",
 				"name": "Jelszó",
+				"nombre": "",
 				"source": "Intézkedés "
 			},
 			"PIA_DEF_RECT": {
+				"descripción": "",
 				"description": "Az érintett jogosult arra, hogy kérésére az adatkezelő indokolatlan késedelem nélkül helyesbítse a rá vonatkozó pontatlan személyes adatokat. Figyelembe véve az adatkezelés célját, az érintett jogosult arra, hogy kérje a hiányos személyes adatok – egyebek mellett kiegészítő nyilatkozat útján történő – kiegészítését.",
+				"fuente": "",
 				"name": "A helyesbítéshez való jog",
+				"nombre": "",
 				"source": "A GDPR 16. cikke "
 			},
 			"PIA_DEF_RGPD": {
+				"Descripción": "",
 				"description": "A természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK rendelet hatályon kívül helyezéséről szóló rendelet.",
+				"fuente": "",
 				"name": "Általános adatvédelmi rendelet (GDPR)",
 				"source": "A GDPR címe"
 			},
 			"PIA_DEF_RT": {
+				"descripción": "",
 				"description": "Az a természetes vagy jogi személy, közhatalmi szerv, ügynökség vagy bármely egyéb szerv, amely a személyes adatok kezelésének céljait és eszközeit önállóan vagy másokkal együtt meghatározza; ha az adatkezelés céljait és eszközeit az uniós vagy a tagállami jog határozza meg, az adatkezelőt vagy az adatkezelő kijelölésére vonatkozó különös szempontokat az uniós vagy a tagállami jog is meghatározhatja. Lásd a <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/HU/TXT/HTML/?uri=CELEX:32016R0679&qid=1520586769024&from=HU\"> GDPR 4. cikkének 7. pontját</a>",
+				"fuente": "",
 				"name": "Adatkezelő",
+				"nombre": "",
 				"source": "A GDPR 4. cikkének 7. pontja"
 			},
 			"PIA_DEF_SRC": {
+				"descripción": "",
 				"description": "Kockázatot okozó személy vagy egyéb forrás, mely lehet véletlenül vagy szándékosan előidézett kockázatforrás.",
+				"fuente": "",
 				"name": "Kockázatforrás",
+				"nombre": "",
 				"source": "DPIA1, 11. o. - WIKI"
 			},
 			"PIA_DEF_ST": {
+				"descripción": "",
 				"description": "Az a természetes vagy jogi személy, közhatalmi szerv, ügynökség vagy bármely egyéb szerv, amely az adatkezelő nevében személyes adatokat kezel, lásd: a <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/HU/TXT/HTML/?uri=CELEX:32016R0679&qid=1520586769024&from=HU\"> GDPR 4. cikkének 8. pontját </a>.<br>Az adatfeldolgozó és bármely, az adatkezelő vagy az adatfeldolgozó irányítása alatt eljáró, a személyes adatokhoz hozzáféréssel rendelkező személy ezeket az adatokat kizárólag az adatkezelő utasításának megfelelően kezelheti, kivéve, ha az ettől való eltérésre őt uniós vagy tagállami jog kötelezi. Lásd a <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/HU/TXT/HTML/?uri=CELEX:32016R0679&qid=1520586769024&from=HU\"> GDPR 29. cikkét </a>.",
+				"fuente": "",
 				"name": "Adatfeldolgozó",
+				"nombre": "",
 				"source": "A GDPR 4. cikkének (8) bekezdésese és 29. cikke"
 			},
 			"PIA_DEF_SUPT": {
+				"descripción": "",
 				"description": "A személyes adatok kezelésére szolgáló eszközök. Lehet hardware, software, hálózat, személy, irat vagy papír alapú iratokat továbbító csatorna.",
+				"fuente": "",
 				"name": "Az adatok kezelésére szolgáló eszközök",
+				"nombre": "",
 				"source": "DPIA1, 10. o. "
 			},
 			"PIA_DEF_VIOL": {
+				"descripción": "",
 				"description": "A biztonság olyan sérülése, amely a továbbított, tárolt vagy más módon kezelt személyes adatok véletlen vagy jogellenes megsemmisítését, elvesztését, megváltoztatását, jogosulatlan közlését vagy az azokhoz való jogosulatlan hozzáférést eredményezi.",
+				"fuente": "",
 				"name": "Adatvédelmi incidens",
+				"nombre": "",
 				"source": "A GDPR 4. cikkének 12. pontja"
 			},
 			"PIA_DEF_VRA": {
+				"Descripción": "",
 				"description": "A valószínűség a kockázat bekövetkezésének a lehetőségét jelöli. Elsősorban a veszélynek kitett eszközök sérülékenységén és a kockázatforrások mértékén múlik.",
+				"fuente": "",
 				"name": "Valószínűség",
+				"nombre": "",
 				"source": "DPIA1, 6. o."
 			},
 			"PIA_EX_DC": {

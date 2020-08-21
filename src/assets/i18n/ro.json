@@ -449,103 +449,153 @@
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN2": {
+				"descripción": "",
 				"description": "Odată ce datele sensibile au fost primite, ca parte a unei serii de informații generale sau transmise numai în scopuri statistice, acestea pot fi transformate sub o formă mai puțin sensibilă sau pot fi pseudonimizate. De exemplu : <br>- dacă sistemul colectează adresa IP pentru determinarea locației utilizatorului în scop statistic, adresa IP poate fi ștearsă odată ce orașul sau zona a fost dedusă<br>- dacă sistemul primește date video din parte camerelor de supraveghere, poate identifica persoanele care stau sau se mișcă în cadru și le poate estompa<br>- dacă sistemul este un aparat de măsură inteligent, acesta poate cumula cantitatea de energie utilizată într-o anumită perioadă, fără a înregistra aceste date în timp real",
+				"fuente": "",
 				"name": "Reducerea sensibilității prin conversie",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN3": {
+				"descripción": "",
 				"description": "Sistemul poate face ca: <br>- utilizatorul să poată utiliza o resursă sau serviciu fără riscul de a-și dezvălui identitatea(date anonime)<br>- utilizatorul să poată utiliza o resursă sau un serviciu, fără riscul de a-și dezvălui identitatea, dar rămâne identificabil și responsabil (date pseudonime)<br>- utilizatorul să poată efectua multiple utilizări ale resurselor sau serviciilor fără riscul ca acestea să fie corelate (datele nu pot fi corelate)<br>- utilizatorul să poată folosi o resursă sau un serviciu fără riscul ca alte persoane, în special terți, să aibă posibilitatea de a observa că resursa sau serviciul este utilizat. (non-observabilitate)<br>Alegerea unei metode din lista de mai sus trebuie efectuată în baza amenințărilor identificate. Pentru unele amenințări la adresa vieții private, pseudonimizarea va fi mai potrivită decât anonimizarea (de exemplu, dacă este nevoie de trasabilitate). În completare, unele amenințări cu privire la adresa vieții private vot fi abordate printr-o combinație de metode.",
+				"fuente": "",
 				"name": "Diminuarea caracteristicii datelor de a fi identificate",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN4": {
+				"descripción": "",
 				"description": "Sistemul poate fi organizat în părți independente cu funcții separate de control al accesului. Datele pot fi, de asemenea, separate între aceste sub-sisteme independente și controlate de către fiecare sub-sistem folosind mecanisme de control al accesului diferite. Dacă un sub-sistem este compromis  a sub-system is compromised, impactul asupra tuturor celorlalte date poate fi redus.",
+				"fuente": "",
 				"name": "Diminuarea acumulării de date",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MIN5": {
+				"descripción": "",
 				"description": "Sistemul poate limita accesul la date în conformitate cu principiul \"need to know\" . Sistemul poate separa datele sensibile și poate aplica politici specifice de control al accesului. De asemenea, sistemul poate cripta datele sensibile pentru a proteja confidențialitatea acestora în timpul transmiterii și stocării. Accesul la cookie-urile temporare ce sunt produse în timpul procesării datelor trebuie, de asemenea, protejat.",
+				"fuente": "",
 				"name": "Restricționarea accesului la date",
 				"source": "PIAF Connected objects p42 - WIKI"
 			},
 			"PIA_DEF_MINC": {
+				"Descripción": "",
 				"description": "Se reduce gravitatea riscurilor prin limitarea datelor cu caracter personal colectate doar la ceea ce este strict necesar pentru atingerea scopului stabilit, în caz contrar acestea nu vor fi colectate.",
+				"fuente": "",
 				"name": "Minimalizarea datelor",
 				"source": "WIKI Minimisation_des_données_:_adéquates,_pertinentes_et_limitées"
 			},
 			"PIA_DEF_MIND": {
+				"descripción": "",
 				"description": "Reduceți gravitatea riscurilor prin reducerea la minimum a datelor, prin măsuri destinate reducerii sensibilității acestora, de exemplu filtrarea și eliminarea datelor inutile, pseudonimizarea datelor etc.",
+				"fuente": "",
 				"name": "Minimizarea datelor în sine",
 				"source": "PIA3 p64"
 			},
 			"PIA_DEF_OPP": {
+				"descripción": "",
 				"description": "Persoana vizată va avea dreptul de a se opune, în orice moment, din motive legate de situația sa particulară, prelucrării datelor cu caracter personal ce o privesc, în conformitate cu <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 21 din [GDPR]</a>",
+				"fuente": "",
 				"name": "Dreptul la obiecție",
 				"source": "GDPR Art. 21"
 			},
 			"PIA_DEF_PBDS": {
+				"descripción": "",
 				"description": "Măsurile luate pentru integrarea protecției datelor cu caracter personal în toate noile operațiuni de prelucrare(persoane de încredere, linii directoare, metodologii de management al riscului sau alte metodologii interne).",
+				"fuente": "",
 				"name": "Management de proiect",
+				"nombre": "",
 				"source": "Mesures_US"
 			},
 			"PIA_DEF_PC": {
+				"descripción": "",
 				"description": "Persoanele ale căror date sunt colectate și prelucrate.",
+				"fuente": "",
 				"name": "Persoana vizată",
 				"source": "PIA1 p9"
 			},
 			"PIA_DEF_PORT": {
+				"descripción": "",
 				"description": " Persoana vizată va avea dreptul de a primi datele cu caracter personal care o privesc, pe care le-a furnizat controller-ului, într-un format electronic, structurat, utilizat în mod obișnuit. Aceasta are dreptul de a transmite acele date către un alt controller fără a fi împiedicată de către controller-ul ce a deținut datele până în acel moment. A se vedea <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 20 din [GDPR]</a>",
+				"fuente": "",
 				"name": "Dreptul la portabilitatea datelor",
 				"source": "GDPR Art. 20"
 			},
 			"PIA_DEF_PSEU": {
+				"descripción": "",
 				"description": "Prelucrarea datelor cu caracter personal, astfel încât datele să nu se mai poată atribui persoanei vizate fără utilizarea unor informații suplimentare, cu condiția ca aceste informații suplimentare să fie păstrate separat și să facă obiectul unor măsuri tehnice și organizatorice care să asigure faptul că datele cu caracter personal nu sunt atribuite unei persoane fizice indentificate sau identificabile.<br>Pseudonimizarea reduce conexiunea unui set de date cu identitatea originală a persoanei vizate; așadar, este o măsură utilă de securitate, dar nu este o metodă de anonimizare.",
+				"fuente": "",
 				"name": "Pseudonimizare",
+				"nombre": "",
 				"source": "GDPR Art. 4.5 and guidelines G29 p22 http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_en.pdf"
 			},
 			"PIA_DEF_PWD": {
+				"descripción": "",
 				"description": "Parolele vor fi compuse din cel puțin opt caractere; trebuie reînnoite dacă există cea mai mică îngrijorare că acestea au fost compromise și, eventual, reînnoite periodic (la fiecare șase luni sau o dată pe an) și trebuie să includă cel puțin trei din cele patru tipuri de caractere (majuscule, litere mici, cifre și caractere speciale); când o parolă este modificată, ultimele cinci parole nu pot fi reutilizate; aceeași parolă nu ar trebui utilizată pentru nivele de acces diferite; parolele nu ar trebui să aibă legătură cu informații personale (nume sau data nașterii). Se stabilește un număr maxim de încercări după care se emite un avertisment și autentificarea este blocată (temporar sau până când este deblocată manual).",
+				"fuente": "",
 				"name": "Parolă",
+				"nombre": "",
 				"source": "Mesure_US"
 			},
 			"PIA_DEF_RECT": {
+				"descripción": "",
 				"description": "Persoana vizată are dreptul de a obține de la controller, fără întârzieri nejustificate, rectificarea datelor cu caracter personal inexacte în legătură cu aceasta. Ținând cont de scopurile prelucrării, persoana vizată va avea dreptul de a completa datele cu caracter personal care sunt incomplete, inclusiv prin furnizarea unei declarații suplimentare.",
+				"fuente": "",
 				"name": "Dreptul la rectificare",
+				"nombre": "",
 				"source": "GDPR Art. 16"
 			},
 			"PIA_DEF_RGPD": {
+				"Descripción": "",
 				"description": "Regulament referitor la protecția persoanelor fizice cu privire la prelucrarea datelor cu caracter personal și libera circulație a acestor date, ce abrogă Directiva 95/46/EC.",
+				"fuente": "",
 				"name": "GDPR (Regulamentul general privind protecția datelor)",
 				"source": "GDPR title"
 			},
 			"PIA_DEF_RT": {
+				"descripción": "",
 				"description": "Persoană fizică sau juridică, autoritate publică, agenție sau altă organizație care, singură sau în comun cu alte organizații/persoane, stabilește scopurile și mijloacele de prelucrare a datelor cu caracter personal; în cazul în care scopurile și mijloacele prelucrării datelor sunt determinate de către legislația Uniunii Europene sau a statelor membre, controller-ul sau criteriile specifice de numire a acestuia pot fi prevăzute de către legislația UE sau a statului membru.<br>A se vedea <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 4.7 din [GDPR]</a>",
+				"fuente": "",
 				"name": "Controller-ul",
+				"nombre": "",
 				"source": "GDPR Art. 4.7"
 			},
 			"PIA_DEF_SRC": {
+				"descripción": "",
 				"description": "Persoană sau sursă non-umană care poate provoca un risc. Această sursă poate acționa accidental sau în mod deliberat.",
+				"fuente": "",
 				"name": "Sursa de risc",
+				"nombre": "",
 				"source": "PIA1 p11 - WIKI"
 			},
 			"PIA_DEF_ST": {
+				"descripción": "",
 				"description": "Persoana fizică sau juridică, autoritate publică, agenție sau alt organism care prelucrează date cu caracter personal în numele controller-ului, a se vedea <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 4.8 din [GDPR]</a>.<br>Procesatorul și orice persoană care acționează sub autoritatea controller-ului sau a procesatorului, și are acces la date cu caracter personal, va putea procesa acele date doar în baza instrucțiunilor primite din partea controller-ului, cu excepția cazului în care acest lucru este impus de către legislația UE sau a unui stat membru, a se vedea <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 29 din [GDPR]</a>.",
+				"fuente": "",
 				"name": "Procesator",
+				"nombre": "",
 				"source": "GDPR Art. 4.8 and 29"
 			},
 			"PIA_DEF_SUPT": {
+				"descripción": "",
 				"description": " Activul de care datele cu caracter personal depind. Acesta poate fi de natură hardware, software, rețele, oameni, hârtie sau canale de transmitere a documentelor.",
+				"fuente": "",
 				"name": "Active suport",
+				"nombre": "",
 				"source": "PIA1 p10"
 			},
 			"PIA_DEF_VIOL": {
+				"descripción": "",
 				"description": "Încălcarea securității care duce la distrugerea accidentală sau ilicită a datelor, pierderea, modificarea, divulgarea neautorizată, sau accesul la datele cu caracter personal, date transmise, stocate sau prelucrate.",
+				"fuente": "",
 				"name": "Încălcarea securității datelor",
+				"nombre": "",
 				"source": "GDPR Art. 4.12"
 			},
 			"PIA_DEF_VRA": {
+				"Descripción": "",
 				"description": "Probabilitatea semnifică posibilitatea apriției unui risc. Depinde în primul rând de nivelul de vulnerabilitate a activelor suport atunci când se află sub amenințare și de nivelul capacităților surselor de risc de a le exploata.",
+				"fuente": "",
 				"name": "Probabilitate",
+				"nombre": "",
 				"source": "PIA1 page 6"
 			},
 			"PIA_EX_DC": {
