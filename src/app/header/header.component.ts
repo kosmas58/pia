@@ -54,7 +54,8 @@ export class HeaderComponent implements OnInit {
       if (this._piaService.pia.is_example === 1) {
         this.pia_example = this._piaService.pia;
         this.pia_is_example = true;
-      } else if (!this._piaService.pia.id) {
+      } else {
+        console.log('debug');
         this.loadPiaExample();
       }
     });
@@ -66,6 +67,14 @@ export class HeaderComponent implements OnInit {
     }
     if (this._router.url.indexOf('/knowledges') > -1) {
       this.isKnowledgeHeader = true;
+    }
+  }
+
+  goToExample() {
+    if (this.pia_example) {
+      this._router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
+        this._router.navigate(['entry', this.pia_example.id, 'section', 1, 'item', 1]);
+      });
     }
   }
 
