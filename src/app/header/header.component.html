@@ -60,7 +60,7 @@
               </a>
               <ul>
                 <li *ngIf="_languagesService.selectedLanguage === 'fr' && pia_example">
-                  <a href="javascript:;" routerLink="/entry/{{pia_example.id}}/section/1/item/1">
+                  <a href="javascript:;" (click)="goToExample()">
                     {{ 'header.help.pia_example_link' | translate }}
                   </a>
                 </li>
