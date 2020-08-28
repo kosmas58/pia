@@ -360,6 +360,28 @@
   &-filtersBlock {
     position: relative;
     margin: 8px 0 40px 0;
+    .pia-sectionBlock {
+      &-header {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0;
+        border-bottom: solid 2px $pia-gray;
+        margin-bottom: 2rem;
+        h1 {
+          font-size: 3rem;
+          font-weight: 400;
+          margin: 10px;
+          margin-left: 0;
+          width: 100%;
+          line-height: 30px;
+          padding-bottom: 2px;
+        }
+        a {
+          width: 35px;
+          align-self: center;
+        }
+      }
+    }
     &-left,
     &-right {
       width: 50%;
