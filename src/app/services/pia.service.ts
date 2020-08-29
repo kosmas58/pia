@@ -1,4 +1,4 @@
-import { Injectable, EventEmitter, Output } from '@angular/core';
+import { Injectable, EventEmitter, Output, Directive } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { utf8Encode } from '@angular/compiler/src/util';
 
@@ -13,6 +13,7 @@ import { AppDataService } from 'src/app/services/app-data.service';
 import { ModalsService } from 'src/app/modals/modals.service';
 import { SidStatusService } from 'src/app/services/sid-status.service';
 
+@Directive()
 @Injectable()
 export class PiaService {
   pias = [];
