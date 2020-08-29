@@ -107,14 +107,14 @@ export class ExportComponent implements OnInit {
           case 'json': // Only json
             this._piaService.export(this.pia.id).then((json: any) => {
               let downloadLink = document.createElement('a');
+              downloadLink.href = 'data:text/json;charset=utf-8,' + json;
+              downloadLink.download = fileTitle + '.json';
+              // downloadLink.style.display = 'none';
               document.body.appendChild(downloadLink);
-              if (navigator.msSaveOrOpenBlob) {
-                window.navigator.msSaveBlob(json, fileTitle + '.json');
-              } else {
-                downloadLink.href = json;
-                downloadLink.download = fileTitle + '.json';
-                downloadLink.click();
-              }
+              downloadLink.click();
+              document.body.removeChild(downloadLink);
+              // let blob = new Blob([json], { type: 'text/json;charset=utf-8' });
+              // FileSaver.saveAs(blob, fileTitle + '.json');
             });
             break;
           case 'csv': // Only csv
@@ -122,14 +122,9 @@ export class ExportComponent implements OnInit {
             const blob = this.csvToBlob(csvName);
             let downloadLink = document.createElement('a');
             document.body.appendChild(downloadLink);
-
-            if (navigator.msSaveOrOpenBlob) {
-              window.navigator.msSaveBlob(blob, csvName);
-            } else {
-              downloadLink.href = URL.createObjectURL(blob);
-              downloadLink.download = csvName;
-              downloadLink.click();
-            }
+            downloadLink.href = URL.createObjectURL(blob);
+            downloadLink.download = csvName;
+            downloadLink.click();
             break;
           default:
             break;
@@ -305,13 +300,9 @@ export class ExportComponent implements OnInit {
         setTimeout(() => {
           const downloadLink = document.createElement('a');
           document.body.appendChild(downloadLink);
-          if (navigator.msSaveOrOpenBlob) {
-            navigator.msSaveOrOpenBlob(dataDoc.blob, dataDoc.filename);
-          } else {
-            downloadLink.href = dataDoc.url;
-            downloadLink.download = dataDoc.filename;
-            downloadLink.click();
-          }
+          downloadLink.href = dataDoc.url;
+          downloadLink.download = dataDoc.filename;
+          downloadLink.click();
           document.body.removeChild(downloadLink);
           resolve(true);
         }, 500);
