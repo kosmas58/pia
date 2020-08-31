@@ -42,7 +42,7 @@
     "@types/intro.js": "^2.4.7",
     "angular2-csv": "git+https://github.com/kosmas58/angular2-csv.git",
     "core-js": "^3.6.5",
-    "d3": "^6.1.0",
+    "d3": "^6.1.1",
     "file-saver": "^2.0.2",
     "font-awesome": "^4.7.0",
     "foundation-sites": "^6.6.3",
@@ -57,7 +57,7 @@
     "save-svg-as-png": "^1.4.17",
     "tinymce": "^4.9.11",
     "tslib": "^2.0.1",
-    "zone.js": "~0.11.1"
+    "zone.js": "~0.10.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1000.8",
