@@ -41,7 +41,7 @@
     "@ngx-translate/http-loader": "^5.0.0",
     "angular2-csv": "git+https://github.com/kosmas58/angular2-csv.git",
     "core-js": "^3.6.5",
-    "d3": "^6.0.0",
+    "d3": "^6.1.0",
     "file-saver": "^2.0.2",
     "font-awesome": "^4.7.0",
     "foundation-sites": "^6.6.3",
