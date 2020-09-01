@@ -92,7 +92,10 @@ import { IntrojsService } from './services/introjs.service';
     ArchivesModule,
     Angular2CsvModule,
     PdfJsViewerModule,
-    KnowledgesModule
+    KnowledgesModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production
+    })
   ],
   bootstrap: [AppComponent]
 })
