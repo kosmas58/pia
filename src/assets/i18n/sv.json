@@ -65,7 +65,7 @@
 		"march": "mars",
 		"may": "maj",
 		"november": "november",
-		"october": "oktober,
+		"october": "oktober",
 		"september": "september",
 		"today": "i dag",
 		"yesterday": "i går"
@@ -209,7 +209,7 @@
 				"edit_structure": "Redigera mall",
 				"tools": {
 					"action_plan": "Visa <br> åtgärdsplan",
-					"archive": "Arkivera,
+					"archive": "Arkivera",
 					"duplicate": "Duplicera",
 					"export": "Exportera",
 					"more_options": "Fler val",
