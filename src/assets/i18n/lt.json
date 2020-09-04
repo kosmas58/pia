@@ -95,6 +95,7 @@
 		"current_pias": "Aktyvūs VIP",
 		"exit_full_screen_mode": "Norėdami išeiti iš viso ekrano režimo, paspauskite F11.",
 		"help": {
+			"guides": "CNIL PIA vadovai",
 			"issue_reporting": "Pranešti apie klaidą",
 			"manual": "Vartotojo vadovas",
 			"pia_example_link": "PDAV pavyzdys",
@@ -179,9 +180,7 @@
 			"footer": "Jei susiduriate su kitomis problemomis arba turite pasiūlymų, kaip juos patobulinti, galite atsiųsti juos mums naudodami šią formą <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil -apija</a>."
 		},
 		"infografics": {
-			"display": "Peržiūrėkite proceso žemėlapį",
 			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
-			"guide": "Parodykite PIA vadovus CNIL",
 			"hide": "Slėpti proceso žemėlapį",
 			"title": "Įsipareigojimų ir metodo apžvalga"
 		},

@@ -95,6 +95,7 @@
 		"current_pias": "PIAs ativos",
 		"exit_full_screen_mode": "Pressione F11 para sair do mode de ecrã completo.",
 		"help": {
+			"guides": "Guias PIA do CNIL",
 			"issue_reporting": "Reportar um erro",
 			"manual": "Manual do usuário",
 			"pia_example_link": "Exemplo PIA",
@@ -179,9 +180,7 @@
 			"footer": "Se souber de outros problemas ou tiver sugestões de melhoria, pode enviá-los através deste formulário <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
 		},
 		"infografics": {
-			"display": "Visualizar o mapa do processo",
 			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
-			"guide": "Mostrar os guias PIA do CNIL",
 			"hide": "Ocultar o mapa do processo",
 			"title": "Síntese das obrigações e método"
 		},
