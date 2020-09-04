@@ -119,7 +119,6 @@
 			"cz": "Česky",
 			"de": "Deutsch",
 			"dk": "Dansk",
-      "sv": "Svenska",
 			"dpa_translations": "Översättningar reviderade av ADP européenne",
 			"el": "Ελληνικά",
 			"en": "English",
@@ -137,8 +136,8 @@
 			"pl": "Polski",
 			"pt": "Português",
 			"ro": "Română",
-			"sl": "Slovenščina"
-
+			"sl": "Slovenščina",
+			"sv": "Svenska"
 		},
 		"logo_subtitle": "PIA - Konsekvensanalys",
 		"logo_title": "PIA - Konsekvensanalys",
@@ -204,7 +203,6 @@
 			"item": {
 				"consult_pia": "Konsultera",
 				"consult_structure": "Konsultera mall",
-        "validate_pia": "Validera",
 				"edit_pia": "Redigera",
 				"edit_structure": "Redigera mall",
 				"tools": {
@@ -366,7 +364,7 @@
 			},
 			"PIA_DEF_CHIF": {
 				"description": "Åtgärder som gör personuppgifter obegriplig för någon utan behörighet (tex. symmetrisk eller asymmetrisk kryptering, användning av offentliga algoritmer som är kända för att vara starka, autentiseringscertifikat, etc.). ",
-			  "name": "Kryptering",
+				"name": "Kryptering",
 				"source": "https://www.cnil.fr/fr/comprendre-les-grands-principes-de-la-cryptologie-et-du-chiffrement"
 			},
 			"PIA_DEF_CLO": {
@@ -667,8 +665,8 @@
 			},
 			"PIA_LGL_CONS": {
 				"description": "Låt de registrerade göra ett fritt, specifikt och informerat val. Bestäm om behandlingen förlitar sig på en annan rättslig grund än samtycke enligt art. 6 av <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/SV/TXT/HTML/?uri=CELEX:32016R0679&from=SV\"> [ BRP] </a>",
-        "name": "Inhämtande av samtycke",
-        "source": "ASDF/GDPR Art. 6"
+				"name": "Inhämtande av samtycke",
+				"source": "ASDF/GDPR Art. 6"
 			},
 			"PIA_LGL_DATA": {
 				"description": "Definiera och beskriv personuppgifterna i detalj: <br> - vilka personuppgifter som hanteras, vem som hanterar dem och dess lagringsperiod;<br> - en beskrivning av processer och datahantering för hela datalivscykeln (från insamling till radering).",
