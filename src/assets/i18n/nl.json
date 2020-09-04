@@ -403,8 +403,8 @@
 				"source": "PIA1 p4 footnote 8"
 			},
 			"PIA_DEF_EXA": {
-				"description": "Persoonsgegevens moeten nauwkeurig zijn en, waar nodig, worden bijgewerkt; elke redelijke stap moet worden gezet om ervoor te zorgen dat persoonsgegevens die onnauwkeurig zijn, rekening houdend met de doeleinden waarvoor ze worden verwerkt, onverwijld worden gewist of gecorrigeerd ('nauwkeurigheid'). <br> zie <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32016R0679&from=NL\">Art. 5.1 d) van [AVG]</a>",
-				"name": "Quality of data",
+				"description": "Persoonlijke gegevens moeten nauwkeurig zijn en, waar nodig, worden bijgewerkt; elke redelijke stap moet worden gezet om ervoor te zorgen dat persoonsgegevens die onnauwkeurig zijn, rekening houdend met de doeleinden waarvoor ze worden verwerkt, onverwijld worden gewist of gecorrigeerd ('nauwkeurigheid'). <br> zie <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32016R0679&from=NL\">Art. 5.1 d) van [AVG]</a>",
+				"name": "Kwaliteit van de gegevens",
 				"source": "AVG Art. 5.1 d)"
 			},
 			"PIA_DEF_GRV": {
@@ -669,7 +669,7 @@
 				"source": "PIA3 p11 - WIKI"
 			},
 			"PIA_LGL_DATA": {
-				"description": "Definieer en beschrijf de scope in detail: <br> - de betreffende persoonlijke gegevens, hun ontvangers en hun opslagduur <br> - beschrijving van de processen en persoonlijke gegevens die de assets ondersteunen voor de gehele levenscyclus van persoonlijke gegevens (van verzameling tot wissen).",
+				"description": "Definieer en beschrijf de scope in detail: <br> - de betreffende persoonlijke gegevens, hun ontvangers en hun bewaartermijn <br> - beschrijving van de processen en persoonlijke gegevens die de assets ondersteunen voor de gehele levenscyclus van persoonlijke gegevens (van verzameling tot wissen).",
 				"name": "Gegevens en processen",
 				"source": "PIA1 p6"
 			},
@@ -684,8 +684,8 @@
 				"source": "AVG art 4.9"
 			},
 			"PIA_LGL_DUR": {
-				"description": "Er moet een opslagduur worden gedefinieerd voor elk type gegevens en worden gerechtvaardigd door de wettelijke vereisten en/of verwerkingsbehoeften. Er wordt dus een onderscheid gemaakt tussen gemeenschappelijke gegevens en gearchiveerde gegevens, waartoe de toegang beperkt blijft tot alleen de betrokken belanghebbenden. Een wismechanisme moet worden geïmplementeerd om gemeenschappelijke gegevens te archiveren of gearchiveerde gegevens te wissen aan het einde van de opslagduur. Functionele sporen moeten ook worden verwijderd, evenals technische logboeken die mogelijk niet voor onbepaalde tijd worden opgeslagen",
-				"name": "Opslagduur",
+				"description": "Er moet een bewaartermijn worden gedefinieerd voor elk type gegevens en worden gerechtvaardigd door de wettelijke vereisten en/of verwerkingsbehoeften. Er wordt dus een onderscheid gemaakt tussen gemeenschappelijke gegevens en gearchiveerde gegevens, waartoe de toegang beperkt blijft tot alleen de betrokken belanghebbenden. Een wismechanisme moet worden geïmplementeerd om gemeenschappelijke gegevens te archiveren of gearchiveerde gegevens te wissen aan het einde van de opslagduur. Functionele sporen moeten ook worden verwijderd, evenals technische logboeken die mogelijk niet voor onbepaalde tijd worden opgeslagen",
+				"name": "Bewaartermijn",
 				"source": "PIAF Connected Objects p12"
 			},
 			"PIA_LGL_FIN": {
@@ -1286,7 +1286,7 @@
 				"2": {
 					"questions": {
 						"1": {
-							"placeholder": "Maak een lijst van de verzamelde en verwerkte gegevens. Definieer voor elk de opslagduur, de ontvangers en personen met toegang daartoe.",
+							"placeholder": "Maak een lijst van de verzamelde en verwerkte gegevens. Definieer voor elk gegeven de bewaartermijn, de ontvangers en personen met toegang daartoe.",
 							"title": "Welke gegevens worden verwerkt?"
 						},
 						"2": {
@@ -1587,11 +1587,11 @@
 		"previous_page": "Terug naar de vorige pagina",
 		"rejection_reason": "Reden van verwerping",
 		"revision": {
-			"current_version": "TO TRANSLATE - Current version",
-			"pia_version": "TO TRANSLATE - PIA versions",
-			"restore_version": "TO TRANSLATE - Restore",
-			"revision": "TO TRANSLATE - Versions and revision",
-			"save": "TO TRANSLATE - Create a new version",
+			"current_version": "Huidige versie",
+			"pia_version": "PIA versies",
+			"restore_version": "Herstellen",
+			"revision": "Versies en revisie",
+			"save": "Creëer een nieuwe versie",
 			"show": "TO TRANSLATE - Display the {{length}} versions"
 		},
 		"risks_cartography_title": "Risicokaart",
