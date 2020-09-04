@@ -95,6 +95,7 @@
 		"current_pias": "Ενεργά PIA",
 		"exit_full_screen_mode": "Πατήστε F11 για έξοδο από την πλήρη οθόνη.",
 		"help": {
+			"guides": "Οδηγοί PIA του CNIL",
 			"issue_reporting": "Αναφέρετε ένα σφάλμα",
 			"manual": "Εγχειρίδιο χρήστη",
 			"pia_example_link": "Παράδειγμα ΕΑ",
@@ -179,9 +180,7 @@
 			"footer": "Αν έχετε οποιαδήποτε άλλα προβλήματα ή υποδείξεις βελτίωσης, μπορείτε να τα στείλετε σε μας μέσω αυτής της φόρμας <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
 		},
 		"infografics": {
-			"display": "Προβολή του χάρτη διαδικασίας",
 			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
-			"guide": "Δείξτε τους οδηγούς PIA του CNIL",
 			"hide": "Απόκρυψη του χάρτη διαδικασίας",
 			"title": "Επισκόπηση των υποχρεώσεων και της μεθόδου"
 		},

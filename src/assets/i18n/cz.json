@@ -95,6 +95,7 @@
 		"current_pias": "Aktivní PIA",
 		"exit_full_screen_mode": "Stisknutím klávesy F11 ukončíte režim celé obrazovky.",
 		"help": {
+			"guides": "PIA průvodci CNIL",
 			"issue_reporting": "Nahlásit chybu",
 			"manual": "Uživatelská příručka",
 			"pia_example_link": "PIA příklad",
@@ -179,9 +180,7 @@
 			"footer": "Pokud narazíte na jiné problémy nebo máte návrhy na zlepšení, můžete nám je zaslat prostřednictvím tohoto formuláře <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil -pia</a>."
 		},
 		"infografics": {
-			"display": "Zobrazit mapu procesu",
 			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
-			"guide": "Zobrazit průvodce PIA CNIL",
 			"hide": "Skrýt mapu procesu",
 			"title": "Přehled povinností a metody"
 		},

@@ -95,6 +95,7 @@
 		"current_pias": "Aktivne PIA",
 		"exit_full_screen_mode": "Pritisnite F11 za izhod iz celozaslonskega načina.",
 		"help": {
+			"guides": "PIA Vodniki CNIL",
 			"issue_reporting": "Prijavite napako",
 			"manual": "Uporabniški priročnik",
 			"pia_example_link": "Primjer PUP-a",
@@ -179,9 +180,7 @@
 			"footer": "Če naletite na druge težave ali imate predloge za izboljšave, nam jih lahko pošljete preko tega obrazca <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil -pia</a>."
 		},
 		"infografics": {
-			"display": "Oglejte si zemljevid procesa",
 			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
-			"guide": "Pokažite vodnike PIA CNIL",
 			"hide": "Skrij zemljevid procesa",
 			"title": "Pregled obveznosti in načina"
 		},
