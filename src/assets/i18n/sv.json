@@ -95,6 +95,7 @@
 		"current_pias": "Aktiva PIA: er",
 		"exit_full_screen_mode": "Tryck på F11 för att lämna fullskärmsläge",
 		"help": {
+			"guides": "PIA-guider för CNIL",
 			"issue_reporting": "Rapportera ett fel",
 			"manual": "Användarmanual",
 			"pia_example_link": "Konsekvensanalysexempel",
@@ -179,9 +180,7 @@
 			"footer": "Om du stöter på andra problem eller om du har förslag på förbättringar, så kan du beskriva och sända dem via detta formulär: <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>."
 		},
 		"infografics": {
-			"display": "Visa processkartan",
 			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
-			"guide": "Visa PIA-guider för CNIL",
 			"hide": "Dölj processkartan",
 			"title": "Översikt över skyldigheter och metod"
 		},

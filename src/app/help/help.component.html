@@ -24,22 +24,13 @@
     </div>
     <div class="small-12 medium-9 columns">
       <div class="pia-helpBlock-content">
-        <h2>{{ "help.infografics.title" | translate }}</h2>
-        <p></p>
         <button
           class="btn btn-blue"
           (click)="toggleInfograficsContent(true )"
         >
           <div>
-            {{ "help.infografics.display" | translate }}
+            {{ "help.infografics.title" | translate }}
           </div>
-        </button>
-        &nbsp;
-        <button
-          class="btn btn-blue"
-          onclick="window.open('https://www.cnil.fr/en/privacy-impact-assessment-pia','_blank')"
-        >
-          {{ "help.infografics.guide" | translate }}
         </button>
         <p hidden id="infografics_file">
           {{ "help.infografics.file" | translate }}
