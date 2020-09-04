@@ -71,7 +71,7 @@ export class ExportComponent implements OnInit {
     if (isChecked) {
       this.exportSelected.push(type);
     } else {
-      let index = this.exportSelected.indexOf(type);
+      const index = this.exportSelected.indexOf(type);
       this.exportSelected.splice(index, 1);
     }
   }
@@ -106,30 +106,26 @@ export class ExportComponent implements OnInit {
             break;
           case 'json': // Only json
             this._piaService.export(this.pia.id).then((json: any) => {
-              let downloadLink = document.createElement('a');
+              const downloadLink = document.createElement('a');
+              downloadLink.href = 'data:text/json;charset=utf-8,' + json;
+              downloadLink.download = fileTitle + '.json';
+              // downloadLink.style.display = 'none';
               document.body.appendChild(downloadLink);
-              if (navigator.msSaveOrOpenBlob) {
-                window.navigator.msSaveBlob(json, fileTitle + '.json');
-              } else {
-                downloadLink.href = json;
-                downloadLink.download = fileTitle + '.json';
-                downloadLink.click();
-              }
+              downloadLink.click();
+              document.body.removeChild(downloadLink);
+              // let blob = new Blob([json], { type: 'text/json;charset=utf-8' });
+              // FileSaver.saveAs(blob, fileTitle + '.json');
             });
             break;
           case 'csv': // Only csv
             const csvName = fileTitle + '-' + slugify(this._translateService.instant('summary.action_plan.title')) + '.csv';
             const blob = this.csvToBlob(csvName);
-            let downloadLink = document.createElement('a');
+            const downloadLink = document.createElement('a');
+            downloadLink.href = URL.createObjectURL(blob);
+            downloadLink.download = csvName;
             document.body.appendChild(downloadLink);
-
-            if (navigator.msSaveOrOpenBlob) {
-              window.navigator.msSaveBlob(blob, csvName);
-            } else {
-              downloadLink.href = URL.createObjectURL(blob);
-              downloadLink.download = csvName;
-              downloadLink.click();
-            }
+            downloadLink.click();
+            document.body.removeChild(downloadLink);
             break;
           default:
             break;
@@ -199,20 +195,20 @@ export class ExportComponent implements OnInit {
       items.unshift(headers);
     }
     // Convert Object to JSON
-    var jsonObject = JSON.stringify(items);
-    var csv = this.convertToCSV(jsonObject);
-    var exportedFilenmae = fileTitle + '.csv' || 'export.csv';
-    var blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    let jsonObject = JSON.stringify(items);
+    let csv = this.convertToCSV(jsonObject);
+    let exportedFilenmae = fileTitle + '.csv' || 'export.csv';
+    let blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
     return blob;
   }
 
   convertToCSV(objArray) {
-    var array = typeof objArray != 'object' ? JSON.parse(objArray) : objArray;
-    var str = '';
-    for (var i = 0; i < array.length; i++) {
-      var line = '';
-      for (var index in array[i]) {
-        if (line != '') line += ',';
+    let array = typeof objArray != 'object' ? JSON.parse(objArray) : objArray;
+    let str = '';
+    for (let i = 0; i < array.length; i++) {
+      let line = '';
+      for (const index in array[i]) {
+        if (line !== '') line += ',';
         line += array[i][index];
       }
       str += line + '\r\n';
@@ -305,13 +301,9 @@ export class ExportComponent implements OnInit {
         setTimeout(() => {
           const downloadLink = document.createElement('a');
           document.body.appendChild(downloadLink);
-          if (navigator.msSaveOrOpenBlob) {
-            navigator.msSaveOrOpenBlob(dataDoc.blob, dataDoc.filename);
-          } else {
-            downloadLink.href = dataDoc.url;
-            downloadLink.download = dataDoc.filename;
-            downloadLink.click();
-          }
+          downloadLink.href = dataDoc.url;
+          downloadLink.download = dataDoc.filename;
+          downloadLink.click();
           document.body.removeChild(downloadLink);
           resolve(true);
         }, 500);
