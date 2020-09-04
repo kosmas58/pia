@@ -95,6 +95,7 @@
 		"current_pias": "Aktív PIA-k",
 		"exit_full_screen_mode": "Nyomja meg az F11 gombot a teljes képernyős módból való kilépéshez.",
 		"help": {
+			"guides": "A CNIL PIA útmutatói",
 			"issue_reporting": "Hiba jelentése",
 			"manual": "Felhasználói kézikönyv",
 			"pia_example_link": "DPIA-példa",
@@ -179,9 +180,7 @@
 			"footer": "Ha más problémákkal szembesül, vagy ha javítási javaslata van, akkor küldje el nekünk ezen az űrlapon keresztül: <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil -pia</a>."
 		},
 		"infografics": {
-			"display": "Tekintse meg a folyamattérképet",
 			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
-			"guide": "Mutassa meg a CNIL PIA útmutatóit",
 			"hide": "A folyamattérkép elrejtése",
 			"title": "A kötelezettségek és a módszer áttekintése"
 		},

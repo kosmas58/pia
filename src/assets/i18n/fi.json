@@ -95,6 +95,7 @@
 		"current_pias": "Aktiiviset PIA: t",
 		"exit_full_screen_mode": "Paina F11 poistuaksesi koko näytön tilasta.",
 		"help": {
+			"guides": "CNIL: n PIA-oppaat",
 			"issue_reporting": "Ilmoita virheestä",
 			"manual": "käyttöohje",
 			"pia_example_link": "Esimerkki vaikutustenarvioinnista",
@@ -179,9 +180,7 @@
 			"footer": "Jos sinulla on muita ongelmia tai jos sinulla on parannusehdotuksia, voit lähettää ne meille tällä lomakkeella <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil -pia</a>."
 		},
 		"infografics": {
-			"display": "Tarkastele prosessikarttaa",
 			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
-			"guide": "Näytä CNIL: n PIA-oppaat",
 			"hide": "Piilota prosessikartta",
 			"title": "Yleiskatsaus velvoitteisiin ja menetelmiin"
 		},

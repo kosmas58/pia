@@ -95,6 +95,7 @@
 		"current_pias": "Aktivni PIA-i",
 		"exit_full_screen_mode": "Pritisnite F11 za izlaz iz načina cijelog zaslona.",
 		"help": {
+			"guides": "PIA Vodiči CNIL-a",
 			"issue_reporting": "Prijavi pogrešku",
 			"manual": "Korisnički priručnik",
 			"pia_example_link": "Primjer PUP-a",
@@ -179,9 +180,7 @@
 			"footer": "Ako naiđete na druge probleme ili imate prijedloge za poboljšanje, možete nam ih poslati putem ovog obrasca <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil -pia</a>."
 		},
 		"infografics": {
-			"display": "Pogledajte kartu procesa",
 			"file": "./pia_docs/180409_fiche_risque_en_cmjk.pdf",
-			"guide": "Pokažite PIA vodiče CNIL-a",
 			"hide": "Sakrij kartu procesa",
 			"title": "Pregled obveza i metoda"
 		},
