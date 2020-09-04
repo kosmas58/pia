@@ -1538,7 +1538,7 @@
 			"restore_version": "Herstellen",
 			"revision": "Versies en revisie",
 			"save": "Creëer een nieuwe versie",
-      "show": "Toon {{length}} versie (s)"
+			"show": "Toon {{length}} versie (s)"
 		},
 		"risks_cartography_title": "Risicokaart",
 		"risks_overview_title": "Overzicht risico's",
