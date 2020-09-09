@@ -1137,6 +1137,7 @@
 		"attachments": {
 			"add": "Přidat",
 			"download": "Stáhněte si přílohu",
+			"loading": "Probíhá načítání ...",
 			"remove": "Odebrat",
 			"title": "Přílohy"
 		},
