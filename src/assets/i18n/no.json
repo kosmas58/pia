@@ -1138,7 +1138,7 @@
 		"attachments": {
 			"add": "Legg til",
 			"download": "Last ned vedlegget",
-			"loading": "",
+			"loading": "Laster pågår ...",
 			"remove": "Fjern",
 			"title": "Vedlegg"
 		},

@@ -1138,7 +1138,7 @@
 		"attachments": {
 			"add": "Hinzufügen",
 			"download": "Laden Sie den Anhang herunter",
-			"loading": "",
+			"loading": "Laden läuft ...",
 			"remove": "Löschen",
 			"title": "Anlagen"
 		},

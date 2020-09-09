@@ -1138,7 +1138,7 @@
 		"attachments": {
 			"add": "Tilføj",
 			"download": "Download vedhæftningen",
-			"loading": "",
+			"loading": "Indlæser i gang ...",
 			"remove": "Slet",
 			"title": "Vedhæftelser"
 		},

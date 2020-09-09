@@ -1138,7 +1138,7 @@
 		"attachments": {
 			"add": "Dodaj załącznik",
 			"download": "Pobierz załącznik",
-			"loading": "",
+			"loading": "Trwa ładowanie ...",
 			"remove": "Usuń",
 			"title": "Załączniki"
 		},
