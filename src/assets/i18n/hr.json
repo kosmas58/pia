@@ -1138,6 +1138,7 @@
 		"attachments": {
 			"add": "Dodaj",
 			"download": "Preuzmite privitak",
+			"loading": "",
 			"remove": "Ukloni",
 			"title": "Prilozi"
 		},

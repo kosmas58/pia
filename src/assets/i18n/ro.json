@@ -1138,6 +1138,7 @@
 		"attachments": {
 			"add": "Adăugare",
 			"download": "Descărcați atașamentul",
+			"loading": "",
 			"remove": "Ștergere",
 			"title": "Fișiere atașate"
 		},

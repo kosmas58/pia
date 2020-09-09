@@ -15,6 +15,7 @@ export class AttachmentsComponent implements OnInit {
   @Input() pia: Pia;
   attachmentForm: FormGroup;
   dispplayAttachmentButton = false;
+  loading: boolean = false;
 
   constructor(public _attachmentsService: AttachmentsService) {}
 
@@ -45,6 +46,14 @@ export class AttachmentsComponent implements OnInit {
    * @param {event} event - Any kind of event.
    */
   uploadAttachement(event: Event) {
-    this._attachmentsService.upload((<HTMLInputElement>event.target).files[0]);
+    this.loading = true;
+    this._attachmentsService
+      .upload((<HTMLInputElement>event.target).files[0])
+      .then(() => {
+        this.loading = false;
+      })
+      .catch(() => {
+        this.loading = true;
+      });
   }
 }

@@ -1138,6 +1138,7 @@
 		"attachments": {
 			"add": "Csatolás",
 			"download": "Töltse le a mellékletet",
+			"loading": "",
 			"remove": "Eltávolítás",
 			"title": "Mellékletek"
 		},

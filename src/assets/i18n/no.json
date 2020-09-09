@@ -1138,6 +1138,7 @@
 		"attachments": {
 			"add": "Legg til",
 			"download": "Last ned vedlegget",
+			"loading": "",
 			"remove": "Fjern",
 			"title": "Vedlegg"
 		},
