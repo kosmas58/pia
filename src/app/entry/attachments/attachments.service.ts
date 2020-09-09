@@ -65,30 +65,49 @@ export class AttachmentsService {
    * @param {*} attachment_file - The attachment file.
    */
   upload(attachment_file: any) {
-    const file = new Blob([attachment_file]);
-    const reader = new FileReader();
-    reader.readAsDataURL(file);
-    reader.onloadend = () => {
-      const attachment = new Attachment();
-      attachment.file = reader.result;
-      attachment.name = attachment_file.name;
-      attachment.mime_type = attachment_file.type;
-      attachment.pia_id = this.pia.id;
-      attachment.pia_signed = this.pia_signed;
-      attachment.comment = '';
-      attachment.create().then((id: number) => {
-        attachment.id = id;
-        this.attachments.unshift(attachment);
-        if (attachment.pia_signed === 1) {
-          // Add the last previous signed attachment in the signed attachments array
-          this.signedAttachments.unshift(this.attachment_signed);
-          // Allocate the new one
-          this.attachment_signed = attachment;
-        }
-        // To refresh signed attachments on validation page
-        this.updateSignedAttachmentsList();
-      });
-    };
+    return new Promise((resolve, reject) => {
+      const file = new Blob([attachment_file]);
+      const reader = new FileReader();
+      reader.readAsDataURL(file);
+      reader.onloadend = () => {
+        const attachment = new Attachment();
+        attachment.file = reader.result;
+        attachment.name = attachment_file.name
+          .toString()
+          .trim()
+          .toLowerCase()
+          .replace(/\.[^/.]+$/, '')
+          .replace(/\s+/g, '-')
+          .replace(/[^\w\-]+/g, '')
+          .replace(/\-\-+/g, '-')
+          .replace(/^-+/, '')
+          .replace(/-+$/, '');
+        attachment.mime_type = attachment_file.type;
+        attachment.pia_id = this.pia.id;
+        attachment.pia_signed = this.pia_signed;
+        attachment.comment = '';
+        attachment
+          .create()
+          .then((id: number) => {
+            attachment.id = id;
+            this.attachments.unshift(attachment);
+            if (attachment.pia_signed === 1) {
+              // Add the last previous signed attachment in the signed attachments array
+              this.signedAttachments.unshift(this.attachment_signed);
+              // Allocate the new one
+              this.attachment_signed = attachment;
+            }
+            // To refresh signed attachments on validation page
+            this.updateSignedAttachmentsList().then(() => {
+              // ---
+              resolve(true);
+            });
+          })
+          .catch(() => {
+            reject(true);
+          });
+      };
+    });
   }
 
   /**
