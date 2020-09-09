@@ -72,7 +72,16 @@ export class AttachmentsService {
       reader.onloadend = () => {
         const attachment = new Attachment();
         attachment.file = reader.result;
-        attachment.name = attachment_file.name;
+        attachment.name = attachment_file.name
+          .toString()
+          .trim()
+          .toLowerCase()
+          .replace(/\.[^/.]+$/, '')
+          .replace(/\s+/g, '-')
+          .replace(/[^\w\-]+/g, '')
+          .replace(/\-\-+/g, '-')
+          .replace(/^-+/, '')
+          .replace(/-+$/, '');
         attachment.mime_type = attachment_file.type;
         attachment.pia_id = this.pia.id;
         attachment.pia_signed = this.pia_signed;
