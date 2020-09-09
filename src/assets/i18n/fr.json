@@ -1193,7 +1193,8 @@
 			"add": "Ajouter",
 			"download": "Télécharger la pièce jointe",
 			"remove": "Supprimer",
-			"title": "Pièces jointes"
+      "title": "Pièces jointes",
+      "loading": "Dépot en cours..."
 		},
 		"footer": {
 			"ask_evaluation": "Demander l'évaluation",
