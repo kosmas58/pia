@@ -1137,6 +1137,7 @@
 		"attachments": {
 			"add": "Añadir",
 			"download": "Descargar el archivo adjunto",
+			"loading": "Cargando en curso ...",
 			"remove": "Eliminar",
 			"title": "Adjuntos"
 		},
