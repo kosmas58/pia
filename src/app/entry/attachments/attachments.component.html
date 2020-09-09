@@ -5,9 +5,17 @@
 
   <form *ngIf="!isPreview" enctype="multipart/form-data" [formGroup]="attachmentForm">
     <input type="file" formControlName="attachment_file" id="attachment_file" (change)="uploadAttachement($event)" class="hide">
-    <button class="pia-attachmentsBlock-addBtn btn" [ngClass]="{'hide': !dispplayAttachmentButton}" type="button" (click)="addAttachment()">
-      <span class="pia-icons pia-icon-add"></span>
-      {{ 'pia.attachments.add' | translate }}
+    <button class="pia-attachmentsBlock-addBtn btn"
+      [disabled]="loading"
+      [ngClass]="{'hide': !dispplayAttachmentButton}" type="button"
+      (click)="addAttachment()">
+      <ng-container *ngIf="!loading; else loadingElse">
+        <span class="pia-icons pia-icon-add"></span>
+        {{ 'pia.attachments.add' | translate }}
+      </ng-container>
+      <ng-template #loadingElse>
+        Dépot en cours
+      </ng-template>
     </button>
   </form>
 </div>
