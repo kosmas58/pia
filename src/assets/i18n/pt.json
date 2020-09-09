@@ -1192,6 +1192,7 @@
 		"attachments": {
 			"add": "Adicionar",
 			"download": "TO TRANSLATE - Download the attachment",
+			"loading": "",
 			"remove": "Remover",
 			"title": "Anexos"
 		},

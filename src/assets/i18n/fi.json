@@ -1192,6 +1192,7 @@
 		"attachments": {
 			"add": "Lisää",
 			"download": "TO TRANSLATE - Download the attachment",
+			"loading": "",
 			"remove": "Poista",
 			"title": "Liitteet"
 		},

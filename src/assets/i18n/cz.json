@@ -1192,6 +1192,7 @@
 		"attachments": {
 			"add": "Přidat",
 			"download": "TO TRANSLATE - Download the attachment",
+			"loading": "",
 			"remove": "Odebrat",
 			"title": "Přílohy"
 		},

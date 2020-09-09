@@ -1192,6 +1192,7 @@
 		"attachments": {
 			"add": "Ajouter",
 			"download": "Télécharger la pièce jointe",
+			"loading": "Dépot en cours...",
 			"remove": "Supprimer",
 			"title": "Pièces jointes"
 		},
