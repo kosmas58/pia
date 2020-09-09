@@ -1192,6 +1192,7 @@
 		"attachments": {
 			"add": "Lägg till",
 			"download": "Ladda ner bilaga",
+			"loading": "",
 			"remove": "Radera",
 			"title": "Bilagor"
 		},

@@ -1192,6 +1192,7 @@
 		"attachments": {
 			"add": "Legg til",
 			"download": "TO TRANSLATE - Download the attachment",
+			"loading": "",
 			"remove": "Fjern",
 			"title": "Vedlegg"
 		},

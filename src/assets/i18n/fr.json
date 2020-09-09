@@ -1192,9 +1192,9 @@
 		"attachments": {
 			"add": "Ajouter",
 			"download": "Télécharger la pièce jointe",
+			"loading": "Dépot en cours...",
 			"remove": "Supprimer",
-      "title": "Pièces jointes",
-      "loading": "Dépot en cours..."
+			"title": "Pièces jointes"
 		},
 		"footer": {
 			"ask_evaluation": "Demander l'évaluation",

@@ -1192,6 +1192,7 @@
 		"attachments": {
 			"add": "Dodaj",
 			"download": "TO TRANSLATE - Download the attachment",
+			"loading": "",
 			"remove": "Ukloni",
 			"title": "Prilozi"
 		},

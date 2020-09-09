@@ -1192,6 +1192,7 @@
 		"attachments": {
 			"add": "Csatolás",
 			"download": "TO TRANSLATE - Download the attachment",
+			"loading": "",
 			"remove": "Eltávolítás",
 			"title": "Mellékletek"
 		},

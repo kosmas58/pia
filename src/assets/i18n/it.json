@@ -1192,6 +1192,7 @@
 		"attachments": {
 			"add": "Aggiungi",
 			"download": "TO TRANSLATE - Download the attachment",
+			"loading": "",
 			"remove": "Cancella",
 			"title": "Allegati"
 		},
