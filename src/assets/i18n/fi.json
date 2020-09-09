@@ -1138,6 +1138,7 @@
 		"attachments": {
 			"add": "Lisää",
 			"download": "Lataa liite",
+			"loading": "Ladataan käynnissä ...",
 			"remove": "Poista",
 			"title": "Liitteet"
 		},

@@ -1138,6 +1138,7 @@
 		"attachments": {
 			"add": "Pridėti",
 			"download": "Atsisiųskite priedą",
+			"loading": "Įkeliama ...",
 			"remove": "Pašalinti",
 			"title": "Priedai"
 		},

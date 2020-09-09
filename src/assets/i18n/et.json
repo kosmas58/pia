@@ -1138,6 +1138,7 @@
 		"attachments": {
 			"add": "Lisa",
 			"download": "Laadige manus alla",
+			"loading": "Laadimine on pooleli ...",
 			"remove": "Eemalda",
 			"title": "Manused"
 		},

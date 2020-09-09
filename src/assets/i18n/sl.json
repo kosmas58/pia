@@ -1138,6 +1138,7 @@
 		"attachments": {
 			"add": "Dodaj",
 			"download": "Prenesite prilogo",
+			"loading": "Nalaganje poteka ...",
 			"remove": "Ukloni",
 			"title": "Prilozi"
 		},

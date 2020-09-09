@@ -1138,6 +1138,7 @@
 		"attachments": {
 			"add": "Toevoegen",
 			"download": "Download de bijlage",
+			"loading": "Bezig met laden ...",
 			"remove": "Verwijderen",
 			"title": "Bijlagen"
 		},
