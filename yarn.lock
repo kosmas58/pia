@@ -1629,10 +1629,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.13.7.tgz#85dbb71c510442d00c0631f99dae957ce44fd104"
   integrity sha512-suFHr6hcA9mp8vFrZTgrmqW2ZU3mbWsryQtQlY/QvwTISCw7nw/j+bCQPPohqmskhmqa5wLNuMHTTsc+xf1MQg==
 
-"@types/node@~14.11.8":
-  version "14.11.8"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.11.8.tgz#fe2012f2355e4ce08bca44aeb3abbb21cf88d33f"
-  integrity sha512-KPcKqKm5UKDkaYPTuXSx8wEP7vE9GnuaXIZKijwRYcePpZFDVuy2a57LarFKiORbHOuTOOwYzxVxcUzsh2P2Pw==
+"@types/node@~14.11.10":
+  version "14.11.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.11.10.tgz#8c102aba13bf5253f35146affbf8b26275069bef"
+  integrity sha512-yV1nWZPlMFpoXyoknm4S56y2nlTAuFYaJuQtYRAOU7xA/FJ9RY0Xm7QOkaYMMmr8ESdHIuUb6oQgR/0+2NqlyA==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -6544,10 +6544,10 @@ internal-ip@^4.3.0:
     default-gateway "^4.2.0"
     ipaddr.js "^1.9.0"
 
-intro.js@^2.9.3:
-  version "2.9.3"
-  resolved "https://registry.yarnpkg.com/intro.js/-/intro.js-2.9.3.tgz#001d9a7bca66d8f4d2d0253c9b3345e9ae4320c3"
-  integrity sha512-hC+EXWnEuJeA3CveGMat3XHePd2iaXNFJIVfvJh2E9IzBMGLTlhWvPIVHAgKlOpO4lNayCxEqzr4N02VmHFr9Q==
+intro.js@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/intro.js/-/intro.js-3.0.1.tgz#ccea302ebcf14e3ba817de83a8e3be15f3f72be1"
+  integrity sha512-tFOLaFUJbhRvKixgNw/hjFtcsbsS9cUmj4XraE2uC9huYVQSoQKSTioknyRZ/KZeaTMObmcxOvKtVIkHQNyKeQ==
 
 invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
@@ -8276,13 +8276,13 @@ ng2-pdfjs-viewer@^5.0.7:
   resolved "https://registry.yarnpkg.com/ng2-pdfjs-viewer/-/ng2-pdfjs-viewer-5.0.7.tgz#99bb373548488f93badefee2868af6af4b011c2f"
   integrity sha512-KkeA0ejCoqz9CDWVDiZ+qCxme0Ta0U/VZBHSpounVLI9plGr5aXiEUG0nNdRNtfcq86GSiNE4gqKFzyYXU50Kg==
 
-ngx-chips@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/ngx-chips/-/ngx-chips-2.1.0.tgz#aa299bcf40dc3e1f6288bf1d29e2fdfe9a132ed3"
-  integrity sha512-OQV4dTfD3nXm5d2mGKUSgwOtJOaMnZ4F+lwXOtd7DWRSUne0JQWwoZNHdOpuS6saBGhqCPDAwq6KxdR5XSgZUQ==
+ngx-chips@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/ngx-chips/-/ngx-chips-2.2.1.tgz#266cc6b83f4b497f56bc43e323bcf6e9b2afc9f7"
+  integrity sha512-XruhoR/kCYBkLYelxtLYNR+4mP5TmVnVfW0wc/ylZmFvph5q4JqjqAtWYq5r8oBTDgUo+HsP4jByIZnVK5pw5A==
   dependencies:
     ng2-material-dropdown "0.11.0"
-    tslib "^1.9.0"
+    tslib "^1.10.0"
 
 nice-try@^1.0.4:
   version "1.0.5"
@@ -9579,10 +9579,10 @@ pretty-bytes@^5.3.0:
   resolved "https://registry.yarnpkg.com/pretty-bytes/-/pretty-bytes-5.3.0.tgz#f2849e27db79fb4d6cfe24764fc4134f165989f2"
   integrity sha512-hjGrh+P926p4R4WbaB6OckyRtO0F0/lQBiT+0gnxjV+5kjPBrfVBFCsCLbMqVQeydvIoouYTCmmEURiH3R1Bdg==
 
-pretty-quick@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/pretty-quick/-/pretty-quick-3.0.2.tgz#7ed460f7e43a647b1044ad8b7f41a0c8a7f1c51c"
-  integrity sha512-4rWOs/Ifdkg7G/YX7Xbco4jZkuXPx445KdhuMI6REnl3nXRDb9+zysb29c76R59jsJzcnkcpAaGi8D/RjAVfSQ==
+pretty-quick@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/pretty-quick/-/pretty-quick-3.1.0.tgz#cb172e9086deb57455dea7c7e8f136cd0a4aef6c"
+  integrity sha512-DtxIxksaUWCgPFN7E1ZZk4+Aav3CCuRdhrDSFZENb404sYMtuo9Zka823F+Mgeyt8Zt3bUiCjFzzWYE9LYqkmQ==
   dependencies:
     chalk "^3.0.0"
     execa "^4.0.0"
