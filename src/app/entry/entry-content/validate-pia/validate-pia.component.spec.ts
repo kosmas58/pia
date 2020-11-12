@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { ValidatePIAComponent } from './validate-pia.component';
 
@@ -6,11 +6,13 @@ describe('ValidatePIAComponent', () => {
   let component: ValidatePIAComponent;
   let fixture: ComponentFixture<ValidatePIAComponent>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [ValidatePIAComponent]
-    }).compileComponents();
-  }));
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [ValidatePIAComponent]
+      }).compileComponents();
+    })
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(ValidatePIAComponent);

@@ -30,7 +30,7 @@ const routes: Routes = [
     StructuresRoutingModule,
     KnowledgesRoutingModule,
     ArchivesRoutingModule,
-    RouterModule.forRoot(routes, { useHash: true })
+    RouterModule.forRoot(routes, { useHash: true, relativeLinkResolution: 'legacy' })
   ],
   exports: [RouterModule]
 })
