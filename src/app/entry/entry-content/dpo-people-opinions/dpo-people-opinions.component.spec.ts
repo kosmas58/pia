@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { DPOPeopleOpinionsComponent } from './dpo-people-opinions.component';
 
@@ -6,11 +6,13 @@ describe('DPOPeopleOpinionsComponent', () => {
   let component: DPOPeopleOpinionsComponent;
   let fixture: ComponentFixture<DPOPeopleOpinionsComponent>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [DPOPeopleOpinionsComponent]
-    }).compileComponents();
-  }));
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [DPOPeopleOpinionsComponent]
+      }).compileComponents();
+    })
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(DPOPeopleOpinionsComponent);
