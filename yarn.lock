@@ -1783,10 +1783,10 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
-"@types/intro.js@~2.4.7":
-  version "2.4.7"
-  resolved "https://registry.yarnpkg.com/@types/intro.js/-/intro.js-2.4.7.tgz#0f80c08316bb7be909510342766a1a55cfa1ca8c"
-  integrity sha512-v4ZlciNeQSdsc2gdNoapRNwM+pXRJTnm8NGA4PnNJqwcF1oiN+iXHUz6ADNRcuDcWiwxgwvfSCQB80nbRUMC0Q==
+"@types/intro.js@~3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@types/intro.js/-/intro.js-3.0.0.tgz#27ae56f313ebef75c21a957367d1cfcd6b1a6f77"
+  integrity sha512-XbL3Y3jW82vQlf9L4gGOhnqsV9rM5Hs6LDe9hcXRsJj4j+NH5WnHzbRHfApSfLQGffHyCoKcJDaJbDHVptqLLA==
 
 "@types/jasmine@*":
   version "3.3.12"
@@ -1825,10 +1825,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.13.7.tgz#85dbb71c510442d00c0631f99dae957ce44fd104"
   integrity sha512-suFHr6hcA9mp8vFrZTgrmqW2ZU3mbWsryQtQlY/QvwTISCw7nw/j+bCQPPohqmskhmqa5wLNuMHTTsc+xf1MQg==
 
-"@types/node@~14.14.9":
-  version "14.14.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.9.tgz#04afc9a25c6ff93da14deabd65dc44485b53c8d6"
-  integrity sha512-JsoLXFppG62tWTklIoO4knA+oDTYsmqWxHRvd4lpmfQRNhX6osheUOWETP2jMoV/2bEHuMra8Pp3Dmo/stBFcw==
+"@types/node@~14.14.10":
+  version "14.14.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.10.tgz#5958a82e41863cfc71f2307b3748e3491ba03785"
+  integrity sha512-J32dgx2hw8vXrSbu4ZlVhn1Nm3GbeCFNw2FWL8S5QKucHGY0cyNwjdQdO+KMBZ4wpmC7KhLCiNsdk1RFRIYUQQ==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
