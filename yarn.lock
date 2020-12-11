@@ -1629,10 +1629,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.13.7.tgz#85dbb71c510442d00c0631f99dae957ce44fd104"
   integrity sha512-suFHr6hcA9mp8vFrZTgrmqW2ZU3mbWsryQtQlY/QvwTISCw7nw/j+bCQPPohqmskhmqa5wLNuMHTTsc+xf1MQg==
 
-"@types/node@~14.14.10":
-  version "14.14.10"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.10.tgz#5958a82e41863cfc71f2307b3748e3491ba03785"
-  integrity sha512-J32dgx2hw8vXrSbu4ZlVhn1Nm3GbeCFNw2FWL8S5QKucHGY0cyNwjdQdO+KMBZ4wpmC7KhLCiNsdk1RFRIYUQQ==
+"@types/node@~14.14.12":
+  version "14.14.12"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.12.tgz#0b1d86f8c40141091285dea02e4940df73bba43f"
+  integrity sha512-ASH8OPHMNlkdjrEdmoILmzFfsJICvhBsFfAum4aKZ/9U4B6M6tTmTPh+f3ttWdD74CEGV5XvXWkbyfSdXaTd7g==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -4249,10 +4249,10 @@ d3-zoom@2:
     d3-selection "2"
     d3-transition "2"
 
-d3@^6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/d3/-/d3-6.3.0.tgz#516311510b345a70a5d9648626a6a74a2ff0b7f7"
-  integrity sha512-VllKodQILRuCxL/t6HAU6JAeNjcaqFZqWOtKgMbip0lpIiII+Rn7/FY1qfTELWZwt0KM/RfNf65UI68LZ5WYWA==
+d3@^6.3.1:
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/d3/-/d3-6.3.1.tgz#c5fe6c7abff432826775a9e04db80b5f2e22eb1c"
+  integrity sha512-rbaoA67o2N4lO1TCuvrTGQdowNb3zT0z2ygg6TLmJZAd7TRPg+lhbfDOVwQUAgdbRD+73kg2FrEQ9HLiap5H2w==
   dependencies:
     d3-array "2"
     d3-axis "2"
@@ -11744,10 +11744,10 @@ trim-off-newlines@^1.0.0:
   resolved "https://registry.yarnpkg.com/trim-off-newlines/-/trim-off-newlines-1.0.1.tgz#9f9ba9d9efa8764c387698bcbfeb2c848f11adb3"
   integrity sha1-n5up2e+odkw4dpi8v+sshI8RrbM=
 
-ts-node@~9.1.0:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-9.1.0.tgz#95eae4c6d0f94f2545884078e1eb1b14d2155639"
-  integrity sha512-0yqcL4sgruCvM+w64LiAfNJo6+lHfCYc5Ajj4yiLNkJ9oZ2HWaa+Kso7htYOOxVQ7+csAjdUjffOe9PIqC4pMg==
+ts-node@~9.1.1:
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-9.1.1.tgz#51a9a450a3e959401bda5f004a72d54b936d376d"
+  integrity sha512-hPlt7ZACERQGf03M253ytLY3dHbGNGrAq9qIHWUY9XHYl1z7wYngSr3OQ5xmui8o2AaxsONxIzjafLUiWBo1Fg==
   dependencies:
     arg "^4.1.0"
     create-require "^1.1.0"
