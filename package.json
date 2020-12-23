@@ -50,7 +50,7 @@
     "font-awesome": "^4.7.0",
     "foundation-sites": "^6.6.3",
     "html2canvas": "1.0.0-rc.1",
-    "intro.js": "^3.2.0",
+    "intro.js": "^3.2.1",
     "jszip": "^3.5.0",
     "ng2-pdfjs-viewer": "^5.0.7",
     "ngx-chips": "2.2.2",
