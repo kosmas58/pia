@@ -6573,10 +6573,10 @@ internal-ip@^4.3.0:
     default-gateway "^4.2.0"
     ipaddr.js "^1.9.0"
 
-intro.js@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/intro.js/-/intro.js-3.2.0.tgz#f463722353c0ee5cc285cb2401b9566c02c2936b"
-  integrity sha512-kmfBDF16FaSgTq7TDKCikYm7wGOgnGPwtLxmFRxJfXfTOBBYXkBA1zcTPp+NvE6KnGT7OqtQGw+K7Raf+9d+FQ==
+intro.js@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/intro.js/-/intro.js-3.2.1.tgz#fb13f03c13d54aab8485d538a719fe4af0b7bf36"
+  integrity sha512-empgAlW/vlIEAZWw19rLMR+1J75sw6bvjqrQd9fhgXJnV/ds0bzASil3k5fCWSJeVBKXFbLlWJ3nvtimDmTIFw==
 
 invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
