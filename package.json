@@ -16,6 +16,13 @@
     "extract-i18n": "ngx-translate-extract --input ./src --output ./src/assets/i18n/strings.json --clean --sort --format namespaced-json",
     "compodoc": "compodoc -p src/tsconfig.app.json"
   },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead",
+    "not IE 9-11"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged",
@@ -70,9 +77,9 @@
     "@types/intro.js": "~3.0.0",
     "@types/jasmine": "~3.6.2",
     "@types/jasminewd2": "~2.0.8",
-    "@types/node": "~14.14.14",
+    "@types/node": "~14.14.16",
     "codelyzer": "^5.2.2",
-    "cypress": "^4.12.1",
+    "cypress": "^6.2.0",
     "husky": "^4.3.6",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~6.0.0",
