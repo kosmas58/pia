@@ -46,7 +46,6 @@ package-lock.json
 !.yarn/plugins
 !.yarn/sdks
 !.yarn/versions
-.pnp.*
 .yarn/install-state.gz
 
 # System Files
