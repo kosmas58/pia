@@ -42,6 +42,11 @@ testem.log
 /typings
 package-lock.json
 .yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
 .yarn/install-state.gz
 
 # System Files
