@@ -46,7 +46,6 @@ package-lock.json
 !.yarn/plugins
 !.yarn/sdks
 !.yarn/versions
-.yarn/install-state.gz
 
 # System Files
 .DS_Store
