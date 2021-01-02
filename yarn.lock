@@ -1904,10 +1904,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:~14.14.16":
+"@types/node@npm:*":
   version: 14.14.16
   resolution: "@types/node@npm:14.14.16"
   checksum: 220a7496ec73861ad7fb4ae762618bb46ac9d5d5f92f3a2fcebfd1a81a509ff558eface7bcd1d632598a8a28f856a74b324e7165918e8334a59c221cb06d15e3
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:~14.14.19":
+  version: 14.14.19
+  resolution: "@types/node@npm:14.14.19"
+  checksum: 218ff4a93978cf41f4dd3d6aea7555d119873b50905889b1a3f14737f1e135a688672fa1f8e02ed856922fb828703bb064f7733f7e6998173c4714a7a3ec4c4c
   languageName: node
   linkType: hard
 
@@ -11190,7 +11197,7 @@ fsevents@~2.1.2:
     "@types/intro.js": ~3.0.0
     "@types/jasmine": ~3.6.2
     "@types/jasminewd2": ~2.0.8
-    "@types/node": ~14.14.16
+    "@types/node": ~14.14.19
     angular2-csv: "git+https://github.com/kosmas58/angular2-csv.git"
     codelyzer: ^5.2.2
     core-js: ^3.8.1
