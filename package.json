@@ -18,6 +18,13 @@
     "pwa:create-pwa-icons": "ngx-pwa-icons",
     "compodoc": "compodoc -p src/tsconfig.app.json"
   },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead",
+    "not IE 9-11"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged",
@@ -73,7 +80,7 @@
     "@types/intro.js": "~3.0.0",
     "@types/jasmine": "~3.6.2",
     "@types/jasminewd2": "~2.0.8",
-    "@types/node": "~14.14.16",
+    "@types/node": "~14.14.19",
     "codelyzer": "^6.0.1",
     "cypress": "^6.2.0",
     "http-server": "^0.12.3",
