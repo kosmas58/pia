@@ -7684,9 +7684,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"husky@npm:^4.3.7":
-  version: 4.3.7
-  resolution: "husky@npm:4.3.7"
+"husky@npm:^4.3.8":
+  version: 4.3.8
+  resolution: "husky@npm:4.3.8"
   dependencies:
     chalk: ^4.0.0
     ci-info: ^2.0.0
@@ -7701,7 +7701,7 @@ fsevents@~2.1.2:
   bin:
     husky-run: bin/run.js
     husky-upgrade: lib/upgrader/bin.js
-  checksum: 799b1484e47f868760a612d8578f0bc2cf8848a55719ad00bfbd6bec3d094afaca024631949157390a05616a1c83242c3d917f33c049d9161f7af3ec313b6870
+  checksum: 1ac4fb51ffd93547ec861f185d86bdbfbac8ee24ce60417d531dbe5222e33fc754436e87e4e2b37a44dcefdc78c151f9ba4ac57c05773f5c36377cc4eb73732b
   languageName: node
   linkType: hard
 
@@ -11214,7 +11214,7 @@ fsevents@~2.1.2:
     font-awesome: ^4.7.0
     foundation-sites: ^6.6.3
     html2canvas: 1.0.0-rc.1
-    husky: ^4.3.7
+    husky: ^4.3.8
     intro.js: ^3.2.1
     jasmine-core: ~3.6.0
     jasmine-spec-reporter: ~6.0.0
