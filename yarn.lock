@@ -1918,10 +1918,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:~14.14.20":
-  version: 14.14.20
-  resolution: "@types/node@npm:14.14.20"
-  checksum: 84a9fd73de978967723f951173ff4d07dca259941d3e37c7a3dbb236c09b3f2294bb2098678a806afe6fd6cac39a7d0a1d399f602378c951bd5d01ede535d570
+"@types/node@npm:~14.14.22":
+  version: 14.14.22
+  resolution: "@types/node@npm:14.14.22"
+  checksum: e46e32685b4d0261779c13c10ba3ff220cfa714b5c12f8f571fd52cc309546bdbc8ffc86cbad20559ad88e7b17e66fc51c98b067d8c3766597092c05df157b9b
   languageName: node
   linkType: hard
 
@@ -4405,10 +4405,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.8.2":
-  version: 3.8.2
-  resolution: "core-js@npm:3.8.2"
-  checksum: 8fa2c580b77b9d54d3f6ee147be4d9ae01ea6d77f35f16b05962161e9bec02d846449cce4c68b9d190145edc8ded71142f6fd99e35b53fc642b20a3bf47bbd07
+"core-js@npm:^3.8.3":
+  version: 3.8.3
+  resolution: "core-js@npm:3.8.3"
+  checksum: 3c67d1732d505f6afaf836f18038dae8267e8c0e8e84e1c679bac67589e66d0807c24750c7d8b1118cc386c3d66a1d96f20d9cb0f6a879b19cfc04e9f073fe78
   languageName: node
   linkType: hard
 
@@ -11211,10 +11211,10 @@ fsevents@~2.1.2:
     "@types/intro.js": ~3.0.0
     "@types/jasmine": ~3.6.3
     "@types/jasminewd2": ~2.0.8
-    "@types/node": ~14.14.20
+    "@types/node": ~14.14.22
     angular2-csv: "git+https://github.com/kosmas58/angular2-csv.git"
     codelyzer: ^5.2.2
-    core-js: ^3.8.2
+    core-js: ^3.8.3
     cypress: ^6.3.0
     d3: ^6.3.1
     file-saver: ^2.0.5
