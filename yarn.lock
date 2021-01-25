@@ -5139,9 +5139,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"d3@npm:^6.3.1":
-  version: 6.3.1
-  resolution: "d3@npm:6.3.1"
+"d3@npm:^6.5.0":
+  version: 6.5.0
+  resolution: "d3@npm:6.5.0"
   dependencies:
     d3-array: 2
     d3-axis: 2
@@ -5173,7 +5173,7 @@ __metadata:
     d3-timer: 2
     d3-transition: 2
     d3-zoom: 2
-  checksum: c530d9c617864a2f82d481452142042ffd9cd59c3394eef5f69cae9cc59b714144946ca8840303e61771a2e2cdcfa4ce75d9dc1eff770e6dd07ac3aff12dda4c
+  checksum: 9a05fb551bec8a3e4e3a859c7d26fe46dd76234f623e3e0025521c39b80337ae8a4fa1365a899d360cf26703d2a398461eb7ad284e16cc5c595359e043a32481
   languageName: node
   linkType: hard
 
@@ -11216,7 +11216,7 @@ fsevents@~2.1.2:
     codelyzer: ^5.2.2
     core-js: ^3.8.3
     cypress: ^6.3.0
-    d3: ^6.3.1
+    d3: ^6.5.0
     file-saver: ^2.0.5
     font-awesome: ^4.7.0
     foundation-sites: ^6.6.3
