@@ -5863,9 +5863,9 @@ cors@latest:
   languageName: node
   linkType: hard
 
-"cypress@npm:^6.3.0":
-  version: 6.3.0
-  resolution: "cypress@npm:6.3.0"
+"cypress@npm:^6.4.0":
+  version: 6.4.0
+  resolution: "cypress@npm:6.4.0"
   dependencies:
     "@cypress/listr-verbose-renderer": ^0.4.1
     "@cypress/request": ^2.88.5
@@ -5881,6 +5881,7 @@ cors@latest:
     cli-table3: ~0.6.0
     commander: ^5.1.0
     common-tags: ^1.8.0
+    dayjs: ^1.9.3
     debug: ^4.1.1
     eventemitter2: ^6.4.2
     execa: ^4.0.2
@@ -5895,7 +5896,7 @@ cors@latest:
     lodash: ^4.17.19
     log-symbols: ^4.0.0
     minimist: ^1.2.5
-    moment: ^2.27.0
+    moment: ^2.29.1
     ospath: ^1.2.2
     pretty-bytes: ^5.4.1
     ramda: ~0.26.1
@@ -5907,7 +5908,7 @@ cors@latest:
     yauzl: ^2.10.0
   bin:
     cypress: bin/cypress
-  checksum: 05841960db8d00fd82d25ee57004a3c292e4fc5d00ee21d2779833eee742899ee5b8346918c5201ce42b05d708a3136c9dbcf2decd57ad0fc5793e16fa6cc073
+  checksum: 90919d83dab9f291b5c1178dbd68c1fc084039991273e69f7be30cfaf788d2e8e9989671ef22322d906e7c753125f10fad06a7f87b57d353514bdba1a0b5279d
   languageName: node
   linkType: hard
 
@@ -6285,6 +6286,13 @@ cors@latest:
   version: 0.1.4
   resolution: "date-now@npm:0.1.4"
   checksum: 559af5771a48ce52e3387d289e8461244aff60d6736df45ea6c6f1d8aaecd5442804baadbcbfbe547946416af958c3bdd99029839f342b2d8afcfde028ff301f
+  languageName: node
+  linkType: hard
+
+"dayjs@npm:^1.9.3":
+  version: 1.10.4
+  resolution: "dayjs@npm:1.10.4"
+  checksum: 3b7bb2232fff808209870bc72d4b2000941a1aa45f0226e2907f9dd1dda306d4b3a1eb9058450fd2c324b01a007a37809ac6f9b525806a86902c55e2934cd5d5
   languageName: node
   linkType: hard
 
@@ -11396,10 +11404,10 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"moment@npm:^2.27.0":
-  version: 2.27.0
-  resolution: "moment@npm:2.27.0"
-  checksum: 72d9a7d8dba59e3d538440cdc0b59fa895b123361e370be231896478aaf157a484355ce32bd8daf6f731d6d1636d3a67ecb67531e536e093ca18b43e0cbae194
+"moment@npm:^2.29.1":
+  version: 2.29.1
+  resolution: "moment@npm:2.29.1"
+  checksum: 86729013febf7160de5b93da69273dd304d674b0224f9544b3abd09a87671ddd2cdd57598261ce57588910d63747ffd5590965e83c790d8bf327083c0e0a06e0
   languageName: node
   linkType: hard
 
@@ -12762,7 +12770,7 @@ opn@latest:
     angular2-csv: "git+https://github.com/kosmas58/angular2-csv.git"
     codelyzer: ^5.2.2
     core-js: ^3.8.3
-    cypress: ^6.3.0
+    cypress: ^6.4.0
     d3: ^6.5.0
     file-saver: ^2.0.5
     font-awesome: ^4.7.0
