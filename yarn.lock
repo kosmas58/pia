@@ -12826,7 +12826,7 @@ opn@latest:
     tslib: ^2.1.0
     tslint: ~6.1.3
     typescript: ~4.0.5
-    zone.js: ~0.10.3
+    zone.js: ~0.11.3
   languageName: unknown
   linkType: soft
 
@@ -17750,5 +17750,14 @@ typescript@~4.0.5:
   version: 0.10.3
   resolution: "zone.js@npm:0.10.3"
   checksum: 8b6ce7691c45fcdb55b8fd5adc6e1c7b0bd43895668c686ba9cb8f75b284cda5b3de578eb088d58db9cea452fbbaf6fc548582b49477347002588d857ecdb011
+  languageName: node
+  linkType: hard
+
+"zone.js@npm:~0.11.3":
+  version: 0.11.3
+  resolution: "zone.js@npm:0.11.3"
+  dependencies:
+    tslib: ^2.0.0
+  checksum: de74c0e338f957a52ee905e6eb5406ccd0043b2e3666633816896dd0f56325953c9c747d6e3c6bf043062ad05117092d4d91bbb8cf5d55b0b73ee2d0b26af4be
   languageName: node
   linkType: hard
