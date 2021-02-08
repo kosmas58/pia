@@ -7991,10 +7991,10 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"intro.js@npm:^3.2.1":
-  version: 3.2.1
-  resolution: "intro.js@npm:3.2.1"
-  checksum: 555f47980404ed23d9321dc3eadb3bfa158fbf00f653a2d3ff2ed15bb7efb3deeb8cab9af215cc00a13ba0a087fdf58e3221d1b4f34b997d62ae9e18ff76ade3
+"intro.js@npm:^3.3.1":
+  version: 3.3.1
+  resolution: "intro.js@npm:3.3.1"
+  checksum: 683a95abfbeca28e03aa78d57b502230fe890113345c81528ea4596c638e87d6bcfcce6b1cbac05f8e44dc6868d9826e9c5c0f104e340c0af62a2058726785b0
   languageName: node
   linkType: hard
 
@@ -11230,7 +11230,7 @@ fsevents@~2.1.2:
     foundation-sites: ^6.6.3
     html2canvas: 1.0.0-rc.1
     husky: ^4.3.8
-    intro.js: ^3.2.1
+    intro.js: ^3.3.1
     jasmine-core: ~3.6.0
     jasmine-spec-reporter: ~6.0.0
     jszip: ^3.5.0
