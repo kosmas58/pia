@@ -1918,10 +1918,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:~14.14.25":
-  version: 14.14.25
-  resolution: "@types/node@npm:14.14.25"
-  checksum: 64c42730f4169e49ec378870622ef06c5d820b31340e224cc1b45bf06c8b0cfa28daa587b4ae2b8ea1f712ef049bae4d9c92925b157ba9ba7cde3b22ff552513
+"@types/node@npm:~14.14.26":
+  version: 14.14.26
+  resolution: "@types/node@npm:14.14.26"
+  checksum: 03067a0bdb168322d0efbd21176a61c042d2d37c18db5caa7bf3ad7f27364078c26f6861dd0d73278a1a4cdac51232c393e4087bf2dd63dc43fe4f2731c67a7c
   languageName: node
   linkType: hard
 
@@ -8845,15 +8845,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"jszip@npm:^3.6.0-0":
-  version: 3.6.0-0
-  resolution: "jszip@npm:3.6.0-0"
+"jszip@npm:^3.6.0":
+  version: 3.6.0
+  resolution: "jszip@npm:3.6.0"
   dependencies:
     lie: ~3.3.0
     pako: ~1.0.2
     readable-stream: ~2.3.6
     set-immediate-shim: ~1.0.1
-  checksum: c67ae056db45aa8f9ba1a18e2af576f529284c9a2390312a740957042d5756270ce0e7018a4a3f0c33694aa5a7376a06662f77220be427f302839da16b9a7d98
+  checksum: 7b6e31bbe30c22491830b29e45642e2c8aba3bc45e1ebe855ceee593bc80c2dafab5ba0457d8b8889f70c7e227626da4bdca6160b2e4d3fdf7003c1aee989b72
   languageName: node
   linkType: hard
 
@@ -11203,7 +11203,7 @@ fsevents@~2.1.2:
     "@types/intro.js": ~3.0.0
     "@types/jasmine": ~3.6.3
     "@types/jasminewd2": ~2.0.8
-    "@types/node": ~14.14.25
+    "@types/node": ~14.14.26
     angular2-csv: "git+https://github.com/kosmas58/angular2-csv.git"
     codelyzer: ^5.2.2
     core-js: ^3.8.3
@@ -11217,7 +11217,7 @@ fsevents@~2.1.2:
     intro.js: ^3.3.1
     jasmine-core: ~3.6.0
     jasmine-spec-reporter: ~6.0.0
-    jszip: ^3.6.0-0
+    jszip: ^3.6.0
     karma: ~5.2.3
     karma-chrome-launcher: ~3.1.0
     karma-coverage-istanbul-reporter: ~3.0.3
