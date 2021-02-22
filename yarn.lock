@@ -3016,10 +3016,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jasmine@npm:~3.6.3":
-  version: 3.6.3
-  resolution: "@types/jasmine@npm:3.6.3"
-  checksum: 1f4bebf3ccbe7f9a838a1c5c218881962b34b3bf6f23953e03ce70089fafb44e41099230a0a38f62ace4ed2e1389971f6bcdd9a1927dabe1a92d2f58e3bb5e68
+"@types/jasmine@npm:~3.6.4":
+  version: 3.6.4
+  resolution: "@types/jasmine@npm:3.6.4"
+  checksum: 7cb73f2dc2f9e00b2458ba80de7ae0abd69df484938b5f0d1448aa2449761c382043e8a4e49c7d6a9e5ab6e6000d70e3c48b92193e07b8cb2295221a252f1b2d
   languageName: node
   linkType: hard
 
@@ -3067,10 +3067,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:~14.14.28":
-  version: 14.14.28
-  resolution: "@types/node@npm:14.14.28"
-  checksum: e750df4d5e93c639d04100e7d54d9e416ecc649d4d7951ac1d5b82d092c556f6e7775a191995e06d6def65ae7bc25533d188fe122dc660724d119ce3ddae2cea
+"@types/node@npm:~14.14.31":
+  version: 14.14.31
+  resolution: "@types/node@npm:14.14.31"
+  checksum: 635dc8a0898a923621e02ca179e17baa39fdfa44f0096fcc1b7046c9b32317e74a99956a7b45ca0e8069874f51f4e7873a418239a318a4b6e7936f6510ac5992
   languageName: node
   linkType: hard
 
@@ -5861,7 +5861,7 @@ colors@latest:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.8.3, core-js@npm:^3.8.3":
+"core-js@npm:3.8.3":
   version: 3.8.3
   resolution: "core-js@npm:3.8.3"
   checksum: 3c67d1732d505f6afaf836f18038dae8267e8c0e8e84e1c679bac67589e66d0807c24750c7d8b1118cc386c3d66a1d96f20d9cb0f6a879b19cfc04e9f073fe78
@@ -5886,6 +5886,13 @@ colors@latest:
   version: 3.6.5
   resolution: "core-js@npm:3.6.5"
   checksum: 9283348dd5be2f1d07feaf90e2336b3f00a2316e3d3c6d4f789c9a67bdd4d7b08ce1c88dca4e591340130056c6b412b0b74fae039f8e259206f1073f542e4e85
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.9.0":
+  version: 3.9.0
+  resolution: "core-js@npm:3.9.0"
+  checksum: c1711d5f60db480a561bba6a8ce02a0e8f4400c14b3c0eb728133be2ae30d74eb0bd20cd8154c3b0910ecc01bd07efa1efb04596f2c9432109dcbef268ef332d
   languageName: node
   linkType: hard
 
@@ -13502,12 +13509,12 @@ opn@latest:
     "@ngx-translate/core": ^13.0.0
     "@ngx-translate/http-loader": ^6.0.0
     "@types/intro.js": ~3.0.0
-    "@types/jasmine": ~3.6.3
+    "@types/jasmine": ~3.6.4
     "@types/jasminewd2": ~2.0.8
-    "@types/node": ~14.14.28
+    "@types/node": ~14.14.31
     angular2-csv: "git+https://github.com/kosmas58/angular2-csv.git"
     codelyzer: ^6.0.1
-    core-js: ^3.8.3
+    core-js: ^3.9.0
     cypress: ^6.5.0
     d3: ^6.5.0
     file-saver: ^2.0.5
