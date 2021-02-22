@@ -1874,10 +1874,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jasmine@npm:~3.6.3":
-  version: 3.6.3
-  resolution: "@types/jasmine@npm:3.6.3"
-  checksum: 1f4bebf3ccbe7f9a838a1c5c218881962b34b3bf6f23953e03ce70089fafb44e41099230a0a38f62ace4ed2e1389971f6bcdd9a1927dabe1a92d2f58e3bb5e68
+"@types/jasmine@npm:~3.6.4":
+  version: 3.6.4
+  resolution: "@types/jasmine@npm:3.6.4"
+  checksum: 7cb73f2dc2f9e00b2458ba80de7ae0abd69df484938b5f0d1448aa2449761c382043e8a4e49c7d6a9e5ab6e6000d70e3c48b92193e07b8cb2295221a252f1b2d
   languageName: node
   linkType: hard
 
@@ -1925,10 +1925,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:~14.14.26":
-  version: 14.14.26
-  resolution: "@types/node@npm:14.14.26"
-  checksum: 03067a0bdb168322d0efbd21176a61c042d2d37c18db5caa7bf3ad7f27364078c26f6861dd0d73278a1a4cdac51232c393e4087bf2dd63dc43fe4f2731c67a7c
+"@types/node@npm:~14.14.31":
+  version: 14.14.31
+  resolution: "@types/node@npm:14.14.31"
+  checksum: 635dc8a0898a923621e02ca179e17baa39fdfa44f0096fcc1b7046c9b32317e74a99956a7b45ca0e8069874f51f4e7873a418239a318a4b6e7936f6510ac5992
   languageName: node
   linkType: hard
 
@@ -4405,10 +4405,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.8.3":
-  version: 3.8.3
-  resolution: "core-js@npm:3.8.3"
-  checksum: 3c67d1732d505f6afaf836f18038dae8267e8c0e8e84e1c679bac67589e66d0807c24750c7d8b1118cc386c3d66a1d96f20d9cb0f6a879b19cfc04e9f073fe78
+"core-js@npm:^3.9.0":
+  version: 3.9.0
+  resolution: "core-js@npm:3.9.0"
+  checksum: c1711d5f60db480a561bba6a8ce02a0e8f4400c14b3c0eb728133be2ae30d74eb0bd20cd8154c3b0910ecc01bd07efa1efb04596f2c9432109dcbef268ef332d
   languageName: node
   linkType: hard
 
@@ -11209,12 +11209,12 @@ fsevents@~2.1.2:
     "@ngx-translate/core": ^12.1.2
     "@ngx-translate/http-loader": ^5.0.0
     "@types/intro.js": ~3.0.0
-    "@types/jasmine": ~3.6.3
+    "@types/jasmine": ~3.6.4
     "@types/jasminewd2": ~2.0.8
-    "@types/node": ~14.14.26
+    "@types/node": ~14.14.31
     angular2-csv: "git+https://github.com/kosmas58/angular2-csv.git"
     codelyzer: ^5.2.2
-    core-js: ^3.8.3
+    core-js: ^3.9.0
     cypress: ^6.5.0
     d3: ^6.5.0
     file-saver: ^2.0.5
