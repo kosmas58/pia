@@ -18,28 +18,6 @@
   },
   "husky": {
     "hooks": {
-      Support
-      Docs
-      Kosmas Schütz Toggle Dropdown
-      Tests
-      Runs
-      Settings
-
-      Opening Chrome 88
-      Search...
-      INTEGRATION TESTS
-      COLLAPSE ALL | EXPAND ALL
-      Running 1 spec
-      pia-angular
-      context
-      edit_eval.spec.js
-      validation.spec.js
-      fundamental_principle
-      edit_eval.spec.js
-      validation.spec.js
-      risk
-      edit_eval.spec.js
-      validation.spec.js
       "pre-commit": "pretty-quick --staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
