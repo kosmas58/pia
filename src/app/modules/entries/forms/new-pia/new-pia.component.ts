@@ -20,7 +20,7 @@ export class NewPiaComponent implements OnInit {
       .then((response: Array<Structure>) => {
         this.structureList = response;
       })
-      .catch(err => {
+      .catch((err) => {
         console.error(err);
       });
   }

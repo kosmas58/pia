@@ -292,7 +292,7 @@ export class MeasuresComponent implements OnInit, OnDestroy {
       selector: '#' + this.elementId,
       toolbar: 'undo redo bold italic alignleft aligncenter alignright bullist numlist outdent indent',
       skin: false,
-      setup: editor => {
+      setup: (editor) => {
         this.editor = editor;
         editor.on('focusout', () => {
           this.measureForm.controls['measureContent'].patchValue(editor.getContent());

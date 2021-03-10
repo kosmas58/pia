@@ -119,7 +119,7 @@ export class BaseComponent implements OnInit {
       return true;
     } else {
       this.lockedChoice = false;
-      const index = this.itemsSelected.findIndex(e => e === '31');
+      const index = this.itemsSelected.findIndex((e) => e === '31');
       if (index !== -1) {
         this.itemsSelected.splice(index, 1);
       }
@@ -185,7 +185,7 @@ export class BaseComponent implements OnInit {
           this.editMode = 'edit';
           this.showForm = true;
         })
-        .catch(err => {
+        .catch((err) => {
           console.log(err);
         });
     }
@@ -197,7 +197,7 @@ export class BaseComponent implements OnInit {
       .then((entry: Knowledge) => {
         this.knowledges.push(entry);
       })
-      .catch(err => {
+      .catch((err) => {
         console.error(err);
       });
   }
@@ -218,7 +218,7 @@ export class BaseComponent implements OnInit {
         this.knowledgesService
           .delete(id)
           .then(() => {
-            const index = this.knowledges.findIndex(e => e.id === id);
+            const index = this.knowledges.findIndex((e) => e.id === id);
             if (index !== -1) {
               this.knowledges.splice(index, 1);
             }
@@ -252,16 +252,16 @@ export class BaseComponent implements OnInit {
             .update(entry)
             .then(() => {
               // Update list
-              const index = this.knowledges.findIndex(e => e.id === entry.id);
+              const index = this.knowledges.findIndex((e) => e.id === entry.id);
               if (index !== -1) {
                 this.knowledges[index] = entry;
               }
             })
-            .catch(err => {
+            .catch((err) => {
               console.log(err);
             });
         })
-        .catch(err => {
+        .catch((err) => {
           console.log(err);
         });
     }
@@ -275,7 +275,7 @@ export class BaseComponent implements OnInit {
     if (e.target.checked) {
       ar.push(e.target.value);
     } else {
-      const index = ar.findIndex(item => item === e.target.value);
+      const index = ar.findIndex((item) => item === e.target.value);
       if (index !== -1) {
         ar.splice(index, 1);
       }
@@ -310,7 +310,7 @@ export class BaseComponent implements OnInit {
     const checkboxStatus = e.target.checked;
     const checkboxesTitle = e.target.parentNode.parentNode.querySelectorAll('.pia-knowledges_base-form-checkboxes-title');
     if (checkboxesTitle) {
-      checkboxesTitle.forEach(el => {
+      checkboxesTitle.forEach((el) => {
         const checkboxElement = el.querySelector('[type="checkbox"]');
         if (checkboxElement) {
           if (checkboxStatus && !checkboxElement.checked) {
@@ -328,7 +328,7 @@ export class BaseComponent implements OnInit {
    */
   sectionCheckedVerification(dataSection): boolean {
     let checked = true;
-    dataSection.items.forEach(item => {
+    dataSection.items.forEach((item) => {
       if (!this.itemsSelected.includes(`${dataSection.id}${item.id}`)) {
         if (!this.lockedChoice && `${dataSection.id}${item.id}` === '31') {
           return;
@@ -344,7 +344,7 @@ export class BaseComponent implements OnInit {
    */
   allSectionCheckedVerification(sections): void {
     let allChecked = true;
-    sections.forEach(section => {
+    sections.forEach((section) => {
       if (!this.sectionCheckedVerification(section)) {
         allChecked = false;
       }

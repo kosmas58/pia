@@ -30,13 +30,13 @@ export class MeasureService extends ApplicationDb {
           body: formData,
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result.id);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -73,13 +73,13 @@ export class MeasureService extends ApplicationDb {
             body: formData,
             mode: 'cors'
           })
-            .then(response => {
+            .then((response) => {
               return response.json();
             })
             .then((result: any) => {
               resolve();
             })
-            .catch(error => {
+            .catch((error) => {
               console.error('Request failed', error);
               reject();
             });
@@ -106,13 +106,13 @@ export class MeasureService extends ApplicationDb {
         fetch(this.getServerUrl(), {
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -149,7 +149,7 @@ export class MeasureService extends ApplicationDb {
         .then((entries: any[]) => {
           resolve(entries);
         })
-        .catch(err => {
+        .catch((err) => {
           console.log(err);
         });
     });
@@ -162,7 +162,7 @@ export class MeasureService extends ApplicationDb {
     return new Promise((resolve, reject) => {
       this.find(measure_id).then((entry: Measure) => {
         this.behaviorSubject.next(entry.title);
-        this.knowledgeBaseService.toHide = this.knowledgeBaseService.toHide.filter(item => item !== entry.title);
+        this.knowledgeBaseService.toHide = this.knowledgeBaseService.toHide.filter((item) => item !== entry.title);
       });
 
       /* Removing from DB */
@@ -184,7 +184,7 @@ export class MeasureService extends ApplicationDb {
       newMeasureRecord.pia_id = pia.id;
       newMeasureRecord.title = '';
       if (measureTitle) {
-        this.translateService.get(measureTitle).subscribe(val => (this.measureToAdd = val));
+        this.translateService.get(measureTitle).subscribe((val) => (this.measureToAdd = val));
         newMeasureRecord.title = this.measureToAdd;
       }
       newMeasureRecord.content = '';

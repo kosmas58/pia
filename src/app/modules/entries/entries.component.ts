@@ -148,12 +148,12 @@ export class EntriesComponent implements OnInit, OnDestroy {
             this.entries = entries;
 
             // Remove example from list
-            const index = this.entries.findIndex(p => p.is_example);
+            const index = this.entries.findIndex((p) => p.is_example);
             if (index !== -1) {
               this.entries.splice(index, 1);
             }
 
-            this.entries.forEach(entrie => {
+            this.entries.forEach((entrie) => {
               this.piaService.pia_id = entrie.id;
               this.piaService.calculPiaProgress(entrie);
             });
@@ -164,13 +164,13 @@ export class EntriesComponent implements OnInit, OnDestroy {
         case 'archive':
           await this.piaService.findAllArchives().then((entries: Array<Pia>) => {
             this.entries = entries;
-            this.entries.forEach(entrie => this.archiveService.calculPiaProgress(entrie));
+            this.entries.forEach((entrie) => this.archiveService.calculPiaProgress(entrie));
             this.loading = false;
           });
           break;
         case 'structure':
           let data;
-          await this.structureService.getAll().then(response => {
+          await this.structureService.getAll().then((response) => {
             data = response;
             this.structureService.loadExample().then((structureExample: Structure) => {
               data.push(structureExample);
@@ -206,7 +206,7 @@ export class EntriesComponent implements OnInit, OnDestroy {
 
   updateEntrie(entrie): void {
     if (this.entries.includes(entrie)) {
-      this.entries.forEach(item => {
+      this.entries.forEach((item) => {
         if (item.id === entrie.id) {
           item = entrie;
         }
@@ -268,7 +268,7 @@ export class EntriesComponent implements OnInit, OnDestroy {
           .then(() => {
             this.refreshContent();
           })
-          .catch(err => {
+          .catch((err) => {
             this.dialogService.confirmThis(
               {
                 text: 'modals.import_wrong_pia_file.content',
@@ -292,7 +292,7 @@ export class EntriesComponent implements OnInit, OnDestroy {
           .then(() => {
             this.refreshContent();
           })
-          .catch(err => {
+          .catch((err) => {
             this.dialogService.confirmThis(
               {
                 text: 'modals.import_wrong_structure_file.content',
@@ -316,7 +316,7 @@ export class EntriesComponent implements OnInit, OnDestroy {
           .then(() => {
             this.refreshContent();
           })
-          .catch(err => {
+          .catch((err) => {
             console.log(err);
           });
       }

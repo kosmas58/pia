@@ -19,7 +19,7 @@ function slugify(data) {
     .toString()
     .toLowerCase()
     .replace(/\s+/g, '-') // Replace spaces with -
-    .replace(p, c => b.charAt(a.indexOf(c))) // Replace special characters
+    .replace(p, (c) => b.charAt(a.indexOf(c))) // Replace special characters
     .replace(/&/g, '-and-') // Replace & with 'and'
     .replace(/[^\w\-]+/g, '') // Remove all non-word characters
     .replace(/\-\-+/g, '-') // Replace multiple - with single -
@@ -81,7 +81,7 @@ export class RevisionsComponent implements OnInit, OnDestroy, OnChanges {
     this.revisionsGroupByMonth = {};
     this.revisionsGroupByMonthInArray = [];
 
-    this.revisions.forEach(obj => {
+    this.revisions.forEach((obj) => {
       // Determite key and translate it
 
       let temp = slugify(new RelativeDate(obj.created_at).simple());
@@ -100,7 +100,7 @@ export class RevisionsComponent implements OnInit, OnDestroy, OnChanges {
       if (this.revisionsGroupByMonth[key]) {
         this.revisionsGroupByMonth[key].push(obj);
         // ORDER DATE ARRAY
-        this.revisionsGroupByMonth[key].sort(function(a, b) {
+        this.revisionsGroupByMonth[key].sort(function (a, b) {
           return b.created_at - a.created_at;
         });
       } else {
@@ -116,7 +116,7 @@ export class RevisionsComponent implements OnInit, OnDestroy, OnChanges {
    */
   newRevision(): void {
     // emit revision query
-    this.revisionService.export(this.pia.id).then(exportResult => {
+    this.revisionService.export(this.pia.id).then((exportResult) => {
       this.revisionService
         .add(exportResult, this.pia.id)
         .then((resp: Revision) => {
@@ -125,7 +125,7 @@ export class RevisionsComponent implements OnInit, OnDestroy, OnChanges {
           this.revisions.push(resp);
           this.parsingDate();
         })
-        .catch(err => {
+        .catch((err) => {
           console.log(err);
         });
     });
@@ -133,7 +133,7 @@ export class RevisionsComponent implements OnInit, OnDestroy, OnChanges {
 
   previewRevision(revisionId: number, event: Event, revisionDate: any): void {
     // Change circle color
-    document.querySelectorAll('.pia-revisions-box-content-revision-item').forEach(revision => {
+    document.querySelectorAll('.pia-revisions-box-content-revision-item').forEach((revision) => {
       if (revision.classList.contains('revision-active')) {
         revision.querySelector('.fa').classList.toggle('fa-circle-o');
         revision.querySelector('.fa').classList.toggle('fa-circle');
@@ -159,7 +159,7 @@ export class RevisionsComponent implements OnInit, OnDestroy, OnChanges {
       .then((revision: any) => {
         this.preview = revision;
       })
-      .catch(err => console.log(err));
+      .catch((err) => console.log(err));
   }
 
   ngOnDestroy(): void {

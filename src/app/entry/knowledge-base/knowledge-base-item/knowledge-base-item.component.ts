@@ -11,22 +11,24 @@ import { GlobalEvaluationService } from 'src/app/services/global-evaluation.serv
   styleUrls: ['./knowledge-base-item.component.scss']
 })
 export class KnowledgeBaseItemComponent implements OnInit {
-
   @Input() item: any;
   @Input() itemKb: any;
   @Output() newMeasureEvent: EventEmitter<any> = new EventEmitter<any>();
   titleKb: string;
 
-  constructor(private el: ElementRef, private router: Router,
-              private _knowledgeBaseService: KnowledgeBaseService,
-              private _translateService: TranslateService,
-              public _globalEvaluationService: GlobalEvaluationService) {
+  constructor(
+    private el: ElementRef,
+    private router: Router,
+    private _knowledgeBaseService: KnowledgeBaseService,
+    private _translateService: TranslateService,
+    public _globalEvaluationService: GlobalEvaluationService
+  ) {
     this.router = router;
   }
 
   ngOnInit() {
-    this._translateService.get(this.itemKb.name).subscribe(value => {
-        this.titleKb = value;
+    this._translateService.get(this.itemKb.name).subscribe((value) => {
+      this.titleKb = value;
     });
   }
 
@@ -54,5 +56,4 @@ export class KnowledgeBaseItemComponent implements OnInit {
   addNewMeasure() {
     this.newMeasureEvent.emit(this.itemKb);
   }
-
 }

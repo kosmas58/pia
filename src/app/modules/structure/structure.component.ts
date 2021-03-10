@@ -54,7 +54,7 @@ export class StructureComponent implements OnInit {
           this.initStructure(structure);
           this.getSectionAndItem(sectionId, itemId);
         })
-        .catch(err => {
+        .catch((err) => {
           console.error(err);
         });
     } else {
@@ -65,7 +65,7 @@ export class StructureComponent implements OnInit {
     }
 
     // Suscribe to measure service messages
-    this.subscription = this.measureService.behaviorSubject.subscribe(val => {
+    this.subscription = this.measureService.behaviorSubject.subscribe((val) => {
       this.measureToRemoveFromTags = val;
     });
   }
@@ -79,8 +79,8 @@ export class StructureComponent implements OnInit {
     this.data = structure.data;
 
     // define section
-    this.data.sections.forEach(section => {
-      section.items.forEach(item => {
+    this.data.sections.forEach((section) => {
+      section.items.forEach((item) => {
         this.sidStatusService.setStructureStatus(section, item);
       });
     });
@@ -103,11 +103,11 @@ export class StructureComponent implements OnInit {
 
     this.data = this.structure.data;
 
-    this.section = this.data.sections.filter(section => {
+    this.section = this.data.sections.filter((section) => {
       return section.id === sectionId;
     })[0];
 
-    this.item = this.section.items.filter(item => {
+    this.item = this.section.items.filter((item) => {
       return item.id === itemId;
     })[0];
 
@@ -115,7 +115,7 @@ export class StructureComponent implements OnInit {
     this.globalEvaluationService.item = this.item;
 
     if (this.item.questions) {
-      this.item.questions.forEach(question => {
+      this.item.questions.forEach((question) => {
         this.questions.push(question);
       });
     }

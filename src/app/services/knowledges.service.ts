@@ -15,10 +15,10 @@ export class KnowledgesService extends ApplicationDb {
   public getEntries(baseId): Promise<any> {
     return new Promise((resolve, reject) => {
       this.findAllByBaseId(baseId)
-        .then(response => {
+        .then((response) => {
           resolve(response);
         })
-        .catch(err => {
+        .catch((err) => {
           reject(err);
         });
     });
@@ -77,11 +77,11 @@ export class KnowledgesService extends ApplicationDb {
             body: formData,
             mode: 'cors'
           })
-            .then(response => {
+            .then((response) => {
               resolve();
               return response.json();
             })
-            .catch(error => {
+            .catch((error) => {
               console.error('Request failed', error);
               reject();
             });
@@ -118,7 +118,7 @@ export class KnowledgesService extends ApplicationDb {
           .then((result: Knowledge) => {
             resolve(result);
           })
-          .catch(err => {
+          .catch((err) => {
             reject(err);
             console.error(err);
           });
@@ -137,13 +137,13 @@ export class KnowledgesService extends ApplicationDb {
         fetch(this.getServerUrl(), {
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });

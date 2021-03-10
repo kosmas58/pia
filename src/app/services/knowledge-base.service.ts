@@ -33,7 +33,7 @@ export class KnowledgeBaseService extends ApplicationDb {
           const result: KnowledgeBase[] = [];
 
           if (response && response.length > 0) {
-            response.forEach(e => {
+            response.forEach((e) => {
               result.push(new KnowledgeBase(e.id, e.name, e.author, e.contributors, e.created_at));
             });
           }
@@ -52,7 +52,7 @@ export class KnowledgeBaseService extends ApplicationDb {
           // result.push(cnilKnowledgeBase);
           resolve(result);
         })
-        .catch(error => {
+        .catch((error) => {
           reject(error);
         });
     });
@@ -69,7 +69,7 @@ export class KnowledgeBaseService extends ApplicationDb {
         .then((entry: any) => {
           resolve(entry);
         })
-        .catch(err => {
+        .catch((err) => {
           console.log(err);
           reject(err);
         });
@@ -122,13 +122,13 @@ export class KnowledgeBaseService extends ApplicationDb {
             body: formData,
             mode: 'cors'
           })
-            .then(response => {
+            .then((response) => {
               return response.json();
             })
             .then((result: any) => {
               resolve(result);
             })
-            .catch(error => {
+            .catch((error) => {
               console.error('Request failed', error);
               reject(error);
             });
@@ -154,7 +154,7 @@ export class KnowledgeBaseService extends ApplicationDb {
    */
   export(id: number): void {
     const date = new Date().getTime();
-    this.find(id).then(data => {
+    this.find(id).then((data) => {
       const a = document.getElementById('pia-exportBlock');
       const url = 'data:text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(data));
       a.setAttribute('href', url);
@@ -179,7 +179,7 @@ export class KnowledgeBaseService extends ApplicationDb {
             newKnowledgeBase.id = resp.id;
             resolve(newKnowledgeBase);
           })
-          .catch(error => {
+          .catch((error) => {
             console.log(error);
             reject(error);
           });
@@ -210,14 +210,14 @@ export class KnowledgeBaseService extends ApplicationDb {
                 temp.items = entry.items;
                 temp.created_at = new Date(entry.created_at);
                 temp.updated_at = new Date(entry.updated_at);
-                this.knowledgesService.create(newKnowledgeBase.id, temp).then(e => {
+                this.knowledgesService.create(newKnowledgeBase.id, temp).then((e) => {
                   console.log(e);
                 });
               });
             });
             resolve();
           })
-          .catch(err => {
+          .catch((err) => {
             console.error(err);
           });
       });
@@ -246,9 +246,9 @@ export class KnowledgeBaseService extends ApplicationDb {
           .then((result: Knowledge[]) => {
             const newBase = [];
             // parsing
-            result.forEach(e => {
+            result.forEach((e) => {
               if (e.items) {
-                e.items.forEach(item => {
+                e.items.forEach((item) => {
                   // entries
                   newBase.push({
                     slug: 'PIA_CUSTOM_' + item,
@@ -265,7 +265,7 @@ export class KnowledgeBaseService extends ApplicationDb {
             this.previousKnowledgeBaseData = newBase;
             resolve(true);
           })
-          .catch(err => {
+          .catch((err) => {
             console.log(err);
             reject(err);
           });
@@ -291,12 +291,12 @@ export class KnowledgeBaseService extends ApplicationDb {
     this.knowledgeBaseData = this.previousKnowledgeBaseData;
     this.specificSearch();
     if (this.knowledgeBaseData && this.filter && this.filter.length > 0) {
-      this.knowledgeBaseData = this.knowledgeBaseData.filter(item => {
+      this.knowledgeBaseData = this.knowledgeBaseData.filter((item) => {
         return item.filters.startsWith(this.filter);
       });
     }
     if (this.knowledgeBaseData && this.linkKnowledgeBase && this.linkKnowledgeBase.length > 0) {
-      this.knowledgeBaseData = this.knowledgeBaseData.filter(item => {
+      this.knowledgeBaseData = this.knowledgeBaseData.filter((item) => {
         return this.linkKnowledgeBase.indexOf(item.slug) >= 0;
       });
     }
@@ -315,16 +315,16 @@ export class KnowledgeBaseService extends ApplicationDb {
       if (item.link_knowledge_base && item.link_knowledge_base.length > 0) {
         kbSlugs = item.link_knowledge_base;
       } else if (item.is_measure) {
-        const kbSlugs2 = this.knowledgeBaseData.filter(kbItem => {
+        const kbSlugs2 = this.knowledgeBaseData.filter((kbItem) => {
           return kbItem.filters.startsWith('measure.');
         });
-        kbSlugs2.forEach(element => {
+        kbSlugs2.forEach((element) => {
           kbSlugs.push(element.slug);
         });
       } else if (item.questions) {
-        item.questions.forEach(question => {
+        item.questions.forEach((question) => {
           if (question.link_knowledge_base) {
-            question.link_knowledge_base.forEach(kbElement => {
+            question.link_knowledge_base.forEach((kbElement) => {
               kbSlugs.push(kbElement);
             });
           }
@@ -332,7 +332,7 @@ export class KnowledgeBaseService extends ApplicationDb {
       }
 
       if (kbSlugs.length > 0) {
-        this.knowledgeBaseData = this.knowledgeBaseData.filter(kbItem => {
+        this.knowledgeBaseData = this.knowledgeBaseData.filter((kbItem) => {
           return kbSlugs.indexOf(kbItem.slug) >= 0;
         });
       } else {
@@ -351,7 +351,7 @@ export class KnowledgeBaseService extends ApplicationDb {
    */
   switchSelectedElement(event: any): void {
     if (event) {
-      event.target.parentNode.querySelectorAll('button').forEach(element => {
+      event.target.parentNode.querySelectorAll('button').forEach((element) => {
         element.classList.remove('active');
       });
       event.target.classList.add('active');
@@ -381,7 +381,7 @@ export class KnowledgeBaseService extends ApplicationDb {
     if (this.q && this.q.length > 0) {
       const re = new RegExp(this.q, 'i');
       this.knowledgeBaseData = this.knowledgeBaseData.filter(
-        item2 =>
+        (item2) =>
           this.translateService.instant(item2.name).match(re) ||
           this.translateService.instant(item2.description).match(re) ||
           item2.name.match(re) ||

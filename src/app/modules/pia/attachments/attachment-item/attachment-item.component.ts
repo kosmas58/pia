@@ -106,7 +106,7 @@ export class AttachmentItemComponent implements OnInit {
         this.deleted.emit(this.attachment.id);
         this.showRemoveAttachmentForm = false;
       })
-      .catch(err => {
+      .catch((err) => {
         console.log(err);
       });
   }

@@ -20,7 +20,6 @@ import { KnowledgeBaseService } from 'src/app/entry/knowledge-base/knowledge-bas
   styleUrls: ['./entry-content.component.scss'],
   providers: [StructureService]
 })
-
 export class EntryContentComponent implements OnInit, OnChanges, OnDestroy {
   @Input() section: any;
   @Input() item: any;
@@ -29,17 +28,19 @@ export class EntryContentComponent implements OnInit, OnChanges, OnDestroy {
   // subscriptionMeasure: Subscription;
   subscriptionQuestion: Subscription;
 
-  constructor(private _router: Router,
-              private _appDataService: AppDataService,
-              private _activatedRoute: ActivatedRoute,
-              public _measureService: MeasureService,
-              private _modalsService: ModalsService,
-              public _structureService: StructureService,
-              public _sidStatusService: SidStatusService,
-              public _paginationService: PaginationService,
-              private _translateService: TranslateService,
-              private _answerStructureService: AnswerStructureService,
-              private _knowledgeBaseService: KnowledgeBaseService) { }
+  constructor(
+    private _router: Router,
+    private _appDataService: AppDataService,
+    private _activatedRoute: ActivatedRoute,
+    public _measureService: MeasureService,
+    private _modalsService: ModalsService,
+    public _structureService: StructureService,
+    public _sidStatusService: SidStatusService,
+    public _paginationService: PaginationService,
+    private _translateService: TranslateService,
+    private _answerStructureService: AnswerStructureService,
+    private _knowledgeBaseService: KnowledgeBaseService
+  ) {}
 
   ngOnInit() {
     // Reset measures no longer addable from KB when switching Structure
@@ -58,8 +59,7 @@ export class EntryContentComponent implements OnInit, OnChanges, OnDestroy {
 
     this.subscriptionQuestion = this._answerStructureService.questionToRemove.subscribe((index) => {
       this.questions.splice(index, 1);
-      }
-    );
+    });
   }
 
   async ngOnChanges() {

@@ -90,7 +90,7 @@ export class IntrojsService {
     `,
         position: 'right'
       })
-      .onbeforechange(targetElement => {
+      .onbeforechange((targetElement) => {
         if (targetElement.classList.contains('back')) {
           const cardsToSwitch = document.getElementById('cardsSwitch');
           cardsToSwitch.classList.add('flipped');
@@ -199,7 +199,7 @@ export class IntrojsService {
       `,
         position: 'left'
       })
-      .onbeforechange(targetElement => {
+      .onbeforechange((targetElement) => {
         if (targetElement.classList.contains('pia-rightSidebarBlock')) {
           if (i == 1) {
             this.entrySideViewChange.next('export');

@@ -20,20 +20,22 @@ export class KnowledgeBaseComponent implements OnInit {
   @Input() item: any;
   @Output() newMeasureEvent: EventEmitter<any> = new EventEmitter<any>();
 
-  constructor(private _measureService: MeasureService,
-              public _knowledgeBaseService: KnowledgeBaseService,
-              private el: ElementRef,
-              private _translateService: TranslateService,
-              private _piaService: PiaService,
-              private _answerStructureService: AnswerStructureService,
-              private _structureService: StructureService) { }
+  constructor(
+    private _measureService: MeasureService,
+    public _knowledgeBaseService: KnowledgeBaseService,
+    private el: ElementRef,
+    private _translateService: TranslateService,
+    private _piaService: PiaService,
+    private _answerStructureService: AnswerStructureService,
+    private _structureService: StructureService
+  ) {}
 
   ngOnInit() {
     this._piaService.getPIA();
     this.searchForm = new FormGroup({
       q: new FormControl()
     });
-    window.onscroll = function(ev) {
+    window.onscroll = function (ev) {
       if (window.innerWidth > 640) {
         const el: any = document.querySelector('.pia-knowledgeBaseBlock');
         const el2 = document.querySelector('.pia-knowledgeBaseBlock-list');
@@ -75,15 +77,17 @@ export class KnowledgeBaseComponent implements OnInit {
       this._structureService.getStructure().then(() => {
         const title = this._translateService.instant(event.name);
         const measure = {
-          'title': title,
-          'content': ''
-        }
-        this._structureService.structure.data.sections.filter(s => s.id === 3)[0].items.filter(i => i.id === 1)[0].answers.push(measure);
+          title: title,
+          content: ''
+        };
+        this._structureService.structure.data.sections
+          .filter((s) => s.id === 3)[0]
+          .items.filter((i) => i.id === 1)[0]
+          .answers.push(measure);
         this._structureService.structure.update().then(() => {
           this.item.answers.push(measure);
         });
       });
     }
   }
-
 }

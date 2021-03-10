@@ -12,7 +12,7 @@ export class AnswerStructureService {
 
   async addQuestion(structure: Structure, section: any, item: any): Promise<any> {
     return new Promise((resolve, reject) => {
-      const questions = structure.data.sections.filter(s => s.id === section.id)[0].items.filter(i => i.id === item.id)[0].questions;
+      const questions = structure.data.sections.filter((s) => s.id === section.id)[0].items.filter((i) => i.id === item.id)[0].questions;
       const question_id = section.id.toString() + item.id.toString() + (questions.length + 1).toString();
       const question = {
         id: parseInt(question_id, 10),
@@ -25,8 +25,8 @@ export class AnswerStructureService {
       };
 
       structure.data.sections
-        .filter(s => s.id === section.id)[0]
-        .items.filter(i => i.id === item.id)[0]
+        .filter((s) => s.id === section.id)[0]
+        .items.filter((i) => i.id === item.id)[0]
         .questions.push(question);
 
       this.structureService.update(structure).then(() => {
@@ -43,8 +43,8 @@ export class AnswerStructureService {
       };
 
       structure.data.sections
-        .filter(s => s.id === section.id)[0]
-        .items.filter(i => i.id === item.id)[0]
+        .filter((s) => s.id === section.id)[0]
+        .items.filter((i) => i.id === item.id)[0]
         .answers.push(measure);
 
       this.structureService.update(structure).then(() => {
@@ -55,8 +55,8 @@ export class AnswerStructureService {
 
   removeMeasure(structure: Structure, section_id: number, item_id: number, measure_id: number): void {
     structure.data.sections
-      .filter(s => s.id === section_id)[0]
-      .items.filter(i => i.id === item_id)[0]
+      .filter((s) => s.id === section_id)[0]
+      .items.filter((i) => i.id === item_id)[0]
       .answers.splice(measure_id, 1);
     this.structureService.update(structure).then(() => {
       this.measureToRemove.next(measure_id);
@@ -65,13 +65,13 @@ export class AnswerStructureService {
 
   removeQuestion(structure: Structure, section_id: number, item_id: number, question_id): void {
     const index = structure.data.sections
-      .filter(s => s.id === section_id)[0]
-      .items.filter(i => i.id === item_id)[0]
-      .questions.findIndex(q => q.id === question_id);
+      .filter((s) => s.id === section_id)[0]
+      .items.filter((i) => i.id === item_id)[0]
+      .questions.findIndex((q) => q.id === question_id);
     if (index !== -1) {
       structure.data.sections
-        .filter(s => s.id === section_id)[0]
-        .items.filter(i => i.id === item_id)[0]
+        .filter((s) => s.id === section_id)[0]
+        .items.filter((i) => i.id === item_id)[0]
         .questions.splice(index, 1);
       this.structureService.update(structure);
       this.questionToRemove.next(index);

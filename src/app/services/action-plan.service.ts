@@ -45,7 +45,7 @@ export class ActionPlanService {
     this.risksActionPlan32Ready = false;
     this.risksActionPlan33Ready = false;
     this.risksActionPlan34Ready = false;
-    const section = this.data.sections.filter(s => {
+    const section = this.data.sections.filter((s) => {
       return s.id === 2;
     });
 
@@ -54,7 +54,7 @@ export class ActionPlanService {
       for (const q of item.questions) {
         // const evaluation = new Evaluation();
         const referenceTo = '2.' + item.id + '.' + q.id;
-        await this.evaluationService.getByReference(this.pia.id, referenceTo).then(evaluation => {
+        await this.evaluationService.getByReference(this.pia.id, referenceTo).then((evaluation) => {
           if (evaluation && evaluation.status > 0) {
             if (evaluation.action_plan_comment && evaluation.action_plan_comment.length > 0) {
               this.principlesActionPlanReady = true;
@@ -69,7 +69,7 @@ export class ActionPlanService {
               evaluation
             };
 
-            if (this.results.findIndex(e => e.status === temp.status && e.short_title === temp.short_title) === -1) {
+            if (this.results.findIndex((e) => e.status === temp.status && e.short_title === temp.short_title) === -1) {
               // check if not exist
               this.results.push(temp);
             }
@@ -92,7 +92,7 @@ export class ActionPlanService {
               evaluation_charge: this.filterText(evaluation.person_in_charge)
             });
           } else {
-            if (this.results.findIndex(e => e.short_title === q.short_title) === -1) {
+            if (this.results.findIndex((e) => e.short_title === q.short_title) === -1) {
               // check if not exist
               this.results.push({
                 status: null,
@@ -111,12 +111,12 @@ export class ActionPlanService {
     await this.measureService.findAllByPia(this.pia.id).then((entries: any) => {
       for (const m of entries) {
         const referenceTo = '3.1.' + m.id;
-        this.evaluationService.getByReference(this.pia.id, referenceTo).then(evaluation => {
+        this.evaluationService.getByReference(this.pia.id, referenceTo).then((evaluation) => {
           if (evaluation && evaluation.status > 0) {
             if (evaluation.action_plan_comment && evaluation.action_plan_comment.length > 0) {
               this.measuresActionPlanReady = true;
             }
-            if (this.measures.findIndex(e => e.name === m.title) === -1) {
+            if (this.measures.findIndex((e) => e.name === m.title) === -1) {
               this.measures.push({
                 name: m.title,
                 short_title: m.title,
@@ -145,7 +145,7 @@ export class ActionPlanService {
               evaluation_charge: this.filterText(evaluation.person_in_charge)
             });
           } else {
-            if (this.measures.findIndex(e => e.name === m.title) === -1) {
+            if (this.measures.findIndex((e) => e.name === m.title) === -1) {
               this.measures.push({
                 name: m.title,
                 short_title: null,
@@ -163,7 +163,7 @@ export class ActionPlanService {
     let title3 = true;
     let shortTitle = '';
     // const evaluation3 = new Evaluation();
-    await this.evaluationService.getByReference(this.pia.id, '3.2').then(evaluation => {
+    await this.evaluationService.getByReference(this.pia.id, '3.2').then((evaluation) => {
       if (evaluation && evaluation.status > 0) {
         if (evaluation.action_plan_comment && evaluation.action_plan_comment.length > 0) {
           this.risksActionPlan32Ready = true;
@@ -197,7 +197,7 @@ export class ActionPlanService {
 
     let title4 = true;
     // const evaluation4 = new Evaluation();
-    await this.evaluationService.getByReference(this.pia.id, '3.3').then(evaluation => {
+    await this.evaluationService.getByReference(this.pia.id, '3.3').then((evaluation) => {
       if (evaluation && evaluation.status > 0) {
         if (evaluation.action_plan_comment && evaluation.action_plan_comment.length > 0) {
           this.risksActionPlan33Ready = true;
@@ -231,7 +231,7 @@ export class ActionPlanService {
 
     let title5 = true;
     // const evaluation5 = new Evaluation();
-    await this.evaluationService.getByReference(this.pia.id, '3.4').then(evaluation => {
+    await this.evaluationService.getByReference(this.pia.id, '3.4').then((evaluation) => {
       if (evaluation && evaluation.status > 0) {
         if (evaluation.action_plan_comment && evaluation.action_plan_comment.length > 0) {
           this.risksActionPlan34Ready = true;

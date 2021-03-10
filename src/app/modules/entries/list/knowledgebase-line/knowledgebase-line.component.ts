@@ -32,7 +32,7 @@ export class KnowledgebaseLineComponent implements OnInit {
         .then((result: Knowledge[]) => {
           this.nbEntries = result.length;
         })
-        .catch(err => {
+        .catch((err) => {
           console.log('catch');
         });
     } else {
@@ -49,7 +49,7 @@ export class KnowledgebaseLineComponent implements OnInit {
       .then(() => {
         this.changed.emit(this.base);
       })
-      .catch(err => {
+      .catch((err) => {
         console.error(err);
       });
   }

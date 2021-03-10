@@ -132,7 +132,7 @@ export class EvaluationsComponent implements OnInit, AfterViewChecked, OnDestroy
       gaugeY: new FormControl()
     });
 
-    this.evaluationService.getByReference(this.pia.id, this.reference_to).then(evaluation => {
+    this.evaluationService.getByReference(this.pia.id, this.reference_to).then((evaluation) => {
       if (evaluation) {
         this.evaluation = evaluation;
         // Translation for comment's placeholder
@@ -165,10 +165,10 @@ export class EvaluationsComponent implements OnInit, AfterViewChecked, OnDestroy
     });
 
     if (this.item.questions) {
-      const questions: any[] = this.item.questions.filter(question => {
+      const questions: any[] = this.item.questions.filter((question) => {
         return question.answer_type === 'gauge';
       });
-      questions.forEach(question => {
+      questions.forEach((question) => {
         this.aswerService.getByReferenceAndPia(this.pia.id, question.id).then((answer: Answer) => {
           if (answer && answer.data) {
             this.previousGauges[question.cartography.split('_')[1]] = answer.data.gauge;
@@ -378,7 +378,7 @@ export class EvaluationsComponent implements OnInit, AfterViewChecked, OnDestroy
       selector: '#' + elementId,
       toolbar: 'undo redo bold italic alignleft aligncenter alignright bullist numlist outdent indent',
       skin: false,
-      setup: editor => {
+      setup: (editor) => {
         if (field === 'actionPlanComment') {
           this.editor = editor;
         } else {

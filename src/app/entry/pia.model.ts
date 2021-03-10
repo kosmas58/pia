@@ -40,7 +40,7 @@ export class Pia extends ApplicationDb {
     return new Promise((resolve, reject) => {
       this.findAll().then((entries: any) => {
         if (entries && entries.length > 0) {
-          entries.forEach(element => {
+          entries.forEach((element) => {
             if (element.is_example === 1 || element.is_archive === 1) {
               return;
             }
@@ -89,13 +89,13 @@ export class Pia extends ApplicationDb {
         fetch(this.getServerUrl(), {
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -129,7 +129,7 @@ export class Pia extends ApplicationDb {
     return new Promise((resolve, reject) => {
       this.findAllArchives().then((entries: any) => {
         if (entries && entries.length > 0) {
-          entries.forEach(element => {
+          entries.forEach((element) => {
             const newPia = new Pia();
             newPia.id = element.id;
             newPia.name = element.name;
@@ -175,13 +175,13 @@ export class Pia extends ApplicationDb {
         fetch(`${this.getServerUrl()}?is_archive=true`, {
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -260,13 +260,13 @@ export class Pia extends ApplicationDb {
           body: formData,
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result.id);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -335,13 +335,13 @@ export class Pia extends ApplicationDb {
             body: formData,
             mode: 'cors'
           })
-            .then(response => {
+            .then((response) => {
               return response.json();
             })
             .then((result: any) => {
               resolve();
             })
-            .catch(error => {
+            .catch((error) => {
               console.error('Request failed', error);
               reject();
             });
@@ -384,13 +384,13 @@ export class Pia extends ApplicationDb {
           body: formData,
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve();
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -459,13 +459,13 @@ export class Pia extends ApplicationDb {
         fetch(this.getServerUrl() + '/' + 'example', {
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });

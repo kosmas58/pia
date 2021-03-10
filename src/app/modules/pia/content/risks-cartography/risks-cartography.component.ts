@@ -80,7 +80,7 @@ export class RisksCartographyComponent implements OnInit, OnDestroy {
     dataNav.sections.forEach((section: any) => {
       section.items.forEach((item: any) => {
         if (item.questions) {
-          item.questions.forEach(question => {
+          item.questions.forEach((question) => {
             if (question.answer_type === 'gauge') {
               this.questions.push(question);
             }
@@ -89,11 +89,11 @@ export class RisksCartographyComponent implements OnInit, OnDestroy {
       });
     });
     this.answerService.getGaugeByPia(this.pia.id).then((entries: any) => {
-      this.answersGauge = entries.filter(entry => {
+      this.answersGauge = entries.filter((entry) => {
         return entry.data.gauge >= 0;
       });
-      this.answersGauge.forEach(answer => {
-        const question: any = this.questions.filter(entry => {
+      this.answersGauge.forEach((answer) => {
+        const question: any = this.questions.filter((entry) => {
           return entry.id.toString() === answer.reference_to.toString();
         });
         if (question[0]) {
@@ -111,17 +111,17 @@ export class RisksCartographyComponent implements OnInit, OnDestroy {
           }
         }
       });
-      this.evaluationService.getByReference(this.pia.id, '3.2').then(evaluation => {
+      this.evaluationService.getByReference(this.pia.id, '3.2').then((evaluation) => {
         if (evaluation && evaluation.gauges) {
           this.dataJSON['risk-access']['evaluator']['y'] = positions['y'][evaluation.gauges['x']];
           this.dataJSON['risk-access']['evaluator']['x'] = positions['x'][evaluation.gauges['y']];
         }
-        this.evaluationService.getByReference(this.pia.id, '3.3').then(evaluation2 => {
+        this.evaluationService.getByReference(this.pia.id, '3.3').then((evaluation2) => {
           if (evaluation2 && evaluation2.gauges) {
             this.dataJSON['risk-change']['evaluator']['y'] = positions['y'][evaluation2.gauges['x']];
             this.dataJSON['risk-change']['evaluator']['x'] = positions['x'][evaluation2.gauges['y']];
           }
-          this.evaluationService.getByReference(this.pia.id, '3.4').then(evaluation3 => {
+          this.evaluationService.getByReference(this.pia.id, '3.4').then((evaluation3) => {
             if (evaluation3 && evaluation3.gauges) {
               this.dataJSON['risk-disappearance']['evaluator']['y'] = positions['y'][evaluation3.gauges['x']];
               this.dataJSON['risk-disappearance']['evaluator']['x'] = positions['x'][evaluation3.gauges['y']];

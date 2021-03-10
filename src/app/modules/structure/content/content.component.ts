@@ -47,7 +47,7 @@ export class ContentComponent implements OnInit {
       }
     );*/
 
-    this.subscriptionQuestion = this.answerStructureService.questionToRemove.subscribe(index => {
+    this.subscriptionQuestion = this.answerStructureService.questionToRemove.subscribe((index) => {
       this.questions.splice(index, 1);
     });
   }

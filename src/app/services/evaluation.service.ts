@@ -23,13 +23,13 @@ export class EvaluationService extends ApplicationDb {
           body: this.setFormData(data),
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result.id);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -62,13 +62,13 @@ export class EvaluationService extends ApplicationDb {
             body: this.setFormData(entry),
             mode: 'cors'
           })
-            .then(response => {
+            .then((response) => {
               return response.json();
             })
             .then((result: any) => {
               resolve();
             })
-            .catch(error => {
+            .catch((error) => {
               console.error('Request failed', error);
               reject();
             });
@@ -113,13 +113,13 @@ export class EvaluationService extends ApplicationDb {
         fetch(this.getServerUrl() + '?reference_to=' + reference_to, {
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -147,13 +147,13 @@ export class EvaluationService extends ApplicationDb {
         fetch(this.getServerUrl(), {
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -221,7 +221,7 @@ export class EvaluationService extends ApplicationDb {
         fetch(this.getServerUrl() + '?reference_to=' + reference_to, {
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
@@ -231,7 +231,7 @@ export class EvaluationService extends ApplicationDb {
               resolve(false);
             }
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -262,7 +262,7 @@ export class EvaluationService extends ApplicationDb {
         fetch(this.getServerUrl() + '?reference_to=' + reference_to, {
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
@@ -272,7 +272,7 @@ export class EvaluationService extends ApplicationDb {
               resolve(false);
             }
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });

@@ -49,7 +49,7 @@ export class ValidatePIAComponent implements OnInit {
     this.validateForm.controls['validateStatus3'].patchValue(this.pia.status > 1);
     this.validateForm.controls['validateStatus4'].patchValue(this.pia.status > 1);
 
-    this.attachmentsService.updateSignedAttachmentsList(this.pia.id).then(res => {
+    this.attachmentsService.updateSignedAttachmentsList(this.pia.id).then((res) => {
       // console.log(res);
     });
     this.actionPlanService.listActionPlan();
@@ -162,7 +162,7 @@ export class ValidatePIAComponent implements OnInit {
     const simpleValidationBtn = document.getElementById('pia-simple-validation');
     const signValidationBtn = document.getElementById('pia-sign-validation');
 
-    [].forEach.call(radioButtons, currentRadioBtn => {
+    [].forEach.call(radioButtons, (currentRadioBtn) => {
       if (!currentRadioBtn.checked) {
         allBtnChecked = false;
       }

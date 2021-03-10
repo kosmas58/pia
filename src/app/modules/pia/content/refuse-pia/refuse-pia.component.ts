@@ -117,7 +117,7 @@ export class RefusePIAComponent implements OnInit {
                 .then(() => {
                   this.router.navigate(['/pia', this.pia.id, 'section', 1, 'item', 1]);
                 })
-                .catch(err => {
+                .catch((err) => {
                   console.log(err);
                 });
             },

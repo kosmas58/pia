@@ -44,13 +44,13 @@ export class ActionPlanService {
     this.risksActionPlan32Ready = false;
     this.risksActionPlan33Ready = false;
     this.risksActionPlan34Ready = false;
-    const section = this.data.sections.filter(s => {
+    const section = this.data.sections.filter((s) => {
       return s.id === 2;
     });
 
     let title1 = true;
-    section[0].items.forEach(item => {
-      item.questions.forEach(q => {
+    section[0].items.forEach((item) => {
+      item.questions.forEach((q) => {
         const evaluation = new Evaluation();
         const referenceTo = '2.' + item.id + '.' + q.id;
         evaluation.getByReference(this.pia.id, referenceTo).then(() => {
@@ -68,7 +68,7 @@ export class ActionPlanService {
               evaluation
             };
 
-            if (this.results.findIndex(e => e.status === temp.status && e.short_title === temp.short_title) === -1) {
+            if (this.results.findIndex((e) => e.status === temp.status && e.short_title === temp.short_title) === -1) {
               // check if not exist
               this.results.push(temp);
             }
@@ -105,7 +105,7 @@ export class ActionPlanService {
     const measure = new Measure();
     measure.pia_id = this.pia.id;
     measure.findAll().then((entries: any) => {
-      entries.forEach(m => {
+      entries.forEach((m) => {
         const evaluation2 = new Evaluation();
         const referenceTo = '3.1.' + m.id;
         this.measures[referenceTo] = null;

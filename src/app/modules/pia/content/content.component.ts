@@ -243,14 +243,14 @@ export class ContentComponent implements OnInit {
   }
 
   onAddNewMeasure(): void {
-    this.measureService.addNewMeasure(this.pia).then(measure => {
+    this.measureService.addNewMeasure(this.pia).then((measure) => {
       this.measures.unshift(measure);
       this.globalEvaluationService.validate();
     });
   }
 
   onDeletedMeasure(id): void {
-    const index = this.measures.findIndex(m => m.id === id);
+    const index = this.measures.findIndex((m) => m.id === id);
     if (index !== -1) {
       this.measures.splice(index, 1);
     }

@@ -28,7 +28,7 @@ export class AttachmentsComponent implements OnInit {
       .then((attachments: Array<Attachment>) => {
         this.attachments = attachments;
       })
-      .catch(err => {
+      .catch((err) => {
         console.log(err);
       });
     this.dispplayAttachmentButton = this.pia.status !== 2 && this.pia.status !== 3;
@@ -47,7 +47,7 @@ export class AttachmentsComponent implements OnInit {
   }
 
   onDeleted($event): void {
-    const index = this.attachments.findIndex(a => a.id === $event);
+    const index = this.attachments.findIndex((a) => a.id === $event);
     if (index !== -1) {
       this.attachments.splice(index, 1);
     }

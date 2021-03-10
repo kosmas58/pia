@@ -44,11 +44,7 @@ export class SectionsComponent implements OnInit {
     this.data = this._appDataService.dataNav;
     this.data.sections.forEach((section: any) => {
       section.items.forEach((item: any) => {
-        this._sidStatusService.setSidStatus(
-          this._piaService.pia,
-          section,
-          item
-        );
+        this._sidStatusService.setSidStatus(this._piaService.pia, section, item);
       });
     });
   }

@@ -55,7 +55,7 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
 
     // Load PIA's revisions
     const revision = new Revision();
-    this.revisionService.findAllByPia(this.pia.id).then(resp => {
+    this.revisionService.findAllByPia(this.pia.id).then((resp) => {
       this.revisions = resp;
     });
 
@@ -71,9 +71,9 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
     const menus = document.querySelectorAll('.pia-sectionBlock-body li a') as NodeListOf<HTMLElement>;
     window.onscroll = () => {
       const scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
-      sections.forEach(s => {
+      sections.forEach((s) => {
         if (s.offsetTop < scrollPosition + 100) {
-          menus.forEach(l => {
+          menus.forEach((l) => {
             l.classList.remove('active');
             if (l.innerText === s.innerText) {
               l.setAttribute('class', 'active');
@@ -198,9 +198,9 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
    */
   private async getJsonInfo(): Promise<void> {
     this.allData = {};
-    this.piaService.data.sections.forEach(async section => {
+    this.piaService.data.sections.forEach(async (section) => {
       this.allData[section.id] = {};
-      section.items.forEach(async item => {
+      section.items.forEach(async (item) => {
         this.allData[section.id][item.id] = {};
         const ref = section.id.toString() + '.' + item.id.toString();
 
@@ -209,7 +209,7 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
           this.allData[section.id][item.id] = [];
           this.measureService.pia_id = this.pia.id;
           const entries: any = await this.measureService.findAllByPia(this.pia.id);
-          entries.forEach(async measure => {
+          entries.forEach(async (measure) => {
             /* Completed measures */
             if (measure.title !== undefined && measure.content !== undefined) {
               let evaluation = null;
@@ -225,7 +225,7 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
           });
         } else if (item.questions) {
           // Question
-          item.questions.forEach(async question => {
+          item.questions.forEach(async (question) => {
             this.allData[section.id][item.id][question.id] = {};
             this.answerService.getByReferenceAndPia(this.pia.id, question.id).then((answer: Answer) => {
               /* An answer exists */
@@ -242,7 +242,7 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
                 }
                 if (content.length > 0) {
                   if (item.evaluation_mode === 'question') {
-                    this.getEvaluation(section.id, item.id, ref + '.' + question.id).then(evaluation => {
+                    this.getEvaluation(section.id, item.id, ref + '.' + question.id).then((evaluation) => {
                       this.allData[section.id][item.id][question.id].evaluation = evaluation;
                     });
                   }
@@ -290,7 +290,7 @@ export class PreviewComponent implements OnInit, AfterViewChecked {
           }
           resolve(evaluation);
         })
-        .catch(err => {
+        .catch((err) => {
           console.log(err);
         });
     });

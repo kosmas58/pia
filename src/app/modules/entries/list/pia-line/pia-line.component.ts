@@ -35,7 +35,7 @@ export class PiaLineComponent implements OnInit {
     this.attachments = [];
     this.attachmentsService.pia_id = this.pia.id;
     this.attachmentsService.findAllByPia(this.pia.id).then((entries: any) => {
-      entries.forEach(element => {
+      entries.forEach((element) => {
         if (element['file'] && element['file'].length) {
           this.attachments.push(element);
         }
@@ -56,7 +56,7 @@ export class PiaLineComponent implements OnInit {
         this.piaService.export(this.pia.id).then((data: any) => {
           zip2.file('pia.json', data, { binary: true });
           /* Save as .zip */
-          zip2.generateAsync({ type: 'blob' }).then(blobContent => {
+          zip2.generateAsync({ type: 'blob' }).then((blobContent) => {
             FileSaver.saveAs(blobContent, 'pia-' + this.pia.name + '.zip');
           });
         });
@@ -70,7 +70,7 @@ export class PiaLineComponent implements OnInit {
    */
   async addAttachmentsToZip(zip): Promise<void> {
     return new Promise(async (resolve, reject) => {
-      this.attachments.forEach(attachment => {
+      this.attachments.forEach((attachment) => {
         const byteCharacters1 = atob((attachment.file as any).split(',')[1]);
         const folderName = this.translateService.instant('summary.attachments');
         zip.file(folderName + '/' + attachment.name, byteCharacters1, {

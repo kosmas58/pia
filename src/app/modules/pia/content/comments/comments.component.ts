@@ -40,7 +40,7 @@ export class CommentsComponent implements OnInit {
     }
     this.comments = [];
 
-    this.commentsService.findAllByReference(this.pia.id, this.measure ? this.measure.id : this.question.id).then(entries => {
+    this.commentsService.findAllByReference(this.pia.id, this.measure ? this.measure.id : this.question.id).then((entries) => {
       this.comments = entries;
       this.comments.reverse();
     });

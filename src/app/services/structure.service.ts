@@ -25,7 +25,7 @@ export class StructureService extends ApplicationDb {
     return new Promise((resolve, reject) => {
       this.findAll().then((entries: any) => {
         if (entries && entries.length > 0) {
-          entries.forEach(element => {
+          entries.forEach((element) => {
             const newStructure = new Structure();
             newStructure.id = element.id;
             newStructure.name = element.name;
@@ -89,13 +89,13 @@ export class StructureService extends ApplicationDb {
           body: formData,
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result.id);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -144,13 +144,13 @@ export class StructureService extends ApplicationDb {
             body: formData,
             mode: 'cors'
           })
-            .then(response => {
+            .then((response) => {
               return response.json();
             })
             .then((result: any) => {
               resolve(result);
             })
-            .catch(error => {
+            .catch((error) => {
               console.error('Request failed', error);
               reject();
             });
@@ -172,18 +172,18 @@ export class StructureService extends ApplicationDb {
 
   updateJson(section: any, item: any, question: any, structure: Structure): void {
     structure.data.sections
-      .filter(s => s.id === section.id)[0]
-      .items.filter(i => i.id === item.id)[0]
-      .questions.filter(q => q.id === question.id)[0].title = question.title;
+      .filter((s) => s.id === section.id)[0]
+      .items.filter((i) => i.id === item.id)[0]
+      .questions.filter((q) => q.id === question.id)[0].title = question.title;
     structure.data.sections
-      .filter(s => s.id === section.id)[0]
-      .items.filter(i => i.id === item.id)[0]
-      .questions.filter(q => q.id === question.id)[0].answer = question.answer;
+      .filter((s) => s.id === section.id)[0]
+      .items.filter((i) => i.id === item.id)[0]
+      .questions.filter((q) => q.id === question.id)[0].answer = question.answer;
     this.update(structure);
   }
 
   updateMeasureJson(section: any, item: any, measure: any, id: number, structure: Structure): void {
-    structure.data.sections.filter(s => s.id === section.id)[0].items.filter(i => i.id === item.id)[0].answers[id] = measure;
+    structure.data.sections.filter((s) => s.id === section.id)[0].items.filter((i) => i.id === item.id)[0].answers[id] = measure;
     this.update(structure);
   }
 
@@ -193,8 +193,8 @@ export class StructureService extends ApplicationDb {
    */
   async duplicateStructure(id: number): Promise<any> {
     return new Promise((resolve, reject) => {
-      this.exportStructureData(id).then(data => {
-        this.importStructureData(data, 'COPY', true).then(structure => {
+      this.exportStructureData(id).then((data) => {
+        this.importStructureData(data, 'COPY', true).then((structure) => {
           resolve(structure);
         });
       });
@@ -210,7 +210,7 @@ export class StructureService extends ApplicationDb {
     return new Promise((resolve, reject) => {
       const structure = new Structure();
       if (id > 0) {
-        this.find(id).then(result => {
+        this.find(id).then((result) => {
           const data = {
             structure: result
           };
@@ -255,7 +255,7 @@ export class StructureService extends ApplicationDb {
         .then((result: Structure) => {
           resolve(result);
         })
-        .catch(err => {
+        .catch((err) => {
           reject(err);
         });
     });
@@ -267,7 +267,7 @@ export class StructureService extends ApplicationDb {
    */
   exportStructure(id: number) {
     const date = new Date().getTime();
-    this.exportStructureData(id).then(data => {
+    this.exportStructureData(id).then((data) => {
       const a = document.getElementById('pia-exportBlock');
       const url = 'data:text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(data));
       a.setAttribute('href', url);
@@ -294,7 +294,7 @@ export class StructureService extends ApplicationDb {
             .then((structure: Structure) => {
               resolve(structure);
             })
-            .catch(err => {
+            .catch((err) => {
               console.error(err);
             });
         } catch {
@@ -313,7 +313,7 @@ export class StructureService extends ApplicationDb {
           localStorage.removeItem('structure-id');
           resolve();
         })
-        .catch(err => {
+        .catch((err) => {
           console.error(err);
         });
     });

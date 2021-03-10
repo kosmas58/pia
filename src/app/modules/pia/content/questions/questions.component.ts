@@ -65,7 +65,7 @@ export class QuestionsComponent implements OnInit, OnDestroy {
         this.questionForm.controls['gauge'].patchValue(this.answer.data.gauge);
         this.questionForm.controls['text'].patchValue(this.answer.data.text);
         if (this.answer.data.list) {
-          const dataList = this.answer.data.list.filter(l => {
+          const dataList = this.answer.data.list.filter((l) => {
             return l && l.length > 0;
           });
           this.questionForm.controls['list'].patchValue(dataList);
@@ -84,7 +84,7 @@ export class QuestionsComponent implements OnInit, OnDestroy {
     this.measureService.pia_id = this.pia.id;
     this.measureService.findAllByPia(this.pia.id).then((entries: any[]) => {
       if (entries) {
-        entries.forEach(entry => {
+        entries.forEach((entry) => {
           if (entry.title) {
             this.userMeasures.push(entry.title);
           }
@@ -98,7 +98,7 @@ export class QuestionsComponent implements OnInit, OnDestroy {
       this.allUserAnswersForThreats = [];
       this.allUserAnswersForSources = [];
       if (entries) {
-        entries.forEach(entry => {
+        entries.forEach((entry) => {
           if (entry.data.list && entry.data.list.length > 0) {
             // All user answers for Impacts
             if (entry.reference_to === 321 || entry.reference_to === 331 || entry.reference_to === 341) {
@@ -399,7 +399,7 @@ export class QuestionsComponent implements OnInit, OnDestroy {
       selector: '#' + this.elementId,
       toolbar: 'undo redo bold italic alignleft aligncenter alignright bullist numlist outdent indent',
       skin: false,
-      setup: editor => {
+      setup: (editor) => {
         this.editor = editor;
         editor.on('focusout', () => {
           this.questionForm.controls['text'].patchValue(editor.getContent());

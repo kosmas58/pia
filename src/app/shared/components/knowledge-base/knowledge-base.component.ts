@@ -49,7 +49,7 @@ export class KnowledgeBaseComponent implements OnInit {
       q: new FormControl()
     });
 
-    window.onscroll = ev => {
+    window.onscroll = (ev) => {
       if (window.innerWidth > 640) {
         const el: any = document.querySelector('.pia-knowledgeBaseBlock');
         const el2 = document.querySelector('.pia-knowledgeBaseBlock-list');
@@ -122,10 +122,10 @@ export class KnowledgeBaseComponent implements OnInit {
     if (this.pia) {
       this.measureService
         .addNewMeasure(this.pia, event.name, event.placeholder)
-        .then(res => {
+        .then((res) => {
           this.newMeasureEvent.emit(res);
         })
-        .catch(err => {
+        .catch((err) => {
           console.log(err);
         });
     } else if (this.structure) {
@@ -136,8 +136,8 @@ export class KnowledgeBaseComponent implements OnInit {
           content: ''
         };
         this.structure.data.sections
-          .filter(s => s.id === 3)[0]
-          .items.filter(i => i.id === 1)[0]
+          .filter((s) => s.id === 3)[0]
+          .items.filter((i) => i.id === 1)[0]
           .answers.push(measure);
         this.structureService.update(this.structure).then(() => {
           this.item.answers.push(measure);
@@ -154,7 +154,7 @@ export class KnowledgeBaseComponent implements OnInit {
         // SET LOCALSTORAGE
         localStorage.setItem('pia_' + this.route.snapshot.params.id + '_knowledgebase', selectedKnowledBase);
       })
-      .catch(err => {
+      .catch((err) => {
         console.log(err);
       });
   }

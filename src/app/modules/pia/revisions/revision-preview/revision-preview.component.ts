@@ -66,9 +66,9 @@ export class RevisionPreviewComponent implements OnInit {
 
   private async getJsonInfo(): Promise<any> {
     this.allData = {};
-    this.data.sections.forEach(async section => {
+    this.data.sections.forEach(async (section) => {
       this.allData[section.id] = {};
-      section.items.forEach(async item => {
+      section.items.forEach(async (item) => {
         this.allData[section.id][item.id] = {};
         const ref = section.id.toString() + '.' + item.id.toString();
 
@@ -77,7 +77,7 @@ export class RevisionPreviewComponent implements OnInit {
           this.allData[section.id][item.id] = [];
 
           const entries: any = this.export.measures;
-          entries.forEach(async measure => {
+          entries.forEach(async (measure) => {
             /* Completed measures */
             if (measure.title !== undefined && measure.content !== undefined) {
               let evaluation = null;
@@ -93,14 +93,14 @@ export class RevisionPreviewComponent implements OnInit {
           });
         } else if (item.questions) {
           // Question
-          item.questions.forEach(async question => {
+          item.questions.forEach(async (question) => {
             this.allData[section.id][item.id][question.id] = {};
 
             // Find answer
             const answerModel = new Answer();
-            const answer = this.export.answers.find(a => a.reference_to === question.id);
+            const answer = this.export.answers.find((a) => a.reference_to === question.id);
             if (answer) {
-              answerModel.data = this.export.answers.find(a => a.reference_to === question.id).data;
+              answerModel.data = this.export.answers.find((a) => a.reference_to === question.id).data;
 
               /* An answer exists */
               if (answerModel.data) {
@@ -138,7 +138,7 @@ export class RevisionPreviewComponent implements OnInit {
       let evaluation = null;
       const evaluationModel = new Evaluation();
       // const exist = await evaluationModel.getByReference(this.export.pia.id, ref);
-      const exist = this.export.evaluations.find(e => e.reference_to === ref);
+      const exist = this.export.evaluations.find((e) => e.reference_to === ref);
       if (exist) {
         evaluationModel.id = exist.id;
         evaluationModel.status = exist.status;

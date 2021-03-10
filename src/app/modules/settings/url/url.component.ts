@@ -52,7 +52,7 @@ export class UrlComponent implements OnInit {
       fetch(serverUrl + '/pias', {
         mode: 'cors'
       })
-        .then(response => {
+        .then((response) => {
           return response.ok;
         })
         .then((ok: boolean) => {
@@ -91,7 +91,7 @@ export class UrlComponent implements OnInit {
             );
           }
         })
-        .catch(error => {
+        .catch((error) => {
           console.error('Request failed', error);
           this.dialogService.confirmThis(
             {

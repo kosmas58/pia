@@ -15,16 +15,14 @@ export class HelpComponent implements OnInit, OnDestroy {
   public activeElement: string;
   private helpSubscription: Subscription;
 
-  constructor(private httpClient: HttpClient,
-              private _translateService: TranslateService) {}
+  constructor(private httpClient: HttpClient, private _translateService: TranslateService) {}
 
   ngOnInit() {
     const language = this._translateService.currentLang;
-    let fileTranslation = language  === 'fr' ? 'fr' : 'en';
+    let fileTranslation = language === 'fr' ? 'fr' : 'en';
     let file = `./assets/files/pia_help_${fileTranslation}.html`;
 
-
-    this.httpClient.get(file, { responseType: 'text' }).subscribe(res => {
+    this.httpClient.get(file, { responseType: 'text' }).subscribe((res) => {
       this.content = res;
       this.getSectionList();
     });
@@ -32,13 +30,13 @@ export class HelpComponent implements OnInit, OnDestroy {
     this.helpSubscription = this._translateService.onLangChange.subscribe((event: LangChangeEvent) => {
       fileTranslation = event['lang'] === 'fr' ? 'fr' : 'en';
       file = `./assets/files/pia_help_${fileTranslation}.html`;
-      this.httpClient.get(file, { responseType: 'text' }).subscribe(res => {
+      this.httpClient.get(file, { responseType: 'text' }).subscribe((res) => {
         this.content = res;
         this.getSectionList();
       });
     });
 
-    window.onscroll = function(ev) {
+    window.onscroll = function (ev) {
       if (window.innerWidth > 640) {
         const el: any = document.querySelector('.pia-help-section');
         if (el) {

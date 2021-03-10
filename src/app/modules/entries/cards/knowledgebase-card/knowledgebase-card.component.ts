@@ -42,7 +42,7 @@ export class KnowledgebaseCardComponent implements OnInit {
         .then((result: Knowledge[]) => {
           this.nbEntries = result.length;
         })
-        .catch(err => {
+        .catch((err) => {
           console.log('catch');
         });
     } else {
@@ -81,10 +81,10 @@ export class KnowledgebaseCardComponent implements OnInit {
       this.base.contributors = this.knowledgeBaseForm.value.contributors;
       this.knowledgeBaseService
         .update(this.base)
-        .then(result => {
+        .then((result) => {
           // this.structEvent.emit(this.structure);
         })
-        .catch(err => {});
+        .catch((err) => {});
     }
   }
 

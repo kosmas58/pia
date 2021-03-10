@@ -98,7 +98,7 @@ export class StructureCardComponent implements OnInit {
         .then(() => {
           this.changed.emit(this.structure);
         })
-        .catch(err => {
+        .catch((err) => {
           console.error(err);
         });
     }
@@ -125,7 +125,7 @@ export class StructureCardComponent implements OnInit {
           .remove(id)
           .then(() => {
             this.piaService.getAllWithStructure(id).then((items: any) => {
-              items.forEach(item => {
+              items.forEach((item) => {
                 item.structure_id = null;
                 this.piaService.update(item);
               });

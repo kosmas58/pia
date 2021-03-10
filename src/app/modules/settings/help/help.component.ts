@@ -21,7 +21,7 @@ export class HelpComponent implements OnInit {
     let fileTranslation = language === 'fr' ? 'fr' : 'en';
     let file = `./assets/files/pia_help_${fileTranslation}.html`;
 
-    this.httpClient.get(file, { responseType: 'text' }).subscribe(res => {
+    this.httpClient.get(file, { responseType: 'text' }).subscribe((res) => {
       this.content = res;
       this.getSectionList();
     });
@@ -29,13 +29,13 @@ export class HelpComponent implements OnInit {
     this.helpSubscription = this.translateService.onLangChange.subscribe((event: LangChangeEvent) => {
       fileTranslation = event['lang'] === 'fr' ? 'fr' : 'en';
       file = `./assets/files/pia_help_${fileTranslation}.html`;
-      this.httpClient.get(file, { responseType: 'text' }).subscribe(res => {
+      this.httpClient.get(file, { responseType: 'text' }).subscribe((res) => {
         this.content = res;
         this.getSectionList();
       });
     });
 
-    window.onscroll = function(ev) {
+    window.onscroll = function (ev) {
       if (window.innerWidth > 640) {
         const el: any = document.querySelector('.pia-help-section');
         if (el) {
@@ -78,7 +78,7 @@ export class HelpComponent implements OnInit {
     this.tableOfTitles = [];
     const lines = this.content.split('\n');
     let tt = [];
-    lines.forEach(line => {
+    lines.forEach((line) => {
       line = line.trim();
       if (line.startsWith('<h3>')) {
         tt[1].push(line.replace(/<(\/?)h3>/g, '').trim());

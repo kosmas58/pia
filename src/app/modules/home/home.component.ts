@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     const displayMessage = document.querySelector('.pia-closeFullScreenModeAlertBlock');
     window.screenTop === 0 && window.screenY === 0 ? displayMessage.classList.remove('hide') : displayMessage.classList.add('hide');
-    window.onresize = event => {
+    window.onresize = (event) => {
       window.screenTop === 0 && window.screenY === 0 ? displayMessage.classList.remove('hide') : displayMessage.classList.add('hide');
     };
   }

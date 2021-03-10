@@ -29,7 +29,7 @@ export class ArchiveLineComponent implements OnInit {
     this.attachments = [];
     this.attachmentsService.pia_id = this.archivedPia.id;
     this.attachmentsService.findAllByPia(this.archivedPia.id).then((entries: any) => {
-      entries.forEach(element => {
+      entries.forEach((element) => {
         if (element['file'] && element['file'].length) {
           this.attachments.push(element);
         }

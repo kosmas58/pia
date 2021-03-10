@@ -42,7 +42,7 @@ export class ArchiveService {
           localStorage.removeItem('pia-to-remove-id');
           resolve();
         })
-        .catch(err => {
+        .catch((err) => {
           console.error(err);
         });
     });
@@ -57,7 +57,7 @@ export class ArchiveService {
           this.piaService.update(entry);
           resolve();
         })
-        .catch(err => {
+        .catch((err) => {
           reject(err);
         });
     });

@@ -12,7 +12,7 @@ export class DialogComponent implements OnInit {
   constructor(private dialogService: DialogService, public languagesService: LanguagesService) {}
 
   ngOnInit(): void {
-    this.dialogService.getMessage().subscribe(message => {
+    this.dialogService.getMessage().subscribe((message) => {
       this.message = message;
     });
   }

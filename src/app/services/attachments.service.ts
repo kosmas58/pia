@@ -25,13 +25,13 @@ export class AttachmentsService extends ApplicationDb {
           fetch(this.getServerUrl(), {
             mode: 'cors'
           })
-            .then(response => {
+            .then((response) => {
               return response.json();
             })
             .then((result: any) => {
               resolve(result);
             })
-            .catch(error => {
+            .catch((error) => {
               console.error('Request failed', error);
               reject();
             });
@@ -75,13 +75,13 @@ export class AttachmentsService extends ApplicationDb {
           body: formData,
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -116,13 +116,13 @@ export class AttachmentsService extends ApplicationDb {
             body: formData,
             mode: 'cors'
           })
-            .then(response => {
+            .then((response) => {
               return response.json();
             })
             .then((result: any) => {
               resolve(result);
             })
-            .catch(error => {
+            .catch((error) => {
               console.error('Request failed', error);
               reject(error);
             });
@@ -151,13 +151,13 @@ export class AttachmentsService extends ApplicationDb {
           fetch(this.getServerUrl(), {
             mode: 'cors'
           })
-            .then(function(response) {
+            .then(function (response) {
               return response.json();
             })
-            .then(function(result: any) {
+            .then(function (result: any) {
               resolve(result);
             })
-            .catch(function(error) {
+            .catch(function (error) {
               console.error('Request failed', error);
               reject();
             });
@@ -190,7 +190,7 @@ export class AttachmentsService extends ApplicationDb {
       this.signedAttachments = [];
       this.findAllByPia(piaId).then((data: any[]) => {
         // Store all signed attachments if they are not yet stored
-        data.forEach(a => {
+        data.forEach((a) => {
           if (a.pia_signed && a.pia_signed === 1) {
             this.signedAttachments.push(a);
           }
@@ -267,8 +267,8 @@ export class AttachmentsService extends ApplicationDb {
       fetch(entry.file, {
         mode: 'cors'
       })
-        .then(res => res.blob())
-        .then(blob => {
+        .then((res) => res.blob())
+        .then((blob) => {
           const a = <any>document.createElement('a');
           a.href = window.URL.createObjectURL(blob);
           a.download = entry.name;
@@ -298,7 +298,7 @@ export class AttachmentsService extends ApplicationDb {
             }
             resolve();
           })
-          .catch(err => {
+          .catch((err) => {
             reject(err);
           });
       } else {

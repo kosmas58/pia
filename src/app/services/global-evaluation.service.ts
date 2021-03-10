@@ -120,7 +120,7 @@ export class GlobalEvaluationService {
       } else if (this.answersOrMeasures.length > 0) {
         let count = 0;
         let toFix = false;
-        this.answersOrMeasures.forEach(answerOrMeasure => {
+        this.answersOrMeasures.forEach((answerOrMeasure) => {
           // const evaluation = new Evaluation();
           this.evaluationService
             .getByReference(this.pia.id, this.getAnswerReferenceTo(answerOrMeasure))
@@ -159,7 +159,7 @@ export class GlobalEvaluationService {
       });
     } else if (this.answersOrMeasures.length > 0) {
       let count = 0;
-      this.answersOrMeasures.forEach(answerOrMeasure => {
+      this.answersOrMeasures.forEach((answerOrMeasure) => {
         this.deleteEvaluationInDb(this.getAnswerReferenceTo(answerOrMeasure)).then(() => {
           count++;
           if (count === this.answersOrMeasures.length) {
@@ -295,7 +295,7 @@ export class GlobalEvaluationService {
           const newEvaluation = new Evaluation();
           newEvaluation.pia_id = this.pia.id;
           newEvaluation.reference_to = reference_to;
-          this.evaluationService.create(newEvaluation).then(entry => {
+          this.evaluationService.create(newEvaluation).then((entry) => {
             resolve(entry);
           });
         } else if (evaluation.status === 1) {
@@ -453,7 +453,7 @@ export class GlobalEvaluationService {
     const list = answer.data.list;
 
     // First we need to find the answer_type
-    const question = this.item.questions.filter(q => {
+    const question = this.item.questions.filter((q) => {
       return parseInt(q.id, 10) === parseInt(answer.reference_to, 10);
     });
 
@@ -516,7 +516,7 @@ export class GlobalEvaluationService {
         this.measureService.findAllByPia(this.pia.id).then((measures: any[]) => {
           if (measures && measures.length > 0) {
             this.questionsOrMeasures = measures;
-            measures.forEach(measure => {
+            measures.forEach((measure) => {
               count++;
               if (measure.title && measure.title.length > 0 && measure.content && measure.content.length > 0) {
                 this.answersOrMeasures.push(measure);
@@ -533,7 +533,7 @@ export class GlobalEvaluationService {
         this.questionsOrMeasures = this.item.questions;
         if (this.item.questions) {
           this.item.questions.forEach((question: any) => {
-            this.answerService.getByReferenceAndPia(this.pia.id, question.id).then(result => {
+            this.answerService.getByReferenceAndPia(this.pia.id, question.id).then((result) => {
               count++;
               if (result) {
                 this.answersOrMeasures.push(result);
@@ -570,7 +570,7 @@ export class GlobalEvaluationService {
       } else if (this.item.is_measure) {
         this.measureService.findAllByPia(this.pia.id).then((measures: any) => {
           if (measures && measures.length > 0) {
-            measures.forEach(measure => {
+            measures.forEach((measure) => {
               // const evaluationModel = new Evaluation();
               this.evaluationService.getByReference(this.pia.id, this.reference_to + '.' + measure.id).then((evaluationModel: any) => {
                 count++;
@@ -587,7 +587,7 @@ export class GlobalEvaluationService {
           }
         });
       } else if (this.item.evaluation_mode === 'question') {
-        this.item.questions.forEach(question => {
+        this.item.questions.forEach((question) => {
           this.answerService.getByReferenceAndPia(this.pia.id, question.id).then((evaluationModel1: Answer) => {
             if (evaluationModel1) {
               // const evaluationModel = new Evaluation();

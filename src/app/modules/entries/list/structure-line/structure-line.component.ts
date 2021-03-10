@@ -39,7 +39,7 @@ export class StructureLineComponent implements OnInit {
       .then((result: Structure) => {
         this.changed.emit(result);
       })
-      .catch(err => {
+      .catch((err) => {
         console.error(err);
       });
   }
@@ -65,7 +65,7 @@ export class StructureLineComponent implements OnInit {
           .remove(id)
           .then(() => {
             this.piaService.getAllWithStructure(id).then((items: any) => {
-              items.forEach(item => {
+              items.forEach((item) => {
                 item.structure_id = null;
                 this.piaService.update(item);
               });

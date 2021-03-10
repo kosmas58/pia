@@ -59,7 +59,7 @@ export class PiaComponent implements OnInit {
     private paginationService: PaginationService,
     private dialogService: DialogService
   ) {
-    this.introjsService.entrySideViewChange.subscribe(value => {
+    this.introjsService.entrySideViewChange.subscribe((value) => {
       this.sideView = value;
     });
   }
@@ -97,7 +97,7 @@ export class PiaComponent implements OnInit {
         });
 
         // Suscribe to measure service messages
-        this.subscription = this.measureService.behaviorSubject.subscribe(val => {
+        this.subscription = this.measureService.behaviorSubject.subscribe((val) => {
           this.measureToRemoveFromTags = val;
         });
 
@@ -108,7 +108,7 @@ export class PiaComponent implements OnInit {
           this.introjsService.start('evaluation');
         }
       })
-      .catch(err => {
+      .catch((err) => {
         console.error(err);
       });
   }
@@ -120,11 +120,11 @@ export class PiaComponent implements OnInit {
 
       // Update tags when removing measures from 3.1
       const itemsQuestions = [];
-      this.appDataService.dataNav.sections.forEach(section => {
-        section.items.forEach(item => {
+      this.appDataService.dataNav.sections.forEach((section) => {
+        section.items.forEach((item) => {
           if (item.questions) {
             itemsQuestions.push(
-              item.questions.filter(question => {
+              item.questions.filter((question) => {
                 return question.answer_type === 'list' && question.is_measure === true;
               })
             );
@@ -133,11 +133,11 @@ export class PiaComponent implements OnInit {
       });
 
       // Keep only questions with measures lists
-      const listQuestions = itemsQuestions.filter(v => Object.keys(v).length !== 0);
+      const listQuestions = itemsQuestions.filter((v) => Object.keys(v).length !== 0);
 
       // For each of these questions, get their respective answer
-      listQuestions.forEach(questionsSet => {
-        questionsSet.forEach(q => {
+      listQuestions.forEach((questionsSet) => {
+        questionsSet.forEach((q) => {
           this.answerService.getByReferenceAndPia(parseInt(this.route.snapshot.params.id), q.id).then((answer: Answer) => {
             if (answer && answer.data && answer.data.list.length > 0 && answer.data.list.includes(measureName)) {
               const index = answer.data.list.indexOf(measureName);
@@ -166,12 +166,12 @@ export class PiaComponent implements OnInit {
 
     this.data = this.appDataService.dataNav;
 
-    this.section = this.data.sections.filter(section => {
+    this.section = this.data.sections.filter((section) => {
       return section.id === sectionId;
     })[0];
 
     if (this.section) {
-      this.item = this.section.items.filter(item => {
+      this.item = this.section.items.filter((item) => {
         return item.id === itemId;
       })[0];
     }
@@ -182,20 +182,20 @@ export class PiaComponent implements OnInit {
     this.questions = [];
 
     if (this.item.questions) {
-      this.item.questions.forEach(question => {
+      this.item.questions.forEach((question) => {
         this.questions.push(question);
       });
     }
 
     this.globalEvaluationService.validate();
 
-    this.measureService.findAllByPia(this.pia.id).then(measures => {
+    this.measureService.findAllByPia(this.pia.id).then((measures) => {
       this.measures = measures;
       /* Modal for risks if no measures yet */
       let displayModal = true;
       if (this.section.id === 3 && (this.item.id === 2 || this.item.id === 3 || this.item.id === 4)) {
         if (measures.length > 0) {
-          measures.forEach(element => {
+          measures.forEach((element) => {
             if (element.title && element.title.length > 0) {
               displayModal = false;
             }

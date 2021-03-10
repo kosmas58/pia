@@ -181,13 +181,13 @@ export class ExportComponent implements OnInit {
         // images
         await this.addImagesToZip(zip2).then(async (zip3: any) => {
           // Launch Download
-          await zip3.generateAsync({ type: 'blob' }).then(blobContent => {
+          await zip3.generateAsync({ type: 'blob' }).then((blobContent) => {
             FileSaver.saveAs(blobContent, zipName);
           });
         });
       } else {
         // Launch Download
-        await zip2.generateAsync({ type: 'blob' }).then(blobContent => {
+        await zip2.generateAsync({ type: 'blob' }).then((blobContent) => {
           FileSaver.saveAs(blobContent, zipName);
         });
       }
@@ -256,7 +256,7 @@ export class ExportComponent implements OnInit {
     };
 
     const csvContentFormatted = [];
-    this.csvContent.forEach(item => {
+    this.csvContent.forEach((item) => {
       const itemData = {};
       if (item.title) {
         itemData['title'] = `"${item.title}"`;
@@ -302,7 +302,7 @@ export class ExportComponent implements OnInit {
    */
   async generateDocx(element): Promise<boolean> {
     return new Promise((resolve, reject) => {
-      this.prepareDocFile(element).then(dataDoc => {
+      this.prepareDocFile(element).then((dataDoc) => {
         setTimeout(() => {
           const downloadLink = document.createElement('a');
           document.body.appendChild(downloadLink);
@@ -368,7 +368,7 @@ export class ExportComponent implements OnInit {
   async addAttachmentsToZip(zip): Promise<void> {
     return new Promise(async (resolve, reject) => {
       this.attachmentsService.findAllByPia(this.pia.id).then((attachments: Array<any>) => {
-        attachments.forEach(attachment => {
+        attachments.forEach((attachment) => {
           if (attachment.file && attachment.file.length > 0) {
             const byteCharacters1 = atob((attachment.file as any).split(',')[1]);
             const folderName = this.translateService.instant('summary.attachments');
@@ -391,7 +391,7 @@ export class ExportComponent implements OnInit {
     const zip = new JSZip();
     return new Promise((resolve, reject) => {
       this.addImagesToZip(zip).then((zip2: any) => {
-        zip2.generateAsync({ type: 'blob' }).then(blobContent => {
+        zip2.generateAsync({ type: 'blob' }).then((blobContent) => {
           FileSaver.saveAs(blobContent, 'pia-images.zip');
           resolve();
         });
@@ -433,7 +433,7 @@ export class ExportComponent implements OnInit {
       setTimeout(() => {
         const actionPlanOverviewImg = document.querySelector('#actionPlanOverviewImg');
         if (actionPlanOverviewImg) {
-          html2canvas(actionPlanOverviewImg, { scale: 1.4 }).then(canvas => {
+          html2canvas(actionPlanOverviewImg, { scale: 1.4 }).then((canvas) => {
             if (canvas) {
               const img = canvas.toDataURL();
               resolve(img);
@@ -453,7 +453,7 @@ export class ExportComponent implements OnInit {
       setTimeout(() => {
         const risksCartographyImg = document.querySelector('#risksCartographyImg');
         if (risksCartographyImg) {
-          html2canvas(risksCartographyImg, { scale: 1.4 }).then(canvas => {
+          html2canvas(risksCartographyImg, { scale: 1.4 }).then((canvas) => {
             if (canvas) {
               const img = canvas.toDataURL();
               resolve(img);
@@ -473,7 +473,7 @@ export class ExportComponent implements OnInit {
       setTimeout(() => {
         const mysvg = document.getElementById('risksOverviewSvg');
         if (mysvg) {
-          svgAsPngUri(mysvg, {}, uri => {
+          svgAsPngUri(mysvg, {}, (uri) => {
             resolve(uri);
           });
         }

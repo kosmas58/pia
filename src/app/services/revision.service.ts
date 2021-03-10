@@ -25,13 +25,13 @@ export class RevisionService extends ApplicationDb {
         fetch(this.getServerUrl(), {
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve(result);
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject();
           });
@@ -100,13 +100,13 @@ export class RevisionService extends ApplicationDb {
           body: formData,
           mode: 'cors'
         })
-          .then(response => {
+          .then((response) => {
             return response.json();
           })
           .then((result: any) => {
             resolve({ ...result, id: result.id });
           })
-          .catch(error => {
+          .catch((error) => {
             console.error('Request failed', error);
             reject(error);
           });
@@ -129,10 +129,10 @@ export class RevisionService extends ApplicationDb {
    * Load a new revision
    */
   async loadRevision(revisionId: number): Promise<void> {
-    return new Promise(resolve => {
+    return new Promise((resolve) => {
       this.find(revisionId).then((revision: Revision) => {
         const piaExport = JSON.parse(revision.export);
-        this.piaService.replacePiaByExport(piaExport, true, true, revision.created_at).then(pia => {
+        this.piaService.replacePiaByExport(piaExport, true, true, revision.created_at).then((pia) => {
           resolve(piaExport);
         });
       });
@@ -153,14 +153,14 @@ export class RevisionService extends ApplicationDb {
         .then((response: any) => {
           resolve(response);
         })
-        .catch(err => reject(err));
+        .catch((err) => reject(err));
     });
   }
 
   async export(id: number): Promise<any> {
     return new Promise(async (resolve, reject) => {
       await this.piaService.calculPiaProgress;
-      this.piaService.exportData(id).then(data => {
+      this.piaService.exportData(id).then((data) => {
         const finalData = JSON.stringify(data);
         resolve(finalData);
       });
