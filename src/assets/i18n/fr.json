@@ -52,24 +52,6 @@
 		"placeholder_new_comment": "Laissez un commentaire",
 		"send": "Envoyer"
 	},
-	"date": {
-		"april": "Avril",
-		"august": "Août",
-		"december": "Décembre",
-		"earlier-in-this-month": "Plus tôt ce mois-ci",
-		"earlier-in-this-week": "Plus tôt cette semaine",
-		"february": "Février",
-		"january": "Janvier",
-		"july": "Juillet",
-		"june": "Juin",
-		"march": "Mars",
-		"may": "Mai",
-		"november": "Novembre",
-		"october": "Octobre",
-		"september": "Septembre",
-		"today": "Aujourd'hui",
-		"yesterday": "Hier"
-	},
 	"errors": {
 		"content": "Si vous rencontrez d’autres problèmes ou si vous avez des suggestions d’amélioration,<br>vous pouvez nous les faire remonter via ce formulaire : <a href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\" target=\"_blank\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>",
 		"title": "Page introuvable."

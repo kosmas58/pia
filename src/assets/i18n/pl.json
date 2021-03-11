@@ -52,24 +52,6 @@
 		"placeholder_new_comment": "Można wpisać komentarz",
 		"send": "Wstaw komentarz"
 	},
-	"date": {
-		"april": "Kwiecień",
-		"august": "Sierpień",
-		"december": "Grudzień",
-		"earlier-in-this-month": "Wcześniej w tym miesiącu",
-		"earlier-in-this-week": "Wcześniej w tym tygodniu",
-		"february": "Luty",
-		"january": "Styczeń",
-		"july": "Lipiec",
-		"june": "Czerwiec",
-		"march": "Marzec",
-		"may": "Maj",
-		"november": "Listopad",
-		"october": "Październik",
-		"september": "Wrzesień",
-		"today": "Dzisiaj",
-		"yesterday": "Wczoraj"
-	},
 	"errors": {
 		"content": "Jeżeli wystąpią inne problemy lub mają Państwo sugestie dotyczące ulepszeń, prosimy skorzystać z formularza <a target=\"_blank\" href=\"https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia\">https://www.cnil.fr/fr/webform/vos-retours-sur-loutil-pia</a>.",
 		"title": "Brak strony."
