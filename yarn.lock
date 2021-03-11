@@ -1729,14 +1729,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:^12.0.1":
-  version: 12.0.1
-  resolution: "@commitlint/cli@npm:12.0.1"
+"@commitlint/cli@npm:^12.0.1, @commitlint/cli@npm:^12.1.0":
+  version: 12.1.0
+  resolution: "@commitlint/cli@npm:12.1.0"
   dependencies:
     "@commitlint/format": ^12.0.1
-    "@commitlint/lint": ^12.0.1
-    "@commitlint/load": ^12.0.1
-    "@commitlint/read": ^12.0.1
+    "@commitlint/lint": ^12.1.0
+    "@commitlint/load": ^12.1.0
+    "@commitlint/read": ^12.1.0
     "@commitlint/types": ^12.0.1
     get-stdin: 8.0.0
     lodash: ^4.17.19
@@ -1745,16 +1745,16 @@ __metadata:
     yargs: ^16.2.0
   bin:
     commitlint: cli.js
-  checksum: ae79bf1c7bfe2ce926241ad9d7fe58e845e5d8d97b4a4c06ca19926dcd026f01418716600be23f26fa5900bbcafe90718c93d3ea61e5e1c8506ffcb3aca6cf8f
+  checksum: c33d79fe8a872b7f9ea9a30aa47387882d0740abeabefc10a15735b1f069cd1eab8291c08afe9acc98863da5facc40b0ee472be081b9e5b0657ca80d46f8703b
   languageName: node
   linkType: hard
 
 "@commitlint/config-conventional@npm:^12.0.1":
-  version: 12.0.1
-  resolution: "@commitlint/config-conventional@npm:12.0.1"
+  version: 12.1.0
+  resolution: "@commitlint/config-conventional@npm:12.1.0"
   dependencies:
     conventional-changelog-conventionalcommits: ^4.3.1
-  checksum: 1999dea7f267362471a186e60c00a61793543647e7f468e06c21e87b8663f636ea7785ceec9a1b1299ce4d8813c252b6bb2bbf4798fb150439ae4c8e465c707a
+  checksum: 25dbc4e57a668befdd52ac89600bf1db65189b0ba9406fc3df4bed38e886757b9557b70be31fe58ea1082d286f222ca4011e3a034844f70f1fade02fb2f01464
   languageName: node
   linkType: hard
 
@@ -1785,31 +1785,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/is-ignored@npm:^12.0.1":
-  version: 12.0.1
-  resolution: "@commitlint/is-ignored@npm:12.0.1"
+"@commitlint/is-ignored@npm:^12.1.0":
+  version: 12.1.0
+  resolution: "@commitlint/is-ignored@npm:12.1.0"
   dependencies:
     "@commitlint/types": ^12.0.1
     semver: 7.3.4
-  checksum: 345b931289bb04529f5ca5bf225e52a97c787472a517e48b0537f1981a287a293914107356658376eda82b46661b6ac5d9a034d86aba3caca2e258854fd664f1
+  checksum: d0d4bf1ac05ddc41cb1af36af635d8b545a6d43a0b3e6ffd290bef295d22ff9e3006e1ba1d83f94b6577220a94164a469322aec7946f2350a818ebeaea0ca7b5
   languageName: node
   linkType: hard
 
-"@commitlint/lint@npm:^12.0.1":
-  version: 12.0.1
-  resolution: "@commitlint/lint@npm:12.0.1"
+"@commitlint/lint@npm:^12.1.0":
+  version: 12.1.0
+  resolution: "@commitlint/lint@npm:12.1.0"
   dependencies:
-    "@commitlint/is-ignored": ^12.0.1
-    "@commitlint/parse": ^12.0.1
-    "@commitlint/rules": ^12.0.1
+    "@commitlint/is-ignored": ^12.1.0
+    "@commitlint/parse": ^12.1.0
+    "@commitlint/rules": ^12.1.0
     "@commitlint/types": ^12.0.1
-  checksum: 6b776f9602f228e234db3aa7248ee3b425f52f2f2f1fac8ca115e4a5a00891ba01d9695f58848ca4508137d422af6ea509b4b43568cd064028c9a1b7b273ee1c
+  checksum: b91502daaf6b4f908c28cec318de23b420a76ccba07a641c78298616efad3b7397080dfe2061379e6de8051119d69d8d9d12d77ba76985f634e336cfff85c590
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:^12.0.1":
-  version: 12.0.1
-  resolution: "@commitlint/load@npm:12.0.1"
+"@commitlint/load@npm:^12.1.0":
+  version: 12.1.0
+  resolution: "@commitlint/load@npm:12.1.0"
   dependencies:
     "@commitlint/execute-rule": ^12.0.1
     "@commitlint/resolve-extends": ^12.0.1
@@ -1818,37 +1818,37 @@ __metadata:
     cosmiconfig: ^7.0.0
     lodash: ^4.17.19
     resolve-from: ^5.0.0
-  checksum: 87e7f11417b7103212b9bd61e279425e420cd160a975b1e869294613e9df43a9f916161779912b874be30db11e15c8bc0fb49dc969ecc7f840e35664610c6b1b
+  checksum: eceb5ca6df7f2ca2f9b2c668c5a63eb13474ba5072e97a491051699b8fd54ffdbb6379cb57dce63cb2fec54facf6a24bff8c5f413728319aad97105111533a11
   languageName: node
   linkType: hard
 
-"@commitlint/message@npm:^12.0.1":
-  version: 12.0.1
-  resolution: "@commitlint/message@npm:12.0.1"
-  checksum: ad533a0f1d736409bbbd1558eab30a44bc833b489e227e42da49f16fbb5e778c58e0a127bf3465b506e0d29ae8253869779699f066418a34968bae10262ca509
+"@commitlint/message@npm:^12.1.0":
+  version: 12.1.0
+  resolution: "@commitlint/message@npm:12.1.0"
+  checksum: 0d255904bf3e84f68a31bb20e574ab21ce82ec83bfb6445d0e81ec312573fe34a403758675eafbc27f7377eab9455bc2ab410b5c8e9fe8e867a0ab16eac2c750
   languageName: node
   linkType: hard
 
-"@commitlint/parse@npm:^12.0.1":
-  version: 12.0.1
-  resolution: "@commitlint/parse@npm:12.0.1"
+"@commitlint/parse@npm:^12.1.0":
+  version: 12.1.0
+  resolution: "@commitlint/parse@npm:12.1.0"
   dependencies:
     "@commitlint/types": ^12.0.1
     conventional-changelog-angular: ^5.0.11
     conventional-commits-parser: ^3.0.0
-  checksum: 283d6fbcf71d0ca55e5e93d8e784682e8d6dfde868fa082dfd06119a2af943d2901315baf5f62c677d6e6c6373afdb751865a15f82f1b971594220786e2ff3ac
+  checksum: 0ff35b6e5a9b5b3b4bf4157d4d6a2eb27ac2258247c44107241d6daf65968a85b07d79b9525a2fdf516da0610669daf1d42e6ef27484b1b871b72dbe00856c61
   languageName: node
   linkType: hard
 
-"@commitlint/read@npm:^12.0.1":
-  version: 12.0.1
-  resolution: "@commitlint/read@npm:12.0.1"
+"@commitlint/read@npm:^12.1.0":
+  version: 12.1.0
+  resolution: "@commitlint/read@npm:12.1.0"
   dependencies:
     "@commitlint/top-level": ^12.0.1
     "@commitlint/types": ^12.0.1
     fs-extra: ^9.0.0
     git-raw-commits: ^2.0.0
-  checksum: 8363e8b8f1b797da89f1f607724110d642f44ddc64590a95da45b42df26b194e43e37779c9e4cf79c9ceaaa223e82586f5b6989500c0dc105a75dbe77b57f323
+  checksum: c2dedab2e2b880ffeba693349d98e97d9040872449b5db4d1efe3c5575075c1c3f344a1cc30a32cfc985fed11d6dcbf6a52bbd83a9d39953da38351a40699ca3
   languageName: node
   linkType: hard
 
@@ -1864,15 +1864,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/rules@npm:^12.0.1":
-  version: 12.0.1
-  resolution: "@commitlint/rules@npm:12.0.1"
+"@commitlint/rules@npm:^12.1.0":
+  version: 12.1.0
+  resolution: "@commitlint/rules@npm:12.1.0"
   dependencies:
     "@commitlint/ensure": ^12.0.1
-    "@commitlint/message": ^12.0.1
+    "@commitlint/message": ^12.1.0
     "@commitlint/to-lines": ^12.0.1
     "@commitlint/types": ^12.0.1
-  checksum: 6e1caa6d9437e61a0d3dc9d79a4c5dacf49334af6dab7198806b2038762affe0db51da60fc7ce8c85b757bdb5b3e68d7c56c306cfd06e1b9ce76d826c3fcf2a2
+  checksum: 9bb3063e8440f5a1ddccf780bc09d643b9c1d69ac535fae45005eb4b226bfdb85d9e4aa8b4fafb44b0a2b59e9412590ab631bb011383c482926318a4e87e4261
   languageName: node
   linkType: hard
 
@@ -4073,7 +4073,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"codelyzer@npm:^6.0.0":
+"codelyzer@npm:^6.0.1":
   version: 6.0.1
   resolution: "codelyzer@npm:6.0.1"
   dependencies:
@@ -4199,14 +4199,14 @@ __metadata:
   linkType: hard
 
 "commitlint@npm:^12.0.1":
-  version: 12.0.1
-  resolution: "commitlint@npm:12.0.1"
+  version: 12.1.0
+  resolution: "commitlint@npm:12.1.0"
   dependencies:
-    "@commitlint/cli": ^12.0.1
+    "@commitlint/cli": ^12.1.0
     "@commitlint/types": ^12.0.1
   bin:
     commitlint: cli.js
-  checksum: 999a01ab4ee732c284ad2ba108c726208a0c642a1f1910e2d0008d9d0eea9f729ef19b5fa2eb91bb336a597aac30450fa9c7a918a6d5c422577cbdbf23abd527
+  checksum: ddac73a2e46353e137015e66237e65cdd824140b514c13e57e6ed4e6d4330db4c05c9b8e6e6e2baac60220147b7db47da9fbf85ec27a36ce7b6150f3a3569870
   languageName: node
   linkType: hard
 
@@ -8250,7 +8250,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"jasmine-spec-reporter@npm:~5.0.0":
+"jasmine-spec-reporter@npm:~5.0.2":
   version: 5.0.2
   resolution: "jasmine-spec-reporter@npm:5.0.2"
   dependencies:
@@ -8489,7 +8489,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"karma-coverage-istanbul-reporter@npm:~3.0.2":
+"karma-coverage-istanbul-reporter@npm:~3.0.3":
   version: 3.0.3
   resolution: "karma-coverage-istanbul-reporter@npm:3.0.3"
   dependencies:
@@ -8502,7 +8502,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"karma-jasmine-html-reporter@npm:^1.5.0":
+"karma-jasmine-html-reporter@npm:^1.5.4":
   version: 1.5.4
   resolution: "karma-jasmine-html-reporter@npm:1.5.4"
   peerDependencies:
@@ -8513,7 +8513,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"karma-jasmine@npm:~4.0.0":
+"karma-jasmine@npm:~4.0.1":
   version: 4.0.1
   resolution: "karma-jasmine@npm:4.0.1"
   dependencies:
@@ -9588,7 +9588,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"ng2-material-dropdown@npm:0.11.0":
+"ng2-material-dropdown@npm:>=0.11.0":
   version: 0.11.0
   resolution: "ng2-material-dropdown@npm:0.11.0"
   dependencies:
@@ -9610,18 +9610,19 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"ngx-chips@npm:2.1.0":
-  version: 2.1.0
-  resolution: "ngx-chips@npm:2.1.0"
+"ngx-chips@npm:2.2.2":
+  version: 2.2.2
+  resolution: "ngx-chips@npm:2.2.2"
   dependencies:
-    ng2-material-dropdown: 0.11.0
-    tslib: ^1.9.0
+    ng2-material-dropdown: ">=0.11.0"
+    tslib: ^1.10.0
   peerDependencies:
-    "@angular/animations": ^8.0.0
-    "@angular/common": ^8.0.0
-    "@angular/core": ^8.0.0
-    "@angular/forms": ^8.0.0
-  checksum: 59a8ace572b67ce8b7d0d806b1b3a79e641ec9d06a2d71c50584c99b5f543bcfff7d0e449f68c4abe24f8fdd45d7ce47dc9cf040e061dee232565fced39cf75d
+    "@angular/animations": ">=10.1.5"
+    "@angular/common": ">=10.1.5"
+    "@angular/compiler": ">=10.1.5"
+    "@angular/core": ">=10.1.5"
+    "@angular/forms": ">=10.1.5"
+  checksum: 01bb5687de1189faec08014e4eaeb62c6b59474cc3ffd5846737a6c71ebc46dee75d3326871e937b19802111531d9d02705f7fd02a20bbe9e9a9263c339d398e
   languageName: node
   linkType: hard
 
@@ -10505,7 +10506,7 @@ fsevents@~2.3.1:
     "@types/jasminewd2": ~2.0.8
     "@types/node": ^14.14.33
     angular2-csv: "git+https://github.com/dauledk/angular2-csv.git"
-    codelyzer: ^6.0.0
+    codelyzer: ^6.0.1
     commitlint: ^12.0.1
     core-js: ^3.9.1
     cypress: ^6.6.0
@@ -10519,15 +10520,15 @@ fsevents@~2.3.1:
     husky: ^5.1.3
     intro.js: ^3.3.1
     jasmine-core: ~3.6.0
-    jasmine-spec-reporter: ~5.0.0
+    jasmine-spec-reporter: ~5.0.2
     jszip: ^3.6.0
     karma: ~6.2.0
     karma-chrome-launcher: ~3.1.0
-    karma-coverage-istanbul-reporter: ~3.0.2
-    karma-jasmine: ~4.0.0
-    karma-jasmine-html-reporter: ^1.5.0
+    karma-coverage-istanbul-reporter: ~3.0.3
+    karma-jasmine: ~4.0.1
+    karma-jasmine-html-reporter: ^1.5.4
     ng2-pdfjs-viewer: ^6.0.1
-    ngx-chips: 2.1.0
+    ngx-chips: 2.2.2
     ngx-cypress-builder: ^1.0.2
     normalize.css: ^8.0.1
     prettier: ^2.2.1
@@ -10537,9 +10538,9 @@ fsevents@~2.3.1:
     rxjs-compat: ^6.6.6
     sass: ^1.32.8
     save-svg-as-png: ^1.4.17
-    tinymce: ^4.9.10
+    tinymce: ^4.9.11
     ts-node: ~8.3.0
-    tslint: ~6.1.0
+    tslint: ~6.1.3
     typescript: ~4.0.7
     zone.js: ~0.10.3
   languageName: unknown
@@ -13294,7 +13295,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"tinymce@npm:^4.9.10":
+"tinymce@npm:^4.9.11":
   version: 4.9.11
   resolution: "tinymce@npm:4.9.11"
   checksum: e114da28c4f916425232bb1cd25f6d47381ccf7466dfd7093e74919fd1df258161d036d33c55b1302ee933cae600fe87cccf89263ea9b88675fbc3cfc4f90d9f
@@ -13470,7 +13471,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"tslint@npm:~6.1.0":
+"tslint@npm:~6.1.3":
   version: 6.1.3
   resolution: "tslint@npm:6.1.3"
   dependencies:
